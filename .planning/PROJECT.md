@@ -6,7 +6,7 @@ An academic research paper and reproducible Python codebase investigating the pe
 
 ## Core Value
 
-A rigorous, reproducible empirical argument that the Korea Discount is structural and addressable — with credible causal evidence from Japan that reform works.
+Explores whether the Korea Discount is structural and addressable — with causal evidence from Japan.
 
 ## Requirements
 
