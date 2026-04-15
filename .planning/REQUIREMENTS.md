@@ -116,52 +116,52 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DATA-01 | — | Pending |
-| DATA-02 | — | Pending |
-| DATA-03 | — | Pending |
-| DATA-04 | — | Pending |
-| DATA-05 | — | Pending |
-| DESC-01 | — | Pending |
-| DESC-02 | — | Pending |
-| DESC-03 | — | Pending |
-| PAPER-01 | — | Pending |
-| PAPER-02 | — | Pending |
-| PAPER-03 | — | Pending |
-| PAPER-04 | — | Pending |
-| PAPER-05 | — | Pending |
-| PAPER-06 | — | Pending |
-| PAPER-07 | — | Pending |
-| PAPER-08 | — | Pending |
-| PAPER-09 | — | Pending |
-| PAPER-10 | — | Pending |
-| EVNT-01 | — | Pending |
-| EVNT-02 | — | Pending |
-| EVNT-03 | — | Pending |
-| EVNT-04 | — | Pending |
-| OLS-01 | — | Pending |
-| OLS-02 | — | Pending |
-| OLS-03 | — | Pending |
-| SYNTH-01 | — | Pending |
-| SYNTH-02 | — | Pending |
-| SYNTH-03 | — | Pending |
-| GEO-01 | — | Pending |
-| GEO-02 | — | Pending |
-| GEO-03 | — | Pending |
-| ROBUST-01 | — | Pending |
-| ROBUST-02 | — | Pending |
-| ROBUST-03 | — | Pending |
-| ROBUST-04 | — | Pending |
-| POLICY-01 | — | Pending |
-| POLICY-02 | — | Pending |
-| OUTPUT-01 | — | Pending |
-| OUTPUT-02 | — | Pending |
-| OUTPUT-03 | — | Pending |
+| DATA-01 | Phase 1 | Pending |
+| DATA-02 | Phase 1 | Pending |
+| DATA-03 | Phase 1 | Pending |
+| DATA-04 | Phase 1 | Pending |
+| DATA-05 | Phase 1 | Pending |
+| DESC-01 | Phase 2 | Pending |
+| DESC-02 | Phase 2 | Pending |
+| DESC-03 | Phase 2 | Pending |
+| EVNT-01 | Phase 3 | Pending |
+| EVNT-02 | Phase 3 | Pending |
+| EVNT-03 | Phase 3 | Pending |
+| EVNT-04 | Phase 3 | Pending |
+| OLS-01 | Phase 3 | Pending |
+| OLS-02 | Phase 3 | Pending |
+| OLS-03 | Phase 3 | Pending |
+| GEO-01 | Phase 3 | Pending |
+| GEO-02 | Phase 3 | Pending |
+| GEO-03 | Phase 3 | Pending |
+| SYNTH-01 | Phase 4 | Pending |
+| SYNTH-02 | Phase 4 | Pending |
+| SYNTH-03 | Phase 4 | Pending |
+| ROBUST-01 | Phase 4 | Pending |
+| ROBUST-02 | Phase 4 | Pending |
+| ROBUST-03 | Phase 4 | Pending |
+| ROBUST-04 | Phase 4 | Pending |
+| PAPER-01 | Phase 5 | Pending |
+| PAPER-02 | Phase 5 | Pending |
+| PAPER-03 | Phase 5 | Pending |
+| PAPER-04 | Phase 5 | Pending |
+| PAPER-05 | Phase 5 | Pending |
+| PAPER-06 | Phase 5 | Pending |
+| PAPER-07 | Phase 5 | Pending |
+| PAPER-08 | Phase 5 | Pending |
+| PAPER-09 | Phase 5 | Pending |
+| PAPER-10 | Phase 5 | Pending |
+| POLICY-01 | Phase 5 | Pending |
+| POLICY-02 | Phase 5 | Pending |
+| OUTPUT-01 | Phase 5 | Pending |
+| OUTPUT-02 | Phase 5 | Pending |
+| OUTPUT-03 | Phase 5 | Pending |
 
 **Coverage:**
-- v1 requirements: 39 total
-- Mapped to phases: 0 (pending roadmap creation)
-- Unmapped: 39 ⚠️
+- v1 requirements: 40 total
+- Mapped to phases: 40/40 ✓
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-04-14*
-*Last updated: 2026-04-14 after initial definition*
+*Last updated: 2026-04-14 after roadmap creation*
