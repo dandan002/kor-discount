@@ -12,7 +12,7 @@ Five phases that follow the strict pipeline dependency order of an empirical fin
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Repo Setup and Data Pipeline** - Build reproducible repo scaffold, lock event dates, acquire raw data, and produce `panel.parquet`
+- [x] **Phase 1: Repo Setup and Data Pipeline** - Build reproducible repo scaffold, lock event dates, acquire raw data, and produce `panel.parquet`
 - [ ] **Phase 2: Descriptive Analysis** - Validate the panel and document the Korea Discount visually and statistically
 - [ ] **Phase 3: Primary Empirics** - Run event study, panel OLS, and geopolitical risk sub-analysis
 - [ ] **Phase 4: Synthetic Control and Robustness** - Synthetic control for 2023 TSE reform and full robustness test suite
@@ -87,7 +87,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Repo Setup and Data Pipeline | 0/3 | Not started | - |
+| 1. Repo Setup and Data Pipeline | 3/3 | Complete | 2026-04-16 |
 | 2. Descriptive Analysis | 0/TBD | Not started | - |
 | 3. Primary Empirics | 0/TBD | Not started | - |
 | 4. Synthetic Control and Robustness | 0/TBD | Not started | - |

@@ -4,14 +4,14 @@ milestone: v1.0
 milestone_name: milestone
 status: executing
 stopped_at: Roadmap created, STATE.md initialized — ready to plan Phase 1
-last_updated: "2026-04-16T17:57:08.197Z"
-last_activity: 2026-04-16 -- Phase 01 execution started
+last_updated: "2026-04-16T18:26:39.121Z"
+last_activity: 2026-04-16 -- Phase 1 complete; ready to plan Phase 2
 progress:
   total_phases: 5
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 3
-  completed_plans: 0
-  percent: 0
+  completed_plans: 3
+  percent: 20
 ---
 
 # Project State
@@ -21,22 +21,22 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-14)
 
 **Core value:** A rigorous, reproducible empirical argument that the Korea Discount is structural and addressable — with credible causal evidence from Japan that reform works.
-**Current focus:** Phase 01 — repo-setup-and-data-pipeline
+**Current focus:** Phase 2 — Descriptive Analysis
 
 ## Current Position
 
-Phase: 01 (repo-setup-and-data-pipeline) — EXECUTING
-Plan: 1 of 3
-Status: Executing Phase 01
-Last activity: 2026-04-16 -- Phase 01 execution started
+Phase: 2 of 5 (Descriptive Analysis)
+Plan: 0 of TBD in current phase
+Status: Ready to plan
+Last activity: 2026-04-16 -- Phase 1 complete; ready to plan Phase 2
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [██░░░░░░░░] 20%
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 0
+- Total plans completed: 3
 - Average duration: —
 - Total execution time: 0 hours
 
@@ -44,7 +44,7 @@ Progress: [░░░░░░░░░░] 0%
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| - | - | - | - |
+| 01 | 3 | - | - |
 
 **Recent Trend:**
 
@@ -72,7 +72,7 @@ None yet.
 
 ### Blockers/Concerns
 
-- [Phase 1]: KOSPI point-in-time P/B availability from free public sources is LOW confidence — confirm KRX portal export capabilities before committing to data strategy. Bloomberg/Refinitiv may be required.
+- [Phase 1]: Bloomberg acquisition path approved by human gate; checked-in raw files and manifest are ready for downstream analysis.
 - [Phase 3]: Stacked event study (Cengiz et al. 2019) requires manual Python construction — no mature library exists. Plan a focused pre-implementation research step.
 - [Phase 3]: Verify `wildboottest` package exists and is compatible with `linearmodels` 6.x before committing to this inference approach.
 - [Phase 4]: Resolve `pysyncon` vs `mlsynth` before Phase 4 implementation.

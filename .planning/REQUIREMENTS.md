@@ -9,11 +9,11 @@
 
 ### Data Pipeline
 
-- [ ] **DATA-01**: Researcher can acquire and load 20-year monthly/annual index-level P/B and P/E data for KOSPI, TOPIX, S&P 500, and MSCI EM from documented sources (KRX, JPX, MSCI factsheets, FRED/Shiller)
-- [ ] **DATA-02**: Researcher can run a single script that produces a clean, long-format `panel.parquet` file with columns: (date, country, pb, pe) and no missing observations without documented explanation
-- [ ] **DATA-03**: Researcher can verify data provenance via a documented manifest listing source, vintage date, and download method for each series
-- [ ] **DATA-04**: Data pipeline includes survivorship bias assessment and documents any known limitations of the chosen sources
-- [ ] **DATA-05**: All raw data files are version-controlled in `data/raw/` with no transformations applied; all cleaning logic lives in reproducible scripts
+- [x] **DATA-01**: Researcher can acquire and load 20-year monthly/annual index-level P/B and P/E data for KOSPI, TOPIX, S&P 500, and MSCI EM from documented sources (Bloomberg raw exports documented in `data/raw/MANIFEST.md`; human Bloomberg acquisition gate approved 2026-04-16)
+- [x] **DATA-02**: Researcher can run a single script that produces a clean, long-format `panel.parquet` file with columns: (date, country, pb, pe) and no missing observations without documented explanation
+- [x] **DATA-03**: Researcher can verify data provenance via a documented manifest listing source, vintage date, and download method for each series
+- [x] **DATA-04**: Data pipeline includes survivorship bias assessment and documents any known limitations of the chosen sources
+- [x] **DATA-05**: All raw data files are version-controlled in `data/raw/` with no transformations applied; all cleaning logic lives in reproducible scripts
 
 ### Descriptive Analysis
 
@@ -116,11 +116,11 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DATA-01 | Phase 1 | Pending |
-| DATA-02 | Phase 1 | Pending |
-| DATA-03 | Phase 1 | Pending |
-| DATA-04 | Phase 1 | Pending |
-| DATA-05 | Phase 1 | Pending |
+| DATA-01 | Phase 1 | Complete |
+| DATA-02 | Phase 1 | Complete |
+| DATA-03 | Phase 1 | Complete |
+| DATA-04 | Phase 1 | Complete |
+| DATA-05 | Phase 1 | Complete |
 | DESC-01 | Phase 2 | Pending |
 | DESC-02 | Phase 2 | Pending |
 | DESC-03 | Phase 2 | Pending |
@@ -164,4 +164,4 @@
 
 ---
 *Requirements defined: 2026-04-14*
-*Last updated: 2026-04-14 after roadmap creation*
+*Last updated: 2026-04-16 after Phase 1 completion*
