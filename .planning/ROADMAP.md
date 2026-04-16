@@ -45,7 +45,13 @@ Plans:
   1. Figure 1 (KOSPI P/B vs TOPIX, S&P 500, MSCI EM over 20 years) is generated programmatically and saved as a publication-quality PDF in `output/figures/`
   2. Table 1 (summary statistics: mean, median, SD, min, max by country and sub-period) is generated programmatically and saved as a LaTeX fragment in `output/tables/`
   3. The Korea Discount magnitude is computed as a time-averaged P/B spread in basis points with a t-statistic or confidence interval, ready for use verbatim in the abstract and introduction
-**Plans**: TBD
+**Plans**: 4 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — Test scaffold: tests/test_descriptive.py + environment validation (scipy pin, pytest)
+- [ ] 02-02-PLAN.md — Figure 1 + Table 1: figure1.py and table1.py generate PDF and LaTeX outputs
+- [ ] 02-03-PLAN.md — Discount quantification: discount_stats.py computes HAC spread + writes CSV and LaTeX fragment
+- [ ] 02-04-PLAN.md — Verification: full test suite GREEN + human sign-off on Figure 1
 
 ### Phase 3: Primary Empirics
 **Goal**: Event study, panel OLS, and geopolitical risk sub-analysis are fully estimated — results tables and figures exist and are ready for inclusion in the paper
@@ -88,7 +94,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Repo Setup and Data Pipeline | 3/3 | Complete | 2026-04-16 |
-| 2. Descriptive Analysis | 0/TBD | Not started | - |
+| 2. Descriptive Analysis | 0/4 | Not started | - |
 | 3. Primary Empirics | 0/TBD | Not started | - |
 | 4. Synthetic Control and Robustness | 0/TBD | Not started | - |
 | 5. Paper Assembly and Replication Package | 0/TBD | Not started | - |
