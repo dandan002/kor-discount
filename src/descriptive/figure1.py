@@ -88,7 +88,13 @@ def main() -> None:
 
     output_path = config.OUTPUT_DIR / "figures" / "figure1_pb_comparison.pdf"
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(output_path, dpi=300, bbox_inches="tight", format="pdf")
+    fig.savefig(
+        output_path,
+        dpi=300,
+        bbox_inches="tight",
+        format="pdf",
+        metadata={"CreationDate": None, "ModDate": None},
+    )
     plt.close(fig)
     logging.info("Saved Figure 1 to %s", output_path)
 
