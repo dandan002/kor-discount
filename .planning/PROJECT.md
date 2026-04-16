@@ -12,11 +12,11 @@ Explores whether the Korea Discount is structural and addressable — with causa
 
 ### Validated
 
-(None yet — ship to validate)
+- [Phase 1, 2026-04-16] 20-year monthly panel dataset for KOSPI, TOPIX, S&P 500, and MSCI EM P/B and P/E is sourced, documented in `data/raw/MANIFEST.md`, and transformed into `data/processed/panel.parquet`.
+- [Phase 1, 2026-04-16] Reproducible repo foundation exists: locked Japan reform dates in `config.py`, pinned Python dependencies in `requirements.txt`, and raw-to-processed cleaning logic in `src/data/build_panel.py`.
 
 ### Active
 
-- [ ] 20-year panel dataset of KOSPI, TOPIX, S&P 500, and MSCI EM valuation metrics (P/B, P/E, EV/EBITDA or equivalent) sourced and cleaned
 - [ ] Quantitative analysis of the Korea Discount magnitude over time with descriptive statistics and visualizations
 - [ ] Causal mechanism section covering three drivers: chaebol cross-shareholding opacity, weak minority-shareholder regulatory recourse, and North Korea geopolitical risk premium
 - [ ] Natural experiment analysis using Japan's staggered governance reforms (Stewardship Code 2014, Corporate Governance Code 2015, TSE P/B reform 2023) as treatment events
@@ -25,7 +25,7 @@ Explores whether the Korea Discount is structural and addressable — with causa
 - [ ] Synthetic control robustness check for at least the 2023 TSE reform
 - [ ] Near- and long-term policy recommendations for Korea (FSC, KRX, regulatory levers)
 - [ ] Final paper document (LaTeX or similar) integrating prose, figures, and tables from the analysis
-- [ ] Reproducible repo: clean notebooks or scripts, requirements file, data pipeline from raw sources to figures
+- [ ] Reproducible repo: downstream analysis scripts, figure/table generation, and final replication entrypoint from the validated panel
 
 ### Out of Scope
 
@@ -40,7 +40,7 @@ Explores whether the Korea Discount is structural and addressable — with causa
 - **Korea Discount drivers (thesis)**: Three compounding factors — (1) chaebol cross-shareholding networks creating opacity and minority-shareholder suppression, (2) regulatory environment affording limited recourse to outside investors, (3) geopolitical risk premium from North Korean brinkmanship
 - **Japan comparison**: Japan faced an analogous "Japan Discount" through the 2010s; its staged governance reforms provide three clean treatment dates for natural experiment identification
 - **Empirical strategy**: Staggered event study (primary) + panel OLS with fixed effects (primary) + synthetic control (robustness). Honest about not claiming full causal ID for single-country comparison.
-- **Data not yet sourced** — will need to identify and pull 20-year valuation index data; options include FRED, Yahoo Finance, OECD, Bloomberg exports, or World Bank
+- **Data sourced for Phase 1** — Bloomberg raw CSV exports and `data/raw/MANIFEST.md` are checked in; `src/data/build_panel.py` produces the canonical monthly P/B and P/E panel for KOSPI, TOPIX, S&P 500, and MSCI EM.
 
 ## Constraints
 
@@ -57,6 +57,8 @@ Explores whether the Korea Discount is structural and addressable — with causa
 | Staggered event study + panel OLS as primary methods | Credible for single-country natural experiment; honest about causal limits; mirrors Miyajima et al. and recent governance literature | — Pending |
 | Synthetic control as robustness (not primary) | Compelling for causal claim but adds complexity; use for 2023 TSE reform where pre-treatment data is cleanest | — Pending |
 | All three Japan reform dates as treatment events | Stacked identification gives three bites; richer than single-event study | — Pending |
+| Bloomberg raw valuation exports for Phase 1 panel | Free public point-in-time valuation data was low-confidence; checked-in Bloomberg extracts provide reproducible raw snapshots with a manifest | Validated in Phase 1 |
+| Event-date firewall in `config.py` | Treatment dates must be locked before data loading to prevent look-ahead bias | Validated in Phase 1 |
 
 ## Evolution
 
@@ -76,4 +78,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-14 after initialization*
+*Last updated: 2026-04-16 after Phase 1 completion*
