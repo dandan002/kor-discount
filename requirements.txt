@@ -1,0 +1,26 @@
+# Korea Discount Study — pinned dependencies
+# Python >= 3.11 required
+# Install: pip install -r requirements.txt
+
+# Core data
+pandas==2.2.3
+numpy==1.26.4
+pyarrow==15.0.2
+
+# Statistics and econometrics
+scipy==1.13.1
+statsmodels==0.14.4
+linearmodels==6.1
+
+# Wild bootstrap inference (Phase 3 — verify compatibility with linearmodels 6.x)
+wildboottest==0.3.2
+
+# Visualization (Phase 2+)
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# LaTeX table generation (Phase 3+)
+# pandas has to_latex() built in; no extra package needed
+
+# Utilities
+tqdm==4.66.5
