@@ -35,7 +35,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 Plans:
 - [x] 01-PLAN-01.md — Repo scaffold: config.py (event dates firewall) + requirements.txt (pinned deps)
 - [x] 01-PLAN-02.md — Data pipeline: build_panel.py produces data/processed/panel.parquet
-- [ ] 01-PLAN-03.md — Verification: verify_panel.py confirms schema, coverage, and GFC compression
+- [x] 01-PLAN-03.md — Verification: verify_panel.py confirms schema, coverage, and GFC compression
 
 ### Phase 2: Descriptive Analysis
 **Goal**: The Korea Discount is documented visually and quantitatively — Figure 1 and Table 1 exist and the discount magnitude is stated in basis points with statistical significance
