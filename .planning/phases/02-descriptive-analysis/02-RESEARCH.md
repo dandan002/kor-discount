@@ -471,17 +471,19 @@ Note: A1 is a reasonable interpretation (the paper covers "20 years" and data vi
 
 ---
 
-## Open Questions
+## Open Questions (RESOLVED)
 
 1. **`output/tables/discount_stats.tex` format — what prose goes in it?**
    - What we know: The `.tex` file is meant as a "prose-ready LaTeX fragment" for verbatim use in the abstract.
    - What's unclear: Should it be a `\newcommand{}` definition (e.g., `\korTopixDiscount{−0.177}`), a sentence fragment, or a table?
    - Recommendation: Implement as a set of `\newcommand` definitions so the abstract can reference them symbolically. This is more robust than inline numbers. If the user prefers a prose sentence, adjust in execution.
+   - **RESOLVED:** Plan 02-03 implements `\newcommand` definitions (e.g., `\korTopixDiscount`, `\korTopixTStat`, `\korTopixCI`, `\korMsciDiscount`, etc.) — see plan action section.
 
 2. **matplotlib backend on user's machine**
    - What we know: `matplotlib.use("Agg")` works; PDF confirmed generated.
    - What's unclear: If the user runs scripts interactively in a notebook or IDE, `Agg` will suppress display. The scripts are designed for CLI execution.
    - Recommendation: Add a comment in each figure script explaining the Agg choice.
+   - **RESOLVED:** Plan 02-02 requires `matplotlib.use("Agg")` before `import matplotlib.pyplot` with an inline comment — enforced in acceptance criteria.
 
 ---
 
