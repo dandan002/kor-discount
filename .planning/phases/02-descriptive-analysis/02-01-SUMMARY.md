@@ -95,6 +95,13 @@ None in implementation. The only workflow deviation was recovery creation of thi
 - `pytest tests/test_descriptive.py --collect-only -q` collected exactly seven tests.
 - `pytest tests/test_descriptive.py -x -q` failed on `test_figure1_pdf_exists`, confirming the expected RED state before output generators exist.
 
+## Self-Check: PASSED
+
+- All tasks executed.
+- Each task has an atomic commit.
+- Required summary artifact exists.
+- Plan success criteria verified against the working tree.
+
 ## User Setup Required
 
 None - no external service configuration required.
