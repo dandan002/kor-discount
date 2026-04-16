@@ -30,7 +30,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. `data/raw/` contains immutable source files with a manifest documenting source URL, vintage date, and download method for each series
   4. Running `python src/data/build_panel.py` produces `data/processed/panel.parquet` with schema (date, country, pb, pe) covering ~2004-2024 at monthly frequency for KOSPI, TOPIX, SP500, MSCI_EM with no undocumented missing observations
   5. The 2008-2009 global financial crisis period shows a sharp P/B compression for all markets in the panel, confirming absence of survivorship bias
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 01-PLAN-01.md — Repo scaffold: config.py (event dates firewall) + requirements.txt (pinned deps)
+- [ ] 01-PLAN-02.md — Data pipeline: build_panel.py produces data/processed/panel.parquet
+- [ ] 01-PLAN-03.md — Verification: verify_panel.py confirms schema, coverage, and GFC compression
 
 ### Phase 2: Descriptive Analysis
 **Goal**: The Korea Discount is documented visually and quantitatively — Figure 1 and Table 1 exist and the discount magnitude is stated in basis points with statistical significance
@@ -82,7 +87,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Repo Setup and Data Pipeline | 0/TBD | Not started | - |
+| 1. Repo Setup and Data Pipeline | 0/3 | Not started | - |
 | 2. Descriptive Analysis | 0/TBD | Not started | - |
 | 3. Primary Empirics | 0/TBD | Not started | - |
 | 4. Synthetic Control and Robustness | 0/TBD | Not started | - |
