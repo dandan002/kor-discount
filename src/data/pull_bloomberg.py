@@ -1,5 +1,5 @@
 """
-pull_bloomberg.py — Fetch 20-year monthly valuation and fundamental data for 11 equity
+pull_bloomberg.py — Fetch 20-year monthly valuation and fundamental data for equity
 indices via Bloomberg Desktop API (blpapi).
 
 Requirements:
@@ -7,7 +7,7 @@ Requirements:
     Bloomberg Terminal must be running and logged in on the same machine.
 
 Output:
-    data/raw/<index>_<metric>_2004_<year>.csv   (143 files: 11 indices × 13 fields)
+    data/raw/<index>_<metric>_2004_<year>.csv
     data/raw/MANIFEST.md
 
 Notes on index-level fundamentals:
@@ -33,18 +33,34 @@ END_DATE   = datetime.date.today()
 # fmt: off
 INDICES = {
     # Core study markets
-    "kospi":    "KOSPI Index",
-    "kospi200": "KOSPI2 Index",
-    "topix":    "TPX Index",
-    "sp500":    "SPX Index",
-    "msci_em":  "MXEF Index",
-    # Additional markets
-    "dji":      "INDU Index",
-    "ndx":      "NDX Index",
-    "hsi":      "HSI Index",
-    "shcomp":   "SHCOMP Index",
-    "stoxx600": "SXXP Index",
-    "ftse100":  "UKX Index",
+    "kospi":        "KOSPI Index",
+    "kospi200":     "KOSPI2 Index",
+    "topix":        "TPX Index",
+    "sp500":        "SPX Index",
+    "msci_em":      "MXEF Index",
+    # Additional developed markets
+    "dji":          "INDU Index",
+    "ndx":          "NDX Index",
+    "hsi":          "HSI Index",
+    "stoxx600":     "SXXP Index",
+    "ftse100":      "UKX Index",
+    # MSCI country indices (developed Asia + HK)
+    "msci_japan":   "MXJP Index",
+    "msci_taiwan":  "MXTW Index",
+    "msci_korea":   "MXKR Index",
+    "msci_hk":      "MXHK Index",
+    # MSCI large emerging market economies
+    "msci_china":   "MXCN Index",
+    "msci_india":   "MXIN Index",
+    "msci_brazil":  "MXBR Index",
+    "msci_em_asia": "MXAS Index",
+    "msci_indonesia":"MXID Index",
+    "msci_mexico":  "MXMX Index",
+    "msci_s_africa":"MXZA Index",
+    # Local broad indices for key EM markets
+    "shcomp":       "SHCOMP Index",
+    "sensex":       "SENSEX Index",
+    "bovespa":      "IBOV Index",
 }
 
 # Bloomberg field codes for index-level historical fundamentals.
