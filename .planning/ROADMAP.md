@@ -33,7 +33,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 3 plans
 
 Plans:
-- [ ] 01-PLAN-01.md — Repo scaffold: config.py (event dates firewall) + requirements.txt (pinned deps)
+- [x] 01-PLAN-01.md — Repo scaffold: config.py (event dates firewall) + requirements.txt (pinned deps)
 - [ ] 01-PLAN-02.md — Data pipeline: build_panel.py produces data/processed/panel.parquet
 - [ ] 01-PLAN-03.md — Verification: verify_panel.py confirms schema, coverage, and GFC compression
 
