@@ -1,13 +1,138 @@
 # Data Manifest
-Generated: 2026-04-16
 
-| File | Source | Index | Bloomberg Ticker | Field | Vintage Date | Download Method |
-|------|--------|-------|-----------------|-------|-------------|----------------|
-| kospi_pb_2004_2026.csv | Bloomberg Terminal | KOSPI | KOSPI Index | PX_TO_BOOK_RATIO | 2026-04-16 | blpapi HistoricalDataRequest |
-| kospi_pe_2004_2026.csv | Bloomberg Terminal | KOSPI | KOSPI Index | PE_RATIO | 2026-04-16 | blpapi HistoricalDataRequest |
-| topix_pb_2004_2026.csv | Bloomberg Terminal | TOPIX | TPX Index | PX_TO_BOOK_RATIO | 2026-04-16 | blpapi HistoricalDataRequest |
-| topix_pe_2004_2026.csv | Bloomberg Terminal | TOPIX | TPX Index | PE_RATIO | 2026-04-16 | blpapi HistoricalDataRequest |
-| sp500_pb_2004_2026.csv | Bloomberg Terminal | SP500 | SPX Index | PX_TO_BOOK_RATIO | 2026-04-16 | blpapi HistoricalDataRequest |
-| sp500_pe_2004_2026.csv | Bloomberg Terminal | SP500 | SPX Index | PE_RATIO | 2026-04-16 | blpapi HistoricalDataRequest |
-| msci_em_pb_2004_2026.csv | Bloomberg Terminal | MSCI_EM | MXEF Index | PX_TO_BOOK_RATIO | 2026-04-16 | blpapi HistoricalDataRequest |
-| msci_em_pe_2004_2026.csv | Bloomberg Terminal | MSCI_EM | MXEF Index | PE_RATIO | 2026-04-16 | blpapi HistoricalDataRequest |
+Generated: 2026-04-16  |  Source: Bloomberg Terminal (blpapi HistoricalDataRequest, monthly)
+
+| File | Index | Bloomberg Ticker | Field Code | Vintage Date |
+|------|-------|-----------------|------------|-------------|
+| dji_div_yield_2004_2026.csv | DJI | INDU Index | EQY_DVD_YLD_12M | 2026-04-16 |
+| dji_ebitda_margin_2004_2026.csv | DJI | INDU Index | EBITDA_MARGIN | 2026-04-16 |
+| dji_ev_ebit_2004_2026.csv | DJI | INDU Index | EV_TO_T12M_EBIT | 2026-04-16 |
+| dji_ev_ebitda_2004_2026.csv | DJI | INDU Index | EV_TO_T12M_EBITDA | 2026-04-16 |
+| dji_gross_margin_2004_2026.csv | DJI | INDU Index | GROSS_MARGIN | 2026-04-16 |
+| dji_oper_margin_2004_2026.csv | DJI | INDU Index | OPER_MARGIN | 2026-04-16 |
+| dji_pb_2004_2026.csv | DJI | INDU Index | PX_TO_BOOK_RATIO | 2026-04-16 |
+| dji_pe_2004_2026.csv | DJI | INDU Index | PE_RATIO | 2026-04-16 |
+| dji_profit_margin_2004_2026.csv | DJI | INDU Index | PROF_MARGIN | 2026-04-16 |
+| dji_roa_2004_2026.csv | DJI | INDU Index | RETURN_ON_ASSET | 2026-04-16 |
+| dji_roc_2004_2026.csv | DJI | INDU Index | RETURN_ON_CAP | 2026-04-16 |
+| dji_roce_2004_2026.csv | DJI | INDU Index | RETURN_COM_EQY | 2026-04-16 |
+| ftse100_div_yield_2004_2026.csv | FTSE100 | UKX Index | EQY_DVD_YLD_12M | 2026-04-16 |
+| ftse100_ebitda_margin_2004_2026.csv | FTSE100 | UKX Index | EBITDA_MARGIN | 2026-04-16 |
+| ftse100_ev_ebit_2004_2026.csv | FTSE100 | UKX Index | EV_TO_T12M_EBIT | 2026-04-16 |
+| ftse100_ev_ebitda_2004_2026.csv | FTSE100 | UKX Index | EV_TO_T12M_EBITDA | 2026-04-16 |
+| ftse100_gross_margin_2004_2026.csv | FTSE100 | UKX Index | GROSS_MARGIN | 2026-04-16 |
+| ftse100_oper_margin_2004_2026.csv | FTSE100 | UKX Index | OPER_MARGIN | 2026-04-16 |
+| ftse100_pb_2004_2026.csv | FTSE100 | UKX Index | PX_TO_BOOK_RATIO | 2026-04-16 |
+| ftse100_pe_2004_2026.csv | FTSE100 | UKX Index | PE_RATIO | 2026-04-16 |
+| ftse100_profit_margin_2004_2026.csv | FTSE100 | UKX Index | PROF_MARGIN | 2026-04-16 |
+| ftse100_roa_2004_2026.csv | FTSE100 | UKX Index | RETURN_ON_ASSET | 2026-04-16 |
+| ftse100_roc_2004_2026.csv | FTSE100 | UKX Index | RETURN_ON_CAP | 2026-04-16 |
+| ftse100_roce_2004_2026.csv | FTSE100 | UKX Index | RETURN_COM_EQY | 2026-04-16 |
+| hsi_div_yield_2004_2026.csv | HSI | HSI Index | EQY_DVD_YLD_12M | 2026-04-16 |
+| hsi_ebitda_margin_2004_2026.csv | HSI | HSI Index | EBITDA_MARGIN | 2026-04-16 |
+| hsi_ev_ebit_2004_2026.csv | HSI | HSI Index | EV_TO_T12M_EBIT | 2026-04-16 |
+| hsi_ev_ebitda_2004_2026.csv | HSI | HSI Index | EV_TO_T12M_EBITDA | 2026-04-16 |
+| hsi_gross_margin_2004_2026.csv | HSI | HSI Index | GROSS_MARGIN | 2026-04-16 |
+| hsi_oper_margin_2004_2026.csv | HSI | HSI Index | OPER_MARGIN | 2026-04-16 |
+| hsi_pb_2004_2026.csv | HSI | HSI Index | PX_TO_BOOK_RATIO | 2026-04-16 |
+| hsi_pe_2004_2026.csv | HSI | HSI Index | PE_RATIO | 2026-04-16 |
+| hsi_profit_margin_2004_2026.csv | HSI | HSI Index | PROF_MARGIN | 2026-04-16 |
+| hsi_roa_2004_2026.csv | HSI | HSI Index | RETURN_ON_ASSET | 2026-04-16 |
+| hsi_roc_2004_2026.csv | HSI | HSI Index | RETURN_ON_CAP | 2026-04-16 |
+| hsi_roce_2004_2026.csv | HSI | HSI Index | RETURN_COM_EQY | 2026-04-16 |
+| kospi200_div_yield_2004_2026.csv | KOSPI200 | KOSPI2 Index | EQY_DVD_YLD_12M | 2026-04-16 |
+| kospi200_ebitda_margin_2004_2026.csv | KOSPI200 | KOSPI2 Index | EBITDA_MARGIN | 2026-04-16 |
+| kospi200_ev_ebit_2004_2026.csv | KOSPI200 | KOSPI2 Index | EV_TO_T12M_EBIT | 2026-04-16 |
+| kospi200_ev_ebitda_2004_2026.csv | KOSPI200 | KOSPI2 Index | EV_TO_T12M_EBITDA | 2026-04-16 |
+| kospi200_gross_margin_2004_2026.csv | KOSPI200 | KOSPI2 Index | GROSS_MARGIN | 2026-04-16 |
+| kospi200_oper_margin_2004_2026.csv | KOSPI200 | KOSPI2 Index | OPER_MARGIN | 2026-04-16 |
+| kospi200_pb_2004_2026.csv | KOSPI200 | KOSPI2 Index | PX_TO_BOOK_RATIO | 2026-04-16 |
+| kospi200_pe_2004_2026.csv | KOSPI200 | KOSPI2 Index | PE_RATIO | 2026-04-16 |
+| kospi200_profit_margin_2004_2026.csv | KOSPI200 | KOSPI2 Index | PROF_MARGIN | 2026-04-16 |
+| kospi200_roa_2004_2026.csv | KOSPI200 | KOSPI2 Index | RETURN_ON_ASSET | 2026-04-16 |
+| kospi200_roc_2004_2026.csv | KOSPI200 | KOSPI2 Index | RETURN_ON_CAP | 2026-04-16 |
+| kospi200_roce_2004_2026.csv | KOSPI200 | KOSPI2 Index | RETURN_COM_EQY | 2026-04-16 |
+| kospi_div_yield_2004_2026.csv | KOSPI | KOSPI Index | EQY_DVD_YLD_12M | 2026-04-16 |
+| kospi_ebitda_margin_2004_2026.csv | KOSPI | KOSPI Index | EBITDA_MARGIN | 2026-04-16 |
+| kospi_ev_ebit_2004_2026.csv | KOSPI | KOSPI Index | EV_TO_T12M_EBIT | 2026-04-16 |
+| kospi_ev_ebitda_2004_2026.csv | KOSPI | KOSPI Index | EV_TO_T12M_EBITDA | 2026-04-16 |
+| kospi_gross_margin_2004_2026.csv | KOSPI | KOSPI Index | GROSS_MARGIN | 2026-04-16 |
+| kospi_oper_margin_2004_2026.csv | KOSPI | KOSPI Index | OPER_MARGIN | 2026-04-16 |
+| kospi_pb_2004_2026.csv | KOSPI | KOSPI Index | PX_TO_BOOK_RATIO | 2026-04-16 |
+| kospi_pe_2004_2026.csv | KOSPI | KOSPI Index | PE_RATIO | 2026-04-16 |
+| kospi_profit_margin_2004_2026.csv | KOSPI | KOSPI Index | PROF_MARGIN | 2026-04-16 |
+| kospi_roa_2004_2026.csv | KOSPI | KOSPI Index | RETURN_ON_ASSET | 2026-04-16 |
+| kospi_roc_2004_2026.csv | KOSPI | KOSPI Index | RETURN_ON_CAP | 2026-04-16 |
+| kospi_roce_2004_2026.csv | KOSPI | KOSPI Index | RETURN_COM_EQY | 2026-04-16 |
+| msci_em_div_yield_2004_2026.csv | MSCI_EM | MXEF Index | EQY_DVD_YLD_12M | 2026-04-16 |
+| msci_em_ebitda_margin_2004_2026.csv | MSCI_EM | MXEF Index | EBITDA_MARGIN | 2026-04-16 |
+| msci_em_ev_ebit_2004_2026.csv | MSCI_EM | MXEF Index | EV_TO_T12M_EBIT | 2026-04-16 |
+| msci_em_ev_ebitda_2004_2026.csv | MSCI_EM | MXEF Index | EV_TO_T12M_EBITDA | 2026-04-16 |
+| msci_em_gross_margin_2004_2026.csv | MSCI_EM | MXEF Index | GROSS_MARGIN | 2026-04-16 |
+| msci_em_oper_margin_2004_2026.csv | MSCI_EM | MXEF Index | OPER_MARGIN | 2026-04-16 |
+| msci_em_pb_2004_2026.csv | MSCI_EM | MXEF Index | PX_TO_BOOK_RATIO | 2026-04-16 |
+| msci_em_pe_2004_2026.csv | MSCI_EM | MXEF Index | PE_RATIO | 2026-04-16 |
+| msci_em_profit_margin_2004_2026.csv | MSCI_EM | MXEF Index | PROF_MARGIN | 2026-04-16 |
+| msci_em_roa_2004_2026.csv | MSCI_EM | MXEF Index | RETURN_ON_ASSET | 2026-04-16 |
+| msci_em_roc_2004_2026.csv | MSCI_EM | MXEF Index | RETURN_ON_CAP | 2026-04-16 |
+| msci_em_roce_2004_2026.csv | MSCI_EM | MXEF Index | RETURN_COM_EQY | 2026-04-16 |
+| ndx_div_yield_2004_2026.csv | NDX | NDX Index | EQY_DVD_YLD_12M | 2026-04-16 |
+| ndx_ebitda_margin_2004_2026.csv | NDX | NDX Index | EBITDA_MARGIN | 2026-04-16 |
+| ndx_ev_ebit_2004_2026.csv | NDX | NDX Index | EV_TO_T12M_EBIT | 2026-04-16 |
+| ndx_ev_ebitda_2004_2026.csv | NDX | NDX Index | EV_TO_T12M_EBITDA | 2026-04-16 |
+| ndx_gross_margin_2004_2026.csv | NDX | NDX Index | GROSS_MARGIN | 2026-04-16 |
+| ndx_oper_margin_2004_2026.csv | NDX | NDX Index | OPER_MARGIN | 2026-04-16 |
+| ndx_pb_2004_2026.csv | NDX | NDX Index | PX_TO_BOOK_RATIO | 2026-04-16 |
+| ndx_pe_2004_2026.csv | NDX | NDX Index | PE_RATIO | 2026-04-16 |
+| ndx_profit_margin_2004_2026.csv | NDX | NDX Index | PROF_MARGIN | 2026-04-16 |
+| ndx_roa_2004_2026.csv | NDX | NDX Index | RETURN_ON_ASSET | 2026-04-16 |
+| ndx_roc_2004_2026.csv | NDX | NDX Index | RETURN_ON_CAP | 2026-04-16 |
+| ndx_roce_2004_2026.csv | NDX | NDX Index | RETURN_COM_EQY | 2026-04-16 |
+| shcomp_div_yield_2004_2026.csv | SHCOMP | SHCOMP Index | EQY_DVD_YLD_12M | 2026-04-16 |
+| shcomp_ebitda_margin_2004_2026.csv | SHCOMP | SHCOMP Index | EBITDA_MARGIN | 2026-04-16 |
+| shcomp_ev_ebit_2004_2026.csv | SHCOMP | SHCOMP Index | EV_TO_T12M_EBIT | 2026-04-16 |
+| shcomp_ev_ebitda_2004_2026.csv | SHCOMP | SHCOMP Index | EV_TO_T12M_EBITDA | 2026-04-16 |
+| shcomp_gross_margin_2004_2026.csv | SHCOMP | SHCOMP Index | GROSS_MARGIN | 2026-04-16 |
+| shcomp_oper_margin_2004_2026.csv | SHCOMP | SHCOMP Index | OPER_MARGIN | 2026-04-16 |
+| shcomp_pb_2004_2026.csv | SHCOMP | SHCOMP Index | PX_TO_BOOK_RATIO | 2026-04-16 |
+| shcomp_pe_2004_2026.csv | SHCOMP | SHCOMP Index | PE_RATIO | 2026-04-16 |
+| shcomp_profit_margin_2004_2026.csv | SHCOMP | SHCOMP Index | PROF_MARGIN | 2026-04-16 |
+| shcomp_roa_2004_2026.csv | SHCOMP | SHCOMP Index | RETURN_ON_ASSET | 2026-04-16 |
+| shcomp_roc_2004_2026.csv | SHCOMP | SHCOMP Index | RETURN_ON_CAP | 2026-04-16 |
+| shcomp_roce_2004_2026.csv | SHCOMP | SHCOMP Index | RETURN_COM_EQY | 2026-04-16 |
+| sp500_div_yield_2004_2026.csv | SP500 | SPX Index | EQY_DVD_YLD_12M | 2026-04-16 |
+| sp500_ebitda_margin_2004_2026.csv | SP500 | SPX Index | EBITDA_MARGIN | 2026-04-16 |
+| sp500_ev_ebit_2004_2026.csv | SP500 | SPX Index | EV_TO_T12M_EBIT | 2026-04-16 |
+| sp500_ev_ebitda_2004_2026.csv | SP500 | SPX Index | EV_TO_T12M_EBITDA | 2026-04-16 |
+| sp500_gross_margin_2004_2026.csv | SP500 | SPX Index | GROSS_MARGIN | 2026-04-16 |
+| sp500_oper_margin_2004_2026.csv | SP500 | SPX Index | OPER_MARGIN | 2026-04-16 |
+| sp500_pb_2004_2026.csv | SP500 | SPX Index | PX_TO_BOOK_RATIO | 2026-04-16 |
+| sp500_pe_2004_2026.csv | SP500 | SPX Index | PE_RATIO | 2026-04-16 |
+| sp500_profit_margin_2004_2026.csv | SP500 | SPX Index | PROF_MARGIN | 2026-04-16 |
+| sp500_roa_2004_2026.csv | SP500 | SPX Index | RETURN_ON_ASSET | 2026-04-16 |
+| sp500_roc_2004_2026.csv | SP500 | SPX Index | RETURN_ON_CAP | 2026-04-16 |
+| sp500_roce_2004_2026.csv | SP500 | SPX Index | RETURN_COM_EQY | 2026-04-16 |
+| stoxx600_div_yield_2004_2026.csv | STOXX600 | SXXP Index | EQY_DVD_YLD_12M | 2026-04-16 |
+| stoxx600_ebitda_margin_2004_2026.csv | STOXX600 | SXXP Index | EBITDA_MARGIN | 2026-04-16 |
+| stoxx600_ev_ebit_2004_2026.csv | STOXX600 | SXXP Index | EV_TO_T12M_EBIT | 2026-04-16 |
+| stoxx600_ev_ebitda_2004_2026.csv | STOXX600 | SXXP Index | EV_TO_T12M_EBITDA | 2026-04-16 |
+| stoxx600_gross_margin_2004_2026.csv | STOXX600 | SXXP Index | GROSS_MARGIN | 2026-04-16 |
+| stoxx600_oper_margin_2004_2026.csv | STOXX600 | SXXP Index | OPER_MARGIN | 2026-04-16 |
+| stoxx600_pb_2004_2026.csv | STOXX600 | SXXP Index | PX_TO_BOOK_RATIO | 2026-04-16 |
+| stoxx600_pe_2004_2026.csv | STOXX600 | SXXP Index | PE_RATIO | 2026-04-16 |
+| stoxx600_profit_margin_2004_2026.csv | STOXX600 | SXXP Index | PROF_MARGIN | 2026-04-16 |
+| stoxx600_roa_2004_2026.csv | STOXX600 | SXXP Index | RETURN_ON_ASSET | 2026-04-16 |
+| stoxx600_roc_2004_2026.csv | STOXX600 | SXXP Index | RETURN_ON_CAP | 2026-04-16 |
+| stoxx600_roce_2004_2026.csv | STOXX600 | SXXP Index | RETURN_COM_EQY | 2026-04-16 |
+| topix_div_yield_2004_2026.csv | TOPIX | TPX Index | EQY_DVD_YLD_12M | 2026-04-16 |
+| topix_ebitda_margin_2004_2026.csv | TOPIX | TPX Index | EBITDA_MARGIN | 2026-04-16 |
+| topix_ev_ebit_2004_2026.csv | TOPIX | TPX Index | EV_TO_T12M_EBIT | 2026-04-16 |
+| topix_ev_ebitda_2004_2026.csv | TOPIX | TPX Index | EV_TO_T12M_EBITDA | 2026-04-16 |
+| topix_gross_margin_2004_2026.csv | TOPIX | TPX Index | GROSS_MARGIN | 2026-04-16 |
+| topix_oper_margin_2004_2026.csv | TOPIX | TPX Index | OPER_MARGIN | 2026-04-16 |
+| topix_pb_2004_2026.csv | TOPIX | TPX Index | PX_TO_BOOK_RATIO | 2026-04-16 |
+| topix_pe_2004_2026.csv | TOPIX | TPX Index | PE_RATIO | 2026-04-16 |
+| topix_profit_margin_2004_2026.csv | TOPIX | TPX Index | PROF_MARGIN | 2026-04-16 |
+| topix_roa_2004_2026.csv | TOPIX | TPX Index | RETURN_ON_ASSET | 2026-04-16 |
+| topix_roc_2004_2026.csv | TOPIX | TPX Index | RETURN_ON_CAP | 2026-04-16 |
+| topix_roce_2004_2026.csv | TOPIX | TPX Index | RETURN_COM_EQY | 2026-04-16 |
