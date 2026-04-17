@@ -13,7 +13,7 @@ Five phases that follow the strict pipeline dependency order of an empirical fin
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Repo Setup and Data Pipeline** - Build reproducible repo scaffold, lock event dates, acquire raw data, and produce `panel.parquet`
-- [ ] **Phase 2: Descriptive Analysis** - Validate the panel and document the Korea Discount visually and statistically
+- [x] **Phase 2: Descriptive Analysis** - Validate the panel and document the Korea Discount visually and statistically
 - [ ] **Phase 3: Primary Empirics** - Run event study, panel OLS, and geopolitical risk sub-analysis
 - [ ] **Phase 4: Synthetic Control and Robustness** - Synthetic control for 2023 TSE reform and full robustness test suite
 - [ ] **Phase 5: Paper Assembly and Replication Package** - Write all paper sections, integrate outputs into LaTeX, deliver submission-ready PDF and replication package
@@ -48,10 +48,10 @@ Plans:
 **Plans**: 4 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — Test scaffold: tests/test_descriptive.py + environment validation (scipy pin, pytest)
-- [ ] 02-02-PLAN.md — Figure 1 + Table 1: figure1.py and table1.py generate PDF and LaTeX outputs
-- [ ] 02-03-PLAN.md — Discount quantification: discount_stats.py computes HAC spread + writes CSV and LaTeX fragment
-- [ ] 02-04-PLAN.md — Verification: full test suite GREEN + human sign-off on Figure 1
+- [x] 02-01-PLAN.md — Test scaffold: tests/test_descriptive.py + environment validation (scipy pin, pytest)
+- [x] 02-02-PLAN.md — Figure 1 + Table 1: figure1.py and table1.py generate PDF and LaTeX outputs
+- [x] 02-03-PLAN.md — Discount quantification: discount_stats.py computes HAC spread + writes CSV and LaTeX fragment
+- [x] 02-04-PLAN.md — Verification: full test suite GREEN + human sign-off on Figure 1
 
 ### Phase 3: Primary Empirics
 **Goal**: Event study, panel OLS, and geopolitical risk sub-analysis are fully estimated — results tables and figures exist and are ready for inclusion in the paper
@@ -94,7 +94,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Repo Setup and Data Pipeline | 3/3 | Complete | 2026-04-16 |
-| 2. Descriptive Analysis | 0/4 | Not started | - |
+| 2. Descriptive Analysis | 4/4 | Complete | 2026-04-17 |
 | 3. Primary Empirics | 0/TBD | Not started | - |
 | 4. Synthetic Control and Robustness | 0/TBD | Not started | - |
 | 5. Paper Assembly and Replication Package | 0/TBD | Not started | - |

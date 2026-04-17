@@ -17,9 +17,9 @@
 
 ### Descriptive Analysis
 
-- [ ] **DESC-01**: Researcher can generate a time-series figure (Figure 1) showing KOSPI P/B vs TOPIX, S&P 500, and MSCI EM P/B over the full 20-year period
-- [ ] **DESC-02**: Researcher can generate Table 1: summary statistics (mean, median, SD, min, max) of core valuation metrics by country and sub-period
-- [ ] **DESC-03**: Researcher can quantify the Korea Discount as a time-averaged spread (bps or ratio) with statistical significance for use in the introduction and abstract
+- [x] **DESC-01**: Researcher can generate a time-series figure (Figure 1) showing KOSPI P/B vs TOPIX, S&P 500, and MSCI EM P/B over the full 20-year period
+- [x] **DESC-02**: Researcher can generate Table 1: summary statistics (mean, median, SD, min, max) of core valuation metrics by country and sub-period
+- [x] **DESC-03**: Researcher can quantify the Korea Discount as a time-averaged spread (bps or ratio) with statistical significance for use in the introduction and abstract
 
 ### Paper Sections
 
@@ -121,9 +121,9 @@
 | DATA-03 | Phase 1 | Complete |
 | DATA-04 | Phase 1 | Complete |
 | DATA-05 | Phase 1 | Complete |
-| DESC-01 | Phase 2 | Pending |
-| DESC-02 | Phase 2 | Pending |
-| DESC-03 | Phase 2 | Pending |
+| DESC-01 | Phase 2 | Complete |
+| DESC-02 | Phase 2 | Complete |
+| DESC-03 | Phase 2 | Complete |
 | EVNT-01 | Phase 3 | Pending |
 | EVNT-02 | Phase 3 | Pending |
 | EVNT-03 | Phase 3 | Pending |
@@ -164,4 +164,4 @@
 
 ---
 *Requirements defined: 2026-04-14*
-*Last updated: 2026-04-16 after Phase 1 completion*
+*Last updated: 2026-04-17 after Phase 2 completion*
