@@ -49,7 +49,7 @@
 |----|-------------|------------------|
 | EVNT-01 | Event study measuring cumulative abnormal valuation changes around each Japan reform date | Stacked regression design with cohort × event-time interactions; manual Python construction required — no mature library |
 | EVNT-02 | Heteroskedastic-robust SEs; results presented separately per treatment date | `statsmodels` HC3 via `get_robustcov_results(cov_type="HC3")`; per-cohort subplots in figure |
-| EVNT-03 | Stacked event study design (Cengiz et al. 2019 / Baker et al. 2022) | Build stacked dataset manually: three clean cohorts, cohort × relative-time interactions |
+| EVNT-03 | Stacked event study design (Cengiz et al. 2019 / Baker et al. 2022) | Build stacked dataset manually: three full-window cohorts, cohort × relative-time interactions, and explicit overlap annotations |
 | EVNT-04 | CAR figures and coefficient tables output to `output/` | `matplotlib` 3-panel PDF; `pandas.to_latex()` or manual LaTeX string for coefficient table |
 | OLS-01 | `linearmodels.PanelOLS` with two-way FE | `PanelOLS(..., entity_effects=True, time_effects=True)` — verified available at v6.1 |
 | OLS-02 | Reform dummies × Japan indicator; interpret in P/B points | Interaction variable construction in pandas before passing to PanelOLS |
@@ -65,7 +65,7 @@
 
 Phase 3 implements three econometric analyses — stacked event study, panel OLS, and geopolitical risk sub-analysis — all reading exclusively from `data/processed/panel.parquet` plus one new external file (Caldara-Iacoviello GPR index). The panel contains 268 monthly observations per country for KOSPI, TOPIX, SP500, and MSCI_EM covering 2004-01 through 2026-04, all P/B values confirmed present with no gaps in the four-country balanced panel.
 
-The stacked event study must be constructed entirely from scratch in Python — no mature library implements the Cengiz et al. (2019) stacked design for valuation spreads. The key algorithmic steps are: (1) build a "clean cohort" dataframe for each of the three Japan reform dates by restricting to a [-36, +24] months window around the event, (2) stack the three cohort dataframes with a cohort identifier, (3) regress the KOSPI-TOPIX spread on cohort × relative-time indicators using statsmodels OLS with HC3 standard errors, and (4) accumulate period coefficients into a CAR series.
+The stacked event study must be constructed entirely from scratch in Python — no mature library implements the Cengiz et al. (2019) stacked design for valuation spreads. The key algorithmic steps are: (1) build a cohort dataframe for each of the three Japan reform dates by preserving the required [-36, +24] months window around the event, (2) flag rows whose calendar months also fall inside another reform event's window rather than dropping them, because dropping the 2014/2015 overlap would destroy the locked D-01/D-02 windows, (3) stack the three cohort dataframes with a cohort identifier, (4) regress the KOSPI-TOPIX spread on cohort × relative-time indicators using statsmodels OLS with HC3 standard errors, and (5) accumulate period coefficients into a CAR series.
 
 The panel OLS uses `linearmodels.PanelOLS` (v6.1, already installed) for point estimation but wild-bootstrap standard errors for inference — a necessary correction with only four country clusters. The installed `wildboottest` 0.3.2 accepts statsmodels OLS objects only, so the implementation must use the Frisch-Waugh-Lovell (FWL) theorem: demean Y and X via `PanelData.demean(group="both")`, then fit a statsmodels OLS on the demeaned data, then pass that to `wildboottest`. The GPR data is a single Excel file (`data_gpr_export.xls`) downloadable from `matteoiacoviello.com/gpr_files/data_gpr_export.xls`; the `GPRC_KOR` column (index 48) is confirmed present covering 1985–2026-03 with monthly frequency.
 
@@ -199,8 +199,8 @@ No Python library implements this design. Manual construction required.
 ```python
 # Source: [ASSUMED] — standard implementation of Cengiz et al. 2019 stacked design
 # Reference: Cengiz et al. (2019), "The Effect of Minimum Wages on Low-Wage Jobs"
-# The stacked design creates clean cohorts per event date and avoids
-# contamination from other events within the estimation window.
+# The stacked design creates one cohort per event date and preserves
+# project-locked windows while flagging overlapping reform exposure.
 
 import pandas as pd
 import numpy as np
@@ -212,8 +212,8 @@ def build_stacked_dataset(df: pd.DataFrame) -> pd.DataFrame:
     Stack three event-date cohorts.
     For each event date:
       - Restrict to [-36, +24] months relative window
-      - Exclude months that fall inside [-36, +24] of any OTHER event date
-        (clean cohort requirement — avoids contamination)
+      - Preserve the full [-36, +24] window even if months overlap another
+        reform event window; add overlap flags and document the limitation.
       - Add columns: cohort_id, event_rel_time (months since event)
     """
     spread = (
@@ -233,7 +233,9 @@ def build_stacked_dataset(df: pd.DataFrame) -> pd.DataFrame:
             (cohort["event_rel_time"] >= -36) &
             (cohort["event_rel_time"] <= 24)
         ]
-        # Exclude rows contaminated by other events
+        # Cengiz et al. (2019) stacked cohorts; preserve locked D-01/D-02
+        # windows and flag, rather than drop, overlapping reform exposure.
+        cohort["overlaps_other_event_window"] = False
         for other_date in config.EVENT_DATES:
             if other_date == event_date:
                 continue
@@ -241,7 +243,9 @@ def build_stacked_dataset(df: pd.DataFrame) -> pd.DataFrame:
                 (cohort.index.year - other_date.year) * 12
                 + (cohort.index.month - other_date.month)
             )
-            cohort = cohort[~((other_rel >= -36) & (other_rel <= 24))]
+            cohort["overlaps_other_event_window"] |= (
+                (other_rel >= -36) & (other_rel <= 24)
+            )
         cohort["cohort"] = event_date.strftime("%Y-%m")
         cohorts.append(cohort.reset_index())
     return pd.concat(cohorts, ignore_index=True)
@@ -379,7 +383,7 @@ df_results.to_latex(
 - **Hardcoding the GPR 75th-percentile threshold as a number:** Compute from data and assign to a named constant (e.g., `GPR_KOREA_ESCALATION_THRESHOLD = study["GPRC_KOR"].quantile(0.75)`).
 - **Running wildboottest directly on linearmodels PanelOLS output:** Not supported. Must use FWL workaround (demean first, then statsmodels OLS).
 - **Using traditional cluster-robust SEs for OLS with 4 clusters:** With N=4 country clusters, conventional cluster SEs are severely undersized. Wild bootstrap is the correct correction (D-07).
-- **Pooling all three event-date cohorts without clean-cohort exclusion:** Using overlapping observations across cohorts biases event-study estimates — exclude contaminated months per cohort.
+- **Silently pooling overlapping event-date cohorts:** The 2014 and 2015 reform windows overlap. Do not drop overlapping months if doing so would violate the locked -36 pre-period and -12..+24 plotted window; preserve the required windows, add overlap flags, and document overlap/contamination as a limitation in the event-study output and paper text.
 
 ---
 
@@ -402,8 +406,8 @@ df_results.to_latex(
 ### Pitfall 1: Contaminated Event-Study Cohorts
 **What goes wrong:** The three reform dates (2014-02, 2015-06, 2023-03) have overlapping estimation windows. The 2015 event falls within the [-36, +24] window of the 2014 event (15 months post-event). Stacking without exclusion contaminates the 2014 cohort with the 2015 treatment.
 **Why it happens:** Naively filtering by `event_rel_time` without checking the other event dates.
-**How to avoid:** For each cohort, explicitly exclude all months that fall within [-36, +24] of any OTHER event date.
-**Warning signs:** CAR for the 2014 cohort shows a sharp unexplained break at approximately t=+15.
+**How to avoid:** For this project, preserve the full D-01/D-02 windows, add an `overlaps_other_event_window` flag and `overlap_event_labels` annotation, and document the 2014/2015 overlap as a limitation. Do not use a clean-cohort exclusion that removes required pre-period or plotted-window rows.
+**Warning signs:** Any cohort has fewer than 36 pre-event rows for t=-36..-1, or `event_study_car.csv` lacks all plotted relative months -12..+24 for every cohort.
 
 ### Pitfall 2: wildboottest Incompatibility with linearmodels Output
 **What goes wrong:** Passing a `linearmodels.PanelEffectsResults` object to `wildboottest()` raises a TypeError — the function signature expects `statsmodels.regression.linear_model.OLS`, not a linearmodels result.
@@ -494,7 +498,7 @@ wb_df = wildboottest(
 
 | Old Approach | Current Approach | When Changed | Impact |
 |--------------|------------------|--------------|--------|
-| Single pooled pre-post regression | Stacked cohort design (Cengiz 2019) | ~2019–2022 | Avoids contamination from overlapping events; standard in modern DiD |
+| Single pooled pre-post regression | Stacked cohort design (Cengiz 2019) | ~2019–2022 | Separates event-time paths by cohort; this project additionally flags overlapping 2014/2015 exposure because full-window coverage is locked |
 | `statsmodels.OLS` for panel FE | `linearmodels.PanelOLS` | ~2017 | Proper two-way FE with degree-of-freedom adjustments |
 | Conventional cluster SEs (G=4) | Wild cluster bootstrap (Cameron-Gelbach-Miller 2008) | ~2008 | Corrects severe underrejection with few clusters |
 | Manual booktabs LaTeX | `pandas.to_latex(hrules=True)` | pandas 1.3+ | One-call booktabs output |
@@ -511,24 +515,23 @@ wb_df = wildboottest(
 |---|-------|---------|---------------|
 | A1 | Base period t=-1 is the correct omitted category for event-study identification | Architecture Patterns / Pattern 2 | Wrong base normalizes CAR to wrong reference point; standard convention but should verify against Cengiz et al. paper |
 | A2 | FWL demeaning via `PanelData.demean(group="both")` produces numerically equivalent demeaned residuals to within-estimator FE removal | Architecture Patterns / Pattern 3 | If not equivalent, wildboottest operates on wrong residuals; FWL theorem guarantees equivalence but linearmodels internal implementation should be spot-checked |
-| A3 | 500 bootstrap iterations is sufficient for 4-cluster wild bootstrap (vs. 1000) | Discretion | Slightly noisier p-values but computationally faster; standard guidance suggests 999 for publication |
+| A3 | 999 bootstrap iterations is the publication-ready default for 4-cluster wild bootstrap | Discretion / Open Questions (RESOLVED) | Higher runtime than 500 draws, but avoids noisier p-values and matches the resolved Phase 3 plan |
 
 ---
 
-## Open Questions
+## Open Questions (RESOLVED)
 
 1. **2014 and 2015 event cohort overlap**
    - What we know: 2015-06 is approximately +16 months after 2014-02. The 2014 cohort extends to +24, so the 2015 event falls inside the 2014 cohort's event window.
-   - What's unclear: After applying the clean-cohort exclusion, the 2014 cohort will lose 2015-06 through 2015-06+24=2017-06 (25 months of post-event data). The 2014 cohort's effective post-period is thus only t=+1 through t=+15. This is a data limitation that should be flagged in the paper.
-   - Recommendation: Document this explicitly in the script and in the paper (event-study results section). The planner should add a comment in the event_study.py Wave that notes the truncated post-period for the 2014 cohort.
+   - RESOLVED: Do not apply a clean-cohort exclusion that drops rows inside another event's [-36, +24] window. That exclusion would remove required D-01 pre-trend rows for the 2015 cohort and required D-02 plotted rows for the 2014 cohort. Instead, preserve all three cohorts' -36..+24 windows, add row-level overlap annotations, and document the 2014/2015 overlap as a contamination limitation in the script/table notes and Phase 5 paper text.
 
 2. **Bootstrap iteration count (discretion)**
    - What we know: 500 is fast; 999 is standard for publication; 1000 is also acceptable. With 4 clusters, even 500 converges well.
-   - Recommendation: Use 999 (standard publication convention; odd number avoids tie-breaking in p-value computation).
+   - RESOLVED: Use 999 Rademacher wild-bootstrap draws, with `BOOTSTRAP_ITERATIONS = 999` and `BOOTSTRAP_SEED = 42`, because 999 is the standard publication convention and avoids tie-breaking in p-value computation.
 
 3. **Standalone geo regression table vs. additional OLS column (discretion)**
    - What we know: D-08 specifies `table2_ols.tex` with columns = baseline / + reform dummies / + reform × Japan. Adding geo as a fourth column would make the table wider.
-   - Recommendation: Keep geo results as a standalone LaTeX fragment (`table3_geo_risk.tex`) — the geo regression has a different LHS (KOSPI-only, not panel) and folding it into the OLS table conflates two distinct estimands.
+   - RESOLVED: Keep geo results as a standalone LaTeX fragment (`table3_geo_risk.tex`) — the geo regression has a different LHS (KOSPI-only, not panel) and folding it into the OLS table conflates two distinct estimands.
 
 ---
 
@@ -567,8 +570,8 @@ wb_df = wildboottest(
 |--------|----------|-----------|-------------------|--------------|
 | EVNT-01 | `output/figures/figure2_event_study.pdf` exists and is non-empty | smoke | `pytest tests/test_phase3.py::test_figure2_exists -x` | Wave 0 |
 | EVNT-02 | CAR coefficient table exists; HC3 SEs present (non-zero) | smoke | `pytest tests/test_phase3.py::test_event_study_coefs -x` | Wave 0 |
-| EVNT-03 | Stacked dataset has 3 distinct cohort identifiers | unit | `pytest tests/test_phase3.py::test_three_cohorts -x` | Wave 0 |
-| EVNT-04 | CAR figure has 3 subplots | smoke | `pytest tests/test_phase3.py::test_figure2_panels -x` | Wave 0 |
+| EVNT-03 | Stacked dataset has 3 distinct cohort identifiers, 36 pre-event observations per cohort, and overlap annotations for 2014/2015 windows | unit | `pytest tests/test_phase3.py::test_three_cohorts -x` | Wave 0 |
+| EVNT-04 | CAR output covers every plotted month -12..+24 for all three cohorts before Figure 2 is drawn | smoke | `pytest tests/test_phase3.py::test_figure2_panels -x` | Wave 0 |
 | OLS-01 | `output/tables/table2_ols.tex` exists | smoke | `pytest tests/test_phase3.py::test_table2_exists -x` | Wave 0 |
 | OLS-02 | table2_ols.tex contains reform interaction coefficients | content | `pytest tests/test_phase3.py::test_table2_reform_dummies -x` | Wave 0 |
 | OLS-03 | table2_ols.tex contains `\toprule` (booktabs) | content | `pytest tests/test_phase3.py::test_table2_booktabs -x` | Wave 0 |
