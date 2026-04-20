@@ -1,0 +1,19 @@
+specification,term,coef,std_error,p_value,wild_p_value,note
+Baseline two-way FE,post_stewardship,,,,,not included
+Baseline two-way FE,post_cgc,,,,,not included
+Baseline two-way FE,post_tse_pb_reform,,,,,not included
+Baseline two-way FE,stewardship_x_japan,,,,,not included
+Baseline two-way FE,cgc_x_japan,,,,,not included
+Baseline two-way FE,tse_pb_reform_x_japan,,,,,not included
++ reform dummies,post_stewardship,,,,,absorbed by time FE
++ reform dummies,post_cgc,,,,,absorbed by time FE
++ reform dummies,post_tse_pb_reform,,,,,absorbed by time FE
++ reform dummies,stewardship_x_japan,,,,,not included
++ reform dummies,cgc_x_japan,,,,,not included
++ reform dummies,tse_pb_reform_x_japan,,,,,not included
++ reform x Japan,post_stewardship,,,,,absorbed by time FE
++ reform x Japan,post_cgc,,,,,absorbed by time FE
++ reform x Japan,post_tse_pb_reform,,,,,absorbed by time FE
++ reform x Japan,stewardship_x_japan,0.08677978650137601,0.04252121095125343,0.04161449133093953,0.75,
++ reform x Japan,cgc_x_japan,-0.32133301971325967,0.04368978479894301,5.018208071305708e-13,0.375,
++ reform x Japan,tse_pb_reform_x_japan,-0.2351984196806775,0.12245441236196114,0.05514815025425679,0.5,
