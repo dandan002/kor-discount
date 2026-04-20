@@ -70,7 +70,7 @@ Plans:
 - [x] 03-03-PLAN.md — Panel OLS: two-way FE PanelOLS with wild-bootstrap inference and Table 2
 - [x] 03-04-PLAN.md — Geopolitical risk: GPR escalation dummy, Figure 3, and partial-identification caveat table
 - [x] 03-05-PLAN.md — Verification: regenerate outputs and run Phase 3 plus full project pytest gates
-- [ ] 03-06-PLAN.md — Gap closure: fix EVNT-02 (remove blank HC3 claim) and OLS-03 (display wild-bootstrap p-values in Table 2)
+- [x] 03-06-PLAN.md — Gap closure: fix EVNT-02 (remove blank HC3 claim) and OLS-03 (display wild-bootstrap p-values in Table 2)
 
 ### Phase 4: Synthetic Control and Robustness
 **Goal**: The synthetic control for the 2023 TSE reform is estimated and all planned robustness checks pass — the primary result is confirmed robust to alternative specifications
