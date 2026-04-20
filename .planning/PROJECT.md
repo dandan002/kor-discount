@@ -16,12 +16,16 @@ Explores whether the Korea Discount is structural and addressable — with causa
 - [Phase 1, 2026-04-16] Reproducible repo foundation exists: locked Japan reform dates in `config.py`, pinned Python dependencies in `requirements.txt`, and raw-to-processed cleaning logic in `src/data/build_panel.py`.
 - [Phase 2, 2026-04-17] Descriptive outputs are generated and verified: Figure 1 PDF, Table 1 LaTeX summary statistics, and Korea Discount HAC estimates (`-0.177x` vs TOPIX; `-0.601x` vs MSCI EM).
 
+### Validated
+
+- [Phase 3, 2026-04-20] Event study: cumulative abnormal valuation changes around each Japanese reform date — stacked cohort design, descriptive CARs (HC3 removed; saturated design), figures and coefficient tables in `output/`. Validated in Phase 3.
+- [Phase 3, 2026-04-20] Panel OLS with country/time fixed effects and reform-interaction dummies — wild-bootstrap p-values displayed in Table 2 for three reform×Japan terms. Validated in Phase 3.
+- [Phase 3, 2026-04-20] Geopolitical risk sub-analysis: GPR overlay figure and Table 3 estimating GPR premium on Korea Discount. Validated in Phase 3.
+
 ### Active
 
 - [ ] Causal mechanism section covering three drivers: chaebol cross-shareholding opacity, weak minority-shareholder regulatory recourse, and North Korea geopolitical risk premium
 - [ ] Natural experiment analysis using Japan's staggered governance reforms (Stewardship Code 2014, Corporate Governance Code 2015, TSE P/B reform 2023) as treatment events
-- [ ] Event study: cumulative abnormal valuation changes around each Japanese reform date
-- [ ] Panel OLS with country/time fixed effects and reform-interaction dummies
 - [ ] Synthetic control robustness check for at least the 2023 TSE reform
 - [ ] Near- and long-term policy recommendations for Korea (FSC, KRX, regulatory levers)
 - [ ] Final paper document (LaTeX or similar) integrating prose, figures, and tables from the analysis
@@ -42,6 +46,7 @@ Explores whether the Korea Discount is structural and addressable — with causa
 - **Empirical strategy**: Staggered event study (primary) + panel OLS with fixed effects (primary) + synthetic control (robustness). Honest about not claiming full causal ID for single-country comparison.
 - **Data sourced for Phase 1** — Bloomberg raw CSV exports and `data/raw/MANIFEST.md` are checked in; `src/data/build_panel.py` produces the canonical monthly P/B and P/E panel for KOSPI, TOPIX, S&P 500, and MSCI EM.
 - **Descriptive outputs from Phase 2** — `src/descriptive/figure1.py`, `table1.py`, and `discount_stats.py` generate the verified Figure 1 PDF, Table 1 LaTeX fragment, discount statistics CSV, and abstract-ready LaTeX macros.
+- **Primary empirics from Phase 3 complete** — Event study (Figure 2, descriptive CARs), panel OLS (Table 2 with wild-bootstrap p-values), and geopolitical risk sub-analysis (Figure 3, Table 3) are all estimated and in `output/`.
 
 ## Constraints
 
@@ -80,4 +85,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-17 after Phase 2 completion*
+*Last updated: 2026-04-20 after Phase 3 completion*
