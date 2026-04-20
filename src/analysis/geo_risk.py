@@ -12,6 +12,8 @@ from pathlib import Path
 import matplotlib
 
 matplotlib.use("Agg")
+import matplotlib.dates as mdates
+import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import statsmodels.formula.api as smf
@@ -181,6 +183,71 @@ def write_results(
     logging.info("Saved %s", table_path)
 
 
+def plot_geo_risk(reg_df: pd.DataFrame) -> None:
+    """Plot Korea GPR escalation months against KOSPI and TOPIX valuations."""
+    sns.set_theme(style="whitegrid")
+    fig, ax_gpr = plt.subplots(figsize=(10, 5))
+    ax_val = ax_gpr.twinx()
+
+    for _, row in reg_df[reg_df["gpr_escalation_dummy"] == 1].iterrows():
+        month_start = row["month_period"].to_timestamp(how="start")
+        month_end = row["month_period"].to_timestamp(how="end")
+        ax_gpr.axvspan(month_start, month_end, color="lightgrey", alpha=0.35, lw=0)
+
+    ax_gpr.plot(
+        reg_df["date"],
+        reg_df[GPR_COLUMN],
+        color="#4c78a8",
+        linewidth=1.2,
+        label="GPRC_KOR",
+    )
+    ax_val.plot(
+        reg_df["date"],
+        reg_df["kospi_pb"],
+        color="#f58518",
+        linewidth=1.4,
+        label="KOSPI P/B",
+    )
+    ax_val.plot(
+        reg_df["date"],
+        reg_df["topix_pb"],
+        color="#54a24b",
+        linewidth=1.4,
+        label="TOPIX P/B",
+    )
+
+    ax_gpr.set_xlabel("Date")
+    ax_gpr.set_ylabel("Korea GPR Index")
+    ax_val.set_ylabel("Price-to-Book Ratio (P/B)")
+    ax_gpr.set_title(
+        "Figure 3: Korea Geopolitical Risk and Valuation, 2004-2024",
+        fontsize=11,
+    )
+    ax_gpr.xaxis.set_major_locator(mdates.YearLocator(4))
+    ax_gpr.xaxis.set_major_formatter(mdates.DateFormatter("%Y"))
+
+    handles_gpr, labels_gpr = ax_gpr.get_legend_handles_labels()
+    handles_val, labels_val = ax_val.get_legend_handles_labels()
+    ax_gpr.legend(
+        handles_gpr + handles_val,
+        labels_gpr + labels_val,
+        loc="upper left",
+        frameon=True,
+    )
+
+    output_path = config.OUTPUT_DIR / "figures" / "figure3_geo_risk.pdf"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    fig.savefig(
+        output_path,
+        dpi=300,
+        bbox_inches="tight",
+        format="pdf",
+        metadata={"CreationDate": None, "ModDate": None},
+    )
+    plt.close(fig)
+    logging.info("Saved Figure 3 to %s", output_path)
+
+
 def main() -> None:
     """Run the geopolitical risk sub-analysis and write output artifacts."""
     panel = pd.read_parquet(config.PROCESSED_DIR / "panel.parquet")
@@ -195,6 +262,7 @@ def main() -> None:
         len(reg_df),
     )
     write_results(result, threshold, reg_df, config.OUTPUT_DIR / "tables")
+    plot_geo_risk(reg_df)
 
 
 if __name__ == "__main__":
