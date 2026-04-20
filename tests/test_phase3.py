@@ -80,6 +80,38 @@ def test_table2_exists():
     assert path.stat().st_size > 0
 
 
+def test_panel_ols_results_csv_contract():
+    source = PROJECT_ROOT / "src" / "analysis" / "panel_ols.py"
+    content = _read_text(source)
+    assert "from linearmodels import PanelOLS" in content
+    assert "entity_effects=True" in content
+    assert "time_effects=True" in content
+    assert "BOOTSTRAP_ITERATIONS = 999" in content
+    assert "weights_type=WILD_BOOTSTRAP_WEIGHTS" in content
+
+    csv_path = OUTPUT_TABLES / "panel_ols_results.csv"
+    df = pd.read_csv(csv_path)
+    expected_columns = {
+        "specification",
+        "term",
+        "coef",
+        "std_error",
+        "p_value",
+        "wild_p_value",
+        "note",
+    }
+    assert expected_columns.issubset(df.columns)
+    expected_terms = {
+        "post_stewardship",
+        "post_cgc",
+        "post_tse_pb_reform",
+        "stewardship_x_japan",
+        "cgc_x_japan",
+        "tse_pb_reform_x_japan",
+    }
+    assert expected_terms.issubset(set(df["term"]))
+
+
 def test_table2_reform_dummies():
     content = _read_text(OUTPUT_TABLES / "table2_ols.tex").lower()
     expected_reforms = (
