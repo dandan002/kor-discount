@@ -10,8 +10,13 @@ import sys
 import warnings
 from pathlib import Path
 
+import matplotlib
+
+matplotlib.use("Agg")  # headless backend - must come before pyplot import
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import seaborn as sns
 import statsmodels.api as sm
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -283,6 +288,43 @@ def _write_latex_table(car_df: pd.DataFrame, path: Path) -> None:
     )
 
 
+def plot_event_study(car_df: pd.DataFrame) -> None:
+    """Write Figure 2 as one three-panel CAR event-study PDF."""
+    sns.set_theme(style="whitegrid")
+    fig, axes = plt.subplots(3, 1, figsize=(8, 9), sharex=True)
+
+    for ax, event_date in zip(axes, config.EVENT_DATES):
+        event_label = config.EVENT_LABELS[event_date]
+        cohort = _event_cohort(pd.Timestamp(event_date))
+        plot_data = car_df[car_df["cohort"] == cohort].sort_values("event_rel_time")
+        ax.plot(
+            plot_data["event_rel_time"],
+            plot_data["car"],
+            color="#1f77b4",
+            linewidth=1.6,
+        )
+        ax.axvline(x=0, color="grey", linestyle="--", linewidth=0.9, alpha=0.8)
+        ax.axhline(y=0, color="black", linestyle="-", linewidth=0.8, alpha=0.7)
+        ax.set_title(event_label, fontsize=10)
+        ax.set_ylabel("CAR: KOSPI - TOPIX P/B")
+
+    axes[-1].set_xlabel("Months relative to reform")
+    fig.suptitle("Figure 2: Event-Study CAR Around Japan Governance Reforms", fontsize=11)
+    fig.tight_layout()
+
+    output_path = config.OUTPUT_DIR / "figures" / "figure2_event_study.pdf"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    fig.savefig(
+        output_path,
+        dpi=300,
+        bbox_inches="tight",
+        format="pdf",
+        metadata={"CreationDate": None, "ModDate": None},
+    )
+    plt.close(fig)
+    logging.info("Saved %s", output_path)
+
+
 def main() -> None:
     """Run the stacked event study and write table artifacts."""
     panel = pd.read_parquet(config.PROCESSED_DIR / "panel.parquet")
@@ -299,6 +341,8 @@ def main() -> None:
     tex_path = tables_dir / "table_event_study_coefs.tex"
     _write_latex_table(car, tex_path)
     logging.info("Saved %s", tex_path)
+
+    plot_event_study(car)
 
 
 if __name__ == "__main__":
