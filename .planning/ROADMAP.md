@@ -62,7 +62,7 @@ Plans:
   2. Panel OLS with two-way country + time fixed effects (`linearmodels.PanelOLS`) estimates reform-interaction dummies; regression table is LaTeX-formatted with wild-bootstrap standard errors clustered by country
   3. A North Korea escalation event indicator series is constructed from GDELT or the Caldara-Iacoviello GPR index; KOSPI valuation response to escalation events is estimated and results are written up with explicit partial-identification caveats
   4. All three analyses read exclusively from `data/processed/panel.parquet`; no analysis module imports from another analysis module
-**Plans**: 5 plans
+**Plans**: 6 plans
 
 Plans:
 - [x] 03-01-PLAN.md — Foundation: Phase 3 tests, analysis package, GPR raw data, and provenance
@@ -70,6 +70,7 @@ Plans:
 - [x] 03-03-PLAN.md — Panel OLS: two-way FE PanelOLS with wild-bootstrap inference and Table 2
 - [x] 03-04-PLAN.md — Geopolitical risk: GPR escalation dummy, Figure 3, and partial-identification caveat table
 - [x] 03-05-PLAN.md — Verification: regenerate outputs and run Phase 3 plus full project pytest gates
+- [ ] 03-06-PLAN.md — Gap closure: fix EVNT-02 (remove blank HC3 claim) and OLS-03 (display wild-bootstrap p-values in Table 2)
 
 ### Phase 4: Synthetic Control and Robustness
 **Goal**: The synthetic control for the 2023 TSE reform is estimated and all planned robustness checks pass — the primary result is confirmed robust to alternative specifications
