@@ -81,7 +81,15 @@ Plans:
   2. Donor pool composition is documented with explicit SUTVA justification; in-space and in-time placebo tests are run and their results are saved alongside the primary synthetic control output
   3. Placebo falsification tests run on non-reform markets (e.g., Taiwan, Indonesia) over the same event windows, showing null or negligible effects
   4. Primary event study and OLS results are replicated using P/E instead of P/B, and with an alternative control group (MSCI EM ex-China or substituted EM benchmark), with results saved to `output/robustness/`
-**Plans**: TBD
+**Plans**: 6 plans
+
+Plans:
+- [ ] 04-01-PLAN.md — Foundation: test scaffold (tests/test_phase4.py), robustness package init, pysyncon==1.5.2 pinned
+- [ ] 04-02-PLAN.md — Synthetic control: ADH estimation, RMSPE, gap plot, in-time & in-space placebos (SYNTH-01/02/03, ROBUST-04)
+- [ ] 04-03-PLAN.md — Placebo falsification: Taiwan & Indonesia event studies (ROBUST-01)
+- [ ] 04-04-PLAN.md — P/E robustness: full Phase 3 replication with P/E metric (ROBUST-02)
+- [ ] 04-05-PLAN.md — Alt control group: MSCI EM Asia & EM ex-China panel OLS variants (ROBUST-03)
+- [ ] 04-06-PLAN.md — Verification: full test suite green + human sign-off on synthetic control figures
 
 ### Phase 5: Paper Assembly and Replication Package
 **Goal**: A complete, compiling LaTeX paper exists as a PDF integrating all programmatically generated figures and tables, and running `python run_all.py` followed by `latexmk -pdf paper/main.tex` reproduces the full paper from raw data
@@ -92,7 +100,15 @@ Plans:
   2. Every figure and table in the PDF is included via `\includegraphics{}` or `\input{}` pointing to a file in `output/` — no manually created charts or hand-typed numbers
   3. Policy section provides specific near-term recommendations tied to FSC, KRX, and stewardship code levers; counterfactual projection for Korea is clearly labeled as illustrative
   4. Running `python run_all.py` from a clean checkout (with raw data present) regenerates all figures and tables without error; `requirements.txt` pins all dependencies and a README documents the two-command reproduction workflow
-**Plans**: TBD
+**Plans**: 6 plans
+
+Plans:
+- [ ] 04-01-PLAN.md — Foundation: test scaffold (tests/test_phase4.py), robustness package init, pysyncon==1.5.2 pinned
+- [ ] 04-02-PLAN.md — Synthetic control: ADH estimation, RMSPE, gap plot, in-time & in-space placebos (SYNTH-01/02/03, ROBUST-04)
+- [ ] 04-03-PLAN.md — Placebo falsification: Taiwan & Indonesia event studies (ROBUST-01)
+- [ ] 04-04-PLAN.md — P/E robustness: full Phase 3 replication with P/E metric (ROBUST-02)
+- [ ] 04-05-PLAN.md — Alt control group: MSCI EM Asia & EM ex-China panel OLS variants (ROBUST-03)
+- [ ] 04-06-PLAN.md — Verification: full test suite green + human sign-off on synthetic control figures
 
 ## Progress
 
