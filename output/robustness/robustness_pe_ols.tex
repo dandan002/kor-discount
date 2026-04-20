@@ -1,0 +1,18 @@
+\begin{table}
+\caption{P/E robustness: two-way fixed effects PanelOLS estimates of Japan reform valuation responses.}
+\label{tab:robustness_pe_panel_ols}
+\begin{tabular}{llll}
+\toprule
+ & Baseline two-way FE & + reform dummies & + reform x Japan \\
+term &  &  &  \\
+\midrule
+post_stewardship &  & absorbed by time FE & absorbed by time FE \\
+post_cgc &  & absorbed by time FE & absorbed by time FE \\
+post_tse_pb_reform &  & absorbed by time FE & absorbed by time FE \\
+stewardship_x_japan &  &  & -32.08 [0.125] \\
+cgc_x_japan &  &  & -0.09 [0.875] \\
+tse_pb_reform_x_japan &  &  & -0.47 [0.250] \\
+\multicolumn{4}{l}{\footnotesize Note: Coefficients use P/E (price-to-earnings) as the dependent variable in two-way FE PanelOLS. For \textit{+ reform x Japan} specification, bracketed values are wild-bootstrap p-values (999 Rademacher draws, clustered by country). Standard errors shown for all other estimable cells.} \\
+\bottomrule
+\end{tabular}
+\end{table}
