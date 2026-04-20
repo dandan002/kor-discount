@@ -1,0 +1,27 @@
+# Series with no Bloomberg data
+# Check field availability with: <ticker> DES <GO> -> Field Search
+
+kospi         roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+kospi200      roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+topix         roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+sp500         roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+msci_em       roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+dji           roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+ndx           roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+hsi           roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+stoxx600      roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+ftse100       roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+msci_japan    roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+msci_taiwan   roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+msci_korea    roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+msci_hk       roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+msci_china    roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+msci_india    roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+msci_brazil   roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+msci_em_asia  roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+msci_indonesia  roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+msci_mexico   roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+msci_s_africa  roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+shcomp        roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+sensex        roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
+bovespa       roe             tried: RETURN_ON_EQY, T12M_RETURN_ON_EQY
