@@ -87,7 +87,7 @@ Plans:
 - [x] 04-01-PLAN.md — Foundation: test scaffold (tests/test_phase4.py), robustness package init, pysyncon==1.5.2 pinned
 - [x] 04-02-PLAN.md — Synthetic control: ADH estimation, RMSPE, gap plot, in-time & in-space placebos (SYNTH-01/02/03, ROBUST-04)
 - [x] 04-03-PLAN.md — Placebo falsification: Taiwan & Indonesia event studies (ROBUST-01)
-- [ ] 04-04-PLAN.md — P/E robustness: full Phase 3 replication with P/E metric (ROBUST-02)
+- [x] 04-04-PLAN.md — P/E robustness: full Phase 3 replication with P/E metric (ROBUST-02)
 - [ ] 04-05-PLAN.md — Alt control group: MSCI EM Asia & EM ex-China panel OLS variants (ROBUST-03)
 - [ ] 04-06-PLAN.md — Verification: full test suite green + human sign-off on synthetic control figures
 
@@ -105,7 +105,7 @@ Plans:
 Plans:
 - [x] 04-01-PLAN.md — Foundation: test scaffold (tests/test_phase4.py), robustness package init, pysyncon==1.5.2 pinned
 - [x] 04-02-PLAN.md — Synthetic control: ADH estimation, RMSPE, gap plot, in-time & in-space placebos (SYNTH-01/02/03, ROBUST-04)
-- [ ] 04-03-PLAN.md — Placebo falsification: Taiwan & Indonesia event studies (ROBUST-01)
+- [x] 04-03-PLAN.md — Placebo falsification: Taiwan & Indonesia event studies (ROBUST-01)
 - [ ] 04-04-PLAN.md — P/E robustness: full Phase 3 replication with P/E metric (ROBUST-02)
 - [ ] 04-05-PLAN.md — Alt control group: MSCI EM Asia & EM ex-China panel OLS variants (ROBUST-03)
 - [ ] 04-06-PLAN.md — Verification: full test suite green + human sign-off on synthetic control figures
