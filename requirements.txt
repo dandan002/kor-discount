@@ -16,6 +16,9 @@ xlrd==2.0.1
 # Wild bootstrap inference (Phase 3 — verify compatibility with linearmodels 6.x)
 wildboottest==0.3.2
 
+# Synthetic control (Phase 4)
+pysyncon==1.5.2
+
 # Visualization (Phase 2+)
 matplotlib==3.9.2
 seaborn==0.13.2
