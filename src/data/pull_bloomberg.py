@@ -243,8 +243,8 @@ def write_manifest(entries: list[dict]) -> None:
             f"| {e['file']} | {e['index']} | {e['ticker']} "
             f"| {e['field_code']} | {today} |\n"
         )
-    path.write_text("".join(lines))
-    print(f"Manifest  → data/raw/MANIFEST.md  ({len(entries)} entries)")
+    path.write_text("".join(lines), encoding="utf-8")
+    print(f"Manifest  -> data/raw/MANIFEST.md  ({len(entries)} entries)")
 
 
 def write_missing_log(missing: list[dict]) -> None:
@@ -252,12 +252,12 @@ def write_missing_log(missing: list[dict]) -> None:
         return
     path = RAW_DIR / "MISSING.txt"
     lines = ["# Series with no Bloomberg data\n",
-             "# Check field availability with: <ticker> DES <GO> → Field Search\n\n"]
+             "# Check field availability with: <ticker> DES <GO> -> Field Search\n\n"]
     for m in missing:
         tried = ", ".join(m["tried"])
         lines.append(f"{m['index']:12s}  {m['metric']:14s}  tried: {tried}\n")
-    path.write_text("".join(lines))
-    print(f"Missing log → data/raw/MISSING.txt  ({len(missing)} series)")
+    path.write_text("".join(lines), encoding="utf-8")
+    print(f"Missing log -> data/raw/MISSING.txt  ({len(missing)} series)")
 
 
 # ---------------------------------------------------------------------------
@@ -265,10 +265,10 @@ def write_missing_log(missing: list[dict]) -> None:
 # ---------------------------------------------------------------------------
 
 def main() -> None:
-    print(f"Connecting to Bloomberg ({BLOOMBERG_HOST}:{BLOOMBERG_PORT})…")
+    print(f"Connecting to Bloomberg ({BLOOMBERG_HOST}:{BLOOMBERG_PORT})...")
     session = start_session()
     print(f"Connected. Fetching {TOTAL} series "
-          f"({len(INDICES)} indices × {len(FIELDS)} fields)…\n")
+          f"({len(INDICES)} indices x {len(FIELDS)} fields)...\n")
 
     end_year = END_DATE.year
     manifest_entries: list[dict] = []
@@ -276,7 +276,7 @@ def main() -> None:
     done = 0
 
     for index_key, ticker in INDICES.items():
-        print(f"── {index_key.upper()}  ({ticker})")
+        print(f"-- {index_key.upper()}  ({ticker})")
         for metric_key, primary_field in FIELDS.items():
             done += 1
             label    = f"{index_key}/{metric_key}"
@@ -289,7 +289,7 @@ def main() -> None:
             )
 
             if not rows:
-                print(f"    NO DATA — logged to MISSING.txt")
+                print(f"    NO DATA - logged to MISSING.txt")
                 missing_series.append({
                     "index":  index_key,
                     "metric": metric_key,
@@ -298,7 +298,7 @@ def main() -> None:
                 continue
 
             save_csv(rows, out_path, metric_key)
-            print(f"    {len(rows)} obs → {filename}")
+            print(f"    {len(rows)} obs -> {filename}")
             manifest_entries.append({
                 "file":       filename,
                 "index":      index_key.upper(),
@@ -315,10 +315,10 @@ def main() -> None:
 
     n_ok      = len(manifest_entries)
     n_missing = len(missing_series)
-    print(f"\n{'─'*50}")
+    print(f"\n{'-'*50}")
     print(f"Complete:  {n_ok}/{TOTAL} series saved")
     if n_missing:
-        print(f"Missing:   {n_missing} series — see data/raw/MISSING.txt")
+        print(f"Missing:   {n_missing} series - see data/raw/MISSING.txt")
         print("           Re-run after checking field codes in the Terminal.")
     print("\nNext step: python src/data/build_panel.py")
 
