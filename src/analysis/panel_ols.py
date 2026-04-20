@@ -239,6 +239,20 @@ def _format_table_cell(row: pd.Series) -> str:
 
     coef = float(row["coef"])
     std_error = float(row["std_error"])
+    wild_p = row.get("wild_p_value")
+
+    # For interaction terms in the + reform x Japan specification,
+    # display the wild-bootstrap p-value (computed via FWL + wildboottest)
+    # in brackets below the coefficient. Wild-bootstrap is the appropriate
+    # inference for four country clusters (D-07).
+    if (
+        row.get("term") in INTERACTION_TERMS
+        and row.get("specification") == INTERACTIONS_SPEC
+        and wild_p is not None
+        and not pd.isna(wild_p)
+    ):
+        return f"{coef:.2f} [{float(wild_p):.3f}]"
+
     return f"{coef:.2f} ({std_error:.2f})"
 
 
@@ -266,8 +280,10 @@ def write_latex_table(results_df: pd.DataFrame) -> None:
         label="tab:panel_ols",
     )
     note = (
-        "\\multicolumn{4}{l}{\\footnotesize Note: Wild-bootstrap p-values use "
-        "999 Rademacher draws clustered by country.} \\\\\n"
+        "\\multicolumn{4}{l}{\\footnotesize Note: Coefficients from two-way FE PanelOLS. "
+        "For \\textit{+ reform x Japan} specification, bracketed values are "
+        "wild-bootstrap p-values (999 Rademacher draws, clustered by country). "
+        "Standard errors shown for all other estimable cells.} \\\\\n"
     )
     latex_str = latex_str.replace("\\bottomrule\n", note + "\\bottomrule\n")
 
