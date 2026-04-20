@@ -140,3 +140,160 @@ def plot_gap(synth: Synth, dataprep: Dataprep, rmspe: float) -> pd.Series:
     plt.close(fig)
     logging.info("Saved figure_synth_gap.pdf")
     return ts_gap
+
+
+def extract_results_and_plot(synth: Synth, dataprep: Dataprep) -> pd.Series:
+    """Write primary synthetic-control outputs and return the gap series."""
+    rmspe = extract_results(synth)
+    return plot_gap(synth, dataprep, rmspe)
+
+
+def run_intime_placebo(panel: pd.DataFrame) -> pd.Series:
+    """Run the in-time placebo using a fake pre-COVID treatment date."""
+    placebo_date = pd.Timestamp("2019-01-01")
+    pre_placebo = pd.date_range(start="2004-01-01", end="2018-12-01", freq="MS")
+    dataprep_it = Dataprep(
+        foo=panel,
+        predictors=["pb"],
+        predictors_op="mean",
+        dependent="pb",
+        unit_variable="unit",
+        time_variable="date",
+        treatment_identifier="TOPIX",
+        controls_identifier=list(DONORS.keys()),
+        time_predictors_prior=pre_placebo,
+        time_optimize_ssr=pre_placebo,
+        special_predictors=[
+            ("pb", pd.date_range("2010-01-01", "2010-12-01", freq="MS"), "mean"),
+            ("pb", pd.date_range("2018-01-01", "2018-12-01", freq="MS"), "mean"),
+        ],
+    )
+    synth_it = Synth()
+    synth_it.fit(
+        dataprep=dataprep_it,
+        optim_method="Nelder-Mead",
+        optim_initial="equal",
+        optim_options={"maxiter": 1000},
+    )
+    rmspe_it = math.sqrt(synth_it.mspe())
+    logging.info("In-time placebo RMSPE = %.4f", rmspe_it)
+
+    all_period = pd.date_range(start="2004-01-01", end="2026-04-01", freq="MS")
+    Z0, Z1 = dataprep_it.make_outcome_mats(time_period=all_period)
+    gap_it = synth_it._gaps(Z0=Z0, Z1=Z1)
+
+    actual_reform = pd.Timestamp(config.TSE_PB_REFORM_DATE)
+    fig, ax = plt.subplots(figsize=(10, 5))
+    ax.plot(gap_it.index, gap_it.values, color="black", linewidth=1, label="Japan gap")
+    ax.axhline(0, color="black", linestyle="dashed", linewidth=0.8)
+    ax.axvline(
+        x=placebo_date,
+        color="grey",
+        linestyle="dashed",
+        label=f"Fake treatment ({placebo_date.date().isoformat()})",
+    )
+    ax.axvline(
+        x=actual_reform,
+        color="darkgrey",
+        linestyle="dashed",
+        label=f"Actual TSE reform ({actual_reform.date().isoformat()})",
+    )
+    ax.set_ylabel("P/B gap (Japan - Synthetic Japan)")
+    ax.set_title("In-Time Placebo Gap (Fake Treatment: 2019-01-01)")
+    ax.legend()
+    fig.savefig(
+        ROBUSTNESS_DIR / "figure_placebo_intime.pdf",
+        dpi=300,
+        bbox_inches="tight",
+        format="pdf",
+        metadata={"CreationDate": None, "ModDate": None},
+    )
+    plt.close(fig)
+    logging.info("Saved figure_placebo_intime.pdf")
+    return gap_it
+
+
+def run_inspace_placebo(panel: pd.DataFrame, ts_gap: pd.Series) -> dict[str, pd.Series]:
+    """Run donor-as-treated in-space placebo fits and plot their gap distribution."""
+    donors = list(DONORS.keys())
+    pre_period = pd.date_range(start="2004-01-01", end="2023-02-01", freq="MS")
+    all_period = pd.date_range(start="2004-01-01", end="2026-04-01", freq="MS")
+    placebo_gaps = {}
+
+    for placebo_unit in donors:
+        remaining = [donor for donor in donors if donor != placebo_unit]
+        dataprep_placebo = Dataprep(
+            foo=panel,
+            predictors=["pb"],
+            predictors_op="mean",
+            dependent="pb",
+            unit_variable="unit",
+            time_variable="date",
+            treatment_identifier=placebo_unit,
+            controls_identifier=["TOPIX"] + remaining,
+            time_predictors_prior=pre_period,
+            time_optimize_ssr=pre_period,
+            special_predictors=[
+                ("pb", pd.date_range("2010-01-01", "2010-12-01", freq="MS"), "mean"),
+                ("pb", pd.date_range("2018-01-01", "2018-12-01", freq="MS"), "mean"),
+            ],
+        )
+        synth_placebo = Synth()
+        synth_placebo.fit(
+            dataprep=dataprep_placebo,
+            optim_method="Nelder-Mead",
+            optim_initial="equal",
+            optim_options={"maxiter": 1000},
+        )
+        Z0, Z1 = dataprep_placebo.make_outcome_mats(time_period=all_period)
+        placebo_gaps[placebo_unit] = synth_placebo._gaps(Z0=Z0, Z1=Z1)
+        logging.info(
+            "In-space placebo %s RMSPE = %.4f",
+            placebo_unit,
+            math.sqrt(synth_placebo.mspe()),
+        )
+
+    fig, ax = plt.subplots(figsize=(10, 5))
+    for gap in placebo_gaps.values():
+        ax.plot(gap.index, gap.values, color="lightgrey", linewidth=0.8, alpha=0.7)
+    ax.plot(ts_gap.index, ts_gap.values, color="black", linewidth=1.5, label="Japan (treated)")
+    ax.axhline(0, color="black", linestyle="dashed", linewidth=0.8)
+    ax.axvline(
+        x=pd.Timestamp(config.TSE_PB_REFORM_DATE),
+        color="grey",
+        linestyle="dashed",
+        label="TSE P/B Reform (Mar 2023)",
+    )
+    ax.set_ylabel("P/B gap")
+    ax.set_title("In-Space Placebo Distribution - Japan vs. Donor Pool")
+    ax.legend()
+    fig.savefig(
+        ROBUSTNESS_DIR / "figure_placebo_inspace.pdf",
+        dpi=300,
+        bbox_inches="tight",
+        format="pdf",
+        metadata={"CreationDate": None, "ModDate": None},
+    )
+    plt.close(fig)
+    logging.info("Saved figure_placebo_inspace.pdf")
+    return placebo_gaps
+
+
+def main() -> None:
+    """Run synthetic control and placebo checks."""
+    ROBUSTNESS_DIR.mkdir(parents=True, exist_ok=True)
+    FIGURES_DIR.mkdir(parents=True, exist_ok=True)
+    panel = load_donor_panel()
+    synth, dataprep = run_synth(panel)
+    ts_gap = extract_results_and_plot(synth, dataprep)
+    run_intime_placebo(panel)
+    run_inspace_placebo(panel, ts_gap)
+    logging.info("synthetic_control.py complete")
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        sys.exit(1)
