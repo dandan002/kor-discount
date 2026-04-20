@@ -21,6 +21,7 @@ import blpapi
 import csv
 import datetime
 import sys
+import time
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
@@ -287,6 +288,7 @@ def main() -> None:
             rows, field_used = fetch_with_fallback(
                 session, ticker, primary_field, START_DATE, END_DATE
             )
+            time.sleep(0.5)
 
             if not rows:
                 print(f"    NO DATA - logged to MISSING.txt")
@@ -307,6 +309,7 @@ def main() -> None:
             })
 
         print()
+        time.sleep(1.0)
 
     session.stop()
 
