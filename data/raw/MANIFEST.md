@@ -136,3 +136,9 @@ Generated: 2026-04-16  |  Source: Bloomberg Terminal (blpapi HistoricalDataReque
 | topix_roa_2004_2026.csv | TOPIX | TPX Index | RETURN_ON_ASSET | 2026-04-16 |
 | topix_roc_2004_2026.csv | TOPIX | TPX Index | RETURN_ON_CAP | 2026-04-16 |
 | topix_roce_2004_2026.csv | TOPIX | TPX Index | RETURN_COM_EQY | 2026-04-16 |
+
+## External Research Data
+
+| File | Source | Source URL | Vintage Date | Download Method | Notes |
+|------|--------|------------|--------------|-----------------|-------|
+| data_gpr_export.xls | Caldara-Iacoviello Geopolitical Risk (GPR) country-level data export | https://www.matteoiacoviello.com/gpr_files/data_gpr_export.xls | 2026-04-18 | curl -L -o data/raw/data_gpr_export.xls https://www.matteoiacoviello.com/gpr_files/data_gpr_export.xls | Contains the GPRC_KOR monthly Korea country-level series used for Phase 3 GEO-01 through GEO-03. |
