@@ -1,0 +1,152 @@
+"""
+tests/test_phase3.py - Nyquist tests for Phase 3 primary empirics.
+
+Run: pytest tests/test_phase3.py --collect-only -q
+"""
+import ast
+import sys
+from pathlib import Path
+
+import pandas as pd
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+import config
+
+OUTPUT_FIGURES = config.OUTPUT_DIR / "figures"
+OUTPUT_TABLES = config.OUTPUT_DIR / "tables"
+PANEL_PATH = config.PROCESSED_DIR / "panel.parquet"
+GPR_PATH = config.RAW_DIR / "data_gpr_export.xls"
+
+
+def _read_text(path: Path) -> str:
+    assert path.exists(), f"Missing expected output: {path}"
+    return path.read_text()
+
+
+def _cohort_column(df: pd.DataFrame) -> str:
+    for column in ("cohort", "event_label", "event"):
+        if column in df.columns:
+            return column
+    raise AssertionError("Expected cohort or event label column in event-study output")
+
+
+def test_three_cohorts():
+    from src.analysis import event_study
+
+    panel_df = pd.read_parquet(PANEL_PATH)
+    stacked = event_study.build_stacked_dataset(panel_df)
+
+    assert stacked["cohort"].nunique() == 3
+    assert set(stacked.groupby("cohort")["event_rel_time"].min()) == {-36}
+    assert set(stacked.groupby("cohort")["event_rel_time"].max()) == {24}
+    pre_counts = (
+        stacked[stacked["event_rel_time"].between(-36, -1)]
+        .groupby("cohort")["event_rel_time"]
+        .nunique()
+    )
+    assert (pre_counts == 36).all()
+    assert {"overlaps_other_event_window", "overlap_event_labels"}.issubset(stacked.columns)
+    assert stacked["overlaps_other_event_window"].any()
+
+
+def test_figure2_exists():
+    path = OUTPUT_FIGURES / "figure2_event_study.pdf"
+    assert path.exists()
+    assert path.stat().st_size > 0
+
+
+def test_figure2_panels():
+    car = pd.read_csv(OUTPUT_TABLES / "event_study_car.csv")
+    cohort_col = _cohort_column(car)
+
+    assert car[cohort_col].nunique() == 3
+    expected_window = set(range(-12, 25))
+    for cohort, group in car.groupby(cohort_col):
+        assert set(group["event_rel_time"]) == expected_window, cohort
+
+
+def test_event_study_coefs():
+    content = _read_text(OUTPUT_TABLES / "table_event_study_coefs.tex")
+    assert "HC3" in content
+    assert "CAR" in content
+
+
+def test_table2_exists():
+    path = OUTPUT_TABLES / "table2_ols.tex"
+    assert path.exists()
+    assert path.stat().st_size > 0
+
+
+def test_table2_reform_dummies():
+    content = _read_text(OUTPUT_TABLES / "table2_ols.tex").lower()
+    expected_reforms = (
+        ("stewardship", "2014"),
+        ("corporate governance", "cgc", "2015"),
+        ("tse", "p/b", "2023"),
+    )
+    for reform_tokens in expected_reforms:
+        assert any(token in content for token in reform_tokens), reform_tokens
+    assert "japan" in content
+
+
+def test_table2_booktabs():
+    content = _read_text(OUTPUT_TABLES / "table2_ols.tex")
+    assert "\\toprule" in content
+    assert "\\midrule" in content
+    assert "\\bottomrule" in content
+
+
+def test_gpr_threshold():
+    from src.analysis import geo_risk
+
+    loaded = geo_risk.load_gpr_korea()
+    gpr = loaded[0] if isinstance(loaded, tuple) else loaded
+
+    escalation_cols = [
+        column for column in gpr.columns if "escalation" in column.lower()
+    ]
+    assert escalation_cols, "Expected an escalation indicator column"
+    escalation_share = gpr[escalation_cols[0]].mean()
+    assert 0.20 <= escalation_share <= 0.30
+
+
+def test_figure3_exists():
+    path = OUTPUT_FIGURES / "figure3_geo_risk.pdf"
+    assert path.exists()
+    assert path.stat().st_size > 0
+
+
+def test_geo_caveats():
+    content = _read_text(OUTPUT_TABLES / "table3_geo_risk.tex").lower()
+    assert "partial identification" in content or "caveat" in content
+
+
+def test_analysis_modules_do_not_import_each_other():
+    analysis_modules = {"event_study", "panel_ols", "geo_risk"}
+
+    for module_name in analysis_modules:
+        path = PROJECT_ROOT / "src" / "analysis" / f"{module_name}.py"
+        if not path.exists():
+            continue
+
+        tree = ast.parse(path.read_text(), filename=str(path))
+        for node in ast.walk(tree):
+            if not isinstance(node, ast.ImportFrom) or node.module is None:
+                continue
+
+            module = node.module
+            if module.startswith(("src.analysis.", "analysis.")):
+                imported_module = module.rsplit(".", maxsplit=1)[-1]
+                assert imported_module not in analysis_modules - {module_name}, (
+                    f"{path} imports another Phase 3 analysis module: {module}"
+                )
+
+            if module in {"src.analysis", "analysis"}:
+                imported_names = {alias.name for alias in node.names}
+                forbidden = imported_names & (analysis_modules - {module_name})
+                assert not forbidden, (
+                    f"{path} imports another Phase 3 analysis module: {forbidden}"
+                )
