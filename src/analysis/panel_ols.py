@@ -229,8 +229,56 @@ def fit_panel_specs(reg_panel: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame
     return pd.DataFrame(rows), pd.DataFrame(model_rows)
 
 
+def _format_table_cell(row: pd.Series) -> str:
+    """Format one coefficient cell for the LaTeX regression table."""
+    note = row.get("note")
+    if note == "absorbed by time FE":
+        return "absorbed by time FE"
+    if note == "not included" or pd.isna(row.get("coef")):
+        return ""
+
+    coef = float(row["coef"])
+    std_error = float(row["std_error"])
+    return f"{coef:.2f} ({std_error:.2f})"
+
+
+def write_latex_table(results_df: pd.DataFrame) -> None:
+    """Write the booktabs PanelOLS Table 2 LaTeX artifact."""
+    table = pd.DataFrame(
+        "",
+        index=TABLE_TERMS,
+        columns=[BASELINE_SPEC, DUMMIES_SPEC, INTERACTIONS_SPEC],
+    )
+    table.index.name = "term"
+
+    for _, row in results_df.iterrows():
+        term = row["term"]
+        specification = row["specification"]
+        if term in table.index and specification in table.columns:
+            table.loc[term, specification] = _format_table_cell(row)
+
+    latex_str = table.style.to_latex(
+        hrules=True,
+        caption=(
+            "Two-way fixed effects PanelOLS estimates of Japan reform "
+            "valuation responses."
+        ),
+        label="tab:panel_ols",
+    )
+    note = (
+        "\\multicolumn{4}{l}{\\footnotesize Note: Wild-bootstrap p-values use "
+        "999 Rademacher draws clustered by country.} \\\\\n"
+    )
+    latex_str = latex_str.replace("\\bottomrule\n", note + "\\bottomrule\n")
+
+    output_path = config.OUTPUT_DIR / "tables" / "table2_ols.tex"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(latex_str, encoding="utf-8")
+    logging.info("Saved Table 2 to %s", output_path)
+
+
 def main() -> None:
-    """Run the panel OLS analysis and write machine-readable results."""
+    """Run the panel OLS analysis and write table outputs."""
     panel_path = config.PROCESSED_DIR / "panel.parquet"
     panel = pd.read_parquet(panel_path)
     reg_panel = construct_regression_panel(panel)
@@ -241,6 +289,7 @@ def main() -> None:
     results_df.to_csv(output_path, index=False)
     logging.info("Saved PanelOLS results to %s", output_path)
     logging.info("Estimated model stats:\n%s", model_stats.to_string(index=False))
+    write_latex_table(results_df)
 
 
 if __name__ == "__main__":
