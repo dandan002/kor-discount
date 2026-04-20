@@ -69,9 +69,28 @@ def test_figure2_panels():
 
 
 def test_event_study_coefs():
+    """Event-study table presents descriptive CARs without HC3 inference claim."""
     content = _read_text(OUTPUT_TABLES / "table_event_study_coefs.tex")
-    assert "HC3" in content
+    # HC3 claim must be absent — design is saturated and HC3 is undefined
+    assert "HC3" not in content, (
+        "table_event_study_coefs.tex must not claim HC3 robust standard errors; "
+        "the saturated cohort x time design makes HC3 undefined."
+    )
     assert "CAR" in content
+    assert "Descriptive" in content or "descriptive" in content
+
+
+def test_event_study_coefs_no_inference_columns():
+    """event_study_car.csv must not contain blank HC3 inference columns."""
+    import pandas as pd
+    df = pd.read_csv(OUTPUT_TABLES / "event_study_car.csv")
+    for col in ("hc3_se", "t_stat", "p_value"):
+        assert col not in df.columns, (
+            f"event_study_car.csv contains hollow inference column '{col}'. "
+            "Remove HC3/inference columns from the saturated-design event-study output."
+        )
+    assert "coefficient" in df.columns
+    assert "car" in df.columns
 
 
 def test_table2_exists():
@@ -110,6 +129,15 @@ def test_panel_ols_results_csv_contract():
         "tse_pb_reform_x_japan",
     }
     assert expected_terms.issubset(set(df["term"]))
+    # OLS-03: wild-bootstrap p-values must be populated for interaction terms
+    ix_rows = df[
+        (df["specification"] == "+ reform x Japan")
+        & (df["term"].isin(["stewardship_x_japan", "cgc_x_japan", "tse_pb_reform_x_japan"]))
+    ]
+    assert ix_rows["wild_p_value"].notna().all(), (
+        "Wild-bootstrap p-values must be non-null for all three reform x Japan "
+        f"interaction rows:\n{ix_rows[['term','wild_p_value']].to_string()}"
+    )
 
 
 def test_table2_reform_dummies():
@@ -129,6 +157,26 @@ def test_table2_booktabs():
     assert "\\toprule" in content
     assert "\\midrule" in content
     assert "\\bottomrule" in content
+
+
+def test_table2_wild_bootstrap_displayed():
+    """Table 2 must display wild-bootstrap p-values in brackets for interaction terms."""
+    import re
+    content = _read_text(OUTPUT_TABLES / "table2_ols.tex")
+    # Pattern: coefficient followed by bracketed wild-p, e.g. "-0.15 [0.032]"
+    wild_p_cells = re.findall(r"-?\d+\.\d{2} \[\d+\.\d{3}\]", content)
+    assert len(wild_p_cells) >= 3, (
+        f"Expected at least 3 wild-bootstrap p-value cells in table2_ols.tex, "
+        f"found {len(wild_p_cells)}: {wild_p_cells}"
+    )
+    # The old misleading note must be absent
+    assert "Wild-bootstrap p-values use 999 Rademacher draws clustered by country." not in content, (
+        "Old note referencing undisplayed wild-bootstrap p-values must be removed from Table 2."
+    )
+    # The new accurate note must be present
+    assert "bracketed values are" in content, (
+        "Table 2 note must describe that bracketed values are wild-bootstrap p-values."
+    )
 
 
 def test_gpr_threshold():
