@@ -1,122 +1,124 @@
-% HC3 robust standard errors; CAR is cumulative abnormal KOSPI-TOPIX P/B spread.
+% Descriptive CARs: coefficients and cumulative abnormal KOSPI-TOPIX P/B spread.
+% Standard errors are not reported: the saturated cohort x relative-time design
+% makes sandwich robust inference undefined. See paper text for robustness discussion.
 \begin{table}
-\caption{Stacked event-study cumulative abnormal valuation changes.}
+\caption{Stacked event-study descriptive CAR estimates (no inference reported).}
 \label{tab:event_study_coefs}
-\begin{tabular}{lrrrrrr}
+\begin{tabular}{lrrr}
 \toprule
-Event & Month & Coefficient & HC3 SE & t-stat & p-value & CAR \\
+Event & Month & Coefficient & CAR \\
 \midrule
-Japan Stewardship Code (Feb 2014) & -12 & -0.02 & -- & -- & -- & -0.02 \\
-Japan Stewardship Code (Feb 2014) & -11 & 0.07 & -- & -- & -- & 0.05 \\
-Japan Stewardship Code (Feb 2014) & -10 & -0.04 & -- & -- & -- & 0.01 \\
-Japan Stewardship Code (Feb 2014) & -9 & -0.19 & -- & -- & -- & -0.19 \\
-Japan Stewardship Code (Feb 2014) & -8 & -0.06 & -- & -- & -- & -0.24 \\
-Japan Stewardship Code (Feb 2014) & -7 & -0.11 & -- & -- & -- & -0.36 \\
-Japan Stewardship Code (Feb 2014) & -6 & -0.06 & -- & -- & -- & -0.42 \\
-Japan Stewardship Code (Feb 2014) & -5 & 0.00 & -- & -- & -- & -0.41 \\
-Japan Stewardship Code (Feb 2014) & -4 & -0.03 & -- & -- & -- & -0.44 \\
-Japan Stewardship Code (Feb 2014) & -3 & 0.01 & -- & -- & -- & -0.43 \\
-Japan Stewardship Code (Feb 2014) & -2 & -0.01 & -- & -- & -- & -0.44 \\
-Japan Stewardship Code (Feb 2014) & -1 & 0.00 & 0.00 & 0.00 & 1.00 & -0.44 \\
-Japan Stewardship Code (Feb 2014) & 0 & 0.02 & -- & -- & -- & -0.42 \\
-Japan Stewardship Code (Feb 2014) & 1 & 0.11 & -- & -- & -- & -0.30 \\
-Japan Stewardship Code (Feb 2014) & 2 & 0.14 & -- & -- & -- & -0.17 \\
-Japan Stewardship Code (Feb 2014) & 3 & 0.19 & -- & -- & -- & 0.02 \\
-Japan Stewardship Code (Feb 2014) & 4 & 0.18 & -- & -- & -- & 0.21 \\
-Japan Stewardship Code (Feb 2014) & 5 & 0.15 & -- & -- & -- & 0.36 \\
-Japan Stewardship Code (Feb 2014) & 6 & 0.18 & -- & -- & -- & 0.54 \\
-Japan Stewardship Code (Feb 2014) & 7 & 0.19 & -- & -- & -- & 0.74 \\
-Japan Stewardship Code (Feb 2014) & 8 & 0.14 & -- & -- & -- & 0.87 \\
-Japan Stewardship Code (Feb 2014) & 9 & 0.13 & -- & -- & -- & 1.00 \\
-Japan Stewardship Code (Feb 2014) & 10 & 0.10 & -- & -- & -- & 1.11 \\
-Japan Stewardship Code (Feb 2014) & 11 & 0.09 & -- & -- & -- & 1.20 \\
-Japan Stewardship Code (Feb 2014) & 12 & 0.12 & -- & -- & -- & 1.32 \\
-Japan Stewardship Code (Feb 2014) & 13 & 0.15 & -- & -- & -- & 1.47 \\
-Japan Stewardship Code (Feb 2014) & 14 & 0.16 & -- & -- & -- & 1.64 \\
-Japan Stewardship Code (Feb 2014) & 15 & 0.19 & -- & -- & -- & 1.82 \\
-Japan Stewardship Code (Feb 2014) & 16 & 0.16 & -- & -- & -- & 1.99 \\
-Japan Stewardship Code (Feb 2014) & 17 & 0.20 & -- & -- & -- & 2.19 \\
-Japan Stewardship Code (Feb 2014) & 18 & 0.17 & -- & -- & -- & 2.36 \\
-Japan Stewardship Code (Feb 2014) & 19 & 0.26 & -- & -- & -- & 2.62 \\
-Japan Stewardship Code (Feb 2014) & 20 & 0.40 & -- & -- & -- & 3.02 \\
-Japan Stewardship Code (Feb 2014) & 21 & 0.32 & -- & -- & -- & 3.34 \\
-Japan Stewardship Code (Feb 2014) & 22 & 0.26 & -- & -- & -- & 3.60 \\
-Japan Stewardship Code (Feb 2014) & 23 & 0.30 & -- & -- & -- & 3.90 \\
-Japan Stewardship Code (Feb 2014) & 24 & 0.39 & -- & -- & -- & 4.29 \\
-TSE Corporate Governance Code (Jun 2015) & -12 & 0.09 & -- & -- & -- & 0.09 \\
-TSE Corporate Governance Code (Jun 2015) & -11 & 0.05 & -- & -- & -- & 0.14 \\
-TSE Corporate Governance Code (Jun 2015) & -10 & 0.08 & -- & -- & -- & 0.22 \\
-TSE Corporate Governance Code (Jun 2015) & -9 & 0.09 & -- & -- & -- & 0.31 \\
-TSE Corporate Governance Code (Jun 2015) & -8 & 0.03 & -- & -- & -- & 0.33 \\
-TSE Corporate Governance Code (Jun 2015) & -7 & 0.01 & -- & -- & -- & 0.35 \\
-TSE Corporate Governance Code (Jun 2015) & -6 & -0.01 & -- & -- & -- & 0.33 \\
-TSE Corporate Governance Code (Jun 2015) & -5 & -0.03 & -- & -- & -- & 0.30 \\
-TSE Corporate Governance Code (Jun 2015) & -4 & -0.00 & -- & -- & -- & 0.30 \\
-TSE Corporate Governance Code (Jun 2015) & -3 & 0.02 & -- & -- & -- & 0.33 \\
-TSE Corporate Governance Code (Jun 2015) & -2 & 0.03 & -- & -- & -- & 0.36 \\
-TSE Corporate Governance Code (Jun 2015) & -1 & 0.00 & 0.00 & 0.00 & 1.00 & 0.36 \\
-TSE Corporate Governance Code (Jun 2015) & 0 & 0.03 & -- & -- & -- & 0.38 \\
-TSE Corporate Governance Code (Jun 2015) & 1 & 0.06 & -- & -- & -- & 0.44 \\
-TSE Corporate Governance Code (Jun 2015) & 2 & 0.03 & -- & -- & -- & 0.47 \\
-TSE Corporate Governance Code (Jun 2015) & 3 & 0.11 & -- & -- & -- & 0.58 \\
-TSE Corporate Governance Code (Jun 2015) & 4 & 0.24 & -- & -- & -- & 0.82 \\
-TSE Corporate Governance Code (Jun 2015) & 5 & 0.16 & -- & -- & -- & 0.98 \\
-TSE Corporate Governance Code (Jun 2015) & 6 & 0.10 & -- & -- & -- & 1.09 \\
-TSE Corporate Governance Code (Jun 2015) & 7 & 0.13 & -- & -- & -- & 1.22 \\
-TSE Corporate Governance Code (Jun 2015) & 8 & 0.22 & -- & -- & -- & 1.44 \\
-TSE Corporate Governance Code (Jun 2015) & 9 & 0.37 & -- & -- & -- & 1.81 \\
-TSE Corporate Governance Code (Jun 2015) & 10 & 0.40 & -- & -- & -- & 2.20 \\
-TSE Corporate Governance Code (Jun 2015) & 11 & 0.42 & -- & -- & -- & 2.62 \\
-TSE Corporate Governance Code (Jun 2015) & 12 & 0.34 & -- & -- & -- & 2.96 \\
-TSE Corporate Governance Code (Jun 2015) & 13 & 0.47 & -- & -- & -- & 3.44 \\
-TSE Corporate Governance Code (Jun 2015) & 14 & 0.44 & -- & -- & -- & 3.88 \\
-TSE Corporate Governance Code (Jun 2015) & 15 & 0.40 & -- & -- & -- & 4.28 \\
-TSE Corporate Governance Code (Jun 2015) & 16 & 0.43 & -- & -- & -- & 4.71 \\
-TSE Corporate Governance Code (Jun 2015) & 17 & 0.36 & -- & -- & -- & 5.08 \\
-TSE Corporate Governance Code (Jun 2015) & 18 & 0.30 & -- & -- & -- & 5.37 \\
-TSE Corporate Governance Code (Jun 2015) & 19 & 0.29 & -- & -- & -- & 5.66 \\
-TSE Corporate Governance Code (Jun 2015) & 20 & 0.32 & -- & -- & -- & 5.98 \\
-TSE Corporate Governance Code (Jun 2015) & 21 & 0.37 & -- & -- & -- & 6.35 \\
-TSE Corporate Governance Code (Jun 2015) & 22 & 0.45 & -- & -- & -- & 6.80 \\
-TSE Corporate Governance Code (Jun 2015) & 23 & 0.47 & -- & -- & -- & 7.26 \\
-TSE Corporate Governance Code (Jun 2015) & 24 & 0.57 & -- & -- & -- & 7.83 \\
-TSE P/B Reform Request (Mar 2023) & -12 & 0.03 & -- & -- & -- & 0.03 \\
-TSE P/B Reform Request (Mar 2023) & -11 & -0.00 & -- & -- & -- & 0.03 \\
-TSE P/B Reform Request (Mar 2023) & -10 & 0.01 & -- & -- & -- & 0.04 \\
-TSE P/B Reform Request (Mar 2023) & -9 & 0.07 & -- & -- & -- & 0.11 \\
-TSE P/B Reform Request (Mar 2023) & -8 & -0.04 & -- & -- & -- & 0.07 \\
-TSE P/B Reform Request (Mar 2023) & -7 & -0.04 & -- & -- & -- & 0.03 \\
-TSE P/B Reform Request (Mar 2023) & -6 & -0.05 & -- & -- & -- & -0.03 \\
-TSE P/B Reform Request (Mar 2023) & -5 & -0.09 & -- & -- & -- & -0.12 \\
-TSE P/B Reform Request (Mar 2023) & -4 & -0.10 & -- & -- & -- & -0.22 \\
-TSE P/B Reform Request (Mar 2023) & -3 & -0.05 & -- & -- & -- & -0.27 \\
-TSE P/B Reform Request (Mar 2023) & -2 & -0.08 & -- & -- & -- & -0.35 \\
-TSE P/B Reform Request (Mar 2023) & -1 & 0.00 & 0.00 & 0.00 & 1.00 & -0.35 \\
-TSE P/B Reform Request (Mar 2023) & 0 & -0.08 & -- & -- & -- & -0.44 \\
-TSE P/B Reform Request (Mar 2023) & 1 & -0.08 & -- & -- & -- & -0.52 \\
-TSE P/B Reform Request (Mar 2023) & 2 & -0.10 & -- & -- & -- & -0.62 \\
-TSE P/B Reform Request (Mar 2023) & 3 & -0.13 & -- & -- & -- & -0.75 \\
-TSE P/B Reform Request (Mar 2023) & 4 & -0.22 & -- & -- & -- & -0.98 \\
-TSE P/B Reform Request (Mar 2023) & 5 & -0.22 & -- & -- & -- & -1.20 \\
-TSE P/B Reform Request (Mar 2023) & 6 & -0.20 & -- & -- & -- & -1.40 \\
-TSE P/B Reform Request (Mar 2023) & 7 & -0.22 & -- & -- & -- & -1.63 \\
-TSE P/B Reform Request (Mar 2023) & 8 & -0.25 & -- & -- & -- & -1.88 \\
-TSE P/B Reform Request (Mar 2023) & 9 & -0.21 & -- & -- & -- & -2.09 \\
-TSE P/B Reform Request (Mar 2023) & 10 & -0.16 & -- & -- & -- & -2.25 \\
-TSE P/B Reform Request (Mar 2023) & 11 & -0.32 & -- & -- & -- & -2.57 \\
-TSE P/B Reform Request (Mar 2023) & 12 & -0.32 & -- & -- & -- & -2.89 \\
-TSE P/B Reform Request (Mar 2023) & 13 & -0.34 & -- & -- & -- & -3.23 \\
-TSE P/B Reform Request (Mar 2023) & 14 & -0.33 & -- & -- & -- & -3.56 \\
-TSE P/B Reform Request (Mar 2023) & 15 & -0.30 & -- & -- & -- & -3.87 \\
-TSE P/B Reform Request (Mar 2023) & 16 & -0.26 & -- & -- & -- & -4.13 \\
-TSE P/B Reform Request (Mar 2023) & 17 & -0.26 & -- & -- & -- & -4.39 \\
-TSE P/B Reform Request (Mar 2023) & 18 & -0.23 & -- & -- & -- & -4.63 \\
-TSE P/B Reform Request (Mar 2023) & 19 & -0.23 & -- & -- & -- & -4.85 \\
-TSE P/B Reform Request (Mar 2023) & 20 & -0.26 & -- & -- & -- & -5.11 \\
-TSE P/B Reform Request (Mar 2023) & 21 & -0.33 & -- & -- & -- & -5.44 \\
-TSE P/B Reform Request (Mar 2023) & 22 & -0.40 & -- & -- & -- & -5.85 \\
-TSE P/B Reform Request (Mar 2023) & 23 & -0.36 & -- & -- & -- & -6.21 \\
-TSE P/B Reform Request (Mar 2023) & 24 & -0.27 & -- & -- & -- & -6.48 \\
+Japan Stewardship Code (Feb 2014) & -12 & -0.02 & -0.02 \\
+Japan Stewardship Code (Feb 2014) & -11 & 0.07 & 0.05 \\
+Japan Stewardship Code (Feb 2014) & -10 & -0.04 & 0.01 \\
+Japan Stewardship Code (Feb 2014) & -9 & -0.19 & -0.19 \\
+Japan Stewardship Code (Feb 2014) & -8 & -0.06 & -0.24 \\
+Japan Stewardship Code (Feb 2014) & -7 & -0.11 & -0.36 \\
+Japan Stewardship Code (Feb 2014) & -6 & -0.06 & -0.42 \\
+Japan Stewardship Code (Feb 2014) & -5 & 0.00 & -0.41 \\
+Japan Stewardship Code (Feb 2014) & -4 & -0.03 & -0.44 \\
+Japan Stewardship Code (Feb 2014) & -3 & 0.01 & -0.43 \\
+Japan Stewardship Code (Feb 2014) & -2 & -0.01 & -0.44 \\
+Japan Stewardship Code (Feb 2014) & -1 & 0.00 & -0.44 \\
+Japan Stewardship Code (Feb 2014) & 0 & 0.02 & -0.42 \\
+Japan Stewardship Code (Feb 2014) & 1 & 0.11 & -0.30 \\
+Japan Stewardship Code (Feb 2014) & 2 & 0.14 & -0.17 \\
+Japan Stewardship Code (Feb 2014) & 3 & 0.19 & 0.02 \\
+Japan Stewardship Code (Feb 2014) & 4 & 0.18 & 0.21 \\
+Japan Stewardship Code (Feb 2014) & 5 & 0.15 & 0.36 \\
+Japan Stewardship Code (Feb 2014) & 6 & 0.18 & 0.54 \\
+Japan Stewardship Code (Feb 2014) & 7 & 0.19 & 0.74 \\
+Japan Stewardship Code (Feb 2014) & 8 & 0.14 & 0.87 \\
+Japan Stewardship Code (Feb 2014) & 9 & 0.13 & 1.00 \\
+Japan Stewardship Code (Feb 2014) & 10 & 0.10 & 1.11 \\
+Japan Stewardship Code (Feb 2014) & 11 & 0.09 & 1.20 \\
+Japan Stewardship Code (Feb 2014) & 12 & 0.12 & 1.32 \\
+Japan Stewardship Code (Feb 2014) & 13 & 0.15 & 1.47 \\
+Japan Stewardship Code (Feb 2014) & 14 & 0.16 & 1.64 \\
+Japan Stewardship Code (Feb 2014) & 15 & 0.19 & 1.82 \\
+Japan Stewardship Code (Feb 2014) & 16 & 0.16 & 1.99 \\
+Japan Stewardship Code (Feb 2014) & 17 & 0.20 & 2.19 \\
+Japan Stewardship Code (Feb 2014) & 18 & 0.17 & 2.36 \\
+Japan Stewardship Code (Feb 2014) & 19 & 0.26 & 2.62 \\
+Japan Stewardship Code (Feb 2014) & 20 & 0.40 & 3.02 \\
+Japan Stewardship Code (Feb 2014) & 21 & 0.32 & 3.34 \\
+Japan Stewardship Code (Feb 2014) & 22 & 0.26 & 3.60 \\
+Japan Stewardship Code (Feb 2014) & 23 & 0.30 & 3.90 \\
+Japan Stewardship Code (Feb 2014) & 24 & 0.39 & 4.29 \\
+TSE Corporate Governance Code (Jun 2015) & -12 & 0.09 & 0.09 \\
+TSE Corporate Governance Code (Jun 2015) & -11 & 0.05 & 0.14 \\
+TSE Corporate Governance Code (Jun 2015) & -10 & 0.08 & 0.22 \\
+TSE Corporate Governance Code (Jun 2015) & -9 & 0.09 & 0.31 \\
+TSE Corporate Governance Code (Jun 2015) & -8 & 0.03 & 0.33 \\
+TSE Corporate Governance Code (Jun 2015) & -7 & 0.01 & 0.35 \\
+TSE Corporate Governance Code (Jun 2015) & -6 & -0.01 & 0.33 \\
+TSE Corporate Governance Code (Jun 2015) & -5 & -0.03 & 0.30 \\
+TSE Corporate Governance Code (Jun 2015) & -4 & -0.00 & 0.30 \\
+TSE Corporate Governance Code (Jun 2015) & -3 & 0.02 & 0.33 \\
+TSE Corporate Governance Code (Jun 2015) & -2 & 0.03 & 0.36 \\
+TSE Corporate Governance Code (Jun 2015) & -1 & 0.00 & 0.36 \\
+TSE Corporate Governance Code (Jun 2015) & 0 & 0.03 & 0.38 \\
+TSE Corporate Governance Code (Jun 2015) & 1 & 0.06 & 0.44 \\
+TSE Corporate Governance Code (Jun 2015) & 2 & 0.03 & 0.47 \\
+TSE Corporate Governance Code (Jun 2015) & 3 & 0.11 & 0.58 \\
+TSE Corporate Governance Code (Jun 2015) & 4 & 0.24 & 0.82 \\
+TSE Corporate Governance Code (Jun 2015) & 5 & 0.16 & 0.98 \\
+TSE Corporate Governance Code (Jun 2015) & 6 & 0.10 & 1.09 \\
+TSE Corporate Governance Code (Jun 2015) & 7 & 0.13 & 1.22 \\
+TSE Corporate Governance Code (Jun 2015) & 8 & 0.22 & 1.44 \\
+TSE Corporate Governance Code (Jun 2015) & 9 & 0.37 & 1.81 \\
+TSE Corporate Governance Code (Jun 2015) & 10 & 0.40 & 2.20 \\
+TSE Corporate Governance Code (Jun 2015) & 11 & 0.42 & 2.62 \\
+TSE Corporate Governance Code (Jun 2015) & 12 & 0.34 & 2.96 \\
+TSE Corporate Governance Code (Jun 2015) & 13 & 0.47 & 3.44 \\
+TSE Corporate Governance Code (Jun 2015) & 14 & 0.44 & 3.88 \\
+TSE Corporate Governance Code (Jun 2015) & 15 & 0.40 & 4.28 \\
+TSE Corporate Governance Code (Jun 2015) & 16 & 0.43 & 4.71 \\
+TSE Corporate Governance Code (Jun 2015) & 17 & 0.36 & 5.08 \\
+TSE Corporate Governance Code (Jun 2015) & 18 & 0.30 & 5.37 \\
+TSE Corporate Governance Code (Jun 2015) & 19 & 0.29 & 5.66 \\
+TSE Corporate Governance Code (Jun 2015) & 20 & 0.32 & 5.98 \\
+TSE Corporate Governance Code (Jun 2015) & 21 & 0.37 & 6.35 \\
+TSE Corporate Governance Code (Jun 2015) & 22 & 0.45 & 6.80 \\
+TSE Corporate Governance Code (Jun 2015) & 23 & 0.47 & 7.26 \\
+TSE Corporate Governance Code (Jun 2015) & 24 & 0.57 & 7.83 \\
+TSE P/B Reform Request (Mar 2023) & -12 & 0.03 & 0.03 \\
+TSE P/B Reform Request (Mar 2023) & -11 & -0.00 & 0.03 \\
+TSE P/B Reform Request (Mar 2023) & -10 & 0.01 & 0.04 \\
+TSE P/B Reform Request (Mar 2023) & -9 & 0.07 & 0.11 \\
+TSE P/B Reform Request (Mar 2023) & -8 & -0.04 & 0.07 \\
+TSE P/B Reform Request (Mar 2023) & -7 & -0.04 & 0.03 \\
+TSE P/B Reform Request (Mar 2023) & -6 & -0.05 & -0.03 \\
+TSE P/B Reform Request (Mar 2023) & -5 & -0.09 & -0.12 \\
+TSE P/B Reform Request (Mar 2023) & -4 & -0.10 & -0.22 \\
+TSE P/B Reform Request (Mar 2023) & -3 & -0.05 & -0.27 \\
+TSE P/B Reform Request (Mar 2023) & -2 & -0.08 & -0.35 \\
+TSE P/B Reform Request (Mar 2023) & -1 & 0.00 & -0.35 \\
+TSE P/B Reform Request (Mar 2023) & 0 & -0.08 & -0.44 \\
+TSE P/B Reform Request (Mar 2023) & 1 & -0.08 & -0.52 \\
+TSE P/B Reform Request (Mar 2023) & 2 & -0.10 & -0.62 \\
+TSE P/B Reform Request (Mar 2023) & 3 & -0.13 & -0.75 \\
+TSE P/B Reform Request (Mar 2023) & 4 & -0.22 & -0.98 \\
+TSE P/B Reform Request (Mar 2023) & 5 & -0.22 & -1.20 \\
+TSE P/B Reform Request (Mar 2023) & 6 & -0.20 & -1.40 \\
+TSE P/B Reform Request (Mar 2023) & 7 & -0.22 & -1.63 \\
+TSE P/B Reform Request (Mar 2023) & 8 & -0.25 & -1.88 \\
+TSE P/B Reform Request (Mar 2023) & 9 & -0.21 & -2.09 \\
+TSE P/B Reform Request (Mar 2023) & 10 & -0.16 & -2.25 \\
+TSE P/B Reform Request (Mar 2023) & 11 & -0.32 & -2.57 \\
+TSE P/B Reform Request (Mar 2023) & 12 & -0.32 & -2.89 \\
+TSE P/B Reform Request (Mar 2023) & 13 & -0.34 & -3.23 \\
+TSE P/B Reform Request (Mar 2023) & 14 & -0.33 & -3.56 \\
+TSE P/B Reform Request (Mar 2023) & 15 & -0.30 & -3.87 \\
+TSE P/B Reform Request (Mar 2023) & 16 & -0.26 & -4.13 \\
+TSE P/B Reform Request (Mar 2023) & 17 & -0.26 & -4.39 \\
+TSE P/B Reform Request (Mar 2023) & 18 & -0.23 & -4.63 \\
+TSE P/B Reform Request (Mar 2023) & 19 & -0.23 & -4.85 \\
+TSE P/B Reform Request (Mar 2023) & 20 & -0.26 & -5.11 \\
+TSE P/B Reform Request (Mar 2023) & 21 & -0.33 & -5.44 \\
+TSE P/B Reform Request (Mar 2023) & 22 & -0.40 & -5.85 \\
+TSE P/B Reform Request (Mar 2023) & 23 & -0.36 & -6.21 \\
+TSE P/B Reform Request (Mar 2023) & 24 & -0.27 & -6.48 \\
 \bottomrule
 \end{tabular}
 \end{table}

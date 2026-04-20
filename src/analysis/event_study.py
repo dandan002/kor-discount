@@ -7,7 +7,6 @@ CAR estimates plus a paper-ready LaTeX coefficient table.
 """
 import logging
 import sys
-import warnings
 from pathlib import Path
 
 import matplotlib
@@ -38,9 +37,6 @@ OUTPUT_COLUMNS = [
     "event_label",
     "event_rel_time",
     "coefficient",
-    "hc3_se",
-    "t_stat",
-    "p_value",
     "car",
 ]
 
@@ -182,7 +178,7 @@ def build_stacked_dataset(panel: pd.DataFrame) -> pd.DataFrame:
 
 
 def estimate_event_study(stacked: pd.DataFrame) -> pd.DataFrame:
-    """Estimate cohort x relative-time effects with HC3 standard errors."""
+    """Estimate cohort x relative-time effects as descriptive estimates."""
     windowed = stacked[
         stacked["event_rel_time"].between(EVENT_WINDOW_MIN, EVENT_WINDOW_MAX)
     ].copy()
@@ -211,19 +207,12 @@ def estimate_event_study(stacked: pd.DataFrame) -> pd.DataFrame:
 
     y = windowed["abnormal_spread"].astype(float)
     x = pd.DataFrame(design_data, index=windowed.index, columns=design_names)
-    with warnings.catch_warnings():
-        warnings.filterwarnings(
-            "ignore",
-            message="invalid value encountered in divide",
-            category=RuntimeWarning,
-            module="statsmodels.regression.linear_model",
-        )
-        robust = sm.OLS(y, x).fit().get_robustcov_results(cov_type="HC3")
-
-    params = pd.Series(np.asarray(robust.params, dtype=float), index=design_names)
-    bse = pd.Series(np.asarray(robust.bse, dtype=float), index=design_names)
-    tvalues = pd.Series(np.asarray(robust.tvalues, dtype=float), index=design_names)
-    pvalues = pd.Series(np.asarray(robust.pvalues, dtype=float), index=design_names)
+    # HC3 is not computable for the saturated cohort x relative-time design
+    # (one indicator per cell makes hat-matrix diagonals ≈ 1, producing undefined
+    # sandwich estimates). Coefficients and CARs are presented as descriptive
+    # estimates only. No standard-error or inference columns are reported.
+    ols_result = sm.OLS(y, x).fit()
+    params = pd.Series(np.asarray(ols_result.params, dtype=float), index=design_names)
 
     rows = []
     for event_date in [pd.Timestamp(event_date) for event_date in config.EVENT_DATES]:
@@ -236,9 +225,6 @@ def estimate_event_study(stacked: pd.DataFrame) -> pd.DataFrame:
                     "event_label": event_label,
                     "event_rel_time": rel_time,
                     "coefficient": 0.0,
-                    "hc3_se": 0.0,
-                    "t_stat": 0.0,
-                    "p_value": 1.0,
                 }
             else:
                 column = f"cohort_{cohort}__rel_{rel_time}"
@@ -247,9 +233,6 @@ def estimate_event_study(stacked: pd.DataFrame) -> pd.DataFrame:
                     "event_label": event_label,
                     "event_rel_time": rel_time,
                     "coefficient": float(params[column]),
-                    "hc3_se": float(bse[column]),
-                    "t_stat": float(tvalues[column]),
-                    "p_value": float(pvalues[column]),
                 }
             rows.append(row)
 
@@ -259,16 +242,13 @@ def estimate_event_study(stacked: pd.DataFrame) -> pd.DataFrame:
 
 
 def _write_latex_table(car_df: pd.DataFrame, path: Path) -> None:
-    """Write the event-study coefficient table with HC3/CAR notation."""
+    """Write the event-study coefficient table as descriptive CARs."""
     table = car_df.copy()
     table = table.rename(
         columns={
             "event_label": "Event",
             "event_rel_time": "Month",
             "coefficient": "Coefficient",
-            "hc3_se": "HC3 SE",
-            "t_stat": "t-stat",
-            "p_value": "p-value",
             "car": "CAR",
         }
     )
@@ -278,11 +258,13 @@ def _write_latex_table(car_df: pd.DataFrame, path: Path) -> None:
         escape=False,
         float_format="%.2f",
         na_rep="--",
-        caption="Stacked event-study cumulative abnormal valuation changes.",
+        caption="Stacked event-study descriptive CAR estimates (no inference reported).",
         label="tab:event_study_coefs",
     )
     path.write_text(
-        "% HC3 robust standard errors; CAR is cumulative abnormal KOSPI-TOPIX P/B spread.\n"
+        "% Descriptive CARs: coefficients and cumulative abnormal KOSPI-TOPIX P/B spread.\n"
+        "% Standard errors are not reported: the saturated cohort x relative-time design\n"
+        "% makes sandwich robust inference undefined. See paper text for robustness discussion.\n"
         + latex,
         encoding="utf-8",
     )
