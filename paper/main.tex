@@ -1,0 +1,153 @@
+\documentclass[12pt]{article}
+
+% Page geometry -- NBER style
+\usepackage[margin=1in]{geometry}
+
+% Font: Times New Roman
+\usepackage{newtxtext,newtxmath}
+
+% Double spacing
+\usepackage{setspace}
+\doublespacing
+
+% Bibliography -- author-year
+\usepackage[authoryear,round]{natbib}
+
+% Tables
+\usepackage{booktabs}
+\usepackage{longtable}
+
+% Figures
+\usepackage{graphicx}
+
+% Math
+\usepackage{amsmath}
+
+% Appendices
+\usepackage[titletoc]{appendix}
+
+% Captions
+\usepackage{caption}
+
+% Hyperlinks (load last)
+\usepackage[hidelinks]{hyperref}
+
+\title{Corporate Governance Reform and the Korea Discount:\\
+Evidence from Japan's Natural Experiment}
+\author{[Author]}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+% ABSTRACT -- to be completed in Plan 03
+Placeholder abstract.
+\end{abstract}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Introduction}
+% INTRODUCTION -- to be completed in Plan 03
+
+\section{Institutional Background}
+% INSTITUTIONAL BACKGROUND -- to be completed in Plan 03
+
+\section{Literature Review}
+% LITERATURE REVIEW -- to be completed in Plan 03
+
+\section{Data}
+% DATA -- to be completed in Plan 03
+
+\section{Causal Mechanisms}
+% CAUSAL MECHANISMS -- to be completed in Plan 04
+
+\section{Empirical Strategy}
+% EMPIRICAL STRATEGY -- to be completed in Plan 04
+
+\section{Results}
+% RESULTS -- to be completed in Plan 04
+
+% Figure 1: 20-year KOSPI P/B vs peers
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{../output/figures/figure1_pb_comparison.pdf}
+  \caption{KOSPI P/B ratio relative to TOPIX, S\&P 500, and MSCI EM (2004--2024).}
+  \label{fig:pb_comparison}
+\end{figure}
+
+% Figure 2: Stacked event study CARs
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{../output/figures/figure2_event_study.pdf}
+  \caption{Cumulative abnormal valuation changes around Japan's three corporate governance reform dates.}
+  \label{fig:event_study}
+\end{figure}
+
+% Table 1: Summary statistics
+\input{../output/tables/table1_summary_stats.tex}
+
+% Table 2: Panel OLS with wild-bootstrap p-values
+\input{../output/tables/table2_ols.tex}
+
+% Event study coefficient table
+\input{../output/tables/table_event_study_coefs.tex}
+
+\section{Discussion and Limitations}
+% DISCUSSION AND LIMITATIONS -- to be completed in Plan 04
+
+\section{Conclusion}
+% CONCLUSION -- to be completed in Plan 04
+
+\section{Policy Recommendations}
+% POLICY RECOMMENDATIONS -- to be completed in Plan 04
+
+% Figure 4: Counterfactual projection
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{../output/figures/figure4_counterfactual_projection.pdf}
+  \caption{Illustrative projection of KOSPI P/B assuming Korea implements a P/B governance reform analogous to Japan's 2023 TSE reform.}
+  \label{fig:counterfactual}
+\end{figure}
+
+\bibliographystyle{apalike}
+\bibliography{references}
+
+\begin{appendices}
+
+\section{Variable Definitions}
+% APPENDIX A -- to be completed in Plan 04
+
+\section{Additional Robustness Tables}
+% APPENDIX B -- to be completed in Plan 04
+
+% Figure: Geopolitical risk overlay
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{../output/figures/figure3_geo_risk.pdf}
+  \caption{Geopolitical risk index (GPR) and KOSPI P/B discount.}
+  \label{fig:geo_risk}
+\end{figure}
+
+% Table 3: Geopolitical risk regression
+\input{../output/tables/table3_geo_risk.tex}
+
+% Synthetic control gap plot
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{../output/figures/figure_synth_gap.pdf}
+  \caption{Synthetic control gap: TOPIX P/B (actual) minus synthetic TOPIX P/B, 2023 TSE P/B reform.}
+  \label{fig:synth_gap}
+\end{figure}
+
+% Robustness table fragments
+\input{../output/robustness/robustness_alt_control_em_asia.tex}
+\input{../output/robustness/robustness_alt_control_em_exchina.tex}
+\input{../output/robustness/robustness_pe_ols.tex}
+\input{../output/robustness/robustness_pe_event_coefs.tex}
+
+\end{appendices}
+
+\end{document}
