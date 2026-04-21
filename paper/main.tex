@@ -572,12 +572,229 @@ used in the geopolitical risk sub-analysis (Section~\ref{sec:results}) is source
 %% ============================================================
 \section{Causal Mechanisms}
 \label{sec:mechanisms}
-% CAUSAL MECHANISMS -- to be completed in Plan 04
 %% ============================================================
 
+This section develops the three-channel causal mechanism that underpins the Korea Discount
+hypothesis. We argue that the discount is not a single-cause phenomenon but rather the
+compounded product of three structural features, each of which independently suppresses the
+equity risk premium required by international investors: (1) chaebol opacity and associated
+agency costs; (2) a minority-shareholder recourse deficit rooted in legal and regulatory
+design; and (3) a geopolitical risk premium arising from North Korea's persistent nuclear
+brinkmanship. The interaction of these three channels creates a cumulative discount that
+exceeds what any individual channel would predict in isolation.
+
+\subsection{Chaebol Opacity and Agency Costs}
+
+The dominant feature of Korean corporate structure is the \textit{chaebol}: a family-controlled
+conglomerate in which the founding family exercises effective control over dozens of listed and
+unlisted affiliates through a web of pyramid ownership and circular cross-shareholding, while
+holding a comparatively small direct equity stake in each entity. \citet{claessens2000}
+document systematically across East Asian corporations that the ratio of control rights to
+cash-flow rights is highest in Korea, with the median Korean family controlling firm exhibiting
+a control-to-cash-flow ratio of approximately 2:1. In large chaebols such as Samsung, SK, and
+LG, this ratio is substantially higher, with founding-family groups exercising majority voting
+control from minority cash-flow positions.
+
+This ownership architecture generates a \textit{principal--principal} agency problem that is
+analytically distinct from the classic principal--agent framework \citep{jensen1976}. In the
+Jensen--Meckling model, the primary conflict is between managers (agents) and dispersed
+shareholders (the principal), who bear the residual risk. In the chaebol context, the conflict
+is between the controlling family (a concentrated principal) and minority shareholders (diffuse
+outside principals). The controlling family has both the incentive and the means to extract
+private benefits from affiliates --- a form of tunneling --- without bearing the proportionate
+economic cost, since their cash-flow rights are small relative to their control rights.
+
+The empirical consequences for valuation are well-documented. \citet{baek2004} exploit the
+1997 Korean financial crisis as a natural experiment and show that firms with greater
+separation between control rights and cash-flow rights experienced larger equity value declines
+during the crisis, net of firm-level characteristics. Their results establish that tunneling
+and cross-shareholding are not merely theoretical concerns but have quantifiable and economically
+large effects on market valuations: better-governed chaebols suffered smaller crisis-period
+declines, directly linking the control-cash-flow wedge to market prices.
+
+The opacity channel operates through several distinct mechanisms that collectively inflate the
+equity risk premium. First, intragroup related-party transactions --- loans, asset transfers,
+and supply contracts between chaebol affiliates --- are difficult to assess from public
+disclosures. Minority shareholders face uncertainty about whether transaction prices reflect
+arm's-length market terms or subsidize other group members. Second, the chaebol's group-level
+accounting --- where consolidated financial statements aggregate dozens of affiliates --- makes
+it difficult to assess the economics of individual listed entities. Third, controlling families
+have a documented incentive to keep equity prices depressed during generational wealth
+transfers, given Korea's inheritance tax rates of up to 60\%, which are applied to the
+market value of shares. Depressed P/B ratios are, from this perspective, instrumentally
+useful to controlling families, creating a structural floor below which governance reform
+pressure from minority shareholders is insufficient to lift valuations.
+
+The index-level P/B discount measured in this paper is an aggregate manifestation of these
+firm-level mechanisms. Because chaebol-affiliated firms represent the substantial majority of
+KOSPI market capitalization, and because the Korea Discount is measured at the index level,
+our estimate reflects the economy-wide cost of the chaebol structure to outside equity investors.
+
+\subsection{Minority Shareholder Recourse Deficit}
+
+The second structural channel is the comparative weakness of Korean law and regulation in
+protecting minority shareholders' ability to seek legal recourse against controlling-shareholder
+misconduct. \citet{porta1998} and \citet{porta2002} establish the foundational law-and-finance
+framework: countries with stronger statutory investor protections have larger, more liquid
+capital markets and higher equity valuations, consistent with minority shareholders' ability
+to discipline controlling shareholders and extract returns from firms. Korea's civil-law
+tradition, combined with the chaebol structure, places it toward the weak-investor-protection
+end of the international distribution during the 2004--2020 period examined in this paper.
+
+Specific legal deficiencies during the primary sample period include: (i) derivative suit
+standing requirements that imposed relatively high ownership thresholds for minority
+shareholders seeking to challenge controlling-shareholder decisions in court; (ii) board
+independence requirements that were comparatively lax relative to OECD peers --- the
+Commercial Act did not mandate a majority of independent directors on large company boards
+until reforms beginning in 2020; (iii) related-party transaction disclosure thresholds that
+permitted intragroup transactions below certain size limits to proceed without shareholder
+approval; and (iv) shareholder proposal mechanisms that required ownership thresholds higher
+than those in the United States or the United Kingdom.
+
+The trajectory of minority-shareholder legal protections in Korea is improving but recent.
+Korea adopted its Stewardship Code in December 2016 (revised in 2018), and the FSC's
+Korea Corporate Value-Up Program (2024) represents the most direct policy response to the
+discount. The Commercial Act amendments proposed in 2025 --- which would strengthen fiduciary
+duties to explicitly include minority shareholders --- would represent a fundamental shift
+analogous to Japan's legislative governance reforms \citep{porta1998, porta2002}. However,
+the primary period examined in this paper (2004--2024) is characterized by the pre-reform
+baseline, during which the recourse deficit is most acute.
+
+\subsection{Geopolitical Risk Premium}
+
+The third structural channel is the persistent country-specific risk premium arising from
+North Korea's nuclear weapons and ballistic missile program. Unlike the governance channels,
+which in principle could be eliminated through domestic policy reform, the geopolitical risk
+channel reflects an external threat with no direct Korean government lever for resolution
+in the short term.
+
+The risk premium operates through two mechanisms. First, the tail risk of armed conflict on
+the Korean peninsula --- however low the unconditional probability --- warrants a discount to
+intrinsic value that is not shared by TOPIX, S\&P~500, or MSCI~EM. International institutional
+investors must account for this tail risk in portfolio construction; even a small probability
+of catastrophic loss justifies a meaningful discount to expected cash-flow-based valuations.
+Second, North Korean escalation events introduce episodic volatility in Korean asset prices
+that increases systematic risk and reduces KOSPI's attractiveness in mean-variance portfolio
+optimization.
+
+The geopolitical risk premium is measured in this paper using the Caldara--Iacoviello
+Geopolitical Risk index \citep{caldara2022}, with the Korea-specific GPRNK sub-index
+isolating North Korean escalation events. The empirical results (Section~\ref{sec:results})
+estimate the GPR escalation coefficient at $-0.02$ ($t = -0.84$, $p = 0.40$) --- statistically
+insignificant at conventional levels. This finding is consistent with two interpretations:
+either the geopolitical risk premium is continuously priced by markets rather than reacting
+sharply to discrete escalation events (i.e., it is baked into the structural discount but
+does not cause time-series spikes around individual events), or the monthly frequency of our
+panel is insufficient to detect short-lived event reactions that resolve within a month.
+The \citet{imf2021} GPRNK analysis is consistent with the former interpretation, finding
+that North Korean provocations increase systematic risk and market beta --- a level effect
+on the required return --- rather than causing cumulative permanent discount widening
+following each escalation event.
+
+This interpretation does not reduce the importance of the geopolitical channel as a structural
+discount driver. It suggests instead that the geopolitical risk premium is embedded in the
+``base discount'' --- the level difference between KOSPI and TOPIX P/B --- rather than
+generating time-series variation that can be identified by an escalation dummy in a regression.
+The implication for policy is that geopolitical risk reduction (through diplomatic progress)
+would require a sustained, regime-level de-escalation rather than a one-time event to generate
+a measurable effect on the Korea--TOPIX P/B spread.
+
+%% ============================================================
 \section{Empirical Strategy}
 \label{sec:strategy}
-% EMPIRICAL STRATEGY -- to be completed in Plan 04
+%% ============================================================
+
+This paper employs three complementary identification strategies. The stacked event study is
+the primary identification approach; panel OLS and synthetic control serve as corroborating
+evidence. All three designs exploit Japan's three governance reform dates as the source of
+exogenous variation, using Korea (and the S\&P~500 and MSCI~EM) as never-treated comparison
+units. All reform dates are fixed in \texttt{config.py} before any data transformation.
+
+\subsection{Stacked Event Study}
+
+Following \citet{cengiz2019} and \citet{baker2022}, the stacked event study constructs a
+separate clean comparison cohort for each of the three Japan reform dates. This procedure
+avoids the ``bad control'' contamination that arises in pooled difference-in-differences
+designs when reform windows overlap: in a simple TWFE design, observations that are
+post-treatment relative to one reform but pre-treatment relative to a later reform would be
+treated as control units in the later cohort, contaminating the control group with treated
+observations. The cohort-stacking approach prevents this by creating separate sub-datasets
+for each cohort, restricting the control group to never-treated units throughout.
+
+For each reform cohort $k \in \{2014, 2015, 2023\}$, we construct a sub-dataset containing
+all country-month observations within a $[-24, +24]$ month event window around the reform
+date. Within each cohort, Japan is the treated unit and Korea (KOSPI), the US (S\&P~500),
+and EM (MSCI\_EM) are the never-treated comparison units. The estimating equation for each
+cohort is:
+
+\begin{equation}
+  \Delta Y_{ct,k} = \alpha_{c,k} + \alpha_{t,k} + \sum_{\tau=-W}^{W} \beta_{\tau,k} \cdot \mathbf{1}[c = \text{Japan}] \cdot \mathbf{1}[t = t_k + \tau] + \varepsilon_{ct,k}
+  \label{eq:event_study}
+\end{equation}
+
+where $Y_{ct,k}$ is the P/B ratio for country $c$ at time $t$ in cohort $k$; $\alpha_{c,k}$
+and $\alpha_{t,k}$ are cohort-specific country and time fixed effects absorbing cross-sectional
+level differences and common time trends; $\beta_{\tau,k}$ are the cohort-specific event-time
+coefficients tracing the cumulative abnormal return (CAR) for Japan relative to the never-treated
+pool; $W = 24$ months is the half-window length; and $\tau = 0$ corresponds to the reform
+announcement date. The CAR for Japan at event-time $\tau$ in cohort $k$ is the cumulative
+sum $\sum_{s \leq \tau} \beta_{s,k}$. Pre-treatment CARs ($\tau < 0$) serve as a visual
+parallel-trends test; systematic pre-treatment trend divergence would invalidate the DiD
+assumption.
+
+\subsection{Panel OLS}
+
+As a complementary approach, we estimate a two-way fixed effects panel OLS specification
+using the full country-month panel. The estimating equation is:
+
+\begin{equation}
+  Y_{ct} = \alpha_c + \alpha_t + \sum_{k} \beta_k \cdot D_{kt} \cdot \mathbf{1}[c = \text{Japan}] + \varepsilon_{ct}
+  \label{eq:panel_ols}
+\end{equation}
+
+where $Y_{ct}$ is the P/B ratio for country $c$ at month $t$; $\alpha_c$ and $\alpha_t$ are
+country and time fixed effects; $D_{kt}$ is an indicator equal to 1 for periods after reform
+$k$ (i.e., $D_{kt} = \mathbf{1}[\text{date} \geq \text{reform\_date}_k]$); and
+$\mathbf{1}[c = \text{Japan}]$ is an indicator for Japan (TOPIX). The three reform-by-Japan
+interaction terms $\beta_k$ are the parameters of interest, measuring the average P/B level
+shift in Japan following each reform, net of country and time fixed effects. The specification
+is estimated via \texttt{linearmodels.PanelOLS} in Python, with entity (country) and time
+fixed effects absorbed by within-demeaning.
+
+Inference: wild-bootstrap with 999 Rademacher draws, clustered by country. Wild-bootstrap
+inference is appropriate because we have only $N = 4$ country clusters (KOSPI, TOPIX, SP500,
+MSCI\_EM). Asymptotic cluster-robust variance estimators have poor finite-sample properties
+when the number of clusters is small; \citet{cameron2008} show that the wild bootstrap with
+Rademacher weights provides size-correct inference under the null in settings where the
+number of clusters is too small for the cluster-robust central limit theorem to apply. With
+$N = 4$ clusters, however, even wild-bootstrap inference is conservative --- the test is
+over-sized under the null for very few clusters --- so we interpret $p$-values alongside
+point estimates throughout and do not over-read statistically insignificant results as
+evidence of zero treatment effects.
+
+\subsection{Synthetic Control}
+
+Following \citet{abadie2010}, we apply the synthetic control method to the 2023 TSE P/B
+reform --- the single cleanest event in the treatment sequence, with the longest post-treatment
+window available and the most direct P/B mandate. The synthetic control constructs a convex
+weighted combination of donor pool countries (STOXX600, FTSE100, MSCI HK, MSCI Taiwan,
+S\&P~500) that minimizes the pre-treatment mean squared prediction error (MSPE) on the
+outcome variable (TOPIX P/B) over the pre-treatment period.
+
+SUTVA justification: each donor is a market that did not implement an analogous P/B mandate
+reform in 2023. KOSPI is excluded from the donor pool explicitly to avoid conflating the
+primary comparison unit with the control weight. The post-treatment gap --- actual TOPIX P/B
+minus synthetic TOPIX P/B --- estimates the causal effect of the 2023 TSE reform on Japanese
+equity valuations, under the assumption that the synthetic Japan would have followed the
+counterfactual trajectory absent the reform.
+
+The optimization assigns full weight to MSCI Hong Kong (weight $= 1.0$); all other donors
+receive weight $= 0.0$. The pre-treatment RMSPE is $0.2893$ --- substantially above the
+conventional acceptance threshold of approximately $0.15$. We interpret the synthetic control
+as corroborating evidence rather than primary causal identification: the sparse donor pool,
+with limited pre-2023 variation in governance trajectories, produces a synthetic Japan that
+imperfectly tracks the pre-treatment TOPIX P/B series. The stacked event study in
+Equation~\ref{eq:event_study} is the primary identification approach.
 
 \section{Results}
 \label{sec:results}
