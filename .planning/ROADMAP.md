@@ -103,11 +103,11 @@ Plans:
 **Plans**: 5 plans
 
 Plans:
-- [ ] 05-01-PLAN.md — Foundation: test scaffold, policy package, synthetic_control.py gap CSV fix, counterfactual_projection.py, run_all.py
-- [ ] 05-02-PLAN.md — LaTeX scaffold: paper/main.tex skeleton with all section stubs, paper/references.bib (~35-40 entries)
-- [ ] 05-03-PLAN.md — Paper prose Part 1: Abstract, Introduction, Institutional Background, Literature Review, Data (sections 1-5)
-- [ ] 05-04-PLAN.md — Paper prose Part 2: Causal Mechanisms, Empirical Strategy, Results, Discussion, Conclusion, Policy, Appendices (sections 6-12)
-- [ ] 05-05-PLAN.md — Integration + compile: fix any issues, latexmk compilation, README two-command workflow, full pytest gate
+- [x] 05-01-PLAN.md — Foundation: test scaffold, policy package, synthetic_control.py gap CSV fix, counterfactual_projection.py, run_all.py
+- [x] 05-02-PLAN.md — LaTeX scaffold: paper/main.tex skeleton with all section stubs, paper/references.bib (~35-40 entries)
+- [x] 05-03-PLAN.md — Paper prose Part 1: Abstract, Introduction, Institutional Background, Literature Review, Data (sections 1-5)
+- [x] 05-04-PLAN.md — Paper prose Part 2: Causal Mechanisms, Empirical Strategy, Results, Discussion, Conclusion, Policy, Appendices (sections 6-12)
+- [x] 05-05-PLAN.md — Integration + compile: fix any issues, latexmk compilation, README two-command workflow, full pytest gate
 
 ## Progress
 
