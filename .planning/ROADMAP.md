@@ -100,10 +100,14 @@ Plans:
   2. Every figure and table in the PDF is included via `\includegraphics{}` or `\input{}` pointing to a file in `output/` — no manually created charts or hand-typed numbers
   3. Policy section provides specific near-term recommendations tied to FSC, KRX, and stewardship code levers; counterfactual projection for Korea is clearly labeled as illustrative
   4. Running `python run_all.py` from a clean checkout (with raw data present) regenerates all figures and tables without error; `requirements.txt` pins all dependencies and a README documents the two-command reproduction workflow
-**Plans**: TBD
+**Plans**: 5 plans
 
 Plans:
-- Not planned yet
+- [ ] 05-01-PLAN.md — Foundation: test scaffold, policy package, synthetic_control.py gap CSV fix, counterfactual_projection.py, run_all.py
+- [ ] 05-02-PLAN.md — LaTeX scaffold: paper/main.tex skeleton with all section stubs, paper/references.bib (~35-40 entries)
+- [ ] 05-03-PLAN.md — Paper prose Part 1: Abstract, Introduction, Institutional Background, Literature Review, Data (sections 1-5)
+- [ ] 05-04-PLAN.md — Paper prose Part 2: Causal Mechanisms, Empirical Strategy, Results, Discussion, Conclusion, Policy, Appendices (sections 6-12)
+- [ ] 05-05-PLAN.md — Integration + compile: fix any issues, latexmk compilation, README two-command workflow, full pytest gate
 
 ## Progress
 
@@ -116,4 +120,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 2. Descriptive Analysis | 4/4 | Complete | 2026-04-17 |
 | 3. Primary Empirics | 6/6 | Complete | 2026-04-20 |
 | 4. Synthetic Control and Robustness | 6/6 | Complete | 2026-04-21 |
-| 5. Paper Assembly and Replication Package | 0/TBD | Not started | - |
+| 5. Paper Assembly and Replication Package | 0/5 | Not started | - |
