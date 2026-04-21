@@ -24,13 +24,17 @@ Explores whether the Korea Discount is structural and addressable — with causa
 - [Phase 4, 2026-04-21] Synthetic control robustness for the 2023 TSE P/B reform using `pysyncon`, including donor weights, RMSPE, gap plot, and in-time/in-space placebo figures. Validated in Phase 4.
 - [Phase 4, 2026-04-21] Robustness suite covering Taiwan/Indonesia placebo falsification, P/E replications, and alternative EM control groups. Validated in Phase 4.
 
+### Validated
+
+- [Phase 5, 2026-04-21] Causal mechanism section covering three drivers: chaebol cross-shareholding opacity, weak minority-shareholder regulatory recourse, and North Korea geopolitical risk premium. Validated in Phase 5.
+- [Phase 5, 2026-04-21] Natural experiment analysis using Japan's staggered governance reforms (Stewardship Code 2014, Corporate Governance Code 2015, TSE P/B reform 2023) as treatment events. Validated in Phase 5.
+- [Phase 5, 2026-04-21] Near- and long-term policy recommendations for Korea (FSC, KRX, regulatory levers) with illustrative counterfactual projection (Figure 4). Validated in Phase 5.
+- [Phase 5, 2026-04-21] Final paper document — `paper/main.tex` compiled to `paper/main.pdf` (48 pages, 370 KB) integrating all prose, figures, and tables. Validated in Phase 5.
+- [Phase 5, 2026-04-21] Reproducible replication package: `run_all.py` orchestrates all 11 scripts in dependency order; two-command workflow documented in README.md. Validated in Phase 5.
+
 ### Active
 
-- [ ] Causal mechanism section covering three drivers: chaebol cross-shareholding opacity, weak minority-shareholder regulatory recourse, and North Korea geopolitical risk premium
-- [ ] Natural experiment analysis using Japan's staggered governance reforms (Stewardship Code 2014, Corporate Governance Code 2015, TSE P/B reform 2023) as treatment events
-- [ ] Near- and long-term policy recommendations for Korea (FSC, KRX, regulatory levers)
-- [ ] Final paper document (LaTeX or similar) integrating prose, figures, and tables from the analysis
-- [ ] Reproducible repo: downstream analysis scripts, figure/table generation, and final replication entrypoint from the validated panel
+(none — all milestone requirements validated)
 
 ### Out of Scope
 
@@ -89,4 +93,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-21 after Phase 4 completion*
+*Last updated: 2026-04-21 after Phase 5 completion — paper/main.pdf compiled (370 KB, 48 pages), run_all.py orchestrates all 11 scripts, replication package complete. All 5 milestone phases complete.*
