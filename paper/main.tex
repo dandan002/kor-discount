@@ -950,24 +950,262 @@ attributable to chance.
 \label{sec:discussion}
 %% ============================================================
 
+The empirical findings reported in Section~\ref{sec:results} are subject to several important
+limitations. We address the three most significant: the single treated unit problem, the
+Abenomics confound, and the question of Japan-to-Korea generalizability.
+
+\subsection{Single Treated Unit Problem}
+
+The primary methodological limitation of this study is that Japan is the only treated country
+($N = 1$). This creates fundamental challenges for causal inference that no single identification
+strategy can fully resolve. With $N = 1$ treated unit, cluster-robust standard errors computed
+for the treated country are undefined; the within-country variance for the treated unit cannot
+be used to construct a valid confidence interval for the treatment effect in the traditional
+cluster-robust framework.
+
+The stacked event study design partially addresses this limitation by estimating Japan's CAR
+directly against the never-treated pool (KOSPI, S\&P~500, MSCI\_EM), treating the three
+reform cohorts as three separate quasi-experiments. However, the cohorts are not independent:
+all three reform events happened to the same country (Japan), and the same macroeconomic
+and institutional factors affect all three cohort observations. The pre-treatment parallel
+trends assumption must hold conditional on country and time fixed effects, which absorb
+level differences and common time trends but cannot fully account for Japan-specific shocks
+that coincide with reform dates.
+
+The wild-bootstrap inference used in the panel OLS specification \citep{cameron2008} provides
+size-correct inference for the null hypothesis of zero treatment effect under the finite-cluster
+assumption, but with only $N = 4$ clusters in total (Japan, Korea, US, EM), the bootstrap
+remains highly conservative. We interpret all statistical results with this caveat prominent:
+the evidence is directional and descriptive rather than providing precise causal estimates
+with confidence intervals that can be treated as credible bounds on the true treatment effect.
+
+The synthetic control design \citep{abadie2010} provides a framework specifically designed
+for the $N = 1$ treated unit setting. The permutation-based inference --- comparing Japan's
+synthetic control gap to placebo gaps for each donor country --- offers a non-parametric
+approach to assessing the probability of observing Japan's post-reform gap by chance.
+However, the elevated pre-treatment RMSPE of 0.2893 limits the credibility of the permutation
+inference; if the synthetic Japan does not closely track actual Japan pre-reform, the
+post-reform gap may reflect pre-existing divergence rather than a reform effect.
+
+\subsection{The Abenomics Confound}
+
+Japan's governance reform program unfolded during the ``Abenomics'' macroeconomic policy
+package introduced by Prime Minister Shinzo Abe beginning in December 2012. Abenomics
+encompassed three policy pillars: aggressive monetary easing by the Bank of Japan (including
+quantitative and qualitative easing (QQE) launched in April 2013 and Yield Curve Control
+(YCC) launched in September 2016), fiscal stimulus, and structural reforms. The TOPIX P/B
+appreciation observed during the 2013--2020 period may thus reflect Abenomics' macroeconomic
+effects --- particularly the yen depreciation that improved the competitiveness of Japanese
+exporters and the compression of risk-free rates that mechanically elevates equity valuations
+via the discount rate channel --- rather than governance reform effects per se.
+
+Several features of our design mitigate, but do not fully eliminate, the Abenomics confound.
+First, the synthetic control donor pool includes markets (S\&P~500, STOXX600, FTSE100,
+MSCI Taiwan) that also experienced global monetary easing during 2013--2020; if the TOPIX
+lift reflects global liquidity conditions rather than Japan-specific factors, the synthetic
+Japan --- constructed from these same globally-eased markets --- should follow a similar
+trajectory, and the gap would be small. The post-2023 gap opening, which occurs outside the
+primary Abenomics period (the Yield Curve Control anchor was removed in 2024), is arguably
+cleaner from a confound perspective.
+
+Second, the stacked event study uses reform-specific $[-24, +24]$ month event windows that
+are sufficiently narrow to isolate the period around each governance announcement, reducing
+contamination from the broader multi-year Abenomics trajectory. The 2023 TSE P/B reform
+in particular occurs after the peak of the Abenomics monetary easing era, providing the
+cleanest governance-only identification window.
+
+Third, the panel OLS two-way fixed effects specification absorbs common time trends
+(including global monetary easing) through time fixed effects; the reform-by-Japan interaction
+isolates Japan-specific deviation from the common time trend around each reform date.
+
+Despite these mitigations, the Abenomics confound cannot be fully ruled out, particularly
+for the 2014 and 2015 cohorts. Readers should treat the stacked event study results as
+evidence of P/B valuation convergence \textit{associated with} Japan's reform dates rather
+than a clean causal estimate of governance reform effects in isolation from contemporaneous
+macroeconomic factors.
+
+\subsection{Japan-to-Korea Generalizability}
+
+The counterfactual projection in Section~\ref{sec:policy} rests on the assumption that Korea's
+corporate governance structure and regulatory environment are sufficiently analogous to
+Japan's pre-reform state that Japan's observed P/B reform trajectory provides a valid
+counterfactual benchmark for a hypothetical Korean reform of equivalent scope.
+
+The case for comparability is strong along several dimensions. Korea and Japan share
+structural features that distinguish them from other comparator markets: both have
+family-controlled conglomerate structures (chaebol and keiretsu respectively) with significant
+cross-shareholding and principal--principal agency problems; both have civil-law legal
+traditions; both are export-oriented industrial economies with comparable per-capita income
+levels; and both had pre-reform institutional investor communities that were inactive as
+governance monitors. The Korea Capital Market Institute (KCMI) has explicitly identified
+Japan's reform trajectory as the closest policy analogue for Korea's Value-Up Program
+\citep{kcmi2023}.
+
+However, important differences limit direct comparability. First, Korea's chaebol
+concentration is more extreme than Japan's keiretsu structure: the top five Korean chaebols
+account for a substantially larger share of KOSPI market capitalization than the top five
+keiretsu groups account for of TOPIX. If chaebol concentration is a binding constraint
+on reform effectiveness --- because controlling families have both the incentive and political
+capacity to dilute reform implementation --- Korea's reform trajectory may be slower or less
+complete than Japan's even under formally equivalent mandates. Second, Korea's Financial
+Services Commission enforcement culture and the Korea Exchange's market surveillance
+capacity differ from Japan's FSA and TSE; the compliance rate with a Korean P/B mandate
+may differ from the high compliance observed in Japan's TSE P/B reform. Third, the
+geopolitical risk premium (North Korea) has no Japanese equivalent and would not be resolved
+by governance reform alone. The counterfactual projection therefore captures only the
+governance-reform component of the Korea Discount, not the geopolitical risk premium.
+
+For these reasons, the counterfactual projection in Figure~\ref{fig:figure4} is explicitly
+labeled illustrative and should be interpreted as an order-of-magnitude policy benchmark
+rather than a forecast.
+
+%% ============================================================
 \section{Conclusion}
 \label{sec:conclusion}
-% CONCLUSION -- to be completed in Plan 04
+%% ============================================================
 
+This paper documents the Korea Discount and uses Japan's three staggered corporate governance
+reforms as natural experiments to assess the potential impact of structural reform on Korean
+equity valuations.
+
+The primary empirical finding is the persistent, statistically significant undervaluation
+of the KOSPI relative to benchmark peers over the 2004--2024 sample period. The Korea
+Discount averages $-0.177\times$ relative to TOPIX ($t = -3.23$; 95\% CI: $[-0.284\times,
+-0.069\times]$) and $-0.601\times$ relative to MSCI~EM ($t = -10.30$; 95\% CI: $[-0.716\times,
+-0.486\times]$). These estimates reflect the cumulative valuation penalty imposed by the
+three structural channels --- chaebol opacity, minority-shareholder recourse deficit, and
+geopolitical risk premium --- documented in Section~\ref{sec:mechanisms}.
+
+The empirical strategy uses Japan's three reform dates to estimate the causal effect of
+governance reform on equity valuations, with Korea (and S\&P~500 and MSCI\_EM) as the
+never-treated comparison pool. The stacked event study provides the clearest identification:
+CARs accumulate positively for Japan across all three cohorts in the post-reform period,
+with the 2023 TSE P/B Reform cohort showing the largest post-treatment gap opening. Panel
+OLS reform-by-Japan interaction estimates are consistent in direction but are estimated
+with substantial noise --- wild-bootstrap $p$-values all exceed 0.35 --- reflecting the
+severe limitation of $N = 4$ country clusters, which renders cluster-robust inference
+highly conservative. The synthetic control assigns full weight to MSCI Hong Kong
+(RMSPE $= 0.2893$), well above the conventional acceptance threshold of $0.15$; we treat
+it as corroborating evidence rather than primary identification. The geopolitical risk
+coefficient ($-0.02$, $t = -0.84$, $p = 0.40$) is statistically insignificant, consistent
+with geopolitical risk being priced continuously as a level discount rather than reacting
+discretely to escalation events.
+
+This paper makes three contributions. First, it presents the first panel study using all
+three Japan governance reform dates jointly in a stacked cohort event study design
+\citep{cengiz2019}, providing cohort-level identification that avoids the treatment-date
+contamination bias of standard TWFE estimators \citep{baker2022}. Second, it provides
+explicit uncertainty quantification around the synthetic control via wild-bootstrap
+inference, transparently reporting pre-treatment RMSPE and acknowledging the limitations
+of a single donor receiving full weight. Third, the Japan-calibrated counterfactual
+projection provides a concrete, empirically grounded policy benchmark for Korean policymakers
+--- the first such projection explicitly calibrated from Japan's observed post-TSE reform
+P/B trajectory and anchored to KOSPI's 2024 base level.
+
+Several directions merit future research. Firm-level panel analysis combining chaebol-specific
+governance indices with market-level data would allow estimation of the cross-sectional
+governance--valuation relationship within Korea, complementing the country-level time-series
+identification strategy employed here. As Korea's Value-Up Program matures and generates
+multi-year post-announcement data (beyond the 2024--2025 early period available at the time
+of writing), an event study of the Korean program analogous to this paper's Japan analysis
+would provide direct causal evidence on Korean governance reform. Extension to other
+discount markets --- China A-shares, India, Gulf Cooperation Council --- would test whether
+the structural channels identified for Korea generalize to other civil-law, concentrated-ownership
+equity markets.
+
+%% ============================================================
 \section{Policy Recommendations}
 \label{sec:policy}
-% POLICY RECOMMENDATIONS -- to be completed in Plan 04
+%% ============================================================
 
-% Figure 4: Counterfactual projection
+The empirical evidence supports a set of specific, sequenced policy recommendations for
+Korean policymakers. The recommendations are organized around the three institutional levers
+most directly responsible for the Korea Discount: the Financial Services Commission (FSC),
+the Korea Exchange (KRX), and the Stewardship Code framework. All three recommendations
+draw on Japan's reform experience as an empirical benchmark.
+
+\subsection{Recommendations}
+
+\textbf{1. FSC Mandatory Capital Efficiency Disclosure.} The Financial Services Commission
+should require all KOSPI-listed companies trading below $1.0\times$ book value to disclose
+multi-year P/B improvement plans on a comply-or-explain basis, directly mirroring the 2023
+TSE P/B reform that provides the empirical benchmark for this paper's counterfactual
+projection. The Korea Corporate Value-Up Program (2024) moves in this direction but remains
+voluntary; the compliance rate with voluntary programs in governance reform contexts is
+typically lower than with mandatory comply-or-explain frameworks \citep{kcmi2023}. A
+mandatory FSC requirement, with KRX-enforced disclosure penalties for non-compliance, would
+replicate the mechanism by which Japan's TSE reform generated immediate and sustained P/B
+convergence.
+
+The FSC disclosure requirement should include: (i) a baseline assessment of the company's
+cost of equity capital and current book-value efficiency metrics; (ii) specific medium-term
+targets for P/B, return on equity (ROE), and dividend payout or buyback yield; (iii) an
+explanation of the specific operational and capital structure actions the company will take
+to achieve the targets; and (iv) annual progress reports with board-level accountability.
+This mirrors the ``capital cost and stock price awareness'' disclosure framework introduced
+by the TSE in March 2023 and extended in January 2024.
+
+\textbf{2. KRX Listing Standards Reform.} The Korea Exchange should amend its listing
+standards and corporate governance guidelines to strengthen board independence requirements
+and related-party transaction oversight. Specifically: (i) large-cap KOSPI issuers (by
+market capitalization) should be required to have a minimum 50\% independent board
+composition, compared to the current standard of one-third; (ii) the KRX should introduce
+listing rules requiring enhanced disclosure of material related-party transactions,
+consistent with the thresholds that apply to NYSE-listed foreign private issuers; and
+(iii) the audit committee requirements for chaebol-affiliated companies should be strengthened
+to require independent audit committee majorities on transactions with controlling
+shareholders. These measures reduce the principal--principal agency costs documented in
+Section~\ref{sec:mechanisms} and increase the credibility of minority shareholder protection
+that \citet{porta1998, porta2002} identify as the primary determinant of cross-country
+valuation differences.
+
+\textbf{3. Korean Stewardship Code Strengthening.} The Korean Stewardship Code (December
+2016, revised 2018) should be amended to strengthen its active engagement and transparency
+requirements. Specifically: (i) institutional investors subject to the Code --- including
+the National Pension Service (NPS), domestic asset managers, and foreign managers with
+Korean equity mandates --- should be required to publish annual voting records for every
+shareholder meeting, including the rationale for votes against management recommendations;
+(ii) asset managers should be required to engage publicly with investee companies that have
+persistent P/B discounts below sector peers for three or more consecutive years; and (iii)
+the NPS, as Korea's largest institutional investor, should establish a dedicated governance
+engagement division with clear mandates to challenge controlling-shareholder decisions at
+chaebol-affiliated companies that fail to improve P/B performance. Japan's experience shows
+that Stewardship Code activation --- particularly the cross-shareholding unwinding documented
+by \citet{miyajima2023} --- was a key transmission mechanism by which governance reform
+translated into P/B improvement.
+
+\subsection{Counterfactual Projection}
+
+Based on Japan's observed P/B lift following the March 2023 TSE P/B reform --- as estimated
+by the synthetic control gap series --- Figure~\ref{fig:figure4} presents an illustrative
+projection of KOSPI P/B under the scenario that Korea implements an analogous mandatory
+P/B governance reform. The projection starts from KOSPI's 2024 base level of approximately
+$0.93\times$ book value and applies the average monthly TOPIX P/B change observed in the
+12--18 months following Japan's March 2023 reform, projecting a hypothetical Korean reform
+trajectory for approximately five years forward. The shaded uncertainty band reflects
+$\pm$RMSPE ($= \pm 0.2893$) from the synthetic control estimation, which bounds the
+uncertainty in the Japan post-reform gap estimate.
+
+\textbf{This projection is illustrative.} It assumes that Korea's reform would produce a
+P/B trajectory identical to Japan's post-2023 reform path, which may not hold given the
+structural differences documented in Section~\ref{sec:discussion}: Korea's more extreme
+chaebol concentration, FSC enforcement culture, and the persistent geopolitical risk premium
+from North Korea (which governance reform alone cannot eliminate). The projection should be
+interpreted as an order-of-magnitude policy benchmark --- demonstrating that a Japanese
+reform outcome applied to Korea's starting P/B level would represent a meaningful valuation
+improvement --- rather than a forecast of the actual outcome of any specific Korean policy
+initiative.
+
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=\textwidth]{../output/figures/figure4_counterfactual_projection.pdf}
-  \caption{Illustrative projection of KOSPI P/B assuming Korea implements a P/B governance
-    reform analogous to Japan's 2023 TSE reform. Solid line: KOSPI P/B historical series
-    2004--2024. Dashed line: projection applying Japan's observed post-reform P/B recovery
-    rate to KOSPI's 2024 level of approximately $0.93\times$. Shaded band: $\pm1$ pre-treatment
-    RMSPE uncertainty. Labeled ``Illustrative projection'' --- not a forecast.}
-  \label{fig:counterfactual}
+  \caption{Illustrative Counterfactual Projection: KOSPI P/B under Korea Reform Scenario.
+    Solid line: KOSPI historical P/B through 2024. Dashed line: projection applying Japan's
+    observed post-TSE reform P/B lift trajectory from KOSPI's 2024 base level of approximately
+    $0.93\times$. Shaded band: $\pm$RMSPE ($= \pm 0.2893$). Illustrative projection assuming
+    Korea implements a P/B governance reform analogous to Japan's 2023 TSE reform. This is
+    not a forecast.}
+  \label{fig:figure4}
 \end{figure}
 
 \bibliographystyle{apalike}
@@ -977,11 +1215,50 @@ attributable to chance.
 
 \section{Variable Definitions}
 \label{app:vardefs}
-% APPENDIX A -- to be completed in Plan 04
+
+Table~\ref{tab:vardefs} defines the primary variables used in the analysis.
+
+\begin{table}[htbp]
+\centering
+\caption{Variable Definitions}
+\label{tab:vardefs}
+\begin{tabular}{lp{10cm}}
+\toprule
+Variable & Definition \\
+\midrule
+P/B & Price-to-book ratio: equity market capitalization divided by the book value of equity,
+  as reported by Bloomberg (\texttt{PX\_TO\_BOOK\_RATIO}) for each index at month-end. \\
+P/E & Price-to-earnings ratio: equity market capitalization divided by trailing 12-month net
+  earnings, as reported by Bloomberg (\texttt{PE\_RATIO}) for each index at month-end. \\
+GPR & Geopolitical Risk index from \citet{caldara2022}; monthly frequency; constructed by
+  aggregating newspaper coverage of geopolitical threats and escalation events. The GPRNK
+  sub-index from \citet{imf2021} is used for North Korea-specific escalation. \\
+Stewardship Code dummy & $D_{2014,t} = \mathbf{1}[t \geq \text{February 2014}]$; indicator
+  equal to 1 for months on or after Japan's Stewardship Code adoption date. \\
+CGC dummy & $D_{2015,t} = \mathbf{1}[t \geq \text{June 2015}]$; indicator equal to 1 for
+  months on or after Japan's Corporate Governance Code adoption date. \\
+TSE P/B Reform dummy & $D_{2023,t} = \mathbf{1}[t \geq \text{March 2023}]$; indicator equal
+  to 1 for months on or after the Tokyo Stock Exchange P/B reform announcement date. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+All reform date indicators are derived from the dates locked in \texttt{config.py} before
+any data transformation, providing a look-ahead bias firewall.
 
 \section{Additional Robustness Tables}
 \label{app:robustness}
-% APPENDIX B -- to be completed in Plan 04
+
+This appendix presents four additional robustness tables. Tables~B.1--B.2 replicate the
+primary panel OLS and stacked event study results using price-to-earnings (P/E) as the
+outcome variable instead of price-to-book. Results are qualitatively consistent in direction
+with the main P/B findings but estimated with wider confidence intervals, reflecting the
+greater cyclical volatility of earnings relative to book value. Tables~B.3--B.4 substitute
+alternative control groups --- MSCI~EM~Asia and MSCI~EM~ex-China --- for the primary MSCI~EM
+control to test whether the Korea Discount estimate is sensitive to the choice of emerging
+market benchmark. The Korea Discount estimate is robust to both alternative control group
+specifications, confirming that the KOSPI undervaluation is not driven by the specific
+benchmark selection.
 
 % Robustness table fragments
 \input{../output/robustness/robustness_alt_control_em_asia.tex}
