@@ -89,7 +89,7 @@ Plans:
 - [x] 04-03-PLAN.md — Placebo falsification: Taiwan & Indonesia event studies (ROBUST-01)
 - [x] 04-04-PLAN.md — P/E robustness: full Phase 3 replication with P/E metric (ROBUST-02)
 - [x] 04-05-PLAN.md — Alt control group: MSCI EM Asia & EM ex-China panel OLS variants (ROBUST-03)
-- [ ] 04-06-PLAN.md — Verification: full test suite green + human sign-off on synthetic control figures
+- [x] 04-06-PLAN.md — Verification: full test suite green + human sign-off on synthetic control figures
 
 ### Phase 5: Paper Assembly and Replication Package
 **Goal**: A complete, compiling LaTeX paper exists as a PDF integrating all programmatically generated figures and tables, and running `python run_all.py` followed by `latexmk -pdf paper/main.tex` reproduces the full paper from raw data
@@ -107,7 +107,7 @@ Plans:
 - [x] 04-02-PLAN.md — Synthetic control: ADH estimation, RMSPE, gap plot, in-time & in-space placebos (SYNTH-01/02/03, ROBUST-04)
 - [x] 04-03-PLAN.md — Placebo falsification: Taiwan & Indonesia event studies (ROBUST-01)
 - [x] 04-04-PLAN.md — P/E robustness: full Phase 3 replication with P/E metric (ROBUST-02)
-- [ ] 04-05-PLAN.md — Alt control group: MSCI EM Asia & EM ex-China panel OLS variants (ROBUST-03)
+- [x] 04-05-PLAN.md — Alt control group: MSCI EM Asia & EM ex-China panel OLS variants (ROBUST-03)
 - [ ] 04-06-PLAN.md — Verification: full test suite green + human sign-off on synthetic control figures
 
 ## Progress
