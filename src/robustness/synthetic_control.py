@@ -117,6 +117,10 @@ def plot_gap(synth: Synth, dataprep: Dataprep, rmspe: float) -> pd.Series:
     all_period = pd.date_range(start="2004-01-01", end="2026-04-01", freq="MS")
     Z0, Z1 = dataprep.make_outcome_mats(time_period=all_period)
     ts_gap = synth._gaps(Z0=Z0, Z1=Z1)
+    gap_df = ts_gap.reset_index()
+    gap_df.columns = ["date", "gap"]
+    gap_df.to_csv(ROBUSTNESS_DIR / "synthetic_control_gap.csv", index=False)
+    logging.info("Saved synthetic_control_gap.csv")
 
     fig, ax = plt.subplots(figsize=(10, 5))
     ax.plot(ts_gap.index, ts_gap.values, color="black", linewidth=1, label="Japan gap")
