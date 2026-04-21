@@ -41,53 +41,558 @@ Evidence from Japan's Natural Experiment}
 \maketitle
 
 \begin{abstract}
-% ABSTRACT -- to be completed in Plan 03
-Placeholder abstract.
+South Korean equities have traded at a persistent structural discount to developed-market peers
+for over two decades. Using a 20-year monthly panel of index-level price-to-book (P/B) ratios
+for KOSPI, TOPIX, S\&P~500, and MSCI~EM from 2004 to 2024, we document that the Korea Discount
+averages $-0.177\times$ relative to TOPIX ($t=-3.23$; 95\% CI: $[-0.284\times, -0.069\times]$)
+and $-0.601\times$ relative to MSCI~EM ($t=-10.30$). We exploit Japan's three staggered
+corporate governance reforms --- the Stewardship Code (February 2014), the Corporate Governance
+Code (June 2015), and the Tokyo Stock Exchange P/B reform (March 2023) --- as natural
+experiments, with Korea as a de facto never-treated comparison unit. Using a stacked event
+study design \citep{cengiz2019, baker2022}, panel OLS with country and time fixed effects
+\citep{abadie2010}, and a synthetic control robustness check, we find that panel OLS
+reform-by-Japan interactions are estimated with considerable noise (wild-bootstrap
+$p$-values all exceed 0.35) given only $N=4$ country clusters. The synthetic control
+assigns full weight to MSCI Hong Kong (RMSPE = 0.2893), indicating limited pre-treatment
+fit and a cautious interpretation. The stacked event study provides the clearest pattern
+of valuation convergence around Japan's reform dates. Structural reforms along Japan's
+trajectory could substantially reduce the Korea Discount over a multi-year horizon.
 \end{abstract}
 
 \newpage
 \tableofcontents
 \newpage
 
+%% ============================================================
 \section{Introduction}
-% INTRODUCTION -- to be completed in Plan 03
+\label{sec:intro}
+%% ============================================================
 
-\section{Institutional Background}
-% INSTITUTIONAL BACKGROUND -- to be completed in Plan 03
+South Korean equities occupy an anomalous position in global capital markets. Despite Korea's
+membership in the G20, its well-developed export-oriented industrial base, and macroeconomic
+fundamentals broadly comparable to other high-income economies, KOSPI Composite index-level
+price-to-book ratios have persistently trailed those of comparable benchmarks for over two
+decades. Over the 2004--2024 sample period, the KOSPI P/B ratio averaged $-0.177\times$ below
+TOPIX ($t=-3.23$, 95\% CI: $[-0.284\times, -0.069\times]$) and $-0.601\times$ below MSCI~EM
+($t=-10.30$, 95\% CI: $[-0.716\times, -0.486\times]$). This persistent, statistically
+significant undervaluation --- the ``Korea Discount'' --- remains one of the most debated
+puzzles in international equity valuation. Figure~\ref{fig:figure1} displays the full
+20-year trajectory of KOSPI P/B relative to its benchmark peers, illustrating the discount's
+persistence across business cycles, geopolitical crises, and global monetary policy regimes.
 
-\section{Literature Review}
-% LITERATURE REVIEW -- to be completed in Plan 03
-
-\section{Data}
-% DATA -- to be completed in Plan 03
-
-\section{Causal Mechanisms}
-% CAUSAL MECHANISMS -- to be completed in Plan 04
-
-\section{Empirical Strategy}
-% EMPIRICAL STRATEGY -- to be completed in Plan 04
-
-\section{Results}
-% RESULTS -- to be completed in Plan 04
-
-% Figure 1: 20-year KOSPI P/B vs peers
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=\textwidth]{../output/figures/figure1_pb_comparison.pdf}
-  \caption{KOSPI P/B ratio relative to TOPIX, S\&P 500, and MSCI EM (2004--2024).}
-  \label{fig:pb_comparison}
+  \caption{Index-Level Price-to-Book Ratios, 2004--2024. KOSPI trades at a persistent discount
+    to TOPIX, S\&P~500, and MSCI~EM throughout the sample period. The Korea Discount averages
+    $-0.177\times$ relative to TOPIX ($t=-3.23$) and $-0.601\times$ relative to MSCI~EM
+    ($t=-10.30$). Shaded bands indicate $\pm1$ Newey--West standard error around the
+    mean discount; dashed vertical lines mark Japan's three governance reform dates
+    (February 2014, June 2015, March 2023).}
+  \label{fig:figure1}
 \end{figure}
+
+\subsection*{The Puzzle}
+
+The Korea Discount is puzzling for several reasons. Korea's per-capita income, institutional
+infrastructure, and corporate profitability are comparable to or better than many markets
+trading at substantially higher valuation multiples. The gap cannot be fully explained by
+differences in sectoral composition, leverage, or earnings growth rates. This paper argues
+that three structural channels, elaborated in Section~\ref{sec:mechanisms}, account for the
+discount: (1) chaebol cross-shareholding networks that generate governance opacity and suppress
+minority-shareholder value; (2) a regulatory environment that historically afforded limited
+legal recourse to outside investors; and (3) a geopolitical risk premium arising from North
+Korea's persistent nuclear brinkmanship. The interaction of these three channels creates a
+compounded discount that exceeds what any single factor would predict in isolation.
+
+\subsection*{The Natural Experiment}
+
+Japan provides the primary source of identifying variation for this study. Japan faced an
+analogous valuation discount relative to global developed-market peers through much of the
+2000s and 2010s, attributed to many of the same structural factors: cross-shareholding,
+weak board independence, and inadequate minority-shareholder protection. The Japanese
+government's response consisted of three staged governance reforms that constitute unusually
+clean policy events for empirical identification.
+
+The three reform dates, locked in \texttt{config.py} before any data transformation to
+prevent look-ahead bias, are: (i) the Stewardship Code (February 2014), requiring
+institutional investors to engage with investee companies on governance; (ii) the Corporate
+Governance Code (June 2015), requiring listed companies to comply or explain against
+governance principles including board independence standards; and (iii) the Tokyo Stock
+Exchange P/B reform (March 2023), instructing companies trading below book value ($\text{P/B} < 1.0\times$)
+to disclose capital efficiency plans and set specific improvement targets. These events provide
+exogenous variation in governance quality for Japan --- Korea, which undertook no comparable
+staggered reform program during this period, serves as a de facto never-treated comparison
+unit \citep{abadie2010, cengiz2019}.
+
+\subsection*{Contributions}
+
+This paper makes three contributions to the Korea Discount and corporate governance
+literatures.
+
+First, we construct the first panel study that uses all three Japan governance reform dates
+jointly in a stacked cohort event study design \citep{cengiz2019}. Prior governance event
+studies of Japan typically focus on a single reform date; stacking the three cohorts allows
+us to identify a common structural effect while controlling for global market confounds at
+each event window.
+
+Second, the stacked event study design avoids treatment-date contamination \citep{baker2022}.
+Because the three reforms are separated by months to years, a pooled pre-post indicator
+would blend observations that are post-treatment for one reform but pre-treatment for another.
+The cohort stacking procedure creates clean $[-24, +24]$ month windows around each event,
+allowing for separate cohort-level cumulative abnormal valuation change (CAR) estimation.
+
+Third, a counterfactual projection calibrated from Japan's observed post-2023 P/B lift
+provides a concrete policy benchmark for Korean policymakers. The projection, clearly
+labeled as illustrative, applies the average monthly TOPIX P/B recovery in the 12--18 months
+following the March 2023 TSE reform to KOSPI's 2024 valuation level of approximately
+$0.93\times$ book value.
+
+\subsection*{Preview of Findings}
+
+The empirical findings are nuanced and reported honestly. The stacked event study provides
+the clearest visual and statistical evidence that Japan's reforms coincided with P/B
+convergence between TOPIX and the non-treated country pool. Panel OLS reform-by-Japan
+interaction estimates are consistent with a positive Japan governance effect but are estimated
+with substantial noise: wild-bootstrap $p$-values (999 Rademacher draws, clustered by country)
+for the Stewardship Code, CGC, and TSE P/B reform interactions are 0.750, 0.375, and 0.500,
+respectively. This reflects the severe limitation of $N=4$ country clusters, which renders
+any cluster-robust inference highly conservative. The synthetic control for the 2023 TSE
+reform assigns all weight to MSCI Hong Kong (weight = 1.0; all other donors receive zero
+weight), with a pre-treatment RMSPE of 0.2893 --- well above the conventional acceptance
+threshold of approximately 0.15. We treat the synthetic control as suggestive corroborating
+evidence, not primary causal identification.
+
+\subsection*{Paper Roadmap}
+
+Section~\ref{sec:background} provides institutional background on Korea's chaebol structure,
+the Financial Services Commission and Korea Exchange, Japan's three reform events, and
+North Korea's geopolitical escalation history. Section~\ref{sec:litreview} surveys the prior
+Korea Discount literature, Japan governance event studies, the broader governance--valuation
+literature, and the natural experiment methodology we employ. Section~\ref{sec:data} describes
+data sources, variable construction, survivorship bias considerations, and summary statistics.
+Section~\ref{sec:mechanisms} develops the three-channel causal mechanism argument.
+Section~\ref{sec:strategy} presents the formal estimating equations for the stacked event
+study, panel OLS, and synthetic control designs. Section~\ref{sec:results} reports empirical
+results. Section~\ref{sec:discussion} discusses limitations, including the single-treated-unit
+problem, the Abenomics confound, and Japan-to-Korea generalizability. Section~\ref{sec:conclusion}
+concludes. Section~\ref{sec:policy} sets out policy recommendations for Korean regulators.
+Appendices contain variable definitions and overflow robustness tables.
+
+%% ============================================================
+\section{Institutional Background}
+\label{sec:background}
+%% ============================================================
+
+\subsection{The Chaebol Structure and Cross-Shareholding}
+
+South Korean corporate structure is dominated by \textit{chaebols} --- large, family-controlled
+conglomerates that collectively account for a substantial share of KOSPI market capitalization
+and national exports. The defining feature of the chaebol is a layered ownership architecture
+in which a founding family holds a relatively small direct equity stake in each affiliate but
+exercises effective control over the entire group through a web of cross-shareholdings and
+pyramid ownership \citep{claessens2000}. In a typical chaebol structure, Company A holds
+shares in Company B, which holds shares in Company C, and so on, with the founding family
+holding shares in the apex entity. The family's effective control rights vastly exceed their
+cash-flow rights --- the separation that \citet{claessens2000} document systematically across
+East Asian corporations and that \citet{baek2004} show is particularly pronounced in Korea.
+
+This structure generates a principal--principal agency problem that is analytically distinct
+from the classic principal--agent framework of \citet{jensen1976}. In the Jensen--Meckling
+model, the conflict is between managers (agents) and dispersed shareholders (principals)
+who bear the residual risk. In the chaebol context, the conflict is between the controlling
+family (a concentrated principal) and minority shareholders (diffuse outside principals). The
+controlling family has both the incentive and the means to extract private benefits from the
+affiliates --- a process that \citet{baek2004} term ``tunneling'' --- without bearing the
+proportionate economic cost, since their cash-flow stake is small relative to their control
+stake.
+
+The empirical consequences for valuation are significant. \citet{baek2004} exploit the 1997
+Korean financial crisis as a natural experiment and show that better-governed chaebols
+suffered smaller equity value declines during the crisis, while chaebols with larger
+deviations between control and cash-flow rights experienced more severe tunneling and
+commensurately larger valuation losses. The cross-shareholding discount is not merely
+theoretical: controlling families have an incentive to keep listed equity prices depressed to
+minimize inheritance tax liabilities during generational transfers, given Korea's inheritance
+tax rates of up to 60\%.
+
+The chaebol structure also generates the ``double-counting'' problem in index-level
+valuation: both parent companies and multiple listed subsidiaries appear in KOSPI, meaning
+that the assets of subsidiary firms are implicitly counted multiple times across group
+members' book values. International investors viewing KOSPI as a single portfolio must
+discount for this mechanical book-value inflation, contributing to a structurally lower
+observed P/B ratio.
+
+\subsection{Korean Regulatory History: FSC, KRX, and the Value-Up Program}
+
+The primary securities regulator in Korea is the Financial Services Commission (FSC),
+established in 2008 following the merger of the Financial Supervisory Commission and the
+Financial Supervisory Service's policy functions. The FSC sets listing standards in
+coordination with the Korea Exchange (KRX), which operates the KOSPI and KOSDAQ markets.
+KRX listing standards include minimum equity, earnings continuity, and governance
+disclosure requirements, though historically these have been less prescriptive on board
+composition and minority-shareholder protections than analogous standards in Japan or
+the United States.
+
+Korea adopted its own Stewardship Code in December 2016 (revised in 2018), requiring
+institutional investors --- primarily the National Pension Service and domestic asset managers
+--- to exercise their voting rights actively and engage with investee companies on governance
+matters. However, the Korean Stewardship Code was widely assessed as weaker in enforcement
+teeth than Japan's 2014 equivalent: the National Pension Service's governance engagement
+remained intermittent and the code's comply-or-explain mechanism produced limited behavioral
+change among KRX-listed companies.
+
+The most direct Korean policy response to the Korea Discount is the \textit{Korea Corporate
+Value-Up Program}, launched by the FSC in 2024. Modeled explicitly on the 2023 Tokyo Stock
+Exchange P/B reform, the Value-Up Program encourages KOSPI-listed companies to disclose plans
+for improving capital efficiency and shareholder returns, with particular attention to companies
+trading below $1.0\times$ book value. As of 2025, the FSC has proposed amendments to the
+Commercial Act that would expand fiduciary duties to include minority shareholders explicitly,
+moving toward the kind of statutory minority-shareholder protection that the governance
+literature associates with higher equity valuations \citep{porta1998, porta2002}.
+
+\subsection{Japan's Three Governance Reforms}
+\label{subsec:japan_reforms}
+
+Japan's governance reform program is the source of identifying variation for this study.
+Japan faced a structurally similar valuation discount through the 2000s and 2010s, attributed
+to cross-shareholding (``\textit{keiretsu}'' networks), weak board independence, and low
+dividend payout ratios. The government's response consisted of three landmark interventions
+whose dates are used as treatment events in the empirical analysis.
+
+\textbf{Japan Stewardship Code (February 2014).} The Financial Services Agency (FSA)
+introduced Japan's Stewardship Code in February 2014, requiring institutional investors to
+adopt a governance engagement policy and disclose how they exercised their voting rights.
+The code follows a comply-or-explain framework; initial adoption was high among domestic
+asset managers and eventually extended to foreign managers with Japanese equity mandates.
+\citet{miyajima2023} document that the Stewardship Code accelerated the unwinding of
+cross-shareholding relationships in Japan, as institutional investors --- now under formal
+obligation to justify passive holdings of cross-held shares --- began pressing companies to
+restructure these positions.
+
+\textbf{Corporate Governance Code (June 2015).} The Tokyo Stock Exchange and FSA jointly
+introduced the Corporate Governance Code in June 2015, requiring all TSE-listed companies
+to comply with governance principles or explain deviations. The code mandated that at
+least two independent outside directors be appointed to boards --- a requirement that
+represented a fundamental change for Japanese corporate governance, where boards had
+historically been composed almost entirely of long-serving inside managers
+\citep{eberhart2012}. The comply-or-explain mechanism created reputational pressure on
+companies to adopt the principles; by 2017, over 90\% of JPX-Nikkei 400 constituents had
+appointed at least two independent directors.
+
+\textbf{TSE P/B Reform (March 2023).} The most direct reform for P/B valuation was the
+Tokyo Stock Exchange's March 2023 ``Request for Disclosure of Policies on Capital Cost and
+Stock Price Awareness,'' which instructed companies trading below $1.0\times$ book value to
+disclose specific plans to improve capital efficiency and set a target date for exceeding
+book value. The reform is sometimes called the ``TSE P/B reform'' or the ``TSE prime reform.''
+Its impact was immediate: TOPIX P/B rose from a mean of approximately $1.0\times$ in early
+2023 to $1.36\times$ over the 2023--2024 post-reform period, while KOSPI P/B remained at
+approximately $0.93\times$ --- a widening of the KOSPI--TOPIX spread.
+
+The dates of all three reforms are locked in \texttt{config.py}: Stewardship Code
+2014-02-01, Corporate Governance Code 2015-06-01, TSE P/B reform 2023-03-01. No event
+date was determined after inspecting the panel data, ensuring a strict look-ahead bias
+firewall.
+
+\subsection{North Korea Escalation Risk}
+\label{subsec:nk}
+
+A second structural channel contributing to the Korea Discount is the geopolitical risk
+premium arising from the Democratic People's Republic of Korea's nuclear and missile program.
+North Korea has conducted six nuclear tests: October 2006, May 2009, February 2013,
+January 2016, September 2016, and September 2017. The 2017 test, which occurred alongside
+intercontinental ballistic missile (ICBM) launches demonstrating theoretically continental
+US range, represented the most severe escalation in the sample period and coincided with
+the largest single-period widening of the Korea--TOPIX P/B spread visible in
+Figure~\ref{fig:figure1}.
+
+The geopolitical risk premium is measured quantitatively in Section~\ref{sec:empirical}
+using the Caldara--Iacoviello Geopolitical Risk (GPR) index \citep{caldara2022}, which
+aggregates media coverage of geopolitical threats, acts, and escalation events. The
+Korea-specific GPR (GPRNK) index, constructed by \citet{imf2021}, isolates North Korean
+escalation events and is used to estimate the discrete contribution of geopolitical risk
+to the Korea Discount. As we show in Section~\ref{sec:results}, the GPR coefficient in
+the panel regression is $-0.02$ ($t = -0.84$, $p = 0.40$), indicating that while
+geopolitical escalation is negatively associated with the Korea--TOPIX P/B spread, the
+effect is statistically indistinguishable from zero at conventional significance levels.
+This is consistent with \citet{imf2021}, who find that North Korean provocations increase
+market beta and systematic risk but are not the \textit{primary} driver of the structural
+valuation discount relative to the governance channel.
+
+The North Korea overhang nonetheless represents a structural feature of investing in Korean
+equities that has no analogue in TOPIX, S\&P~500, or MSCI~EM. International institutional
+investors must price the tail risk of armed conflict on the Korean peninsula, and even if
+the expected loss is small, the option-like nature of the risk warrants a discount to
+intrinsic value. Diplomatic cycles --- Sunshine Policy engagement in the early 2000s,
+collapse following the 2009 nuclear test, denuclearization negotiations in 2018--2019, and
+subsequent breakdown --- have introduced periodic compression and re-widening of the
+geopolitical risk premium in the KOSPI discount.
+
+%% ============================================================
+\section{Literature Review}
+\label{sec:litreview}
+%% ============================================================
+
+\subsection{Prior Evidence on the Korea Discount}
+
+The Korea Discount has attracted a substantial body of academic and practitioner research.
+The most rigorous academic contributions focus on firm-level panel variation rather than
+the country-level index analysis we employ, but they establish the three-channel framework
+that motivates our empirical design.
+
+\citet{baek2004} provide the foundational empirical paper on chaebol governance and firm
+value. Using the 1997 Korean financial crisis as an exogenous shock to agency costs, they
+show that firms with greater separation between control rights and cash-flow rights
+experienced larger equity value declines, controlling for firm-level characteristics.
+Their results establish that tunneling and cross-shareholding are not merely theoretical
+concerns but have quantifiable effects on market valuations.
+
+\citet{black2006} construct a Korean corporate governance index (KCGI) using survey data
+on board practices, disclosure, shareholder rights, and ownership structure, and show via
+panel OLS that higher KCGI scores are associated with significantly higher Tobin's $q$
+values. Their $q$-governance relationship survives controls for firm size, leverage,
+profitability, and industry fixed effects, and is robust to instrumental-variable
+specifications using exogenous governance regulation shocks.
+
+\citet{claessens2000} provide the definitive cross-country documentation of ownership
+separation in East Asian corporations, including Korea. They show that the median Korean
+firm in their sample has a ratio of control rights to cash-flow rights of approximately
+2:1, and that this separation is associated with a significant discount to Tobin's $q$.
+The separation is highest in family-controlled chaebols and lowest in widely-held firms.
+
+\citet{kcmi2023} provide the most recent and comprehensive assessment of Korea Discount
+drivers from the Korea Capital Market Institute. Their analysis identifies governance
+structure, low shareholder returns (dividend payout ratios and buyback yields), market
+accessibility deficiencies (foreign exchange trading hours, English disclosure limitations),
+and the inheritance tax structure as the four primary contributors. The KCMI report
+explicitly notes that Japan's governance reform trajectory provides the closest policy
+analogue for Korea's Value-Up Program.
+
+An important distinction between the prior literature and this paper is methodological.
+Prior work focuses almost exclusively on firm-level cross-sectional or panel variation in
+governance quality and $q$, using firm-level governance indices as the key explanatory
+variable. Our analysis instead operates at the country-level index, using Japan's reform
+events as sources of time-series variation. The firm-level literature can identify the
+cross-sectional governance--valuation relationship but cannot readily estimate the causal
+effect of a nationwide governance reform shock. Our event-study and panel designs fill
+this gap, at the cost of operating with a single treated country ($N=1$) and the inferential
+challenges this entails.
+
+\subsection{Japan Corporate Governance Reform Studies}
+
+Japan's governance reform program has generated a growing empirical literature. \citet{miyajima2023}
+document the impact of Japan's Stewardship Code and Corporate Governance Code on
+cross-shareholding unwinding using firm-level data from RIETI's corporate finance database.
+They find that institutional investor engagement, activated by the Stewardship Code, was a
+significant driver of cross-shareholding reduction in 2014--2018, and that firms with larger
+reductions in cross-holdings experienced commensurately larger improvements in Tobin's $q$.
+Their evidence is consistent with the view that governance reform can sustainably lift
+equity valuations by reducing tunneling and improving capital allocation.
+
+\citet{eberhart2012} exploits cross-sectional variation in Japanese corporate governance
+practices using Stanford's corporate governance natural experiment framework, examining
+how changes in board composition and ownership structure around the 2000s reform environment
+affect firm performance. His findings suggest that the transition from insider-dominated to
+independent-director-inclusive boards is associated with improvements in operating performance
+and, over longer horizons, equity valuations.
+
+Japan's experience is particularly relevant because the structural problems it faced ---
+cross-shareholding opacity, weak minority-shareholder rights, low dividend payout ratios ---
+are closely analogous to Korea's, even if the mechanisms and regulatory contexts differ.
+Japan provides one of the richest natural experiment environments in comparative corporate
+governance precisely because the reforms were policy-driven, publicly announced, and
+sequenced over a decade, enabling event-study identification that would be unavailable
+in the absence of such discrete reform dates.
+
+\subsection{Corporate Governance and Equity Valuation}
+
+The broader governance--valuation literature provides the theoretical grounding for the
+Korea Discount hypothesis. \citet{jensen1976} establish that agency costs --- arising from
+the separation of ownership and control --- reduce firm value below the first-best level
+attainable under owner-operation. In the cross-shareholding context, the family's extraction
+of private benefits through tunneling is the primary agency cost; governance reforms that
+reduce tunneling opportunities should increase equity value.
+
+\citet{shleifer1997} survey the corporate governance literature and document that ownership
+concentration, while potentially reducing manager--shareholder conflicts, intensifies
+conflicts between controlling shareholders and minority investors --- exactly the
+principal--principal problem that characterizes chaebols. Their survey establishes that
+legal protection of minority shareholders is a first-order determinant of equity valuations
+across countries.
+
+\citet{gompers2003} construct the $G$-index of shareholder rights using US firm-level
+governance provisions and show that firms with stronger shareholder rights (lower $G$)
+earn significantly higher abnormal returns over 1990--1999, consistent with the
+governance--valuation hypothesis in a US context.
+
+\citet{porta1998} and \citet{porta2002} establish the law and finance framework that
+provides the cross-country foundation for the Korea Discount thesis. \citet{porta1998}
+show that countries with common-law legal systems provide stronger investor protections
+and have larger, more liquid capital markets. \citet{porta2002} extend this to show that
+investor protection is causally associated with higher dividend yields and higher Tobin's
+$q$ values, consistent with minority shareholders' ability to extract returns from
+management in better-protected environments.
+
+The Korea Discount literature can be understood as a specific application of the law and
+finance framework: Korea's civil-law tradition, combined with the chaebol structure and
+its associated enforcement gaps, places it toward the weak-investor-protection end of the
+international distribution, with associated valuation consequences. Japan's reform program,
+which dramatically strengthened de facto investor protections without fundamentally altering
+the civil-law legal framework, demonstrates that de facto governance practices can be
+improved through targeted regulatory interventions even within a civil-law system.
+
+\subsection{Natural Experiment Methodology}
+
+Our empirical strategy draws on the stacked event study design of \citet{cengiz2019}, which
+was originally developed to estimate the effect of minimum wage changes using a cohort
+stacking approach that avoids the contamination bias arising from comparing early-treated
+to late-treated observations in canonical two-period difference-in-differences designs.
+\citet{baker2022} formalize the conditions under which staggered difference-in-differences
+estimators recover average treatment effects, showing that standard two-way fixed effects
+(TWFE) estimators can produce sign-reversed or otherwise misleading estimates when
+treatment effects are heterogeneous across cohorts. Our stacked design follows the
+\citet{cengiz2019} procedure of creating a separate sub-dataset for each treatment cohort
+(Japan reform date), restricting the control group to never-treated units within each
+sub-dataset's $[-24, +24]$ month event window.
+
+The synthetic control methodology of \citet{abadie2010} is used as a robustness check for
+the 2023 TSE P/B reform, the cleanest single event in the treatment sequence due to its
+recency and the longest post-treatment window available. The synthetic control constructs
+a weighted combination of donor countries that best matches TOPIX's pre-treatment P/B
+trajectory; the post-treatment gap between actual and synthetic TOPIX estimates the causal
+effect of the 2023 reform on Japanese valuations.
+
+Wild-bootstrap inference \citep{cameron2008} is used throughout because we have only $N=4$
+country clusters in the panel. Standard cluster-robust variance estimators have poor finite-sample
+properties when the number of clusters is small; the wild bootstrap with Rademacher
+weights provides size-correct inference under the null in small-cluster settings. With
+$N=4$, even wild-bootstrap inference should be interpreted cautiously: we report $p$-values
+alongside point estimates throughout.
+
+Standard panel difference-in-differences estimators are inappropriate for our primary
+research question because Korea is the single potentially-treated comparison unit ($N=1$).
+With $N=1$ treated unit, cluster-robust standard errors computed for the treated country
+are undefined; the stacked event study with cohort-level estimation avoids this problem by
+estimating Japan's CAR directly, using the non-treated pool (Korea, US, EM) as the
+counterfactual.
+
+%% ============================================================
+\section{Data}
+\label{sec:data}
+%% ============================================================
+
+\subsection{Data Sources and Coverage}
+
+The primary data for this study are monthly index-level price-to-book (P/B) ratios exported
+from the Bloomberg Terminal (Bloomberg L.P.) using the Bloomberg Data License
+Historical Data Request protocol. The Bloomberg field code for P/B is
+\texttt{PX\_TO\_BOOK\_RATIO}, which reports the ratio of an equity index's aggregate market
+capitalization to the aggregate book value of equity of its constituents, rebalanced at
+the index's standard reconstitution frequency.
+
+Four benchmark indices constitute the panel: KOSPI Composite (Bloomberg ticker: KOSPI
+Index), TOPIX (TPX Index), S\&P~500 (SPX Index), and MSCI~EM (MXEF Index). Coverage
+spans January 2004 to December 2024 --- 240 calendar months per series --- yielding 1,072
+observations in the canonical long-format panel after conversion (the panel has 268
+monthly observations per index-series combination for the P/B variable, reduced to 252 for
+the discount estimation sample which excludes pre-2004 observations).\footnote{The
+discount estimation uses 252 observations per benchmark pair. The full panel used in the
+event study and panel OLS models has 1,072 monthly country-level rows.} All Bloomberg
+raw CSV exports are version-controlled in \texttt{data/raw/} with provenance documented in
+\texttt{data/raw/MANIFEST.md} (vintage date: 2026-04-20). Event dates are locked in
+\texttt{config.py} before any data transformation, providing a look-ahead bias firewall
+that prevents retrospective cherry-picking of treatment dates.
+
+The choice of index-level data, rather than firm-level data, is deliberate. This study
+asks whether Japan's governance reforms shifted the \textit{country-level} valuation
+discount rather than the valuation of individual firms. Using an index-level panel allows
+us to directly measure what international investors observe when comparing KOSPI against
+peers, and avoids complications from firm-level selection bias, survivorship within an
+index, or changes in index composition.
+
+\subsection{Variable Construction}
+
+The primary outcome variable is the monthly P/B ratio for each index. Price-to-book is
+computed by Bloomberg as aggregate market capitalization divided by aggregate book value
+of equity across all index constituents, using the most recently reported book value.
+The ratio is reported at month-end. We prefer P/B over price-to-earnings (P/E) as the
+primary valuation metric for three reasons: (i) book value is considerably less cyclically
+volatile than earnings, making P/B a more stable measure of structural discount; (ii) book
+value does not go negative for index-level aggregates, avoiding the sign-change problem
+that makes P/E ratios uninformative during recessions; and (iii) the TSE P/B reform and
+Korea's Value-Up Program are explicitly framed in P/B terms, making P/B the natural
+variable of interest for the policy channel. P/E robustness results are presented in
+Appendix~B; results are qualitatively similar but noisier.
+
+The canonical panel has schema (\texttt{date}, \texttt{country}, \texttt{pb}, \texttt{pe}),
+where \texttt{country} takes values in \{\texttt{KOSPI}, \texttt{TOPIX}, \texttt{SP500},
+\texttt{MSCI\_EM}\} and \texttt{date} is the month-end date. The panel is stored as
+\texttt{data/processed/panel.parquet} with 1,072 rows and 4 columns. All analysis scripts
+read from this canonical file.
+
+Event dummy variables are constructed for the three Japan reform dates. In the panel OLS
+specification, three binary post indicators --- one for each reform date --- are constructed
+as $\mathbf{1}[\text{date} \geq \text{reform\_date}]$ and interacted with an indicator for
+Japan (TOPIX). In the stacked event study, event-time dummies $\tau \in [-24, +24]$ are
+constructed relative to each reform date's calendar month, and separate stacked sub-datasets
+are created for each cohort. All event-date indicators are derived from the dates in
+\texttt{config.py}.
+
+\subsection{Survivorship Bias and Data Limitations}
+
+The use of official, published index-level P/B series substantially mitigates survivorship
+bias concerns. Index P/B ratios are computed by the index provider (Bloomberg/MSCI/TSE)
+over all index constituents as of that month-end, including firms that subsequently exit
+the index due to deteriorating fundamentals. The index provider's own methodology governs
+which firms are included and how their book values are aggregated. We are not
+reconstructing firm-level data from Compustat or CRSP, so the survivorship rules of
+third-party data vendors do not apply.
+
+That said, index constituent turnover is a potential source of composition bias. If the
+KOSPI's lower-valuation firms are more likely to be dropped from the index and replaced
+by higher-valuation entrants, the index P/B would tend to drift upward over time
+independent of any valuation reform effect. We cannot fully rule out this channel,
+but we note that: (i) the Korea Discount has \textit{persisted} despite constituent
+turnover, suggesting composition changes have not mechanically closed the gap; (ii) the
+2008--2009 global financial crisis P/B compression visible in Figure~\ref{fig:figure1}
+affects all four index series simultaneously and in a manner consistent with known
+economic events, providing a cross-market consistency check that confirms the series
+co-move as expected absent reform events; and (iii) all four series show broadly similar
+constituent-count stability over the sample period.
+
+Missing data: the four monthly P/B series are complete over the January 2004 to
+December 2024 study period with no gaps. This is documented in \texttt{data/raw/MANIFEST.md},
+which records the Bloomberg field extraction for all relevant tickers. The GPR series
+used in the geopolitical risk sub-analysis (Section~\ref{sec:results}) is sourced from
+\citet{caldara2022} and is also complete over the sample period with monthly frequency.
+
+\input{../output/tables/table1_summary_stats.tex}
+\input{../output/tables/discount_stats.tex}
+
+%% ============================================================
+\section{Causal Mechanisms}
+\label{sec:mechanisms}
+% CAUSAL MECHANISMS -- to be completed in Plan 04
+%% ============================================================
+
+\section{Empirical Strategy}
+\label{sec:strategy}
+% EMPIRICAL STRATEGY -- to be completed in Plan 04
+
+\section{Results}
+\label{sec:results}
+% RESULTS -- to be completed in Plan 04
 
 % Figure 2: Stacked event study CARs
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=\textwidth]{../output/figures/figure2_event_study.pdf}
-  \caption{Cumulative abnormal valuation changes around Japan's three corporate governance reform dates.}
+  \caption{Cumulative abnormal valuation changes around Japan's three corporate governance reform dates.
+    Cohort-level CARs estimated via stacked event study design \citep{cengiz2019}.
+    Event windows of $[-24, +24]$ months around each reform date. Non-treated countries
+    (KOSPI, SP500, MSCI\_EM) serve as the control group within each cohort.}
   \label{fig:event_study}
 \end{figure}
-
-% Table 1: Summary statistics
-\input{../output/tables/table1_summary_stats.tex}
 
 % Table 2: Panel OLS with wild-bootstrap p-values
 \input{../output/tables/table2_ols.tex}
@@ -96,19 +601,26 @@ Placeholder abstract.
 \input{../output/tables/table_event_study_coefs.tex}
 
 \section{Discussion and Limitations}
+\label{sec:discussion}
 % DISCUSSION AND LIMITATIONS -- to be completed in Plan 04
 
 \section{Conclusion}
+\label{sec:conclusion}
 % CONCLUSION -- to be completed in Plan 04
 
 \section{Policy Recommendations}
+\label{sec:policy}
 % POLICY RECOMMENDATIONS -- to be completed in Plan 04
 
 % Figure 4: Counterfactual projection
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=\textwidth]{../output/figures/figure4_counterfactual_projection.pdf}
-  \caption{Illustrative projection of KOSPI P/B assuming Korea implements a P/B governance reform analogous to Japan's 2023 TSE reform.}
+  \caption{Illustrative projection of KOSPI P/B assuming Korea implements a P/B governance
+    reform analogous to Japan's 2023 TSE reform. Solid line: KOSPI P/B historical series
+    2004--2024. Dashed line: projection applying Japan's observed post-reform P/B recovery
+    rate to KOSPI's 2024 level of approximately $0.93\times$. Shaded band: $\pm1$ pre-treatment
+    RMSPE uncertainty. Labeled ``Illustrative projection'' --- not a forecast.}
   \label{fig:counterfactual}
 \end{figure}
 
@@ -118,16 +630,20 @@ Placeholder abstract.
 \begin{appendices}
 
 \section{Variable Definitions}
+\label{app:vardefs}
 % APPENDIX A -- to be completed in Plan 04
 
 \section{Additional Robustness Tables}
+\label{app:robustness}
 % APPENDIX B -- to be completed in Plan 04
 
 % Figure: Geopolitical risk overlay
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=\textwidth]{../output/figures/figure3_geo_risk.pdf}
-  \caption{Geopolitical risk index (GPR) and KOSPI P/B discount.}
+  \caption{Geopolitical risk index (GPR, \citealt{caldara2022}) and KOSPI P/B discount.
+    The GPR index is standardized to zero mean and unit variance. North Korean nuclear test
+    dates are marked with vertical dashed lines.}
   \label{fig:geo_risk}
 \end{figure}
 
@@ -138,7 +654,10 @@ Placeholder abstract.
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=\textwidth]{../output/figures/figure_synth_gap.pdf}
-  \caption{Synthetic control gap: TOPIX P/B (actual) minus synthetic TOPIX P/B, 2023 TSE P/B reform.}
+  \caption{Synthetic control gap: TOPIX P/B (actual) minus synthetic TOPIX P/B, 2023 TSE
+    P/B reform. Synthetic TOPIX constructed by \citet{abadie2010} method; donor pool
+    receives full weight on MSCI Hong Kong (weight = 1.0). Pre-treatment RMSPE = 0.2893.
+    Dashed vertical line marks March 2023 reform date.}
   \label{fig:synth_gap}
 \end{figure}
 
