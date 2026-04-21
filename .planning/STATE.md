@@ -1,25 +1,16 @@
 ---
 gsd_state_version: 1.0
 milestone: v1.0
-milestone_name: milestone
-<<<<<<< HEAD
-status: planning
-=======
-status: milestone_complete
->>>>>>> 2a6a337 (docs(phase-05): complete phase execution)
-stopped_at: Phase 5 context gathered
-last_updated: "2026-04-21T02:33:45.818Z"
-last_activity: 2026-04-21
+milestone_name: Korea Discount Study MVP
+status: shipped
+stopped_at: Milestone v1.0 closed
+last_updated: "2026-04-21T08:30:00.000Z"
+last_activity: 2026-04-21 -- milestone v1.0 complete
 progress:
   total_phases: 5
-<<<<<<< HEAD
-  completed_phases: 4
-  total_plans: 19
-=======
   completed_phases: 5
   total_plans: 24
->>>>>>> 2a6a337 (docs(phase-05): complete phase execution)
-  completed_plans: 19
+  completed_plans: 24
   percent: 100
 ---
 
@@ -27,79 +18,33 @@ progress:
 
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2026-04-17)
+See: .planning/PROJECT.md (updated 2026-04-21)
 
 **Core value:** A rigorous, reproducible empirical argument that the Korea Discount is structural and addressable — with credible causal evidence from Japan that reform works.
-**Current focus:** Phase 5 — paper-assembly-and-replication-package
+**Current focus:** Milestone v1.0 shipped — planning next milestone
 
 ## Current Position
 
-<<<<<<< HEAD
-Phase: 5
-Plan: Not started
-Status: Ready to plan Phase 5
-=======
-Phase: 05
-Plan: Not started
-Status: Milestone complete
->>>>>>> 2a6a337 (docs(phase-05): complete phase execution)
+Phase: Complete
+Plan: All 24 plans complete
+Status: v1.0 shipped
 Last activity: 2026-04-21
 
-Progress: [████████░░] 80%
+Progress: [██████████] 100%
 
-## Performance Metrics
+## Milestone v1.0 Summary
 
-**Velocity:**
+**Shipped:** 2026-04-21
+**Phases:** 1–5 (24 plans)
+**Paper:** paper/main.pdf — 48 pages, 370 KB, latexmk exit 0
+**Tests:** 38/38 pytest pass
+**Requirements:** 40/40 v1 complete
 
-- Total plans completed: 24
-- Average duration: —
-- Total execution time: 0 hours
+## Deferred Items
 
-**By Phase:**
-
-| Phase | Plans | Total | Avg/Plan |
-|-------|-------|-------|----------|
-| 01 | 3 | - | - |
-| 02 | 4 | - | - |
-| 03 | 6 | - | - |
-| 04 | 6 | - | - |
-| 05 | 5 | - | - |
-
-**Recent Trend:**
-
-- Last 5 plans: —
-- Trend: —
-
-*Updated after each plan completion*
-
-## Accumulated Context
-
-### Decisions
-
-Decisions are logged in PROJECT.md Key Decisions table.
-Recent decisions affecting current work:
-
-- [Init]: Python over R — user preference
-- [Init]: Staggered event study + panel OLS as primary methods; synthetic control as robustness
-- [Init]: All three Japan reform dates as treatment events (2014, 2015, 2023)
-- [Init]: Use `linearmodels.PanelOLS` not `statsmodels.OLS` for panel FE regressions
-- [Init]: Event dates must be locked in config.py before any data is loaded (look-ahead bias firewall)
-
-### Pending Todos
-
-None yet.
-
-### Blockers/Concerns
-
-- [Phase 1]: Bloomberg acquisition path approved by human gate; checked-in raw files and manifest are ready for downstream analysis.
-- [Phase 3]: Stacked event study (Cengiz et al. 2019) requires manual Python construction — no mature library exists. Plan a focused pre-implementation research step.
-- [Phase 3]: Verify `wildboottest` package exists and is compatible with `linearmodels` 6.x before committing to this inference approach.
-- [Phase 4]: Synthetic-control RMSPE is high (`0.2893`) but accepted via human checkpoint as a Phase 5 paper-text caveat, not a blocking analysis defect.
+None — all UAT items resolved at close.
 
 ## Session Continuity
 
-Last session: --stopped-at
-Stopped at: Phase 5 context gathered
-Resume file: --resume-file
-
-**Completed Phase:** 04 (synthetic-control-and-robustness) — 6 plans — 2026-04-21T00:13:23.732Z
+Last session: Milestone v1.0 complete
+Stopped at: Milestone close
