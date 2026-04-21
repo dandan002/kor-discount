@@ -14,8 +14,8 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Repo Setup and Data Pipeline** - Build reproducible repo scaffold, lock event dates, acquire raw data, and produce `panel.parquet`
 - [x] **Phase 2: Descriptive Analysis** - Validate the panel and document the Korea Discount visually and statistically
-- [ ] **Phase 3: Primary Empirics** - Run event study, panel OLS, and geopolitical risk sub-analysis
-- [ ] **Phase 4: Synthetic Control and Robustness** - Synthetic control for 2023 TSE reform and full robustness test suite
+- [x] **Phase 3: Primary Empirics** - Run event study, panel OLS, and geopolitical risk sub-analysis
+- [x] **Phase 4: Synthetic Control and Robustness** - Synthetic control for 2023 TSE reform and full robustness test suite
 - [ ] **Phase 5: Paper Assembly and Replication Package** - Write all paper sections, integrate outputs into LaTeX, deliver submission-ready PDF and replication package
 
 ## Phase Details
@@ -100,15 +100,10 @@ Plans:
   2. Every figure and table in the PDF is included via `\includegraphics{}` or `\input{}` pointing to a file in `output/` — no manually created charts or hand-typed numbers
   3. Policy section provides specific near-term recommendations tied to FSC, KRX, and stewardship code levers; counterfactual projection for Korea is clearly labeled as illustrative
   4. Running `python run_all.py` from a clean checkout (with raw data present) regenerates all figures and tables without error; `requirements.txt` pins all dependencies and a README documents the two-command reproduction workflow
-**Plans**: 6 plans
+**Plans**: TBD
 
 Plans:
-- [x] 04-01-PLAN.md — Foundation: test scaffold (tests/test_phase4.py), robustness package init, pysyncon==1.5.2 pinned
-- [x] 04-02-PLAN.md — Synthetic control: ADH estimation, RMSPE, gap plot, in-time & in-space placebos (SYNTH-01/02/03, ROBUST-04)
-- [x] 04-03-PLAN.md — Placebo falsification: Taiwan & Indonesia event studies (ROBUST-01)
-- [x] 04-04-PLAN.md — P/E robustness: full Phase 3 replication with P/E metric (ROBUST-02)
-- [x] 04-05-PLAN.md — Alt control group: MSCI EM Asia & EM ex-China panel OLS variants (ROBUST-03)
-- [ ] 04-06-PLAN.md — Verification: full test suite green + human sign-off on synthetic control figures
+- Not planned yet
 
 ## Progress
 
@@ -119,6 +114,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 |-------|----------------|--------|-----------|
 | 1. Repo Setup and Data Pipeline | 3/3 | Complete | 2026-04-16 |
 | 2. Descriptive Analysis | 4/4 | Complete | 2026-04-17 |
-| 3. Primary Empirics | 0/TBD | Not started | - |
-| 4. Synthetic Control and Robustness | 0/TBD | Not started | - |
+| 3. Primary Empirics | 6/6 | Complete | 2026-04-20 |
+| 4. Synthetic Control and Robustness | 6/6 | Complete | 2026-04-21 |
 | 5. Paper Assembly and Replication Package | 0/TBD | Not started | - |

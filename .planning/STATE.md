@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: executing
-stopped_at: Phase 4 context gathered
-last_updated: "2026-04-20T23:16:50.713Z"
-last_activity: 2026-04-20 -- Phase 04 execution started
+status: planning
+stopped_at: Phase 4 complete -- ready to plan Phase 5
+last_updated: "2026-04-21T00:13:23.732Z"
+last_activity: 2026-04-21
 progress:
   total_phases: 5
-  completed_phases: 3
+  completed_phases: 4
   total_plans: 19
-  completed_plans: 13
-  percent: 68
+  completed_plans: 19
+  percent: 80
 ---
 
 # Project State
@@ -21,22 +21,22 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-17)
 
 **Core value:** A rigorous, reproducible empirical argument that the Korea Discount is structural and addressable — with credible causal evidence from Japan that reform works.
-**Current focus:** Phase 04 — synthetic-control-and-robustness
+**Current focus:** Phase 5 — paper-assembly-and-replication-package
 
 ## Current Position
 
-Phase: 04 (synthetic-control-and-robustness) — EXECUTING
-Plan: 1 of 6
-Status: Executing Phase 04
-Last activity: 2026-04-20 -- Phase 04 execution started
+Phase: 5
+Plan: Not started
+Status: Ready to plan Phase 5
+Last activity: 2026-04-21
 
-Progress: [████░░░░░░] 40%
+Progress: [████████░░] 80%
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 13
+- Total plans completed: 19
 - Average duration: —
 - Total execution time: 0 hours
 
@@ -47,6 +47,7 @@ Progress: [████░░░░░░] 40%
 | 01 | 3 | - | - |
 | 02 | 4 | - | - |
 | 03 | 6 | - | - |
+| 04 | 6 | - | - |
 
 **Recent Trend:**
 
@@ -77,12 +78,12 @@ None yet.
 - [Phase 1]: Bloomberg acquisition path approved by human gate; checked-in raw files and manifest are ready for downstream analysis.
 - [Phase 3]: Stacked event study (Cengiz et al. 2019) requires manual Python construction — no mature library exists. Plan a focused pre-implementation research step.
 - [Phase 3]: Verify `wildboottest` package exists and is compatible with `linearmodels` 6.x before committing to this inference approach.
-- [Phase 4]: Resolve `pysyncon` vs `mlsynth` before Phase 4 implementation.
+- [Phase 4]: Synthetic-control RMSPE is high (`0.2893`) but accepted via human checkpoint as a Phase 5 paper-text caveat, not a blocking analysis defect.
 
 ## Session Continuity
 
-Last session: --stopped-at
-Stopped at: Phase 4 context gathered
+Last session: 2026-04-21
+Stopped at: Phase 4 complete -- ready to plan Phase 5
 Resume file: --resume-file
 
-**Planned Phase:** 03 (primary-empirics) — 6 plans — 2026-04-20T21:05:54.581Z
+**Completed Phase:** 04 (synthetic-control-and-robustness) — 6 plans — 2026-04-21T00:13:23.732Z

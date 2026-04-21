@@ -21,12 +21,13 @@ Explores whether the Korea Discount is structural and addressable — with causa
 - [Phase 3, 2026-04-20] Event study: cumulative abnormal valuation changes around each Japanese reform date — stacked cohort design, descriptive CARs (HC3 removed; saturated design), figures and coefficient tables in `output/`. Validated in Phase 3.
 - [Phase 3, 2026-04-20] Panel OLS with country/time fixed effects and reform-interaction dummies — wild-bootstrap p-values displayed in Table 2 for three reform×Japan terms. Validated in Phase 3.
 - [Phase 3, 2026-04-20] Geopolitical risk sub-analysis: GPR overlay figure and Table 3 estimating GPR premium on Korea Discount. Validated in Phase 3.
+- [Phase 4, 2026-04-21] Synthetic control robustness for the 2023 TSE P/B reform using `pysyncon`, including donor weights, RMSPE, gap plot, and in-time/in-space placebo figures. Validated in Phase 4.
+- [Phase 4, 2026-04-21] Robustness suite covering Taiwan/Indonesia placebo falsification, P/E replications, and alternative EM control groups. Validated in Phase 4.
 
 ### Active
 
 - [ ] Causal mechanism section covering three drivers: chaebol cross-shareholding opacity, weak minority-shareholder regulatory recourse, and North Korea geopolitical risk premium
 - [ ] Natural experiment analysis using Japan's staggered governance reforms (Stewardship Code 2014, Corporate Governance Code 2015, TSE P/B reform 2023) as treatment events
-- [ ] Synthetic control robustness check for at least the 2023 TSE reform
 - [ ] Near- and long-term policy recommendations for Korea (FSC, KRX, regulatory levers)
 - [ ] Final paper document (LaTeX or similar) integrating prose, figures, and tables from the analysis
 - [ ] Reproducible repo: downstream analysis scripts, figure/table generation, and final replication entrypoint from the validated panel
@@ -47,6 +48,7 @@ Explores whether the Korea Discount is structural and addressable — with causa
 - **Data sourced for Phase 1** — Bloomberg raw CSV exports and `data/raw/MANIFEST.md` are checked in; `src/data/build_panel.py` produces the canonical monthly P/B and P/E panel for KOSPI, TOPIX, S&P 500, and MSCI EM.
 - **Descriptive outputs from Phase 2** — `src/descriptive/figure1.py`, `table1.py`, and `discount_stats.py` generate the verified Figure 1 PDF, Table 1 LaTeX fragment, discount statistics CSV, and abstract-ready LaTeX macros.
 - **Primary empirics from Phase 3 complete** — Event study (Figure 2, descriptive CARs), panel OLS (Table 2 with wild-bootstrap p-values), and geopolitical risk sub-analysis (Figure 3, Table 3) are all estimated and in `output/`.
+- **Robustness checks from Phase 4 complete** — Synthetic control, placebo falsification, P/E replication, and alternative-control checks are implemented in `src/robustness/` with outputs in `output/robustness/` and `output/figures/`. Synthetic-control RMSPE is high (`0.2893`) and should be framed as a caveat in the paper.
 
 ## Constraints
 
@@ -66,6 +68,8 @@ Explores whether the Korea Discount is structural and addressable — with causa
 | Bloomberg raw valuation exports for Phase 1 panel | Free public point-in-time valuation data was low-confidence; checked-in Bloomberg extracts provide reproducible raw snapshots with a manifest | Validated in Phase 1 |
 | Event-date firewall in `config.py` | Treatment dates must be locked before data loading to prevent look-ahead bias | Validated in Phase 1 |
 | Korea Discount units reported in P/B points | DESC-03 allows bps or ratio; Phase 2 research selected ratio-style P/B multiple units for direct interpretation | Validated in Phase 2 |
+| `pysyncon` for synthetic control | Phase 4 resolved the `pysyncon` vs `mlsynth` choice in favor of a pinned `pysyncon==1.5.2` ADH implementation | Validated in Phase 4 |
+| High synthetic-control RMSPE accepted as caveat | Human checkpoint response `rmspe-high` approved proceeding with `0.2893` RMSPE as paper-text caveat rather than blocker | Validated in Phase 4 |
 
 ## Evolution
 
@@ -85,4 +89,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-20 after Phase 3 completion*
+*Last updated: 2026-04-21 after Phase 4 completion*
