@@ -1,8 +1,10 @@
 """
-panel_ols.py - Estimate two-way fixed effects PanelOLS specifications.
+panel_ols.py - Panel regression (OLS/FE) analysis for the Korea Discount study.
 
-Reads the canonical valuation panel and writes machine-readable regression
-output for the Korea Discount study's primary panel OLS analysis.
+Estimates the differential impact of Japanese governance reforms (Stewardship Code,
+Corporate Governance Code, TSE P/B Request) on TOPIX vs. KOSPI valuation metrics
+(P/B and P/E). Implements DID specifications with unit and time fixed effects,
+robust to heterogeneous treatment timing, and includes FX controls.
 """
 import logging
 import math
@@ -15,6 +17,8 @@ import statsmodels.api as sm
 from linearmodels import PanelOLS
 from linearmodels.panel.data import PanelData
 from wildboottest.wildboottest import wildboottest
+
+import numpy as np
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if str(PROJECT_ROOT) not in sys.path:
@@ -47,12 +51,13 @@ INTERACTION_TERMS = [
     "cgc_x_japan",
     "tse_pb_reform_x_japan",
 ]
-TABLE_TERMS = POST_TERMS + INTERACTION_TERMS
+MACRO_TERMS = ["log_fx"]
+TABLE_TERMS = POST_TERMS + INTERACTION_TERMS + MACRO_TERMS
 
 
 def construct_regression_panel(panel: pd.DataFrame) -> pd.DataFrame:
     """Construct reform indicators and return a country-date indexed panel."""
-    required_columns = {"date", "country", "pb"}
+    required_columns = {"date", "country", "pb", "fx_rate"}
     missing_columns = required_columns - set(panel.columns)
     if missing_columns:
         raise ValueError(f"panel is missing required columns: {sorted(missing_columns)}")
@@ -61,6 +66,8 @@ def construct_regression_panel(panel: pd.DataFrame) -> pd.DataFrame:
     reg_panel["date"] = pd.to_datetime(reg_panel["date"])
     reg_panel = reg_panel[reg_panel["date"] <= STUDY_END].copy()
 
+    reg_panel["log_fx"] = np.log(reg_panel["fx_rate"].replace(0, np.nan))
+    
     reg_panel["is_japan"] = (reg_panel["country"] == "TOPIX").astype(int)
     reg_panel["post_stewardship"] = (
         reg_panel["date"] >= pd.Timestamp(config.STEWARDSHIP_CODE_DATE)
@@ -204,9 +211,9 @@ def fit_panel_specs(reg_panel: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame
     model_rows: list[dict[str, object]] = []
 
     specs = [
-        (BASELINE_SPEC, []),
-        (DUMMIES_SPEC, POST_TERMS),
-        (INTERACTIONS_SPEC, POST_TERMS + INTERACTION_TERMS),
+        (BASELINE_SPEC, MACRO_TERMS),
+        (DUMMIES_SPEC, POST_TERMS + MACRO_TERMS),
+        (INTERACTIONS_SPEC, POST_TERMS + INTERACTION_TERMS + MACRO_TERMS),
     ]
     for specification, terms in specs:
         result = _fit_panel_ols(reg_panel, terms)

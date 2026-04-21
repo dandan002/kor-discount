@@ -55,6 +55,21 @@ def load_series(prefix: str, metric: str) -> pd.Series:
     return df[metric].astype("float64").rename(metric)
 
 
+def load_fx_series(country: str) -> pd.Series:
+    """Load FX rate (Local/USD) for the given country. Default to 1.0 if N/A."""
+    if country == "TOPIX":
+        path = config.RAW_DIR / "fx_japan.csv"
+    elif country == "KOSPI":
+        path = config.RAW_DIR / "fx_korea.csv"
+    else:
+        # SP500 and MSCI_EM get FX=1.0 (baseline USD or USD-priced)
+        return None
+        
+    df = pd.read_csv(path)
+    df["date"] = pd.to_datetime(df["date"]).dt.to_period("M").dt.to_timestamp() + pd.offsets.MonthEnd(0)
+    df = df.set_index("date")
+    return df["fx_rate"].astype("float64")
+
 def build_panel() -> pd.DataFrame:
     """Build and persist the canonical long-format valuation panel."""
     warnings.filterwarnings("default")
@@ -63,6 +78,10 @@ def build_panel() -> pd.DataFrame:
     for country, prefix in INDEX_MAP.items():
         for metric in ("pb", "pe"):
             series[(country, metric)] = load_series(prefix, metric)
+            
+        fx = load_fx_series(country)
+        if fx is not None:
+            series[(country, "fx")] = fx
 
     country_dfs = {}
     for country in config.COUNTRIES:
@@ -75,6 +94,17 @@ def build_panel() -> pd.DataFrame:
             join="outer",
         )
         df.index = df.index + pd.offsets.MonthEnd(0)
+        
+        # Add FX
+        if (country, "fx") in series:
+            # Reindex FX to match the df index (end of month)
+            fx_series = series[(country, "fx")]
+            # Interpolate or merge closely if dates slightly mismatched?
+            # We already set fx index to MonthEnd(0)
+            df = df.join(fx_series, how="left")
+        else:
+            df["fx_rate"] = 1.0
+            
         country_dfs[country] = df
 
     kospi_df = country_dfs["KOSPI"]
@@ -93,13 +123,16 @@ def build_panel() -> pd.DataFrame:
         df = country_dfs[country].copy()
         df["country"] = country
         df = df.reset_index().rename(columns={"index": "date"})
-        frames.append(df[["date", "country", "pb", "pe"]])
+        frames.append(df[["date", "country", "pb", "pe", "fx_rate"]])
 
     panel = (
         pd.concat(frames, ignore_index=True)
         .sort_values(["date", "country"])
         .reset_index(drop=True)
     )
+
+    # Some FX rates might be NaN due to date mismatches at edges; ffill them
+    panel["fx_rate"] = panel.groupby("country")["fx_rate"].ffill().bfill()
 
     nan_mask = panel.isna().any(axis=1)
     nan_rows = panel[nan_mask]

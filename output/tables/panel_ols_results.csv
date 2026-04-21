@@ -5,15 +5,18 @@ Baseline two-way FE,post_tse_pb_reform,,,,,not included
 Baseline two-way FE,stewardship_x_japan,,,,,not included
 Baseline two-way FE,cgc_x_japan,,,,,not included
 Baseline two-way FE,tse_pb_reform_x_japan,,,,,not included
+Baseline two-way FE,log_fx,-0.023511188421583257,0.009905427094109128,0.01786753955667897,,
 + reform dummies,post_stewardship,,,,,absorbed by time FE
 + reform dummies,post_cgc,,,,,absorbed by time FE
 + reform dummies,post_tse_pb_reform,,,,,absorbed by time FE
 + reform dummies,stewardship_x_japan,,,,,not included
 + reform dummies,cgc_x_japan,,,,,not included
 + reform dummies,tse_pb_reform_x_japan,,,,,not included
++ reform dummies,log_fx,-0.023511188421583257,0.009905427094109128,0.01786753955667897,,
 + reform x Japan,post_stewardship,,,,,absorbed by time FE
 + reform x Japan,post_cgc,,,,,absorbed by time FE
 + reform x Japan,post_tse_pb_reform,,,,,absorbed by time FE
-+ reform x Japan,stewardship_x_japan,0.08677978650137601,0.04252121095125343,0.04161449133093953,0.75,
-+ reform x Japan,cgc_x_japan,-0.32133301971325967,0.04368978479894301,5.018208071305708e-13,0.375,
-+ reform x Japan,tse_pb_reform_x_japan,-0.2351984196806775,0.12245441236196114,0.05514815025425679,0.5,
++ reform x Japan,stewardship_x_japan,0.09110104345137211,0.04312521933012552,0.034975909248087245,0.625,
++ reform x Japan,cgc_x_japan,-0.32213519998260814,0.04407611138053454,6.934453011808728e-13,0.375,
++ reform x Japan,tse_pb_reform_x_japan,-0.23367655595726117,0.12229882992647906,0.056424478244624154,0.5,
++ reform x Japan,log_fx,-0.014024106188536604,0.00904440516424238,0.12142391932354446,,

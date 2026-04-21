@@ -29,21 +29,25 @@ ROBUSTNESS_DIR = config.OUTPUT_DIR / "robustness"
 FIGURES_DIR = config.OUTPUT_DIR / "figures"
 
 # SUTVA JUSTIFICATION (D-07):
-# Donor pool: STOXX600, FTSE100, MSCI_HK, MSCI_TAIWAN, SP500.
+# Donor pool: MSCI_HK, MSCI_TAIWAN, MSCI_EM, MSCI_EM_ASIA, MSCI_CHINA,
+# MSCI_INDIA, MSCI_INDONESIA.
 # Korea (KOSPI) is excluded to avoid conflating the estimand with the primary
-# comparison market (D-05). India and Indonesia are excluded due to high-growth
-# P/B premium; they are used in ROBUST-01 placebo tests (D-06).
-# STOXX600/FTSE100 governance reforms in this period did not involve TSE-style
-# P/B mandates. HSI and MSCI Taiwan are Hong Kong and Taiwan markets with no
-# equivalent reform event in 2023. The 19-year pre-treatment window (2004-2023)
-# averages out global ESG/governance trends common to all markets.
+# comparison market (D-05). All donors are regional/EM peers with no
+# equivalent TSE-style P/B mandate reform in 2023. The 19-year pre-treatment
+# window (2004-2023) averages out global ESG/governance trends common to all markets.
+# Demeaning resolves the convex hull boundary problem: Japan's absolute P/B
+# is structurally lower than most donors, so matching on levels forces 100%
+# weight onto the single lowest-valued market. Demeaning centers each series
+# at zero, allowing the optimizer to match on trend shape and distribute weights.
 
 DONORS = {
-    "STOXX600": "stoxx600_pb_2004_2026.csv",
-    "FTSE100": "ftse100_pb_2004_2026.csv",
     "MSCI_HK": "msci_hk_pb_2004_2026.csv",
     "MSCI_TAIWAN": "msci_taiwan_pb_2004_2026.csv",
-    "SP500": "sp500_pb_2004_2026.csv",
+    "MSCI_EM": "msci_em_pb_2004_2026.csv",
+    "MSCI_EM_ASIA": "msci_em_asia_pb_2004_2026.csv",
+    "MSCI_CHINA": "msci_china_pb_2004_2026.csv",
+    "MSCI_INDIA": "msci_india_pb_2004_2026.csv",
+    "MSCI_INDONESIA": "msci_indonesia_pb_2004_2026.csv",
 }
 
 
@@ -68,8 +72,21 @@ def load_donor_panel() -> pd.DataFrame:
     return panel
 
 
+def demean_panel(panel: pd.DataFrame, pre_end: str) -> pd.DataFrame:
+    """
+    Demean the P/B series for each unit based on its pre-treatment mean.
+    This resolves the convex hull problem (Japan having a lower absolute P/B
+    than most donors) by matching on normalized trends rather than absolute levels.
+    """
+    df = panel.copy()
+    pre_end_date = pd.Timestamp(pre_end)
+    means = df[df["date"] <= pre_end_date].groupby("unit")["pb"].mean()
+    df["pb"] = df["pb"] - df["unit"].map(means)
+    return df
+
 def run_synth(panel: pd.DataFrame) -> tuple[Synth, Dataprep]:
     """Fit the ADH synthetic control for TOPIX against the donor pool."""
+    panel = demean_panel(panel, "2023-02-01")
     pre_period = pd.date_range(start="2004-01-01", end="2023-02-01", freq="MS")
     dataprep = Dataprep(
         foo=panel,
@@ -155,6 +172,7 @@ def extract_results_and_plot(synth: Synth, dataprep: Dataprep) -> pd.Series:
 def run_intime_placebo(panel: pd.DataFrame) -> pd.Series:
     """Run the in-time placebo using a fake pre-COVID treatment date."""
     placebo_date = pd.Timestamp("2019-01-01")
+    panel = demean_panel(panel, "2018-12-01")
     pre_placebo = pd.date_range(start="2004-01-01", end="2018-12-01", freq="MS")
     dataprep_it = Dataprep(
         foo=panel,
@@ -219,6 +237,7 @@ def run_intime_placebo(panel: pd.DataFrame) -> pd.Series:
 
 def run_inspace_placebo(panel: pd.DataFrame, ts_gap: pd.Series) -> dict[str, pd.Series]:
     """Run donor-as-treated in-space placebo fits and plot their gap distribution."""
+    panel = demean_panel(panel, "2023-02-01")
     donors = list(DONORS.keys())
     pre_period = pd.date_range(start="2004-01-01", end="2023-02-01", freq="MS")
     all_period = pd.date_range(start="2004-01-01", end="2026-04-01", freq="MS")

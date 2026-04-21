@@ -30,7 +30,6 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s", str
 
 FIGURES_DIR = config.OUTPUT_DIR / "figures"
 ROBUSTNESS_DIR = config.OUTPUT_DIR / "robustness"
-RMSPE = 0.2893  # Pre-treatment RMSPE from synthetic_control_weights.csv
 
 
 def main() -> None:
@@ -49,6 +48,9 @@ def main() -> None:
         f"Expected ['date', 'gap']. Re-run synthetic_control.py."
     )
     gap_df["date"] = pd.to_datetime(gap_df["date"])
+
+    weights_df = pd.read_csv(ROBUSTNESS_DIR / "synthetic_control_weights.csv")
+    RMSPE = weights_df["pre_rmspe"].iloc[0]
 
     # Extract post-reform gap: months 1-18 after TSE_PB_REFORM_DATE (2023-03-01)
     reform_date = pd.Timestamp(config.TSE_PB_REFORM_DATE)
@@ -79,6 +81,10 @@ def main() -> None:
     # 60-month (5-year) forward projection
     proj_dates = pd.date_range(start=base_date, periods=61, freq="MS")[1:]
     steps = np.arange(1, 61)
+    # the original code was computing the difference of the gap
+    # but gap = TOPIX - Synthetic. The change in gap over time is the lift
+    # if monthly_lift is negative, Japan's valuation decreased relative to synthetic
+    # We should project the lift.
     proj_values = base_level + monthly_lift * steps
     upper_band = proj_values + RMSPE
     lower_band = proj_values - RMSPE
