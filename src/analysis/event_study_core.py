@@ -287,6 +287,44 @@ def write_latex_table(car_df: pd.DataFrame, path: Path) -> None:
     )
 
 
+def write_latex_table_with_comments(
+    car_df: pd.DataFrame,
+    path: Path,
+    *,
+    leading_comments: Sequence[str] | None = None,
+) -> None:
+    """Write the descriptive CAR table with optional path-specific comments."""
+    base_comments = [
+        "% Descriptive CARs: coefficients and cumulative abnormal KOSPI-TOPIX P/B spread.",
+        "% Standard errors are not reported: the saturated cohort x relative-time design",
+        "% makes sandwich robust inference undefined. See paper text for robustness discussion.",
+    ]
+    comment_lines = [*base_comments]
+    if leading_comments:
+        comment_lines.extend(leading_comments)
+
+    table = car_df.copy()
+    table = table.rename(
+        columns={
+            "event_label": "Event",
+            "event_rel_time": "Month",
+            "coefficient": "Coefficient",
+            "car": "CAR",
+        }
+    )
+    table = table.drop(columns=["cohort"])
+    latex = table.to_latex(
+        index=False,
+        escape=False,
+        float_format="%.2f",
+        na_rep="--",
+        caption="Stacked event-study descriptive CAR estimates (no inference reported).",
+        label="tab:event_study_coefs",
+    )
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("\n".join(comment_lines) + "\n" + latex, encoding="utf-8")
+
+
 def plot_event_study(
     car_df: pd.DataFrame,
     *,
@@ -345,6 +383,7 @@ def run_event_study(
     figure_output_path: Path,
     car_output_path: Path,
     table_output_path: Path,
+    table_comment_lines: Sequence[str] | None = None,
 ) -> pd.DataFrame:
     stacked = build_stacked_dataset(
         panel,
@@ -366,7 +405,11 @@ def run_event_study(
     car.to_csv(car_output_path, index=False)
     logging.info("Saved %s", car_output_path)
 
-    write_latex_table(car, table_output_path)
+    write_latex_table_with_comments(
+        car,
+        table_output_path,
+        leading_comments=table_comment_lines,
+    )
     logging.info("Saved %s", table_output_path)
 
     plot_event_study(
