@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: Korea Value-Up Reform Event Study
 status: executing
-stopped_at: Completed 07-03-PLAN.md
-last_updated: "2026-04-23T20:12:41.028Z"
-last_activity: 2026-04-23
+stopped_at: Phase 7 complete; next command is `/gsd-plan-phase 8`
+last_updated: "2026-04-23T20:24:28.118Z"
+last_activity: 2026-04-23 -- Phase 7 execution complete
 progress:
   total_phases: 4
   completed_phases: 2
-  total_plans: 6
+  total_plans: 12
   completed_plans: 6
-  percent: 100
+  percent: 50
 ---
 
 # Project State
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-23)
 
 **Core value:** A rigorous, reproducible empirical argument that the Korea Discount is structural and addressable — with credible causal evidence from Japan that reform works.
-**Current focus:** Phase 07 — korea-value-up-event-study
+**Current focus:** Phase 08 — robustness-and-comparative-interpretation
 
 ## Current Position
 
-Phase: 07 (korea-value-up-event-study) — EXECUTING
-Plan: 3 of 3 completed
-Status: Ready to execute
-Last activity: 2026-04-23
+Phase: 8
+Plan: Not started
+Status: Ready to plan
+Last activity: 2026-04-23 -- Phase 7 execution complete
 
-Progress: [████████░░] 83%
+Progress: [█████░░░░░] 50%
 
 ## Milestone v1.1 Summary
 
@@ -49,7 +49,7 @@ Progress: [████████░░] 83%
 - 2026-04-23 (Phase 07): Drive Korea estimation directly from `config.KOREA_EVENT_SET_POLICY["primary"]` and `config.FOLLOW_ON_STUDY_END` rather than touching Japan defaults.
 - 2026-04-23 (Phase 07): Disclose clustered-date overlap and `max_post_months` directly in the Korea LaTeX output comments.
 - [Phase 07]: Kept verification commits doc-scoped and left regenerated outputs unstaged in the dirty main tree.
-- [Phase 07]: Recorded Korea PDF readability review as the remaining manual follow-up after automated gates passed.
+- [Phase 07]: Korea PDF readability review passed after direct visual comparison with the shipped Japan figure.
 
 ## Performance Metrics
 
@@ -60,5 +60,5 @@ Progress: [████████░░] 83%
 
 ## Session Continuity
 
-Last session: 2026-04-23T20:12:41.025Z
-Stopped at: Completed 07-03-PLAN.md
+Last session: 2026-04-23T20:24:28.118Z
+Stopped at: Phase 7 complete; next command is `/gsd-plan-phase 8`

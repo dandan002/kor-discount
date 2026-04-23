@@ -74,6 +74,6 @@ Full details: `.planning/milestones/v1.0-ROADMAP.md`
 | 4. Synthetic Control and Robustness | v1.0 | 6/6 | Complete | 2026-04-21 |
 | 5. Paper Assembly and Replication Package | v1.0 | 5/5 | Complete | 2026-04-21 |
 | 6. Korea Reform Date Locking and Sample Horizon | v1.1 | 3/3 | Complete | 2026-04-23 |
-| 7. Korea Value-Up Event Study | v1.1 | 2/3 | In Progress | — |
+| 7. Korea Value-Up Event Study | v1.1 | 3/3 | Complete | 2026-04-23 |
 | 8. Robustness and Comparative Interpretation | v1.1 | 0/3 | Pending | — |
 | 9. Paper and Replication Integration | v1.1 | 0/3 | Pending | — |
