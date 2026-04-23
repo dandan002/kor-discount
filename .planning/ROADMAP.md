@@ -27,7 +27,7 @@ Plans:
 Plans:
 - [x] 07-01-PLAN.md — Foundation: Korea event-study module scaffold, tests, and shared helpers factored from the Japan implementation where appropriate
 - [x] 07-02-PLAN.md — Estimation: Korea reform CAR calculations plus figure/table outputs in `output/`
-- [ ] 07-03-PLAN.md — Verification: regenerate Korea and Japan event-study artifacts and confirm the comparison-ready output contract
+- [x] 07-03-PLAN.md — Verification: regenerate Korea and Japan event-study artifacts and confirm the comparison-ready output contract
 
 ### Phase 8: Robustness and Comparative Interpretation
 
