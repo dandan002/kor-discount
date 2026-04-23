@@ -40,11 +40,11 @@ A rigorous, reproducible empirical argument that the Korea Discount is structura
 - [Phase 5, 2026-04-21] Near- and long-term policy recommendations for Korea (FSC, KRX, regulatory levers) with illustrative counterfactual projection (Figure 4). Validated in Phase 5.
 - [Phase 5, 2026-04-21] Final paper document — `paper/main.tex` compiled to `paper/main.pdf` (48 pages, 370 KB) integrating all prose, figures, and tables. Validated in Phase 5.
 - [Phase 5, 2026-04-21] Reproducible replication package: `run_all.py` orchestrates all 11 scripts in dependency order; two-command workflow documented in README.md. Validated in Phase 5.
+- [Phase 6, 2026-04-23] Korea-side reform dates are locked from official FSC/KRX records, with labels and rationale documented before new estimation. Validated in Phase 6.
+- [Phase 7, 2026-04-23] A Korea Value-Up staged event study is added using the same artifact pattern as the current Japan analysis. Validated in Phase 7.
 
 ### Active
 
-- [ ] Korea-side reform dates are locked from official FSC/KRX records, with labels and rationale documented before any new estimation
-- [ ] A Korea Value-Up staged event study is added using the same artifact pattern as the current Japan analysis
 - [ ] Paper text, run orchestration, and verification cover the Korea follow-on analysis while preserving the shipped Japan benchmark
 
 ### Out of Scope
@@ -93,7 +93,8 @@ A rigorous, reproducible empirical argument that the Korea Discount is structura
 | High synthetic-control RMSPE accepted as caveat | Human checkpoint response `rmspe-high` approved proceeding with `0.2893` RMSPE as paper-text caveat rather than blocker | ✓ Validated v1.0 |
 | HC3 standard error claim removed from event study | Saturated stacked cohort design makes coefficient-level HC3 inapplicable; descriptive CARs reported instead | ✓ Validated v1.0 |
 | Wild-bootstrap p-values displayed in Table 2 | Clustered SE with N=4 is unreliable; wild-bootstrap gives credible small-sample inference | ✓ Validated v1.0 |
-| v1.1 will prioritize Korea-side event study before new OLS/synthetic-control work | User asked for a Korea reform event study analogous to the existing Japan design; the fastest defensible follow-on is to mirror that format first | — Pending |
+| Korea event study uses a dedicated entrypoint and shared core instead of mutating Japan defaults | Preserves the shipped Japan artifact contract while allowing Korea-specific filenames, windows, and overlap annotations | ✓ Validated in Phase 7 |
+| v1.1 will prioritize Korea-side event study before new OLS/synthetic-control work | User asked for a Korea reform event study analogous to the existing Japan design; the fastest defensible follow-on is to mirror that format first | ✓ Validated in Phase 7 |
 | Track two Korea date sets before code lock | The narrow 2024 Value-Up rollout is policy-pure but tightly clustered; the broader 2024-2026 reform set is cleaner in spacing but mixes follow-through governance reforms | — Pending |
 
 ## Evolution
@@ -114,4 +115,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-23 after milestone v1.1 kickoff — Korea Value-Up follow-on scope defined and official reform dates gathered.*
+*Last updated: 2026-04-23 after Phase 7 — Korea Value-Up event-study artifacts and verification completed.*
