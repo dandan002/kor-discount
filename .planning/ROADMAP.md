@@ -14,9 +14,9 @@
 **Plans**: 3 plans
 
 Plans:
-- [ ] 06-01-PLAN.md — Research memo: official FSC/KRX date lock, narrow vs extended date sets, and overlap/post-window rationale
-- [ ] 06-02-PLAN.md — Plumbing: `config.py`, shared study horizon controls, and tests for Korea reform dates without breaking Japan outputs
-- [ ] 06-03-PLAN.md — Verification: confirm panel coverage through 2026-04, artifact paths, and backwards compatibility with v1.0 outputs
+- [x] 06-01-PLAN.md — Research memo: official FSC/KRX date lock, narrow vs extended date sets, and overlap/post-window rationale
+- [x] 06-02-PLAN.md — Plumbing: `config.py`, shared study horizon controls, and tests for Korea reform dates without breaking Japan outputs
+- [x] 06-03-PLAN.md — Verification: confirm panel coverage through 2026-04, artifact paths, and backwards compatibility with v1.0 outputs
 
 ### Phase 7: Korea Value-Up Event Study
 
@@ -25,8 +25,8 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 07-01-PLAN.md — Foundation: Korea event-study module scaffold, tests, and shared helpers factored from the Japan implementation where appropriate
-- [ ] 07-02-PLAN.md — Estimation: Korea reform CAR calculations plus figure/table outputs in `output/`
+- [x] 07-01-PLAN.md — Foundation: Korea event-study module scaffold, tests, and shared helpers factored from the Japan implementation where appropriate
+- [x] 07-02-PLAN.md — Estimation: Korea reform CAR calculations plus figure/table outputs in `output/`
 - [ ] 07-03-PLAN.md — Verification: regenerate Korea and Japan event-study artifacts and confirm the comparison-ready output contract
 
 ### Phase 8: Robustness and Comparative Interpretation
@@ -73,7 +73,7 @@ Full details: `.planning/milestones/v1.0-ROADMAP.md`
 | 3. Primary Empirics | v1.0 | 6/6 | Complete | 2026-04-20 |
 | 4. Synthetic Control and Robustness | v1.0 | 6/6 | Complete | 2026-04-21 |
 | 5. Paper Assembly and Replication Package | v1.0 | 5/5 | Complete | 2026-04-21 |
-| 6. Korea Reform Date Locking and Sample Horizon | v1.1 | 0/3 | Pending | — |
-| 7. Korea Value-Up Event Study | v1.1 | 0/3 | Pending | — |
+| 6. Korea Reform Date Locking and Sample Horizon | v1.1 | 3/3 | Complete | 2026-04-23 |
+| 7. Korea Value-Up Event Study | v1.1 | 2/3 | In Progress | — |
 | 8. Robustness and Comparative Interpretation | v1.1 | 0/3 | Pending | — |
 | 9. Paper and Replication Integration | v1.1 | 0/3 | Pending | — |

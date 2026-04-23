@@ -14,9 +14,9 @@
 
 ### Korea Event Study
 
-- [ ] **KEVNT-01**: Researcher can run a Korea-side staged event study, analogous to the current Japan design, on an official Korea reform sequence tied to the Value-Up agenda
-- [ ] **KEVNT-02**: The Korea event study writes machine-readable CAR outputs and a paper-ready figure/table in the same style as the Japan event-study artifacts
-- [ ] **KEVNT-03**: The design explicitly handles closely clustered Korea reform announcements by documented date selection, overlap annotation, or shorter windows rather than silent contamination
+- [x] **KEVNT-01**: Researcher can run a Korea-side staged event study, analogous to the current Japan design, on an official Korea reform sequence tied to the Value-Up agenda
+- [x] **KEVNT-02**: The Korea event study writes machine-readable CAR outputs and a paper-ready figure/table in the same style as the Japan event-study artifacts
+- [x] **KEVNT-03**: The design explicitly handles closely clustered Korea reform announcements by documented date selection, overlap annotation, or shorter windows rather than silent contamination
 - [ ] **KEVNT-04**: The shipped Japan event-study outputs remain reproducible and unchanged unless a comparison artifact is intentionally versioned
 
 ### Robustness and Interpretation
@@ -55,13 +55,13 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DATES-01 | Phase 6 | Pending |
-| DATES-02 | Phase 6 | Pending |
-| SAMPLE-01 | Phase 6 | Pending |
-| SAMPLE-02 | Phase 6 | Pending |
-| KEVNT-01 | Phase 7 | Pending |
-| KEVNT-02 | Phase 7 | Pending |
-| KEVNT-03 | Phase 7 | Pending |
+| DATES-01 | Phase 6 | Complete |
+| DATES-02 | Phase 6 | Complete |
+| SAMPLE-01 | Phase 6 | Complete |
+| SAMPLE-02 | Phase 6 | Complete |
+| KEVNT-01 | Phase 7 | Complete |
+| KEVNT-02 | Phase 7 | Complete |
+| KEVNT-03 | Phase 7 | Complete |
 | KEVNT-04 | Phase 7 | Pending |
 | KROB-01 | Phase 8 | Pending |
 | KROB-02 | Phase 8 | Pending |
