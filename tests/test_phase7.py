@@ -66,6 +66,13 @@ def test_phase7_korea_output_window_matches_policy():
     primary = config.KOREA_EVENT_SET_POLICY["primary"]
     car = pd.read_csv(KOREA_CAR)
 
+    assert list(car.columns) == [
+        "cohort",
+        "event_label",
+        "event_rel_time",
+        "coefficient",
+        "car",
+    ]
     assert car["cohort"].nunique() == 3
     expected_window = set(range(-12, primary["max_post_months"] + 1))
     for cohort, group in car.groupby("cohort"):
