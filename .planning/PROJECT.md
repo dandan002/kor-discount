@@ -2,11 +2,20 @@
 
 ## What This Is
 
-An academic research paper and reproducible Python codebase investigating the persistent valuation discount of South Korean equities ("Korea Discount") relative to developed-market peers. The paper quantifies the discount across a 20-year panel of KOSPI, TOPIX, S&P 500, and MSCI EM valuation data, diagnoses its compounded causes, and derives policy recommendations using Japan's corporate governance reforms as a natural experiment.
+An academic research paper and reproducible Python codebase investigating the persistent valuation discount of South Korean equities ("Korea Discount") relative to developed-market peers. The project now has a shipped Japan-based natural-experiment paper and is entering a follow-on milestone that applies the same staged event-study format to Korea's own shareholder-value reforms through the FSC/KRX Value-Up agenda.
 
 ## Core Value
 
 A rigorous, reproducible empirical argument that the Korea Discount is structural and addressable — with credible causal evidence from Japan that reform works.
+
+## Current Milestone: v1.1 Korea Value-Up Reform Event Study
+
+**Goal:** Extend the shipped Japan benchmark with a Korea-side staged event study using official FSC/KRX reform dates and the existing panel through April 2026.
+
+**Target features:**
+- Lock Korea Value-Up reform dates from official policy records and document the narrow-vs-extended date-set tradeoff
+- Generate Korea-side CAR figures/tables in the same style as the current Japan event study
+- Integrate the Korea results into the paper and replication workflow without breaking the shipped v1.0 outputs
 
 ## Requirements
 
@@ -34,7 +43,9 @@ A rigorous, reproducible empirical argument that the Korea Discount is structura
 
 ### Active
 
-(none — all milestone requirements validated)
+- [ ] Korea-side reform dates are locked from official FSC/KRX records, with labels and rationale documented before any new estimation
+- [ ] A Korea Value-Up staged event study is added using the same artifact pattern as the current Japan analysis
+- [ ] Paper text, run orchestration, and verification cover the Korea follow-on analysis while preserving the shipped Japan benchmark
 
 ### Out of Scope
 
@@ -42,6 +53,7 @@ A rigorous, reproducible empirical argument that the Korea Discount is structura
 - Non-equity asset classes (bonds, FX, real estate) — discount is equity-specific
 - Company-level microstructure analysis — paper operates at index/market level
 - Causal claims beyond what the natural experiment design supports — descriptive and event-study framing for DiD limitations acknowledged
+- Full Korean reform panel OLS / synthetic control rebuild in this milestone — the immediate goal is the staged event-study follow-on first
 
 ## Context
 
@@ -54,6 +66,8 @@ A rigorous, reproducible empirical argument that the Korea Discount is structura
 - **Primary empirics from Phase 3 complete** — Event study (Figure 2, descriptive CARs), panel OLS (Table 2 with wild-bootstrap p-values), and geopolitical risk sub-analysis (Figure 3, Table 3) are all estimated and in `output/`.
 - **Robustness checks from Phase 4 complete** — Synthetic control, placebo falsification, P/E replication, and alternative-control checks are implemented in `src/robustness/` with outputs in `output/robustness/` and `output/figures/`. Synthetic-control RMSPE is high (`0.2893`) — framed as caveat in Discussion/Limitations section.
 - **Paper assembly from Phase 5 complete** — `paper/main.tex` compiled to `paper/main.pdf` (48 pages, 370 KB) via `latexmk`; all 10 required sections present; all figures/tables included programmatically. `run_all.py` orchestrates 11 scripts; two-command README workflow; 38/38 pytest pass. v1.0 milestone shipped 2026-04-21.
+- **Live data horizon already exists** — `data/processed/panel.parquet` currently runs from 2004-01-31 through 2026-04-30, but most analysis scripts still cap the study period at 2024-12-31.
+- **Official Korea reform timeline collected for v1.1** — direct FSC Value-Up milestones are 2024-02-26 (program launch), 2024-05-02 (guidelines/manual unveiled), and 2024-08-12 (implementation push and explicit September index / Q4 ETF commitment). More spaced shareholder-value follow-through dates are 2025-07-09 (all KOSPI firms subject to governance disclosure from 2026) and 2026-02-24 (tax-linked disclosure through value-up plans). See `.planning/research/KOREA_VALUE_UP_DATES.md`.
 
 ## Constraints
 
@@ -61,6 +75,8 @@ A rigorous, reproducible empirical argument that the Korea Discount is structura
 - **Audience**: Academic submission (peer-reviewed journal or conference)
 - **Reproducibility**: All figures and tables must be generated from code; no manual chart creation
 - **Data**: Must use publicly accessible or already-licensed sources; data pipeline must be documented
+- **Event-date sourcing**: Korea reform dates must be traceable to official FSC/KRX records — no post-hoc media-only dates
+- **Comparability**: Korea follow-on outputs should mirror the shipped Japan event-study format closely enough for side-by-side interpretation
 
 ## Key Decisions
 
@@ -77,6 +93,8 @@ A rigorous, reproducible empirical argument that the Korea Discount is structura
 | High synthetic-control RMSPE accepted as caveat | Human checkpoint response `rmspe-high` approved proceeding with `0.2893` RMSPE as paper-text caveat rather than blocker | ✓ Validated v1.0 |
 | HC3 standard error claim removed from event study | Saturated stacked cohort design makes coefficient-level HC3 inapplicable; descriptive CARs reported instead | ✓ Validated v1.0 |
 | Wild-bootstrap p-values displayed in Table 2 | Clustered SE with N=4 is unreliable; wild-bootstrap gives credible small-sample inference | ✓ Validated v1.0 |
+| v1.1 will prioritize Korea-side event study before new OLS/synthetic-control work | User asked for a Korea reform event study analogous to the existing Japan design; the fastest defensible follow-on is to mirror that format first | — Pending |
+| Track two Korea date sets before code lock | The narrow 2024 Value-Up rollout is policy-pure but tightly clustered; the broader 2024-2026 reform set is cleaner in spacing but mixes follow-through governance reforms | — Pending |
 
 ## Evolution
 
@@ -96,4 +114,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-21 after v1.0 milestone — all 5 phases complete, paper/main.pdf shipped (48 pages, 370 KB), 40/40 v1 requirements validated.*
+*Last updated: 2026-04-23 after milestone v1.1 kickoff — Korea Value-Up follow-on scope defined and official reform dates gathered.*
