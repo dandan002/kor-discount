@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: Korea Value-Up Reform Event Study
 status: executing
-stopped_at: Phase 8 planning complete; next command is `/gsd-execute-phase 8`
-last_updated: "2026-04-24T19:18:35.220Z"
-last_activity: 2026-04-24 -- Phase 8 planning complete
+stopped_at: Completed 08-01-PLAN.md
+last_updated: "2026-04-24T19:27:41.263Z"
+last_activity: 2026-04-24
 progress:
   total_phases: 4
   completed_phases: 2
   total_plans: 9
-  completed_plans: 6
-  percent: 67
+  completed_plans: 7
+  percent: 78
 ---
 
 # Project State
@@ -25,12 +25,12 @@ See: .planning/PROJECT.md (updated 2026-04-23)
 
 ## Current Position
 
-Phase: 8
-Plan: 3 plans ready
+Phase: 08 (robustness-and-comparative-interpretation) — EXECUTING
+Plan: 2 of 3
 Status: Ready to execute
-Last activity: 2026-04-24 -- Phase 8 planning complete
+Last activity: 2026-04-24
 
-Progress: [███████░░░] 67%
+Progress: [████████░░] 78%
 
 ## Milestone v1.1 Summary
 
@@ -50,6 +50,8 @@ Progress: [███████░░░] 67%
 - 2026-04-23 (Phase 07): Disclose clustered-date overlap and `max_post_months` directly in the Korea LaTeX output comments.
 - [Phase 07]: Kept verification commits doc-scoped and left regenerated outputs unstaged in the dirty main tree.
 - [Phase 07]: Korea PDF readability review passed after direct visual comparison with the shipped Japan figure.
+- [Phase 08]: Validate each Phase 8 spec against config.KOREA_EVENT_SET_POLICY so path names and max_post_months cannot drift from the locked policy source
+- [Phase 08]: Commit the new robustness artifacts with the runner so Phase 8 does not leave untracked generated outputs in the worktree
 
 ## Performance Metrics
 
@@ -57,8 +59,9 @@ Progress: [███████░░░] 67%
 |-------|------|----------|-------|-------|
 | 07 | 02 | 4 min | 2 | 6 |
 | Phase 07 P03 | 5 min | 2 tasks | 2 files |
+| Phase 08 P01 | 6 min | 2 tasks | 8 files |
 
 ## Session Continuity
 
-Last session: 2026-04-24T19:18:35.220Z
-Stopped at: Phase 8 planning complete; next command is `/gsd-execute-phase 8`
+Last session: 2026-04-24T19:27:41.260Z
+Stopped at: Completed 08-01-PLAN.md

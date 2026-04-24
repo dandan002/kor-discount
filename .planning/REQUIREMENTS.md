@@ -21,7 +21,7 @@
 
 ### Robustness and Interpretation
 
-- [ ] **KROB-01**: Researcher can evaluate at least two Korea reform-date specifications: a narrow 2024 Value-Up rollout set and a more spaced shareholder-value follow-through set
+- [x] **KROB-01**: Researcher can evaluate at least two Korea reform-date specifications: a narrow 2024 Value-Up rollout set and a more spaced shareholder-value follow-through set
 - [ ] **KROB-02**: Researcher can rerun the Korea event study under at least one alternative event-window sensitivity justified by the `2026-04-30` data endpoint
 - [ ] **KROB-03**: Results include a direct Japan-versus-Korea interpretation note that separates descriptive policy timing evidence from stronger causal claims
 
@@ -63,7 +63,7 @@
 | KEVNT-02 | Phase 7 | Complete |
 | KEVNT-03 | Phase 7 | Complete |
 | KEVNT-04 | Phase 7 | Complete |
-| KROB-01 | Phase 8 | Pending |
+| KROB-01 | Phase 8 | Complete |
 | KROB-02 | Phase 8 | Pending |
 | KROB-03 | Phase 8 | Pending |
 | KPAPER-01 | Phase 9 | Pending |
@@ -77,4 +77,4 @@
 
 ---
 *Requirements defined: 2026-04-23*
-*Last updated: 2026-04-23 after milestone v1.1 kickoff*
+*Last updated: 2026-04-24 after Phase 08 Plan 01 completion*
