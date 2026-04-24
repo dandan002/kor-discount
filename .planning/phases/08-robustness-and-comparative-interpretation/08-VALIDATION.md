@@ -30,7 +30,7 @@ created: 2026-04-24
 - **After every task commit:** Run `pytest tests/test_phase8.py -q`
 - **After every plan wave:** Run `pytest tests/test_phase6.py tests/test_phase7.py tests/test_phase8.py -q`
 - **Before `/gsd-verify-work`:** Full suite must be green
-- **Max feedback latency:** 25 seconds
+- **Max feedback latency:** 25 seconds for per-task and per-wave checks; the final end-of-phase full-suite gate may exceed this because it is a closeout-only verification step
 
 ---
 
