@@ -37,7 +37,7 @@ Plans:
 
 Plans:
 - [x] 08-01-PLAN.md — Date-set robustness: narrow 2024 rollout versus spaced 2024-2026 reform sequence
-- [ ] 08-02-PLAN.md — Window/comparator sensitivity: shorter post windows and comparator checks justified by the 2026-04 endpoint
+- [x] 08-02-PLAN.md — Window/comparator sensitivity: shorter post windows and comparator checks justified by the 2026-04 endpoint
 - [ ] 08-03-PLAN.md — Interpretation: comparison note and limitations text distinguishing descriptive policy timing from stronger causal inference
 
 ### Phase 9: Paper and Replication Integration
@@ -75,5 +75,5 @@ Full details: `.planning/milestones/v1.0-ROADMAP.md`
 | 5. Paper Assembly and Replication Package | v1.0 | 5/5 | Complete | 2026-04-21 |
 | 6. Korea Reform Date Locking and Sample Horizon | v1.1 | 3/3 | Complete | 2026-04-23 |
 | 7. Korea Value-Up Event Study | v1.1 | 3/3 | Complete | 2026-04-23 |
-| 8. Robustness and Comparative Interpretation | v1.1 | 1/3 | In Progress | — |
+| 8. Robustness and Comparative Interpretation | v1.1 | 2/3 | In Progress | — |
 | 9. Paper and Replication Integration | v1.1 | 0/3 | Pending | — |

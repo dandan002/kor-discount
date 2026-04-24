@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: Korea Value-Up Reform Event Study
 status: executing
-stopped_at: Completed 08-01-PLAN.md
-last_updated: "2026-04-24T19:27:41.263Z"
+stopped_at: Completed 08-02-PLAN.md
+last_updated: "2026-04-24T19:37:55.970Z"
 last_activity: 2026-04-24
 progress:
   total_phases: 4
   completed_phases: 2
   total_plans: 9
-  completed_plans: 7
-  percent: 78
+  completed_plans: 8
+  percent: 89
 ---
 
 # Project State
@@ -26,11 +26,11 @@ See: .planning/PROJECT.md (updated 2026-04-23)
 ## Current Position
 
 Phase: 08 (robustness-and-comparative-interpretation) — EXECUTING
-Plan: 2 of 3
+Plan: 3 of 3
 Status: Ready to execute
 Last activity: 2026-04-24
 
-Progress: [████████░░] 78%
+Progress: [█████████░] 89%
 
 ## Milestone v1.1 Summary
 
@@ -52,6 +52,8 @@ Progress: [████████░░] 78%
 - [Phase 07]: Korea PDF readability review passed after direct visual comparison with the shipped Japan figure.
 - [Phase 08]: Validate each Phase 8 spec against config.KOREA_EVENT_SET_POLICY so path names and max_post_months cannot drift from the locked policy source
 - [Phase 08]: Commit the new robustness artifacts with the runner so Phase 8 does not leave untracked generated outputs in the worktree
+- [Phase 08]: Kept src/analysis/event_study_core.py fixed at the KOSPI-TOPIX spread and routed comparator sensitivity into a standalone scope note
+- [Phase 08]: Derived the Phase 8 summary CSV from just-generated CAR outputs so tmp-path reruns and downstream note generation consume the same contract
 
 ## Performance Metrics
 
@@ -60,8 +62,9 @@ Progress: [████████░░] 78%
 | 07 | 02 | 4 min | 2 | 6 |
 | Phase 07 P03 | 5 min | 2 tasks | 2 files |
 | Phase 08 P01 | 6 min | 2 tasks | 8 files |
+| Phase 08 P02 | 4 min | 2 tasks | 7 files |
 
 ## Session Continuity
 
-Last session: 2026-04-24T19:27:41.260Z
-Stopped at: Completed 08-01-PLAN.md
+Last session: 2026-04-24T19:37:55.967Z
+Stopped at: Completed 08-02-PLAN.md
