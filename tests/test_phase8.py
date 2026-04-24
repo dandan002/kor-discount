@@ -102,3 +102,35 @@ def test_phase8_does_not_refactor_event_study_core_comparator_contract(tmp_path)
     assert "output/robustness/robustness_alt_control_em_asia.tex" in note
     assert "output/robustness/robustness_alt_control_em_exchina.tex" in note
     assert "output/robustness/figure_placebo_falsification.pdf" in note
+
+
+def test_korea_japan_note_contains_causal_caveats(tmp_path):
+    module = importlib.import_module("src.analysis.korea_event_study_robustness")
+    module.run_korea_robustness_specs(output_root=tmp_path)
+
+    note_module = importlib.import_module("src.analysis.korea_japan_comparison_note")
+    note_module.write_korea_japan_comparison_note(output_root=tmp_path)
+
+    note = (
+        tmp_path / "tables" / "korea_japan_event_study_interpretation_note.tex"
+    ).read_text(encoding="utf-8")
+
+    assert (
+        "Japan is a historical policy benchmark, not a clean causal counterfactual for Korea."
+        in note
+    )
+    assert "Korea evidence remains descriptive timing evidence." in note
+    assert "narrow_2024_rollout" in note
+    assert "narrow_2024_rollout_post12" in note
+    assert "spaced_follow_through" in note
+    assert "max_post_months = 2" in note
+    assert (
+        "Japan's shipped CAR window runs through event_rel_time = 24, while Korea's "
+        "baseline and required sensitivity run through event_rel_time = 20 and "
+        "event_rel_time = 12, respectively."
+        in note
+    )
+
+    assert "Korea proves" not in note
+    assert "Korea causal effect" not in note
+    assert "Korea treatment effect" not in note
