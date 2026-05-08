@@ -164,7 +164,7 @@ def bdp(securities, fields, overrides=None):
     return pd.DataFrame(all_rows).T
 
 
-def bdh(securities, fields, start_date, end_date, periodicity="DAILY"):
+def bdh(securities, fields, start_date, end_date, periodicity="DAILY", batch_size=100):
     """
     Bloomberg BDH historical time series.
 
@@ -174,18 +174,19 @@ def bdh(securities, fields, start_date, end_date, periodicity="DAILY"):
         start_date: ISO date string "YYYY-MM-DD" (dashes stripped internally)
         end_date: ISO date string "YYYY-MM-DD"
         periodicity: "DAILY" | "MONTHLY" | "YEARLY" (default: "DAILY")
+        batch_size: securities per request (default 100). Reduce to 10-20 for
+            multi-year DAILY pulls to avoid Bloomberg -4002 workflow errors
+            (~25k data-point limit per Desktop API request).
 
     Returns:
         pd.DataFrame in long format with columns:
             security (str), date (datetime.date), <field1>, <field2>, ...
-        Batches requests if len(securities) > 100 to avoid throttling.
     """
     if isinstance(securities, str):
         securities = [securities]
     if isinstance(fields, str):
         fields = [fields]
 
-    batch_size = 100
     all_rows = []
 
     for batch_start in range(0, len(securities), batch_size):

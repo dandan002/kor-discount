@@ -152,7 +152,7 @@ def pull_returns_panel(tickers):
         RETURNS_END,
     )
     log.info(
-        "bdh() batches in chunks of 100 with 0.5s sleep; "
+        "bdh() batches in chunks of 10 with 0.5s sleep; "
         "this may take several minutes for a large universe."
     )
     df = bdh(
@@ -161,6 +161,7 @@ def pull_returns_panel(tickers):
         RETURNS_START,
         RETURNS_END,
         periodicity="DAILY",
+        batch_size=10,  # ~5yr daily × 10 secs ≈ 13k pts, under Desktop API -4002 limit
     )
     df = df.rename(columns={RETURNS_FIELD: "px_last"})
     df["date"] = pd.to_datetime(df["date"])
