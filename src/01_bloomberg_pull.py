@@ -5,7 +5,7 @@ READS: data/raw/universe_raw.csv (from src/00_build_universe.py)
 OUTPUTS:
   data/raw/bloomberg/snapshot_2023.csv - 12-field BDP snapshot, FY2023
   data/raw/bloomberg/roe_panel.csv - annual ROE (RETURN_COM_EQY), 2019-2023
-  data/raw/bloomberg/returns_panel.csv - daily PX_LAST, 2021-01-01 to 2026-03-31
+  data/raw/bloomberg/returns_panel.csv - weekly PX_LAST, 2021-01-01 to 2026-03-31
 
 Run from project root AFTER src/00_build_universe.py:
     python src/01_bloomberg_pull.py
@@ -124,13 +124,13 @@ def pull_snapshot(tickers):
 def pull_roe_panel(tickers):
     """Pull annual RETURN_COM_EQY for 2019-2023."""
     log.info(
-        "Pulling ROE panel BDH for %d tickers, field=%s, %s to %s, YEARLY ...",
+        "Pulling ROE panel BDH for %d tickers, field=%s, %s to %s, WEEKLY ...",
         len(tickers),
         ROE_FIELD,
         ROE_START,
         ROE_END,
     )
-    df = bdh(tickers, [ROE_FIELD], ROE_START, ROE_END, periodicity="YEARLY")
+    df = bdh(tickers, [ROE_FIELD], ROE_START, ROE_END, periodicity="WEEKLY")
     df = df.rename(columns={"security": "ticker", ROE_FIELD: "roe"})
     df["year"] = pd.to_datetime(df["date"]).dt.year
     df = df[["ticker", "year", "roe"]].copy()
@@ -145,7 +145,7 @@ def pull_returns_panel(tickers):
     all_securities = tickers + [KOSPI_BENCHMARK]
     log.info(
         "Pulling returns BDH for %d securities including KOSPI Index benchmark, "
-        "field=%s, %s to %s, DAILY ...",
+        "field=%s, %s to %s, WEEKLY ...",
         len(all_securities),
         RETURNS_FIELD,
         RETURNS_START,
@@ -160,8 +160,8 @@ def pull_returns_panel(tickers):
         [RETURNS_FIELD],
         RETURNS_START,
         RETURNS_END,
-        periodicity="DAILY",
-        batch_size=10,  # ~5yr daily × 10 secs ≈ 13k pts, under Desktop API -4002 limit
+        periodicity="WEEKLY",
+        batch_size=10,  # ~5yr weekly × 10 secs ≈ 2.7k pts, under Desktop API -4002 limit
     )
     df = df.rename(columns={RETURNS_FIELD: "px_last"})
     df["date"] = pd.to_datetime(df["date"])
