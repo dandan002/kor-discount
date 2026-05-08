@@ -7,11 +7,11 @@
 
 ### Infrastructure
 
-- [ ] **INFR-01**: Project directory layout matches ROADMAP spec (data/, src/, outputs/, paper/, utils/)
-- [ ] **INFR-02**: requirements.txt lists all Python dependencies with pinned versions
+- [x] **INFR-01**: Project directory layout matches ROADMAP spec (data/, src/, outputs/, paper/, utils/)
+- [x] **INFR-02**: requirements.txt lists all Python dependencies with pinned versions
 - [ ] **INFR-03**: Makefile provides `make acquire`, `make analysis`, `make paper`, and `make all` targets
-- [ ] **INFR-04**: .env pattern configured for Bloomberg host/port; template .env.example committed
-- [ ] **INFR-05**: Virtual environment setup documented in README
+- [x] **INFR-04**: .env pattern configured for Bloomberg host/port; template .env.example committed
+- [x] **INFR-05**: Virtual environment setup documented in README
 
 ### Utilities
 
