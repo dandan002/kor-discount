@@ -12,7 +12,7 @@ Four horizontal layers stack a complete, reproducible empirical pipeline. Phase 
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Project infrastructure, utility modules, and Bloomberg acquisition scripts (ready to run at terminal)
+- [x] **Phase 1: Foundation** - Project infrastructure, utility modules, and Bloomberg acquisition scripts (ready to run at terminal)
 - [ ] **Phase 2: Data Pipeline** - Compliance classification dataset and master covariate merge
 - [ ] **Phase 3: Analysis** - Descriptive stats, logit regression, fundamentals comparison, and event study
 - [ ] **Phase 4: Paper + Validation** - LaTeX paper scaffold and end-to-end pipeline validation on real data
@@ -36,7 +36,7 @@ Plans:
 - [x] 01-02-PLAN.md — Utils package implementation (bbg.py, stats.py, latex_tables.py)
 - [x] 01-03-PLAN.md — src/00_build_universe.py (KOSPI universe pull)
 - [x] 01-04-PLAN.md — src/01_bloomberg_pull.py (snapshot, ROE panel, returns panel)
-- [ ] 01-05-PLAN.md — Makefile (acquire guard + analysis + paper + all targets)
+- [x] 01-05-PLAN.md — Makefile (acquire guard + analysis + paper + all targets)
 
 > **Bloomberg Terminal Checkpoint**
 > After Phase 1 completes, go to a Bloomberg terminal and run:
@@ -89,7 +89,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/5 | Not started | - |
+| 1. Foundation | 5/5 | Complete | 2026-05-08 |
 | 2. Data Pipeline | 0/TBD | Not started | - |
 | 3. Analysis | 0/TBD | Not started | - |
 | 4. Paper + Validation | 0/TBD | Not started | - |
