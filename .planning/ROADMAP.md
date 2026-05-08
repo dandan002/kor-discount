@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [ ] **Phase 1: Foundation** - Project infrastructure, utility modules, and Bloomberg acquisition scripts (ready to run at terminal)
 - [ ] **Phase 2: Data Pipeline** - Compliance classification dataset and master covariate merge
 - [ ] **Phase 3: Analysis** - Descriptive stats, logit regression, fundamentals comparison, and event study
-- [ ] **Phase 4: Paper + Validation** - LaTeX paper scaffold and end-to-end mock pipeline validation
+- [ ] **Phase 4: Paper + Validation** - LaTeX paper scaffold and end-to-end pipeline validation on real data
 
 ## Phase Details
 

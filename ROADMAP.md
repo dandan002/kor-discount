@@ -82,7 +82,7 @@ Key packages:
 - `stargazer` — publication-quality regression tables (exports to LaTeX)
 - `pylatex` — programmatic LaTeX generation if needed
 
-**`blpapi` is optional for local development.** All Bloomberg-dependent code is isolated in `00_build_universe.py` and `01_bloomberg_pull.py`. Every other script reads only from CSV files in `data/`. Install `blpapi` only when you are at a terminal with Bloomberg access. The mock mode (see Phase 1 and Phase 2) lets you develop and test the full pipeline offline.
+**`blpapi` is required only for acquisition.** All Bloomberg-dependent code is isolated in `00_build_universe.py` and `01_bloomberg_pull.py`. Every other script reads only from CSV files in `data/`. Install `blpapi` at a Bloomberg terminal before running Phase 1 scripts.
 
 ### 0.2 Bloomberg connection
 
@@ -99,8 +99,7 @@ except ImportError:
 def _require_bbg():
     if not _BBG_AVAILABLE:
         raise RuntimeError(
-            "blpapi not installed. Run the acquisition scripts only at a "
-            "Bloomberg terminal. Use --mock for offline development."
+            "blpapi not installed. Run the acquisition scripts only at a Bloomberg terminal."
         )
 
 SESSION_OPTIONS = None
@@ -161,48 +160,6 @@ cd paper && pdflatex main.tex && biber main && pdflatex main.tex && pdflatex mai
 
 5. Save universe: ~600–700 KOSPI non-financial firms expected.
 
-### Mock mode (offline development)
-
-Pass `--mock` to generate a synthetic universe with the correct schema. This lets you write and test all downstream scripts without Bloomberg access.
-
-```python
-# src/00_build_universe.py  (relevant section)
-import argparse, pandas as pd, numpy as np
-
-GICS_SECTORS = [
-    "Energy", "Materials", "Industrials", "Consumer Discretionary",
-    "Consumer Staples", "Health Care", "Information Technology",
-    "Communication Services", "Utilities", "Real Estate",
-]
-
-def mock_universe(n=650, seed=42):
-    rng = np.random.default_rng(seed)
-    sectors = rng.choice(GICS_SECTORS, size=n)
-    tickers = [f"{i:06d} KS Equity" for i in rng.integers(5000, 99999, size=n)]
-    return pd.DataFrame({
-        "ticker":      tickers,
-        "name":        [f"MOCK_FIRM_{i}" for i in range(n)],
-        "sector":      sectors,
-        "industry":    sectors,          # placeholder
-        "country_iso": "KR",
-    })
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--mock", action="store_true")
-    args = parser.parse_args()
-
-    if args.mock:
-        df = mock_universe()
-    else:
-        from utils.bbg import bds, bdp
-        # ... live Bloomberg pull ...
-
-    df.to_csv("data/raw/universe_raw.csv", index=False)
-    print(f"Universe saved: {len(df)} firms")
-```
-
-Run offline: `python src/00_build_universe.py --mock`  
 Run at terminal: `python src/00_build_universe.py`
 
 ### Sampling note
@@ -258,79 +215,7 @@ Pull via `BDH` for each ticker:
 
 **Rate limiting:** blpapi handles ~100 securities per request comfortably. Batch your universe into chunks of 100; add a small sleep between batches to avoid throttling.
 
-### Mock mode (offline development)
-
-Pass `--mock` to generate synthetic data with realistic distributions for Korean stocks. Use this to develop and test Phases 3–8 before you have real data.
-
-```python
-# src/01_bloomberg_pull.py  (relevant section)
-import argparse, pandas as pd, numpy as np
-from pathlib import Path
-
-OUT = Path("data/raw/bloomberg")
-
-def mock_snapshot(tickers, seed=42):
-    rng = np.random.default_rng(seed)
-    n = len(tickers)
-    return pd.DataFrame({
-        "ticker":          tickers,
-        "pbr":             rng.lognormal(mean=-0.1, sigma=0.6, size=n).clip(0.1, 8),
-        "per":             rng.lognormal(mean=2.6,  sigma=0.7, size=n).clip(3, 80),
-        "roe":             rng.normal(loc=8,   scale=7,   size=n).clip(-20, 40),
-        "roa":             rng.normal(loc=4,   scale=4,   size=n).clip(-10, 20),
-        "foreign_own_pct": rng.beta(2, 6, size=n) * 60,
-        "market_cap":      rng.lognormal(mean=12, sigma=1.5, size=n),   # KRW bn
-        "div_yield":       rng.exponential(scale=1.5, size=n).clip(0, 8),
-        "leverage":        rng.lognormal(mean=4, sigma=1, size=n).clip(0, 500),
-        "total_assets":    rng.lognormal(mean=13, sigma=1.5, size=n),
-        "rev_growth":      rng.normal(loc=3, scale=15, size=n).clip(-50, 80),
-        "cash_ratio":      rng.beta(2, 5, size=n),
-        "dps":             rng.exponential(scale=500, size=n).clip(0, 5000),
-    })
-
-def mock_roe_panel(tickers, years=range(2019, 2024), seed=42):
-    rng = np.random.default_rng(seed)
-    rows = []
-    for t in tickers:
-        base = rng.normal(8, 7)
-        for y in years:
-            rows.append({"ticker": t, "year": y, "roe": base + rng.normal(0, 2)})
-    return pd.DataFrame(rows)
-
-def mock_returns_panel(tickers, seed=42):
-    rng = np.random.default_rng(seed)
-    dates = pd.bdate_range("2022-01-01", "2025-06-30")
-    market = rng.normal(0.0003, 0.010, size=len(dates))
-    rows = {"date": dates, "kospi_ret": market}
-    for t in tickers:
-        beta = rng.uniform(0.5, 1.5)
-        idio = rng.normal(0, 0.015, size=len(dates))
-        rows[t] = beta * market + idio
-    return pd.DataFrame(rows)
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--mock", action="store_true")
-    args = parser.parse_args()
-
-    universe = pd.read_csv("data/raw/universe_raw.csv")
-    tickers  = universe["ticker"].tolist()
-    OUT.mkdir(parents=True, exist_ok=True)
-
-    if args.mock:
-        mock_snapshot(tickers).to_csv(OUT / "snapshot_2023.csv", index=False)
-        mock_roe_panel(tickers).to_csv(OUT / "roe_panel.csv", index=False)
-        mock_returns_panel(tickers).to_csv(OUT / "returns_panel.csv", index=False)
-        print("Mock data saved.")
-    else:
-        from utils.bbg import bdp, bdh
-        # ... live Bloomberg pull in chunks of 100 ...
-```
-
-Run offline: `python src/01_bloomberg_pull.py --mock`  
-Run at terminal: `python src/01_bloomberg_pull.py`
-
-**At the library: run both scripts back-to-back, verify the three CSVs exist and are non-empty, then all remaining work is offline.**
+**At the terminal: run both scripts back-to-back, verify the three CSVs exist and are non-empty, then all remaining work is offline.**
 
 ```bash
 python src/00_build_universe.py          # pulls real KOSPI universe
@@ -704,28 +589,22 @@ Each analysis script calls this at the end to drop a `.tex` file into `outputs/t
 
 Run scripts in order. Each script reads from `data/` and writes to `data/processed/` or `outputs/`. Nothing modifies raw data.
 
-**Bloomberg is required only for Phase 1 and Phase 2. Everything else is offline.**
+**Bloomberg is required only for the acquisition scripts. Everything else is offline.**
 
 ```
---- OFFLINE (no Bloomberg needed) ---
-[ ] Phase 0:  Environment set up; blpapi NOT required yet
-[ ] Phase 1:  00_build_universe.py --mock  → universe_raw.csv (synthetic)
-[ ] Phase 2:  01_bloomberg_pull.py --mock  → snapshot_2023.csv, roe_panel.csv,
-                                             returns_panel.csv (synthetic)
-[ ] Phase 3:  Write + test 02_build_compliance.py against mock data
-[ ] Phase 4:  Write + test 03_merge_covariates.py against mock data
-[ ] Phases 5–8: Write + test all analysis scripts against mock data
-              → confirm tables/figures produce without errors
+--- BUILD ACQUISITION SCRIPTS (GSD Phase 1) ---
+[ ] Phase 0:  Environment set up, blpapi NOT required yet
+[ ] Phase 1:  Write src/00_build_universe.py (Bloomberg live pull)
+[ ] Phase 2:  Write src/01_bloomberg_pull.py (snapshot, ROE panel, returns)
 
---- AT THE LIBRARY TERMINAL (Bloomberg required, one session) ---
+--- AT THE BLOOMBERG TERMINAL (one session) ---
 [ ] Install blpapi: pip install blpapi
 [ ] Test connection: python src/utils/bbg.py --test
-[ ] python src/00_build_universe.py         → real universe_raw.csv
-[ ] python src/01_bloomberg_pull.py         → real snapshot_2023.csv,
-                                              roe_panel.csv, returns_panel.csv
+[ ] python src/00_build_universe.py         → data/raw/universe_raw.csv
+[ ] python src/01_bloomberg_pull.py         → data/raw/bloomberg/*.csv
 [ ] Verify: ls -lh data/raw/bloomberg/      → three non-empty CSVs
 
---- OFFLINE AGAIN (all remaining work) ---
+--- OFFLINE (all remaining work) ---
 [ ] Phase 3:  Manual KRX compliance coding → compliance_coded.csv
               02_build_compliance.py → compliance.csv, events.csv
 [ ] Phase 4:  Manual KFTC/DART data collection
@@ -745,7 +624,7 @@ Run scripts in order. Each script reads from `data/` and writes to `data/process
 | Risk | Mitigation |
 |---|---|
 | Low N of compliant firms (~100–150) reduces event study power | Report economic magnitude alongside p-values; frame as directional evidence; add a power analysis note |
-| blpapi field availability varies by Terminal license | Test all fields at the start of the library session before running the full pull; fall back to Bloomberg Excel Add-in for missing fields; mock data schema is the contract — any missing real field just becomes NaN and is handled by the missingness checks in Phase 4 |
+| blpapi field availability varies by Terminal license | Test all fields at the start of the terminal session before running the full pull; fall back to Bloomberg Excel Add-in for missing fields; any missing field becomes NaN and is handled by the missingness checks in Phase 4 |
 | Controlling shareholder % missing for some firms | Use DART OpenAPI; supplement manually for large firms; report missingness in Table 1 |
 | Compliance coding is subjective | Inter-rater kappa check; provide coding guide in appendix |
 | Endogeneity in logit (firms planning reform self-select) | Acknowledge explicitly in Section 5; frame as correlational; do not over-claim causality |

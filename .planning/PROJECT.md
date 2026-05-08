@@ -17,11 +17,11 @@ A complete, reproducible analysis pipeline that produces all tables and figures 
 ### Active
 
 - [ ] Project infrastructure: directory layout, virtual env, Makefile, requirements.txt, .env pattern
-- [ ] Bloomberg utility: utils/bbg.py with BDP/BDH/BDS wrappers and graceful mock fallback
+- [ ] Bloomberg utility: utils/bbg.py with BDP/BDH/BDS wrappers and graceful ImportError fallback
 - [ ] Stats utility: utils/stats.py with shared regression helpers
 - [ ] LaTeX utility: utils/latex_tables.py exporting DataFrames to .tex fragments
-- [ ] Script 00: build_universe.py with --mock mode (synthetic KOSPI universe)
-- [ ] Script 01: bloomberg_pull.py with --mock mode (synthetic snapshot, ROE panel, returns)
+- [ ] Script 00: build_universe.py — pulls live KOSPI universe from Bloomberg
+- [ ] Script 01: bloomberg_pull.py — pulls snapshot, ROE panel, and returns panel from Bloomberg
 - [ ] Script 02: build_compliance.py — classify KRX disclosures (0/1/2) and extract event dates
 - [ ] Script 03: merge_covariates.py — join Bloomberg + compliance + KFTC chaebol + DART ownership
 - [ ] Script 04: descriptive.py — Table 1 summary stats, PBR distribution figure, compliance breakdown figure
@@ -29,7 +29,7 @@ A complete, reproducible analysis pipeline that produces all tables and figures 
 - [ ] Script 06: fundamentals_comparison.py — ROE trajectory, dividend growth, cash hoarding (Table 3, Figure 3)
 - [ ] Script 07: event_study.py — market model, abnormal returns, power analysis, CAR plot (Table 4, Figure 4)
 - [ ] LaTeX paper scaffold: main.tex, all 9 section files, style files, references.bib
-- [ ] End-to-end mock run: all scripts pass with --mock and produce outputs/
+- [ ] End-to-end pipeline runs without errors: `make analysis && make paper`
 
 ### Out of Scope
 
@@ -52,7 +52,7 @@ A complete, reproducible analysis pipeline that produces all tables and figures 
 - **Bloomberg**: blpapi only installable at a Bloomberg terminal; all offline scripts must work without it
 - **Tech stack**: Python 3, statsmodels for econometrics, stargazer for regression tables, matplotlib/seaborn for figures
 - **Reproducibility**: Raw data files never modified; all outputs generated programmatically from data/
-- **Offline-first**: Mock mode must produce the full outputs/ tree without Bloomberg or internet access
+- **Offline after acquisition**: Bloomberg required only for Phase 1 scripts; all analysis runs offline from CSVs
 
 ## Key Decisions
 
@@ -62,7 +62,7 @@ A complete, reproducible analysis pipeline that produces all tables and figures 
 | Three-way compliance coding (0/1/2) | Distinguishes signal quality (quantitative vs. vague) — central to Part A and B | — Pending |
 | statsmodels over R | Python pipeline — keep everything in one language | — Pending |
 | stargazer for tables | Publication-quality LaTeX regression tables from Python | — Pending |
-| Mock mode for all Bloomberg scripts | Offline development without terminal access | — Pending |
+| No mock mode | Run real acquisition scripts at Bloomberg terminal once; all analysis reads static CSVs thereafter | — Pending |
 
 ## Evolution
 

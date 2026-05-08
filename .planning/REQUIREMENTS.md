@@ -85,11 +85,6 @@
 
 ## v2 Requirements
 
-### Mock / Offline Mode (deferred)
-
-- **DATA-02**: src/00_build_universe.py --mock generates a 650-firm synthetic universe with correct schema
-- **DATA-04**: src/01_bloomberg_pull.py --mock generates all three CSVs with realistic synthetic distributions
-
 ### Robustness & Extensions
 
 - **ROBU-01**: KOSDAQ firms analyzed separately as appendix robustness check
@@ -129,10 +124,10 @@
 | E2E-01 through E2E-03 | Phase 4 | Pending |
 
 **Coverage:**
-- v1 requirements: 41 total (DATA-02 and DATA-04 moved to v2)
+- v1 requirements: 41 total
 - Mapped to phases: 41
 - Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-05-08*
-*Last updated: 2026-05-08 after restructuring — mock mode moved to v2; Phase 1 goal is terminal-ready acquisition scripts*
+*Last updated: 2026-05-08 after restructuring — mock mode removed entirely; Phase 1 goal is terminal-ready acquisition scripts*

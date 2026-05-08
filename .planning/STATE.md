@@ -12,7 +12,7 @@ See: .planning/PROJECT.md (updated 2026-05-08)
 Phase: 1 of 4 (Foundation)
 Plan: 0 of TBD in current phase
 Status: Ready to plan
-Last activity: 2026-05-08 — Restructured roadmap: Phase 1 builds real acquisition scripts; mock mode moved to v2; Bloomberg Terminal Checkpoint added between Phase 1 and Phase 2
+Last activity: 2026-05-08 — Mock mode removed entirely; Phase 1 builds real acquisition scripts; Bloomberg Terminal Checkpoint between Phase 1 and Phase 2
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -44,7 +44,7 @@ Recent decisions affecting current work:
 
 - [Init]: KOSPI only (no KOSDAQ) — KOSDAQ noise degrades event study
 - [Init]: Three-way compliance coding (0/1/2) — distinguishes signal quality
-- [Init]: No mock mode in v1 — Phase 1 builds real acquisition scripts, user runs at Bloomberg terminal, then Phases 2–4 proceed from real CSVs
+- [Init]: No mock mode — Phase 1 builds real acquisition scripts, user runs at Bloomberg terminal, then Phases 2–4 proceed from real CSVs
 - [Init]: statsmodels over R — keep everything in one Python pipeline
 
 ### Pending Todos
