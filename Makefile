@@ -8,12 +8,13 @@
 .PHONY: acquire analysis paper all
 
 SNAPSHOT = data/raw/bloomberg/snapshot_2023.csv
+ROE_PANEL = data/raw/bloomberg/roe_panel.csv
+RETURNS_PANEL = data/raw/bloomberg/returns_panel.csv
 
 # --- Bloomberg acquisition (terminal only) ---
 acquire:
-	@if [ -f "$(SNAPSHOT)" ]; then \
+	@if [ -f "$(SNAPSHOT)" ] && [ -f "$(ROE_PANEL)" ] && [ -f "$(RETURNS_PANEL)" ]; then \
 		echo "Bloomberg CSVs already present. Delete data/raw/bloomberg/ to re-run."; \
-		echo "  $(SNAPSHOT) exists - skipping acquire."; \
 	else \
 		echo "Running Bloomberg acquisition scripts..."; \
 		python src/00_build_universe.py && python src/01_bloomberg_pull.py; \
