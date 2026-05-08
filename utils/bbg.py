@@ -144,21 +144,19 @@ def bdp(securities, fields, overrides=None):
     Returns:
         pd.DataFrame with index=securities, columns=fields.
         Missing values represented as None / NaN.
-        Batches requests if len(securities) > 100 to avoid Bloomberg workflow limits.
+        Requests one security at a time with 0.5s sleep to avoid Bloomberg workflow limits.
     """
     if isinstance(securities, str):
         securities = [securities]
     if isinstance(fields, str):
         fields = [fields]
 
-    batch_size = 100
     all_rows = {}
 
-    for batch_start in range(0, len(securities), batch_size):
-        batch = securities[batch_start : batch_start + batch_size]
-        batch_rows = _bdp_batch(batch, fields, overrides)
+    for i, sec in enumerate(securities):
+        batch_rows = _bdp_batch([sec], fields, overrides)
         all_rows.update(batch_rows)
-        if batch_start + batch_size < len(securities):
+        if i < len(securities) - 1:
             time.sleep(0.5)
 
     return pd.DataFrame(all_rows).T
