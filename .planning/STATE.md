@@ -69,6 +69,7 @@ None yet.
 
 | # | Description | Date | Commit | Directory |
 |---|-------------|------|--------|-----------|
+| 260508-hoc | Restructure roadmap — Phase 1 builds acquisition scripts, mock mode to v2 | 2026-05-08 | a403eb7 | [260508-hoc-restructure-roadmap-phase-1-builds-acqui](./quick/260508-hoc-restructure-roadmap-phase-1-builds-acqui/) |
 
 ## Session Continuity
 
