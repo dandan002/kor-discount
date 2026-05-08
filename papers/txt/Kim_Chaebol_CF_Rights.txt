@@ -1,0 +1,4598 @@
+EUROPEAN CORPORATE GOVERNANCE INSTITUTE (ECGI)
+Finance Working Paper No. 51/2004
+and
+KDI SCHOOL OF PUBLIC POLICY & MANAGEMENT
+Working Paper No. 04-20
+
+What Determines the Ownership Structure of
+Business Conglomerates?: On the Cash
+Flow Rights of Korea's Chaebol
+Woochan Kim
+KDI School of Public Policy & Management, Korea
+Youngjae Lim
+Korea Development Institute
+Taeyoon Sung
+Korea Advanced Institute of Science and Technology (KAIST), Korea
+
+© Woochan Kim, Youngjae Lim and Taeyoon Sung 2004. All rights reserved.
+Short sections of text, not to exceed two paragraphs, may be quoted without
+explicit permission provided that full credit, includ-ing © notice, is given to the
+source.
+This paper can be downloaded without charge
+from:http://ssrn.com/abstract=594741
+www.ecgi.org/wp
+
+Abstract
+We examine a number of ﬁrm- and group-level factors that shape the ownership structure
+of business conglomerates, which can include both public and non-public ﬁrms. Using an
+exclusive set of 1997-2002 data on the intra-group shareholdings of 46 of Korea’s largest
+conglomerates, or chaebols, we show that the contribution of individual ﬁrms to group
+control and proﬁtability are important determinants of ownership structure in Korea’s
+chaebol: the controlling shareholder’s cash ﬂow rights in a group-afﬁliated ﬁrm increases
+with the ﬁrm’s contribution to group control and proﬁtability. We also ﬁnd that the level
+of disparity between voting and cash ﬂow rights is signiﬁcantly higher than the levels
+previously reported in the literature on Korean ﬁrms, which makes use of only public
+ﬁrms, indicating that non-public ﬁrms play a substantial role in increasing the disparity.
+
+Keywords: ownership structure, business conglomerate, chaebol, voting rights, cash ﬂow
+rights, disparity
+
+JEL Classifications: G32, G34
+
+Woochan Kim
+KDI School of Public Policy and Management
+Chongryangri-Dong, Dongdaemun-Ku
+Seoul 130-868
+Korea
+phone: (+82-2) 3299-1030, fax: (+82-2) 968-5072
+e-mail: wc_kim@kdischool.ac.kr
+
+Youngjae Lim
+Korea Development Institute
+Chongryangri-Dong, Dongdaemun-Ku
+Seoul, Korea 130-012
+email: yjlim@kdi.re.kr
+
+Taeyoon Sung
+KAIST - Graduate School of Management
+Chongryangri-Dong, Dongdaemun-Ku
+Seoul 130-722
+Korea
+phone: (+82-2) 958-3535, fax: (+82-2) 958-3604
+e-mail: econsung@kgsm.kaist.ac.kr
+
+1.
+
+Introduction
+
+Empirical research on corporate ownership is dominated by papers that treat
+ownership as given. Early papers that study the link between corporate ownership and
+firm value treat ownership as exogenous (Fama and Jensen, 1983 and Morck et al., 1988).
+Even recent works that study the disparity between voting and cash flow rights and their
+implications on other variables treat the disparity as given (LLSV, 2002, Claessens et al.,
+2002, Mitton, 2002, Fan and Wong, 2002, Joh, 2003, Haw et al., 2003, Lins, 2003, Lemmon
+and Lins, 2003, and Baek et al., 2004).
+This pattern of research is surprising given that scholars knew early on that corporate
+ownership can be endogenously determined.
+
+For example, Demsetz and Lehn (1985) see
+
+the structure of corporate ownership as an equilibrium outcome influenced by various cost
+advantages and disadvantages.
+
+They suggest a number of factors that determine
+
+ownership structure, providing empirical support gleaned from a sample of 511 U.S.
+corporations in the second half of 1970s.
+
+The primary factors they highlight are a firm’s
+
+size, a firm’s risk, regulation, and amenities.
+Acknowledging the endogenous nature of corporate ownership, a couple of recent
+works study corporate ownership in a simultaneous regression framework.
+
+For example,
+
+using the 1991 Fortune 500 firms, Cho (1998) examines the relationship among ownership
+structure, investment, and corporate value using two-stage least squares (2SLS).
+
+He finds
+
+that investment affects corporate value, which in turn affects ownership structure. He
+also finds that corporate value affects ownership structure, but not vice versa.
+
+Another
+
+example is Chang (2003), who investigates the relationship between ownership structure
+and firm performance using the same 2SLS framework.
+
+Using a sample of group-
+
+affiliated public firms in Korea during 1986-96, he finds that performance determines
+ownership, but not vice versa.
+
+-1-
+
+Despite such efforts, research on the determinants of corporate ownership is still
+limited, and this paper hopes to fill the gap by studying the ownership structure of large
+business conglomerates in Korea – also known as the chaebol.
+Korea a particularly interesting country to study.
+
+A number of factors make
+
+First, Korea is dominated by chaebol
+
+groups, which makes Korea an attractive place to study the ownership structure of
+‘business conglomerates.’
+
+In fact, in a typical chaebol group, there is a great deal of intra-
+
+group shareholdings among the affiliated firms, and such shareholdings separate voting
+rights from cash flow rights.1
+
+Such separation between the two allows us to study the
+
+determinants of disparity, which is often defined as voting rights minus cash flow rights.
+Second, in case of chaebols, there exists a natural person who is the common controlling
+shareholder for multiple companies.
+
+This makes Korea an interesting country to study
+
+how the ownership structures of group-affiliated companies are shaped to maximize the
+controlling shareholder’s interest.
+
+Third, many papers have already shown that disparity
+
+has a material implication on firm value, profitability, and share return in Korea (Joh, 2003,
+Baek et al., 2004, and Black, Jang, and Kim, 2004).
+
+This further makes our study on
+
+Korean chaebols relevant.
+In this paper, we make use of a unique dataset from the Korea Fair Trade Commission
+(KFTC) that contains comprehensive and detailed information on the intra-group
+shareholdings of 46 large business conglomerates over a six-year period (1997-2002).
+Using this dataset, we show that the ownership structures of group-affiliated firms are
+influenced by the firms’ contribution to their respective group’s control and profitability.
+Specifically, we show that the controlling shareholders of chaebol groups tend to increase
+their cash flow rights in firms that have higher contribution to group control and in firms
+1
+
+Among the three sources of separation between the cash flow right and the voting right suggested by
+Bebchuk et al. (2000), intra-group shareholding and pyramidal ownership structure are the two main sources
+in Korea. Dual class shares are not permitted.
+2
+Joh (2003) is an exception, which includes non-public firms in her data. But, the data set is not from
+KFTC, but of her own construction, which is likely to be incomplete and prone to measurement errors.
+
+-2-
+
+that have higher profitability.
+This study makes a number of contributions to the existing literature.
+
+First, it studies
+
+the ownership structure of unlisted non-public firms as well as public firms.
+
+Given the
+
+difficulty of obtaining ownership data of unlisted firms, previous research solely focused
+on public firms (Demsetz, 1998, Cho, 1998, and Chang, 2003).2 This can be problematic
+when one is studying the ownership structure of the chaebol, which often include many
+non-public firms.
+
+It should also be noted that, in Korea, non-listed firms in which the
+
+controlling shareholder possesses a high direct ownership stake often serve as the de facto
+holding company for the group. Also, by omitting the control chains containing a nonlisted company, the measures of voting and cash flow rights of a listed company may also
+be biased.
+
+In fact, our measure of disparity turns out to be significantly higher than those
+
+reported in the existing literature, which makes use of only public firms.
+Second, we adopt the KFTC’s highly flexible concept of “control.” This allows us to
+more accurately measure the true extent of control.
+
+According to the KFTC’s definition,
+
+share ownership, whether direct or indirect, is not a necessary condition for a person (or a
+company) to wield control over firms. In addition to share ownership, other indicators of
+control, such as the power to appointment directors, make personnel exchanges, conduct
+transactions above a normal range, or using similar trademarks across firms in the group,
+are taken into account when identifying which firms are under the controlling
+shareholder’s influence.
+
+Overly restrictive condition of share ownership can result in a
+
+downward bias of the voting right measure.
+Third, we introduce an algorithm for computing the cash flow rights of firms that
+share a common controlling shareholder.
+
+Using an (n×n) matrix of intra-group
+
+shareholdings and an (n×1) vector of controlling shareholders’ direct ownership, we can
+compute the cash flow rights of a common controlling shareholder for all the n-affiliated
+firms simultaneously.
+
+-3-
+
+Fourth, we study the group control motivation of a controlling shareholder and its
+implications on the controlling shareholder’s ownership pattern.
+
+We emphasize in this
+
+paper that concern over group control is particularly important when examining the
+ownership structure of a business conglomerate.
+
+To test this, we propose an algorithm
+
+that allows us to measure how much contribution each company makes to group control.
+This paper is organized as follows.
+
+Section 2 describes the data.
+
+Section 3 explains
+
+how voting rights, cash flow rights, and the disparity are computed. Section 4 discusses
+hypotheses and methodology.
+
+Empirical results are discussed in Section 5.
+
+Section 6 is
+
+the conclusion.
+
+2. Ownership Data
+
+2.1. Source
+
+In this paper, we make use of a unique dataset exclusively obtained from KFTC that
+contains detailed information on the intra-group shareholdings of 46 large business
+conglomerates over a six-year period (1997 – 2002). For each of the firms in the 46 large
+business conglomerates, we have data on the number of shares (common and preferred)
+held by the controlling shareholder and by his related parities.
+
+Related parties include
+
+relatives, senior managers of the firm, affiliated not-for-profit organizations, and affiliated
+firms.
+
+In our data set, such information is available even for non-listed companies.
+
+Table 1 shows the intra-group shareholding matrix of Samsung Group in 2002.
+KFTC compiles such a database to monitor and enforce compliance of its regulations
+by large business conglomerates.
+
+Each year in April, KFTC announces the top 30
+
+-4-
+
+business conglomerates, known as chaebol, in terms of their total asset size, and imposes
+regulations, including equity investment ceilings, bans on cross-shareholdings, and
+restrictions on related-party transactions.3 The regulations are explained in greater detail
+in Appendix 3.
+
+2.2. Main Features
+
+This dataset has a number of nice features that cannot be found in the datasets used in
+the existing literature. First, it contains data on non-listed firms, as well as listed firms.
+This is an important feature in two ways: it allows us to measure the disparity of ‘nonlisted’ firms and also allows us to correctly measure the disparity of ‘listed’ firms.
+To measure the precise voting and cash flow rights, one needs the ownership data of
+each and every firm in the control chain.
+
+But this was not possible in the existing
+
+literature since no ownership information was available for non-listed firms (see Claessens
+et al., 2000; LLSV, 2002; and Lins, 2003).4
+
+Such lack of information is a concern in that it
+
+may result in downward-biased measures of listed companies’ voting and cash flow rights
+by unduly omitting the chain containing a non-listed company.
+
+Suppose a controlling
+
+shareholder holds a 25% share in firm A, which is listed, and a 51% share in firm B, which
+is not listed. Furthermore, suppose that firm B holds a 25% share in firm A.
+
+If we
+
+include firm B in our computation, its control over firm A’s voting rights would be 50% (=
+25%+25%) and the cash flow rights would be 37.8% (= 25%+51%×25%).
+
+However, if we
+
+exclude firm B from our computation, the voting and cash flow rights would be equally
+25%, which is heavily downward biased.5
+
+This problem is completely eliminated in our
+
+3
+
+In 2002, KFTC changed the way it designates large business conglomerates. Instead of ranking them based
+on asset size (e.g. top 30), it now uses asset size thresholds (e.g. above 5 trillion won).
+4
+Even for the listed firms, these studies use ownership data only for a subset of companies, ranging from a
+half to three-quarters of all listed firms in terms of market capitalization.
+5
+In this example, the disparity measure, which is defined by voting rights minus cash flow rights, is also
+
+-5-
+
+study because we have complete ownership data even for non-listed firms.
+Second, we use a highly flexible concept of “control” in this study, thus allowing us to
+measure control in line with reality. In most of the studies on voting-cash flow disparity,
+a person can become a controlling shareholder only if he owns company shares, whether
+directly or indirectly.
+
+But, we believe this can be an overly restrictive condition, which
+
+again results in a downward bias of the voting right measure.6
+
+Suppose a person makes
+
+a significant donation to a not-for-profit organization (NPO), sits on its board, and thus
+controls the voting rights on the company shares held by the NPO.
+
+If such cases, the
+
+company shares held by this NPO should be included in the computation of this person’s
+voting rights.
+
+Yet this is not how voting rights are computed in the existing studies.
+
+In this study, we adopt the concept of related parties and de facto control officially used
+by the KTFC, thus allowing the concept of control to be flexible enough to incorporate the
+example given above.
+
+As such, we define control over voting rights as the total sum of
+
+direct share ownerships held by the controlling shareholder and its related parties, which
+includes not just spouse/relatives, but also not-for-profit organizations and firms under
+the de facto control of the controlling shareholder.
+
+Also, the controlling shareholder is
+
+defined to be a person who, alone or with its related parties, has de facto control of the
+company.
+
+This is in contrast with the definitions used in other studies that are somewhat
+
+ad hoc and fail to capture the actual extent of control.7
+
+Detailed definitions of related
+
+parties and de facto control are provided in the next section and in Appendix 2.
+One might be concerned that the concept of de facto control is overly subjective and
+the decision to classify a firm to be de facto controlled can be arbitrary.
+
+Such criticism,
+
+downward-biased.
+6
+It will also result in a downward-bias of the disparity measure. One exception would be Lins (2003).
+See Appendix 2 for detailed explanation of how Lins (2003) computes voting rights. Note, however, that his
+concept of control is still far more restrictive than ours.
+7
+For example, Claessens et al. (2000) defines control rights as the sum of the weakest links in the chains of
+voting rights.
+
+-6-
+
+however, is unfounded, for no firm subject to the KFTC regulation petitioned against the
+KFTC’s decision.
+
+When a firm is designated as a firm de facto controlled by the
+
+controlling shareholder, it will be subject to serious regulations, which can be binding and
+sometimes costly.8
+
+So a manger of this company would have all the reasons to find
+
+justifications not to be classified as a firm under de facto control.
+
+Nevertheless, no
+
+company petitioned the KFTC’s decision, which implies that the KFTC designations were
+made based on reality, not arbitrarily.
+Our dataset has other minor improvements over those used in the existing literature.
+For example, we consider even those shareholders who own less than 5% of shares
+outstanding.
+
+Existing studies use datasets that contain information only on block
+
+shareholders holding more than 5% of outstanding shares.
+
+Another improvement is that
+
+we distinguish individual family members when identifying the controlling shareholder,
+and use a clear definition of the term “relatives.” A relative is classified as a party with a
+blood relationship of eight degrees or less (four or less if he/she has a blood relationship
+with the controlling shareholder’s spouse) to the controlling shareholder.
+
+2.3. Sample Selection
+
+Our dataset contains data on 65 conglomerates.
+
+We eliminated the 18 conglomerates
+
+controlled by a state-owned enterprise, where the controlling shareholder is a company
+and not a natural person, or by a newly privatized firm.9,10
+8
+
+This means that we only
+
+See Appendix 3 for the detailed regulations.
+These conglomerates have only a small number of affiliated firms, which makes the disparity measure close
+to zero throughout the sample period, and thus makes it inappropriate to study the determinants of disparity,
+one of this paper’s main topics.
+10
+18 large business conglomerates, the controlling shareholder of which is not a natural person: Daewoo
+Electronics, Daewoo Motors, Daewoo Shipbuilding & Marine Engineering, Hanaro Telecom, Hyundai Oil,
+KARICO, KEPCO, Kia, KOGAS, Korea Highway Corporation, Korea Land Corporation, Korea National
+Housing Corporation, KOWACO, KT, KT&G, MBC, POSCO, S-Oil. We also drop Kohap group in year
+9
+
+-7-
+
+investigate those conglomerates controlled by an individual, in line with the concept of
+chaebol, and thus focus on the decision of a controlling shareholder as an individual We
+do not include the Lotte Group, since KFTC does not have its complete intra-group
+shareholding information.
+
+This is because the affiliated firms of Lotte Group are
+
+established not only in Korea, but also in Japan, and KFTC does not have ownership data
+for the firms located in Japan.
+
+Thus, we use 46 business conglomerates.
+
+The total
+
+number of firm-years is 5,202 (see Table 4 for summary statistics).
+
+2.4. Other Variables
+
+To test the hypotheses in this paper, we merge the ownership data with other firmlevel variables, which we obtained from the National Information and Credit Evaluation,
+Inc. (NICE). Since disparity is used as a dependent variable in our regression analyses,
+we make sure that other firm-level variables are measured prior to the disparity variable.
+As such, they are measured during or on the last day of the fiscal year, which ends before
+April.
+
+When the fiscal year changes during the sample year, we keep only those years
+
+that cover twelve full months.
+definitions.
+
+Table 3 shows the list of variables along with their
+
+Table 4 provides some summary statistics for each variable.
+
+3. Computation of Voting Rights and Cash Flow Rights
+
+3.1. Controlling Shareholder
+
+2001, the year of which its controlling shareholder is no longer a natural person.
+11
+Suppose firm A holds 10% of firm B’s total outstanding common shares, which includes treasury stocks.
+If the fraction of treasury stocks is 5% out of the total outstanding common shares, the adjusted fraction of
+voting right is (0.1)/(1-0.05)=0.105 (10.5%).
+
+-8-
+
+The first step in computing voting-cash flow disparity is to identify the controlling
+shareholder and the firms under his de facto control.
+
+In this study, following the method
+
+adopted by KFTC, a controlling shareholder is defined as a person who, alone or with his
+related parties, has de facto control of the company.
+
+Here we explain in detail the concepts
+
+of related parties and de facto control.
+Related parties include (i) relatives, (ii) not-for-profit organizations where the
+controlling shareholder, alone or with related parities, contributed 30% of total donations,
+(iv) not-for-profit organizations where the controlling shareholder, directly or through
+related parities, has a controlling influence over the appointment of directors or business
+activities, (v) any company whose business is controlled de facto by the controlling
+shareholder, and (vi) agents of the controlling shareholder or his related parties, including
+senior managers.
+The controlling shareholder has de facto control of a particular company if any of the
+following conditions are met: (i) the controlling shareholder, alone or with his related
+parities, owns 30% of voting shares issued and is the largest shareholder, (ii) the controlling
+shareholder appoints the representative director or at least half of the directors, (iii) the
+controlling shareholder directly or through related parties has a controlling influence over
+corporate strategy decisions, (iv) the company concerned and the company controlled de
+facto have a personnel exchange system in place, (v) the company and the controlling
+shareholder or its related parties conduct transactions of funds, assets, goods, services, or
+debt guarantees above a normal level, (vi) the company can be reasonably considered
+under social norms to be an affiliate of the business group controlled by the controlling
+shareholder (e.g. using similar trademarks).
+and de facto control are outlined in Appendix 2.
+
+3.2. Control Over Voting Rights
+
+-9-
+
+More detailed definitions of related parties
+
+In this paper, control over voting rights (hereafter voting rights) is defined as the sum
+of direct share ownership held by the controlling shareholder and its related parties.
+Assume that di is the direct share ownership held by the controlling shareholder in firm i.
+Assume also that ri is the direct share ownership held by the related parties, including
+relatives, not-for-profit organizations, and senior managers under the controlling
+shareholders’ influence. Lastly, assume that sij is the direct share ownership in firm i held
+by firm j, which is under the controlling shareholders influence.
+
+Then, a voting right for
+
+firm i can be defined by equation (1).
+
+n
+
+vri = d i + ri + ∑ s ij
+
+(1)
+
+j =1
+
+n is the number of for-profit-firms under the controlling shareholder’s influence.
+
+When
+
+computing the fraction of shares, we use common shares only, and also adjust for treasury
+stocks, which do not have any voting rights, in accordance with the Commercial Code.11
+Two points should be mentioned here.
+
+First, we want to differentiate between the
+
+concept of control and control over voting rights.
+
+The concept of control, as explained
+
+earlier, takes into account not only share ownership, but also other routes of control, such
+as the appointment of directors, personnel exchange, abnormal transaction levels, and so
+on.
+
+Control over voting rights, on the other hand, considers only share ownership.
+
+Thus, it is a narrower concept.
+
+Although the controlling shareholder controls de facto all
+
+the affiliated firms in the sample, it does not mean he has 100% control over the votes.
+When computing disparity, we use the concept of voting rights.
+
+Otherwise, disparity
+
+would be always “1 – cash flow rights.”
+Second, our measure does not give special treatment to voting rights over 50 percent.
+It is true that once a controlling shareholder holds more than 50 percent of the votes, he
+- 10 -
+
+would be able to block or pass any resolution item at the shareholders’ meeting.
+
+And
+
+some might suggest that we should therefore grant special treatment to voting rights over
+50 percent.
+
+However, we have decided against this on two grounds.
+
+First, depending
+
+upon the ownership structure of outside shareholders and how quickly they can
+coordinate, the threshold can be below 50 percent.
+
+Second, such information cannot be
+
+known ex ante.
+
+3.3. Cash-Flow Rights
+
+Cash-flow rights are defined as sum of the products of ownership stakes held by the
+controlling shareholder and his family members along the voting right chain.
+
+Assume
+
+that fi is the direct share ownership held by the controlling shareholder’s family members
+in firm i.
+
+Family members include spouse and relatives that are within certain degrees of
+
+kinship.12 Shares held by senior mangers or not-for-profit organizations are excluded
+from the computation of cash-flow rights.
+
+Thus, cash flow rights in firm i can be
+
+computed by equation (2).13
+
+cfri = d i + f i +
+
+n
+
+n
+
+n
+
+∑ s (d + f ) + ∑ s ∑ s ( d + f ) + ⋅ ⋅ ⋅
+ij
+
+j =1
+
+j
+
+ij
+
+j
+
+j =1
+
+jk
+
+k
+
+k
+
+(2)
+
+k =1
+
+The first two terms are direct ownerships levels of the controlling shareholder and his
+family members.
+
+The subsequent terms are the indirect ownership levels of the
+
+controlling shareholder and his family members through affiliated for-profit firms. To be
+specific, the third term is indirect ownership in firm i through firm j (j can take values
+from 1 to n).
+12
+13
+
+The fourth term is indirect ownership in firm i through firm k and firm j (k
+
+See Appendix 2 for detailed explanation of relatives.
+The cash-flow rights algorithm is taken from Kim (2000).
+
+- 11 -
+
+can also take values from 1 to n).
+To simplify, we can express the cash-flow rights of all for-profit firms in matrix form.
+Let d and f be (n×1) vectors of direct ownerships held by the controlling shareholder and
+his family members.
+for-profit firms.14
+
+Let S be (n×n) matrix of share ownership of for-profit firms in other
+
+Then, equation (3) computes the cash-flow rights of all for-profit firms
+
+under the controlling shareholder’s influence.
+
+cfr = ( d + f ) + S (d + f ) + S 2 (d + f ) + S 3 (d + f ) + ⋅ ⋅ ⋅
+
+(3)
+
+Equation (3) can be further simplified by using an inverse matrix.
+
+cfr = ( I − S ) −1 (d + f )
+
+(4)
+
+3.4. Disparity
+
+In this paper we use the difference between voting and cash flow rights as our measure
+of disparity.
+
+Though there are studies that use the ratio, instead of the difference
+
+between the two, or the difference scaled by voting rights,15 but there are two reasons why
+we prefer the simple difference.
+
+First, in our regression specification examining the
+
+disparity between voting and cash flow rights, we include voting rights on the right-hand
+side, which makes it unnecessary to scale the difference by voting rights.
+
+Second, since
+
+we do not necessarily require our voting or cash flow rights to be non-zero, it is sometimes
+impossible to divide by voting rights or cash flow rights.
+
+14
+
+(Note that in our study, a
+
+Elements in the diagonal are zero, since fractions of shares are already adjusted for treasury stocks.
+LLSV (1999) and Joh (2003) use [voting rights – cash-flow rights]; Claessens et al. (2000) and Mitton
+(2002) use [cash-flow rights / voting rights]; Lins (2003) uses [voting rights / cash-flow rights]; and Fan and
+Wong (2002) and Haw et al. (2003) use [voting rights – cash-flow rights]/[voting rights].
+
+15
+
+- 12 -
+
+controlling shareholder does not necessarily have to own company shares, whether
+directly or indirectly, to become a controlling shareholder.) As for group-level disparity,
+it can be easily computed by a weighted average of firm-level disparities.
+values are used as weights.
+
+Book equity
+
+We treat firms with negative book equity as missing values.
+
+Table 2 shows the voting rights, cash-flow rights, and the disparity of each firm in
+Samsung Group as of April 2002.
+
+For simplicity of presentation, of the 63 firms in our
+
+sample classified by the KFTC as a Samsung Group affiliate, we show only the 27 major
+firms that appear in the 2002 Samsung Group Annual Report. The firms are ranked in
+terms of their degree of disparity.
+
+One can see that there is a plenty of variance in the
+
+disparity measure across firms, ranging from 8% to 97.6%.
+largest company in Korea, has a disparity of 11.7%.
+
+Samsung Electronics, the
+
+The controlling shareholder, Mr.
+
+Kun-Hee Lee, has cash flow rights of 5.3% and voting rights of 17.0%.
+
+On the other hand,
+
+Samsung Card, which experienced a business failure in 2003 and was acquired by
+Samsung Life Insurance, has a disparity of 84.8%.
+
+While the controlling shareholder, Mr.
+
+Kun-Hee Lee, has a cash-flow right of only 3.6%, he controls 88.4% of the voting rights.
+
+4. Hypotheses and Methodologies
+
+In this paper, we try to identify a number of factors that influence firm-level disparity.
+We focus mainly on three factors: profitability, risk and contribution to group control.
+We hypothesize that the controlling shareholder would increase his disparity in a firm
+with low profitability or high risk, and increase her cash flow rights (or direct ownership)
+in a firm that heavily contributes to group control.
+The intuition is simple.
+
+If a firm demonstrates poor prospects by showing low
+
+- 13 -
+
+profitability or high risk, the controlling shareholder may change the ownership structure
+of the firm to minimize any further loss.16 That is, he may sell her direct ownership stake
+to an affiliated firm that he also controls.
+
+This will increase the ailing company’s
+
+disparity.
+
+Furthermore, if possible, he may try to sell the stake at a price higher than its
+
+true value.
+
+If the controlling shareholder’s cash flow rights are relatively low in the
+
+acquiring firm, there will be an illegal transfer of wealth from outside minority
+shareholders to the controlling shareholder.
+Disparity can increase even when the controlling shareholder does not sell any of her
+directly owned shares to the affiliated firms.
+injections of new equity capital.
+
+Often, poorly performing firms need
+
+But if a controlling shareholder is not confident of the
+
+firm’s survival prospects, he would not participate in purchasing the newly issued shares.
+Instead, he would instruct other affiliated firms under his control to participate. This
+would dilute his equity stake while increasing the equity stakes of other affiliated firms.
+It is not hard to find actual cases of such phenomena in Korea.
+
+In 1998, SK Securities
+
+was at the brink of liquidation after several consecutive years of negative income, largely
+attributable to a US$200 million loss in 1997 from its trades in Indonesian derivatives. To
+rescue SK Securities, affiliated firms within the SK Group, several affiliates, including SK
+Trading and SK Energy Sales, injected new equity capital into the firm.
+
+This increased
+
+the equity stake of affiliated firms, but decreased that of the Choi family, the controlling
+shareholder.
+We also attempt to provide empirical evidence that a controlling shareholder would
+tend to hold greater cash flow rights (or direct ownership) in firms that are essential in the
+control chain of a group and that allow him to wield de facto control over the whole
+
+16
+
+With regard to firm risk, one may suggest an opposite hypothesis. According to Demsetz and Lehn (1985),
+firm-specific uncertainty increases the monitoring cost of managerial performance, which thus increases the
+benefit of higher ownership concentration.
+
+- 14 -
+
+group.17
+
+In any conglomerate, some firms will have relatively large cash flow or hold
+
+voting rights in other affiliates, whether directly or indirectly.
+
+If the controlling
+
+shareholder loses control over the companies, she may lose control over the entire group,
+or at least a significant portion of it.
+
+To prevent this from happening, the controlling
+
+shareholder has a strong incentive to hold greater cash flow rights (or direct ownership) in
+such companies.
+Anecdotal evidence of this group control incentive by the controlling shareholder can be
+easily found in Korea.
+
+On one occasion, a chaebol group eagerly requested the
+
+government to allow financial institutions to vote on shares issued by their industrial
+affiliates.
+
+On another, a chaebol group chairman was prosecuted for malfeasance when he
+
+masterminded a series of equity transactions among the affiliated firms that would have
+strengthened his group control.
+To investigate whether a firm’s choice of disparity (or cash flow rights) varies
+according to its profitability, risk, and contribution to group control, we run pooled OLS
+regressions with fixed year and group effects as well as year-by-year regressions.
+
+4.1. Measures of Profitability, Risk and Contribution to Group Control
+
+In our basic model, we measured firm profitability by (EBIT / Asset).
+
+For this reason,
+
+we eliminate firms with no accounting data from our sample.18 To check for robustness,
+we try alternative measures of firm profitability: (Ordinary income / Assets) and (Net
+income / Assets).
+
+Ordinary income is an income statement item unique to Korea; it is
+
+defined as earnings before taxes and extraordinary items, but after interest payments.
+17
+
+Alternatively, the controlling shareholder would change the group ownership structure so that it increases
+the degree of group control contribution of a firm in which he has a high level of cash flow rights (or direct
+ownership).
+18
+That is, firms not subject to the Act on External Audit of Stock Companies, i.e. those that are not required to
+receive an external audit, are dropped from the sample.
+
+- 15 -
+
+We also try a three-year average in addition to a single-year measure of profitability.
+
+A
+
+greater coefficient on the three-year average indicates that the controlling shareholder
+responds with a lag to changes in profitability.
+On the other hand, firm risk is measured by beta, which is estimated from a market
+model where the KOSPI return is used as a proxy for market return. KOSPI is a valueweighted market index comprising all of the listed companies in the Korea Stock Exchange
+(KSE).
+
+For each year, we estimate the model using data during the past three-years with
+
+a monthly frequency.
+
+Note that beta is replaced by a missing value if the underlying
+
+regression uses less than 20 observations.
+
+When we use beta as our measure of firm risk,
+
+firms not listed in KSE are dropped from the sample. One advantage of using beta as our
+measure of risk is that it assumes that the controlling shareholder of a business group
+holds a well-diversified portfolio of companies, which is in fact true in the case of Korea.
+The greatest challenge in testing our last hypothesis (contribution to group control
+and the choice of cash flow rights) is finding an objective algorithm to measure how each
+firm is important in the group control chain.
+unique intra-group shareholding matrix.
+
+This task can be done by making use of our
+
+Here we quantify the contribution to group
+
+control of firm j by the amount of additional cash flow rights the controlling shareholder
+would gain in other companies by having company j under his control as a fraction of
+company j’s book equity value.
+
+Let this measure be named contribution index 1 (or “con1”).
+
+Equation (5) shows the formula of firm j’s contribution index 1:
+
+con1 j =
+
+n
+
+n
+
+i =1,i ≠ j
+
+i =1,i ≠ j
+
+∑ Ei cfri − ∑ Ei cfri− j
+(5)
+
+Ej
+
+Ei is firm i’s book value of equity. cfri is the cash flow rights computed for firm i when all
+affiliated firms of each chaebol group are included in the group-ownership structure. This
+
+- 16 -
+
+means that cfri is the cash flow rights computed for firm i when firm j is included in the
+group-ownership structure.
+
+On the other hand, cfri-j is the cash flow rights computed for
+
+firm i when firm j is excluded from the group-ownership structure.
+of equity of firm j.
+
+Ej is the book value
+
+The first term in the numerator measures the total cash flow rights the
+
+controlling shareholder would receive from other companies i ( i ≠ j ) when firm j is
+included in the chaebol group.
+
+On the other hand, the second term in the numerator
+
+captures the total cash flow rights the controlling shareholder would receive from other
+companies i ( i ≠ j ) if firm j were excluded from the chaebol group.
+
+We divide the
+
+difference by the company’s book equity value to control for a size effect, since larger
+firms could have greater contributions to group control.
+Contribution to group control can also be measured using the voting rights difference,
+instead of the cash flow rights difference.
+
+That is, the amount of additional voting rights
+
+the controlling shareholder would gain in other companies by having company j under his
+control as a fraction of the company’s book equity value.
+
+Let this measure be named
+
+contribution index 2 (or “con2”). Equation (6) shows the formula for firm j’s contribution
+index 2:
+
+n
+
+con2 j =
+
+n
+
+∑ E vr − ∑ E vr
+
+i =1, j ≠ i
+
+i
+
+i
+
+i =1,i ≠ j
+
+i
+
+−j
+
+i
+
+(6)
+
+Ej
+
+The indices can have a value equal to zero.
+
+This happens when firm j does not have any
+
+equity investment in other affiliated firms.19
+
+It should also be noted that the indices have
+
+19
+
+Contribution index 1 (computed by cash flow rights) can be zero for another reason. Say a controlling
+shareholder controls company A without holding any of its shares directly, while company A exclusively owns
+company B. Also assume company B has equity stakes in companies C and D. In such a situation, the
+contribution index 1 for company B is zero (since the controlling shareholder has no share of company A),
+while the contribution index 2 for company B is positive (since company B holds equity stakes in companies
+C and D).
+
+- 17 -
+
+no upper bounds.
+
+If there is no restriction on leverage or the length of the equity
+
+investment chain, the indices can be well above “1.”
+
+4.2. Control Variables
+
+Besides voting rights, a number of other control variables are used in this paper.
+
+At
+
+the firm level, we include years-of-operation, a public company dummy, firm size (book
+equity value), a financial institution dummy, and leverage (debt-to-asset ratio).
+
+At the
+
+group level, we add group size, number of affiliated firms within the group, and a dummy
+variable that identifies groups with a financial institution.
+
+Table 3 provides definitions for
+
+each of these control variables.
+Years-of-operation can be negatively (positively) related to disparity (or cash flow
+rights). 20
+
+One explanation for this is that old firms tend to have large outside
+
+shareholders, thus lowering their level of voting rights and, consequently, the degree of
+disparity.
+
+Another explanation is that controlling shareholders have an incentive to
+
+establish new firms as a subsidiary of an existing company, since by doing so they can
+reduce the risk of entering a new business.
+
+Since it is a subsidiary with no (or little) direct
+
+ownership, it will have a high level of disparity.
+
+Similar logic can also be applied to the
+
+public companies dummy and firm size (book equity value).
+
+20
+
+By using book equity
+
+In this paper, we use different left-hand side variables, depending upon which determinant we are
+examining. When we examine firm profitability or risk, disparity is our dependent variable (with voting
+right as an additional control variable). But, when contribution to control is our variable of interest, we put
+cash flow right on the left-hand side (without controlling for voting right). Two points should be noted here.
+First, when we control for voting rights in the right-hand side, the coefficient on our variable of interest (e.g.
+profitability or risk) will have the same absolute value (with opposite sign), regardless of which left-hand side
+variable (e.g. disparity or cash-flow right) we use. This is because, when the level of voting right is
+controlled (thus, fixed), an increase in disparity is exactly offset by a decrease in cash flow rights. Second,
+when examining contribution to control, we do not put voting rights on the right-hand side. This is because
+we are interested in the absolute level of cash-flow rights, not in the relative magnitude of cash-flow rights to
+voting rights.
+
+- 18 -
+
+value as a proxy for firm size, we retain as many observations as possible.
+Financial institutions may have a greater degree of disparity in Korea. In the past,
+many chaebol-controlled financial institutions were used as a lending vehicle to support
+other industrial firms within the chaebol group.
+profit-making entity.
+
+They were not regarded as a separate
+
+Thus, controlling shareholders had an incentive to keep the level of
+
+disparity, in such financial institutions, high.
+
+Otherwise, their losses would be
+
+transferred to the controlling shareholder.
+Leverage (the debt-to-asset ratio) can be either positively or negatively related to
+disparity.
+
+A controlling shareholder may want to lower his direct ownership in highly
+
+levered firms, where the risk to equity holders is high.
+relationship with the disparity.
+disparity.
+
+Thus, there is a positive
+
+Conversely, leverage may also be negatively related to
+
+Notice that there are two ways for a controlling shareholder to externally
+
+finance a project without diluting his voting rights in the firm.
+the other is issuing equity to affiliated firms.
+
+One is issuing debt and
+
+If a firm is highly leveraged, it means that
+
+the controlling shareholder has been relying less on the latter method, thus resulting in a
+lower disparity.
+Group size is the sum of each affiliated firm’s book equity value.
+
+Again, book equity
+
+is used so as to maximize the number of observations in the sample.
+
+We conjecture that
+
+firm-level disparity will increase with group size, for if there is a large-sized affiliated firm
+within the group, there will be a greater amount of equity investment in other affiliated
+firms.
+
+Similar logic can be applied to the number of affiliated firms.
+
+The greater the
+
+number of affiliated firms, the greater the amount of equity investment to other affiliated
+firms, thus increasing firm-level disparity.
+
+Firms that are part of a chaebol group that
+
+includes a financial institution may also have a higher degree of firm-level disparity.
+
+21
+
+As can be seen in Appendix 3 (Regulation of Large Business Conglomerates in Korea), financial
+institutions are not subject to the 25% upper ceiling on equity investment.
+
+- 19 -
+
+This is because a financial institution is an efficient vehicle for a controlling shareholder to
+strengthen his control over the group.
+
+There are two reasons for this. First, a financial
+
+institution is usually highly leveraged, and thus only a small amount of capital is required
+to acquire a controlling stake.
+
+Second, financial institutions can use their creditors’
+
+money to finance its equity investment in other affiliated firms.21
+
+4.3. Econometric Issues
+
+There are two major challenges when estimating OLS regressions of firm-level
+disparity on its determinants.
+
+One is the issue of reverse causality.
+
+That is, disparity
+
+can cause firm profitability (risk), rather than the other way around. For example, Joh
+(2003) demonstrates that Korean firms with a high disparity between voting and cash-flow
+rights tended to have low profitability during the pre-crisis period (1993-1997).22 Black,
+Jang, and Kim (2004) also show that firms with high disparity tended to have low market
+values, as measured by Tobin’s q, in 2001.
+As a partial remedy to this problem, we make sure that our profitability measure is
+pre-determined. A three-year average of past profitability is used to make the righthandside variable pre-determined.
+
+Even when a single-year measure is used, we compute
+
+profitability during the fiscal year, which ends before April, the month in which disparity
+is measured.
+In particular, the causality issue between group control and the controlling
+shareholder’s cash flow right (or direct ownership) is less problematic.
+
+Even if there is a
+
+reverse causality issue – the controlling shareholder increasing the level of group control
+contribution of a firm in which he has high cash flow rights – the ownership structure
+
+22
+
+One potential underlying cause could be illegal value transfers (also known as tunneling) from companies
+with high disparity to those with low disparity.
+
+- 20 -
+
+must still be endogenously determined by the group control motivation.
+The other econometric challenge is Korea-specific.
+
+As can be seen in Appendix 3, the
+
+KFTC regulations changed during the sample period, and this could have influenced the
+share ownership behavior by the controlling shareholders.
+
+Among the five regulations
+
+listed, two (“ban on new debt guarantees” and “board approval and disclosure of related
+parity transactions”) are not directly related to share ownership. Of the remaining three,
+two other regulations (“ban on cross-shareholdings” and “no voting rights for financial
+institutions on shares issued by affiliated firms”) changed only in the very last year of our
+sample.
+
+Thus, the only regulation of concern to us is the “upper ceiling on equity
+
+investment.”
+Until February 1998, a 25% upper ceiling was applied to all the firms within the top 30
+chaebols, except for financial institutions.
+
+One of the major reasons to impose such a
+
+regulation was to limit equity investment among affiliated firms, and thus reduce
+disparity between voting and cash-flow rights.
+
+In February 1998, however, this
+
+regulation was unexpectedly lifted in the name of facilitating the corporate restructuring
+of crisis-hit chaebol firms.
+
+Then, in April 2001, the regulation was restored, and in January
+
+2002 additional moderate changes were made.23
+Given this information, once can identify a period that is not contaminated by
+government regulation: a period between February 1998 and March 2001.
+
+Since disparity
+
+is measured each year in April, yearly regressions in 1999 and 2000 should be free from
+any regulatory influence.
+contaminated.
+
+Yearly regressions in 1998 and 2001, however, would be partly
+
+With regard to the 1998 regression, firms were subject to regulation
+
+during a 10-month period from April 1997 and January 1998.
+
+In case of the 2001
+
+regression, it may be influenced because the bill to restore the upper ceiling on equity
+
+23
+
+The legislation to restore the regulation passed in December 1999 and a 15-month grace period was
+allowed.
+
+- 21 -
+
+investment was passed in December 1999, and firms knew that the regulation would be
+binding from April 2001.
+
+Thus, the controlling shareholder must have changed her
+
+shareholdings from the second half of 2000 at the latest to comply with the regulation soon
+to be effective.
+
+To see if our results are robust to such regulatory changes, we run year-
+
+by-year regressions and see if the coefficients are greater in year 1999 and 2000.
+However, it should also be noted here that the upper ceiling on equity investment
+tends to weaken, not strengthen, the link between our proposed determinants and
+disparity.
+
+This means that the coefficients we obtain are downward biased in sample
+
+years other than 1999 and 2000. Thus, any control of the regulation effect, will strengthen,
+not weaken, the coefficients.
+
+5. Results
+
+5.1. Summary Statistics
+
+Panel A of Table 4 reports summary statistics of each variable used in this paper.
+
+The
+
+median voting rights measure is 74.59 percent, while the median cash flow rights measure
+is only 12.95 percent. The median disparity is 45.04 percent. Table 4 also shows that the
+levels of voting rights, cash flow rights, and disparity are higher for private firms.
+
+For
+
+example, the median disparity is 50.69 percent for private firms, but only 27.83 percent for
+public firms.
+Another important result from Panel A is that the median values of both contribution
+indices 1 and 2 are zero. In fact, more than half of 4,114 firm-years have zero contribution
+indices.
+
+This led us to run two sets of regressions, one including such firms with zero
+
+- 22 -
+
+contribution index values, and another excluding them. Also, as can be seen in Panel A,
+the maximum values of winsorized contribution indices 1 and 2 are 3.45 and 3.57,
+respectively.
+
+These actual contribution index figures are consistent with reality. The
+
+firms with the highest contribution index 1 in each group in 2002 are Samsung Everland
+(Samsung Group), LG Corp (LG Group), and SK C&C (SK Group), and each of these firms
+is commonly regarded by the investment community in Korea as the de facto holding
+company of their respective groups.
+
+This strongly suggests that our measure is reliable.24
+
+Panel A also shows that 31.91 percent of the firms in our sample are firms either listed
+on the Korea Stock Exchange (KSE) or registered on the KOSDAQ stock market.
+Financial institutions comprised 12.9 percent of our sample.
+
+The median number of
+
+affiliates for each chaebol group was 29 (=exp (3.3673)).
+Panel B of Table 4 compares the level of disparity with the existing literature.
+
+The first
+
+column computes disparity as a difference between voting and cash flow rights.
+
+The
+
+second column calculates disparity as a ratio of voting over cash flow rights.
+
+Two
+
+observations can be made.
+
+First, the figures computed in previous studies are generally
+
+lower than those computed in this paper.
+
+For example, Claessens et al. (2000) and Joh
+
+(2003) report that the average difference between voting and cash flow rights in Korea are
+only 4 percent and 23 percent, respectively. 25
+
+Claessens (2000), Chang (2003), and
+
+Lemmon and Lins (2003) also report that average cash flow rights leverages – voting rights
+over cash flow rights – in Korea are only 1.27, 1.47, and 2.37, respectively.26
+
+24
+
+In contrast,
+
+In eight out of top 10 chaebol groups, the firm with the highest index 1 is identical to the firm with the
+highest index 2, which further makes our measure reliable.
+25
+Joh (2003), which includes private firms in the sample, reports that the average level of disparity is 23.47
+percent in 1997. This figure is much lower than what we have. The difference comes from two sources:
+First, Joh’s data includes not only chaebol-affiliated firms but non-affiliated firms as well. Second, Joh
+(2003) uses a database not from KFTC, but of her own construction, which can thus be incomplete.
+26
+Chang (2003) originally computes fraction of inside ownership (equivalent to voting rights) and family
+portion (equivalent to cash flow rights over voting rights). Average inside ownership and family portion are
+29.9 percent and 68 percent, respectively. Inverse of family portion gives the cash flow rights leverage.
+
+- 23 -
+
+our mean figures are 47 percent for the difference between the voting and cash flow rights,
+and 3.19 for the ratio of voting over cash flow rights.
+
+Second, even when comparing for a
+
+restricted sample of public chaebol firms, one can see that our figure of 3.25 is significantly
+greater than the figure of 1.47 computed by Chang (2003).
+
+Such a difference can be due
+
+to two factors: (i) incorporating every control chains that involve unlisted firms and (ii)
+using a flexible concept of control.
+
+Detailed explanations of our dataset and the concept
+
+of control can be found in Section 2B and Section 3A, respectively.
+
+5.2. Profitability, Risk, and Choice of Disparity
+
+Panels A and B of Table 5 report the OLS regression results of voting-cash flow rights
+disparity on profitability with additional control variables.
+EBIT over assets.
+three-year average.
+
+Profitability is measured as
+
+In Panel A, we use a single-year measure, while in Panel B we use a
+Extreme values of (EBIT/Asset) are winsorized.
+
+That is, as for
+
+observations outside the 1st and the 99th percentiles, the (EBIT/Asset) values are replaced
+by the 1st and the 99th percentile values.
+Equation (5) in Panel A, which uses a full set of control variables, including group and
+year dummies, shows that the coefficient on profitability is statistically significant and has
+the expected sign.
+
+The t-value is 3.42.
+
+The magnitude of the coefficient, however, is not
+
+economically large.
+
+A one-standard deviation increase in profitability decreases disparity
+
+by 1.4 percentage points (= 0.1063 × 0.1310 = 0.0139).27
+
+When we use a three-year average,
+
+rather than a single-year measure of profitability, the coefficient and the t-value increase.
+As can be seen in Panel B of Equation (5), the t-value is now 4.43, and a one-standard
+deviation increase in profitability decreases disparity by 1.7 percentage points (= 0.0989 ×
+
+27
+
+A change of profitability, from worst to best, decreases disparity by 10 percentage points.
+
+- 24 -
+
+0.1747 = 0.0173).28
+From Table 5, one can also see that the coefficient size and sign on profitability is
+robust to the control variables we include.
+
+For Equations (1) to (5), the coefficients on
+
+profitability remain stable, lying within a certain range.
+have the expected signs.
+
+Most of the control variables
+
+The coefficient on voting rights is positive and highly significant.
+
+Leverage has a negative coefficient when group or year dummies are included.
+
+As
+
+already mentioned, one possible explanation is the substitution effect between equity
+issued to affiliated firms and debt.
+
+A one standard deviation increase in leverage
+
+decreases disparity by 1.7 percentage points (= 0.0660 × 0.216 = 0.0173).
+
+Table 5 also
+
+shows that even when the level of voting rights is controlled for, years-of-operation and
+disparity are negatively correlated.
+
+This can happen when new firms are established as
+
+subsidiaries of an existing company, and in this way, the controlling shareholder can
+minimize the risk of entering a new business.
+
+A one-standard deviation increase in
+
+years-of-operation decreases disparity by 4 percentage points (= 0.0437 × 0.9308 = 0.0406).
+Group-level variables turn out to be significant when group dummies are not
+included. Group size, group with financial institution dummy, and number of affiliates
+are significant at 1%, 5%, and 10% levels, respectively.
+
+Disparity increase by 7.16
+
+percentage points with a one-standard deviation increase in group size (= 0.0277 × 2.5839
+= 0.0716). Disparity increases by 1.74 percentage points with a one-standard deviation
+increase in the number of affiliates (= 0.0221 × 0.7871 = 0.0174).
+
+Lastly, disparity
+
+increases by 4.61 percentage points when a chaebol group acquires or establishes a financial
+institution.
+In Table 6, we conduct robustness checks.
+
+We estimate equation (5) in Table 5 with
+
+three different measures of profitability (EBIT, ordinary income, and net income) for each
+year in the sample period (1997-2002).
+28
+
+In Panel A, we use a one-year measure of
+
+A change of profitability, from worst to best, decreases disparity by 13.4 percentage points.
+
+- 25 -
+
+profitability and in Panel B we use a three-year average.
+coefficient on profitability is significant at the 5% level.
+
+The cells are shaded if the
+
+Three observations can be made.
+
+First, the coefficient on profitability tends to be largest when net income is used.
+
+The last
+
+column in Panel A shows that the coefficients are -0.1310 for the EBIT/Asset measure, 0.1739 for OI/Assets, and -0.1919 for NI/Assets.
+
+Second, the coefficient on profitability
+
+tends to be greater when we use the three-year average.
+
+The coefficients on NI/Assets
+
+are -0.1919 when a single-year measure is used (last column in Panel A), and -0.2402 when
+a three-year average is used (last column in Panel B).
+
+This indicates that the controlling
+
+shareholders tend to respond to profitability with a lag.
+
+Third, as expected, the
+
+coefficients tend to be larger in 1999 and 2000, when the upper ceiling on equity
+investment was absent. In 1999, the coefficient on a single-year OI/Assets reaches -0.3692.
+This means that a one-standard deviation increase in OI/Assets decreases the level of
+disparity by 4.7 percentage points (= 0.1279 × 0.3692 = 0.0472).29
+Notice that in Tables 5 and 6, we do not include industry dummies in our regressions.
+When we did include 4-digit industry dummies, the results of which we do not report here,
+the coefficient on profitability and its t-value slightly increased.
+
+We also tried a
+
+regression model using the first differences to verify that our result is not entirely from
+cross-sectional variations.
+
+The results show that our main finding is still preserved.
+
+The
+
+coefficient on the first difference of profitability and its t-value turn out to be -0.0734 and 1.84, respectively.
+
+This finding is actually very surprising given that our disparity
+
+variable changes very slowly over time.
+Table 7 reports OLS regression results of disparity on firm volatility with control
+variables.
+
+Beta is used as our measure of volatility. We use the same set of control
+
+29
+
+This figure is similar to that estimated by Chang (2003), which shows that a one standard deviation increase
+in profitability increases family portion of inside ownership by 5 percentage points.
+30
+A one-standard deviation increase in the index translates into a 9.84 percentage point increase in the cash
+flow right.
+
+- 26 -
+
+variables as in Table 6 and 7.
+
+The table shows that the coefficients on beta are not
+
+significant for most of the specifications.
+
+Although the coefficient is negative and
+
+significant at the 5% level in equation (2), the magnitude is economically meaningless.
+
+A
+
+one-standard deviation increase in beta decreases the level of disparity by 0.7 percentage
+points (= 0.463 × 0.015 = 0.007).
+
+In year-by-year regressions, the result of which we do
+
+not report here, we find that the weak link between firm risk and disparity remains intact.
+Also, our result remains the same even when a three-year average beta is used, instead of a
+single-year measure.
+One possible explanation can be the control potential argument suggested by Demsetz
+and Lehn (1985), which predicts that firms with high volatility tend to have high
+ownership concentration.
+
+According to this argument, there is a certain wealth gain
+
+achievable through more effective monitoring of managerial performance by a firm’s
+owner.
+
+This is particularly so when the market for corporate control does not exist, as is
+
+the case in Korea.
+
+When a firm operates in an uncertain environment, it becomes more
+
+costly to monitor managerial performance.
+
+Under this situation, greater ownership
+
+concentration becomes an effective substitute to market for corporate control.
+
+This
+
+substitution effect may have offset the risk minimization effect, which we originally had in
+mind.
+
+5.3. Contribution to Group Control and Choice of Cash Flow Right
+
+In Table 8 Panel A, contribution to group control indices are grouped in quintiles.
+Before grouping into quintiles, observations are dropped if the index values are zero.
+each quintile, we show the level of cash flow rights.
+
+For
+
+The last column shows the results of
+
+difference-in-mean tests we conduct between the 1st and the 5th quintiles.
+
+When using
+
+contribution index 1, the 1st quintile (small index value) shows average cash flow rights of 8
+
+- 27 -
+
+percent, while the 5th quintile (large index value) shows average cash flow rights of 47
+percent. The difference between the two, 38 percent, is statistically significant at the 1
+percent level.
+
+When contribution index 2 is used, the difference is somewhat smaller.
+
+The 1st quintile (small index) shows average cash flow rights of 17 percent, while the 5th
+quintile (large index) shows average cash flow rights of 30 percent.
+
+The difference of 13
+
+percentage points is statistically significant at the 1 percent level.
+Panels B and C show OLS regression results of cash flow right on contribution indices 1
+and 2 with control variables.
+
+Panel B uses cash flow right to compute the contribution
+
+index, while Panel C uses voting right to compute the index.
+
+We use the same set of
+
+control variables as in the previous regressions, except that we replace voting right with
+profitability.
+
+We include profitability in the regression since we know from Tables 5 and
+
+6 that profitability is a non-trivial factor determining the level of disparity (or equivalently
+the cash-flow right).
+
+We exclude voting right since here we are not interested in the
+
+relative disparity between cash flow rights and voting rights.
+
+In this subsection, instead
+
+we are interested in the absolute level of cash flow rights.
+The tables show that our measures of contribution are not only statistically significant,
+but also economically meaningful.
+
+In Panel B equation (5), the coefficient on contribution
+
+index 1 is 0.1683 and statistically significant at 1 percent level.
+
+A one-standard deviation
+
+increase in the index increase cash flow right by 7.11 percentage points (= 0.4227 × 0.1683 =
+0.07114).
+
+It should also be noted that the coefficient on profitability also remains to be
+
+significant.
+
+The impact of contribution index 2, however, turns out to be relatively modest.
+
+In Panel C equation (5), the coefficient on contribution index 2 is 0.0689 and statistically
+significant at 1 percent level.
+
+A one-standard deviation increase in the index increase
+
+cash flow right by 3.55 percentage points (= 0.5159 × 0.0689 = 0.0355).
+
+These results do
+
+not change when we drop observations with zero index values.
+Table 9 conducts some robustness checks.
+
+It reports OLS regressions results for Table 8,
+
+- 28 -
+
+equation (5) for each year during the sample period (1997-2002).
+
+The coefficients on
+
+contribution indices 1 and 2 are always positive and significant at 1% level. An interesting
+observation is that the coefficient on contribution index 1 peaks in 1997 at 0.2328 and
+gradually decreases.30
+
+On the other hand, the coefficient on contribution index 2 increases
+
+over time and peaks in 2002 at 0.0930.31 One possible explanation may be that, in recent
+years, controlling shareholders in Korea are increasingly less concerned about total cash
+flow rights (index 1), but more concerned about direct voting rights (index 2) in other
+companies.
+market.
+
+This explanation is consistent with the recent changes in the Korean capital
+
+One key change is the significant growth of foreign ownership during the
+
+sample period.32
+
+Consequently, concerns over potential hostile takeovers or institutional
+
+shareholder activism may have triggered the controlling shareholders to tighten their
+group control by increasing their cash flow rights in companies with high levels of index 2.
+
+5.4. Sub-Sample Results: Listed versus Non-Listed
+
+In Table 10, OLS regressions of cash flow rights are estimated with all three
+determinants of our interest: profitability, risk, and contribution to group control.
+
+To
+
+preserve sample size and to make comparison between listed and non-listed firms possible,
+we use the 5-year standard deviation of (EBIT/Assets) as our measure of risk instead of
+beta.
+
+Equation (1) shows the result for our full sample and equations (2) and (3) show
+
+results for sub-samples of non-listed firms and listed firms, respectively.
+included in all three equations as an extra control variable.
+
+Voting right is
+
+Public company dummy is
+
+naturally dropped in equations (2) and (3).
+As can be seen from equation (1), when all three determinants are in the regression
+31
+
+A one-standard deviation increase in the index translates into a 4.8 percentage point increase in the cash
+flow right.
+32
+Foreign ownership in KSE was above 40 percent as of January 2004.
+
+- 29 -
+
+equation, contribution to group control and profitability remain to be statistically
+significant, while risk is not significant. The coefficient on profitability is slightly higher
+than that found in Table 5 equation (5) and the coefficient on Contribution Index 1 is slightly
+lower than that found in Table 8 Panel B Equation (5).
+Comparison between equations (2) and (3) gives us three observations.
+
+First,
+
+profitability explains cash flow right in non-listed firms, but not in listed firms.
+
+This is
+
+intuitive given that the ownership structure of public firms is more difficult to change than
+that of private firms.
+
+Second, firm risk has explanatory power neither in the public firms
+
+nor in the private firms. Third, contribution to group control has strong explanatory
+power in both types of firms, but the coefficient is stronger in case of listed firms.
+coefficients are 0.1752 in public firms and 0.1238 in private firms.
+
+The
+
+One explanation is that
+
+the threat of hostile acquisition is present in public firm, but absent in private firms.
+
+Thus,
+
+given everything else equal, there exists a stronger control motive in public firms.
+
+6. Concluding Remarks
+
+Many believe that corporate ownership structure evolves slowly over time.
+
+However,
+
+most academic works also treat ownership as exogenous as if they do not support such
+view.
+
+But, when it comes to group-affiliated firms with a common controlling
+
+shareholder, the reality can be different.
+
+In this paper, we provide empirical evidence
+
+that the ownership structure of a business conglomerate can be deliberately shaped by its
+controlling shareholder.
+
+By using an exclusive data set of 46 chaebol groups on their intra-
+
+group shareholdings in Korea during 1997-2002, we find that controlling shareholders
+concentrate their cash flow rights in firms that serve as de facto holding companies – those
+with the greatest contribution to group control – and those with high profitability.
+The strong group control motive by the controlling shareholder found in this paper
+
+- 30 -
+
+has a number of implications.
+
+First, it suggests that the controlling shareholders of
+
+chaebol groups see group-affiliated firms, including financial institutions, not only as
+profit-making entities, but also as means to control other group-affiliated firms.
+
+Such
+
+motive can be especially strong in case of financial institutions, which are able to control
+many other firms with only a small amount of book equity.
+
+Second, our finding implies
+
+that there still might be significant private gains from group control.
+
+Otherwise, the
+
+controlling shareholder would not structure ownership in a way that maximizes his group
+control.
+
+This is consistent with the recent finding by Dyck and Zingales (2004), which
+
+reports premiums from controlling block transactions.
+
+According to this paper, the
+
+median value of block premium in Korea is 17 percent, which is above the 39-country
+mean of 11 percent.
+
+Recent corporate governance scandals in Korean chaebols also show
+
+that the controlling shareholders even engage in illegal transactions to preserve their
+group control, which further supports our reasoning that private gains can be significant.
+
+- 31 -
+
+References
+Bebchuk, Lucian Aye, Reinier Kraakman, and George Triants (2000), “Stock Pyramids, CrossOwnership and Dual Class Equity: The Mechanisms and Agency Costs of Separating Control
+From Cash-Flow Rights," in Randall K. Morck, ed., Concentrated Corporate Ownership, pp. 295318.
+Baek, Jae-Seung., Kang Jun-Koo, and Park Kyung Suh (2004), "Corporate Governance and Firm
+Value: Evidence from the Korean Financial Crisis," Journal of Financial Economics Vol.71, pp. 265313
+Black, Bernard S, Hasung Jang, and Woochan Kim (2004), "Does Corporate Governance Affect
+Firms' Market Values? Evidence from Korea,” John M. Olin Program on Law and Economics,
+Working Paper No. 237
+Chang, Sea Jin (2003), “Ownership Structure, Expropriation, and Performance of Group-Affiliated
+Companies in Korea,” Academy of Management Journal Vol.46 No.2, pp.238-253
+Cho, Myeong-Hyeon (1998), “Ownership Structure, Investment, and the Corporate Value: An
+Empirical Analysis,” Journal of Financial Economics 47, pp.103-121
+Claessens, Stijn, Djankov Simeon, and Larry H. P. Lang (2000), "The Separation of Ownership and
+Control in East Asian Corporations," Journal of Financial Economics 58, pp. 81-112.
+Claessens, Stijn, Djankov Simeon, Joseph P. H. Fan, and Larry H. P. Lang (2002), "Disentangling the
+Incentive and Entrenchment Effects of Large Shareholdings," The Journal of Finance 57, pp. 27412771
+Demsetz, Harold and Kenneth Lehn (1985), “The Structure of Corporate Ownership: Causes and
+Consequences,” The Journal of Political Economy, Vol.93 No.6, pp.1155-1177
+Dyck, Alexander and Luigi Zingales (2004), “Private Benefits of Control: An International
+Comparison,” The Journal of Finance. 59, pp. 537-599
+Fama, Eugene and Michael Jensen (1983), “Separation of Ownership and Control,” Journal of Law
+and Economics, 26: 301-325
+Fan, J.P.H. and T.J. Wong (2002), “Corporate Ownership Structure and the Informativeness of
+
+- 32 -
+
+Accounting Earnings in East Asia” Journal of Accounting and Economics 33, pp. 401-425
+Haw, In-Mu, Bingbing Hu, Lee-Seok Hwang and Woody Wu (2003), “Ultimate Ownership, Income
+Management, and Legal and Extra-Legal Institutions,” manuscript
+Joh, Sung Wook (2003), "Corporate Governance and Firm Profitability," Journal of Financial
+Economics 68, pp. 287-322.
+Kim, Jin Bang (2000), “Ownership Structure of Chaebols: Statistics, Concepts, and Analysis,”
+Kyungaehak YeunkooVol.48 No.2, pp. 57-93
+La Porta, Rafael, Florencio Lopez-de-Silanes, and Andrei Shleifer A. (1999), "Corporate Ownership
+around the World," Journal of Finance 54, pp. 471-518.
+La Porta, Rafael, Florencio Lopez-de-Silanes, Andrei Shleifer, and Robert Vishny (2002), “Investor
+Protection and Corporate Valuation,” The Journal of Finance 57, pp. 1147-1170
+Lemmon, Michael L. and Karl V. Lins (2003), "Ownership Structure, Corporate Governance, and
+Firm Value: Evidence from East Asian Financial Crisis," The Journal of Finance 58, pp. 1445-1468
+Lins, Karl (2003), “Equity Ownership and Firm Value in Emerging Markets,” Journal of Financial
+and Quantitative Analysis, pp.159-184
+Mitton, Tod (2002), "A Cross-Firm Analysis of the Impact of Corporate Governance on the East
+Asian Financial Crisis," Journal of Financial Economics 64, pp. 215-241
+Morck, Randall, Andrei Shleifer, and Robert W. Vishny (1988), “Management Ownership and
+Market Valuation: An Empirical Analysis,” Journal of Financial Economics 20, pp.293-315
+
+- 33 -
+
+Appendix 1:
+Computation of Disparity: Distinctions from the Existing Literature
+Claessens et al. (2000)
+Ownership data not
+available
+
+LLSV (2002)
+Ownership data not
+available
+
+Lins (2003)
+Ownership data not
+available
+
+This Paper
+Ownership data available
+for all non-listed firms
+under the controlling
+shareholder’s influence
+
+Listed companies
+
+Ownership data available
+for only three-quarters of
+listed firms in each country
+by market capitalization
+
+Ownership data available
+for only largest 20 firms in
+each country by market
+capitalization
+
+Ownership data available
+for only half of listed firms
+in each country by market
+capitalization
+
+Ownership data available
+for all listed firms under the
+controlling shareholder’s
+influence
+
+Financial institutions
+
+Included in the sample
+
+Dropped from the sample
+
+Dropped from the sample
+
+Included in the sample
+
+Shareholders
+
+Only block holders with
+equity stakes at or above a
+5% threshold are considered
+
+-
+
+Only block holders with
+equity stakes at or above a
+5% threshold are considered
+
+All shareholders are
+considered regardless of the
+size of its equity stake
+
+Distinction among
+individual family members
+
+No distinction made
+
+-
+
+-
+
+Not-for-profit organizations
+
+Considered as shareholders
+
+Considered as shareholders
+
+Considered as shareholders
+
+Considered as shareholders
+
+Controlling Shareholder
+
+A shareholder that
+ultimately owns the direct
+block holding; if there are
+multiple ultimate owners,
+the one with the largest
+control rights is chosen
+(defined below)
+
+A shareholder with the
+largest control right among
+those with at least 10%
+control right (defined
+below)
+
+A shareholder that
+ultimately owns the direct
+block holding, and is a
+member of the management
+group (mangers and their
+families of the company
+concerned)
+
+A person who, alone or
+with related parties, has de
+facto control of the company
+(also known as the same
+person in the Monopoly
+Regulation and Fair Trade
+Act)
+
+Related Parties
+
+Not considered
+
+Not considered
+
+Companies managed by the
+members of the
+management group
+
+Spouse and relatives; notfor-profit organizations
+where the same person, alone
+or with related parties,
+contributed 30% of its total
+
+Non-listed companies
+
+- 34 -
+
+No distinction made
+
+donation; not-for-profit
+organizations where the
+same person, directly or
+through its related parities,
+has a controlling influence
+over the appointment of
+directors or its business
+activities; any company
+whose business is de facto
+controlled by the same
+person; agents of the same
+person or its related parities
+De facto controlled
+companies
+
+Not considered
+
+Not considered
+
+Not considered
+
+See Appendix 2
+
+Voting Rights
+
+Sum of the weakest links in
+the chains of voting rights
+
+Controlling shareholder’s
+direct and indirect voting
+rights in the firm; indirect
+voting right over the firm
+concerned is x percent if a
+sequence of firms leading to
+this firm forms a control
+chain (e.g. each of which
+has control over the next
+one), and the last firm in the
+chain directly controls x
+percent of the voting rights
+
+Sum of direct block
+holdings ultimately held by
+the management group and
+its related parities
+
+Sum of direct ownership
+held by the controlling
+shareholder and its related
+parties
+
+Cash-flow rights
+
+Sum of the products of the
+ownership stakes held by
+the controlling shareholder
+along the chains of voting
+rights
+
+Sum of the products of the
+ownership stakes held by
+the controlling shareholder
+along the chains of voting
+rights
+
+Sum of the products of the
+ownership stakes held by
+the management group
+along the chains of voting
+rights
+
+Sum of the products of the
+ownership stakes held by
+the controlling shareholder
+along the chains of voting
+rights
+
+Disparity Formula
+
+Cash-flow Rights / Voting
+Rights
+
+Voting Rights
+– Cash-flow Rights
+
+Voting Rights /
+Cash-flow Rights
+
+Voting Rights
+– Cash-flow Rights
+
+- 35 -
+
+Appendix 2:
+The Concept of Related Parties and de Facto Control
+Business Conglomerates
+According to the Monopoly Regulation and Fair Trade Act, a business conglomerate is a
+group of companies whose businesses are controlled de facto by the same person pursuant
+to the standards prescribed by the Presidential Decree.33
+There can be two different types of business conglomerates:
+(a) Where the same person is a company, a business conglomerate is a group composed of
+said company and one or more companies over which the same person holds de facto
+control; and
+(b) Where the same person is not a company, a business conglomerate is a group composed
+of two or more companies controlled de facto by the same person.
+The Concept of Control
+The Presidential Decree defines companies whose businesses are controlled de facto by the
+same person in the following two ways:
+(a) A company where the same person, alone or with its related parities, owns 30% of
+voting shares issued, and where the same person is the largest shareholder. Related
+parities can refer to the following:
+① Spouse and relatives (if the relative has a blood relationship, the degree of kinship
+
+②
+
+③
+
+④
+⑤
+
+must be eight or less; if the relative has a blood relationship with the spouse, the
+degree of kinship must be four or less)
+Not-for-profit organization where the same person, alone or with its related parities,
+contributed 30% of its total donation. The same person must be the largest donor,
+or either the same person or anyone among the related parities must be the founder.
+Not-for-profit organization where the same person, directly or through his related
+parties, has a controlling influence over the appointment of directors or its
+business activities.
+Any company whose business is controlled de facto by the same person according to
+(a) and (b).
+Any agent of the same person or its related parties.
+
+(b) The same person is considered to have de facto control of the following companies even
+33
+
+KFTC does not officially use the term chaebol.
+
+Instead, they use the term business conglomerates.
+- 36 -
+
+without any share ownership.
+① A company whose representative director or at least half of whose directors are
+
+appointed or can be appointed by the same person via a contract with the major
+shareholders or by a mutual agreement.34
+② A company where the same person, directly or through its related parities, has a
+controlling influence over its major decisions such as organizational change or
+new business entry, or its business decisions.
+③ A company that participates in any of the following personnel exchanges with a
+company that is controlled de facto by the same person (includes the same person if it
+is a company):
+i.
+A company, the director of which has a joint appointment at a company that
+is controlled de facto by the same person.
+ii.
+A company, the director or the employee of which was previously employed
+by a company controlled de facto by the same person, later employed by the
+company concerned, and lastly returned to the same company he/she was
+previously employed or to another company controlled de facto by the same
+person.
+iii. A company in which the director or employee of which was previously
+employed by the company concerned, later employed by the company
+controlled de facto by the same person, and lastly returned to the company
+concerned or to its affiliated company.
+④ A company that has transactions of funds, assets, goods, services, or debt
+guarantees with the same person or with its related parties above a normal range; a
+company that can be recognized as an affiliated company of the business group
+controlled by the same person according to social norms (e.g. using similar
+trademarks).
+
+34
+
+A representative director refers to senior directors including the CEO.
+- 37 -
+
+Appendix 3:
+Regulation on Large Business Conglomerates in Korea
+Since 1987, the Korea Fair Trade Commission (KFTC) has been categorizing, each year in April,
+certain large business conglomerates to be subject to a number of restrictions, which we explain in
+the table below. From 1987 to 2001, KFTC designated the top 30 conglomerates in terms of their
+total asset size. Since 2002, KFTC changed the way it designates the conglomerates. Instead of
+using asset size ranks, it uses asset size thresholds. That is, KFTC regulations are imposed only
+when the total asset size of a conglomerate is above certain asset size thresholds (e.g. 2 trillion or 5
+trillion Korean won). Following is the list of regulations imposed on each of the affiliated firms
+comprising the large business conglomerates designated by the KFTC. Dates are effective dates,
+not the dates on which the relevant bills were passed.
+Regulations
+Ban on crossshareholdings
+
+Description
+Affiliated firms in the designated large business conglomerates
+cannot have cross shareholdings with other affiliated firms in the
+same conglomerate (cross-shareholding refers to firm A holding
+shares of firm B, and firm B holding shares of firm A; circular
+shareholding is allowed)
+!
+
+!
+
+!
+
+Upper ceiling on equity
+investment
+
+(April 1987-March 1991) Applied to all the firms in top 30
+conglomerates, with the exception of financial institutions
+(April 1991-March 2002) Applied to all the firms in top 30
+conglomerates, including financial institutions
+(April 2002-Present) Applied to all the firms in conglomerates
+above 2 trillion won
+
+Affiliated firms in the designated large business conglomerates can
+make equity investments in other domestic companies in amounts
+only up to 25% of net assets (= assets – book equity invested by other
+affiliates)
+!
+
+!
+
+!
+
+!
+
+!
+
+!
+
+(April 1987-March 1990) 40% upper ceiling applied to all the firms
+in the top 30 conglomerates
+(April 1990-Dec.1994) 40% upper ceiling applied to all the firms in
+the top 30 conglomerates, with the exception of financial
+institutions
+(Dec.1994-Feb.1998) 25% upper ceiling applied to all the firms in
+the top 30 conglomerates, with the exception of financial
+institutions
+(Feb.1998-March 2001) No upper ceiling (regulation lifted to
+facilitate corporate restructuring)
+(April 2001-Jan 2002) 25% upper ceiling applied to all the firms in
+top 30 conglomerates, with the exception of financial institutions
+(exemptions allowed on certain conditions)
+(Jan 2002-Present) Limit voting rights on shares above the 25%
+upper ceiling applied to all the firms in conglomerates above 5
+trillion won, with the exception of financial institutions
+
+- 38 -
+
+(exemptions allowed on a variety of reasons)
+Ban on new debt
+guarantees
+
+Affiliated firms in the designated large business conglomerates
+cannot provide any new debt guarantees to domestic affiliates
+!
+
+!
+
+!
+
+No voting rights for
+financial institutions on
+shares issued by affiliated
+firms
+
+Financial institutions in the designated large business conglomerates
+cannot exercise their voting rights on shares issued by their affiliated
+firms
+!
+
+!
+
+Board approval and
+disclosure of related party
+transactions
+
+(April 1993-March 1996) Debt guarantee cannot be more than 200%
+of book equity (if above the upper ceiling should reduce it by
+March 1996)
+(April 1997-March 1999) Debt guarantee cannot be more than 100%
+of book equity (if above the upper ceiling, should be reduced by
+March 1998)
+(April 1999-Present) Ban on new debt guarantees
+
+(April 1993-Jan.2002) Applied to all the financial institutions in top
+30 business conglomerates
+(Jan.2002-Present) Voting rights of financial institutions allowed up
+to 30% of shares issued by an affiliated public firm on voting items
+such as revision of AOI, appointment/removal of directors, and
+mergers(the controlling shareholder cannot directly or indirectly
+exercise his/her voting rights above 30%)
+
+Related party transactions above 10 billion won or 10% of book equity
+should be approved by the board and be disclosed to the public
+!
+
+!
+
+!
+
+(April 2000-March 2001) Applied to all the firms in top 10 business
+conglomerates
+(April 2001-March 2002) Applied to all the firms in top 30 business
+conglomerates
+(April 2002-Present) Applied to all the firms in business
+conglomerates above 2 trillion won
+
+- 39 -
+
+Table 1: Intra-Group Shareholding Matrix of Samsung Group in 2002
+
+Relatives
+
+NPO
+
+Managers
+
+Sub-Total
+
+Treasury
+Stocks
+
+[1] Samsung Corporation
+[2] Cheil Industries
+[3] Samsung Electronics
+[4] Samsung SDI
+[5] Samsung Corning
+[6] Samsung Electro-Mechanics
+[7] Samsung Petrochemical
+[8] Samsung Heavy Industries
+[9] The Shilla Hotels & Resorts
+[10] Samsung Engineering
+[11] Cheil Communications
+[12] Samsung Lions
+[13] Samsung Atofina
+[14] Samsung Economic Research Institute
+[15] Samsung Fine Chemicals
+[16] Samsung Corning Precision Glass
+[17] S1
+[18] Samsung Everland
+[19] Samsung SDS
+[20] Samsung Techwin
+[21] Samsung Life Insurance
+[22] Samsung Fire & Marine Insurance
+[23] Samsung Card
+[24] Samsung Securities
+[25] Samsung Investment Trust Management
+[26] Samsung Venture Investment
+[27] Samsung Networks
+
+Same Person
+
+The complex intra-group shareholding structure of Samsung Group can be effectively presented in a matrix format. For the
+convenience of presentation, among the 63 firms classified by KFTC as Samsung affiliates, we show in this table only the 27 major firms
+that appear in the 2002 Samsung Group Annual Report. The fractions of shares are computed out of total outstanding common shares,
+including treasury stocks.
+
+[1]
+
+1.42
+2.00
+2.50
+0.44
+3.72
+4.54
+0.31
+0.10
+-
+
+0.01
+1.55
+0.00
+0.12
+50.77
+22.82
+4.68
+0.10
+0.01
+17.95
+23.26
+
+0.23
+2.58
+0.08
+0.74
+0.88
+4.68
+3.58
+0.29
+-
+
+0.18
+0.33
+0.64
+0.29
+0.00
+0.84
+0.02
+0.08
+0.28
+0.20
+0.18
+0.25
+0.01
+6.78
+0.03
+2.50
+0.05
+0.46
+0.38
+6.29
+
+0.42
+2.91
+2.27
+1.03
+0.00
+0.96
+0.00
+0.02
+0.08
+0.28
+0.20
+0.00
+0.18
+0.00
+0.25
+0.00
+0.01
+51.65
+29.60
+0.03
+11.86
+3.63
+0.10
+0.76
+18.33
+0.00
+29.55
+
+1.96
+4.97
+4.23
+2.55
+0.50
+3.06
+0.03
+8.26
+2.44
+0.07
+12.75
+8.47
+3.63
+-
+
+3.87
+10.00
+12.64
+7.50
+37.45
+1.00
+5.59
+1.48
+17.96
+3.85
+9.44
+0.27
+19.47
+
+- 41 -
+
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+
+16.39
+0.42
+13.10
+15.00
+0.85
+1.00
+3.16
+4.00
+0.10
+-
+
+20.01
+48.36
+23.69
+9.93
+17.62
+5.11
+2.61
+27.50
+3.78
+29.80
+8.39
+42.57
+21.27
+22.93
+58.59
+16.33
+23.07
+
+4.66
+5.09
+10.32
+28.60
+11.49
+11.03
+4.00
+16.33
+-
+
+-
+
+2.39
+12.50
+10.19
+23.80
+0.26
+4.00
+8.29
+0.60
+22.31
+17.00
+8.99
+
+-
+
+1.00
+3.89
+17.00
+-
+
+2.24
+-
+
+0.13
+0.85
+-
+
+[1] Samsung Corporation
+[2] Cheil Industries
+[3] Samsung Electronics
+[4] Samsung SDI
+[5] Samsung Corning
+[6] Samsung Electro-Mechanics
+[7] Samsung Petrochemical
+[8] Samsung Heavy Industries
+[9] The Shilla Hotels & Resorts
+[10] Samsung Engineering
+[11] Cheil Communications
+[12] Samsung Lions
+[13] Samsung Atofina
+[14] Samsung Economic Research Institute
+[15] Samsung Fine Chemicals
+[16] Samsung Corning Precision Glass
+[17] S1
+[18] Samsung Everland
+[19] Samsung SDS
+[20] Samsung Techwin
+[21] Samsung Life Insurance
+[22] Samsung Fire & Marine Insurance
+[23] Samsung Card
+[24] Samsung Securities
+[25] Samsung Investment Trust Management
+[26] Samsung Venture Investment
+[27] Samsung Networks
+
+[11]
+
+[12]
+
+[13]
+
+[14]
+
+[15]
+
+[16]
+
+[17]
+
+[18]
+
+[19]
+
+[20]
+
+[21]
+
+[22]
+
+[23]
+
+[24]
+
+[25]
+
+[26]
+
+[27]
+
+0.13
+3.00
+0.32
+-
+
+-
+
+-
+
+-
+
+3.45
+0.47
+-
+
+-
+
+-
+
+0.13
+1.07
+2.00
+0.28
+19.3
+-
+
+0.35
+-
+
+0.07
+25.6
+16.7
+-
+
+4.81
+0.01
+6.94
+0.02
+1.00
+3.91
+7.30
+14.8
+5.34
+1.21
+9.89
+11.5
+3.56
+-
+
+1.21
+0.97
+5.47
+1.19
+-
+
+4.00
+0.52
+
+0.00
+0.00
+0.02
+0.00
+0.00
+0.00
+3.06
+1.32
+1.76
+0.00
+65.4
+16.7
+-
+
+0.01
+0.17
+0.05
+-
+
+-
+
+-
+
+3.04
+14.0
+3.15
+2.62
+-
+
+Note: “-” indicates zero shares, whereas “0.00” stands for small positive figures below 1/500 (figures above 1/500 are rounded to be 0.01).
+
+- 42 -
+
+Table 2: Firm-Level Disparity of Samsung Group in 2002
+Among the 63 firms classified by the Fair Trade Commission as affiliated firms, we only show in
+this table the 27 major firms that appear in the 2002 Samsung Group Annual Report.
+Rank
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+
+Name
+Cheil Industries
+Samsung Corporation
+Samsung Electronics
+The Shilla Hotels & Resorts
+Samsung Fire & Marine Insurance
+Samsung Life Insurance
+S1 Corporation
+Cheil Communications
+Samsung Securities
+Samsung Engineering
+Samsung SDI
+Samsung Heavy Industries
+Samsung Electro-Mechanics
+Samsung Techwin
+Samsung Fine Chemicals
+Samsung Petrochemical
+Samsung Everland
+Samsung Corning Precision Glass
+Samsung Corning
+Samsung SDS
+Samsung Networks
+Samsung Lions
+Samsung Investment Trust Management
+Samsung Card
+Samsung Atofina
+Samsung Economic Research Institute
+Samsung Venture Investment
+
+- 43 -
+
+Control Right
+
+Cash-Flow Right
+
+Disparity
+
+0.082
+0.115
+0.170
+0.174
+0.202
+0.380
+0.206
+0.202
+0.227
+0.213
+0.218
+0.248
+0.248
+0.346
+0.353
+0.363
+0.945
+0.426
+0.494
+0.771
+0.811
+0.700
+0.924
+0.884
+0.949
+1.000
+1.000
+
+0.002
+0.025
+0.053
+0.019
+0.027
+0.201
+0.013
+0.006
+0.028
+0.008
+0.011
+0.018
+0.014
+0.020
+0.009
+0.008
+0.557
+0.023
+0.027
+0.245
+0.251
+0.055
+0.206
+0.036
+0.025
+0.053
+0.024
+
+0.080
+0.090
+0.117
+0.155
+0.175
+0.179
+0.192
+0.195
+0.199
+0.206
+0.207
+0.230
+0.234
+0.325
+0.344
+0.355
+0.388
+0.403
+0.466
+0.526
+0.560
+0.645
+0.718
+0.848
+0.925
+0.947
+0.976
+
+Table 3: Definition of Other Variables
+All accounting measures are from the National Information and Credit Evaluation, Inc. (NICE).
+Since disparity is used as a dependent variable in our regression analyses, we make sure that other
+firm-level variables are measured prior to the disparity variable. As such, they are measured
+during or on the last day of the fiscal year, which ends before April. When the fiscal year changes
+during the sample year, we only keep those years which cover a full 12 months.
+Variable Name
+EBIT/Assets
+OI / Assets
+
+NI / Assets
+Beta
+
+SD (EBIT/Assets)
+Contribution Index 1
+
+Contribution Index 2
+
+Leverage
+
+Years of Operation
+Public Company
+Firm Size
+
+Definition
+EBIT divided by book value of assets (measured at previous fiscal
+year end), winsorized at the 1st and the 99th percentile values.
+Ordinary income divided by book value of asset (measured at
+previous fiscal year end), winsorized at the 1st and the 99th percentile
+values. Ordinary income is earnings before taxes and
+extraordinary items.
+Net income divided by book value of assets (measured at previous
+fiscal year end), winsorized at the 1st and the 99th percentile values.
+Beta is estimated from a market model where the KOSPI return is
+used as a proxy for market return. KOSPI is a value-weighted
+market index comprising all the listed companies on the Korea Stock
+Exchange (KSE). For each year, we estimate Beta using monthly
+data over the past three-years. Note that Beta is replaced by a
+missing value if the underlying regression uses less than 20
+observations. Beta is winsorized at the 1st and the 99th percentile
+values.
+Standard deviation of (EBIT/Assets) over the past 5-year period. It
+is winsorized at the 1st and the 99th percentile values.
+Amount of additional cash flow rights a controlling shareholder
+would gain in other companies by having company j under her
+control as a fraction of the company j’s book equity value. See
+Section 4-A, Equation (5). The index is winsorized at the 1st and the
+99th percentile values.
+Amount of additional voting right a controlling shareholder would
+gain in other companies by having company j under her control as a
+fraction of the company j’s book equity value. See Section 4-A,
+Equation (6). The index is winsorized at the 1st and the 99th
+percentile values.
+Book value of debt divided by the book value of assets. This
+measure is first winsorized at the 1st and the 99th percentile values,
+and then ln[(debt/asset)+1] is computed. “1” is added since there
+“0” values, even after winsorization.
+Number of years since the company’s establishment. This measure
+is logged.
+1 if the company is listed either in KSE or KOSDAQ; 0 otherwise
+Book value asset minus book value of debt (unit: billion won).
+Negative book values are treated as missing values. This measure
+
+- 44 -
+
+Financial Institution
+Group Size
+
+Number of Affiliates
+Group with Fin. Inst.
+
+is logged after adding “1.” This is to make this measure nonnegative after taking the log.
+1 if the company is a financial institution; 0 otherwise
+Book value of equity summed across all affiliated firms (unit: billion
+won). This measure is logged after adding “1.” This is to make
+this measure non-negative after taking the log.
+Number of firms controlled by a chaebol the company is affiliated to.
+This measure is logged.
+1 if the company is affiliated to a group with a financial institution; 0
+otherwise
+
+- 45 -
+
+Table 4: Summary Statistics
+Panel A: Summary Statistics
+Variable Name
+Voting Right (All)
+Cash Flow Right (All)
+Disparity (All)
+Voting Right (Private)
+Cash Flow Right (Private)
+Disparity (Private)
+Voting Right (Public)
+Cash Flow Right (Public)
+Disparity (Public)
+1yr (EBIT/Asset)
+1yr (OI/Asset)
+1yr (NI/Asset)
+3yr (EBIT/Asset)
+3yr (OI/Asset)
+3yr (NI/Asset)
+1yr Beta
+3yr Beta
+5yr SD(EBIT/Asset)
+Contribution Index 1
+Contribution Index 2
+Leverage
+Years of Operation
+Public Company
+Firm Size
+Financial Institution
+Group Size
+Number of Affiliates
+Group with Fin. Inst.
+
+# of Obs.
+
+Mean
+
+Median
+
+Std. Dev.
+
+Min
+
+Max
+
+5,202
+
+0.6830
+
+0.7459
+
+0.3079
+
+0.0000
+
+1.0000
+
+5,202
+
+0.2144
+
+0.1295
+
+0.2436
+
+0.0000
+
+1.0000
+
+5,202
+3,542
+3,542
+
+0.4685
+0.7591
+0.2398
+
+0.4504
+0.9000
+0.1405
+
+0.3121
+0.2816
+0.2690
+
+0.0000
+0.0000
+0.0000
+
+1.0000
+1.0000
+1.0000
+
+3,542
+1,660
+1,660
+
+0.5192
+0.5206
+0.1603
+
+0.5069
+0.4779
+0.1121
+
+0.3109
+0.2986
+0.1653
+
+0.0000
+0.0000
+0.0000
+
+1.0000
+1.0000
+1.0000
+
+1,660
+3,743
+3,771
+
+0.3603
+0.0476
+0.0065
+
+0.2783
+0.0497
+0.0124
+
+0.2862
+0.1091
+0.1332
+
+0.0000
+-0.3394
+-0.5350
+
+1.0000
+0.4288
+0.4292
+
+3,772
+4,088
+4,121
+
+-0.0070
+0.0458
+0.0070
+
+0.0084
+0.0493
+0.0122
+
+0.1301
+0.1009
+0.1193
+
+-0.5884
+-0.3394
+-0.5350
+
+0.3595
+0.4288
+0.4292
+
+4,123
+796
+895
+
+-0.0062
+1.0761
+1.0480
+
+0.0075
+1.0470
+1.0337
+
+0.1131
+0.4436
+0.3826
+
+-0.5884
+-0.0345
+-0.0345
+
+0.3595
+2.2510
+2.2428
+
+3,818
+4,114
+4,114
+
+0.0615
+0.0971
+0.1982
+
+0.0360
+0.0000
+0.0000
+
+0.0794
+0.4227
+0.5159
+
+0.0022
+0.0000
+0.0000
+
+0.5330
+3.4467
+3.5684
+
+4,158
+3,745
+5,202
+
+0.5392
+2.6921
+0.3191
+
+0.5511
+2.7726
+0.0000
+
+0.2221
+0.8373
+0.4662
+
+0.0000
+0.6931
+0.0000
+
+3.4568
+4.4188
+1.0000
+
+4,466
+5,202
+5,202
+
+2.6644
+0.1292
+7.1837
+
+2.4925
+0.0000
+7.6057
+
+2.3359
+0.3354
+2.6817
+
+0.0000
+0.0000
+0.0013
+
+10.0987
+1.0000
+10.9098
+
+5,202
+5,202
+
+3.4428
+0.9208
+
+3.3673
+1.0000
+
+0.5846
+0.2701
+
+1.7918
+0.0000
+
+4.4543
+1.0000
+
+Panel B: Comparison with the Existing Literature (Using Average Figures)
+
+This Paper (All)
+This Paper (Private)
+This Paper (Public)
+Claessens et al. (2000)
+Chang (2003)
+Lemmon and Lins (2003)
+Joh (2003)
+
+Voting Right –
+Cash Flow Right
+
+Voting Right /
+Cash Flow Right
+
+0.47
+0.52
+0.36
+0.04
+0.23
+
+Coverage
+
+Period
+
+3.19
+
+All Chaebols Firms
+
+1997-2002
+
+3.17
+3.25
+1.27
+
+Private Chaebol Firms
+Public Chaebol Firms
+211 Korean Public Firms
+
+1997-2002
+1997-2002
+1997
+
+1.47
+2.37
+-
+
+Public Chaebol Firms
+188 Korean Public Firms
+All Korean Firms
+
+1986-1996
+1997
+1997
+
+- 46 -
+
+Table 5: Disparity and Profitability
+OLS regressions of disparity on profitability (measured as EBIT over assets) with additional control
+variables are shown in Panel A and B. The extreme values of (EBIT/Assets) are winsorized. That
+is, as for the observations outside the 1st and the 99th percentiles, the (EBIT/Assets) values are
+replaced by the 1st and the 99th percentile values. In Panel A, we use one-year past (EBIT/Asset)
+and, in Panel B, we use three-year average of past (EBIT/Asset). t-values, based on White’s
+heteroskedasticity-consistent standard errors, are reported in parentheses. *, **, and ***, indicate
+significance at 10, 5, and 1% levels, respectively.
+Panel A: One-Year Profitability
+
+1yr (EBIT/Assets)
+Voting Rights
+
+(1)
+-0.1224***
+(3.41)
+0.7037***
+(62.69)
+
+(2)
+-0.1009***
+(3.26)
+0.7570***
+(78.44)
+
+No
+No
+3743
+0.5160
+
+Yes
+Yes
+3743
+0.6632
+
+Leverage
+Years of Operation
+Public Company
+Firm Size
+Financial Institution
+
+Disparity
+(3)
+-0.1314***
+(3.44)
+0.7251***
+(52.92)
+-0.0662**
+(2.54)
+-0.0434***
+(6.61)
+-0.0040
+(0.50)
+0.0037
+(1.50)
+0.0133
+(1.52)
+
+Group Size
+Number of Affiliates
+Group w/ Fin. Inst.
+Group Dummies
+Year Dummies
+Observations
+Adjusted R-squared
+
+- 47 -
+
+Yes
+Yes
+2715
+0.6778
+
+(4)
+-0.1426***
+(3.46)
+0.6825***
+(46.71)
+-0.0180
+(0.63)
+-0.0458***
+(7.09)
+0.0051
+(0.58)
+0.0005
+(0.20)
+0.0121
+(1.23)
+0.0277***
+(5.57)
+0.0221*
+(1.89)
+0.0461**
+(2.34)
+No
+No
+2715
+0.5937
+
+(5)
+-0.1310***
+(3.42)
+0.7254***
+(52.74)
+-0.0660**
+(2.53)
+-0.0437***
+(6.62)
+-0.0040
+(0.50)
+0.0039
+(1.54)
+0.0136
+(1.55)
+-0.0054
+(0.56)
+0.0232
+(0.70)
+-0.0269
+(0.69)
+Yes
+Yes
+2715
+0.6776
+
+Panel B: Three-Year Profitability
+
+3yr (EBIT/Asset)
+Voting Right
+
+(1)
+-0.1634***
+(4.26)
+0.7022***
+(65.92)
+
+(2)
+-0.1241***
+(4.03)
+0.7601***
+(82.87)
+
+No
+No
+4088
+0.5114
+
+Yes
+Yes
+4088
+0.6666
+
+Leverage
+Years of Operation
+Public Company
+Firm Size
+Financial Institution
+
+Disparity
+(3)
+-0.1750***
+(4.44)
+0.7281***
+(54.25)
+-0.0686***
+(2.69)
+-0.0414***
+(6.35)
+-0.0057
+(0.72)
+0.0034
+(1.42)
+0.0084
+(0.97)
+
+Group Size
+Number of Affiliates
+Group w/ Fin. Inst.
+Group Dummies
+Year Dummies
+Observations
+Adjusted R-squared
+
+- 48 -
+
+Yes
+Yes
+2776
+0.6806
+
+(4)
+-0.1941***
+(4.36)
+0.6854***
+(47.90)
+-0.0186
+(0.66)
+-0.0442***
+(6.86)
+0.0035
+(0.40)
+0.0001
+(0.03)
+0.0065
+(0.66)
+0.0270***
+(5.45)
+0.0233**
+(2.01)
+0.0472**
+(2.41)
+No
+No
+2776
+0.5969
+
+(5)
+-0.1747***
+(4.43)
+0.7285***
+(54.10)
+-0.0682***
+(2.67)
+-0.0418***
+(6.38)
+-0.0058
+(0.73)
+0.0037
+(1.50)
+0.0088
+(1.01)
+-0.0081
+(0.84)
+0.0293
+(0.90)
+-0.0299
+(0.77)
+Yes
+Yes
+2776
+0.6804
+
+Table 6: Disparity and Profitability: Robustness Check
+OLS regression of Table 6 equation (5) is estimated with three different measures of profitability
+(EBIT, ordinary income, and net income) for each year in the sample period. In Panel A, we use a
+one-year measure of profitability, and in Panel B we use a three-year average. The cells are
+shaded if the profitability coefficient is significant at the 5% level. t-values, based on White’s
+heteroskedasticity-consistent standard errors, are reported in parentheses. *, **, and ***, indicate
+significance at 10, 5, and 1% levels, respectively.
+
+Panel A: One-Year Profitability
+Disparity
+1996
+
+1997
+
+1998
+
+1999
+
+2000
+
+2001
+
+2002
+
+All Years
+
+EBIT / Asset
+
+-0.1413
+(1.10)
+
+-0.2831**
+(1.97)
+
+0.0665
+(0.65)
+
+-0.1340
+(1.17)
+
+-0.2782***
+(3.40)
+
+-0.1859**
+(2.47)
+
+-0.0475
+(0.57)
+
+-0.1310***
+(3.42)
+
+Obs.
+Adj. R2
+
+376
+0.6902
+
+469
+0.6441
+
+433
+0.6167
+
+385
+0.6651
+
+326
+0.7159
+
+336
+0.7540
+
+382
+0.7212
+
+2715
+0.6776
+
+OI / Asset
+
+0.0017
+
+-0.2895**
+
+-0.0996
+
+-0.3692***
+
+-0.2613***
+
+-0.2146***
+
+-0.0239
+
+-0.1739***
+
+Obs.
+Adj. R2
+
+(0.02)
+378
+0.6859
+
+(2.23)
+473
+0.6506
+
+(0.97)
+439
+0.6078
+
+(3.97)
+391
+0.6805
+
+(2.97)
+328
+0.7185
+
+(2.65)
+337
+0.7564
+
+(0.35)
+382
+0.7210
+
+(4.92)
+2736
+0.6791
+
+NI / Asset
+
+-0.0528
+
+-0.3124**
+
+-0.1785**
+
+-0.3235***
+
+-0.2197**
+
+-0.2346***
+
+-0.0196
+
+-0.1919***
+
+Obs.
+Adj. R2
+
+(0.45)
+378
+0.6862
+
+(2.23)
+474
+0.6372
+
+(2.04)
+439
+0.6106
+
+(3.95)
+391
+0.6778
+
+(2.35)
+328
+0.7145
+
+(2.64)
+337
+0.7559
+
+(0.25)
+382
+0.7209
+
+(5.50)
+2737
+0.6771
+
+Panel B: Three-Year Profitability
+Disparity
+1996
+
+1997
+
+1998
+
+1999
+
+2000
+
+2001
+
+2002
+
+All Years
+
+EBIT / Asset
+
+-0.0930
+
+-0.3616***
+
+0.0248
+
+-0.1182
+
+-0.2921***
+
+-0.2694***
+
+-0.1909**
+
+-0.1747***
+
+Obs.
+Adj. R2
+
+(0.95)
+386
+0.6925
+
+(2.71)
+488
+0.6454
+
+(0.22)
+444
+0.6236
+
+(1.10)
+395
+0.6673
+
+(2.66)
+334
+0.7159
+
+(3.05)
+339
+0.7596
+
+(2.20)
+382
+0.7254
+
+(4.43)
+2776
+0.6804
+
+0.0260
+(0.25)
+387
+
+-0.2244**
+(2.00)
+493
+
+-0.0450
+(0.48)
+451
+
+-0.3564***
+(3.81)
+402
+
+-0.3295***
+(3.24)
+336
+
+-0.2771***
+(3.18)
+341
+
+-0.1277
+(1.50)
+382
+
+-0.1970***
+(5.36)
+2800
+
+OI / Asset
+Obs.
+Adj. R2
+
+0.6919
+
+0.6478
+
+0.6172
+
+0.6795
+
+0.7217
+
+0.7613
+
+0.7235
+
+0.6822
+
+NI / Asset
+
+-0.0436
+
+-0.2808**
+
+-0.1254
+
+-0.3627***
+
+-0.3592***
+
+-0.3224***
+
+-0.1185
+
+-0.2402***
+
+Obs.
+
+(0.39)
+387
+
+(2.32)
+494
+
+(1.36)
+451
+
+(4.03)
+402
+
+(3.25)
+336
+
+(3.28)
+341
+
+(1.19)
+382
+
+(6.18)
+2801
+
+Adj. R2
+
+0.6919
+
+0.6361
+
+0.6184
+
+0.6799
+
+0.7209
+
+0.7616
+
+0.7227
+
+0.6808
+
+- 49 -
+
+Table 7: Disparity and Volatility (Beta)
+OLS regressions of volatility (measured by beta) with additional control variables are shown in this
+table. Betas are estimated using a market model with KOSPI return as the market return, and with
+monthly frequency. KOSPI is a value-weighted market index comprising all the listed companies
+in the Korea Stock Exchange (KSE). The sample includes only those companies listed in KSE. tvalues, based on White’s heteroskedasticity-consistent standard errors, are reported in parentheses.
+*, **, and ***, indicate significance at 10, 5, and 1% levels, respectively.
+
+Beta
+Voting Right
+
+(1)
+0.0110
+(1.26)
+0.6323***
+(21.48)
+
+(2)
+-0.0153**
+(2.34)
+0.8124***
+(34.73)
+
+No
+No
+790
+0.4760
+
+Yes
+Yes
+790
+0.7193
+
+Leverage
+Years of Operation
+Firm Size
+Financial Institution
+
+Disparity
+(3)
+-0.0110
+(1.45)
+0.7809***
+(31.73)
+-0.0412
+(1.02)
+-0.0469***
+(4.75)
+-0.0044*
+(1.67)
+-0.0107
+(1.29)
+
+Group Size
+Number of Affiliates
+Group w/ Fin. Inst.
+Group Dummies
+Year Dummies
+Observations
+Adjusted R-squared
+
+- 50 -
+
+Yes
+Yes
+729
+0.7313
+
+(4)
+0.0080
+(0.88)
+0.6017***
+(21.61)
+-0.0135
+(0.33)
+-0.0629***
+(6.12)
+-0.0112***
+(3.73)
+-0.0215**
+(2.07)
+0.0320***
+(6.11)
+0.0109
+(0.91)
+0.0202
+(1.06)
+No
+No
+729
+0.5875
+
+(5)
+-0.0126
+(1.63)
+0.7837***
+(32.15)
+-0.0445
+(1.09)
+-0.0481***
+(4.86)
+-0.0034
+(1.27)
+-0.0095
+(1.11)
+-0.0181**
+(2.09)
+0.0290
+(0.87)
+-0.0107
+(0.29)
+Yes
+Yes
+729
+0.7315
+
+Table 8: Contribution to Group Control and Cash Flow Rights
+In Panel A, contribution to group control indices are grouped in quintiles. Before being grouped
+into quintiles, observations are dropped if the index values are zero. For each quintile, we show
+the level of cash flow rights.
+In the last column, we conduct difference-in-mean tests between the
+1st and the 5th quintiles. In Panel B and C, OLS regressions of cash flow right on contribution index
+t-values, based on White’s
+with additional control variables are shown in this table.
+heteroskedasticity-consistent standard errors, are reported in parentheses. *, **, and ***, indicate
+significance at 10, 5, and 1% levels, respectively.
+Panel A: Difference-in-Mean Test
+
+Contribution Index 1
+Contribution Index 2
+
+Q1 (Small)
+0.08
+0.17
+
+Q2
+0.13
+0.19
+
+Q3
+0.19
+0.18
+
+Q4
+0.22
+0.23
+
+Q5 (Large)
+0.47
+0.30
+
+Q5 – Q1
+0.384***
+0.127***
+
+Panel B: Contribution Index 1 (Using Cash Flow Rights)
+
+Contribution Index 1
+
+(1)
+0.1706***
+(15.19)
+
+(2)
+0.1312***
+(13.44)
+
+No
+No
+4114
+0.0927
+
+Yes
+Yes
+4114
+0.3299
+
+Leverage
+Profitability
+Years of Operation
+Public Company
+Firm Size
+Financial Institution
+
+Cash Flow Right
+(3)
+0.1686***
+(11.44)
+0.0905***
+(2.98)
+0.1251***
+(2.90)
+0.0152**
+(2.19)
+-0.0110
+(1.21)
+-0.0204***
+(7.79)
+-0.0100
+(1.02)
+
+Group Size
+Number of Affiliates
+Group w/ Fin. Inst.
+Group Dummies
+Year Dummies
+Observations
+Adjusted R-squared
+
+- 51 -
+
+Yes
+Yes
+2262
+0.3874
+
+(4)
+0.1876***
+(11.42)
+0.0015
+(0.04)
+0.1418***
+(3.02)
+0.0160**
+(2.34)
+-0.0213**
+(2.14)
+-0.0207***
+(7.19)
+-0.0071
+(0.66)
+-0.0103*
+(1.79)
+-0.0440***
+(3.34)
+-0.0198
+(0.91)
+No
+No
+2262
+0.2226
+
+(5)
+0.1683***
+(11.42)
+0.0903***
+(2.98)
+0.1232***
+(2.85)
+0.0158**
+(2.27)
+-0.0105
+(1.15)
+-0.0208***
+(7.88)
+-0.0105
+(1.07)
+0.0144
+(1.36)
+-0.0195
+(0.57)
+0.0129
+(0.28)
+Yes
+Yes
+2262
+0.3870
+
+Panel C: Contribution Index 2 (Using Voting Rights)
+
+Contribution Index 2
+
+(1)
+0.0684***
+(7.72)
+
+(2)
+0.0563***
+(7.54)
+
+No
+No
+4114
+0.0220
+
+Yes
+Yes
+4114
+0.2938
+
+Leverage
+Profitability
+Years of Operation
+Public Company
+Firm Size
+Financial Institution
+
+Cash Flow Right
+(3)
+0.0693***
+(6.45)
+0.1011***
+(3.21)
+0.1321***
+(2.94)
+0.0133*
+(1.82)
+-0.0195**
+(2.03)
+-0.0219***
+(7.89)
+-0.0121
+(1.22)
+
+Group Size
+Number of Affiliates
+Group w/ Fin. Inst.
+Group Dummies
+Year Dummies
+Observations
+Adjusted R-squared
+
+- 52 -
+
+Yes
+Yes
+2262
+0.3278
+
+(4)
+0.0736***
+(6.19)
+-0.0024
+(0.07)
+0.1537***
+(3.17)
+0.0166**
+(2.31)
+-0.0310***
+(2.92)
+-0.0227***
+(7.44)
+-0.0079
+(0.71)
+-0.0076
+(1.27)
+-0.0550***
+(3.99)
+-0.0116
+(0.49)
+No
+No
+2262
+0.1413
+
+(5)
+0.0689***
+(6.39)
+0.1009***
+(3.20)
+0.1302***
+(2.89)
+0.0140*
+(1.90)
+-0.0189*
+(1.96)
+-0.0223***
+(7.97)
+-0.0125
+(1.26)
+0.0147
+(1.36)
+-0.0112
+(0.31)
+0.0160
+(0.35)
+Yes
+Yes
+2262
+0.3274
+
+Table 9: Contribution Index and Cash Flow Right: Robustness Check
+OLS regression of Table 9 Panel B Equation (5) and Panel C Equation (5) are estimated for each year in
+the sample period. t-values, based on White’s heteroskedasticity-consistent standard errors, are
+reported in parentheses. *, **, and ***, indicate significance at 10, 5, and 1% levels, respectively.
+Cash Flow Right
+1997
+
+1998
+
+1999
+
+2000
+
+2001
+
+2002
+
+All Years
+
+Panel B, eq. (5)
+
+0.2328***
+(4.70)
+
+0.2024***
+(5.08)
+
+0.1935***
+(4.43)
+
+0.1420***
+(5.36)
+
+0.1450***
+(5.24)
+
+0.1297***
+(5.88)
+
+0.1683***
+(11.42)
+
+Obs.
+Adj. R2
+
+461
+0.2923
+
+401
+0.3554
+
+368
+0.3542
+
+317
+0.3728
+
+329
+0.5666
+
+378
+0.5003
+
+2262
+0.3870
+
+Panel C, eq. (5)
+
+0.0238
+
+0.0791**
+
+0.0832***
+
+0.0880***
+
+0.0821***
+
+0.0930***
+
+0.0689***
+
+(1.04)
+
+(2.36)
+
+(2.77)
+
+(3.67)
+
+(3.26)
+
+(4.61)
+
+(6.39)
+
+461
+0.1966
+
+401
+0.2916
+
+368
+0.2976
+
+317
+0.3265
+
+329
+0.5136
+
+378
+0.4763
+
+2262
+0.3274
+
+Obs.
+Adj. R2
+
+- 53 -
+
+Table 10: Sub-Sample Results: Listed versus Non-Listed
+OLS regressions are estimated with all three determinants of our interest: profitability, risk, and
+contribution to group control. In columns (2) and (3), we run the same equation for non-listed
+firms and listed firms. t-values, based on White’s heteroskedasticity-consistent standard errors,
+are reported in parentheses. *, **, and ***, indicate significance at 10, 5, and 1% levels, respectively.
+
+1yr (EBIT/Asset)
+5yr SD(EBIT/Asset)
+Contribution Index 1
+Voting Rights
+Leverage
+Years of Operation
+Public Company
+Firm Size
+Financial Institution
+Group Size
+Number of Affiliates
+Group w/ Fin. Inst.
+Group Dummies
+Year Dummies
+Observations
+Adjusted R-squared
+
+Cash Flow Right
+(2)
+Non-listed Firms
+0.1669**
+(2.47)
+0.2023
+(1.54)
+0.1238***
+(9.36)
+0.3281***
+(13.98)
+0.0955***
+(3.31)
+0.0014**
+(2.02)
+0.0000
+(0.29)
+-0.0174
+(0.94)
+-0.0000***
+(2.83)
+0.0014
+(0.83)
+0.0263
+(0.50)
+Yes
+Yes
+939
+0.5855
+
+(1)
+All Firms
+0.1356***
+(3.01)
+0.1320
+(1.61)
+0.1462***
+(11.02)
+0.2747***
+(18.56)
+0.0509**
+(2.47)
+0.0019***
+(5.66)
+0.0002
+(0.03)
+0.0000***
+(2.58)
+-0.0174*
+(1.67)
+-0.0000***
+(3.45)
+0.0017**
+(2.34)
+0.0149
+(0.38)
+Yes
+Yes
+2117
+0.7085
+
+- 54 -
+
+(3)
+Listed Firms
+0.0539
+(0.97)
+-0.0009
+(0.01)
+0.1752***
+(4.39)
+0.2149***
+(12.49)
+-0.0184
+(0.66)
+0.0022***
+(7.17)
+0.0000
+(0.69)
+-0.0020
+(0.18)
+-0.0000*
+(1.89)
+0.0020***
+(3.15)
+-0.0040
+(0.09)
+Yes
+Yes
+1178
+0.8242
+
+about ECGI
+
+The European Corporate Governance Institute has been established to improve corporate governance through fostering independent scientific research and related activities.
+The ECGI will produce and disseminate high quality research while remaining close to
+the concerns and interests of corporate, financial and public policy makers. It will draw on
+the expertise of scholars from numerous countries and bring together a critical mass of
+expertise and interest to bear on this important subject.
+The views expressed in this working paper are those of the authors, not those of the ECGI
+or its members.
+
+www.ecgi.org
+
+ECGI Working Paper Series in Finance
+Editorial Board
+Editor
+
+Paolo Fulghieri, Professor of Finance, University of North
+Carolina, INSEAD & CEPR
+
+Consulting Editors
+
+Franklin Allen, Nippon Life Professor of Finance, Professor of
+Economics, The Wharton School of the University of
+Pennsylvania
+Patrick Bolton, John H. Scully ‘66 Professor of Finance and
+Economics, Princeton University, ECGI & CEPR
+Marco Pagano, Professor of Economics, Università di Salerno,
+ECGI & CEPR
+Luigi Zingales, Robert C. McCormack Professor of
+Entrepreneurship and Finance, University of Chicago & CEPR
+Julian Franks, Corporation of London Professor of Finance,
+London Business School & CEPR
+Xavier Vives, Professor of Economics and Finance,
+INSEAD & CEPR
+
+Editorial Assistant :
+
+Cristina Vespro, ECARES, Université Libre De Bruxelles
+
+Financial assistance for the services of the editorial assistant of these series is provided
+by the European Commission through its RTN Programme on Understanding Financial
+Architecture: Legal and Political Frameworks and Economic Efficiency (Contract no.
+HPRN-CT-2000-00064).
+
+www.ecgi.org\wp
+
+Electronic Access to the Working Paper Series
+The full set of ECGI working papers can be accessed through the Institute’s Web-site
+(www.ecgi.org/wp) or SSRN:
+Finance Paper Series
+
+http://www.ssrn.com/link/ECGI-Fin.html
+
+Law Paper Series
+
+http://www.ssrn.com/link/ECGI-Law.html
+
+www.ecgi.org\wp
+
+

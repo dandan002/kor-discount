@@ -1,0 +1,4280 @@
+THE JOURNALOF FINANCE * VOL. LVII,NO. 6 * DECEMBER2002
+
+Tunneling or Value Added?
+Evidence from Mergers by Korean
+Business Groups
+KEE-HONG BAE, JUN-KOO KANG, and JIN-MO KIM*
+ABSTRACT
+We examine whether firms belonging to Korean business groups (chaebols) benefit
+from acquisitions they make or whether such acquisitions provide a way for controlling shareholders to increase their wealth by increasing the value of other group
+firms (tunneling). We find that when a chaebol-affiliated firm makes an acquisition, its stock price on average falls. While minority shareholders of a chaebolaffiliated firm making an acquisition lose, the controlling shareholder of that firm
+on average benefits because the acquisition enhances the value of other firms in
+the group. This evidence is consistent with the tunneling hypothesis.
+
+RECENTEMPIRICAL
+EVIDENCE
+SUGGESTS
+that business
+
+groups in developing
+
+coun-
+
+tries can facilitate efficient allocation of capital and managerial resources.
+Khanna and Palepu (1997, 2000) argue that business groups in developing
+countries mimic the beneficial functions of market mechanisms that are
+present only in advanced economies.
+When a particular market mechanism is not well developed or accessible,
+a business group can add value by providing member firms with alternative
+means of overcoming problems. For example, when a country's external capital market is not well developed, the operation of an internal capital market
+within a business group enables those firms with the best projects within
+the group to obtain resources.1
+However, the structure of diversified business groups may create agency
+problems. In most business groups, ownership is highly concentrated, and
+* Bae is from the College of Business Administration, Korea
+University, and Kang and Kim
+are from the Eli Broad College of Business, Michigan State University. We are grateful for
+comments from Ted Fee, Vidhan Goyal, Hasung Jang, Naveen Khanna, Soo YoungKwon, Inmoo
+Lee, David Mayers, Kyung Suh Park, Sang-Soo Park, seminar participants at the Korea University and the University of California (Riverside), and session participants at the 1999 Korean Finance Association meeting, the 2001 PACAP Finance Conference, and the 2001 Asian
+Corporate Governance Conference. We thank especially an anonymous referee, Richard Green
+(the editor), and Rene Stulz for their insightful and constructive comments. The paper was
+completed while the first author was at the Hong Kong University of Science and Technology.
+Bae acknowledges financial support from the Hong Kong Government's RGC grant (No.
+HKUST6012/99H), and Kang acknowledges financial support from the Korea University. All
+errors are our own.
+1 Evidence of the benefits of business groups is limited. Khanna and Palepu (2000) cite
+industrial groups in India. Shin and Park (1999) study Korean business groups.
+2695
+
+The Journal of Finance
+
+controlling shareholders have power over firms that exceeds their cash flow
+rights. La Porta, Lopez-de-Silanes, and Shleifer (1999) conclude that "the
+central agency problem in large corporations around the world is that of
+restricting expropriation of minority shareholders by controlling shareholders . . ." This agency problem between controlling and minority shareholders can be particularly serious when there are few mechanisms to protect
+minority investors and control the discretionary power of large shareholders.2
+Johnson et al. (2000) argue further that the controlling shareholders have
+strong incentives to siphon resources out of the firm to increase their wealth.
+To describe the transfer of resources out of firms for the benefit of their controlling shareholders, Johnson et al. use the term "tunneling."3 They show that
+tunneling can take many forms. For example, it can take the form of outright
+theft or fraud. It can also take more subtle legal forms, such as dilutive share
+issues that discriminate against minority shareholders and mergers between
+affiliated firms to siphon resources out of the bidder or the target.
+In this paper, we explore the nature of business groups in emerging markets and examine two competing views of them: the view of Khanna and
+Palepu (1997, 2000) that they add value to their member firms (the "valueadded view") and the view of Johnson et al. (2000) that they provide the
+controlling shareholders with an opportunity for wealth transfer from the
+firm for the benefit of the controlling shareholders (the "tunneling view").
+To evaluate these competing views, we examine Korean merger activity
+during the 1981 to 1997 period. The Korean market has several characteristics that make it particularly suited to our investigation. As we shall show
+in Section I, important corporate governance systems are not well established in Korea. Furthermore, some Korean firms belong to business groups
+known as chaebols. Ownership of a chaebol is heavily concentrated in an
+individual who has almost complete control over all firms within the group.
+Such an ownership structure gives the owner-managers of chaebols strong
+incentives to diversify their wealth and human capital (Amihud and Lev,
+1981) and to expand their chaebol into several different industries. Since the
+owner-managers of chaebols have substantial discretionary power over all
+important strategic decision making, they can easily expropriate other investors in the firm by investing the firm's resources to maximize their welfare when legal protection against expropriation of minority shareholders is
+weak.4
+2
+La Porta, Lopez-de-Silanes, and Shleifer (2000) argue that the legal protection of investors is
+an important dimension of corporate governance. For example, La Porta et al. (1997) show that
+countries with poor investor protection have less developed capital markets. In their 1998 paper,
+La Porta et al. examine a sample of 49 countries and find that ownership concentration in the
+largest public companies is negatively related to investor protections. This finding suggests that
+in countries with poor investor protections, minority shareholders are less likely to be important.
+3 The term
+"tunneling" was originally coined to characterize the expropriation of minority
+shareholders in the Czech Republic where assets would be mysteriously siphoned off from the
+corporation as if removed through a hidden tunnel (Johnson et al. (2000)).
+4 See
+Barclay and Holderness (1989), Barclay, Holderness, and Pontiff (1993), Shleifer and
+Vishny (1997), La Porta et al. (1999), Wolfenzon (1999), and Johnson et al. (2000).
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2696
+
+2697
+
+The case of the Samsung Group illustrates how expropriation of minority
+shareholders takes place among member firms of a chaebol. In an irregular
+father-to-son succession scheme, which is typical of the chaebol, Samsung
+SDS sold a total of 3.21 million shares of its bonds with warrant (BWs) to
+Lee Jae-Yong (the son of the Samsung Group's Chairman, Lee Kun-Hee) and
+three other family members at the per-share price of only 7,150 won. At the
+time of the controversial share transfers, BWs issued by Samsung SDS were
+trading at 55,000 won per share in the over-the-counter market. Hence, the
+minority shareholders of Samsung SDS lost, while the family of the controlling shareholder enriched itself. As a result of the deal, Lee Jae-Yong raised
+his stake in Samsung SDS to 10.1 percent. Samsung Chairman Lee was also
+criticized for similarly handing over BWs in other Samsung Group companies, such as Samsung Everland, Samsung Electronics, and Samsung S1, to
+his son Jae-Yong, gradually paving the way for an eventual transfer of group
+chairmanship (Korea Herald, May 11, 2000, p. 8).
+We study merger activity because managerial objectives and corporate governance mechanisms play important roles when managers acquire other firms.
+For instance, tunneling could be a major motivation for some acquisition
+activities of the chaebol firms. Chaebol owner-managers who want to maximize either their own utility or the size and scope of their chaebol might
+decide on an acquisition bid within a chaebol with little regard for whether
+it is good for the bidder but with great interest in whether it is good for
+them. Thus, if a member firm within a chaebol is doing poorly, the ownermanager's solution would be to merge it with a more successful firm within
+the same chaebol. If acquiring bad target firms maximizes the aggregate
+value of the business group or the welfare of owner-managers, then acquisitions are good news for chaebol owner-managers, even though they are bad
+news for the minority shareholders of the bidding firm.
+The acquisition of LG Merchant Bank by LG Securities, both of which
+belong to the LG Group, illustrates tunneling as a motive for merger activity
+of the chaebol. To recapitalize the debt-ridden LG Merchant Bank, the LG
+Group announced that LG Securities, which was considered to be one of the
+most profitable firms in the group, would acquire LG Merchant Bank. LG
+Merchant Bank was a money-losing entity. It suffered huge losses in the
+1997 and 1998 fiscal years totaling almost 400 billion won. The LG Group's
+official said "the merger reflects the LG Group'slong-term plan to foster the
+brokerage house into an investment bank and consolidate its financial operations" (Korea Herald, May 22, 1999, p. 12). But the brokerage's trade
+union and minority shareholders of LG Securities opposed the merger, saying that it would impair the value of their shares (KoreaHerald, August 24,
+1999, p. 9). Reflecting a heavy financial burden imposed on LG Securities
+due to the acquisition, the company lost much of its share value after the
+merger announcement. During the 10-day period after the merger announcement, the market-adjusted cumulative abnormal return was -46 percent.
+At the time of the merger announcement, the controlling family of the LG
+Group held 18 percent of the outstanding shares in LG Securities and 60
+percent in LG Merchant Bank. This means that if the controlling family had
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Tunneling or Value Added?
+
+The Journal of Finance
+
+overpaid for the acquisition by $1, it would have lost 18 cents through LG
+Securities but gained 60 cents through LG Merchant Bank; hence, it would
+have been better off. However, other shareholders in LG Securities would
+have lost 82 cents.
+We find that Korean mergers are associated with a positive announcement effect for the shareholders of the acquiring firms. However, the positive gains are mainly from mergers by non-chaebol bidders. Chaebol bidders
+that show good past performance prior to the merger realize significant
+negative announcement returns. Furthermore, the concentrated ownership
+by owner-managers in chaebol bidders and rescue mergers by chaebol bidders are negatively related to bidder announcement returns, but are positively related to announcement returns of the value-weighted portfolio of
+other firms in the same group. The fact that a chaebol bidder loses its
+value but other firms in the same chaebol rise in value suggests that there
+is a wealth transfer from the bidding firm to the other firms in the same
+group.
+Finally, we find that the mean market value change of insider holdings in
+chaebol bidders around the time of the merger announcement is -105 million won, but that in other member firms it is 614 million won. All these
+findings support the tunneling view for business groups.
+Our paper is related to a recent study on the extent of tunneling among
+group firms in India. Bertrand, Mehta, and Mullainathan (2000) use a sample of 18,600 Indian firms during the period 1989 to 1999 to examine tunneling in pyramidal ownership structures of business groups. They hypothesize
+that the ultimate owners of the pyramids have strong incentives to divert
+resources from firms low down in the pyramid towards ones high up in the
+pyramid. By examining how various firms in the hierarchy of the pyramid
+respond to external shocks to their performance, Bertrand et al. show that
+considerable diversion does indeed take place from firms near the bottom of
+the pyramid to firms near the top.
+Our approach, however, is different from that of Bertrand et al. (2000) in
+at least two important ways. They explore the existence of tunneling by
+examining how various firms respond to external shocks to their accounting
+measures of performance. In contrast, we show the extent of tunneling by
+investigating how investors in the stock market react to acquisition events.
+Second, to trace the existence of tunneling, we use data from Korean business groups. Korean business groups do not form the same kind of pyramidal structure as Indian business groups do. In Korean business groups, crossshareholdings are a more popular mechanism than pyramidal ownership
+structures.
+This paper proceeds as follows. Section I discusses the background of
+our study and the main hypotheses. Section II describes the data. Section III provides abnormal bidder returns and value-weighted portfolio
+returns of other firms within the same chaebol and reports results
+from cross-sectional regressions. Section IV summarizes and concludes the
+paper.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2698
+
+2699
+
+I. Background of the Study and Main Hypotheses
+A. Chaebols and the Corporate Governance System in Korea
+In Korea, a large business group is often called a chaebol. The Korea Fair
+Trade Commission (KFTC)defines a business group as a group of companies
+of which more than 30 percent of shares are owned by the group's controlling
+shareholder and its affiliated companies. Each year the KFTC ranks business groups according to the size of their total assets and identifies the 30
+largest business groups (hereafter called the "Top30 chaebols"). The Top 30
+chaebols have come to represent Korea's most prominent chaebols during
+the past three decades. Although smaller chaebols are organized the same
+way as the Top 30 chaebols, several features distinguish the Top 30 chaebols
+from other chaebols and from independent firms.
+To illustrate the differences between firms that belong to the Top 30 chaebols and other types of firms, we divide Korean firms into three groups: (1)
+firms belonging to the Top 30 chaebols, (2) firms belonging to the Top 31-50
+chaebols, and (3) firms belonging to the chaebols below the Top 50 and independent firms.
+Table I describes the characteristics of these three groups of firms and
+presents important statistics as of 1997. First, the Top 30 chaebols operate
+in many different industries, but other smaller-scale chaebols and independent firms are less diversified and relatively focused. For example, the average number of affiliated firms within the Top 30 chaebols is 26. The Top 5
+chaebols have as many as 62 affiliated firms under their control and are
+widely diversified. In contrast, the average number of affiliated firms within
+the Top 31-50 chaebols is only 11.
+Second, the economic power that the Top 30 chaebols wield in the Korean
+economy is greater than that of other chaebols or independent firms. The
+Top 30 chaebols represent only 24.2 percent of all firms listed in the Korean
+Stock Exchange (KSE), but they account for as much as 45.8 percent of the
+KSE's total market capitalization. The Top 30 chaebols contribute to 62.5
+percent of the total assets and 72.6 percent of the gross sales of all listed
+firms. The corresponding figures for the Top 31-50 chaebols are only 5.6
+percent and 4 percent, and those for other smaller chaebols/independent
+firms are 31.8 percent and 23.4 percent, respectively.
+Third, much of the Top 30 chaebols' business expansion has come from
+substantial borrowing. The average leverage ratio (debt over the sum of debt
+plus market value of equity) of the Top 30 chaebols amounts to 90.6 percent.
+In contrast, the leverage ratios for the Top 31-50 chaebols and other smaller
+chaebols/independent firms are 80 percent and 75.4 percent, respectively.
+One institutional factor that facilitates high leverage for the Top 30 chaebols
+is the practice of cross-debt guarantees among member firms. The cross-debt
+guarantee ratio (the amount of debt guarantee over book equity) averages
+108 percent for the Top 30 chaebols.
+Finally, member firms within the Top 30 chaebols are connected by an
+extensive arrangement of reciprocal shareholding agreements. Although mem-
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Tunneling or Value Added?
+
+of the Top 30 Chaebols, the Top 31-50 Chaebols,
+Firms
+and Independent
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Table I
+
+Characteristics
+
+and Ot
+
+This table presents the characteristics of the Top 30 chaebols, the Top 31-50 chaebols, and other small chae
+end of 1997. The stock exchange-related data are obtained from the KSE. The data for chaebols are o
+Commission.
+
+Features
+
+Top 30 Chaebols
+
+Top 31-50 Chaebols
+
+1. Definition
+
+Thirty largest business groups
+as ranked by the KFTC in the
+order of the aggregate assets of
+all affiliated firms within each
+group.
+
+Business groups ranked between the Top 31 and 50.
+
+2. Degree of diversification
+
+The Top 30 chaebols operate in
+many different industries and
+are broadly diversified. The
+average number of affiliated
+firms is 26. The top five chaebols have as many as 62 affiliated firms under their control.
+The economic power exercised
+by the Top 30 chaebols is substantial. The percentages of
+total assets and gross sales that
+they contribute to listed firms
+are 62.54% and 72.63%,
+respectively.
+
+The average number of affiliated firms is 11.
+
+3. Economicpower
+
+The percentages of total assets
+and gross sales that they contribute to listed firms are 5.63%
+and 3.98%, respectively.
+
+5. Cross-shareholdingamong
+affiliated firms/ degree of
+family control
+
+Much of the Top 30 chaebols'
+business expansion comes from
+substantial borrowing. The average leverage ratio (debt over the
+sum of debt plus market value
+of equity) is 90.61%. The practice of cross-debt guarantee
+among affiliated firms facilitates high leverage.
+The member firms within the
+Top 30 chaebols are connected
+by extensive reciprocal shareholding agreements. The average cross-ownership for listed
+firms that belong to Top 30
+chaebols is 27.56%.
+Despite their huge size and economic power, an individual
+owner-manager (either a
+founder or his family) has almost complete control over all
+firms within the group.
+
+The average leverage ratio is
+79.99%.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+4. Leverage
+
+The average cross-ownership for
+the Top 31-50 chaebol firms is
+22.11%.
+
+The controlling shareholders are
+also mostly families. However,
+the number of member firms
+and the resources under their
+control are not as great as those
+of Top 30 chaebol families.
+
+The Journal of Finance
+
+ber firms within other chaebols are also connected by cross-shareholding,
+the degree of cross-shareholding is significantly higher for the Top 30 chaebols. For instance, the average cross-ownership for listed firms that belong
+to the Top 30 chaebols is 27.6 percent, compared to 22.1 percent for the
+listed firms of the Top 31-50 chaebols and 16 percent for other listed firms.
+Despite the huge size and economic power of the Top 30 chaebols, a single
+family usually controls all firms in each chaebol. All the major decisions of
+each member firm are in the hands of the controlling family, rather than
+professional management. Although the controlling shareholders of the other
+chaebols below the Top 30 chaebols are also families, the number of affiliated firms and the resources under their control are not as large as those of
+the Top 30 chaebols' families.
+These differences suggest that the degree of conflict between controlling
+family shareholders and minority shareholders is more severe for the Top 30
+chaebols than for other smaller chaebols or independent firms.
+For Korean chaebols, the agency problem is largely attributable to the
+chaebol's inherently weak governance structure. During our sample period,
+the typical chaebol firm does not have an outside director on the board,
+equity ownership by professional management is negligible, and member
+firms within the same chaebol are connected by an extensive arrangement of
+reciprocal shareholding agreements. Large institutional shareholders are
+viewed as passive since the exercise of their voting rights is regulated.5 Tender offers and other hostile acquisitions are very rare.
+Several studies of the governance structure of Japanese firms6 find that
+the main bank plays an important role in reducing the agency problems of
+its client firms and that it acts as an alternative governance mechanism to
+the capital market-centered corporate governance systems of Anglo-Saxon
+countries (Sheard, 1989). Korean banks are expected to play an active monitoring role in a firm's investment decisions, since they are allowed to own
+up to 10 percent of the equity in the firms. In fact, Korean banks provide
+many firms with substantial equity and debt financing. In 1997, equity ownership held by Korean banks accounted for 9.42 percent of the shares listed
+on the KSE. Furthermore, until recently, Korean firms were not permitted
+to own banks. The Korean government has used banks to exercise control
+over many firms, which suggests that Korean banks have a great potential
+to perform the role of an active investor. Nevertheless, Korean banks have
+not been very active in monitoring their client firms.
+There are several reasons for lack of bank monitoring. The most important is that the concentrated equity ownership by chaebol owners combined
+with cross-shareholding practices within chaebol firms effectively prevents
+5 Under Article 200 of the Securities Exchange Act of 1962, which was in effect until March
+1997, investors were not allowed to acquire more than 10 percent of equity in other firms
+without the permission of the Korean Securities and Exchange Commission.
+6 For a discussion of the Japanese governance mechanism, see Sheard (1989), Aoki (1990),
+Prowse (1990), Hoshi, Kashyap, and Scharfstein (1991), Kaplan (1994), and Kang and Shivdasani (1995).
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2702
+
+2703
+
+banks from playing the monitoring role of a large shareholder. Second, Korean banks have traditionally held shares in other firms, but they do so
+primarily to allocate their portfolio assets rather than to exercise their voting rights. Finally, most bank loans are guaranteed by the cross-debt guarantees among the chaebol member firms. Thus, banks have little incentive
+or room to play the role of an active monitor (Kang, 1998).
+Korean chaebols are often compared with Japanese keiretsus. The two
+structures are similar in that member firms of a chaebol (keiretsu) maintain
+business ties with other firms in the group and there is interlocking equity
+ownership. However, there are several characteristics that distinguish the
+Korean chaebol from the Japanese keiretsu.
+First, chaebols are family dominated, but keiretsus use professional corporate management. Second, keiretsus are concentrated around a large commercial bank that plays a leading role in the financial activities within the
+group. In contrast, chaebols are not allowed to have a commercial bank as a
+member firm. Finally, chaebols are more centralized than keiretsus. Chaebols maintain a central staff within the group, but keiretsus have no such
+staff. The chaebols' central staff plays the role of a holding company and
+exercises control over all group firms. In contrast, keiretsu firms operate
+independently and are connected by informal networks.
+B. Main Hypotheses
+To distinguish between the value-added and tunneling views, we compare
+the predictions of the two views on bidder announcement returns. The valueadded view argues that a business group allows its member firms to allocate
+resources to their best use through formation of an internal capital market
+where member firms can pool internally generated cash flow. Shin and Park
+(1999) show that because of their internal capital markets, the Top 30 chaebol firms are subject to less financing constraints than are other firms.7
+Observing Indian firms, Khanna and Palepu (2000) compare the profitability of firms that belong to industrial groups with the profitability of independent firms. They find that diversified business groups add value. Stein
+(1997) also finds that diversified firms can enhance efficiency, since corporate headquarters can fund winners and abandon losers.8 These studies suggest that mergers by chaebol-affiliated bidders have greater potential for
+enhancing firm value than do mergers by other firms. Therefore, the valueadded view predicts that announcement returns of chaebol bidders will be
+7 Shin and Park (1999)
+compare the investment-cash flow sensitivity of the Top 30 chaebol
+firms with that of other firms. They show that the sensitivity is low and insignificant for
+chaebol firms but is high and significant for other firms. They further show that a chaebol
+firm's investment is significantly affected by the cash flow of other member firms within the
+same chaebol.
+8 Scharfstein and Stein (2000) make exactly the opposite argument. They argue that internal
+capital markets of diversified conglomerates do a worse job of allocating a given amount of
+resources than would external capital markets. In other words, they tend to engage in inefficient cross-subsidization, spending relatively too much in some divisions and too little in others.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Tunneling or Value Added?
+
+The Journal of Finance
+
+higher than those of other bidders. In particular, the value-added view suggests that chaebol bidders that had good performance prior to the merger
+have more resources and play a key role in allocating internal resources
+among member firms. Consequently, chaebol bidders are expected to realize
+higher announcement returns than other types of bidders.
+However, the tunneling view of a business group predicts the opposite.
+The tunneling view emphasizes the agency problem between owner-managers
+and minority shareholders. If the lack of governancemechanisms allows ownermanagers to care less for their minority shareholders and to pay more attention to their own wealth, then the business group has the potential to
+provide owner-managers with opportunities to waste corporate resources and
+benefit themselves. Therefore, the tunneling view predicts that announcement returns of chaebol bidders will be lower than those of other bidders.
+Furthermore, according to the tunneling view, more resources would be diverted from the chaebol bidders that had good performance prior to the
+merger. We would then expect negative announcement returns for such firms.
+We also examine both the announcement returns of the subsamples of
+chaebol bidders who are more likely to experience either value-added or tunneling effects and the value-weighted portfolio returns of other firms within
+the same chaebol. We investigate cases such as mergers by chaebol bidders
+whose controlling shareholders have concentrated equity ownership. We also
+examine rescue mergers, in which chaebol bidders that had good performance prior to the merger acquire financially distressed targets in the same
+chaebol. According to the value-added view, these transactions increase the
+value of both chaebol bidders and other member firms. On the other hand,
+the tunneling view suggests that such transactions facilitate wealth transfer
+from the bidder to other member firms, possibly at the expense of other
+shareholders.
+Finally, we estimate the market value changes of holdings by insiders around
+the merger announcement date for both chaebol bidders and other member
+firms within the same chaebol. The value-added view suggests an increase
+in the value of insider holdings for both chaebol bidders and other member
+firms. In contrast, the tunneling view predicts a decrease in the value of
+insider holdings for chaebol bidders, but an increase in the value of insider
+holdings for other member firms. Table II shows these predictions of valueadded and tunneling views and summarizes our empirical results.
+II. Data
+
+Our sample consists of nonfinancial acquiring firms that are listed on
+the KSE between 1981 and 1997. We identify a sample of acquiring firms
+from the Securities Daily published by the KSE. We then eliminate those
+cases in which the acquiring firm owns all shares of the acquired firm
+prior to the merger. This screen yields a final sample of 107 mergers.
+Several firms are involved in more than one acquisition, so the number of
+sample firms is 87.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2704
+
+and Summary
+
+Results
+
+of the Bidder Announcement
+
+and Tunneling Hypotheses
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Table II
+
+Prediction
+
+Returns
+
+This table presents prediction and summary results of bidder announcement returns for value-added and tunneling hypot
+that business groups in emerging markets add value to their member firms. The tunneling hypothesis states that busin
+controllingshareholderswith an opportunity for wealth transfer from the firm for their own benefit. The sample consists
+KSE between 1981 and 1997. We initially identify the sample from the Securities Daily, published by the KSE. We elimina
+all the shares of the acquired firm prior to the merger. "Chaebolbidder"is a firm that belongs to one of the 30 or 50 larges
+a chaebolfirm with the ratio of cash flow to total assets above the sample median. "Bad target" defines a firm with net inc
+group"defines a group with at least two member firms. Insider holdings are shares held directly or indirectly by the owne
+the market value changes of insider holdings by multiplying the insider holdings by the price change around the announ
+Panel A: Prediction and Summary Results of Bidder Announcement Returns
+
+Prediction for Bidder
+(Other Members of the Chae
+Announcement Returns
+Bidder Category
+
+Value-Added
+
+Chaebolbidder
+Goodperformance(high cash flow or high industry-adjusted excess return)/
+chaebol bidder
+Concentratedequity ownership (high equity ownership of the largest
+shareholder and other corporations)/chaebolbidder
+Rescue merger (goodchaebol bidders acquiring bad targets in the same chaebol)
+Goodperformance/concentratedequity ownership/large size (high market
+value of equity)/business group
+
++
++
++(+)
++(+)
++
+
+Tun
+
+Panel B: Prediction and Summary Results of the Market Value Changes of Insider Holdings around the M
+
+Prediction for the Marke
+Value Changes of Insider
+Holdings for Bidder
+(Other Members of the Chae
+Bidder Characteristics
+Insider holdings of chaebol bidders
+
+Value-Added
++(+)
+
+Tun
+
+-(
+
+The Journal of Finance
+
+We identify each acquiring firm's affiliation with a chaebol using the KFTC's
+Annual Statistics. Of the 87 firms, 45 (22 chaebols) belong to the Top 30
+chaebols, 12 (8 chaebols) to the Top 31-50 chaebols, and 30 to the group
+comprising chaebols below the Top 50 or independent firms (hereafter called
+"other bidders"). Seventy-four firms (37 belonging to the Top 30 chaebols, 11
+to the Top 31-50 chaebols, and 26 to other bidders), which represent 85
+percent of the total sample, were already listed at the beginning of our sample period. This finding suggests that many of our sample firms are relatively mature.
+We obtain the stock price data of the acquiring firms from the daily return
+Market Analysis Tool (KISfile of the Korea Investors Service-Stock
+SMAT),9 which includes all firms listed on the KSE. We identify the initial
+public announcement dates of the mergers from the Securities Daily. We
+select the announcement date by considering the announcement time. If the
+announcement is made after trading closes, we choose the next trading day
+as the announcement date.
+Panel A of Table III summarizes the merger activity of the bidding firms
+by year and industry. The years 1984 and 1996 are the most active years of
+merger announcements with 12 and 10 cases, respectively. A breakdown of
+the mergers by industry shows that most of the acquiring firms are classified as manufacturing (76 cases). Fifteen acquiring firms are in the construction industry and 13 in wholesale and retail.
+Panel B of Table III classifies the merger activity by chaebol affiliation
+and industrial relatedness. Among 107 mergers, 54 (50.5 percent) bidders
+belong to the Top 30 chaebols, 14 (13.1 percent) to the Top 31-50 chaebols,
+and 39 (36.4 percent) to other bidders. Using the three-digit industry classification codes provided by the KSE, we find that 52 (48.6 percent) firms
+acquired target firms operating in the same industry.
+As an additional measure of industrial relatedness, we use Securities Daily
+to find out if the bidder and the target are in related businesses. We identify
+14 (13.1 percent) cases as vertical mergers. Forty-one bidders (38.3 percent)
+acquire targets operating in an unrelated industry. We also find that 100
+bidders (93 percent) acquire affiliated targets that are within the same business group.
+In 63 of the 100 mergers, we are able to identify the prior production
+relationship between the bidder and the target. In 12 cases, the targets are
+important suppliers to the bidders and, in 8 cases, the bidders are important
+suppliers to the targets. In 3, the target and the bidder are suppliers to each
+other. In the remaining 40 cases, the two firms produce the same kinds of
+products or maintain similar production processes.
+For instance, Diamond AG, a member firm of the Hyundai group, merged
+with Seojin, another member firm of the Hyundai group in 1995. In an at9 Since the KIS-SMAT database does not contain information on firms that were delisted,
+there is one acquiring firm whose price data are not available in the KIS-SMAT. For this firm,
+we manually collect stock price data from the Securities Daily.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2706
+
+2707
+
+Table III
+
+of Merger Activity by Year and Bidder Industry
+Distribution
+Chaebol
+Affiliation and Industrial Relatedness
+by
+
+and
+
+The sample comprises 107 nonfinancial bidders listed on the KSE between 1981 and 1997. We
+initially identify the sample from the Securities Daily, published by the KSE. We eliminate
+cases in which the acquiring firm owns all the shares of the acquired firm prior to the merger.
+The Top 30 chaebol bidders are firms that belong to 1 of the 30 largest chaebols. The Top 31-50
+chaebol bidders are firms that belong to chaebols ranked between 31 and 50. "Other bidders"
+are firms that belong to small chaebols or independent firms. Horizontal mergers are those in
+which the bidder and the target have the same three-digit industry classification codes provided by the KSE.
+Panel A: By Year and Bidder Industry
+Year
+
+Construction
+
+Manufacturing
+
+Wholesale/
+Retail
+
+Transportation
+
+Total
+
+1981
+1982
+1983
+1984
+1985
+1986
+1987
+1988
+1989
+1990
+1991
+1992
+1993
+1994
+1995
+1996
+1997
+Total
+
+1
+1
+1
+3
+4
+1
+1
+0
+O
+0
+0
+0
+0
+0
+0
+1
+2
+0
+15
+
+6
+4
+5
+6
+5
+2
+5
+4
+2
+2
+5
+4
+5
+6
+7
+6
+2
+76
+
+0
+1
+2
+2
+0
+0
+0
+0
+0
+0
+0
+2
+0
+3
+1
+2
+0
+13
+
+0
+0
+0
+1
+0
+0
+0
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+3
+
+7
+6
+8
+12
+9
+3
+6
+5
+3
+2
+5
+6
+5
+9
+9
+10
+
+2
+107
+
+Panel B: By Chaebol Affiliation and Industrial Relatedness
+Bidder and Target
+in the Related Industry
+HorizontalVertical
+Vertical
+Horizontal
+Top 30 chaebol bidders
+Top 31-50 chaebol bidders
+Other bidders
+Total
+
+29
+8
+15
+52
+
+5
+4
+5
+14
+
+Bidder and Target
+in Different
+Ind
+Target
+Different Industries
+
+Total
+
+20
+2
+19
+41
+
+54
+14
+39
+107
+
+tempt to break into the travel industry, Diamond AG, which operates in the
+department store and hotel industries, took over Seojin, the second largest
+travel agency in Korea at the time of the merger announcement. Chung
+Joo-Young and his family, owner-manager of the Hyundai group, control 21.2
+percent of the outstanding shares of Diamond AD and 11.4 percent of Seojin.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Tunneling or Value Added?
+
+The Journal of Finance
+
+One hundred four firms finance the acquisition through an exchange of
+common stock.10 Three firms use a combination of cash and common stock as
+the method of financing.
+Table IV presents descriptive statistics for our sample firms. These data
+are obtained from the Listed Company Database of the Korean Listed Companies Association and the acquiring firms' annual reports. We measure the
+variables at the fiscal year-end that comes immediately before the merger
+announcements.
+Several features are noteworthy. The size of the Top 30 chaebol biddersl1
+is larger than that of the other two types of bidders. The average market
+value of equity of the Top 30 chaebol bidders is five times (13 times) larger
+than that of the Top 31-50 chaebol bidders (other bidders). The difference in
+total assets is equally revealing: The Top 30 chaebol bidders are about four
+(nine) times larger than the Top 31-50 chaebol bidders (other bidders). These
+differences in firm size are statistically significant at the one percent level.
+The medians show a similar pattern.
+Leverage, which we measure by the ratio of total debt to the sum of total
+debt and market value of equity, is not significantly different among the
+three groups. The mean leverage ratios for the Top 30 chaebol bidders, Top
+31-50 chaebol bidders, and other bidders are 0.74, 0.74, and 0.77, respectively. The average ratio of bank debt to the market value of the firm shows
+no statistical difference among the three groups of bidders. Since the typical
+Top 30 chaebol firms maintain higher leverage than other firms (see Table I),
+our results suggest that the Top 30 chaebol bidders with relatively low leverage engage in merger activity.
+Although the average equity ownership by the largest shareholder is not
+statistically different among the three groups, the mean equity ownership
+by other corporations in the Top 30 chaebol bidders is about twice as large
+as that for the other two types of bidders (22.60 percent compared to
+13.88 percent and 9.52 percent). These differences in equity ownership by
+other corporations are statistically significant. This finding suggests that
+cross-shareholding is more prevalent among the Top 30 chaebol bidders than
+among the rest of the bidders.
+The average equity ownership by financial institutions, including banks
+and insurance companies, is also significantly larger for the Top 30 chaebol
+bidders than it is for the other two types of bidders (14.81 percent compared
+10 Instead of
+participating in the exchange offer, shareholders of a target firm who oppose a
+proposed merger can sell their shares to the firm (Article 191 of the Security Exchange Act). In
+this case, their shares are redeemed either at a negotiated price or at a weighted average of
+closing prices (using the trading volumes as the weight) during the previous 60 trading days
+before the board of directors meeting date for the merger decision. Shareholders of the bidding
+firm who oppose a proposed merger also have the same right as those of the target firm. For
+listed firms, the dissenters' right to obtain payment for their shares has been in effect since
+1982. For unlisted firms, it has been in effect since 1995.
+11 We use the term Top 30 (Top 31-50) chaebol bidder as meaning a bidder that belongs to
+the Top 30 (Top 31-50) chaebols.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2708
+
+Descriptive
+
+of Bidder Characteristics
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Table IV
+
+Statistics
+
+The sample comprises 107 nonfinancial bidders listed on the KSE between 1981 and 1997. The Top 30 chae
+1 of the 30 largest chaebols. The Top 31-50 chaebol bidders are firms that belong to chaebols ranked betw
+firms that belong to small chaebols or independent firms. We measure all variables at the fiscal year-e
+announcement. We initially identify the sample from the Securities Daily, published by the KSE. We eliminat
+owns all shares of the acquired firm prior to the merger. The numbers in the test-of-difference columns de
+Top 31-50
+Chaebol Bidders
+(B)
+
+Other
+Bidders
+(C)
+
+Test of
+Difference
+
+107
+
+Top 30
+Chaebol Bidders
+(A)
+N
+N54
+
+N=14
+
+N=39
+
+(A-
+
+All Bidders
+N=
+
+Variables
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+t-test
+
+Market value (in billions of won)
+Total assets (in billions of won)
+Debtl(debt + market value of equity)
+Bank debt/(debt + market value of
+equity)
+(Debt - bank debt)/(debt + market
+value of equity)
+Equity ownership by the largest shareholder (a)
+Equity ownership by other corporations (b)
+(a) + (b)
+Equity ownership by bank and insurance companies
+Equity ownership by foreign investor
+Equity ownership by government
+Target book equitylbidder book equity
+Prior bidder industry-adjusted stock return (-220 to -20)
+Cash flow (operating income +
+depreciation) /total assets
+Operating income/total assets
+Financial slack (cash + marketable
+securities) total assets
+
+133.2
+386.5
+0.75
+0.31
+
+23.8
+166.9
+0.79
+0.28
+
+237.9
+665.4
+0.74
+0.31
+
+59.1
+303.9
+0.75
+0.27
+
+49.3
+172.3
+0.74
+0.27
+
+23.3
+140.0
+0.81
+0.23
+
+18.3
+77.20
+0.77
+0.33
+
+9.5
+48.5
+0.84
+0.33
+
+0.00***
+0.00***
+0.92
+0.54
+
+0.44
+
+0.44
+
+0.43
+
+0.43
+
+0.46
+
+0.52
+
+0.44
+
+0.44
+
+0.58
+
+24.43
+
+23.98
+
+22.18
+
+21.65
+
+27.26
+
+23.30
+
+26.52
+
+28.87
+
+0.30
+
+16.69
+
+11.24
+
+22.60
+
+16.96
+
+13.88
+
+12.65
+
+9.52
+
+6.01
+
+0.03**
+
+41.13
+9.93
+
+35.68
+6.70
+
+44.79
+14.81
+
+37.34
+12.32
+
+41.15
+4.46
+
+36.03
+2.75
+
+36.05
+5.14
+
+34.71
+3.23
+
+0.59
+0.00***
+
+2.12
+0.66
+0.83
+0.01
+
+0.00
+0.00
+0.26
+0.01
+
+3.48
+0.96
+0.89
+0.01
+
+0.10
+0.00
+0.30
+-0.02
+
+0.13
+0.00
+0.35
+-0.12
+
+0.00
+0.00
+0.17
+-0.07
+
+0.95
+0.47
+0.93
+0.05
+
+0.00
+0.00
+0.44
+0.05
+
+0.03**
+0.00***
+0.02**
+0.10*
+
+0.10
+
+0.07
+
+0.12
+
+0.07
+
+0.08
+
+0.08
+
+0.07
+
+0.08
+
+0.69
+
+0.08
+0.09
+
+0.06
+0.06
+
+0.10
+0.09
+
+0.06
+0.04
+
+0.07
+0.09
+
+0.07
+0.09
+
+0.06
+0.08
+
+0.07
+0.07
+
+0.48
+0.90
+
+*, **, and *** Significance at the 10, 5, and 1 percent levels, respectively.
+
+B)
+
+Wilco
+Z-te
+
+0.08*
+0.00*
+0.80
+0.57
+0.56
+
+0.44
+0.13
+
+0.84
+
+0.00*
+0.02*
+0.09*
+0.28
+0.61
+
+0.64
+0.05*
+
+The Journal of Finance
+
+to 4.46 percent and 5.14 percent). Equity ownership by foreign investors for
+the total sample averages 2.12 percent. Again, foreign equity investment is
+largest for the Top 30 chaebol bidders (3.48 percent). However, the median
+for the total sample is zero, indicating that foreigners do not hold stocks in
+many of our sample firms. Government equity ownership for the total sample averages 0.66 percent and is also largest for the Top 30 chaebol bidders
+(0.96 percent). The maximum equity ownership by the government for the
+total sample is 7.94 percent, which indicates that our sample does not include government-controlled bidders.
+In our sample, the majority of mergers involved targets that were privately held. Out of the 107 mergers, only 28 targets are listed on the KSE,
+and 79 targets were privately held. Thus, we are restricted to the book value
+of equity as a measure of the relative size of target to bidder. The mean and
+median ratios of the book value of target equity to bidder equity are 83 percent and 26 percent, respectively. Thus, the sample consists primarily of
+targets that are much smaller than bidders, although it includes a few large
+targets. The median relative size of target to bidder is largest for other bidders (44 percent), followed by the Top 30 chaebol bidders (30 percent) and
+the Top 31-50 chaebol bidders (17 percent).
+When we compare performance variables among the three groups of bidders, such as past industry-adjusted cumulative stock returns from 220 days
+to 21 days before the merger announcement, cash flow (the sum of operating
+income and depreciation) to total assets, operating income to total assets,
+and financial slack (cash plus marketable securities) to total assets, we find
+no differences.
+
+III. Empirical Results
+In this section, we examine merger announcement returns to evaluate the
+value-added and tunneling views. We differentiate the Top 30 chaebol bidders from the Top 31-50 chaebol bidders and other bidders, since the degree
+of value-added or tunneling tend to be different between these groups of
+bidders.
+A. Bidder Abnormal Returns
+For each bidder, we compute the abnormal return (AR) by estimating the
+market model. We use the KOSPI return as the benchmark. We obtain our
+estimates of the market model by using 200 trading days of return data,
+beginning 220 days before and ending 21 days before the merger announcement. We sum the daily abnormal returns to get the cumulative abnormal
+return (CAR) from day t1 before the merger announcement date to day t2
+after the merger announcement date. (See the Appendix for the detailed
+method of measuring cumulative abnormal returns.)
+Panels A and B of Table V report the ARs and CARs, respectively. In each
+panel, we report the results for all bidders, the Top 30 chaebol bidders, the
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2710
+
+2711
+
+Top 31-50 chaebol bidders, and other bidders. The average ARs for all bidders two days before, one day before, and one day after the announcement
+date are 0.51, 0.69, and 0.62 percent, respectively. All ARs are significant.
+However, Panel A shows that the median ARs are mostly small and not
+significant.
+The average CAR(-1, 0), CAR(-5, 5), and CAR(-10, 10) are 1.23, 2.67,
+and 3.39 percent, respectively, and are significant at the five percent level.
+The subsample results show that these significant returns are mostly from
+other bidders. The mean CAR(-1, 0), CAR(-5, 5), and CAR(-10, 10) for
+other bidders are 3, 7.94, and 7.84 percent, respectively. These CARs are all
+significant at the one percent level. The median CARs for other bidders
+show a similar pattern. In contrast, the CARs for the Top 30 and Top 31-50
+chaebol bidders during the same intervals are small and sometimes negative.
+The mean CAR(-1, 1) for the total sample is 1.84 percent and is significant at the 1 percent level. However, the median CAR(-1, 1) is -0.09 percent, which is significant at the 10 percent level. The conflicting results
+between the mean and the median CARs(-1, 1) for the total sample suggest
+that a few outliers might drive our CAR results. To address the issue of a
+possible outlier effect, we repeat the analysis, excluding the bidders for which
+CAR(-1, 1) is in the top or bottom 5 percent of the sample observations. The
+mean CAR(-1, 1) in the trimmed sample is 1.59 percent, which is significant at the 1 percent level. However, the median is -0.09 percent, which is
+again significant at the 10 percent level.
+The fact that even the trimmed sample shows similar results to those
+using the total sample suggests that outliers do not drive our findings. Rather,
+the difference between the mean and the median CAR(-1, 1) for the total
+sample is largely due to many of the chaebol bidders experiencing negative
+announcement returns. For instance, the median CARs(-1, 1) of the Top 30
+and Top 31-50 chaebol bidders are negative: -0.71 and -0.37 percent, respectively. Thirty-four (63 percent) out of the 54 Top 30 chaebol bidders realize negative returns, and 8 (57.1 percent) out of the 14 Top 31-50 chaebol
+bidders realize negative returns. In contrast, the median CAR(-1, 1) of other
+bidders is significant and positive, 3.82 percent. Twenty-seven (69.2 percent)
+out of the 39 other bidders realize positive returns. Tests for differences in
+the median CARs(-1, 1) between the Top 30 chaebol bidders and other bidders and between the Top31-50 chaebol bidders and other bidders are strongly
+rejected.
+We also note that within each group of bidders, the mean and median
+CARs(-1, 1) show consistent signs of being insignificant and negative for
+the Top 30 chaebol bidders and significant and positive for other bidders.
+When these groups of bidders experiencing different announcement reactions are pooled, the mean and the median CARs seem to display somewhat
+different patterns.
+Overall, our results suggest that the positive gains from merger announcements are mostly from other bidders. However, one obvious issue in comparing announcement returns between the Top 30 chaebol bidders and the
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Tunneling or Value Added?
+
+Mean and Median Daily Abnormal
+
+Returns
+
+(AR) and Cumulative
+
+for Bidders around the Announcement
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Table V
+
+Abnor
+
+Date (AD)
+
+The sample comprises 107 nonfinancial bidders listed on the KSE between 1981 and 1997. We obtain the ini
+merger from the Securities Daily. We compute abnormal returns using the market model. We estimate the
+days of return data ending 20 days before the merger announcement. We use the Korea Composite Stock
+benchmark. The Top 30 chaebol bidders are firms that belong to one of the 30 largest chaebols. The Top 3
+belong to chaebols ranked between 31 and 50. "Other bidders" are firms that belong to small chaebols or
+are p-values for the test that the mean/median
+
+initial announcement date. Numbers in parenthesis
+
+is equ
+
+Panel A: Daily Abnormal Returns (%) around the AD
+
+All Bidders
+
+Top 30
+Chaebol Bidders
+(A)
+
+Top 31-50
+Chaebol Bidders
+(B)
+
+Day
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+-10
+
+0.207
+(0.35)
+An 1 ,--,
+U.i178
+(0.41)
+0.294
+(0.31)
+0.147
+(0.56)
+0.423
+(0.18)
+0.298
+(0.25)
+-0.090
+(0.75)
+0.200
+(0.54)
+0.506*
+(0.06)
+
+-0.151
+(0.79)
+n ^n
+u.u-U..l n
+(0.95)
+0.024
+(0.89)
+-0.090
+(0.88)
+0.050
+(0.46)
+-0.066
+(0.87)
+-0.086
+(0.31)
+-0.371
+(0.40)
+0.093
+(0.16)
+
+0.222
+(0.44)
+11 ,,'..
+A
+u.
+(0.58)
+0.306
+(0.31)
+-0.039
+(0.89)
+0.108
+(0.75)
+0.185
+(0.52)
+-0.147
+(0.46)
+0.040
+(0.90)
+0.682**
+(0.04)
+
+-0.282
+(0.76)
+_
+-U. non"
+(0.83)
+0.129
+(0.57)
+-0.184
+(0.52)
+-0.237
+(0.95)
+-0.209
+(0.97)
+-0.294
+(0.32)
+-0.147
+(0.72)
+0.149**
+(0.03)
+
+-0.171
+(0.78)
+n 'nal
+.u.o
+U.I
+(0.30)
+-0.284
+(0.62)
+1.172
+(0.28)
+2.197*
+(0.06)
+-0.804*
+(0.07)
+0.089
+(0.90)
+-0.464
+(0.49)
+0.983
+(0.25)
+
+-0.866
+(0.86)
+n OnA
+u.ui
+(0.33)
+-0.547
+(0.67)
+0.130
+(0.58)
+1.283*
+(0.06)
+-0.651*
+(0.06)
+0.533
+(0.50)
+-0.455
+(0.33)
+0.154
+(0.43)
+
+-8
+-7
+-6
+-5
+-4
+-3
+-2
+
+Test of
+Difference
+(A - B)
+
+Other bidders
+(C)
+
+Mean
+0.323
+(0.45)
+n .uii
+nl"7
+(0.96)
+0.485
+(0.46)
+0.036
+(0.94)
+0.222
+(0.71)
+0.848
+(0.14)
+-0.075
+(0.92)
+0.659
+(0.38)
+0.089
+(0.86)
+
+Median
+
+t-test
+
+Wilcoxon
+Z-test
+
+-0.150
+(0.79)
+
+0.57
+
+0.41
+
+_n
+nna
+-u.uYo
+
+n Af,
+
+u.4o
+
+nl
+n
+u.2l
+
+0.36
+
+0.43
+
+0.28
+
+0.60
+
+0.08*
+
+0.07*
+
+0.06*
+
+0.21
+
+0.74
+
+0.25
+
+0.51
+
+0.50
+
+0.74
+
+0.86
+
+(0.62)
+0.021
+(0.98)
+-0.027
+(0.86)
+0.050
+(0.96)
+0.386
+(0.23)
+-0.086
+(0.44)
+-0.444
+(0.62)
+-0.200
+(0.55)
+
+8
+9
+10
+
+-0.027
+(0.14)
+0.000
+(0.35)
+-0.006
+(0.20)
+-0.045
+(0.76)
+-0.098
+(0.99)
+-0.202
+(0.50)
+-0.258
+(0.17)
+0.219
+(0.35)
+-0.191
+(0.38)
+-0.226
+(0.16)
+-0.012
+(0.88)
+-0.132*
+(0.10)
+
+0.193
+(0.67)
+-0.051
+(0.90)
+-0.527
+(0.20)
+-0.733**
+(0.03)
+-0.037
+(0.90)
+-0.496*
+(0.06)
+-0.163
+(0.54)
+0.163
+(0.68)
+0.080
+(0.74)
+-0.395
+(0.24)
+-0.247
+(0.47)
+-0.199
+(0.46)
+
+-0.193
+(0.74)
+0.027
+(0.84)
+-0.397
+(0.24)
+-0.427*
+(0.06)
+-0.181
+(0.78)
+-0.428*
+(0.07)
+-0.202
+(0.39)
+-0.033
+(0.71)
+-0.062
+(0.92)
+-0.462
+(0.27)
+-0.210
+(0.12)
+-0.104
+(0.56)
+
+0.035
+(0.96)
+0.438
+(0.50)
+-0.243
+(0.74)
+-0.760
+(0.37)
+0.839
+(0.53)
+1.417
+(0.27)
+0.801
+(0.34)
+1.470
+(0.17)
+-0.490
+(0.58)
+-0.333
+(0.59)
+0.260
+(0.67)
+0.643
+(0.48)
+
+-0.332
+(0.90)
+-0.299
+(0.67)
+-0.345
+(0.54)
+-0.383
+(0.33)
+-0.154
+(0.76)
+0.915
+(0.24)
+0.830
+(0.33)
+0.378
+(0.33)
+-0.576
+(0.54)
+-0.195
+(0.81)
+0.024
+(1.00)
+-0.030
+(0.95)
+
+1.619***
+(0.00)
+1.376
+(0.13)
+2.507***
+(0.00)
+1.130*
+(0.06)
+0.187
+(0.73)
+0.216
+(0.62)
+-0.618
+(0.15)
+-0.004
+(0.99)
+-0.495
+(0.40)
+-0.301
+(0.48)
+0.291
+(0.52)
+-0.671*
+(0.08)
+
+1.099***
+(0.00)
+0.000
+(0.21)
+2.080***
+(0.00)
+0.725*
+(0.06)
+0.078
+(0.98)
+0.023
+(0.89)
+-0.941*
+(0.08)
+0.697
+(0.15)
+-0.204
+(0.38)
+-0.016
+(0.56)
+0.358
+(0.19)
+-0.569**
+(0.05)
+
+0.86
+
+0.92
+
+0.52
+
+0.76
+
+0.74
+
+0.91
+
+0.96
+
+0.84
+
+0.52
+
+0.53
+
+0.15
+
+0.09*
+
+0.27
+
+0.22
+
+0.25
+
+0.23
+
+0.53
+
+0.26
+
+0.93
+
+0.86
+
+0.47
+
+0.41
+
+0.38
+
+0.63
+
+Panel B: Cumulative Abnormal Returns (%) around the AD
+
+All Bidders
+
+Top 30
+Chaebol Bidders
+(A)
+
+Top 31-50
+Chaebol Bidders
+(B)
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+6
+
+0.692**
+(0.03)
+0.533
+(0.18)
+0.616*
+(0.09)
+-0.058
+(0.84)
+0.159
+(0.59)
+0.014
+(0.95)
+-0.203
+(0.38)
+0.273
+(0.36)
+-0.204
+(0.44)
+-0.352
+(0.14)
+0.015
+(0.95)
+-0.261
+(0.25)
+
+Test of
+Difference
+(A - B)
+
+Other bidders
+(C)
+
+Event windows
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+t-test
+
+Wilcoxon
+Z-test
+
+(AD - 10, AD - 2)
+
+2.162*
+(0.06)
+1.225**
+(0.02)
+1.841'**
+(0.00)
+2.666**
+(0.05)
+3.387**
+(0.05)
+0.000
+(0.99)
+
+0.415
+(0.20)
+0.539**
+(0.04)
+-0.086*
+(0.09)
+0.699
+(0.22)
+1.682
+(0.11)
+-1.217
+(0.39)
+
+1.520
+(0.20)
+0.141
+(0.84)
+-0.386
+(0.64)
+-1.054
+(0.37)
+-0.893
+(0.60)
+-2.554***
+(0.01)
+
+0.501
+
+3.408**
+(0.05)
+0.473
+(0.64)
+0.230
+(0.85)
+2.330
+(0.49)
+7.485
+(0.19)
+3.604
+(0.40)
+
+2.364*
+(0.06)
+-0.591
+(0.90)
+-0.371
+(0.95)
+0.433
+(0.90)
+1.914
+(0.42)
+-0.968
+(0.63)
+
+2.605
+(0.34)
+2.995***
+(0.01)
+5.502***
+(0.00)
+7.938***
+(0.01)
+7.842***
+(0.04)
+2.241
+
+-0.709
+(0.93)
+2.593***
+(0.00)
+3.815***
+(0.00)
+4.130***
+(0.00)
+4.118***
+(0.02)
+1.989
+(0.29)
+
+0.34
+
+0.33
+
+(0.22)
+-0.173
+(0.90)
+-0.705
+(0.26)
+-1.996
+(0.23)
+-0.331
+(0.78)
+-1.995***
+(0.01)
+
+0.79
+
+0.81
+
+0.67
+
+0.60
+
+0.35
+
+0.46
+
+0.16
+
+0.40
+
+0.17
+
+0.48
+
+(AD - 1, AD)
+(AD - 1, AD + 1)
+(AD - 5, AD + 5)
+(AD - 10, AD + 10)
+(AD + 1, AD + 10)
+
+*, **, and *** Significance at the 10, 5, and 1 percent levels, respectively.
+
+(0.26)
+
+The Journal of Finance
+
+other two types of bidders is that the characteristics of firms might be time
+varying and, therefore, our results could be driven by a particular sample
+period. Since our sample period covers quite a long period from 1981 to
+1997, during which there occur substantial differences in capital controls or
+access to government credit, we must ensure that the sample period can
+reasonably be seen as a single sample period. In an unreported test, we
+examine this issue by dividing the sample into four subgroups, according to
+chaebol affiliation, and two subperiods. We choose 1992 as a cutoff point to
+divide the total period into two subperiods, since Kim and Singal (2000)
+show that a major capital control change in Korea occurred in 1992, when
+the Korean government opened the stock market to foreign investment. Our
+results show that announcement returns for other bidders are significant
+and positive only for the first subperiod, but the difference of the returns
+between the two subperiods for other bidders is not significant. Announcement returns for the Top 30 chaebol and the Top 31-50 chaebol bidders also
+do not show any significant difference between the two subperiods. The test
+of difference in announcement returns between the Top 30 chaebol bidders
+and other bidders is strongly rejected for both subperiods. These results
+suggest that our results are not specific to a certain period.
+There are also other issues of concern in the interpretation of our announcement returns. We note that there have been daily price limits in the
+KSE during our sample period. Since the KSE opened, it has imposed restrictive price limit rules. Before April 5, 1995, the closing price level of the
+stock determined the range within which the price of a stock could increase
+or decrease in a trading day. Since April 5, 1995, the price limit is set at 15
+percent for all stocks. These price limit rules suggest that investors might
+have continued to react even after the merger announcement.
+To examine the frequency of delayed price response due to price limits, we
+count the number of our sample bidders whose prices hit the limits for each
+trading day from day -5 to day + 5. The frequency of bidders hitting a limit
+is 9.3 percent on day -5; it rises to 17.7 percent on day -1; it peaks on day
++1 at 22.4 percent; and it continues to 12.1 percent on day +5. In their
+study of price limits in the Korean stock market during the 1988 to 1992
+period, Bae and Cha (1997) report that for their 276 sample stocks, the
+percentage of trading days that hit the limits averages 10 percent. Thus, our
+sample bidders experience an unusually high frequency of limits around the
+event days, which requires us to use a longer event window for the return
+analysis. Therefore, in the subsequent analysis, we focus on CAR(-5, 5)
+rather than CAR(-1, 0).
+Another issue concerns the fact that, unlike CARs for the other types of
+bidders, the mean and median CARs(1, 10) for the Top 30 chaebol bidders
+are -2.55 percent and -2 percent, respectively, both of which are significant
+at the one percent level. The fact that returns after the merger announcement are negative for the Top 30 chaebol bidders suggests that the effect we
+find might be driven by stock price manipulation. Since most of our mergers
+are all-stock offers, it is possible that the acquiring firm in a chaebol pumps
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2714
+
+0.12
+
+0.10
+Other bidders
+
+,''
+
+0.08
+
+0.06
+
+<
+
+0.04
+0.02
+
+0.02
+
+-20
+
+-5
+
+-5
+
+?
+
+/
+
+S
+
+0
+
+15
+
+20
+
+-0.02
+ITop 30 chaebol biddersI
+
+-0.04
+
+Day aroundevent
+
+abnormal returns from day -20 to day +20 around the merger
+Figure 1. Cumulative
+The sample comprises 107 nonfinancial bidders listed on the KSE between
+announcement.
+1981 and 1997. We obtain the initial public announcement date of the merger from the Securities Daily. We compute abnormal returns using the market model. We estimate the market
+model by using 200 trading days of return data ending 20 days before the merger announcement. We use the Korea Composite Stock Price Index (KOSPI) return as the benchmark. The
+Top 30 chaebol bidders are firms that belong to one of the 30 largest chaebols. The Top 31-50
+chaebol bidders are firms that belong to chaebols ranked between 31 and 50. "Other bidders"
+are firms that belong to small chaebols or independent firms.
+
+up its value before the acquisition announcement by having affiliated firms
+in the group buy its stock, then lets its stock fall after the announcement is
+made.
+To examine the issue of manipulation, we plot the CARs from day -20 to
+day +20 around the event date for the Top 30 chaebol bidders, the Top 31-50
+chaebol bidders, and other bidders. Figure 1 shows that there are different
+patterns of stock price movement for the Top 30 chaebol bidders and the
+other two types of bidders. The CARs of the Top 30 chaebol bidders increase
+up to the event date, peak on the event date, and then start falling so that
+the CAR is slightly negative by the end of day +20. For the Top 31-50 chaebol bidders and other bidders, the CARs also increase before the announcement date. Unlike the CARs for the Top 30 chaebol bidders, the CARs of
+these two groups of bidders continue to rise even after the announcement
+date and level off at day +5.
+To gauge the statistical significance of our results, we follow Kang and
+Stulz (1996). They examine the announcement effect of equity issues in Japan and the possibility of price support. We focus on two samples of raw
+returns, the "before" sample, which includes the raw returns for the 10 days
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2715
+
+Tunneling or Value Added?
+
+The Journal of Finance
+
+before the event date for each bidder, and the "after"sample, which includes
+the raw returns for the 10 days starting 30 days after the event date for
+each bidder. Since the manipulation issue is a concern for the Top 30 chaebol
+bidders, we present the results for these bidders.l2
+The before sample has a mean return of 0.33 percent compared to 0.18
+percent for the after sample. The standard deviation of the returns in the
+before sample is slightly lower than in the after sample (2.46 percent vs.
+2.66 percent). However, the skewness is much higher in the after sample
+(0.63) than in the before sample (0.37). This difference is not consistent with
+the hypothesis that there is stock price manipulation.
+The traces of stock price manipulation are even harder to detect when we
+examine the proportion of negative returns. In the before sample, 35.4 percent of the returns are below -0.6 percent, compared to 39.3 percent in the
+after sample. When we look at returns lower than -2 percent, 14.8 (16.5)
+percent of the before (after) sample returns are lower than -2 percent.
+Finally, we count the number of days in the previous 10 days that the
+bidder realizes a negative return in excess of one standard deviation of the
+bidder's return. Then we relate the event-day abnormal return to the number of days. If a chaebol bidder benefits from stock price manipulation, we
+would observe few large negative returns before the event day, but a sharp
+drop after the event day. Thus, we expect to see a positive relation between
+the number of large negative returns and the post-announcement abnormal
+returns. Instead, we find negative correlations. The correlations between the
+number of large negative returns and the abnormal returns on event day,
+day + 1, and day + 2 are -0.16, -0.13, and -0.11, respectively, all of which
+are not significant. Although the bidders' price frequently falls after an acquisition announcement and this fact suggests there might be some stock
+price manipulation, we find no direct evidence to support this interpretation.
+The third issue is that our results might be driven by the effect of equity
+issuance. Some studies show that an announcement of equity issues in Korea is associated with a positive market reaction. For example, Kim and Lee
+(1990) use a sample of 239 seasoned equity offerings during the 1984 to 1986
+period to examine the wealth effect of issuing equity. They show that the
+stock market reaction to the equity issues is significantly positive. However,
+Kim and Lee use monthly returns to examine the equity issue effect. Therefore, their announcement results should be interpreted with caution.
+To see if our results are driven by the effect of equity issuance, we collect
+equity issue announcements made by our sample firms during the sample
+period, 1981 to 1997. Our sample firms make 184 announcements of nonmerger equity issues. The mean and median CARs(-5, 5) are 0.29 percent
+and -0.45 percent, respectively, neither of which is significant. For the sample of 95 equity issues by the Top 30 chaebol firms, the mean and median
+CARs(-5, 5) are 0.07 percent and -0.78 percent, respectively, and are not
+12
+Although the other two types of bidders show positive post-announcement returns, we
+repeat the same analysis for these bidders and find no traces of stock price manipulation.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2716
+
+2717
+
+significant. They are 0.52 percent and -0.14 percent for the 89 issues by the
+other two types of firms, and are also not significant. Furthermore, in his
+study of foreign acquisitions by Korean firms during the 1981 to 1995 period, Kim (1999) finds that Korean bidders experience significant and positive returns at the merger announcement and that the positive returns come
+mostly from bidders not related to the Top 30 chaebols. Because Korean
+firms usually make cash offers to acquire foreign firms, Kim's findings suggest that the announcement returns for our sample mergers are not entirely
+driven by equity issuance effects.
+We are also concerned that the results in Table V only show if the market
+value of the bidder's stocks changes as a result of a merger, but do not tell
+us if chaebol affiliation is associated with a decrease in the combined value
+of the bidder and target firms. Since most of our targets are privately held,
+we cannot answer this question. Nevertheless, in an unreported test, we
+examine the joint value of the bidder and target firms for the sample of 28
+mergers in which the target firms were listed on the KSE. For these 28
+target firms, we collect stock price data and information on capital distributions and dividends from the Securities Daily. Using capital distributionand dividend-adjusted returns for target firms and following Bradley, Desai,
+and Kim (1988), we compute the market-adjusted CAR(-5, 5) for the valueweighted portfolio of the bidder and the target. The results show that the
+mean and median CARs(-5, 5) for the value-weighted portfolio are 0.82
+percent and -1.14 percent, respectively, neither of which is significant. When
+we split the sample according to chaebol affiliation, the 18 mergers by the
+Top 30 chaebol bidders have a mean CAR(-5, 5) of 0.22 percent (the median = -1.41 percent). The 10 mergers by the other two types of bidders
+have a mean CAR(-5, 5) of 1.94 percent (the median = -1.27 percent). None
+of these estimates are significant. Therefore, the evidence from the sample
+of 28 mergers indicates that the joint value associated with mergers neither
+increases nor declines.
+B. Bidder Returns and Bidder Characteristics: Preliminary Evidence
+We partition the sample according to key characteristics of the acquiring
+firms and the mergers, then compare the CARs(-5, 5) across these characteristics.l3 Table VI presents our results. The first two variables examine if
+the past performance of acquiring firms can explain the bidder returns. As
+performance variables, we use cash flow to total assets and past industryadjusted cumulative stock returns from 220 days to 21 days before the merger
+announcement. Previous research on developed markets (Morck, Shleifer,
+and Vishny (1990) and Kang, Shivdasani, and Yamada (2000)) shows that
+managers who performedwell before mergers tend to make good acquisitions.
+13 We examine in detail in Sections III.D and III.G how the characteristics
+used in this
+section are correlated with the chaebol effect by simultaneously considering these characteristics and the chaebol affiliation of the acquiring firms.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Tunneling or Value Added?
+
+Table VI
+
+Mean and Median Cumulative Abnormal Returns [CAR(-5,
+Date
+for Bidders around the Merger Announcement
+Bidder
+Characteristics
+for Subsamples
+Categorized
+by
+
+5)]
+
+The sample comprises 107 nonfinancial bidders listed on the KSE between 1981 and 1997. We
+obtain the initial public announcement date of the merger from the Securities Daily. We compute abnormal returns using the market model. We estimate the market model by using 200
+trading days of return data ending 20 days before the merger announcement. We use the Korea
+Composite Stock Price Index (KOSPI) return as the benchmark. Numbers in parentheses are
+p-values for the test that the mean/median is equal to zero. Numbers in brackets are p-values
+for the test that the mean/median is equal between two groups of bidders.
+
+Bidder Characteristics
+Cash flow: (operating income +
+depreciation) /total assets
+Above sample median
+
+Equity ownership of the largest shareholder and other corporation
+Above sample median
+
+Market value of equity
+Above sample median
+Below sample median
+
+Industrial relatedness
+Related industry (horizontal +
+vertical)
+Different industry
+
+Target book equity/ bidder book equity
+Above sample median
+median
+
+-0.256
+
+4.786**
+
+(0.91)
+1.362*
+
+(0.04)
+[0.11]
+
+(0.07)
+[0.17]
+
+55
+
+1.436
+
+-0.151
+
+52
+
+(0.51)
+3.967***
+
+(0.76)
+1.740**
+
+(0.01)
+[0.35]
+
+(0.04)
+[0.09]*
+
+1.758
+
+-0.256
+
+(0.72)
+3.557**
+
+(0.91)
+1.362*
+
+(0.02)
+[0.51]
+
+(0.05)
+[0.13]
+
+53
+
+-0.798
+
+-0.141
+
+54
+
+(0.49)
+6.066***
+
+(0.29)
+3.185**
+
+(0.01)
+[0.01]***
+
+(0.02)
+[0.02]**
+
+53
+54
+
+Below sample median
+
+sample
+
+0.506
+(0.72)
+
+53
+
+stock return
+
+Below zero
+
+Below
+
+Median CAR(-5, 5):
+% (p-value)
+[Wilcoxon Z-test for equality]
+
+54
+
+Below sample median
+
+Prior industry-adjusted
+(-220 to -20)
+Above zero
+
+Mean CAR(-5, 5):
+% (p-value)
+[t-test for equality]
+
+No. of
+Firms
+
+66
+41
+
+3.904**
+(0.04)
+0.672
+(0.69)
+[0.20]
+
+53
+
+4.422*
+
+54
+
+(0.07)
+0.943
+(0.48)
+[0.20]
+
+*, **, and *** Significance
+
+at the 10, 5, and 1 percent levels, respectively.
+
+1.180
+(0.12)
+0.343
+(0.92)
+[0.30]
+1.648*
+(0.08)
+-0.109
+(0.98)
+[0.17]
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+The Journal of Finance
+
+2718
+
+2719
+
+The past performance of acquiring firms turns out to be an important
+factor in explaining the CARs. For example, for firms with a below-median
+level of cash flow to total assets, the mean and median CARs are
+4.79 percent and 1.36 percent, respectively, both of which are significant
+at the 5 percent and 10 percent levels. On the other hand, for firms
+with an above-median level of cash flow to total assets, the corresponding
+CARs are 0.51 percent and -0.26 percent, respectively, and are not
+significant.
+
+We obtain similar results when we use bidders' excess stock returns relative to their industry. The results suggest that bidders that performed well
+before the merger tend not to be good acquirers. Our results contrast with
+those for the United States (Lang, Stulz, and Walkling (1989), Morck et al.
+(1990), Servaes (1991)) and Japan (Kang et al. (2000)). Results for these
+countries show that better performers are better bidders.
+When we split the sample by the median of the sum of equity ownership
+by the largest shareholder and equity ownership by corporate shareholders
+(hereafter controlling ownership), only bidders with low controlling ownership show significant announcement reactions. The mean and median CARs
+are 3.56 percent and 1.36 percent, respectively, which are significant at the
+5 percent and 10 percent levels. For bidders with an above-median level of
+controlling ownership, the corresponding CARs are 1.76 percent and -0.26
+percent, and are not significant.
+The next variable we examine is firm size as measured by the market
+value of equity. The results show a negative relation between firm size and
+announcement returns. For bidders whose firm size is below the median, the
+mean and median CARs are 6.07 percent and 3.19 percent, respectively, which
+are significant at the one percent and five percent levels. In contrast, for
+bidders with an above-median size, the corresponding CARs are -0.80 percent and -0.14 percent, which are not significant.
+The announcement returns can differ, depending on whether the bidder
+and the target operate in the same or different industries (Morcket al. (1990)).
+When bidders are separated according to industrial relatedness, only related
+(both horizontal and vertical) mergers show positive and significant abnormal returns. For the 66 mergers in which the bidder's industry is related to
+the target's industry, the mean CAR(-5, 5) is 3.9 percent and the median
+CAR(-5, 5) is 1.18 percent. The mean is significant at the 5 percent level,
+but the median is not significant. For the 41 mergers in which the bidder's
+industry is not related to the target's industry, the mean and median returns
+are 0.67 percent and 0.34 percent, respectively, which are not statistically
+significant.
+
+An alternative classification of industrial relatedness shows similar results. When we group the vertical and diversifying mergers together as
+unrelated mergers, the 55 unrelated mergers show an insignificant mean
+(median) return of 2.93 percent (0.71 percent). But the 52 horizontal
+mergers show a significant mean (median) return of 2.39 percent (0.32 percent). These findings suggest that the potential synergy effect is more
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Tunneling or Value Added?
+
+The Journal of Finance
+
+pronounced for related mergers. Our evidence is consistent with Morck
+et al. (1990) for U.S. mergers and Kang et al. (2000) for Japanese
+mergers.14
+
+The relative size of the targets also has an important implication on bidder returns. However, the prediction about target size is not clear. If the
+bidding manager's major incentive for acquisition is to realize synergy and if
+a larger target is more likely to produce such an effect, we would expect such
+mergers to be associated with a higher return to the bidder. But if the manager's objective is to expand the firm's size only to increase the resources
+under his control (Jensen, 1986), then we would expect a more negative
+market reaction to mergers involving larger targets.
+When we measure the relative size of targets by the ratio of target book
+equity to bidder book equity, mergers with an above-median ratio realize a
+significant mean CAR(-5, 5) of 4.42 percent. Mergers with a below-median
+ratio realize an insignificant mean CAR(-5, 5) of 0.94 percent. The difference in mean CARs(-5, 5) between the two groups is not significant.
+C. Cross-sectional Regression Analysis
+
+To understand better the cross-sectional variation in bidder returns, we
+present the estimates from multivariate regressions. Since the univariate
+results in the previous section show that industrial relatedness is an important determinant of bidder returns, we include the dummy variable that
+equals one if the bidder and the target are in the same industry, and zero
+otherwise. We also consider a dummy variable that takes the value of one if
+the bidder acquires a target that is listed on the KSE.
+Chang (1998) finds that when the target firm is privately held, bidder
+returns are significantly positive. He attributes positive bidder returns to
+the monitoring activities of target shareholders. Since many of the targets in
+our sample are unlisted and are acquired through an exchange of common
+stock, mergers involving these types of targets tend to create large outside
+shareholders, which could explain the positive bidder returns documented in
+this study.
+As noted, firm size and the relative size of the target and the bidder are
+important variables for explaining the cross-sectional variation in bidder
+returns. Therefore, we include the log of the market value of bidder equity
+and the relative size of the target book equity to the bidder book equity.
+Because Maloney, McCormick, and Mitchell (1993), who examine Jensen's
+(1986) free cash flow hypothesis, show that bidder returns increase with
+leverage levels, we also control for the leverage ratio.
+14
+
+In unreported tests, we also bifurcate our sample into two subgroups based on the prior
+production relationship between the bidder and the target. The mean CAR(-5, 5) for the sample of the 63 mergers in which the bidder and the target maintained a production relationship
+and/or had similar production processes before the merger announcement is 4.17 percent, which
+is significant at the five percent level. In contrast, the mean CAR for other types of mergers is
+0.51 percent and is not significant. For the sake of brevity, these results are not reported.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2720
+
+2721
+
+We include the equity ownership of bidders by banks and by foreign investors to examine if these institutional investors play a monitoring role in
+a firm's investment decisions. In a study of Japanese mergers, Kang (1993)
+and Kang et al. (2000) show that announcement returns display a strong
+positive association with the strength of the acquirer'srelationship with banks.
+Using data from India, Khanna and Palepu (1999) find that as emerging
+markets integrate with the global economy, foreign institutional investors
+serve a valuable monitoring function. To the extent that banks and foreign
+investors play an important monitoring role, we would expect that firms
+with such ownership either perform better or do not overpay for acquisitions.
+Another issue that relates to the monitoring role of foreign investors is
+whether firms that have their stocks listed on foreign stock markets make
+better investment decisions than firms that are listed only on the KSE. It
+turns out that no firm in our sample was listed on the New York Stock
+Exchange or Nasdaq at the time of the merger announcement. Only four
+firms, Samsung Electronics, Dong-AConstruction, LG Electronics, and Hyundai Construction, were listed on either the London or the Luxembourg Stock
+Exchanges.
+We include two chaebol dummy variables, a Top 30 chaebol dummy that
+equals one if the bidder belongs to one of the Top 30 chaebols, and zero
+otherwise, and a Top 31-50 chaebol dummy that equals one if the bidder
+belongs to one of the Top 31-50 chaebols, and zero otherwise.
+Table VII reports the regression estimates. The first regression in Table VII
+regresses CAR(-5, 5) on the industrial relation dummy, the target listing
+dummy, the relative size of target, bidder size, the Top 30 chaebol dummy,
+the Top 31-50 chaebol dummy, and the prior bidder industry-adjusted stock
+returns. The results show that diversifying mergers significantly underperform related mergers. The coefficient on the dummy variable for the related
+merger is 0.045. This coefficient suggests that the return of the unrelated
+merger is lower than the return of the related merger by 4.5 percent.
+The listing status of the target does not seem to be an important factor in
+explaining bidder returns. The coefficient estimate on this variable is small
+and is not significant. Bidder size is also not significant. However, the relative size of the target to the bidder is significant and positively related to
+the bidder returns. This result suggests that the acquisition of larger targets
+produces higher bidder returns, indicating a possible synergy effect for such
+mergers.
+The chaebol dummy variables are significant and negative. The coefficient estimate on the Top 30 chaebol dummy is a significant -0.091 at the
+1 percent level, and the coefficient estimate on the Top 31-50 chaebol dummy
+is a significant -0.073 at the 10 percent level. Collectively, these results
+indicate that the market reacts negatively to acquisition announcements from
+bidders that belong to one of the Top 50 chaebols relative to other bidders.
+Our results support the tunneling view.
+There is a significant and negative relation between bidder returns and
+prior bidder industry-adjusted stock returns. To the extent that past stock-
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Tunneling or Value Added?
+
+The Journal of Finance
+Table VII
+
+Regression
+
+of Cumulative
+on Bidder
+
+Abnormal Returns
+Characteristics
+
+[CAR(-5,
+
+5)]
+
+The sample comprises 107 nonfinancial bidders listed on the KSE between 1981 and 1997. We
+obtain the initial public announcement date of the merger from the Securities Daily. We compute abnormal returns using the market model. We estimate the market model by using 200
+trading days of return data ending 20 days before the merger announcement. We use the Korea
+Composite Stock Price Index (KOSPI) return as the benchmark. The Top 30 chaebol bidders are
+firms that belong to one of the 30 largest chaebols. The Top 31-50 chaebol bidders are firms
+that belong to chaebols ranked between 31 and 50. "Other bidders" are firms that belong to
+small chaebols or independent firms. The numbers in parentheses denote the standard error.
+All Bidders
+Independent Variables
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Intercept
+
+0.064
+(0.141)
+
+0.083
+(0.138)
+
+0.024
+(0.165)
+
+-0.017
+(0.162)
+
+Dummy for the same industry
+
+0.045*
+(0.026)
+
+0.055**
+(0.026)
+
+0.054**
+(0.026)
+
+0.067***
+(0.026)
+
+Target is listed (dummy variable)
+
+-0.024
+(0.029)
+
+-0.011
+(0.029)
+
+-0.003
+(0.031)
+
+0.003
+(0.030)
+
+0.034***
+(0.011)
+-0.002
+(0.009)
+
+0.038***
+(0.011)
+
+0.039***
+(0.011)
+0.001
+
+0.039***
+(0.010)
+-0.003
+(0.010)
+
+Target book equity/bidder
+
+book equity
+
+Log of market value of bidder equity
+
+-0.003
+(0.008)
+
+Book value of debt/ (market value of equity +
+book value of debt)
+Equity ownership of bidder by banks
+Equity ownership of bidder by foreign
+investors
+
+(0.010)
+0.027
+(0.022)
+-0.002
+(0.002)
+0.002
+(0.003)
+
+-0.001
+(0.002)
+
+0.058**
+(0.024)
+
+0.000
+(0.003)
+
+Dummy for Top 30 chaebol bidder
+
+-0.091***
+(0.032)
+
+-0.079***
+(0.031)
+
+-0.072**
+(0.034)
+
+0.054
+(0.063)
+
+Dummy for Top 31-50 chaebol bidder
+
+-0.073*
+(0.043)
+
+-0.048
+(0.042)
+
+-0.052
+(0.043)
+
+0.077
+(0.080)
+
+-0.059
+(0.049)
+-0.259**
+(0.114)
+
+-0.040
+(0.048)
+-0.247**
+(0.125)
+
+-0.001
+(0.001)
+
+0.002*
+(0.001)
+
+Prior bidder industry-adjusted
+(-220 to -20)
+
+stock return
+
+-0.109**
+(0.045)
+
+Cash flow (operating income + depreciation)/
+total assets
+
+-0.159***
+(0.053)
+
+Equity ownership of bidder by the largest shareholder and other corporations
+Equity ownership of bidder by the largest shareholder and other corporations x dummy for
+Top 30 chaebol bidder
+
+-0.003**
+(0.001)
+
+Equity ownership of bidder by the largest shareholder and other corporations x dummy for
+Top 31-50 chaebol bidder
+
+-0.003
+(0.002)
+
+Financial slack (cash + marketable securities)l
+total assets
+
+-0.296
+(0.194)
+0.2702
+3.617***
+107
+
+Adjusted R2
+F-value
+No. of observations
+*, **, and *** Significance
+
+0.1905
+4.565***
+107
+
+0.2134
+5.108***
+107
+
+at the 10, 5, and 1 percent levels, respectively.
+
+0.2243
+3.554***
+107
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2722
+
+2723
+
+return performance is an indicator of managerial ability, the result implies
+that good managers are bad acquirers. The adjusted R-square of the regression is 17 percent, suggesting that the regression model fits the data well.
+In the second regression, we replace prior bidder industry-adjusted stock
+return by a ratio of cash flow to total assets. The ratio of cash flow to total
+assets is again significant, showing a coefficient estimate of -0.159. Therefore, the effect of past performance on bidder returns seems to be both statistically and economically significant. Evaluating the estimated coefficient
+at the mean indicates that, all else constant, a 10 percent increase in the
+operating performance ratio results in about a 1.6 percent decrease in bidder
+CARs. These results show that acquiring firms tend to overpay for their
+acquisitions when they perform well before mergers.
+Regression (3) controls for the effect of leverage and ownership structure. Because Korean owner-managers influence firms by using their own
+equity ownership combined with the reciprocal shareholdings among group
+firms, we use the sum of equity ownership by the largest shareholder
+and by corporate shareholders as a measure of controlling ownership.
+The coefficients on leverage, equity ownership by banks, and equity ownership by foreign investors are not significant.15 Controlling for leverage
+and ownership structure has no impact on the significance of the other
+variables except for the Top 31-50 chaebol dummy variable, which loses
+significance.
+
+To examine further the role of controlling ownership in a chaebol, in regression (4) we add two interaction terms, the interaction term between the
+controlling ownership and the Top 30 chaebol dummy and the interaction
+term between the controlling ownership and the Top 31-50 chaebol dummy.
+The results show that only the coefficient of the interaction variable for the
+Top 30 chaebols is significant and negative at the five percent level. This
+result supports the view that the concentrated equity ownership insulates
+the chaebol owner-managers from disciplinary forces and thus leaves them
+unconstrained.
+We also consider as an explanatory variable the ratio of the financial
+slack (cash plus marketable securities) to total assets. We include this
+variable because the managers of the bidding firm are more likely to undertake good acquisitions when the firm's internal cash reserves are insufficient to finance the acquisition. We also examine the effect of group
+affiliation by including an indicator variable for whether the bidder and
+the target belong to the same business group. These variables are not
+significant.
+15 As an alternative measure of bank monitoring, we use the number of banks from which a
+firm borrows. However, only data for recent years are available to us. From the 1997 audit
+reports, we find that our sample firms, on average, borrow from eight different banks with a
+standard deviation of four. Assuming the number of banks from which a firm borrows does not
+change over the period, we measure the multiple bank relationships as the log of the number
+of bank relationships as of 1997. This variable turns out to be insignificant.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Tunneling or Value Added?
+
+The Journal of Finance
+
+D. Past Bidder Performance and Returns to Chaebol-Affiliated Bidders
+
+We examine the relation between past performance and the bidder's abnormal returns by differentiating the Top 30 chaebol bidders, the Top 31-50
+chaebol bidders, and the other bidders. In Table VIII, we further divide the
+three groups of bidders into six subgroups according to the median of their
+past performance. To the extent that chaebol firms with good past performance tend to play a key role in distributing internal resources, the valueadded view suggests that acquisition announcements by these bidders are
+greeted positively by investors. However, according to the tunneling view,
+more resources will be diverted from the chaebol-affiliated firms that show
+good performance prior to the merger. Therefore, we would expect negative
+announcement returns for such firms.
+The main finding in Table VIII is that acquisitions by the Top30 chaebol bidders with good past performance lead to negative announcement returns. For
+example, when we measure firm performanceby cash flow to total assets (Panel
+A), the mean and median CARs of the Top 30 chaebol bidders with high past
+performance are -4.26 percent and -4.39 percent, respectively, both of which
+are significant at the one percent level. The corresponding mean and median
+returns for acquisitions by poorly performing Top 30 chaebol bidders are 1.92
+percent and 1.17 percent, respectively,and are not significant. The tests of mean
+and median differences between the Top30 chaebol bidders with high past performance and those with low past performance strongly reject the null hypothesis of equality. However, we do not find the same pattern for either the
+Top 31-50 chaebol bidders or other bidders.
+Comparing the three groups of bidders with high past performance shows
+that the Top 30 chaebol bidders significantly underperform the Top 31-50
+chaebol bidders and other bidders. In contrast, for bidders with low past
+performance, we do not find such a pattern.
+We obtain similar results when we substitute the industry-adjusted excess
+returns for the performance measure (Panel B). These results are consistent
+with the tunneling view.
+E. Rescue Mergers by Chaebol Bidders
+
+Another way to distinguish between the value and tunneling views is to
+see whether rescue mergers by chaebol bidders increase or decrease their
+announcement returns.
+To examine the impact of rescue mergers on announcement returns, we
+divide our sample bidders into six subgroups according to which of the three
+groups they belong to and whether they are involved in rescue or nonrescue
+mergers. We define a rescue merger as one in which the bidder acquires a
+poorly performing target (that is, a target with a negative book value or
+negative net income) that belongs to the same chaebol as the acquiring firm.
+Panel A of Table IX presents the results. The Top 30 chaebol bidders that
+acquire poorly performing targets within the same chaebol realize significant and negative abnormal returns. The mean and median CARs of rescue
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2724
+
+2725
+
+mergers by the Top 30 chaebol bidders are -3.04 percent and -4.27 percent,
+respectively, which are significant at the 10 percent level. The nonrescue
+mergers by the Top 30 chaebol bidders do not show any significant, negative
+CARs. Although the rescue mergers by the Top 31-50 chaebol bidders show
+negative returns, they are not significant. The nonrescue mergers by the
+Top 31-50 chaebol bidders show positive returns, but again, the returns are
+not significant. In contrast, both rescue and nonrescue mergers by other
+bidders show significantly positive CARs, indicating that the managerial
+objectives of the Top 30 chaebol bidders with good past performance are
+different from those of other bidders.
+To understand the circumstances under which tunneling is more likely to
+occur, we further divide the chaebol bidders according to past performance
+(cash flow to total assets) and rescue/nonrescue mergers (rescue mergers by
+the Top 30 chaebol bidders, rescue mergers by the Top 31-50 chaebol bidders, and nonrescue mergers by the Top 50 chaebol bidders). Panel B of
+Table IX shows that only rescue mergers by the Top 30 chaebol bidders with
+good past performance realize significant, negative CARs.16
+Overall, our results support the view that the Top 30 chaebol firms with
+good performance are likely to be involved in inefficient corporate transactions. These results support the prediction of the tunneling view for business groups in emerging markets.
+F Effect of Mergers on the Value-WeightedPortfolio of Chaebols
+To more closely examine the implications of the tunneling view, we examine the value-weighted portfolio returns of firms that belong to the same
+chaebol as the bidder. If we view a chaebol as a portfolio of firms, the merger
+by a member firm can affect not only the value of the bidding firm, but also
+the value of other firms in the group. If this is the case, the merger announcement conveys either good or bad news about the other member firms'
+investment opportunities. For example, since firms in the same chaebol often buy from and sell goods and services to one another, and because they
+are connected by an extensive arrangement of reciprocal shareholding agreements, owner-managers of the chaebol might be more concerned about the
+aggregate value of the whole group than would an independent bidding firm.
+If acquiring bad targets maximizes the aggregate value of the group, then
+the merger announcement might be good news for the other firms in the
+group, even though it is bad news for the bidding firm. Alternatively, other
+members of the chaebol might rise in value because the market expects that
+if those member firms were to get into trouble, they too would be bailed out.
+To obtain the abnormal return for the value-weighted portfolio, we estimate the market model parameters by using the return of the valueweighted portfolio. Our sample of 54 Top 30 chaebols has an average of 5.08
+16 In the
+Lang et al. (1989) and Servaes (1991) studies, the largest takeover gain in the
+United States occurs when bidders with high past performance acquire poorly performing targets.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Tunneling or Value Added?
+
+Returns [CAR(-5,
+and Prior Bidder
+
+5)] Classified
+Performance
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Table VIII
+
+Abnormal
+
+Cumulative
+
+by Chaebo
+
+The sample comprises 107 nonfinancial bidders listed on the KSE between 1981 and 1997. We obtain the init
+merger from the Securities Daily. We compute abnormal returns using the market model. We estimate the
+days of return data ending 20 days before the merger announcement. We use the Korea Composite Stock
+benchmark. The Top 30 chaebol bidders are firms that belong to 1 of the 30 largest chaebols. The Top 31-50 c
+to chaebols ranked between 31 and 50. "Other bidders" are firms that belong to small chaebols or independ
+denote p-values of the significance level. Numbers in brackets denote the number of observations.
+
+Panel A: CAR (%) by Cash Flow (Operating Income + Depreciation) to Total Assets and Chaebol Affi
+Top 30
+Chaebol Bidders
+(A)
+
+Top 31-50
+Chaebol Bidders
+(B)
+
+Test of
+Difference
+(A- B)
+
+Other Bidders
+(C)
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+t-test
+
+Wilcoxon
+Z-test
+
+Above sample median
+
+-4.256***
+(0.01)
+
+-4.387***
+(0.00)
+
+4.882
+(0.32)
+
+5.917
+(0.38)
+
+5.165**
+(0.04)
+
+1.090*
+(0.08)
+
+0.10*
+
+0.03**
+
+Below sample median
+
+1.919
+(0.26)
+
+1.169
+(0.35)
+
+-0.222
+(0.96)
+
+-1.141
+(0.58)
+
+10.858*
+(0.07)
+
+4.837**
+(0.03)
+
+0.69
+
+0.31
+
+Cash Flow to Total Assets
+
+[19]
+
+[7]
+
+[28]
+Test of difference
+t-test
+Wilcoxon Z-test
+
+[20]
+
+[7]
+
+[26]
+
+0.35
+
+0.46
+
+0.00***
+0.01***
+
+0.20
+
+0.68
+
+Top 30
+Chaebol Bidders
+(A)
+
+Top 31-50
+Chaebol Bidders
+(B)
+
+Excess Returns and Chaebol Affiliation
+Test of
+Difference
+(A - B)
+
+Other Bidders
+(C)
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Panel B: CAR (%) by Industry-Adjusted
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+t-test
+
+Wilcoxon
+Z-test
+
+Above zero
+
+-3.825**
+(0.02)
+
+-3.388**
+(0.03)
+
+-1.932
+(0.57)
+
+-2.606
+(0.56)
+
+7.761*
+(0.10)
+
+0.847
+(0.12)
+
+0.60
+
+0.67
+
+Below zero
+
+1.335
+(0.43)
+
+-0.256
+(0.75)
+
+5.528
+(0.32)
+
+2.556
+(0.46)
+
+8.222**
+(0.04)
+
+4.837**
+(0.02)
+
+0.46
+
+0.52
+
+Industry-Adjusted Returns
+
+[25]
+
+[6]
+
+[29]
+Test of difference
+t-test
+Wilcoxon Z-test
+*, **, and *** Significance
+
+[24]
+
+[8]
+
+0.02**
+
+[15]
+
+0.24
+0.06*
+
+at the 10, 5, and 1 percent
+
+0.93
+0.56
+
+levels,
+
+respectively.
+
+0.31
+
+Cumulative
+
+Abnormal
+
+Returns
+
+[CAR(-5,
+
+5)] Classified
+
+and Rescue/Nonrescue
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Table IX
+
+by Chaebo
+
+Mergers
+
+The sample comprises 107 nonfinancial bidders listed on the KSE between 1981 and 1997. We obtain the init
+merger from the Securities Daily. We compute abnormal returns using the market model. We estimate the
+days of return data ending 20 days before the merger announcement. We use the Korea Composite Stock
+benchmark. The Top 30 (50) chaebol bidders are firms that belong to one of the 30 (50) largest chaebols. The
+that belong to chaebols ranked between 31 and 50. "Other bidders" are firms that belong to small chaebols or
+are those where the bidder acquires a target with a negative book value or negative income within the sam
+denote p-values of the significance level. Numbers in brackets denote the number of observations.
+Panel A: CAR (%)by Rescue Merger and Chaebol Affiliation
+Top 30
+ChaebolBidders
+(A)
+
+Top 31-50
+Chaebol Bidders
+(B)
+
+Other Bidders
+(C)
+
+Test of
+Difference
+(A - B)
+
+Rescue Nonrescue
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+t-test
+
+Wilcoxon
+Z-test
+
+Rescue
+
+-3.039*
+(0.09)
+
+-4.270*
+(0.07)
+
+-2.149
+(0.62)
+
+-1.212
+(0.87)
+
+6.720**
+(0.04)
+
+4.818*
+(0.07)
+
+0.84
+
+0.69
+
+Nonrescue
+
+-0.142
+(0.17)
+
+-0.256
+(0.21)
+
+4.122
+(0.37)
+
+1.341
+(0.77)
+
+9.096*
+(0.10)
+
+2.713**
+(0.04)
+
+0.37
+
+0.58
+
+[20]
+
+[10]
+
+[37]
+Test of difference
+t-test
+Wilcoxonz-test
+
+[19]
+
+[4]
+
+[17]
+
+0.69
+
+0.31
+
+0.21
+0.22
+
+0.52
+
+0.99
+
+t-
+
+0.0
+
+0.1
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Panel B: CAR (%) of Chaebol Bidders by Cash Flow [(Operating Income + Depreciation) to Total Assets] and
+
+Top 30
+Chaebol Bidders
+(A)
+
+Top 31-50
+Chaebol Bidders
+(B)
+
+Other bidders
+(C)
+
+Cash flow to total assets
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+t-test
+
+Wilcoxon
+Z-test
+
+Above sample median
+
+-5.379**
+(0.04)
+
+-6.262**
+(0.05)
+
+-3.415
+(0.58)
+
+-4.072
+(0.75)
+
+-1.055
+(0.63)
+
+-1.183
+(0.50)
+
+0.75
+
+0.76
+
+Below sample median
+
+-0.959
+(0.71)
+
+-3.104
+(0.65)
+
+1.648
+(-)
+
+1.648
+(-)
+
+2.367
+(0.27)
+
+0.737
+(0.50)
+
+-
+
+-
+
+[8]
+
+[3]
+
+[9]
+Test of Difference
+t-test
+Wilcoxonz-test
+
+Test of
+Difference
+(A - B)
+
+[22]
+
+[1]
+
+0.20
+
+[25]
+0.26
+
+0.22
+
+*, **, and *** Significance at the 10, 5, and 1 percent levels, respectively.
+
+0.39
+
+The Journal of Finance
+
+listed firms per chaebol, with a minimum of 1 firm and a maximum of 11
+firms. After deleting chaebols with only 1 listed firm, our final sample comprises 51 Top 30 chaebols.
+We compute the value-weighted portfolio return in two different ways.
+First, we compute the portfolio return by excluding the bidder. This portfolio
+return is to capture the valuation effect of the merger announcement on the
+other member firms and allows us to examine whether the cross-sectional
+variation of the valuation effect is related to bidder characteristics.
+Second, we compute the portfolio return by including the bidder. This portfolio return is to evaluate the effect of the merger announcement on the
+aggregate value of the whole chaebol network and the relation between the
+overall group return and bidder's characteristics. We find that the mean
+CAR(-5, 5) of a value-weighted portfolio excluding the bidder is -0.14 percent, with a median of -0.07 percent. The mean CAR(-5, 5) of the portfolio
+including the bidder is -0.24 percent, with a median of -0.44 percent. None
+of these values is significant.
+In the first three regressions of Table X, we report the regression estimates for the bidders, those for the group portfolios excluding the bidder,
+and those for the group portfolios including the bidder. We use CAR(-5, 5)
+as the dependent variable and the explanatory variables in Table VII as
+independent variables. We also include a dummy variable that takes the
+value of one if good bidders (the ratio of cash flow to total assets above the
+sample median) acquire bad targets (net income or book equity below zero)
+that belong to the same chaebol.
+The results show that CARs(-5, 5) increase when bidders acquire targets
+that operate within a related industry. The CARs are positively related to
+the relative size of targets, but negatively related to at least one of two past
+bidder performance variables, prior industry-adjusted stock return and cash
+flow to total assets.
+The most important finding from Table X is that the coefficient on the
+controlling ownership is negative (p-value = 0.03) for the chaebol bidders,
+but positive (p-value = 0.05) for the group portfolios without bidders. The
+coefficient is not significant when we use portfolio returns including bidders.
+We obtain similar patterns for the coefficients of the good bidder/bad target dummy. The coefficient estimate on the good bidder/bad target dummy
+for bidders is -0.065, but 0.037 for group portfolios without bidders, both of
+which are significant at the five percent level. The fact that one of the coefficients is positive and the other is negative suggests the wealth transfer
+from the bidding firm to the other firms in the same group.
+In the last three regressions of Table X, we repeat our analyses by considering the Top 50 chaebols. We find that the results are qualitatively similar to those using the Top 30 chaebols.
+Overall, our results support the tunneling view that the chaebol ownermanagers make acquisition decisions with little regard for maximizing the
+shareholder wealth of the bidding firm, but with great regard for maximizing the value of the whole group. Maximizing individual firm value appears
+to be a less important objective for chaebol owner-managers.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2730
+
+Table X
+
+of Cumulative Abnormal Returns [CAR(-5, 5)]
+Regression
+Realized by the Top 30 (50) Chaebol Bidders and the Portfolio
+of the Top 30 (50) Chaebol Firms that Belong to the Same
+Group as the Bidder on Bidder Characteristics
+The sample comprises 51 (58) nonfinancial Top 30 (50) chaebol bidders, 51 (58) portfolios of Top
+30 (50) chaebol firms excluding the bidders, and 51 (58) portfolios of Top 30 (50) chaebol firms
+including bidders during the years 1981 to 1997. We obtain the abnormal return for the valueweighted portfolio by estimating the market model parameters by using the return of the valueweighted portfolio. Good bidder/bad target dummy takes the value of one if the bidder's cash
+flow to total assets is above the sample median, the target's net income or book equity is below
+zero, and bidder and target are within the same business group. The numbers in parentheses
+denote the standard error.
+
+Intercept
+Dummy for the related industry
+merger
+Target is listed (dummy variable)
+Target book equitylbidder book
+equity
+Log of market value of bidder
+equity
+Prior bidder industry-adjusted
+stock return (-220 to -20)
+Cash flow (operating income +
+depreciation) total assets
+Bank debt/(market value of
+equity + book value of debt)
+(Total debt - bank debt)/(market
+value of equity + book value of
+debt)
+Equity ownership of bidder by
+banks
+Equity of ownership of bidder by
+foreign investors
+Equity ownership of bidder by
+the largest shareholder and other
+corporations
+Good bidder/bad target dummy
+
+*, **, and *** Significance
+
+Top 50 Chaebol Bidders
+
+Group
+Portfolio
+without
+Bidder
+
+Group
+Portfolio
+without
+Bidder
+
+Chaebol
+Bidder
+
+Independent variables
+
+Adjusted R2
+F-value
+No. of observations
+
+Top 30 Chaebol Bidders
+
+Group
+Portfolio
+with Bidder
+
+Chaebol
+Bidder
+
+Group
+Portfolio
+with Bidder
+
+-0.097
+
+0.109
+
+0.090
+
+-0.047
+
+0.088
+
+0.102
+
+(0.201)
+0.041*
+
+(0.120)
+0.018
+
+(0.148)
+0.026
+
+(0.221)
+0.039
+
+(0.136)
+0.016
+
+(0.163)
+0.023
+
+(0.024)
+0.027
+
+(0.014)
+-0.056***
+
+(0.018)
+-0.027
+
+(0.026)
+0.022
+
+(0.016)
+-0.053
+
+(0.019)
+-0.028
+
+(0.027)
+0.016*
+
+(0.016)
+0.017***
+
+(0.020)
+0.017**
+
+(0.030)
+0.016
+
+(0.018)
+0.019***
+
+(0.022)
+0.018**
+
+(0.010)
+0.006
+
+(0.006)
+-0.006
+
+(0.007)
+-0.004
+
+(0.011)
+0.003
+
+(0.006)
+-0.005
+
+(0.008)
+-0.004
+
+(0.009)
+-0.094*
+
+(0.005)
+-0.060*
+
+(0.007)
+-0.077**
+
+(0.010)
+-0.073
+
+(0.006)
+-0.056*
+
+(0.007)
+-0.072*
+
+(0.052)
+-0.109***
+(0.039)
+0.052
+
+(0.031)
+0.006
+
+(0.038)
+-0.058**
+
+(0.052)
+-0.109***
+
+(0.032)
+0.001
+
+(0.038)
+-0.059*
+
+(0.023)
+-0.146***
+
+(0.028)
+-0.045
+
+(0.043)
+0.060
+
+(0.026)
+-0.123**
+
+(0.032)
+-0.030
+
+(0.081)
+-0.036
+
+(0.049)
+-0.035
+
+(0.060)
+-0.038
+
+(0.092)
+-0.037
+
+(0.056)
+-0.060
+
+(0.068)
+-0.061
+
+(0.083)
+
+(0.050)
+
+(0.061)
+
+(0.092)
+
+(0.056)
+
+(0.068)
+
+-0.001
+
+0.001
+
+0.000
+
+-0.001
+
+0.002
+
+0.001
+
+(0.001)
+0.002
+
+(0.001)
+0.000
+
+(0.001)
+0.000
+
+(0.001)
+0.002
+
+(0.001)
+0.000
+
+(0.001)
+0.000
+
+(0.002)
+-0.001**
+
+(0.001)
+0.001**
+
+(0.001)
+-0.000
+
+(0.002)
+-0.001*
+
+(0.001)
+0.000
+
+(0.001)
+-0.000
+
+(0.000)
+
+(0.000)
+
+(0.000)
+
+(0.000)
+
+(0.000)
+
+(0.000)
+
+-0.065**
+
+0.037*
+
+-0.000
+
+-0.063*
+
+0.034
+
+-0.000
+
+(0.033)
+0.3463
+3.208***
+51
+
+(0.020)
+0.3268
+3.023***
+51
+
+(0.024)
+0.2489
+2.381***
+51
+
+(0.037)
+0.2261
+2.388**
+58
+
+(0.022)
+0.1729
+1.993**
+58
+
+(0.027)
+0.1458
+1.811*
+58
+
+at the 10, 5, and 1 percent levels, respectively.
+
+G. Additional Tests of Tunneling
+To check the robustness of the results, we conduct three additional tests.
+Below, we briefly summarize the results of these tests.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2731
+
+Tunneling or Value Added?
+
+The Journal of Finance
+G.1. Other Classification
+
+of Sample Bidders
+
+Our tests of the tunneling hypothesis so far focus on the category of the
+Top 30 chaebol bidders. However, the "Top30 chaebols" is an arbitrary category that the Korean government creates for its own purposes. It could
+overlap with other variables such as size or equity ownership of the ownermanagers. To show that our results are robust when we look at different
+groups, we examine the announcement returns of subsamples, stratified according to firm size, controlling ownership, and firm performance. Since the
+issue of tunneling is relevant not only to the Top 30 chaebols but also to
+other business groups, we examine the sample bidders that have at least one
+member firm.17The tunneling hypothesis predicts that wealth transfer from
+the controlling shareholders to the minority shareholders is more likely to
+occur when the bidder is large, when the controlling ownership is high, and
+when the bidder performs well before the bid.
+Panel A of Table XI presents the CARs(-5, 5) for the two subsamples of
+bidders. We classify our sample bidders according to the medians of the controlling ownership and the market value of equity. Subsample 1 includes
+bidders with high controlling ownership and high market value of equity.
+Subsample 2 includes bidders with low controlling ownership and low market value of equity. The results show that only small-size bidders with low
+controlling ownership experience significant and positive CARs. The mean
+and median CARs are 8.2 percent and 5.81 percent, respectively, which are
+significant at the one percent level. For large-size bidders with high controlling ownership, the corresponding CARs are -0.97 percent and -1.19 percent, which are not significant. The mean and median tests of differences
+between the two groups are significant at the one percent level.
+In Panel B of Table XI, we use the controlling ownership and the market
+value of equity and add the ratio of cash flow to total assets to break down
+the sample into two groups: (1) bidders with high cash flow, high controlling
+ownership, and high market value of equity, and (2) bidders with low cash
+flow, low controlling ownership, and low market value of equity. The first
+group supports the prediction of the tunneling view by showing significant
+and negative announcement returns (mean = -5.77 percent, median = -4.71
+percent). However, the second group shows significant, positive returns
+(mean = 9.08 percent, median = 4.08 percent). The tests of equal returns
+between the two groups are rejected at the one percent level.
+G.2. Changes in the Market Value of Insider Holdings
+
+Another implication of the tunneling view is that the changes in the market value of the insider holdings (owner-managers' directly and indirectly
+held shares) during the announcement period are negative for chaebol bidders, but positive for other member firms within the same chaebol. We exIt turns out that there are only two firms in our sample that have no other affiliated firms
+and are independent. These firms are Han Dok Co. and Man Ho Rope Manufacturing Co.
+17
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2732
+
+2733
+
+amine this implication for the Top 30 and the Top 31-50 chaebols. However,
+it is possible that owner-managers care about more than just the market
+value of their holdings in chaebol firms. Owner-managers might put more
+value on the controlling rights and private benefits in chaebol firms. Therefore, our measure of the changes in the market value of the insider holdings
+underestimates the extent of the tunneling.
+Collecting information on insider holdings of the chaebol bidder and the
+member firms within the same chaebol is a daunting task. There is a complex network of cross-shareholding among the member firms of a chaebol,
+which makes the identification of insider holdings difficult. We start by identifying the owner-manager (and his/her family) of the bidder from the KISLINE. For all listed firms, the KIS-LINE provides the list of major individual
+shareholders and their shareholdings. However, since the KIS-LINE does
+not provide the information before 1987, we can only use the sample from
+1987. In many cases, the largest individual shareholder turns out to be the
+owner-managers.
+Next, we trace the indirectly owned shareholdings of the owner-manager
+through the complex network of cross-holdings by examining all member firms
+within the same group. Following La Porta et al. (1999), we compute the indirect shareholdings by tracing up to two layers of control chains. If the ownermanager has 20 percent direct holdings of firm A, which in turn has 20 percent
+direct holdings of firm B, which in turn has 20 percent direct holdings of firm
+C, then the owner-manager has 0.8 percent (0.2 * 0.2 * 0.2) indirect holdings
+in firm C. We use the same procedures for the other member firms of the chaebol bidder to obtain direct and indirect holdings of the owner-manager.We are
+able to find the insider holdings for the sample of 31 takeovers.18
+We estimate the market value changes of insider holdings by multiplying
+the price change around the announcement date (-5 to 5) by insider holdings. Panel C of Table XI shows that the mean (median) market value change
+of holdings by insiders in the Top 30 chaebol bidders is -105 (24) million
+won. In other member firms, it is 614 (820) million won. When we split the
+sample into two groups according to the median of cash flow to total assets,
+the high cash flow group shows the mean and median that support the
+prediction of tunneling view: The mean (median) market value change of
+insider holdings in the bidders is -572 (-75) million won, but in other member firms it is 760 (1,505) million won. These differences are not significant,
+possibly due to the small sample size.
+18 La Porta et al.
+(1999) use data on the ownership structure of publicly traded corporations
+in 27 countries to identify the ultimate controlling shareholders of these firms. They hypothesize that a firm has a controlling shareholder (controlling family) if this shareholder's direct
+and indirect voting rights in the firm exceed 20 (10) percent. They find that, according to their
+definition of control, 20 (35) percent of the 20 largest firms in Korea are family controlled. They
+also find that for medium-sized firms, the corresponding figure is 50 (80) percent. Applying
+their method to East Asia, Claessens, Djankov, and Lang (2000) show that 48 (68) percent of
+345 Korean firms are family controlled. Similar to these findings, we find that 43 (77) percent
+of our sample firms are family controlled using a 20 (10) percent definition of control.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Tunneling or Value Added?
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Table XI
+
+Additional Tests of the Tunneling Effect
+
+The sample comprises 104 nonfinancial bidders that are listed on the KSE between 1981 and 1997. All bidd
+term "business group" denotes a group with at least two member firms. Insider holdings are shares held
+manager and his/her family. We obtain the market value changes of insider holdings by multiplying the i
+around the announcement date (-5 to 5). The Top 30 chaebol bidder is a firm that belongs to one of the
+
+chaebol bidder is a firm that belongs to a chaebol ranked between 31 and 50. Numbers in parentheses deno
+Numbers in brackets denote the number of observations.
+
+Panel A: CAR (%)by Sample Medians of Equity Ownership of the Largest Shareholder and Other Corporatio
+High equity ownershipof the largest shareholder and other corporations/high market value of equity
+
+Low equity ownership of the largest shareholder and other corporations/low market value of equity
+
+p-value of difference
+t-test
+Wilcoxonz-test
+
+Panel B: CAR(%)by Sample Medians of Cash Flow, Equity Ownership of the Largest Shareholder and Other Corp
+High cash flow/high equity ownership of the largest shareholder and other corporations/high market value
+of equity
+Low cash flow/low equity ownership of the largest shareholder and other corporations/
+low market value of equity
+p-value of difference
+t-test
+Wilcoxonz-test
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Market Value Changes of Insider Holdin
+
+Panel C: Market Value Changes of Insider Holdings in the Top 30 Chaebol Bidders (Mill
+Top 30
+Chaebol Bidders
+
+Other Members
+of the Group
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+Total sample (A)
+
+-105
+(0.83)
+
+24
+(0.63)
+
+614
+(0.48)
+
+820
+(0.38)
+
+High cash flow (B)
+
+-572
+(0.54)
+
+-75
+(0.95)
+
+760
+(0.41)
+
+Low cash flow (C)
+
+360
+(0.37)
+
+142
+(0.50)
+
+456
+(0.77)
+
+[26]
+
+[25]
+
+[13]
+
+[13]
+
+[13]
+p-value of difference (B - C)
+t-test
+Wilcoxonz-test
+
+1505
+(0.24)
+-381
+(0.97)
+[12]
+
+0.35
+
+0.87
+0.76
+
+0.57
+
+Panel D: Market Value Changes of Insider Holdings in the Top 31-50 Chaebol Bidders (M
+Total sample (A)
+
+-138
+(0.73)
+
+High cash flow (B)
+
+-130
+(0.89)
+
+Low cash flow (C)
+
+-150
+(0.26)
+
+-215
+(0.62)
+
+-829
+(0.50)
+
+-634
+(1.00)
+
+714
+(0.59)
+
+-150
+(0.50)
+
+-3142
+(0.04)
+
+[5]
+
+[5]
+
+[3]
+
+-289
+(1.00)
+[3]
+
+[2]
+p-value of difference (B - C)
+t-test
+Wilcoxonz-test
+
+-495
+(0.31)
+
+-3142
+(0.50)
+[2]
+
+0.98
+
+0.07
+0.77
+
+*, **, and *** Significance at the 10, 5, and 1 percent levels, respectively.
+
+0.15
+
+The Journal of Finance
+
+The results for the Top 31-50 chaebols are reported in Panel D of Table XI.
+Although the results for the high cash flow group in the Top 31-50 chaebols
+are similar to those in the Top 30 chaebols, they are difficult to interpret
+because the sample size is only three.
+G.3. Size-Adjusted Abnormal Returns
+Our announcement returns are the market-model adjusted abnormal returns. One concern with this measure of announcement return is that it does
+not incorporate the difference in bidder size. A good return measure should
+make the quality of investment independent of the equity value of the bidding firm (Morck et al. (1990)). Since we measure the bidder return as the
+percentage change in the bidder's equity value at the time of the merger
+announcement, the returns to different-size bidders can differ even though
+these bidders acquire targets for the same price and realize the same amount
+of losses in their equity value.
+To investigate if controlling for the size of bidders changes our results, we
+examine the size-adjusted measure of abnormal returns in the manner suggested by Morck et al. (1990). However, we find that this measure has a
+correlation of only 0.18 with market-model adjusted abnormal returns.
+There are several reasons for this low correlation. First, because many of
+our targets are privately held and are acquired through an exchange of common stock, we cannot estimate the acquisition price of the targets without
+error. We estimate the acquisition price of targets in several ways: the number of bidder shares offered to the target times the stock price of the bidder
+five days before the merger announcement, the book value of target equity,
+and the total assets of the target. We find that the size-adjusted returns that
+we get by using all these measures produce results that are different from
+those obtained by using the market model approach.
+Second and more important, the size of the bidders is significantly larger
+than that of the targets. This size difference contributes to enormous absolute announcement returns for the size-adjusted approach.For example, when
+we measure the acquisition price of the target by multiplying the number of
+bidder shares offered by the stock price of the bidder five days before the
+merger announcement, the size-adjusted CAR(-5, 5) has a mean (median)
+return of -51.2 percent (4.2 percent) with a standard deviation of 635.5
+percent. The CARs(-5, 5) range from a maximum of 1,375.1 percent to a
+minimum of -4,575 percent. Even when we exclude the CARs of the extreme five percent in the top and bottom tails of the sample, we still end up
+with a noisy estimate of abnormal returns.
+We note that the size-adjusted return has the interpretation of profitability index in the context of capital budgeting, as it measures the ratio of cash
+flow (the market value change of bidders around the announcement date) to
+the investment outlay (the acquisition price of targets). Therefore, it is not
+surprising to have different results between the size-adjusted approach and
+the market-model approach when the difference in size between the bidder
+and target firms is large.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2736
+
+2737
+
+To minimize size-related bias, we examine the subsample of the 28 mergers in which the targets are listed at the time of the merger announcements and for which the size difference between the bidder and the target
+is relatively small. For this subsample, we find that the results using the
+size-adjusted abnormal returns are similar to those using the marketmodel adjusted abnormal returns. The mean and median returns using the
+size-adjusted approach are 7.59 percent and 0 percent, respectively. When
+we split the sample into two groups, the Top 30 chaebol bidders and the
+remaining bidders, we find the negative CARs(-5, 5) (mean = -13.38 percent, median = -1.16 percent) for the former group and the positive
+CARs(-5, 5) (mean = 45.35 percent, median = 7.96 percent) for the latter
+group. The difference in mean (median) returns between these two groups
+of bidders is significant at the 5 percent (10 percent) level.
+IV. Summary and Conclusion
+In this paper, we examine two competing views about business groups in
+emerging markets, the value-added view and the tunneling view. We show
+that minority shareholders of chaebol firms making acquisitions typically
+lose from the acquisitions, but the controlling shareholders of these firms
+gain from them. This evidence supports the tunneling hypothesis.
+Our findings have important implications for any further extensions to
+theoretical and empirical research on tunneling within firms that belong to
+business groups. Although our tests are mostly effective for identifying one
+particular form of tunneling in which transfers are made from bidders into
+targets, some of our results suggest that there could be tunneling from targets into bidders. For example, we find that firms with good performance
+before the merger are not good acquirers, but that those with poor performance before the merger are good acquirers. These results imply that more
+resources tend to be diverted from bidders with good performance, but poorly
+performing bidders are more likely to tunnel resources out of the targets.
+Similarly, we find that bidder returns are higher when bidders acquire large
+companies. This result suggests that resources are tunneled into the acquirers out of the large targets.
+Bertrand et al. (2000) show that there is more tunneling of companies
+further down Indian pyramids. Given that Korean companies are not held in
+the same kind of pyramid structure as Indian companies are and that crossshareholdings are a more common mechanism of controlling firms within
+Korean business groups, more research into tunneling that can incorporate
+these differences deserves to be carried out in the future. Our results also
+suggest that we should reinterpret some of the results of the previous literature. For example, Chang's (1998) findings that bidder returns are positive
+when they acquire privately held targets could simply imply that those targets are tunneled once they are acquired (i.e., the value is siphoned off to the
+publicly listed bidders).
+Our paper also helps answer a major puzzle about tunneling. If minority
+shareholders in chaebol firms know that neither corporate governance mech-
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Tunneling or Value Added?
+
+The Journal of Finance
+
+anisms nor laws protect them from expropriation by controlling shareholders, then why are they willing to buy stocks and bonds of these firms?
+One answer is that the implicit guarantee of a bailout for chaebol members
+is attractive. We find that financially distressed targets that belong to chaebols are likely to be merged with more successful member firms. Bailing out
+a distressed firm can create a credible commitment by the chaebol to prop
+up the performance of its member firms and to increase the attractiveness of
+these firms to outside investors.
+Using data on related-lending in Mexico, La Porta, Lopez-de-Silanes, and
+Zamarripa (2000) find that there is propping (i.e., negative tunneling) alongside tunneling within Mexican business groups. Friedman and Johnson (2000)
+develop a theoretical model of "tunneling and propping." Our findings, coupled with the findings of these two recent studies, suggest further extensions of the market equilibrium model of corporate finance in environments
+with weak shareholder protection, such as Shleifer and Wolfenzon (2000).
+
+Appendix: Method for Measuring Cumulative Abnormal Returns
+We use standard event study methodology to assess the wealth effects of
+acquisitions on bidder prices. We identify the merger announcement date
+from the Securities Daily. We implement the test procedure by computing ex
+post abnormal returns as
+ARit = Rit - (i
+
++
+
+(Al)
+
+iRmt)
+
+where Ri and Rmt are the daily return of bidder i at time t and the daily
+market index return at time t, respectively. The coefficients ai and fi are
+ordinary least squares estimates of the intercept and slope, respectively, of
+the market model regression. To compute the abnormal returns, we estimate
+the bidder-specific parameters ai and pi with an ordinary least squares regression, using 200 daily returns beginning with day t = -220 and ending
+with t = -21 relative to the announcement date.
+We construct the cumulative abnormal returns (CARi) between any two
+dates T1 and T2 as
+T2
+
+CAR,(T1,T2)=
+
+t=T1
+
+and we compute the sample cross-sectional
+returns as
+=
+ACAR(T1CAR(T1,T2)
+N =1
+
+(A2)
+
+ARit,
+average cumulative
+
+T).
+
+abnormal
+
+(A3)
+
+We use the t-statistic to test the hypothesis that the average CARs over any
+given interval are equal to zero. As a check on the possibility that the mean
+return is unduly influenced by outlier returns, we also use a median test
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2738
+
+2739
+
+of the null hypothesis. We use a sign-rank test statistic to test the hypothesis that the CARs over any given interval are distributed symmetrically
+around zero.
+REFERENCES
+Amihud, Yakov,and Baruch Lev, 1981, Risk reduction as a managerial motive for conglomerate
+mergers, Bell Journal of Economics 12, 605-617.
+Aoki, Masahiko, 1990, Toward an economic model of the Japanese firm, Journal of Economic
+Literature 28, 1-27.
+Bae, Kee-Hong, and Baekin Cha, 1997, Price changes, trading volume and price limits, Advances in the Pacific-Basin Financial Markets 3, 21-37.
+Barclay, Michael J., and Clifford G. Holderness, 1989, Private benefits from control of corporations, Journal of Financial Economics 25, 371-395.
+Barclay, Michael J., Clifford G. Holderness, and Jeffery Pontiff, 1993, Private benefits from
+block ownership and discounts on closed-end funds, Journal of Financial Economics 33,
+263-291.
+Bertrand, Marianne, Paras Mehta, and Sendhil Mullainathan, 2000, Ferreting out tunneling:
+An application to Indian business groups, Working paper, M.I.T.
+Bradley, Michael J., Anand Desai, and E. Han Kim, 1988, Synergistic gains from corporate
+acquisitions and their division between the stockholders of target and acquiring firms,
+Journal of Financial Economics 21, 3-40.
+Chang, Saeyoung, 1998, Takeovers of privately held targets, methods of payment, and bidder
+returns, Journal of Finance 53, 773-784.
+Claessens, Stijn, Simeon Djankov,and Larry H. P. Lang, 2000, The separation of ownership and
+control in East Asian corporations,Journal of Financial Economics 58, 81-112.
+Friedman, Eric, and Simon Johnson, 2000, Tunneling and propping, Working paper, M.I.T.
+Hoshi, Takeo, Anil Kashyap, and David Scharfstein, 1991, Corporate structure, liquidity, and
+investment: Evidence from Japanese industrial groups, Quarterly Journal of Economics
+106, 33-60.
+Jensen, Michael C., 1986, Agency costs of free cash flows, corporate finance, and takeovers,
+American Economic Review 76, 323-329.
+Johnson, Simon, Rafael La Porta, Florencio Lopez-de-Silanes, and Andrei Shleifer, 2000, Tunneling, American Economic Review Papers and Proceedings 90, 22-27.
+Kang, Jun-Koo, 1993, The international market for corporatecontrol:Mergers and acquisitions
+of U.S. firms by Japanese firms, Journal of Financial Economics 34, 345-371.
+Kang, Jun-Koo, 1998, Bank-centered corporate governance systems, Economic Analysis (Bank
+of Korea, in Korean) 4, 120-161.
+Kang, Jun-Koo, and Anil Shivdasani, 1995, Firm performance, corporate governance, and top
+executive turnover in Japan, Journal of Financial Economics 38, 29-58.
+Kang, Jun-Koo,Anil Shivdasani, and Takeshi Yamada, 2000, The effect of banks on investment
+decisions: An investigation of Japanese takeover bids, Journal of Finance 55, 2197-2218.
+Kang, Jun-Koo, and Ren6 M. Stulz, 1996, How different is Japanese corporate finance? An
+investigation of the information content of new security issue, Review of Financial Studies
+9, 109-139.
+Kaplan, Steven N., 1994, Top executive rewards and firm performance:A comparison of Japan
+and the United States, Journal of Political Economy 102, 510-546.
+Khanna, Tarun, and Krishna Palepu, 1997, Why focused strategies may be wrong for emerging
+markets, Harvard Business Review, July-August, 41-51.
+Khanna, Tarun, and Krishna Palepu, 1999, Emerging market business groups, foreign investors, and corporate governance, Working paper #6955, NBER.
+Khanna, Tarun, and Krishna Palepu, 2000, Is group affiliation profitable in emerging markets:
+An analysis of diversified Indian business groups, Journal of Finance 55, 867-891.
+Kim, E. Han, and Young Kee Lee, 1990, Issuing stocks in Korea, Pacific Basin Capital Markets
+Research 1, 243-253.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Tunneling or Value Added?
+
+The Journal of Finance
+
+Kim, E. Han, and Vijay Singal, 2000, Stock market openings: Experience of emerging economies, Journal of Business 73, 25-66.
+
+Kim, Sung-Hoon, 1999, The effect of foreign acquisitions on stock returns, Working paper in
+Korean, Korea University.
+Korea Herald, 1999, LG Securities in merger talks with LG Merchant Bank, May 22, p. 12.
+Korea Herald, 1999, LG to merge brokerage unit with merchant bank, August 24, p. 9.
+Korea Herald, 2000, Court ruling suspends Samsung Group's father-to-son power transfer attempts, May 11, p. 8.
+Lang, Larry, Ren6 M. Stulz, and Ralph A. Walkling, 1989, Tobin's q and the gains from successful tender offers, Journal of Financial Economics 24, 137-154.
+
+La Porta, Rafael, Florencio Lopez-de-Silanes, and Andrei Shleifer, 1999, Corporate ownership
+around the world, Journal of Finance 54, 471-517.
+La Porta, Rafael, Florencio Lopez-de-Silanes, and Andrei Shleifer, 2000, Investor protection and
+corporate governance, Journal of Financial Economics 58, 3-27.
+
+La Porta, Rafael, Florencio Lopez-de-Silanes, Andrei Shleifer, and Robert Vishny, 1997, Legal
+determinants of external finance, Journal of Finance 52, 1131-1150.
+La Porta, Rafael, Florencio Lopez-de-Silanes, Andrei Shleifer, and Robert Vishny, 1998, Law
+and finance, Journal of Political Economy 106, 1113-1155.
+
+La Porta, Rafael, Florencio Lopez-de-Silanes, and Guillermo Zamarripa, 2000, Soft lending and
+hard landing: Related lending in Mexico, Working paper, Harvard University.
+Maloney, Michael T., Robert E. McCormick,and Mark L. Mitchell, 1993, Managerial decision
+making and capital structure, Journal of Business 66, 189-217.
+Morck, Randall, Andrei Shleifer, and Robert W. Vishny, 1990, Do managerial objectives drive
+bad acquisitions? Journal of Finance 45, 31-48.
+
+Prowse, Stephen D., 1990, Institutional investment patterns and corporate financial behavior
+in the United States and Japan, Journal of Financial Economics 27, 43-66.
+
+Scharfstein, David S., and Jeremy C. Stein, 2000, The dark side of internal capital market:
+Divisional rent-seeking and inefficient investment, Journal of Finance 55, 2537-2564.
+Servaes, Henri, 1991, Tobin'sq and the gains from takeovers, Journal of Finance 46, 409-419.
+Sheard, Paul, 1989, The main bank system and corporate monitoring and control in Japan,
+Journal of Economic Behavior and Organization 11, 399-422.
+
+Shin, Hyun-Han, and YoungS. Park, 1999, Financing constraints and internal capital markets:
+Evidence from Korean chaebols, Journal of Corporate Finance 5, 169-191.
+
+Shleifer, Andrei, and Robert W. Vishny, 1997, A survey of corporate governance, Journal of
+Finance 52, 737-783.
+Shleifer, Andrei, and Daniel Wolfenzon,2000, Investor protection and equity markets, Working
+paper, Harvard University.
+Stein, Jeremy C., 1997, Internal capital markets and the competition for corporate resources,
+Journal of Finance 52, 111-133.
+
+Wolfenzon,Daniel, 1999, A theory of pyramidalownership,Workingpaper,University of Michigan.
+
+15406261, 2002, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1540-6261.00510 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+2740
+
+

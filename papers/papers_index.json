@@ -1,0 +1,240 @@
+{
+  "papers": [
+    {
+      "id": 1,
+      "authors": "Kim, Seok et al.",
+      "title": "Empirical Analysis on the Potential Causes of the Korea Discount",
+      "file": "Kim_Korea_Discount_Causes.pdf",
+      "txt_file": "txt/Kim_Korea_Discount_Causes.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 2,
+      "authors": "Lee, Jeong",
+      "title": "Analysis of the Korea Discount from a Corporate Capital Allocation Perspective: Focusing on Determinants of PBR Changes",
+      "file": "Lee_Korea_Discount_PBR.pdf",
+      "txt_file": "txt/Lee_Korea_Discount_PBR.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 3,
+      "authors": "Lee, Jin-hyo",
+      "title": "A Study on the Effectiveness of the Corporate Value-Up Program",
+      "file": "Lee_Value_Up_Effectiveness.pdf",
+      "txt_file": "txt/Lee_Value_Up_Effectiveness.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 4,
+      "authors": "Njoku, Enyeribe et al.",
+      "title": "Corporate Governance and Dividend Policy Under Concentrated Ownership: Evidence from Post-Reform Korea",
+      "file": "Njoku_Corporate_Governance_Dividends.pdf",
+      "txt_file": "txt/Njoku_Corporate_Governance_Dividends.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 5,
+      "authors": "Yun, Yongsuk & Kim, Hyun Ah",
+      "title": "High Investor Sentiment and Initial Engagement Discounts: Evidence from Korea",
+      "file": "Yun_Investor_Sentiment_Engagement.pdf",
+      "txt_file": "txt/Yun_Investor_Sentiment_Engagement.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 6,
+      "authors": "Choi, Tae H. et al.",
+      "title": "The Equity Premium Puzzle: Empirical Evidence for the 'Korea Discount'",
+      "file": "Choi_Equity_Premium_Korea_Discount.pdf",
+      "txt_file": "txt/Choi_Equity_Premium_Korea_Discount.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 7,
+      "authors": "Jang",
+      "title": "Volatility Risk Premium",
+      "file": "Jang_Volatility_Risk_Premium.pdf",
+      "txt_file": "txt/Jang_Volatility_Risk_Premium.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true,
+      "note": "Abstract could not be recovered due to encoding issues"
+    },
+    {
+      "id": 8,
+      "authors": "Jung, Taejin et al.",
+      "title": "Accounting for the Korea Discount with Book-to-Market Ratios above One",
+      "file": "Jung_Korea_Discount_Book_to_Market.pdf",
+      "txt_file": "txt/Jung_Korea_Discount_Book_to_Market.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 9,
+      "authors": "Kim, Hyunseok",
+      "title": "Long-term Undervaluation of the Korean Stock Market and International Comparative Study on Long-term Changes in Stock Price Multiples",
+      "file": "Jin_Korea_Discount_International.pdf",
+      "txt_file": "txt/Jin_Korea_Discount_International.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true,
+      "note": "Jin_Korean_Market_Undervaluation.pdf is the same paper"
+    },
+    {
+      "id": 10,
+      "authors": "Joo, Byung-chul",
+      "title": "Asymmetric Discipline by Foreign Investors and Corporate Value-Up: Focusing on Resolving Growth Disparity of Korea Discount Firms",
+      "file": "Joo_Foreign_Investors_Value_Up.pdf",
+      "txt_file": "txt/Joo_Foreign_Investors_Value_Up.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 11,
+      "authors": "Park, Jin-jae",
+      "title": "Defense of Management Control through Cross-Shareholdings: Focusing on Strategy Validity and Possibility of Resolving the Korea Discount",
+      "file": "Park_Cross_shareholdings_Takeover.pdf",
+      "txt_file": "txt/Park_Cross_shareholdings_Takeover.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 12,
+      "authors": "Yang, Cheol-Won et al.",
+      "title": "What Really Explains the Korea Discount and PBR? A Comparison of the Growth Potential, Shareholder Payout, and Governance Hypotheses",
+      "file": "Yang_Korea_Discount_Growth_vs_Governance.pdf",
+      "txt_file": "txt/Yang_Korea_Discount_Growth_vs_Governance.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 13,
+      "authors": "Kang, Nara & Kim, Heeju",
+      "title": "Expectations of Commercial Act Amendment and Market Reactions: The Potential Mitigation of the 'Korea Discount'",
+      "file": "Kang_Commercial_Act_Market_Reactions.pdf",
+      "txt_file": "txt/Kang_Commercial_Act_Market_Reactions.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 14,
+      "authors": "The Economist",
+      "title": "Minority Report: The Korea Discount",
+      "file": "Economist_Korea_Discount_Governance.pdf",
+      "txt_file": "txt/Economist_Korea_Discount_Governance.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 15,
+      "authors": "Black, Bernard S., Kim, Woochan, Jang, Hasung & Park, Kyung-Suh",
+      "title": "How Corporate Governance Affects Firm Value? Evidence on a Self-Dealing Channel from a Natural Experiment in Korea",
+      "file": "Black_Governance_Firm_Value.pdf",
+      "txt_file": "txt/Black_Governance_Firm_Value.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 16,
+      "authors": "Kim, Jeong-Bon & Yi, Cheong H.",
+      "title": "Foreign versus Domestic Institutional Investors in Emerging Markets: Who Contributes More to Firm-Specific Information Flow?",
+      "file": "Kim_Foreign_Domestic_Flow.pdf",
+      "txt_file": "txt/Kim_Foreign_Domestic_Flow.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 17,
+      "authors": "Kim, Jootae, Son, Sungjin & Jin, Ick",
+      "title": "The Effects of Shareholding of the National Pension Fund on Environmental, Social, Governance, and Financial Performance: Evidence from the Korean Manufacturing Industry",
+      "file": "Kim_NPS_ESG_Manufacturing.pdf",
+      "txt_file": "txt/Kim_NPS_ESG_Manufacturing.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 18,
+      "authors": "Kim, Sungmin, Byun, Hee Sub & Lee, Eun Jung",
+      "title": "Does 'Vote No' Change Corporate Governance and Firm Value? Evidence from the Shareholder Activism of the Korean National Pension Service",
+      "file": "Kim_NPS_Governance_Firm_Value.pdf",
+      "txt_file": "txt/Kim_NPS_Governance_Firm_Value.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 19,
+      "authors": "Kim, Hyeong Joon & Han, Seung Hun",
+      "title": "Supermajority Provisions and Shareholders Wealth: Evidence from South Korea's Natural Experiment",
+      "file": "Kim_Supermajority_Provisions.pdf",
+      "txt_file": "txt/Kim_Supermajority_Provisions.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 20,
+      "authors": "Lee, Jihyun & Nam, Doowoo",
+      "title": "ESG Shareholder Engagement and Firm Value: Evidence from Korea National Pension Service",
+      "file": "Lee_ESG_NPS_Firm_Value.pdf",
+      "txt_file": "txt/Lee_ESG_NPS_Firm_Value.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 21,
+      "authors": "Park, Sung-Hwan, Kang, Pyung Kyung, Jung, Tae Seop & Bark, Jaehyung",
+      "title": "Adoption of the Stewardship Code by Institutional Investors and Financial Reporting Quality: Focusing on Earnings Quality",
+      "file": "Park_Stewardship_Code_Earnings.pdf",
+      "txt_file": "txt/Park_Stewardship_Code_Earnings.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 22,
+      "authors": "Almeida, Heitor, Park, Sang Yong, Subrahmanyam, Marti G. & Wolfenzon, Daniel",
+      "title": "The Structure and Formation of Business Groups: Evidence from Korean Chaebols",
+      "file": "Almeida_Chaebol_Formation.pdf",
+      "txt_file": "txt/Almeida_Chaebol_Formation.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 23,
+      "authors": "Kim, Byungki, Pae, Jinhan & Yoo, Choong-Yuel",
+      "title": "Business Groups and Tunneling: Evidence from Corporate Charitable Contributions by Korean Companies",
+      "file": "Bae_Business_Groups_Tunneling.pdf",
+      "txt_file": "txt/Bae_Business_Groups_Tunneling.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 24,
+      "authors": "Bae, Kee-Hong, Kang, Jun-Koo & Kim, Jin-Mo",
+      "title": "Tunneling or Value Added? Evidence from Mergers by Korean Business Groups",
+      "file": "Bae_Tunneling_Value_Added.pdf",
+      "txt_file": "txt/Bae_Tunneling_Value_Added.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 25,
+      "authors": "Kim, Woochan, Lim, Youngjae & Sung, Taeyoon",
+      "title": "What Determines the Ownership Structure of Business Conglomerates?: On the Cash Flow Rights of Korea's Chaebol",
+      "file": "Kim_Chaebol_CF_Rights.pdf",
+      "txt_file": "txt/Kim_Chaebol_CF_Rights.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    },
+    {
+      "id": 26,
+      "authors": "Park, Jin, Suh, Jungwon & Kang, Shinwoo",
+      "title": "The Holding Company Discount in Korea's Stock Market",
+      "file": "Suh_Holding_Company_Discount.pdf",
+      "txt_file": "txt/Suh_Holding_Company_Discount.txt",
+      "abstract_in_collection": true,
+      "txt_converted": true
+    }
+  ]
+}

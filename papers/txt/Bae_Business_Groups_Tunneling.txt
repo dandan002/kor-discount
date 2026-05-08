@@ -1,0 +1,4869 @@
+J Bus Ethics (2019) 154:643–666
+https://doi.org/10.1007/s10551-016-3415-0
+
+ORIGINAL PAPER
+
+Business Groups and Tunneling: Evidence from Corporate
+Charitable Contributions by Korean Companies
+Byungki Kim1 • Jinhan Pae2 • Choong-Yuel Yoo1
+
+Received: 17 February 2016 / Accepted: 12 December 2016 / Published online: 6 January 2017
+ Springer Science+Business Media Dordrecht 2017
+
+Abstract This paper investigates whether corporate philanthropic decisions are associated with a firm’s listing
+status and business group affiliation. Analyzing a large
+sample of public and private firms in Korea, we find that
+(1) public firms make more charitable contributions than
+private firms and (2) business group-affiliated firms make
+more charitable contributions than non-affiliated firms. The
+results suggest that public firms, owing to greater public
+scrutiny, and business groups, owing to higher political
+costs, are encouraged to make more corporate charitable contributions. Further, we find that (3) greater corporate
+giving by public firms than private firms is more pronounced for business group-affiliated firms, compared with
+non-affiliated firms. The result is consistent with business
+groups’ strategic coordination of their affiliates’ philanthropic decisions to tunnel business group resources out to
+controlling shareholders who hold a larger portion of private affiliates than public affiliates.
+Keywords Listing status  Business group  Corporate
+giving  Tunneling  Public scrutiny
+
+& Jinhan Pae
+jinhanpae@korea.ac.kr
+Byungki Kim
+smartlove@business.kaist.ac.kr
+Choong-Yuel Yoo
+cyoo@business.kaist.ac.kr
+1
+
+KAIST College of Business, Seoul, South Korea
+
+2
+
+Korea University Business School, Seoul, South Korea
+
+Introduction
+Recently, interest in corporate social responsibility (CSR)
+has sharply increased in industry and academia. For
+example, the number of firms issuing CSR reports has
+dramatically increased (Dhaliwal et al. 2012) and numerous CSR studies have been published in accounting,
+finance, and management journals (e.g., Kim et al. 2012;
+Deng et al. 2013; Kang 2013). Among many dimensions of
+CSR, researchers pay increasing attention to corporate
+giving (i.e., charitable contributions) as a direct measure of
+CSR.1 Prior research reveals various determinants of corporate giving: managers’ altruism (Choi and Wang 2007;
+Masulis and Reza 2015), slack resources available to the
+firm (Seifert et al. 2004; Waddock and Graves 1997), firm
+size (Amato and Amato 2007), advertising intensity (Wang
+and Qian 2011), and even ownership structure (Atkinson
+and Galaskiewicz 1988; Barnea and Rubin 2010). While
+these studies shed some light on the motivations of corporate philanthropy, little is known about the impact of
+corporate governance on philanthropy. In particular, the
+literature has not addressed the influence of the listing
+status of firms on their corporate giving and has not
+examined the pattern of giving activities among business
+group members.
+This study investigates the impact of listing status and
+business group affiliation on corporate philanthropic
+behavior. Korea provides a noble setting to investigate
+differences in corporate philanthropic behaviors between
+public and private firms, and those between business
+group-affiliated and non-affiliated firms. In Korea,
+1
+Hillman and Keim (2001) argue that researchers need to exploit the
+individual components of CSR. Carroll (2004) depicts corporate
+philanthropy as one of the most important components of CSR.
+
+123
+
+644
+
+companies report their charitable contributions on the
+audited financial statements. Thus, high-quality corporate
+giving data are available. Also, business groups, representing a collection of companies mutually affiliated under
+common control as if they are a single entity, are a popular
+type of business organization in Korea, as in other
+emerging economies (Khanna and Palepu 2000). This
+enables us to examine an interesting question of whether
+corporate giving by business group-affiliated firms differs
+from that of non-affiliated firms.
+Using a sample of all public firms and a substantial body
+of private firms in Korea between 2000 and 2014, we first
+predict that public firms, owing to greater visibility and
+public scrutiny, are encouraged to actively engage in corporate philanthropy and find that public firms, on average,
+make greater charitable contributions than private firms.
+Next, we predict that business group-affiliated firms, owing
+to higher political costs, are more likely to engage in corporate philanthropy and find that group-affiliated firms
+make greater charitable contributions than non-affiliated
+firms. Lastly, we investigate strategic allocation of charitable contributions within the business group. Prior literature suggests that controlling shareholders of business
+groups exploit internal transactions among their affiliates
+for their benefit. In particular, Johnson et al. (2000) suggest
+that controlling shareholders expropriate minority shareholders’ wealth to increase their own wealth and term such
+exploitation ‘‘tunneling’’. Bae et al. (2002) and Baek et al.
+(2006) show that controlling shareholders exploit financial
+and economic resources from mergers and acquisitions of,
+or private security offerings to other affiliated firms in the
+same business group. Extending these studies, we conjecture that controlling shareholders ‘‘tunnel’’ not only
+through financial transactions but also through corporate
+philanthropy. Consistent with our hypothesis, we find that
+public firms make a much larger amount of charitable contributions than private firms, especially when the
+firm belongs to a business group.
+We conduct several additional analyses. First, we
+examine whether the control–ownership wedge, the disparity between control rights and cash flow rights, influences strategic allocation of corporate giving within the
+business group. We find that public firms of which control–ownership wedge is higher are likely to make a larger
+amount of charitable contributions, indicating that business
+groups strategically make use of charitable contributions as
+a channel of tunneling. Next, we examine whether a firm in
+a business group benefits from corporate giving by other
+affiliated firms in the same business group. To the extent
+that public affiliated firms make more charitable contributions than private affiliated firms, private affiliated firms
+are likely to benefit more from business group-wide giving
+than public affiliated firms. Consistent with our conjecture,
+
+123
+
+B. Kim et al.
+
+we find that growth in public affiliated firms’ charitable contributions is positively associated with subsequent
+revenue growth of private affiliated firms in the same
+business group. Finally, we examine temporal changes in
+the level of corporate giving when firms go public. We find
+that initial public offering firms increase their corporate
+giving until the public offering and gradually decrease
+their giving after that. But the levels of corporate giving in
+the post-public offering period still remain higher than
+those in the pre-public offering period, indicating that the
+listing status is an important determinant of corporate
+giving.
+Our study contributes to the literature as follows. First,
+the study enriches our knowledge of the drivers of corporate philanthropy. While there are no prior studies, to our
+knowledge, that investigate the corporate giving behavior
+of private firms, we attempt to differentiate corporate
+philanthropic behaviors between public and private firms.
+Second, by examining corporate giving activities in Korea,
+where business groups are prevalent, we suggest a way to
+understand corporate philanthropic behavior in other
+emerging markets, where business groups are also a popular type of business organizations (Khanna and Palepu
+2000). Finally, this study sheds light on the tunneling
+(business group) literature by showing that business groups
+strategically coordinate and allocate corporate philanthropy
+between public affiliates and private affiliates. In particular,
+we suggest an idea that controlling shareholders of business
+groups exploit group-wide corporate philanthropy as a nonfinancial channel of the tunneling process.
+These findings also offer important practical implications. In particular, in an attempt to address wealth polarization problems, politicians have tabled a series of
+Chaebol reform policies including bans on cross-investments and cross-debt payment guarantees among business
+group’s affiliates (e.g., Lee 2012). Moreover, the nation’s
+civil society groups (see Kirk 2016) as well as foreign
+activist shareholders (see Frost 2007) closely monitor
+business groups and voice a variety of opinions in the name
+of the so-called ‘minority shareholders’ movement.’ In
+response to the Chaebol-bashing sentiment and related
+policies, business groups have increased their charitable contributions and social engagements (see Choi 2010;
+Kim and Park 2012). Thus, our study gives investors,
+regulators, and policy makers insights into the motives of
+public firms and business groups to engage in extensive
+corporate giving.
+The remainder of this paper is structured as follows.
+Section 2 discusses related research and develops the
+hypothesis. Section 3 describes our sample data and
+develops the research design. Section 4 presents our results
+and Sect. 5 presents additional analyses. Section 6 presents
+our conclusions.
+
+Business Groups and Tunneling: Evidence from Corporate Charitable Contributions by Korean…
+
+Literature Review and Hypothesis Development
+The Determinants of Corporate Philanthropic
+Behavior
+Extant research suggests the following three explanations
+for corporate philanthropy: altruistic motivation; the principal-agent theory; and shareholder wealth maximization
+(Gautier and Pache 2015). First, as to the altruistic motivation, Haley (1991) suggests that corporate philanthropic
+behavior is mostly attributable to firms’ altruism. Also,
+Choi and Wang (2007) argue that corporate philanthropy is
+the result of top managers’ benevolence and integrity
+values.
+Next, the agency theory suggests that firms use corporate giving opportunistically for their private benefits.
+Yermack (2009) documents that CEOs make charitable stock gifts to their family foundations just before share
+prices drop sharply in an attempt to increase their personal
+income tax benefits. Barnea and Rubin (2010) show that
+insider ownership is negatively related to a firm’s CSR
+rating, suggesting that insiders (i.e., directors and blockholders) have an incentive to make a larger amount of
+charitable contributions when they own less.2 Marquis and
+Lee (2013) suggest that short-tenured CEOs seek shortterm benefits through philanthropy over long-term firm
+objectives. Recently, Masulis and Reza (2015) report a
+negative association between a CEO’s fractional ownership
+and corporate giving, supporting the agency motives of
+corporate philanthropy. Further, research on the rentseeking behavior of owner-managers suggests that controlling shareholders enjoy benefits of charitable giving at
+the expense of minority shareholders (Li et al. 2015b; Tan
+and Tang 2014).
+Finally, the shareholder wealth maximization perspective suggests that corporate philanthropy helps to improve
+corporate financial performance. According to Margolis
+and Walsh (2003), among 109 studies that examined the
+relationship between the level of corporate social performance and financial performance, 54 studies report a
+positive relationship, implying that corporate social activities, on average, enhance future firm performance.3 More
+directly, Lev et al. (2010) document that growth in corporate philanthropy is followed by future revenue growth.
+Another stream of studies supports the shareholder wealth
+maximization perspective by documenting that managers
+use corporate philanthropy as a means of corporate
+2
+
+Note that Barnea and Rubin (2010) do not directly examine
+charitable contributions. Rather, they examine CSR ratings assuming
+that the rating is associated with CSR-related expenditure level.
+3
+Of the remaining 55 papers, 7 studies found a negative relationship,
+28 studies brought insignificant associations, and 20 studies reported
+mixed results.
+
+645
+
+marketing. In particular, Schwartz (1968) and Wang and
+Qian (2011) show that corporate philanthropy is a substitute for corporate advertisement, supporting the idea that
+corporate giving leads to higher firm values. Additionally,
+broadening the shareholder wealth maximization perspective to that of stakeholders, Aguilera et al. (2007) argue that
+corporate social activity is driven by a variety of stakeholders’ economic and non-economic motives. Several
+empirical studies (e.g., Campbell and Slack 2006; Gan
+2006; Brammer and Millington 2005; Yoo and Pae 2016)
+support this notion by showing that firms with high public
+scrutiny make more charitable contributions than firms
+with low public scrutiny.
+The Effect of Listing Status and Group Affiliation
+on Corporate Philanthropic Behavior
+Researchers have documented differences in corporate
+decisions between public and private firms. For example,
+Ball and Shivakumar (2005), Hope et al. (2013), and Kim
+and Yi (2006) investigate the effect of listing status on
+financial reporting quality in the U.K., U.S. and Korea.
+Also, Chaney et al. (2004) examine the audit fee premium
+on Big N auditors and find that the so-called Big N premium does not exist among private firms. Overall, extant
+studies comparing public and private firms argue that different demands of investors and creditors account for different corporate decisions. Private firms without external
+equity investors are under less heavy public scrutiny than
+public firms and thus have weaker incentives to manage
+earnings and pay an audit fee premium.
+Extant research suggests a link between a firm’s listing
+status and its visibility. Theoretically, Merton (1987) suggests that firm visibility (i.e., investor recognition) is linked
+with its listing status because public firms tend to have a
+wider investor base than private firms. Empirically, Kadlec
+and McConnell (1994) and Foerster and Karolyi (1999) test
+Merton’s investor recognition hypothesis and show that
+investor recognition and interest (i.e., visibility) increase
+when firms go public. Mehran and Peristiani (2010)
+examine public firms’ decision to go private and show that
+initial public offering (IPO) firms are more likely to go
+private (i.e., delist) when they fail to sustain investor
+recognition or visibility. A survey by Bancel and Mittoo
+(2009) reports that European chief financial officers (CFO)
+view enhanced visibility and investor recognition as the
+most important benefit of going public.
+Some studies investigate the effect of public scrutiny on
+corporate philanthropy (Gan 2006; Campbell and Slack
+2006). Using court cases and news articles as proxies for
+public scrutiny, Gan (2006) shows that firms’ vulnerability
+to public scrutiny drives corporate philanthropy. Campbell
+and Slack (2006) suggest that highly visible firms are likely
+
+123
+
+646
+
+to make more corporate charitable contributions. Also,
+Brammer and Millington (2005) suggest that firms make
+charitable contributions to gain corporate reputation.
+Overall, extant studies suggest that highly visible firms have
+strong incentives to make more charitable contributions.
+While prior studies have examined various incentives
+for corporate philanthropy of public firms, little has been
+known about those of private firms despite their economic
+importance. Considering public firms are under greater
+public scrutiny (Ball and Shivakumar 2005; Kim and Yi
+2006) and public visibility and scrutiny induce a higher
+level of corporate philanthropy (Gan 2006; Campbell and
+Slack 2006), we expect that public firms make more
+charitable contributions than private firms. Our first
+hypothesis concerns the effect of listing status on corporate
+philanthropy:
+H1 Public firms make more charitable contributions than
+private firms.
+After the Asian financial crisis in 1997, the Korean
+government amended business group-related regulations.
+The revised regulations limit mutual investments among
+group-affiliated firms to mitigate the concentration of
+controlling shareholders’ voting rights. Further, the Korean
+Fair Trade Commission (KFTC) curbs loan guarantees
+among group-affiliated firms to prevent those firms from
+becoming insolvent at the same time.4 However, the Korean government is still criticized for favoring business
+groups with lax regulations and various types of financial
+subsidies. For example, in the telecommunication industry,
+the government granted the right to use indispensable radio
+frequencies only to those firms affiliated with large business groups.
+Watts and Zimmerman (1978) argue that political costs,
+which include all expected costs imposed on a firm from
+potential adverse political actions (e.g., antitrust, regulation, government subsidies, taxes, and tariffs), affect various corporate decisions. Business groups in Korea have
+been suspected of announcing big donations and setting up
+a charity foundation in an attempt to secure the government’s favor rendering, such as relaxed regulations and
+financial subsidies. Further, business groups have been
+criticized as the main culprit behind the structural weakness of the Korean economy, which had led to the nation’s
+financial crisis in 1997 (Moskalev and Park 2010; Campbell II and Keys 2002).
+Taken together, we expect that group-affiliated firms
+make more charitable contributions than non-affiliated
+firms in order to maintain a good rapport with the government and society. Our second hypothesis concerns the
+4
+
+Details are available at KFTC’s business group information portal
+(http://groupopni.ftc.go.kr/).
+
+123
+
+B. Kim et al.
+
+effect of business
+philanthropy.
+
+group
+
+affiliation
+
+on
+
+corporate
+
+H2 Business group-affiliated firms make more charitable contributions than non-affiliated firms.
+Internal Business Transactions (i.e., Tunneling)
+and Philanthropy
+Business groups make coordinated decisions to maximize
+the value of the group as a whole. If public firms, which are
+under greater public scrutiny (H1), and business groups,
+which are subject to higher political costs and visibility
+costs (H2), make more charitable contributions, then it is
+likely that business groups coordinate their corporate philanthropy strategy such that their public affiliates make
+more charitable contributions than private affiliates. In this
+section, we argue that incentives for greater corporate
+philanthropy by public firms than private firms are more
+pronounced for business group-affiliated firms than nonaffiliated firms because business groups may coordinate
+their group-wide philanthropy strategy for the benefits of
+controlling shareholders of the business group.
+Business groups are prone to tunneling since business
+groups are often controlled by a single shareholder or a
+group of closely related parties. Prior literature suggests
+that controlling shareholders of business groups often
+strategically assign resources within business groups to
+themselves via internal business transactions. For instance,
+in Korea, Bae et al. (2002) provide evidence of systematic
+tunneling within business groups in mergers and acquisitions; Baek et al. (2006) provide the evidence of tunneling
+in private security offerings. Similarly, in India, Bertrand
+et al. (2002) find that controlling shareholders tunnel profits
+from affiliated firms for which they have low cash flow
+rights to the firms for which they have high cash flow
+rights.
+As discussed above, the extant literature on tunneling
+mainly focuses on managers’ expropriation of financial
+resources. However, Chang and Hong (2000) show that
+business groups strategically allocate not only financial
+resources but also intangible resources such as technology
+and brand loyalty among affiliates. Further, Wang and Qian
+(2011) show that firms utilize corporate philanthropy as a
+substitute for marketing practices. We contend that business groups will engage in corporate philanthropy mainly
+through their public affiliates rather than private affiliates
+because society expects greater corporate social responsibility from public firms; moreover, corporate giving
+through public firms is a more effective way to enhance the
+group’s public image and reputation as a socially responsible business entity. Taken together, we predict that controlling shareholders of business groups will strategically
+
+Business Groups and Tunneling: Evidence from Corporate Charitable Contributions by Korean…
+
+allocate a larger amount of corporate charitable contributions to public affiliates than private affiliates. That is, our
+finding in H1 will be more pronounced within a business
+group which has both public and private firms as its affiliates. Our third hypothesis concerns the difference of corporate charitable contributions between public and private
+affiliated firms within business groups:
+H3 The influence of listing status on corporate philanthropy (i.e., H1 or the larger charitable contribution by public
+firms than private firms) is more clearly manifested for
+business group-affiliated firms than for non-affiliated firms.
+
+Research Design
+Sample Selection and Data
+Our initial sample consists of all public and private firms that
+are included in the Korea Listed Companies Association
+(KLCA) database. KLCA provides profiles and financial
+information including corporate charitable contributions
+reported in the financial statements for all public firms and a
+substantial body of private firms in Korea. Initially, we collect
+162,430 firm-year observations over the period from 2000 to
+2014. We exclude observations with insufficient data on such
+firm characteristics as total assets, liabilities, equities, sales,
+net profit, cash flow, and the age of the firm. Further, we delete
+observations without data for charitable contributions (e.g.,
+Chen et al. 2008; Li et al. 2015a, 2015b). These screening
+procedures yield a final sample of 69,558 observations.
+We classify a firm as a public firm if its shares are listed
+on the Korea Exchange (KRX). Private firms are those not
+listed on KRX, but subject to a mandatory external audit.
+The Act on External Auditing in Korea requires all firms
+with total assets of seven billion Korean Won (KRW) or
+above to have their financial statements audited by independent auditors.5 Thus, all public and private firms in our
+sample are subject to the same reporting and external audit
+requirements, and there is no difference in the corporate tax
+rates between public and private firms.
+Following previous literature (e.g., Baek et al. 2006), we
+identify each firm’s group affiliation using the KLCA
+database. We classify a firm as an affiliate if it belongs to a
+business group which has at least five member firms.
+Further, we conduct robustness tests, varying proxies for
+business groups in Sect. 5.5.6
+
+5
+
+The total asset requirement of KRW 7 billion has changed to KRW
+10 billion in 2009, and KRW 12 billion in 2015.
+6
+In untabulated tests, we verify that our results remain qualitatively
+similar when we change the minimum number of affiliated firm in a
+business group from five to two or to ten.
+
+647
+
+Regression Model
+Factors that affect a firm’s decision to go public may also
+influence its corporate philanthropy. That is, the endogenous selection of going public or remaining private could
+affect the association between listing status and charitable contributions. To address this potential self-selection
+bias, we employ Heckman’s (1979) two-stage procedure
+following the prior literature.7
+In the first stage, we estimate a Probit model for a firm’s
+choice of listing status. Following Ball and Shivakumar
+(2005) and Kim and Yi (2006), we include the following
+explanatory variables: FirmSize, Leverage, ExportRatio,
+QuickRatio, SalesGrowth, and Age. Chemmanur and Fulghieri (1999) report that young and small firms facing
+severe information asymmetry are less likely to choose to
+go public, implying that FirmSize (the natural log of total
+assets) and Age (the number of years since the firm is
+established) will be positively associated with listing status.
+Pagano et al. (1998) and Albornoz and Pope (2004) show
+that investors are reluctant to invest in financially distressed
+companies, implying that Leverage (total liabilities divided
+by the book value of equity) and QuickRatio (current assets
+less inventory divided by current liabilities) will be associated with a firm’s choice of listing status. Chemmanur et al.
+(2010) report that growing firms are more likely to go
+public, implying that SalesGrowth (Percentage change in
+sales) is positively associated with listing status. We also
+include ExportRatio (the ratio of the amount of exports to
+total sales) because companies with greater proportion of
+foreign business are more likely to go public in Korea.
+Further, we include two additional instrument variables
+which are associated with the likelihood of listing, but less
+likely to be associated with corporate giving: the degree of
+market competition (the Herfindahl–Hirschman Index or
+HHI) and the proportion of public firms in the industry
+(Industry_PubPr). Chemmanur and He (2011) suggest that
+firms are more likely to go public if the level of market
+competition is higher, that is, HHI is lower.8 Also, the
+proportion of public firms in an industry is likely to be
+associated with the likelihood of the listing status of a firm
+in the industry. We measure these variables as of year t-1,
+since a firm’s listing choice in year t is based on the
+7
+
+Prior literature uses Heckman procedure instead of the often used
+two-stage least squares (2SLS) method when the variable of interest is
+not a continuous variable, but a binary variable (e.g., Ball and
+Shivakumar 2005; Kim and Yi 2006; Givoly et al. 2010). Wooldridge
+(2010) shows that non-OLS regression models as the first-stage
+equation of 2SLS estimation do not provide consistent coefficient
+estimates.
+8
+The Herfindahl–Hirschman Index (HHI) is a measure of the market
+concentration of an industry. Thus, highly competitive industries have
+a relatively low HHI.
+
+123
+
+648
+
+B. Kim et al.
+
+financial characteristics in year t-1. In particular, we run
+the following first-stage Probit regression:
+
+Pr Publici;t ¼ 1 ¼ Uða0 þ a1 FirmSizei;t1
+þ a2 Leveragei;t1 þ a3 ExportRatioi;t1
+þ a4 QuickRatioi;t1 þ a5 SalesGrowthi;t1 þ a6 Agei;t1
+þ a7 Industry PubPri;t1 þ a8 HHIi;t1 þ eÞ
+
+ð1Þ
+
+In the second stage, we estimate the following OLS
+regression model including the inverse Mills ratio from the
+first-stage regression to examine the influence of listing
+status and business group affiliation on corporate
+charitable contributions:
+Givingi;t ¼ b0 þ b1 Publici;t þ b2 FirmSizei;t þ b3 Agei;t
+þ b4 Leveragei;t þ b5 ROAi;t þ b6 Advertisingi;t
+þ b7 PreGivingDi;t þ b8 Big4Auditi;t
+þ b9 IMR þ ðYear dummiesÞ
+þ ðIndustry dummiesÞ þ e
+
+ð2Þ
+
+Givingi;t ¼ c0 þ c1 Affiliatei;t þ c2 FirmSizei;t þ c3 Agei;t
+þ c4 Leveragei;t þ c5 ROAi;t þ c6 Advertisingi;t
+þ c7 PreGivingDi;t þ c8 Big4Auditi;t
+þ b9 IMR þ ðYear dummiesÞ
+þ ðIndustry dummiesÞ þ e
+
+ð3Þ
+
+Givingi;t ¼ d0 þ d1 Publici;t þ d2 Affiliatei;t þ d3 Publici;t
+ Affiliatei;t þ d4 FirmSizei;t þ d5 Agei;t
+þ d6 Leveragei;t þ d7 ROAi;t
+þ d8 Adverti sin gi;t þ d9 Pr eGivingDi;t
+þ d10 Big4Auditi;t þ d11 IMR þ ðYear dummiesÞ
+þ ðIndustry dummiesÞ þ e;
+ð4Þ
+where Givingi,t is the amount of charitable contribution as
+a percentage of sales; Publici,t is an indicator variable that
+equals one if a firm is listed; and Affiliatei,t is an indicator
+variable that equals one if a firm belongs to a business
+group.
+Our main variables of interest are Public, Affiliate, and
+the interaction term between the two variables (i.e.,
+Public 9 Affiliate). The first (second) hypothesis examines
+whether public (group-affiliated) firms make a larger
+amount of charitable contributions than private (or nonaffiliated) firms. Accordingly, we predict that the coefficient estimates on Public in Eq. (2) and on Affiliate in
+Eq. (3) will be positive (i.e., H1: b1 [ 0 and H2: c1 [ 0).
+The third hypothesis examines whether business groups
+strategically allocate charitable contributions more to
+public affiliates than private affiliates. That is, we compare
+the amount of charitable contributions by public firms in
+excess of that of private firms between business group
+affiliates and non-affiliates. We predict that the coefficient
+
+123
+
+on the interaction term in Eq. (4) will be positive (i.e., H3:
+d3 [ 0) (see Appendix 2 for detailed discussion of the
+statistical model).9
+In examining the influence of listing status and business
+groups on corporate charitable contributions, we control for
+several factors such as FirmSize, Age, Leverage, ROA,
+Advertising, Big4Audit and PreGivingD. FirmSize (the natural log of total assets) is the most important institutional
+determinant of charitable contributions (Chen et al. 2008;
+Seifert et al. 2003). Age (the number of years since the firm is
+established) is also an important determinant of charitable contributions (Roberts 1992; Moore 2001). Brown et al.
+(2006) show that monitoring by creditors curbs managers’
+rent extraction behaviors, implying that Leverage (total liabilities divided by the book value of equity) is negatively
+associated with the amount of charitable contributions.
+Waddock and Graves (1997) suggest that profitable firms are
+likely to make more charitable contributions, indicating that
+ROA (net income divided by total assets) is positively
+associated with the amount of charitable contributions. Prior
+research reports that firms make more charitable contributions when they spend a large amount on advertisement and
+product promotion (Fry et al. 1982; Brown et al. 2006; Zhang
+et al. 2010). To control for the quality of external monitoring,
+we include Big4Audit (an indicator variable that equals one if
+a firm has a Big 4 auditor). Last, we include PreGivingD (an
+indicator variable that equals one if a firm made charitable contributions in the preceding year) to control for
+recurring characteristics of corporate giving. Prior studies
+show that there is a cross-sectional variation in charitable contributions across industries (Amato and Amato 2007;
+Zhang et al. 2010). Accordingly, we include industry dummy
+variables (classified by two-digit industry classification
+codes). Further, to control for potential year effects, we add
+year dummy variables. We also note that Giving is highly
+skewed. To mitigate the impact of the skewed distribution of
+Giving, we restrict our analyses to observations whose corporate giving is within three standard deviations of the mean
+value of corporate giving.10 All continuous variables are
+winsorized at the 1 and 99% level to reduce the effects of
+outliers.
+Furthermore, we ensure the robustness of our tests by
+conducting two alternative matching techniques: a
+propensity-score matching (Rosenbaum and Robin 1983)
+and a coarsened exact matching (Iacus et al. 2011).
+Propensity-score matching (PSM) selects the matching
+private firms based on the probability estimate of being public
+9
+
+Our prediction based on H3 (d3 [ 0) is also consistent with greater
+charitable contributions by group-affiliated firms than non-affiliated
+firms being more pronounced for public firms than for private firms.
+10
+Our results are qualitatively similar when we add the excluded
+observations back to the sample.
+
+Business Groups and Tunneling: Evidence from Corporate Charitable Contributions by Korean…
+
+649
+
+Table 1 Descriptive statistics
+Variable
+
+Mean
+
+STD
+
+Q1
+
+Median
+
+Q3
+
+Panel A: Total sample (N = 69,558)
+Givingt
+
+0.077
+
+0.127
+
+0.006
+
+0.023
+
+0.083
+
+Publict
+
+0.194
+
+0.395
+
+0
+
+0
+
+0
+
+Affiliatet
+
+0.071
+
+0.257
+
+0
+
+0
+
+0
+
+FirmSizet
+
+3.739
+
+1.262
+
+2.786
+
+3.432
+
+4.417
+
+Aget
+
+20.694
+
+12.569
+
+11
+
+18
+
+28
+
+Leveraget
+
+2.405
+
+3.993
+
+0.565
+
+1.248
+
+2.531
+
+ROAt
+
+0.059
+
+0.082
+
+0.019
+
+0.051
+
+0.095
+
+Advertisingt
+
+0.006
+
+0.016
+
+0
+
+0
+
+0.003
+
+PreGivingDt
+
+0.863
+
+0.344
+
+1
+
+1
+
+1
+
+Big4Auditt
+
+0.216
+
+0.411
+
+0
+
+0
+
+0
+
+Variable
+
+Public (N = 13,476)
+
+Private (N = 56,082)
+
+p value for the tests of the difference between the two groups
+
+Mean
+
+Mean
+
+Median
+
+t test
+
+Wilcoxon Z test
+
+Median
+
+Panel B1: Sub-samples: public versus private
+Givingt
+
+0.086
+
+0.028
+
+0.075
+
+0.022
+
+\0.01
+
+\0.01
+
+Affiliatet
+
+0.161
+
+0
+
+0.050
+
+0
+
+\0.01
+
+\0.01
+
+FirmSizet
+
+5.023
+
+4.809
+
+3.431
+
+3.185
+
+\0.01
+
+\0.01
+
+Aget
+
+28.892
+
+28
+
+18.724
+
+16
+
+\0.01
+
+\0.01
+
+Leveraget
+
+1.100
+
+0.735
+
+2.719
+
+1.462
+
+\0.01
+
+\0.01
+
+ROAt
+Advertisingt
+
+0.045
+0.007
+
+0.044
+0.001
+
+0.063
+0.005
+
+0.053
+0
+
+\0.01
+\0.01
+
+\0.01
+\0.01
+
+PreGivingDt
+
+0.928
+
+1
+
+0.847
+
+1
+
+\0.01
+
+\0.01
+
+Big4Auditt
+
+0.516
+
+1
+
+0.144
+
+0
+
+\0.01
+
+\0.01
+
+Variable
+
+Affiliates (N = 4955)
+
+Non-affiliates (N = 64,603)
+
+p value for the tests of the difference between the two groups
+
+Mean
+
+Mean
+
+t test
+
+Wilcoxon Z test
+
+Median
+
+Median
+
+Panel B2: Sub-samples: Business group affiliates versus non-affiliates
+Givingt
+
+0.101
+
+0.037
+
+0.075
+
+0.022
+
+\0.01
+
+\0.01
+
+Publict
+
+0.439
+
+0
+
+0.175
+
+0
+
+\0.01
+
+\0.01
+
+FirmSizet
+
+5.590
+
+5.580
+
+3.597
+
+3.349
+
+\0.01
+
+\0.01
+
+Aget
+
+23.111
+
+20
+
+20.509
+
+18
+
+\0.01
+
+\0.01
+
+Leveraget
+
+1.932
+
+1.115
+
+2.441
+
+1.260
+
+\0.01
+
+\0.01
+
+ROAt
+
+0.060
+
+0.052
+
+0.059
+
+0.051
+
+0.60
+
+0.44
+
+Advertisingt
+
+0.004
+
+0
+
+0.006
+
+0
+
+\0.01
+
+0.07
+
+PreGivingDt
+
+0.930
+
+1
+
+0.857
+
+1
+
+\0.01
+
+\0.01
+
+Big4Auditt
+
+0.626
+
+1
+
+0.184
+
+0
+
+\0.01
+
+\0.01
+
+Variable = Giving
+
+Listing status
+Public
+Mean
+
+p value for the tests of the
+difference between the two groups
+
+Private
+Median
+
+Mean
+
+Median
+
+t test
+
+Wilcoxon Z test
+
+0.033
+
+0.08
+
+\0.01
+
+0.021
+
+\0.01
+
+\0.01
+
+Panel C: Comparison of Giving by business group affiliation and listing status (2 9 2) (N = 69,558)
+Business group affiliation
+Affiliates
+
+0.105
+
+0.044
+
+(N = 2173)
+Non-affiliates
+
+0.082
+(N = 11,303)
+
+0.098
+(N = 2782)
+
+0.026
+
+0.074
+(N = 53,300)
+
+123
+
+650
+
+B. Kim et al.
+
+Table 1 continued
+Variable = Giving
+
+Listing status
+Public
+
+p value for the tests of the difference
+between the two groups
+
+p value for the tests of the
+difference between the two groups
+
+Private
+
+Mean
+
+Median
+
+Mean
+
+Median
+
+\0.01
+
+\0.01
+
+\0.01
+
+\0.01
+
+t test
+
+Wilcoxon Z test
+
+This table documents descriptive statistics for our sample during the period 2000–2014. Panel A presents the summary statistics for the full
+sample. Panel B1 and B2 report the comparison for variables used in our analyses between public and private firms, and business group affiliates
+and non-affiliates, respectively. Panel C provides the comparison of the means and medians of corporate giving by business group affiliation and
+listing status. All continuous variables are winsorized at the 1% and 99% level
+***, **, and * denote statistical significance at the 1, 5, and 10% level, respectively. See Appendix 1 and Sect. 3.2 for variable definitions
+
+Table 2 Pearson correlation matrix
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+
+(N = 69,558)
+Givingt
+
+[1]
+
+Publict
+
+[2]
+
+Affiliatet
+
+[3]
+
+FirmSizet
+
+[4]
+
+Aget
+
+[5]
+
+Leveraget
+
+[6]
+
+ROAt
+
+[7]
+
+Advertisingt
+
+[8]
+
+PreGivingDt
+
+[9]
+
+Big4Auditt
+
+[10]
+
+0.034***
+
+0.053***
+
+0.063***
+
+0.047***
+
+-0.030***
+
+0.053***
+
+0.109***
+
+0.105***
+
+0.034***
+
+0.170***
+
+0.499***
+
+0.320***
+
+-0.160***
+
+-0.087***
+
+0.044***
+
+0.092***
+
+0.358***
+
+0.053***
+
+-0.033***
+
+0.002
+
+0.017***
+
+0.055***
+
+0.276***
+
+0.332***
+
+-0.084***
+
+-0.000
+
+0.067***
+
+0.158***
+
+0.425***
+
+-0.148***
+
+-0.116***
+
+-0.029***
+
+0.132***
+
+0.138***
+
+-0.194***
+
+-0.031***
+
+-0.066***
+
+-0.084***
+
+0.013***
+
+-0.012***
+
+0.037***
+
+0.053***
+
+0.406***
+
+0.102***
+
+0.076***
+
+This table presents the Pearson correlation matrix for the variables used in our analyses. All continuous variables are winsorized at the 1% and
+99% level
+***, **, and * denote statistical significance at the 1, 5, and 10% level, respectively. See Appendix 1 and Sect. 3.2 for variable definitions
+
+rather than private using a propensity-score model. As
+instrumental variables of the propensity-score model, we
+employ variables used in the first and second stages of the
+Heckman model, i.e., FirmSize, Leverage, ExportRatio,
+QuickRatio, SalesGrowth, Age, ROA, Advertising, Big4Audit
+and PreGivingD. PSM yields a balanced sample of 16,000
+(8000 public and 8000 private) firm-year observations.
+Coarsened exact matching (CEM) selects the matching
+private firms based on the coarsened strata of the covariates.11 We coarsen each of the continuous covariates into
+eight equal-sized intervals. CEM yields a sample of 39,054
+(7292 public and 31,762 private) firm-year observations.
+
+11
+
+Recently, researchers have raised concerns and criticism over the
+misuse of the propensity-score matching in addressing endogeneity
+issues (see DeFond et al. 2016; Shipman et al. 2016). That is,
+seemingly innocuous changes in PSM design can significantly affect
+sample composition and inferences from the results. DeFond et al.
+(2016) suggest using CEM as an alternative matching approach to
+PSM.
+
+123
+
+Empirical Results
+Descriptive Statistics
+Panel A of Table 1 reports descriptive statistics. An average sample firm makes charitable contributions of KRW
+770 per sales of KRW 1 million. Note that the median of
+Giving (0.023) is less than a third of the mean value
+(0.077), suggesting that the distribution of Giving is right
+skewed. Public and affiliated firms account for 19.4 and
+7.1% of the sample, respectively. The average debt-toequity ratio (i.e., Leverage) is 2.4, while the average age of
+firms is 20.7 years.
+In Panel B1, we partition the sample into public firms
+and private firms. We have 13,476 firm-year observations
+for public firms and 56,082 firm-year observations for
+private firms. Public firms make more charitable contributions than private firms: the mean (median) Giving is 0.086
+(0.028) for public firms and 0.075 (0.022) for private firms.
+Public firms also differ from private firms in other
+
+Business Groups and Tunneling: Evidence from Corporate Charitable Contributions by Korean…
+
+dimensions. Public firms are significantly larger than private firms: the mean FirmSize is 5.023 for public firms and
+3.431 for private firms. Public firms are more likely to be a
+member of a business group than private firms: 16.1% of
+public firms are affiliated with business groups, whereas
+5.0% of private firms are affiliated.
+In Panel B2, we partition the sample into group-affiliated and non-affiliated firms. We have 4955 firm-year
+observations for affiliated firms and 64,603 firm-year
+observations for non-affiliated firms. Affiliated firms make
+more charitable contributions than non-affiliated firms: the
+mean (median) Giving is 0.101 (0.037) for affiliated firms
+and 0.075 (0.022) for non-affiliated firms. Affiliated firms
+also differ from non-affiliated firms in other dimensions.
+Affiliated firms are significantly larger than non-affiliated
+firms: the mean FirmSize is 5.590 for affiliated firms and
+3.597 for non-affiliated firms. Affiliated firms are more
+likely to be public firms: 43.9% of affiliated firms are listed, whereas 17.5% of non-affiliated firms are listed.
+However, the mean ROA of affiliated firms is not significantly different from that of non-affiliated firms, suggesting
+that business group-affiliated firms are not more profitable than non-affiliated firms.
+Panel C provides the comparison of Giving, conditional
+on listing status and group affiliation. We partition the
+sample firms into four sub-samples, based on whether they
+are listed and whether they are affiliated with business
+groups. We find that the mean and median values of Giving
+in the Public and Affiliate sub-sample are significantly
+higher than those in the other three sub-samples (i.e., the
+Private and Affiliate sub-sample, the Public and Non-affiliate sub-sample, and the Private and Non-affiliate subsample). Further, among business group affiliates, public
+firms make more charitable contributions than private
+firms: the mean (median) Giving of 0.105 (0.044) for
+public firms versus that of 0.098 (0.033) for private firms.
+A similar pattern is observed for non-affiliates. We also
+note that the difference in the median values of Giving
+between the public and private firms for business group
+affiliates (0.011 = 0.044 - 0.033) is greater than that for
+non-affiliates (0.005 = 0.026 - 0.021). The result is consistent with our third hypothesis that business groups
+strategically allocate charitable contributions more to
+public affiliates than to private affiliates.
+Table 2 reports the Pearson correlations. Consistent with
+evidence in Panel B1 (B2) of Table 1, Public (Affiliate) is
+significantly positively associated with Giving, supporting
+our first (second) hypothesis that public (affiliated) firms
+make a larger amount of charitable contributions than private
+(non-affiliated) firms. Further, Giving shows its strong correlations with various firm-specific characteristics, suggesting that it is important to control for firm characteristics in the
+multivariate regression analysis.
+
+651
+
+Multivariate Analysis
+Table 3 presents the regression results for the influence of
+listing status and group affiliation on corporate charitable contributions. Panel A reports the second-stage
+regression results of the Heckman approach for the influence of listing status and group affiliation on corporate
+charitable contributions.12,13 We use Giving, the amount of
+charitable contribution expressed in the percentage of sales,
+as the dependent variable. Model (1) includes Public to
+examine the impact of listing status on charitable contributions. Model (2) includes Affiliate to investigate the
+impact of group affiliation on charitable contributions.
+Model (3) include Public, Affiliate, and the interaction term
+of the two variables to examine whether business groups
+allocate a larger amount of charitable contributions to their
+public affiliates.
+In model (1), we find that the coefficient on Public (b1)
+is positive and statistically significant at the 0.05 level,
+supporting H1: that public firms make a larger amount of
+charitable contributions than private firms. In model (2),
+the coefficient on Affiliate (c1) is also positive and statistically significant at the 0.01 level, supporting H2: that
+business group affiliates make a larger amount of charitable contributions than non-affiliates. In model (3), the
+coefficient on the interaction term of Public and Affiliate
+(d3) is positive and statistically significant at the 0.05 level.
+The result supports H3: that higher levels of charitable giving by public firms vis-à-vis private firms are more
+pronounced among group-affiliated firms than non-affiliates. It is also consistent with higher levels of charitable giving by group-affiliated firms vis-à-vis non-affiliated
+firms being more pronounced among public firms than
+private firms.
+Further, in model (3), we find that the coefficient on
+Public (d1) is statistically insignificant, suggesting that the
+amount of charitable contributions is not significantly different between public and private firms when they are not
+affiliated with business groups. But, among business group
+affiliates, public firms do make more charitable contributions than private firms: the value of d1 ? d3 (0.011) is
+significant at the 0.01 level. Taken together, these results
+indicate that the significant coefficient on Public (b1) in
+model (1) is mainly driven by the charitable giving
+behavior of business group-affiliated public firms.
+12
+
+In the first-stage estimates of Heckman approach, we find that the
+coefficients on FirmSize, Leverage, ExportRatio, QuickRatio, Age,
+Industry_PubPr, and HHI (except SalesGrowth) are highly significant, indicating that our prediction model for a firm’s listing status is
+well specified.
+13
+To address concern about the heteroscedasticity of error terms, we
+also apply the White adjustment for standard errors, but the results are
+qualitatively similar to what we present in the paper.
+
+123
+
+652
+
+B. Kim et al.
+
+Table 3 Influence of listing status and group affiliation on charitable contribution
+Dependent variable = Givingt
+
+Model (1)
+Coeff.
+
+Model (2)
+p value
+
+Coeff.
+
+Model (3)
+p value
+
+Coeff.
+
+p value
+
+Panel A: OLS regression of the amount of corporate giving on listing status and group affiliation results using Heckman approach (N = 69,558)
+Intercept
+
+0.066***
+
+0.00
+
+Publict
+
+0.003**
+
+0.05
+
+Affiliatet
+
+0.070***
+0.008***
+
+0.00
+0.00
+
+Publict 9 Affiliatet
+
+0.070***
+
+0.00
+
+0.002
+
+0.18
+
+0.005*
+
+0.06
+
+0.009**
+
+0.02
+
+FirmSizet
+
+0.003***
+
+0.00
+
+0.002***
+
+0.00
+
+0.002***
+
+0.01
+
+Aget
+Leveraget
+
+0.000***
+-0.001***
+
+0.00
+0.00
+
+0.000***
+-0.001***
+
+0.00
+0.00
+
+0.000***
+-0.001***
+
+0.00
+0.00
+
+ROAt
+
+0.074***
+
+0.00
+
+0.073***
+
+0.00
+
+0.075***
+
+0.00
+
+Advertisingt
+
+0.553***
+
+0.00
+
+0.557***
+
+0.00
+
+0.563***
+
+0.00
+
+PreGivingDt
+
+0.031***
+
+0.00
+
+0.031***
+
+0.00
+
+0.031***
+
+0.00
+
+Big4Auditt
+
+0.001
+
+0.65
+
+0.000
+
+0.77
+
+0.000
+
+0.94
+
+IMR
+
+0.001
+
+0.41
+
+0.000
+
+0.89
+
+0.000
+
+0.73
+
+Year fixed effects
+
+Yes
+
+Yes
+
+Industry fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Adjusted R2
+
+6.88%
+
+6.90%
+
+6.91%
+
+Yes
+
+Panel B: OLS regression results using propensity-score matched sample (N = 16,000)
+Intercept
+
+-0.021
+
+0.74
+
+Publict
+
+0.000
+
+0.87
+
+Affiliatet
+
+-0.016
+0.012***
+
+0.81
+0.00
+
+Publict 9 Affiliatet
+
+-0.015
+
+0.82
+
+-0.001
+
+0.65
+
+0.006
+
+0.19
+
+0.012**
+
+0.05
+
+FirmSizet
+Aget
+
+0.008***
+0.000**
+
+0.00
+0.05
+
+0.006***
+0.000**
+
+0.00
+0.02
+
+0.007***
+0.000**
+
+0.00
+0.03
+
+Leveraget
+
+-0.005***
+
+0.00
+
+-0.005***
+
+0.00
+
+-0.005***
+
+0.00
+
+ROAt
+
+0.090***
+
+0.00
+
+0.090***
+
+0.00
+
+0.089***
+
+0.00
+
+Advertisingt
+
+0.696***
+
+0.00
+
+0.703***
+
+0.00
+
+0.700***
+
+0.00
+
+PreGivingDt
+
+0.023***
+
+0.00
+
+0.023***
+
+0.00
+
+0.023***
+
+0.00
+
+Big4Auditt
+
+0.000
+
+0.83
+
+-0.001
+
+0.51
+
+-0.002
+
+0.46
+
+Year fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Industry fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Adjusted R2
+
+9.06%
+
+9.12%
+
+9.13%
+
+Panel C: OLS regression results using coarsened-exact matched sample (N = 39,054)
+Intercept
+
+0.126
+
+0.00
+
+Publict
+
+0.003*
+
+0.09
+
+Affiliatet
+
+0.127***
+0.012***
+
+0.00
+0.00
+
+Publict 9 Affiliatet
+
+0.129***
+
+0.00
+
+0.002
+
+0.30
+
+0.008**
+
+0.02
+
+0.014***
+
+0.01
+
+FirmSizet
+
+0.003***
+
+0.00
+
+0.002***
+
+0.00
+
+0.002***
+
+0.00
+
+Aget
+Leveraget
+
+0.000***
+-0.006***
+
+0.00
+0.00
+
+0.000***
+-0.006***
+
+0.00
+0.00
+
+0.000***
+-0.006***
+
+0.00
+0.00
+
+ROAt
+
+0.091***
+
+0.00
+
+0.090***
+
+0.00
+
+0.091***
+
+0.00
+
+Advertisingt
+
+0.619***
+
+0.00
+
+0.628***
+
+0.00
+
+0.626***
+
+0.00
+
+PreGivingDt
+
+0.030***
+
+0.00
+
+0.030***
+
+0.00
+
+0.030***
+
+0.00
+
+Big4Auditt
+
+-0.002
+
+0.17
+
+-0.003*
+
+0.09
+
+-0.003**
+
+0.04
+
+Year fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Industry fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+123
+
+Business Groups and Tunneling: Evidence from Corporate Charitable Contributions by Korean…
+
+653
+
+Table 3 continued
+Dependent variable = Givingt
+
+Model (1)
+Coeff.
+
+Adjusted R
+
+2
+
+Model (2)
+p value
+
+7.02%
+
+Coeff.
+
+Model (3)
+p value
+
+7.06%
+
+Coeff.
+
+p value
+
+7.08%
+
+This table presents the regression results based on 69,558 firm-year observations from 2000 to 2014. Panel A reports the OLS regression results
+for the Heckman second-stage model, Panel B reports the OLS regression results using a propensity-score matching, and Panel C reports the OLS
+regression results using a coarsened-exact matching. See Appendix 1 and Sect. 3.2 for variable definitions. All continuous variables are
+winsorized at the 1 and 99% level
+***, **, and * denote statistical significance at the 1, 5, and 10% level, respectively
+
+Next, in model (3), the positive coefficient on Affiliate
+(d2) indicates that, among private firms, business groupaffiliated firms make more charitable contributions than
+non-affiliated firms. A similar pattern is observed for public
+firms: the value of d2 ? d3 (0.014) is significantly positive
+at the 0.01 level. That is, regardless of the listing status,
+business group affiliates make more charitable contributions than non-affiliates.
+In all the three models, the coefficients on control
+variables are consistent with prior studies. ROA is positively associated with corporate charitable contribution,
+suggesting that corporations with slack resources or more
+profits are likely to make a larger amount of charitable contributions (Waddock and Graves 1997). Also, Leverage is negatively associated with corporate giving,
+indicating that creditors effectively monitor managers’
+opportunistic behaviors (Brown et al. 2006). The positive
+coefficient on Advertising supports an argument that
+charitable giving is an alternative and complementary
+means of improving a firm’s public image (Fry et al. 1982).
+Last, the coefficient on IMR (the inverse Mills ratio) is
+insignificant, suggesting that there is no significant selfselection bias concern in our regression models.
+Panel B reports results of OLS regressions using the
+propensity-score matched sample.14 We find that while the
+coefficient on Public (b1) in model (1) is of the predicted
+sign, but insignificant, the coefficient on Affiliate (c1) in
+model (2) and the coefficient on the interaction term of
+Public and Affiliate (d3) in model (3) are positive and
+statistically significant, supporting H2 and H3. Note that
+the effect of the listing status on charitable contributions is
+still significant among business group affiliates: that is, in
+model (3), the sum of the coefficient on Public and the
+coefficient on the interaction of Public and Affiliate
+(d1 ? d3 = 0.011) is significantly different from zero. The
+result suggests that public group-affiliated firms make more
+charitable contributions than private group-affiliated firms.
+14
+
+We find that the mean values of most firm characteristics are
+similar between public and private firms, indicating an effective
+matching between the two groups (untabulated).
+
+Panel C of Table 3 provides the OLS regression when
+employing the coarsened exact matching.15 We find that
+the coefficient on Public (b1) in model (1), the coefficient
+on Affiliate (c1) in model (2), and the coefficient on the
+interaction term of Public and Affiliate (d3) in model (3) are
+all positive and statistically significant, supporting our H1,
+H2, and H3.
+To summarize, the results in Table 3 are consistent with
+the hypotheses that public firms make more corporate
+charitable contributions than private firms (H1) and business group-affiliated firms make more corporate charitable contributions than non-affiliated firms (H2). Further, we
+find that business groups strategically allocate a greater
+amount of corporate giving to their public affiliates (H3).
+
+Additional Analyses
+Control–Ownership Wedge and Corporate Giving
+In the preceding section, we document that business groups
+strategically assign a larger amount of corporate giving to
+their public affiliates than private affiliates. However, it is
+still unclear whether this strategic allocation is linked to
+tunneling that benefits controlling shareholders at the
+expense of minority shareholders. If tunneling incentives
+cause the group-wide asymmetric giving strategy, corporate charitable giving should be associated with corporate
+ownership structure across the business group (Johnson
+et al. 2000).
+Tunneling literature suggests that conflicts of interest
+between minority shareholders and controlling shareholders lead to the central agency problem (Kim and Yi 2006).
+Controlling shareholders who have voting rights in excess
+of their cash flow rights are likely to pursue their own
+15
+
+The sample size of CEM differs from that of PSM because CEM
+allows for a 1:N matching. Further, unlike PSM that condenses
+various dimensions of the covariates into a single dimension (that is, a
+summary score), CEM considers every aspect of the covariates. Thus,
+CEM is less vulnerable to the so-called random-matching problem of
+PSM.
+
+123
+
+654
+Table 4 Influence of control–
+ownership wedge on
+charitable contribution (for
+group-affiliated observations)
+
+B. Kim et al.
+
+Model (1)
+
+Dependent variable = Givingt
+
+Model (2)
+
+Coeff.
+
+p value
+
+Coeff.
+
+p value
+
+Intercept
+
+-0.086***
+
+0.00
+
+-0.083***
+
+0.00
+
+Wedget
+
+0.013**
+
+0.05
+
+0.007
+
+0.35
+
+0.041**
+
+0.03
+
+(N = 4683)
+
+Wedget 9 Publict
+Publict
+
+-0.010
+
+0.30
+
+FirmSizet
+
+0.016***
+
+0.00
+
+0.016***
+
+0.00
+
+Aget
+
+0.000**
+
+0.02
+
+0.000**
+
+0.05
+
+Leveraget
+
+-0.002***
+
+0.01
+
+-0.002***
+
+0.01
+
+ROAt
+
+0.180***
+
+0.00
+
+0.184***
+
+0.00
+
+Advertisingt
+
+0.522***
+
+0.00
+
+0.504***
+
+0.00
+
+PreGivingDt
+Big4Auditt
+
+0.033***
+-0.007
+
+0.00
+0.14
+
+0.033***
+-0.008
+
+0.00
+0.11
+
+Year fixed effects
+
+Yes
+
+Industry fixed effects
+
+Yes
+
+Yes
+
+Adjusted R2
+
+13.90%
+
+13.98%
+
+Yes
+
+This table presents the results from the OLS regression based on 4683 group affiliates. The dependent
+variable is corporate giving (Giving). See Appendix 1 for variable definitions. All continuous variables are
+winsorized at the 1 and 99% level
+***, **, and * denote statistical significance at the 1, 5, and 10% level, respectively
+
+interests at the expense of minority shareholders. As the
+disparity between voting rights and cash flow rights (control–ownership wedge) widens, controlling shareholders
+have greater incentives to expropriate firm resources for
+private welfares bearing smaller costs of doing so (Joh
+2003). Thus, we examine whether the strategic allocation
+of corporate giving is associated with control–ownership
+wedge in the business group setting.
+Table 4 reports the estimation results of regressions of
+corporate charitable contributions on control–ownership
+wedge for large business group affiliates.16 In model (1),
+we find that the coefficient on Wedge is positive and statistically significant, supporting an idea that business
+groups strategically use corporate charitable contributions
+as a channel of the tunneling process. In model (2), we find
+that the coefficient on Wedge is insignificant, but Wedge x
+Public is positive and statistically significant. That is,
+tunneling (greater charitable giving due to control–ownership disparity) is observed for public affiliates, but not for
+private affiliates. Alternatively, one may interpret the result
+such that between public and private firms with the same
+level of wedge, controlling shareholders of a business
+group would be more likely to do charity work through
+public affiliates rather than private affiliates. Even after
+controlling for the effect of wedge on corporate giving, we
+
+contend that, for business group charitable contributions, it
+would be more effective to utilize public affiliates than
+private affiliates because public firms are more visible than
+private firms.17
+Public Affiliates’ Charitable Contributions
+and Private Affiliates’ Future Revenue Growth
+In this subsection, we investigate potential benefits from
+business groups’ strategic coordination of their affiliates’
+corporate giving. In particular, we examine whether the
+beneficial marketing effects, owing to public affiliates’
+charitable contributions, are transferred to private affiliates
+for the benefit of the controlling shareholders of business
+groups.
+Panel A of Table 5 presents the regression results of
+private affiliates’ future revenue growth (DSALEt). First,
+we find that the coefficient on DGivingt-1 is insignificant,
+suggesting that growth in the amount of private affiliates’
+charitable contributions does not affect their future revenue
+growth. However, we find in model (2) that the coefficient
+on DGroup-wideGivingtt-1 is positive and statistically
+significant, suggesting that growth in the amount of business group-level charitable contributions is positively
+associated with private affiliates’ future revenue growth.
+Lastly, in model (3), we find that the coefficient on
+
+16
+
+Analyses are conducted for a sample of large business group
+affiliates over the period from 2001 to 2013 for which ownership
+structure data are available from KFTC.
+
+123
+
+17
+
+We are very grateful to an anonymous reviewer to point out this
+perspective.
+
+Business Groups and Tunneling: Evidence from Corporate Charitable Contributions by Korean…
+Table 5 Influence of giving
+growth on sales growth within
+Business Group
+
+Dependent variable = DSALEt
+
+Model (1)
+Coeff.
+
+655
+
+Model (2)
+p value
+
+Coeff.
+
+Model (3)
+p value
+
+Coeff.
+
+p value
+
+Panel A: Private affiliates (N = 1720)
+Intercept
+DGivingt-1
+
+0.069***
+-1.136
+
+0.00
+0.82
+
+DGroup-wideGivingt-1
+
+0.069***
+
+0.00
+
+-1.792
+
+0.72
+
+7.073*
+
+0.07
+
+0.069***
+-2.626
+
+0.00
+0.61
+
+DPublicGivingt-1
+
+5.958**
+
+0.04
+
+DPrivateGivingt-1
+
+5.963
+
+0.34
+
+DSALEt-1
+
+0.213***
+
+DSALEt-2
+
+-0.008*
+
+DAdvertisingt-1
+
+0.00
+
+0.209***
+
+0.39
+
+-0.009
+
+0.00
+
+0.208***
+
+0.00
+
+0.37
+
+-0.009
+
+0.38
+
+-1.171
+
+0.38
+
+-1.116
+
+0.40
+
+-1.089
+
+0.41
+
+DGroup-wideAdvertisingt-1
+
+0.392
+
+0.84
+
+0.052
+
+0.98
+
+-0.062
+
+0.97
+
+FirmSizet
+Adjusted R2
+
+0.002
+4.38%
+
+0.62
+
+0.002
+4.51%
+
+0.61
+
+0.002
+4.57%
+
+0.60
+
+0.089***
+
+0.00
+
+Panel B: Public affiliates (N = 1526)
+Intercept
+DGivingt-1
+
+0.089***
+-5.100
+
+0.01
+0.32
+
+DPublicGivingt-1
+
+-0.079
+
+0.99
+
+DPrivateGivingt-1
+
+-7.738
+
+0.11
+
+DSALEt-2
+
+0.052**
+
+0.04
+
+-3.659
+
+0.54
+
+0.02
+0.38
+
+DSALEt-1
+
+0.46
+
+0.077**
+-4.791
+
+DGroup-wideGivingt-1
+
+-3.983
+
+0.051**
+
+0.04
+
+0.054**
+
+0.03
+
+-0.021
+
+0.35
+
+-0.022
+
+0.34
+
+-0.023
+
+0.32
+
+DAdvertisingt-1
+
+0.556
+
+0.62
+
+0.541
+
+0.63
+
+0.527
+
+0.64
+
+DGroup-wideAdvertisingt-1
+
+4.992**
+
+0.03
+
+5.180**
+
+0.03
+
+4.945**
+
+0.04
+
+0.88
+
+0.001
+
+0.83
+
+FirmSizet
+
+-0.001
+
+Adjusted R2
+
+0.39%
+
+0.90
+
+-0.001
+0.36%
+
+0.42%
+
+This table presents the results from the OLS regression based on 3246 group affiliates. The dependent
+variable is sales growth (DSALE). See Appendix 1 for variable definitions. All continuous variables are
+winsorized at the 1 and 99% level
+***, **, and * denote statistical significance at the 1, 5, and 10% level, respectively
+
+DPublicGivingt-1 is positive and statistically significant,
+suggesting that growth in the amount of public affiliates’
+charitable contributions is positively associated with the
+future revenue growth of private affiliates within the same
+business group.18
+Panel B of Table 5 presents the regression results of
+public affiliates’ future revenue growth. Unlike the results
+for private affiliates, we find that the coefficient on
+DGroup-wideGivingt-1 is insignificant, implying that
+public affiliates do not benefit from the group-wide corporate giving.
+In sum, while private affiliates do not benefit from their
+own corporate giving, they enjoy the marketing effect from
+
+18
+
+In untabulated tests, we verify that our results remain qualitatively
+the same when using log change variables [e.g., log(Givingt-1/
+Givingt-2)] instead of change variables [e.g., DGivingt-1] to measure
+various growth variables.
+
+their public affiliates’ corporate giving. These results in
+Table 5 support H3 that business groups strategically
+allocate a larger amount of corporate charitable contributions to public affiliates as a means of tunneling (i.e., to
+transfer the marketing effect) within business groups.
+Changes in Charitable Contributions Around Going
+Public
+We addressed potential endogeneity concerns about listing
+status by employing Heckman’s (1979) two-stage procedure in our main analysis. However, it is still plausible that
+some other factors may influence the listing status of a firm
+and the corporate giving simultaneously. If listing status is
+an important factor for corporate giving, the level of corporate giving would change when companies go public.
+Since we are examining the change in the level of corporate giving of the same firm, we may better control for the
+inherent differences in corporate giving between public and
+private firms.
+
+123
+
+656
+
+B. Kim et al.
+
+Figure 1 shows the trend of corporate giving around
+going public. Using 240 firms which went public during the
+period 2000–2014, we find that the mean values of Giving
+in years prior to firms’ initial public offering increase until
+the year of public offering (from 0.067 in t-3 to 0.093 in t)
+and then gradually decrease after the public offering. It is
+notable that the levels of Giving remain elevated after the
+public offering compared with those in the pre-offering
+period. Further, Table 6 reports the t test results on the
+differences in the level of corporate giving between the
+pre- and the post-IPO periods. Consistent with Fig. 1, the
+level of corporate giving in the post-IPO period is significantly higher than that in the pre-IPO period. Overall, the
+
+Fig. 1 Changes in corporate giving around going public. This
+figure illustrates yearly changes in the mean and median values of
+corporate charitable contributions (as a percentage of sales) around
+the IPO year of firms going public
+
+Table 6 Comparison of giving
+levels before and after going
+public
+
+results are consistent with H1 that the listing status is an
+important factor to influence the level of corporate giving.
+Additional controls
+Marketing assets
+Prior literature (e.g., Wang and Qian 2011; Fry et al. 1982)
+argues that some firms use corporate giving as a means of
+corporate marketing activities. In that case, firms may use
+both corporate giving and conventional marketing activities like advertisement to enhance their public image and
+brand power. Suppose public (group-affiliated) firms are on
+average engaged with more marketing activities than private (non-affiliated) firms and use corporate charitable contributions for marketing purposes. If so, our results
+may not be attributable to the visibility and political costs
+as we hypothesized but rather attributable to the differential
+levels of marketing activities between public and private
+firms. To alleviate this concern, we additionally control for
+the potential effect from current and past marketing
+activities in Eqs. (2), (3), and (4).
+Expenditures associated with current and past marketing
+activities are expensed rather than recorded as an asset in
+the financial statements. But, Lev and Sougiannis (1996)
+argue that advertising expenses on product promotion and
+brand development create an intangible asset, which we
+will refer to as a marketing asset. Accordingly, Lundholm
+and Sloan (2013) suggest that benefits from advertising
+need to be capitalized and amortized over an extended
+period. As in Lundholm and Sloan (2013), assuming that
+the effect of advertisement lasts about 3 years and
+
+Pre-IPO
+Mean
+
+Median
+
+Surrounding-IPO
+
+Test of difference
+
+Mean
+
+t test
+
+Wilcoxon Z test
+
+0.00
+
+0.00
+
+Median
+
+Panel A: Pre-IPO (before, -1) versus surrounding-IPO (0, 1)
+Giving
+
+0.066
+
+N
+
+(1110)
+
+(465)
+
+Pre-IPO
+
+Post-IPO
+
+Mean
+
+0.013
+
+Median
+
+0.091
+
+Mean
+
+0.020
+
+Test of difference
+Median
+
+t test
+
+Wilcoxon Z test
+
+0.020
+
+0.03
+
+0.00
+
+Panel B: Pre-IPO (before, -1) versus Post-IPO (0, after)
+Giving
+
+0.066
+
+N
+
+(1110)
+
+0.013
+
+0.079
+(1074)
+
+All continuous variables are winsorized at the 1 and 99% level
+***, **, and * denote statistical significance at the 1, 5, and 10% level, respectively
+
+123
+
+Business Groups and Tunneling: Evidence from Corporate Charitable Contributions by Korean…
+Table 7 Influence of listing
+status and group affiliation on
+charitable contribution with
+additional controls
+
+Dependent variable = Givingt
+
+Model (1)
+Coeff.
+
+657
+
+Model (2)
+p value
+
+Model (3)
+
+Coeff.
+
+p value
+
+Coeff.
+
+p value
+
+0.070***
+
+0.00
+
+0.070***
+
+0.00
+
+0.002
+
+0.18
+
+0.005*
+
+0.06
+
+Panel A: Control for marketing asset (N = 69,558)
+Intercept
+
+0.066***
+
+0.00
+
+Publict
+
+0.003**
+
+0.05
+
+Affiliatet
+
+0.009***
+
+0.00
+
+Publict 9 Affiliatet
+
+0.009**
+
+0.02
+
+FirmSizet
+
+0.003***
+
+0.00
+
+0.002***
+
+0.00
+
+0.002***
+
+0.01
+
+Aget
+
+0.000***
+
+0.00
+
+0.000***
+
+0.00
+
+0.000***
+
+0.00
+
+Leveraget
+
+-0.001***
+
+0.00
+
+-0.001***
+
+0.00
+
+-0.001***
+
+0.00
+
+ROAt
+
+0.074***
+
+0.00
+
+0.073***
+
+0.00
+
+0.074***
+
+0.00
+
+Advertisingt
+
+0.485***
+
+0.00
+
+0.488***
+
+0.00
+
+0.487***
+
+0.00
+
+PreGivingDt
+Big4Auditt
+
+0.031***
+0.001
+
+0.00
+0.65
+
+0.031***
+0.000
+
+0.00
+0.78
+
+0.031***
+0.000
+
+0.00
+0.94
+
+Unrecorded-Marketing Assett
+
+0.063
+
+0.11
+
+0.065*
+
+0.10
+
+0.066*
+
+0.10
+
+IMR
+
+0.001
+
+0.39
+
+0.000
+
+0.87
+
+0.001
+
+0.62
+
+Year fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Industry fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Adjusted R2
+
+6.88%
+
+6.90%
+
+6.91%
+
+Panel B: Control for corporate governance (N = 69,558)
+Intercept
+
+0.060***
+
+0.00
+
+Publict
+
+0.007***
+
+0.00
+
+Affiliatet
+
+0.069***
+0.008***
+
+0.00
+0.00
+
+Publict 9 Affiliatet
+
+0.065***
+
+0.00
+
+0.006***
+
+0.00
+
+0.005**
+
+0.04
+
+0.007*
+
+0.09
+0.05
+
+FirmSizet
+
+0.002***
+
+0.00
+
+0.002***
+
+0.01
+
+0.001**
+
+Aget
+
+0.000***
+
+0.00
+
+0.000***
+
+0.00
+
+0.000***
+
+0.00
+
+Leveraget
+
+-0.001***
+
+0.00
+
+0.000***
+
+0.00
+
+-0.001***
+
+0.00
+
+ROAt
+
+0.074***
+
+0.00
+
+0.073***
+
+0.00
+
+0.074***
+
+0.00
+
+Advertisingt
+PreGivingDt
+
+0.549***
+0.031***
+
+0.00
+0.00
+
+0.556***
+0.031***
+
+0.00
+0.00
+
+0.554***
+0.031***
+
+0.00
+0.00
+
+Big4Auditt
+
+0.000
+
+0.80
+
+0.001
+
+0.70
+
+0.000
+
+0.84
+
+CGVDt
+
+0.009***
+
+0.00
+
+0.004**
+
+0.08
+
+0.008***
+
+0.00
+
+IMR
+
+0.000
+
+0.71
+
+0.000
+
+0.76
+
+0.000
+
+0.87
+
+Year fixed effects
+
+Yes
+
+Yes
+
+Industry fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Adjusted R2
+
+6.90%
+
+6.90%
+
+6.92%
+
+Yes
+
+This table presents the results from the Heckman second-stage model after controlling for unrecordedmarketing asset and corporate governance. The dependent variable is corporate giving (Giving). See
+Appendix 1 for variable definitions. All continuous variables are winsorized at the 1 and 99% level
+***, **, and * denote statistical significance at the 1, 5, and 10% level, respectively
+
+expenditures are made evenly throughout the year, we
+measure unrecorded marketing assets as the sum of 2.5/3 of
+current-year advertising expenditure, 1.5/3 of one-year-ago
+advertising expenditure, and 0.5/3 of two-year-ago advertising expenditure.19
+
+Panel A of Table 7 presents the regression results for the
+influence of listing status and group affiliation on charitable contributions after controlling for unrecorded marketing assets. In all the models, we find qualitatively similar
+results with Panel A of Table 3, suggesting that our results
+are not driven by the marketing intensity of the firms.20
+20
+
+19
+
+In untabulated tests, we verify that our results, while become weak
+partly owing to the loss of data, remain qualitatively similar when we
+use a longer 10 years of capitalization period.
+
+In untabulated tests, we verify that our results remain qualitatively
+similar when we control for Advertising Intensity (advertising expense
+as a percentage of total sales) instead of Unrecorded-Marketing
+Assets.
+
+123
+
+658
+
+Corporate Governance
+While prior literature (e.g., Yermack 2009; Barnea and
+Rubin 2010) suggests that managers make use of corporate
+giving for their own interests, Masulis and Reza (2015) and
+Brown et al. (2006) show that good corporate governance
+can reduce agency problems like the opportunistic use of
+charitable contributions. The stock market (the government
+and regulators) may demand a higher level of corporate
+governance for public (group-affiliated) firms compared to
+private (non-affiliated) firms. If so, our results may not be
+attributable to the visibility and political costs of public
+firms as we hypothesized but rather attributable to the
+differential levels of corporate governance between public
+and private firms (between group-affiliated and non-affiliated firms). While we already control for the quality of
+external monitoring by including Big4Audit (an indicator
+variable that equals one if a firm has a Big 4 auditor) in
+Eqs. (2), (3), and (4), we address the issue further by
+controlling for the level of corporate governance in this
+subsection.
+In particular, we suggest a proxy for corporate governance based on the Framework Act on Small and Medium
+Enterprises (SMEs).21 In Korea, regulation on corporate
+governance are mainly aimed at larger firms and the government often offers SMEs exemptions from complying
+with the corporate law (e.g., the proportion of outside
+directors, see Black et al. 2006). Korea Corporate Governance Service (a non-profit organization jointly created by
+KRX, KLCA, and Korea Financial Investment Association) reports that SMEs have weaker corporate governance
+in various dimensions such as the board of directors,
+financial disclosures, audit committee, and corporate payouts compared to non-SMEs (Korea Corporate Governance
+Service 2012). Thus, we use whether a firm is designated as
+a SME under the Framework Act on SMEs to proxy for the
+level of a firm’s corporate governance.
+Panel B of Table 7 presents the regression results for the
+influence of listing status and group affiliation on charitable contributions after controlling for corporate governance. In all the models, we find qualitatively similar
+results with Panel A of Table 3, indicating that our results
+are not driven by the presence of monitors.
+Political Corruption and Corporate Giving
+Thus far, we implicitly assume that the motivation of
+corporate giving is to improve the firm’s marketing and
+
+B. Kim et al.
+
+public relations. However, research suggests that some
+firms engage in corporate giving to improve their political
+connection or to manipulate the democratic system (e.g.,
+Wang and Qian 2011; Li et al. 2015a, b). In this subsection,
+we separate out the effect of the former (i.e., social relations) from that of the latter (i.e., political corruption).22 In
+particular, following OECD’s foreign bribery report
+(2014), we categorize extractive, construction, and transportation & storage industries as political corruption-prone
+industries. We then rerun the main regression analysis
+separately for the two subgroups: a subgroup of firms in
+corruption-prone industries and a subgroup of firms in
+other industries. Table 8 provides the regression results.
+Panel A shows that when we confine our analysis to firms
+in the corruption-prone industries, none of our main
+hypotheses are supported. However, in Panel B, we find
+that all of our main hypotheses (H1, H2, and H3) continue
+to hold for other firms which would consider societal
+relations for their corporate giving decisions. These results
+suggest that our main findings are mostly attributable to
+those firms which are likely to be motivated to use charitable contributions for societal reasons (e.g., marketing and
+public relations), but firms in corruption-prone industries
+would use charitable contributions or other means such as
+direct bribes to influence government officials rather than
+to enhance corporate image or to maintain a good rapport
+with customers.
+Alternative Definitions of Public Firms and Business
+Groups
+Thus far, we define public firms as those that are listed on
+KRX, the nation’s sole securities exchange, and business
+groups using group affiliation data on the KLCA database,
+which collects information regarding group affiliation from
+the financial statements. In this subsection, we extend the
+definitions of public firms and business groups.
+First, KRX in fact has two separate equity markets:
+KOSPI and KOSDAQ. The former is often compared to the
+New York Stock Exchange (NYSE) and considered as the
+leading equity market for established publicly traded
+companies in the nation. The latter is often compared to
+NASDAQ and tends to list small technology-oriented
+growth firms. Thus, KOSDAQ listed firms would be more
+interested in making short-term profits from risky investments rather than pursuing a long-term value of the firms.
+Panel A of Table 9 shows that KOSPI listed firms make
+more charitable contributions than private firms while
+KOSDAQ listed firms do not, suggesting that listing on
+
+21
+
+Korean Corporate Governance Index (KCGI) developed by Black
+et al. (2006) is most widely used proxy for corporate governance in
+Korean evidence. However, KCGI is not feasible for our study, since
+it does not cover private firms.
+
+123
+
+22
+
+We are very grateful to an anonymous reviewer to suggest
+isolating the impact of societal relations from that of political
+corruption.
+
+Business Groups and Tunneling: Evidence from Corporate Charitable Contributions by Korean…
+Table 8 Political corruption
+and corporate giving
+
+Dependent variable = Givingt
+
+Model (1)
+Coeff.
+
+659
+
+Model (2)
+p value
+
+Coeff.
+
+Model (3)
+p value
+
+Coeff.
+
+p value
+
+0.00
+
+0.050***
+
+0.00
+
+-0.007
+
+0.28
+0.00
+
+Panel A: Firms in political corruption-prone industries (N = 9242)
+Intercept
+
+0.050***
+
+0.00
+
+Publict
+
+-0.005
+
+0.37
+
+Affiliatet
+
+0.049***
+-0.020***
+
+0.00
+
+-0.027***
+0.019
+
+0.13
+
+0.004**
+
+0.02
+
+0.004**
+
+0.02
+
+Publict 9 Affiliatet
+FirmSizet
+
+0.003*
+
+Aget
+
+0.000
+
+0.97
+
+0.000
+
+0.69
+
+0.000
+
+0.66
+
+Leveraget
+
+-0.001
+
+0.21
+
+-0.001
+
+0.18
+
+-0.001
+
+0.18
+
+ROAt
+
+-0.007
+
+0.71
+
+-0.007
+
+0.69
+
+-0.007
+
+0.69
+
+Advertisingt
+
+0.554**
+
+0.02
+
+0.546**
+
+0.03
+
+0.542**
+
+0.03
+
+PreGivingDt
+Big4Auditt
+
+0.029***
+0.004
+
+0.00
+0.39
+
+0.029***
+0.006
+
+0.00
+0.19
+
+0.029***
+0.007
+
+0.00
+0.14
+
+IMR
+
+-0.001
+
+0.72
+
+-0.001
+
+0.71
+
+-0.001
+
+0.65
+
+Year fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Industry fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+2.79%
+
+2.88%
+
+2.88%
+
+Adjusted R
+
+2
+
+0.06
+
+Panel B: Firms in industries not prone to political corruption (N = 60,316)
+Intercept
+
+0.068***
+
+0.00
+
+Publict
+
+0.004**
+
+0.02
+
+Affiliatet
+
+0.073***
+
+0.00
+
+0.072***
+
+0.00
+
+0.003**
+
+0.04
+0.00
+
+0.012***
+
+0.00
+
+0.009***
+0.009**
+
+0.03
+
+0.001**
+
+0.05
+
+0.001
+
+0.14
+
+Publict 9 Affiliatet
+FirmSizet
+
+0.002***
+
+Aget
+
+0.000***
+
+0.00
+
+0.000***
+
+0.00
+
+0.000***
+
+0.00
+
+Leveraget
+
+-0.001***
+
+0.00
+
+-0.001***
+
+0.00
+
+-0.001***
+
+0.00
+
+0.00
+
+ROAt
+
+0.085***
+
+0.00
+
+0.084***
+
+0.00
+
+0.086***
+
+0.00
+
+Advertisingt
+
+0.552**
+
+0.00
+
+0.558***
+
+0.00
+
+0.559***
+
+0.00
+
+PreGivingDt
+Big4Auditt
+
+0.031***
+0.000
+
+0.00
+0.87
+
+0.031***
+0.000
+
+0.00
+0.96
+
+0.031***
+-0.001
+
+0.00
+0.60
+
+IMR
+
+0.001
+
+0.46
+
+0.000
+
+0.90
+
+0.000
+
+0.72
+
+Year fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Industry fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+7.62%
+
+7.66%
+
+7.67%
+
+Adjusted R
+
+2
+
+This table presents the OLS regression results for the Heckman second-stage model for sub-samples:
+Industries prone to political corruption (Panel A) and industries not prone to political corruption (Panel B).
+See Appendix 1 and Sect. 5.5 for variable definitions. All continuous variables are winsorized at the 1 and
+99% level
+***, **, and * denote statistical significance at the 1, 5, and 10% level, respectively
+
+KOSPI only influences corporate philanthropic decisions.23
+Next, we examine whether larger business groups, also
+known as Chaebols, exhibit a similar pattern of philanthropic behavior as smaller business groups. Prior literature
+highlights that large business groups in Korea or Chaebols
+(Chang 2003; Joh 2003) have significant economic
+23
+
+We are very grateful to an anonymous reviewer for pointing out
+this market segregation in Korea.
+
+importance for the Korean economy (Bae et al. 2008; Baek
+et al. 2006). Chang and Hong (2000) argue that Chaebols
+play a substantial role in determining the economic performance of Korea. Kim and Yi (2006) report that Chaebols manage earnings more aggressively than non-affiliated
+firms. Given that Chaebols exhibit different patterns of
+corporate decisions from small business groups, they may
+exhibit different patterns of corporate giving behavior.
+Thus, we examine whether our findings are robust to
+
+123
+
+660
+
+B. Kim et al.
+
+Table 9 Alternative definitions of public firms and business groups
+Coeff.
+
+p value
+
+Intercept
+
+0.072***
+
+0.00
+
+KOSPIt
+
+0.010***
+
+0.00
+
+KOSDAQt
+
+-0.001
+
+0.39
+
+FirmSizet
+
+0.002***
+
+0.00
+
+Aget
+
+0.000***
+
+0.00
+
+Leveraget
+
+-0.001***
+
+0.00
+
+Dependent variable = Givingt
+Panel A: Distinction between KOSPI & KOSDAQ listing (N = 69,558)
+
+ROAt
+
+0.073***
+
+0.00
+
+Advertisingt
+
+0.552***
+
+0.00
+
+PreGivingDt
+
+0.031***
+
+0.00
+
+Big4Auditt
+
+0.000
+
+0.78
+
+Year fixed effects
+
+Yes
+
+Industry fixed effects
+
+Yes
+
+Adjusted R2
+
+6.91%
+
+Dependent variable = Givingt
+
+Model (1)
+Coeff.
+
+Model (2)
+p value
+
+Coeff.
+
+Model (3)
+p value
+
+Coeff.
+
+p value
+
+0.070***
+
+0.00
+
+0.070***
+
+0.00
+
+0.002
+
+0.25
+
+0.007***
+
+0.00
+
+0.001
+0.013***
+
+0.58
+0.00
+
+Panel B: KFTC designated large business groups or Chaebols (G_KFTC) (N = 69,558)
+Intercept
+
+0.066***
+
+0.00
+
+Publict
+
+0.003**
+
+0.05
+
+G_KFTCt
+Publict 9 G_KFTCt
+FirmSizet
+
+0.003***
+
+0.00
+
+0.002***
+
+0.00
+
+0.002***
+
+0.01
+
+Aget
+
+0.000***
+
+0.00
+
+0.000***
+
+0.00
+
+0.000***
+
+0.00
+
+Leveraget
+
+-0.001***
+
+0.00
+
+-0.001***
+
+0.00
+
+-0.001***
+
+0.00
+
+ROAt
+
+0.074***
+
+0.00
+
+0.073***
+
+0.00
+
+0.074***
+
+0.00
+
+Advertisingt
+
+0.553***
+
+0.00
+
+0.556***
+
+0.00
+
+0.556***
+
+0.00
+
+PreGivingDt
+
+0.031***
+
+0.00
+
+0.031***
+
+0.00
+
+0.031***
+
+0.00
+
+Big4Auditt
+
+0.001
+
+0.65
+
+0.001
+
+0.70
+
+0.000
+
+0.96
+
+IMR
+
+0.001
+
+0.41
+
+0.000
+
+0.88
+
+0.000
+
+0.70
+
+Year fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Industry fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Adjusted R2
+
+6.88%
+
+6.89%
+
+6.91%
+
+Dependent variable = Givingt
+
+Model (1)
+
+Model (2)
+
+Model (3)
+
+Coeff.
+
+p value
+
+Coeff.
+
+p value
+
+Coeff.
+
+p value
+
+0.070***
+
+0.00
+
+0.071***
+
+0.00
+
+Panel C: Top 30 large business groups (Big30) (N = 69,558)
+Intercept
+
+0.066***
+
+0.00
+
+Publict
+
+0.003**
+
+0.05
+
+Big30t
+
+0.009***
+
+0.001
+
+0.38
+
+0.00
+
+0.000
+
+0.99
+0.00
+0.01
+0.00
+
+Publict 9 Big30t
+FirmSizet
+
+0.003***
+
+0.00
+
+0.002***
+
+0.00
+
+0.022***
+0.002***
+
+Aget
+
+0.000***
+
+0.00
+
+0.000***
+
+0.00
+
+0.000***
+
+Leveraget
+
+-0.001***
+
+0.00
+
+-0.001***
+
+0.00
+
+-0.001***
+
+0.00
+
+ROAt
+
+0.074***
+
+0.00
+
+0.073***
+
+0.00
+
+0.074***
+
+0.00
+
+Advertisingt
+
+0.553***
+
+0.00
+
+0.556***
+
+0.00
+
+0.557***
+
+0.00
+
+PreGivingDt
+
+0.031***
+
+0.00
+
+0.031***
+
+0.00
+
+0.031***
+
+0.00
+
+Big4Auditt
+
+0.001
+
+0.65
+
+0.001
+
+0.70
+
+0.000
+
+0.96
+
+123
+
+Business Groups and Tunneling: Evidence from Corporate Charitable Contributions by Korean…
+
+661
+
+Table 9 continued
+Dependent variable = Givingt
+
+Model (1)
+
+Model (2)
+
+Model (3)
+
+Coeff.
+
+p value
+
+Coeff.
+
+p value
+
+Coeff.
+
+p value
+
+IMR
+
+0.001
+
+0.41
+
+0.000
+
+0.90
+
+0.000
+
+0.78
+
+Year fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Industry fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Adjusted R2
+
+6.88%
+
+6.90%
+
+6.94%
+
+Panel A presents the results from the OLS regression based on 69,558 firm-year observations. The dependent variable is corporate giving
+(Giving). See Appendix 1 for variable definitions. All continuous variables are winsorized at the 1 and 99% level. Panels B and C present the
+results from OLS regression for the Heckman second-stage model based on 69,558 firm-year observations from 2000 to 2014. The dependent
+variable is corporate giving (Giving). In order to examine the influence of large business groups (i.e., Chaebols), we replace our variable of
+interest, Affiliate¸ with G_KFTC or Big30. Panel B reports the results based on G_KFTC, which represents large business groups designated by
+KFTC and Panel C reports the results based on Big30, which represents one of the 30 largest business groups in Korea. See Appendix 1 and
+Sect. 5.5 for variable definitions. All continuous variables are winsorized at the 1 and 99% level
+***, **, and * denote statistical significance at the 1, 5, and 10% level, respectively
+
+different definitions of business groups based on the
+information disclosed from KFTC.24
+Panel B of Table 9 reports the regression results of
+Eqs. (2), (3), and (4) by replacing Affiliate with G_KFTC,
+which represents large business groups or Chaebols as
+identified by KFTC.25 We find significant and positive
+coefficients on G_KFTC in model (2), and on Public x
+G_KFTC in model (3), suggesting that Chaebols make
+more charitable contributions than non-Chaebols and that
+they also strategically allocate corporate giving to public
+affiliates. Panel C of Table 9 presents qualitatively similar
+results using the largest thirty Chaebols (Big30). Furthermore, we find out that the coefficient on Public 9 Big30
+(0.022) is significantly larger than that on Public 9 Affiliate
+(0.009) in Panel A of Table 3, implying that the strategic
+allocation of corporate giving is more pronounced among
+large Chaebols than among smaller business groups in
+Korea.
+Corporate Giving Decision
+In this subsection, we investigate whether the influence of
+listing status and group affiliation on the likelihood of
+corporate giving exhibits a different pattern from that on
+the amount of corporate giving. Using GivingD, a dummy
+variable that equals one if a firm ever makes charitable contributions, as the dependent variable, we estimate
+the following Probit model:
+24
+Bae et al. (2008) and Kim and Yi (2006) highlight the economic
+importance of thirty largest Chaebols in the Korean economy.
+25
+Defining a Chaebol as ‘‘a group of companies of which more than
+30% of shares are owned by the group’s controlling shareholder and
+its affiliated companies,’’ KFTC regularly releases the list of Chaebols
+and ranks the business groups by their total assets.
+
+
+Pr GivingDi;t ¼ 1 ¼ Uðd0 þ d1 Publici;t þ d2 Affiliatei;t
+þ d3 Publici;t  Affiliatei;t
+þ d4 FirmSizei;t þ d5 Agei;t þ d6 Leveragei;t þ d7 ROAi;t
+þ d8 Advertisingi;t þ d9 PreGivingDi;t þ d10 Big4Auditi;t
+þ ðYear dummiesÞ þ ðIndustry dummiesÞ þ eÞ
+
+ð5Þ
+
+Panel A of Table 10 reports the Probit regression results of
+Eq. (5). We find a positive coefficient on Public, suggesting that public firms are more likely to make charitable contributions than private firms. However, unlike the
+results of giving amount, the coefficients on Affiliate and
+Public 9 Affiliate are not statistically significant, implying
+that business group-affiliated firms are not more likely to
+make charitable contributions than non-affiliated firms.
+Overall, the above results suggest that while higher political costs and visibility costs affect business group-affiliated
+firms to increase the amount of charitable contributions, the
+costs do not appear to influence the corporate giving
+decision of whether those affiliated firms ever make
+charitable contributions.26
+Finally, we examine the initiation effect of corporate
+giving on sales growth as it could be an important event in
+corporate philanthropy policy. We regress sales growth on
+an indicator variable for the initiation of corporate giving
+(Initiation) as follows:
+DSALEi;tþ1 ¼ d0 þ d1 DGivingi;t þ d2 Initiationi;t
+þ d3 DGivingi;t  Initiationi;t
+þ d4 DSALEi;t þ d5 DSALEi;t1 þ d6 DAdvertisingi;t
+þ d7 FirmSizei;t þ e
+
+ð6Þ
+
+26
+
+We find the same results from Logit regression estimates
+(untabulated).
+
+123
+
+662
+
+B. Kim et al.
+
+Table 10 corporate giving decision
+Dependent variable = GivingDt
+
+Model (1)
+Coeff.
+
+Model (2)
+p value
+
+Coeff.
+
+Model (3)
+p value
+
+Coeff.
+
+p value
+
+-1.267***
+
+0.00
+
+0.071***
+
+0.00
+
+-0.011
+
+0.71
+
+Panel A: Influence of listing status and group affiliation on the likelihood of corporate giving (N = 111,525)
+Intercept
+
+-1.265***
+
+0.00
+
+Publict
+
+0.071***
+
+0.00
+
+Affiliatet
+
+-1.289***
+-0.016
+
+0.00
+0.52
+
+Publict 9 Affiliatet
+FirmSizet
+
+0.174***
+
+Aget
+
+-0.007***
+
+Leveraget
+
+0.005***
+
+ROAt
+
+1.145***
+
+Advertisingt
+
+4.547***
+
+PreGivingDt
+Big4Auditt
+
+1.701***
+-0.013
+
+Year fixed effects
+
+Yes
+
+0.00
+
+-0.004
+
+0.94
+
+0.183***
+
+0.00
+
+0.175***
+
+0.00
+
+0.00
+
+-0.008***
+
+0.00
+
+-0.007***
+
+0.00
+
+0.00
+
+0.005***
+
+0.00
+
+0.005***
+
+0.00
+
+0.00
+
+1.118***
+
+0.00
+
+1.145***
+
+0.00
+
+0.00
+
+4.541***
+
+0.00
+
+4.544***
+
+0.00
+
+0.00
+0.34
+
+1.702***
+-0.003
+
+0.00
+0.84
+
+1.701***
+-0.012
+
+0.00
+0.38
+
+Yes
+
+Yes
+
+Industry fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Adjusted R2
+
+50.40%
+
+50.39%
+
+50.40%
+
+Dependent variable = DSALEt?1
+
+Coeff.
+
+p value
+
+Panel B: Influence of the initiation of corporate giving on sales growth (N = 55,341)
+Intercept
+
+-0.002
+
+0.57
+
+DGivingt
+Initiationt
+
+-0.594
+0.022***
+
+0.41
+0.01
+
+DGivingt x Initiationt
+
+14.192***
+
+0.00
+
+DSALEt
+
+0.008*
+
+0.07
+
+DSALEt-1
+
+-0.053***
+
+0.00
+
+DAdvertisingt
+
+1.683***
+
+0.00
+
+0.019***
+
+0.00
+
+FirmSizet
+Adjusted R2
+
+0.98%
+
+Panel A presents the results from Probit regressions based on 111,525 firm-year observations. The dependent variable is an indicator variable for
+corporate giving decision (GivingD). See Appendix 1 for variable definitions. All continuous variables are winsorized at the 1 and 99% level.
+Panel B presents the results from OLS regressions based on 55,341 firm-year observations. The dependent variable is sales growth (DSALE). See
+Appendix 1 for variable definitions. All continuous variables are winsorized at the 1 and 99% level
+***, **, and * denote statistical significance at the 1, 5, and 10% level, respectively
+
+In Panel B of Table 10, we find that the coefficient on
+Initiation is significantly positive at the one percent level,
+suggesting that the initiation of corporate giving is significantly associated with subsequent revenue growth. Further, the coefficient on the interaction of Initiation and
+giving growth is also significantly positive at the one percent level, that is, the beneficial effect of increasing corporate giving on subsequent revenue growth is conspicuous
+when firms initiate their giving.27
+
+27
+
+We are very grateful to an anonymous reviewer for the suggestion
+to examine the initiation effect of corporate giving.
+
+123
+
+Conclusion
+We examine whether firm-specific corporate governance
+characteristics, in particular listing status and business
+group affiliation, are associated with corporate charitable contributions. We find that public firms make more
+charitable contributions than private firms and that business
+group-affiliated firms make more corporate contributions
+than non-affiliated firms. Further, we find that greater
+charitable contributions by public firms vis-à-vis private
+firms are more pronounced for business group-affiliated
+firms than for non-affiliated firms. Furthermore, our results
+are robust to alternative definitions of business groups (i.e.,
+
+Business Groups and Tunneling: Evidence from Corporate Charitable Contributions by Korean…
+
+top 30 Chaebols). Overall, our results suggest that public
+firms which are under greater public scrutiny and business
+groups which are subject to higher political costs and visibility costs are more likely to engage in corporate social
+activities and also that business groups strategically make
+use of corporate philanthropy as a means of tunneling
+corporate resources to controlling shareholders.
+This study is subject to several caveats. We predict and
+provide empirical evidence consistent with public firms
+making more corporate giving due to visibility and political
+costs (e.g., Merton 1987) and business groups utilizing
+corporate giving by public affiliates as a means of tunneling (e.g., Johnson et al. 2000). We have been careful in
+addressing potential endogeneity between listing status and
+corporate giving by employing several matching techniques in the literature including the Heckman two-stage
+procedure. However, to the extent that these procedures are
+not effective, one should be cautious in drawing causal
+inferences. Accordingly, we do not exclude the possibility
+that business groups and their public affiliates might simply
+have a greater need to make a large amount of corporate
+giving as good corporate citizens and as part of their
+strategic investments to look good to stakeholders including customers thereby enhancing their long-term firm value
+(e.g., Lev et al. 2010). Future research may extend the
+study by examining the long-term consequences of a large
+amount of corporate giving with respect to business group
+affiliates’ value and performance.
+Acknowledgements We thank Steven Dellaportas (Accounting
+Section Editor), two anonymous referees, Dominic H. Chai, Yong Jin
+Hyun, Jun-Koo Kang, Woojin Kim, Hyun-Han Shin, Chae-Yeol
+Yang, and the seminar participants at 2016 Korean Securities Association Conference, Korea Economic Research Institute, and 2016
+Association for Fair Trade Research Summer Symposium for helpful
+comments and suggestions. Jinhan Pae acknowledges the financial
+support from Korea University Research Grant.
+
+Appendix 1: Variable Descriptions
+
+663
+
+Variable
+
+Definition
+
+Leverage
+
+The book value of short- and long-term debt
+scaled by the book value of equity
+
+ROA
+
+Net income divided by total assets
+
+Advertising
+
+Advertising expense scaled by total assets
+
+PreGivingD
+
+An indicator variable that equals one if a firm
+made charitable contributions in the
+preceding year
+
+Big4Audit
+
+An indicator variable that equals one if a firm
+has a big 4 auditor
+
+ExportRatio
+
+The ratio of the amount of exports to total sales
+
+QuickRatio
+
+The quick ratio measured by current assets less
+inventory divided by current liabilities
+Proportion of public firms in a firm’s industry
+
+Industry_PubPr
+HHI
+
+Herfindahl–Hirschman index, measured as the
+sum of squares of the market shares (firm
+sales/industry sales) of the firms in the
+industry
+
+DSALE
+DGiving
+
+Percentage change in sales
+Change in the charitable contributions, scaled
+by sales
+
+DPublicGiving
+
+Change in the sum of the
+charitable contributions of public affiliates,
+scaled by the sum of the sales of public
+affiliates
+
+DPrivateGiving
+
+Change in the sum of the
+charitable contributions of private affiliates,
+scaled by the sum of the sales of private
+affiliates
+
+DGroup-wide
+Giving
+
+Change in the sum of the
+charitable contributions of all the group
+affiliates, scaled by the sum of the sales of
+group affiliates
+Change in the sum of the advertising expense
+of all the group affiliate, scaled by the sum of
+the sales of group affiliates
+
+DGroup-wide
+Advertising
+Wedge
+
+The difference between control rights and cash
+flow rights held by the controlling
+shareholder
+
+UnrecordedMarketing Asset
+
+(2.5/3) 9 Advertisingt ? (1.5/3) 9
+Advertisingt-1 ? (0.5/3) 9 Advertisingt-2
+
+CGVD
+
+An indicator variable that equals one if a firm is
+not classified as a small and medium size
+enterprise according to Framework Act on
+Small and Medium Enterprises
+
+Variable
+
+Definition
+G_KFTC
+
+Giving
+
+The amount of charitable contributions as a
+percentage of sales
+
+An indicator variable for large business groups
+or Chaebols as designated by KFTC
+
+KOSPI
+
+GivingD
+
+An indicator variable that equals one if a firm
+makes charitable contributions
+
+An indicator variable for firms on the KOSPI
+market
+
+KOSDAQ
+
+Public
+
+An indicator variable that equals one if a firm is
+listed on KRX
+
+An indicator variable for firms on the
+KOSDAQ market
+
+Big30
+
+Affiliate
+
+An indicator variable that equals one if a firm
+belongs to a business group
+
+An indicator variable that equals one if a firm
+belongs to top 30 Chaebol
+
+Initiation
+
+FirmSize
+
+The natural log of total assets
+
+Age
+
+The number of years elapsed since the
+incorporation
+
+An indicator variable for the initiation of
+corporate giving by firms that have not made
+charitable contributions in the preceding
+three years
+
+123
+
+664
+
+B. Kim et al.
+
+Appendix 2: Description on the Statistical Model
+Givingi;t ¼ d0 þ d1 Publici;t þ d2 Affiliatei;t þ d3 Publici;t
+ Affiliatei;t þ d4 FirmSizei;t þ d5 Agei;t
+þ d6 Leveragei;t þ d7 ROAi;t þ d8 Advertisingi;t
+þ d9 PreGivingDi;t þ d10 Big4Auditi;t þ d11 IMR
+þ ðYear dummiesÞ þ ðIndustry dummiesÞ þ e;
+ð4Þ
+Public
+
+Private
+
+Business
+Group
+
+Public 9 Affiliate [A]
+
+Private 9 Affiliate [C]
+
+Non-Group
+
+Public 9 Non-affiliate
+[B]
+
+Private 9 Non-affiliate
+[D]
+
+A: d0 ? d1 ? d2 ? d3, B: d0 ? d1, C: d0 ? d2, D:d0,
+A - B = d2 ? d3, A - C = d1 ? d3, B - D = d1, C - D = d2
+
+Equation (4) includes two variables of interest, Public and
+Affiliate, and an interaction variable of the two. In effect,
+the sample is partitioned into four subgroups: Public and
+affiliated firms [A], Public, but not affiliated firms [B],
+Private but affiliated [C], and Private and not affiliated
+firms [D]. d1 is an estimate of the effect of listing status on
+corporate charitable contributions and d2 is an estimate of
+the effect of group affiliation on corporate charitable contributions. d3 is an estimate of the excessive effect of
+subgroup A on corporate charitable contributions. The
+impact of subgroup A (B) on charitable contributions, on
+average, is computed by summing up d0, d1, d2, and d3 (d 0
+and d1), while the impact of subgroup C (D) on charitable contributions is sum of d0 and d2 (d0). The different
+impact on charitable contributions between A and B is the
+sum of d2 and d3, while it between A and C is the sum of d1
+and d3. d1 (d2) shows the different influence on charitable contributions between B and D (C and D).
+
+References
+Aguilera, R. V., Rupp, D. E., Williams, C. A., & Ganapathi, J. (2007).
+Putting the S back in corporate social responsibility: A
+multilevel theory of social change in organizations. Academy
+of Management Review, 32(3), 836–863.
+Albornoz, B., & Pope, P. (2004). The determinants of the going public
+decision: Evidence from the U. K. Working Paper, Instituto
+Valenciano de Investigaciones Economicas, S.A.
+Amato, L. H., & Amato, C. H. (2007). The effects of firm size and industry
+on corporate giving. Journal of Business Ethics, 72(3), 229–241.
+Atkinson, L., & Galaskiewicz, J. (1988). Stock ownership and
+company contributions to charity. Administrative Science Quarterly, 33(1), 82–100.
+Bae, G. S., Cheon, Y. S., & Kang, J.-K. (2008). Intragroup propping:
+Evidence from the stock-price effects of earnings announcements
+
+123
+
+by Korean business groups. Review of Financial Studies, 21(5),
+2015–2060.
+Bae, K.-H., Kang, J.-K., & Kim, J.-M. (2002). Tunneling or value
+added? Evidence from mergers by Korean business groups.
+Journal of Finance, 57(6), 2695–2740.
+Baek, J.-S., Kang, J.-K., & Lee, I. (2006). Business groups and
+tunneling: Evidence from private securities offerings by Korean
+chaebols. Journal of Finance, 61(5), 2415–2449.
+Ball, R., & Shivakumar, L. (2005). Earnings quality in UK private
+firms: Comparative loss recognition timeliness. Journal of
+Accounting and Economics, 39(1), 83–128.
+Bancel, F., & Mittoo, U. R. (2009). Why do European firms go
+public? European Financial Management, 15(4), 844–884.
+Barnea, A., & Rubin, A. (2010). Corporate social responsibility as a
+conflict between shareholders. Journal of Business Ethics, 97(1),
+71–86.
+Bertrand, M., Mehta, P., & Mullainathan, S. (2002). Ferreting out
+tunneling: An application to Indian business groups. Quarterly
+Journal of Economics, 117(1), 121–148.
+Black, B., Jang, H., & Kim, W. (2006). Predicting firms’ corporate
+governance choices: Evidence from Korea. Journal of Corporate
+Finance, 12, 660–691.
+Brammer, S., & Millington, A. (2005). Corporate reputation and
+philanthropy: An empirical analysis. Journal of Business Ethics,
+61(1), 29–44.
+Brown, W. O., Helland, E., & Smith, J. K. (2006). Corporate philanthropic
+practices. Journal of Corporate Finance, 12(5), 855–877.
+Campbell, D., & Slack, R. (2006). Public visibility as a determinant of
+the rate of corporate charitable donations. Business Ethics: A
+European Review, 15(1), 19–28.
+Campbell, T. L., II, & Keys, P. Y. (2002). Corporate governance in
+South Korea: The chaebol experience. Journal of Corporate
+Finance, 8(4), 373–391.
+Carroll, A. B. (2004). Managing ethically with global stakeholder: A
+present and future challenge. Academy of Management Executive, 18(2), 114–120.
+Chaney, P. K., Jeter, D. C., & Shivakumar, L. (2004). Self-selection
+of auditors and audit pricing in private firms. The Accounting
+Review, 79(1), 51–72.
+Chang, S. J. (2003). Ownership structure, expropriation, and performance of group-affiliated companies in Korea. Academy of
+Management Journal, 46(2), 238–253.
+Chang, S. J., & Hong, J. (2000). Economic performance of groupaffiliated companies in Korea: Intragroup resource sharing and
+internal business transactions. Academy of Management Journal,
+43(3), 429–448.
+Chemmanur, T., & Fulghieri, P. (1999). A theory of the going-public
+decision. Review of Financial Studies, 12(2), 249–279.
+Chemmanur, T., & He, J. (2011). IPO waves, product market
+competition, and the going public decision: Theory and
+evidence. Journal of Financial Economics, 101(2), 382–412.
+Chemmanur, T., He, S., & Nandy, D. (2010). The going public
+decision and the product market. Review of Financial Studies,
+23(5), 1855–1908.
+Chen, J. C., Patten, D. M., & Roberts, R. W. (2008). Corporate
+charitable contributions: A corporate social performance or
+legitimacy strategy? Journal of Business Ethics, 82(1), 131–144.
+Choi, H. (2010). Conglomerates get behind social enterprises. The
+Korea Herald.
+Choi, J., & Wang, H. (2007). The promise of a managerial values
+approach to corporate philanthropy. Journal of Business Ethics,
+75(4), 345–359.
+DeFond, M., Erkens, D. H., & Zhang, J. (2016). Does PSM really
+eliminate the big N audit quality effect? Working Paper,
+Marshall School of Business.
+
+Business Groups and Tunneling: Evidence from Corporate Charitable Contributions by Korean…
+Deng, X., Kang, J., & Low, B. (2013). Corporate social responsibility
+and stakeholder value maximization: Evidence from mergers.
+Journal of Financial Economics, 110(1), 87–109.
+Dhaliwal, D. S., Radhakrishnan, S., Tsang, A., & Yang, Y. G. (2012).
+Nonfinancial disclosure and analyst forecast accuracy: International evidence on corporate social responsibility disclosure. The
+Accounting Review, 87(3), 723–759.
+Foerster, S. R., & Karolyi, G. A. (1999). The effects of market
+segmentation and investor recognition on asset prices: Evidence
+from foreign stocks listing in the U.S. Journal of Finance, 54(3),
+981–1014.
+Frost, S. (2007, February 6). Korean shareholders fight back. CSR
+Asia.
+Fry, L. W., Keim, G. D., & Meiners, R. E. (1982). Corporate
+contributions: Altruistic or for-profit? Academy of Management
+Journal, 25(1), 94–106.
+Gan, A. (2006). The impact of public scrutiny on corporate
+philanthropy. Journal of Business Ethics, 69(3), 217–236.
+Gautier, A., & Pache, A.-C. (2015). Research on Corporate philanthropy: A review and assessment. Journal of Business Ethics,
+126(2), 343–369.
+Givoly, D., Hayn, C. K., & Katz, S. P. (2010). Does public ownership
+of equity improve earnings quality? The Accounting Review,
+85(1), 195–225.
+Haley, U. C. V. (1991). Corporate contributions as managerial
+masques: Reframing corporate contributions as strategies to
+influence society. Journal of Management Studies, 28(5),
+485–510.
+Heckman, J. J. (1979). Sample selection bias as a specification error.
+Econometrica, 47(1), 153–161.
+Hillman, A. J., & Keim, G. D. (2001). Shareholder value, stakeholder
+management, and social issues: What’s the bottom line?
+Strategic Management Journal, 22(2), 125–139.
+Hope, O.-K., Thomas, W. B., & Vyas, D. (2013). Financial reporting
+quality of U.S. private and public firms. The Accounting Review,
+88(5), 1715–1742.
+Iacus, S. M., King, G., & Porro, G. (2011). Multivariate matching
+methods that are monotonic imbalance bounding. Journal of the
+American Statistical Association, 106(493), 345–361.
+Joh, S. W. (2003). Corporate governance and firm profitability:
+Evidence from Korea before the economic crisis. Journal of
+Financial Economics, 68(2), 287–322.
+Johnson, S., La Porta, R., Lopez-de-Silanes, F., & Shleifer, A. (2000).
+Tunneling. The American Economic Review, 90(2), 22–27.
+Kadlec, J. J., & McConnell, G. B. (1994). The effect of market
+segmentation and liquidity on asset prices: Evidence from
+exchange listings. Journal of Finance, 49(2), 611–636.
+Kang, J. (2013). The relationship between corporate diversification
+and corporate social performance. Strategic Management Journal, 34(1), 94–109.
+Khanna, T., & Palepu, K. (2000). Is group affiliation profitable in
+emerging markets? An analysis of diversified Indian business
+groups. Journal of Finance, 55(2), 867–891.
+Kim, J., & Park, J. (2012, April 5). Analysis: South Korea’s unloved
+Chaebol. Reuters.
+Kim, J.-B., & Yi, C. (2006). Ownership structure, business group
+affiliation, listing status, and earnings management: Evidence
+from Korea. Contemporary Accounting Research, 23(2),
+427–464.
+Kim, Y., Park, M. S., & Wier, B. (2012). Is earnings quality
+associated with corporate social responsibility? The Accounting
+Review, 87(3), 761–796.
+Kirk, D. (2016, September 26). Korean mayor crusades against
+Samsung, Hyundai In bid to boost country’s SME. Forbes.
+Korea Corporate Governance Service. (2012). Analysis of environment, social and governance (ESG) performance of small and
+
+665
+
+medium enterprises (in Korean). http://www.cgs.or.kr/
+CGSDownload/eBook/REV/C201211004.pdf. Accessed January 5, 2017.
+Lee, B. (2012, September 16). Policies on Chaebol. The Korea Times.
+Lev, B., Petrovits, C., & Radhakrishnan, S. (2010). Is doing good
+good for you? How corporate charitable contributions enhance
+revenue growth. Strategic Management Journal, 31(2), 182–200.
+Lev, B., & Sougiannis, T. (1996). The capitalization, amortization,
+and value-relevance of R&D. Journal of Accounting and
+Economics, 21(1), 107–138.
+Li, S., Song, X., & Wu, H. (2015a). Political connection, ownership
+structure, and corporate philanthropy in China: A strategicpolitical perspective. Journal of Business Ethics. doi:10.1007/
+s10551-014-2167-y.
+Li, S., Wu, H., & Song, X. (2015b). Principal-principal conflicts and
+corporate philanthropy: Evidence from Chinese private firms.
+Journal of Business Ethics. doi:10.1007/s10551-015-2720-3.
+Lundholm, R., & Sloan, R. (2013). Equity valuation and analysis with
+eVal. New York: McGraw-Hill.
+Margolis, J. D., & Walsh, J. P. (2003). Misery loves companies:
+Rethinking social initiatives by business. Administrative Science
+Quarterly, 48(2), 268–305.
+Marquis, C., & Lee, M. (2013). Who is governing whom? Executives,
+governance, and the structure of generosity in large U.S. firms.
+Strategic Management Journal, 34(4), 483–497.
+Masulis, R. W., & Reza, S. W. (2015). Agency problems of corporate
+philanthropy. Review of Financial Studies, 28(2), 592–636.
+Mehran, H., & Peristiani, S. (2010). Financial visibility and the
+decision to go private. Review of Financial Studies, 23(2),
+519–547.
+Merton, R. (1987). A simple model of capital market equilibrium with
+incomplete information. Journal of Finance, 42(3), 483–510.
+Moore, G. (2001). Corporate social and financial performance: An
+investigation in the U.K. supermarket industry. Journal of
+Business Ethics, 34(3), 299–315.
+Moskalev, S., & Park, S. C. (2010). South Korean Chaebols and
+value-based management. Journal of Business Ethics, 92(1),
+49–62.
+Organisation for Economic Co-operation and Development. (2014).
+OECD foreign bribery report: An analysis of the crime of
+bribery of foreign public officials. http://www.oecd-ilibrary.org/
+governance/oecd-foreign-bribery-report_9789264226616-en.
+Accessed January 5, 2017.
+Pagano, M., Panetta, F., & Zingales, L. (1998). Why do companies go
+public? An empirical analysis. Journal of Finance, 53(1), 27–64.
+Roberts, R. W. (1992). Determinants of corporate social responsibility
+disclosure: An application of stakeholder theory. Accounting,
+Organizations and Society, 17(6), 595–612.
+Rosenbaum, P. R., & Rubin, D. B. (1983). The central role of the
+propensity score in observational studies for causal effects.
+Biometrika, 70(1), 41–55.
+Schwartz, R. A. (1968). Corporate philanthropic contributions.
+Journal of Finance, 23(3), 479–497.
+Seifert, B., Morris, S. A., & Bartkus, B. R. (2003). Comparing big
+givers and small givers: Financial correlates of corporate
+philanthropy. Journal of Business Ethics, 45(3), 195–211.
+Seifert, B., Morris, S. A., & Bartkus, B. R. (2004). Having, giving and
+getting: Slack resources, corporate philanthropy, and firm
+financial performance. Business and Society, 43(2), 135–161.
+Shipman, J. E., Swanquist, Q. T., & Whited, R. L. (2016). Propensity
+score matching in accounting research. The Accounting Review,
+Forthcoming.
+Tan, J., & Tang, Y. (2016). Donate money, but whose? An empirical
+study of ultimate control rights, agency problems, and corporate
+philanthropy in China. Journal of Business Ethics, 134, 593–610.
+doi:10.1007/s10551-014-2386-2.
+
+123
+
+666
+Waddock, S. A., & Graves, S. B. (1997). The corporate social
+performance-financial performance link. Strategic Management
+Journal, 18(4), 303–319.
+Wang, H., & Qian, C. (2011). Corporate philanthropy and corporate
+financial performance: The roles of stakeholder response and
+political access. Academy of Management Journal, 54(6),
+1159–1181.
+Watts, R. L., & Zimmerman, J. L. (1978). Towards a positive theory
+of the determination of accounting standards. The Accounting
+Review, 53(1), 112–134.
+Wooldridge, J. M. (2010). Econometric analysis of cross section and
+panel data. Cambridge, MA: MIT Press.
+
+123
+
+B. Kim et al.
+Yermack, D. (2009). Deductio’ ad absurdum: CEOs donating their
+own stock to their own family foundations. Journal of Financial
+Economics, 94(1), 107–123.
+Yoo, C.-Y., & Pae, J. (2016). Corporate charitable contributions:
+business award winners’ giving behaviors. Business Ethics: A
+European Review, 25(1), 25–44.
+Zhang, R., Zhu, J., Yue, H., & Zhu, C. (2010). Corporate
+philanthropic giving, advertising intensity, and industry competition level. Journal of Business Ethics, 94(1), 39–52.
+
+

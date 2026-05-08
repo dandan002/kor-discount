@@ -154,7 +154,8 @@ It is sometimes asserted that low South Korean equity valuations stem from the t
 ---
 
 ## 15. Black, Bernard S. et al. — "How Corporate Governance Affects Firm Value? Evidence on a Self-Dealing Channel from a Natural Experiment in Korea"
-**Source:** Journal of Banking & Finance, Vol. 51 (2015)
+**Authors:** Black, Bernard S., Kim, Woochan, Jang, Hasung & Park, Kyung-Suh
+**Source:** Journal of Banking & Finance, Vol. 51, pp. 131–150 (2015)
 
 **Abstract (original English):**
 Prior work in emerging markets provides evidence that better corporate governance predicts higher market value, but very little evidence on the specific channels through which governance can increase value. We provide evidence, from a natural experiment in Korea, that reduced tunneling is an important channel. Korean legal reform in 1999 changed the board structure of "large" firms (assets > 2 trillion won) relative to smaller firms. In event studies of the reform events, we show that large firms whose controllers have incentive to tunnel earn strong positive returns, relative to mid-sized firms. In panel regressions over 1998–2004, we also show that better governance moderates the negative effect of related-party transactions on value and increases the sensitivity of firm profitability to industry profitability (consistent with less tunneling).
@@ -164,7 +165,7 @@ Prior work in emerging markets provides evidence that better corporate governanc
 ---
 
 ## 16. Kim, Jeong-Bon & Yi, Cheong H. — "Foreign versus Domestic Institutional Investors in Emerging Markets: Who Contributes More to Firm-Specific Information Flow?"
-**Source:** China Journal of Accounting Research, Vol. 8 (2015)
+**Source:** China Journal of Accounting Research, Vol. 8, pp. 1–23 (2015)
 
 **Abstract (original English):**
 Using a large sample of firms listed on the Korea Stock Exchange over 1998–2007, this study investigates whether and how trading by foreign and domestic institutional investors improves the extent to which firm-specific information is incorporated into stock prices, captured by stock price synchronicity. We find, first, that stock price synchronicity decreases significantly with the intensity of trading by foreign investors and domestic institutional investors. Second, trading by foreign investors facilitates the incorporation of firm-specific information into stock prices to a greater extent than trading by aggregate domestic institutions. Third, among domestic institutions with differing investment horizons, short-term investing institutions, such as securities and investment trust companies, play a more important role in incorporating firm-specific information into stock prices via their trading activities, compared with long-term investing institutions, such as banks and insurance companies. Finally, we provide evidence suggesting that trading by foreign and domestic short-term institutions reduces the extent of accrual mispricing. Our results are robust to a variety of sensitivity checks.
@@ -174,6 +175,7 @@ Using a large sample of firms listed on the Korea Stock Exchange over 1998–200
 ---
 
 ## 17. Kim, Jootae et al. — "The Effects of Shareholding of the National Pension Fund on Environmental, Social, Governance, and Financial Performance: Evidence from the Korean Manufacturing Industry"
+**Authors:** Kim, Jootae, Son, Sungjin & Jin, Ick
 **Source:** Sustainability, Vol. 14, No. 18 (2022)
 
 **Abstract (original English):**
@@ -184,7 +186,8 @@ With the growing number of environmental, social, and governance (ESG) problems,
 ---
 
 ## 18. Kim, Sungmin et al. — "Does 'Vote No' Change Corporate Governance and Firm Value? Evidence from the Shareholder Activism of the Korean National Pension Service"
-**Source:** Emerging Markets Finance and Trade, Vol. 50, No. 5 (2014)
+**Authors:** Kim, Sungmin, Byun, Hee Sub & Lee, Eun Jung
+**Source:** Emerging Markets Finance and Trade, Vol. 50, No. 5, pp. 42–59 (2014)
 
 **Abstract (original English):**
 In this paper, we analyze the effect of shareholder activism on firm value through internal corporate governance in an emerging market. We investigate the shareholder activism by the National Pension Service (NPS) of Korea, the fourth-largest pension fund in the world in 2010. We investigate stock price reaction to a "vote no" press announcement and find that the market does not react in the short run, which reaction is inconsistent with the results from developed countries. We also find that firms experiencing "vote no" and improved internal corporate governance have higher firm valuation. Shareholder activism by the NPS is effective in increasing target firm value through improving internal corporate governance.
@@ -194,7 +197,7 @@ In this paper, we analyze the effect of shareholder activism on firm value throu
 ---
 
 ## 19. Kim, Hyeong Joon & Han, Seung Hun — "Supermajority Provisions and Shareholders Wealth: Evidence from South Korea's Natural Experiment"
-**Source:** Corporate Governance: An International Review, Vol. 30 (2022)
+**Source:** Corporate Governance: An International Review, Vol. 30, pp. 311–334 (2022)
 
 **Abstract (original English):**
 The existing research continues to debate whether firms' anti-takeover provisions enhance or harm shareholders' wealth. In this study, we examine the causal relation between the supermajority provision and shareholders' wealth by employing a quasi-natural experiment: the two court rulings that weaken the anti-takeover force of the supermajority provision in Korea, where the supermajority provision is the most widely used anti-takeover provision. Using market reactions around the two court rulings, we find that firms with a supermajority provision as their only anti-takeover provision significantly underperform on average, compared with firms with no provision. This finding is robust to various empirical approaches that aim to address potential endogeneity concerns. We also find evidence that the supermajority provision plays a more significant role for firms with long-term investments, higher complexity, or higher takeover threats. Furthermore, the second among the two court rulings appears to have a stronger impact on the firm value and institutional investors' selling compared with the first one, suggesting the reinforcing effect of similar court decisions. Overall, our study supports the value-enhancing perspective on the supermajority provision, indicating that the Korean stock market views such a provision as inducing higher shareholders' wealth.
@@ -214,14 +217,68 @@ As ESG issues are increasingly viewed as financially material, ESG shareholder e
 ---
 
 ## 21. Park, Sung-Hwan et al. — "Adoption of the Stewardship Code by Institutional Investors and Financial Reporting Quality: Focusing on Earnings Quality"
-**Source:** Accounting Journal (회계저널), Vol. 30, No. 2 (2021)
+**Source:** Accounting Journal (회계저널), Vol. 30, No. 2, pp. 141–181 (2021)
+
+**Authors:** Park, Sung-Hwan, Kang, Pyung Kyung, Jung, Tae Seop & Bark, Jaehyung
 
 **Original title:** 기관투자자의 스튜어드십 코드 도입과 기업의 재무보고 품질: 이익의 질을 중심으로
 
-**Abstract (original English; also available in Korean):**
+**Abstract (original English):**
 The purpose of this study is to examine the relationship between the adoption of the stewardship code by institutional investors and firms' financial reporting quality. Using data for firms listed on the Korean Stock Exchange, we analyze whether earnings quality has changed after the adoption of stewardship code by institutional investors such as the National Pension Service. For empirical analyses, we use the sample of 5,142 firm-year observations from 2017 to 2019. We utilize the following variables as independent variables: whether the stewardship code is adopted by institutional blockholders, the ratio of the number of institutional blockholders adopted the stewardship code to the number of total institutional blockholders, institutional blockholders' ownership adopted the stewardship code, and the ratio of institutional blockholders' ownership adopted the stewardship code to total institutional blockholders' ownership. And we use the absolute value of discretionary accrual, a proxy of earnings quality, as a dependent variable. From the correlation analysis, we find that the adoption of the stewardship code has a significant and positive correlation with earnings quality. However, in the regression analysis we cannot find a significant relationship between the adoption of the stewardship code and earnings quality. The results are consistent even after controlling firm size and market characteristics. These results could be attributed to the time lag because it will take a while for shareholders' activism driven by stewardship code to be effective over corporate governance and financial reporting quality. Therefore, market participants should carefully observe the effectiveness of the stewardship code from a long-term perspective.
 
 **Keywords:** stewardship code, shareholder activism, corporate governance, financial reporting quality, earnings quality
+
+---
+
+---
+
+## 22. Almeida, Heitor, Park, Sang Yong, Subrahmanyam, Marti G. & Wolfenzon, Daniel — "The Structure and Formation of Business Groups: Evidence from Korean Chaebols"
+**Source:** Journal of Financial Economics (2010)
+
+**Abstract (original English):**
+In this paper we study the determinants of business groups' ownership structure using unique panel data on Korean chaebols. In particular, we attempt to understand how groups form over time. We find that chaebols grow vertically (that is, pyramidally) as the family uses well-established group firms ("central firms") to set up and acquire firms that have low pledgeable income (e.g., low profitability) and high acquisition premia. Chaebols grow horizontally (that is, using direct family ownership) when the family acquires firms that have high pledgeable income and low acquisition premia. We also examine the relative valuation of chaebol firms. We find that the group's central firms trade at a discount relative to other public group firms, and present evidence that suggests that this valuation discount is due to shareholders' anticipation of value-destroying pyramidal acquisitions by the central firms. Our evidence is consistent with the selection of firms into different positions in the chaebol. The evidence also suggests that the (previously documented) underperformance of pyramidal firms could be due to a selection effect (e.g., the family places low profitability firms in pyramids) and not to tunneling.
+
+**Keywords:** business groups, family firms, firm performance, pyramids, cross-shareholdings, tunneling, siphoning of resources, mergers and acquisitions
+
+---
+
+## 23. Kim, Byungki, Pae, Jinhan & Yoo, Choong-Yuel — "Business Groups and Tunneling: Evidence from Corporate Charitable Contributions by Korean Companies"
+**Source:** Journal of Business Ethics, Vol. 154, pp. 643–666 (2019)
+
+**Abstract (original English):**
+This paper investigates whether corporate philanthropic decisions are associated with a firm's listing status and business group affiliation. Analyzing a large sample of public and private firms in Korea, we find that (1) public firms make more charitable contributions than private firms and (2) business group-affiliated firms make more charitable contributions than non-affiliated firms. The results suggest that public firms, owing to greater public scrutiny, and business groups, owing to higher political costs, are encouraged to make more corporate charitable contributions. Further, we find that (3) greater corporate giving by public firms than private firms is more pronounced for business group-affiliated firms, compared with non-affiliated firms. The result is consistent with business groups' strategic coordination of their affiliates' philanthropic decisions to tunnel business group resources out to controlling shareholders who hold a larger portion of private affiliates than public affiliates.
+
+**Keywords:** listing status, business group, corporate giving, tunneling, public scrutiny
+
+---
+
+## 24. Bae, Kee-Hong, Kang, Jun-Koo & Kim, Jin-Mo — "Tunneling or Value Added? Evidence from Mergers by Korean Business Groups"
+**Source:** The Journal of Finance, Vol. LVII, No. 6 (December 2002)
+
+**Abstract (original English):**
+We examine whether firms belonging to Korean business groups (chaebols) benefit from acquisitions they make or whether such acquisitions provide a way for controlling shareholders to increase their wealth by increasing the value of other group firms (tunneling). We find that when a chaebol-affiliated firm makes an acquisition, its stock price on average falls. While minority shareholders of a chaebol-affiliated firm making an acquisition lose, the controlling shareholder of that firm on average benefits because the acquisition enhances the value of other firms in the group. This evidence is consistent with the tunneling hypothesis.
+
+**Keywords:** tunneling, value added, business groups, chaebols, mergers and acquisitions, Korea
+
+---
+
+## 25. Kim, Woochan, Lim, Youngjae & Sung, Taeyoon — "What Determines the Ownership Structure of Business Conglomerates?: On the Cash Flow Rights of Korea's Chaebol"
+**Source:** ECGI Finance Working Paper No. 51/2004; KDI School Working Paper No. 04-20
+
+**Abstract (original English):**
+We examine a number of firm- and group-level factors that shape the ownership structure of business conglomerates, which can include both public and non-public firms. Using an exclusive set of 1997–2002 data on the intra-group shareholdings of 46 of Korea's largest conglomerates, or chaebols, we show that the contribution of individual firms to group control and profitability are important determinants of ownership structure in Korea's chaebol: the controlling shareholder's cash flow rights in a group-affiliated firm increases with the firm's contribution to group control and profitability. We also find that the level of disparity between voting and cash flow rights is significantly higher than the levels previously reported in the literature on Korean firms, which makes use of only public firms, indicating that non-public firms play a substantial role in increasing the disparity.
+
+**Keywords:** ownership structure, business conglomerate, chaebol, voting rights, cash flow rights, disparity
+
+---
+
+## 26. Park, Jin, Suh, Jungwon & Kang, Shinwoo — "The Holding Company Discount in Korea's Stock Market"
+**Source:** Korean Securities Association Journal (한국증권학회지), Vol. 48, No. 6, pp. 755–788 (2019)
+
+**Abstract (original English):**
+This study finds that holding companies (i.e., those that are founded pursuant to Korea's Monopoly Regulation and Fair Trade Act) are traded at lower values than are other companies in the stock market. Our investigation of listed firms over the period 2002–2017 reveals that the mean and median market-to-book equity ratios of holding companies are significantly below 1 and substantially lower than those of other companies. This valuation discount remains significant even when comparing holding companies with their subsidiaries and in multiple regressions that control for various firm characteristics and business-group fixed effects. Furthermore, holding companies' values are significantly lower than their fundamental values as estimated using Campello and Graham's (2013) method. In comparison, de facto holding companies, which are defined as operating firms that serve as holding companies for business groups, do not display a valuation discount. Our results show that the holding company discount is related to investors' tendency to shun holding companies, as indicated by the relatively small turnover of holding companies' stocks. Additionally, the holding company discount may arise partly because most holding companies are listed together with their operating subsidiaries, and investors concentrate their demand on (pure-play) operating-subsidiary stocks, rather than on holding-company stocks. It appears that the holding company discount is a phenomenon unique to Korea, as similar discounts are not found in the stock markets of Japan or the United States.
+
+**Keywords:** holding company, business group, firm value, discount, investor demand
 
 ---
 
