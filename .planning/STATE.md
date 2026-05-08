@@ -106,7 +106,7 @@ None yet.
 | # | Description | Date | Commit | Directory |
 |---|-------------|------|--------|-----------|
 | 260508-hoc | Restructure roadmap — Phase 1 builds acquisition scripts, mock mode to v2 | 2026-05-08 | a403eb7 | [260508-hoc-restructure-roadmap-phase-1-builds-acqui](./quick/260508-hoc-restructure-roadmap-phase-1-builds-acqui/) |
-| 260508-bbg | Guard securityData getElement with hasElement in bdp, _bdh_batch, bds loops | 2026-05-08 | TBD | [20260508-bbg-securitydata-guard](./quick/20260508-bbg-securitydata-guard/) |
+| 260508-bbg | Guard securityData getElement with hasElement in bdp, _bdh_batch, bds loops | 2026-05-08 | 4c08fb2 | [20260508-bbg-securitydata-guard](./quick/20260508-bbg-securitydata-guard/) |
 
 ## Session Continuity
 
