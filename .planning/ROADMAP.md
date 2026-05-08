@@ -29,15 +29,22 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Running either acquisition script without blpapi installed prints an informative error and exits non-zero (does not traceback)
   4. `from utils.stats import winsorize` and `from utils.latex_tables import df_to_latex` import successfully and are callable
   5. `make acquire` target exists in Makefile; `make analysis` and `make paper` targets exist for later phases
-**Plans**: TBD
+**Plans**: 5 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Cleanup + infrastructure scaffold (gitignore, prior-project data move, utils/ package, requirements.txt, .env.example, README.md)
+- [ ] 01-02-PLAN.md — Utils package implementation (bbg.py, stats.py, latex_tables.py)
+- [ ] 01-03-PLAN.md — src/00_build_universe.py (KOSPI universe pull)
+- [ ] 01-04-PLAN.md — src/01_bloomberg_pull.py (snapshot, ROE panel, returns panel)
+- [ ] 01-05-PLAN.md — Makefile (acquire guard + analysis + paper + all targets)
 
 > **Bloomberg Terminal Checkpoint**
 > After Phase 1 completes, go to a Bloomberg terminal and run:
 > ```bash
 > pip install blpapi
-> python src/utils/bbg.py --test          # verify connection
-> python src/00_build_universe.py         # → data/raw/universe_raw.csv
-> python src/01_bloomberg_pull.py         # → data/raw/bloomberg/*.csv
+> python utils/bbg.py --test               # verify connection (D-03: utils/ at project root)
+> python src/00_build_universe.py          # → data/raw/universe_raw.csv
+> python src/01_bloomberg_pull.py          # → data/raw/bloomberg/*.csv
 > ls -lh data/raw/bloomberg/              # confirm three non-empty CSVs
 > ```
 > Once `data/raw/bloomberg/` contains snapshot_2023.csv, roe_panel.csv, and returns_panel.csv, proceed to Phase 2.
@@ -82,7 +89,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/TBD | Not started | - |
+| 1. Foundation | 0/5 | Not started | - |
 | 2. Data Pipeline | 0/TBD | Not started | - |
 | 3. Analysis | 0/TBD | Not started | - |
 | 4. Paper + Validation | 0/TBD | Not started | - |
