@@ -11,7 +11,7 @@ with caption, label, and optional footnote in \\footnotesize.
 import pandas as pd
 
 
-def df_to_latex(df, caption, label, footnote=None, float_format="%.3f"):
+def df_to_latex(df, caption, label, footnote=None, float_format="%.3f", escape=True, raw_latex=False):
     """
     Convert a pandas DataFrame to a standalone booktabs LaTeX table fragment.
 
@@ -21,6 +21,11 @@ def df_to_latex(df, caption, label, footnote=None, float_format="%.3f"):
         label: LaTeX label key (e.g. "tab:summary")
         footnote: optional note in footnotesize below the table
         float_format: printf-style format for float columns (default "%.3f")
+        escape: whether to escape special LaTeX characters in data (default True).
+            Set to False only if DataFrame content is pre-escaped.
+        raw_latex: opt-in for trusted preformatted tables with raw TeX (default False).
+            When True, sets escape=False for the DataFrame body. Caption, label, and
+            footnote are still escaped unless they contain LaTeX markup intentionally.
 
     Returns:
         Complete standalone .tex table fragment as a string.
@@ -39,9 +44,10 @@ def df_to_latex(df, caption, label, footnote=None, float_format="%.3f"):
         raise TypeError("df must be a pandas DataFrame.")
 
     col_format = "l" + "r" * len(df.columns)
+    df_escape = not raw_latex  # raw_latex=True disables escaping
     body = df.to_latex(
         float_format=float_format,
-        escape=False,
+        escape=df_escape,
         column_format=col_format,
         index=True,
     )
