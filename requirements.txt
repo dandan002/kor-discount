@@ -1,0 +1,11 @@
+# Korea Discount - Value-Up Compliance Study
+# Install: pip install -r requirements.txt
+# Note: blpapi installed separately at Bloomberg terminal only
+pandas>=2.2.1
+numpy>=1.26.4
+scipy>=1.12.0
+statsmodels>=0.14.4
+python-dotenv>=1.0.0
+matplotlib>=3.8.3
+seaborn>=0.13.2
+stargazer>=0.0.7
