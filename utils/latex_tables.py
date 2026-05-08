@@ -54,18 +54,16 @@ def df_to_latex(df, caption, label, footnote=None, float_format="%.3f", escape=T
     lines = [
         r"\begin{table}[htbp]",
         r"  \centering",
+        r"  \begin{threeparttable}",
         rf"  \caption{{{caption}}}",
         rf"  \label{{{label}}}",
         body.strip(),
     ]
     if footnote:
-        lines.append(
-            r"  \begin{tablenotes}"
-            "\n"
-            r"    \footnotesize\item \textit{Note:} "
-            + footnote
-            + "\n"
-            r"  \end{tablenotes}"
-        )
-    lines.append(r"\end{table}")
+        lines.extend([
+            r"  \begin{tablenotes}",
+            r"    \footnotesize\item \textit{Note:} " + footnote,
+            r"  \end{tablenotes}",
+        ])
+    lines.extend([r"  \end{threeparttable}", r"\end{table}"])
     return "\n".join(lines)
