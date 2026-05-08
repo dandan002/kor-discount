@@ -22,6 +22,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import pandas as pd
 
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 from utils.bbg import bdp, bds
 
 try:
@@ -44,7 +46,7 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-OUTPUT_PATH = os.path.join("data", "raw", "universe_raw.csv")
+OUTPUT_PATH = os.path.join(PROJECT_ROOT, "data", "raw", "universe_raw.csv")
 KOSPI_INDEX = "KOSPI Index"
 MEMBERS_FIELD = "INDX_MEMBERS"
 IDENTIFYING_FIELDS = [

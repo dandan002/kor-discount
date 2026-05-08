@@ -21,6 +21,8 @@ from datetime import datetime
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 import pandas as pd
 
 from utils.public_data import get_kospi_universe
@@ -32,7 +34,7 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-OUTPUT_PATH = os.path.join("data", "raw", "universe_raw.csv")
+OUTPUT_PATH = os.path.join(PROJECT_ROOT, "data", "raw", "universe_raw.csv")
 IPO_CUTOFF = datetime(2023, 1, 1)
 
 # KRX sector classification uses Korean names; yfinance/FDR may return English.

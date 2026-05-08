@@ -37,6 +37,8 @@ except ImportError:
 
 from utils.bbg import bdp, bdh  # noqa: E402
 
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s  %(levelname)s  %(message)s",
@@ -44,8 +46,8 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-UNIVERSE_PATH = os.path.join("data", "raw", "universe_raw.csv")
-BLOOMBERG_DIR = os.path.join("data", "raw", "bloomberg")
+UNIVERSE_PATH = os.path.join(PROJECT_ROOT, "data", "raw", "universe_raw.csv")
+BLOOMBERG_DIR = os.path.join(PROJECT_ROOT, "data", "raw", "bloomberg")
 SNAPSHOT_PATH = os.path.join(BLOOMBERG_DIR, "snapshot_2023.csv")
 ROE_PANEL_PATH = os.path.join(BLOOMBERG_DIR, "roe_panel.csv")
 RETURNS_PANEL_PATH = os.path.join(BLOOMBERG_DIR, "returns_panel.csv")
