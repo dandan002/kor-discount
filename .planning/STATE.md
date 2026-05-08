@@ -107,6 +107,7 @@ None yet.
 |---|-------------|------|--------|-----------|
 | 260508-hoc | Restructure roadmap — Phase 1 builds acquisition scripts, mock mode to v2 | 2026-05-08 | a403eb7 | [260508-hoc-restructure-roadmap-phase-1-builds-acqui](./quick/260508-hoc-restructure-roadmap-phase-1-builds-acqui/) |
 | 260508-bbg | Guard securityData getElement with hasElement in bdp, _bdh_batch, bds loops | 2026-05-08 | 4c08fb2 | [20260508-bbg-securitydata-guard](./quick/20260508-bbg-securitydata-guard/) |
+| 260508-bdp | Batch bdp requests in chunks of 100 with 0.5s sleep to avoid Bloomberg LIMIT errors | 2026-05-08 | 53c0d86 | [20260508-bdp-batching](./quick/20260508-bdp-batching/) |
 
 ## Session Continuity
 
