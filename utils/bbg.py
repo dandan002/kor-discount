@@ -63,6 +63,26 @@ def _get_session():
     return _session
 
 
+def _raise_bbg_errors(msg, security_data=None):
+    """Check for Bloomberg response or per-security errors and raise RuntimeError."""
+    if msg.hasElement("responseError"):
+        raise RuntimeError(
+            f"Bloomberg response error: {msg.getElement('responseError')}"
+        )
+    if security_data is not None and security_data.hasElement("securityError"):
+        security = security_data.getElementAsString("security")
+        raise RuntimeError(
+            f"Bloomberg security error for {security}: "
+            f"{security_data.getElement('securityError')}"
+        )
+    if security_data is not None and security_data.hasElement("fieldExceptions"):
+        security = security_data.getElementAsString("security")
+        raise RuntimeError(
+            f"Bloomberg field exceptions for {security}: "
+            f"{security_data.getElement('fieldExceptions')}"
+        )
+
+
 def bdp(securities, fields, overrides=None):
     """
     Bloomberg BDP point-in-time reference data.
@@ -104,9 +124,11 @@ def bdp(securities, fields, overrides=None):
     while True:
         ev = session.nextEvent(500)
         for msg in ev:
+            _raise_bbg_errors(msg)
             sec_data = msg.getElement("securityData")
             for i in range(sec_data.numValues()):
                 sd = sec_data.getValueAsElement(i)
+                _raise_bbg_errors(msg, sd)
                 ticker = sd.getElementAsString("security")
                 fd = sd.getElement("fieldData")
                 rows[ticker] = {}
@@ -181,7 +203,9 @@ def _bdh_batch(securities, fields, start_date, end_date, periodicity):
     while True:
         ev = session.nextEvent(500)
         for msg in ev:
+            _raise_bbg_errors(msg)
             sec_data = msg.getElement("securityData")
+            _raise_bbg_errors(msg, sec_data)
             ticker = sec_data.getElementAsString("security")
             fd_array = sec_data.getElement("fieldData")
             for j in range(fd_array.numValues()):
@@ -231,8 +255,10 @@ def bds(security, field):
     while True:
         ev = session.nextEvent(500)
         for msg in ev:
+            _raise_bbg_errors(msg)
             sec_data_elem = msg.getElement("securityData")
             sd = sec_data_elem.getValueAsElement(0)
+            _raise_bbg_errors(msg, sd)
             fd = sd.getElement("fieldData")
             bulk = fd.getElement(field)
             for i in range(bulk.numValues()):
