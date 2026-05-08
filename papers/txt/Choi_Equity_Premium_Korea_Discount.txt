@@ -1,0 +1,2120 @@
+Asia-Paciﬁc Journal of Accounting & Economics
+
+ISSN: 1608-1625 (Print) 2164-2257 (Online) Journal homepage: www.tandfonline.com/journals/raae20
+
+The equity premium puzzle: empirical evidence
+for the “Korea Discount”
+Tae H. Choi, Eunchul Lee & Jinhan Pae
+To cite this article: Tae H. Choi, Eunchul Lee & Jinhan Pae (2012) The equity premium puzzle:
+empirical evidence for the “Korea Discount”, Asia-Paciﬁc Journal of Accounting & Economics,
+19:2, 143-166, DOI: 10.1080/16081625.2012.667378
+To link to this article: https://doi.org/10.1080/16081625.2012.667378
+
+Published online: 24 May 2012.
+
+Submit your article to this journal
+
+Article views: 727
+
+View related articles
+
+Citing articles: 4 View citing articles
+
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=raae20
+
+Asia-Paciﬁc Journal of Accounting & Economics
+Vol. 19, No. 2, August 2012, 143–166
+
+The equity premium puzzle: empirical evidence for the “Korea
+Discount”
+Tae H. Choia*, Eunchul Leeb and Jinhan Paec
+a
+
+KDI School of Public Policy and Management, Seoul, Korea; bDongduk Women’s University,
+Seoul, Korea; cKorea University, Seoul, Korea
+(ﬁnal version received 21 June 2010)
+This study examines the cost of equity capital (COC) and the factors that inﬂuence
+the COC of listed Korean companies, and compares the COC of Korean companies
+with that of companies from 31 selected countries. The major research question is
+whether companies that are listed in an emerging market have a disadvantage as they
+are underpriced through a higher COC (as compared with companies that are traded
+in developed markets). Consistent with the “Korea Discount,” we ﬁnd that the COC
+is signiﬁcantly higher for Korean companies than for companies in other countries
+after controlling for other relevant factors. However, the “Korea Discount” has signiﬁcantly eased in recent years.
+Keywords: analysts’ forecasts; cost of capital; ﬁrm characteristics; Korea Discount;
+Korean stock market
+JEL Codes: G00, G18, M20
+
+Introduction
+The purpose of this study is to examine the expected rates of return of companies that
+are listed in the Korean stock market by investigating: (1) the implied cost of capital
+(COC); (2) equity premia; and (3) factors that affect the expected rate of return.1
+A plethora of anecdotal evidence has shown the existence of the so-called “Korea
+Discount.” This discount refers to the valuation phenomenon whereby, in comparison
+with listed companies in other countries, listed Korean companies are, ceteris paribus,
+traded at a discount. Figure 1 illustrates that the price-to-earnings (P/E) and price-tobook (P/B) ratios for Korean companies are signiﬁcantly lower than those for the rest
+of the sample, suggesting that listed Korean companies are substantially undervalued
+even when compared with companies from other Asian developing countries (Salmon
+2007, Suh and Sim 2007). We observe the “Korea Discount” even though Korean companies exhibit greater proﬁtability than companies in other countries. Concerning the
+“Korea Discount,” Guerrera (2006) commented:
+HSBC analysts estimate that over the past 12 years, the Korean stock market had
+traded, on average, 26 per cent below the valuation of other exchanges in Asia excluding
+Japan.
+
+*Corresponding author. Email: TChoi@kdischool.ac.kr
+ISSN 1608-1625 print/ISSN 2164-2257 online
+Ó 2012 City University of Hong Kong and National Taiwan University
+http://dx.doi.org/10.1080/16081625.2012.667378
+http://www.tandfonline.com
+
+144
+
+T.H. Choi et al.
+
+25
+
+0.30
+P/B
+P/E
+Cost of Capital
+
+20
+
+0.25
+
+10
+
+0.15
+
+5
+
+0.10
+
+0.05
+nd
+
+re
+
+la
+ai
+
+Th
+
+Ko
+
+Br
+az
+T a il
+i
+In wan
+do
+ne
+si
+Ire a
+la
+n
+N d
+or
+w
+M ay
+al
+So a y
+s
+u
+U
+ni th A ia
+te
+fr
+d
+Ki ica
+ng
+Ph d o
+ili p m
+pi
+n
+Be e s
+lg
+Si ium
+ng
+a
+N
+et por
+he
+e
+rla
+nd
+M s
+ex
+D ico
+en
+m
+a
+C rk
+an
+a
+Po d a
+rtu
+ga
+Fr l
+an
+Sw c e
+ed
+en
+U Fin
+ni
+te lan
+d
+d
+St
+a
+G tes
+er
+m
+an
+y
+Ita
+G ly
+Sw ree
+it z c e
+er
+la
+nd
+H Sp a
+on
+i
+g n
+Ko
+ng
+Ja
+pa
+Po n
+la
+nd
+C
+hi
+na
+
+0
+a
+
+P/B
+
+0.20
+
+P/E
+
+15
+
+Figure 1.
+
+Country P/E ratio and P/B ratio.
+
+In the late 1990s, Korea experienced serious economic difﬁculties. The collapse of the
+Thai baht in 1997 triggered a regional economic crisis that spread to other Asian
+countries, including Korea. Korean stock prices consequently plummeted, devastating
+the Korean market for several years. Since the economic turmoil, the attention Korea
+has been paying to corporate transparency has signiﬁcantly increased and the Korean
+government has expressed great concern about the “Korea Discount.” Korean authorities
+have consequently taken a series of steps to restructure the Korean ﬁnancial system
+(e.g. improving corporate governance and transparency) and, in early 2009, the Korean
+government even launched the national brand committee to mitigate the widespread
+“Korea Discount.”
+In an effort to tackle the “Korea Discount” and increase market transparency, the
+Korean government decided to adopt the International Financial Reporting Standards
+(IFRS): all listed companies with assets greater than $2 billion are required to adopt
+IFRS starting from 2011. Several companies early-adopted IFRS in 2009 (e.g. STX and
+Pulmuone holdings). Market participants, including analysts, investors, and ﬁnancial
+authorities, expect that the adoption of IFRS will mitigate the market stigma of the
+“Korea Discount” by reducing uncertainty and the incidence of opaque accounting practices (Ramstad 2007a, Moon 2008).
+The attention of Korean authorities has also been recently directed to promoting
+South Korea from the category of “emerging” markets to “developed status” in terms of
+the FTSE stock market index (the upgrade transpired in September 2009).2 The government and market participants have expressed the hope that the status upgrade can abate
+the “Korea Discount” through the increased trust of investors in the Korean ﬁnancial
+market. The status change also highlights the importance of the timing of this study as
+our ﬁndings can be helpful in determining the changes that accompany the status
+upgrade and early adoption of IFRS.
+An investigation of the phenomenon of the “Korea Discount” would ponder several
+fundamental questions. Is the Korean stock market really undervalued after taking into
+
+Asia-Paciﬁc Journal of Accounting & Economics
+
+145
+
+account differences in growth prospects? How do we measure the valuation difference?
+In our study, we seek to provide answers to the above questions in two steps. We ﬁrst
+estimate the implied cost of capital for companies in the Korean stock market; then, we
+compare it with the COC for companies in other countries. Despite the contribution of
+previous literature, the link between the equity cost of capital and its effects on stock
+market undervaluation, such as the “Korea Discount,” is far from obvious. Having a
+direct effect on the present value of future economic beneﬁts, the COC is a crucial factor in company valuation. Assuming the same long-term growth rate for all companies,
+on average, higher (respectively lower) ﬁrm value stems from a lower (respectively
+higher) COC. Hence, the valuation level of the stock market may be examined by estimating the implied costs of capital that are implicitly required by market participants
+after controlling for the expected growth prospects.
+Another major research question is whether, when compared with companies in
+developed markets, companies that are listed in an emerging market (e.g. the Korean
+stock market) have a disadvantage as they are underpriced through higher implied costs
+of capital. We compare the COC of Korean companies with that of US companies and
+examine the exact nature of the relationship between the COC and the undervaluation
+of Korean corporations. The estimation of the COC in Korea and its comparison with
+the COC in the USA helps us to ascertain whether the COC in Korea can be regarded
+as a factor of the “Korea Discount.” In addition, we compare the risk premia of the two
+countries, since the equity risk premium is directly related to market valuation (Foerster
+and Karolyi 1999). Prior literature suggests that when they successfully reduce the
+aforementioned shortcomings of their ﬁnancial system, emerging markets experience an
+upward revaluation of their shares (Miller 1999, Henry 2000), which is achieved mainly
+through the decrease of the COC (Henry 2000). We also investigate whether the undervaluation of the Korean stock market has eased up in recent years.
+Finally, we estimate the COC for 32 countries and investigate its association with
+valuation measures after controlling for macro-economic variables such as the Gross
+Domestic Product (GDP), inﬂation, level of corruption and governance, and ﬁnancial
+reporting quality.
+Our results suggest that although a substantial country risk premium still exists in
+the Korean stock market, the implied costs of capital have decreased over recent years.
+These ﬁndings are in line with the argument that the “Korea Discount” has eased. Furthermore, we ﬁnd a signiﬁcant association between the measure of the implied cost of
+capital and variables that affect the risk and proﬁtability, as perceived by investors. The
+implication of our ﬁndings may be extended to other countries.
+Literature review
+Extant literature dealing with the “Korea Discount” and its various aspects has pointed
+out several issues pertaining to the study of this phenomenon. One is the difﬁculty of
+measuring the extent of the “Korea Discount.” Numerous business articles have
+attempted to measure the level of the “Korea Discount” and speculated about its causes,
+but most of these studies have examined the levels of ﬁnancial ratios, such as the P/E
+or P/B benchmarks. However, the validity of such studies depends on appropriate measures of valuation. Even though surveys of managers afﬁrm the importance of the P/E
+and/or P/B ratios in valuing stocks (Shahed et al. 2008), the nature of the connection
+and the factors linking these ratios to stock-market valuation is less obvious (Kumar
+and Hyodo 2001, Bhargava and Malhotra 2006). The use of ﬁnancial ratios in measur-
+
+146
+
+T.H. Choi et al.
+
+ing the level of the stock-market discount may lead to spurious inferences since their
+level may reﬂect not only the amount of risk but also other underlying economic factors
+of the concerned country (e.g. growth prospects, business sectors, interest rates, and
+size, etc.; Byrne and Saibeni 2000, Park 2000, Kumar and Hyodo 2001). Thus, for
+example, lower P/E or P/B ratios may indicate lower implied future growth prospects
+of companies in the country.3
+The second issue is the choice of methodology in measuring the cost of capital. In
+many cases, academics and practitioners rely on the COC as estimated by methods based
+on historical data, such as the capital asset pricing model (CAPM). However, CAPM
+estimates have been recently criticized as having limited practical use (Fama and French
+1997, 2002). To mitigate this problem, we estimate the expected rates of return by
+reverse-engineering the residual earnings model, which has been used by a large number
+of studies to test hypotheses related to the link between the required rates of return and
+relevant factors that may affect them (Dhaliwal et al. 2005, Daske 2006, Easton and
+Sommers 2007). In this study, we use Easton et al.’s (2002; henceforth ETSS) model to
+simultaneously estimate the growth rate and the COC; we also employ the Ohlson and
+Juettner-Nauroth (2005) model to estimate the ﬁrm-speciﬁc COC for 32 countries.
+Only in the past decade have reverse-engineered valuation models been used to
+determine the COC; nevertheless, the number of studies that use the COC that is estimated from the reverse-engineered residual earnings or abnormal earnings growth
+model has recently been increasing (O’Hanlon and Steele 2000, Claus and Thomas
+2001, Gebhardt et al. 2001, Easton et al. 2002, Baginski and Wahlen 2003, Gode and
+Mohanram 2003, Easton 2004, Easton and Monahan 2005, Easton and Sommers 2007).
+Having been developed to estimate the required rates of return at various levels of
+aggregation, reverse-engineered valuation methods can be used to make ﬁrm-speciﬁc
+estimates (Claus and Thomas 2001; Gebhardt et al. 2001, Baginski and Wahlen 2003,
+Gode and Mohanram 2003, Ohlson and Juettner-Nauroth 2005) as well as estimates for
+a group or portfolio (O’Hanlon and Steele 2000, Claus and Thomas 2001, Easton et al.
+2002, Easton 2004). However, ﬁrm-speciﬁc estimation requires assumptions about the
+long-term growth rate (e.g. fading ROE to the industry median ROE (Gebhardt et al.
+2001) or the same rate for the long-term growth of abnormal earnings for all companies
+(Claus and Thomas 2001, Gode and Mohanram 20034), which can be regarded as a disadvantage of this approach.
+The literature has also documented international differences in the COC and investigated the link between the required rate of return and potential factors (Agmon and
+Findlay 1982, Damodaran 2003, Chen et al. 2004, Koedijk and van Dijk 2004, Sabal
+2004, Dargenidou et al. 2006, Daske 2006, Hail and Leuz 2006, He and Kryzanowski
+2007). Several explanations have also been proposed regarding the questions of whether
+and why companies that are listed on the Korean stock market are considered to be
+undervalued,5 and a close link has been reported between undervaluation and corruption
+or political risk (i.e. North Korea) (Lee and Ng 2006, Pyo and Jung 2007, Pantzalis
+et al. 2008).
+Research design
+Firm-speciﬁc estimation of the implied cost of capital: the OJ model
+In line with the main research question, our paper focuses on the estimation and comparison of the expected rates of return in Korea and other countries. COC and related
+issues have already been examined by numerous studies (Agmon and Findlay 1982,
+
+Asia-Paciﬁc Journal of Accounting & Economics
+
+147
+
+Damodaran 2003, Chen et al. 2004, Koedijk and van Dijk 2004, Sabal 2004, Dargenidou et al. 2006, Daske 2006, Hail and Leuz 2006, He and Kryzanowski 2007, Choi
+and Jung 2008); however, a few determine the COC through reverse-engineered valuation models.
+In our study, we choose to estimate the COC by the reverse-engineered valuation
+model because it enables us to estimate ﬁrm-speciﬁc COCs. We use these COC estimates in a cross-country comparison.6 Among the existing reverse-engineered models,
+we use the Ohlson and Juettner-Nauroth (2005) model as expressed below7:
+rﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+eps1
+r ¼ A þ A2 þ
+ðgs  ðc  1ÞÞ
+P0
+
+ð1Þ
+
+where A  12 ððc  1Þ þ dps1 =P0 Þ and gs ¼ eps2  eps1 =eps1 c ¼ rf  gl þ 1; γ = longterm earnings growth rate + 1; gs = short-term earnings growth rate; gl = long-term economic growth rate; rf = yield on a three-year treasury bond; and epst = analysts’ forecast
+of earnings per share at time t.
+As previously mentioned, being relatively new, reverse-engineered valuation models
+have been increasingly used to determine the COC only since the second-half of the
+1990s. The reverse-engineered residual earnings and abnormal earnings growth models
+have been used to estimate the expected rate of return on equity investment (O’Hanlon
+and Steele 2000, Claus and Thomas 2001, Gebhardt et al. 2001, Easton et al. 2002,
+Baginski and Wahlen 2003, Gode and Mohanram 2003, Easton 2004, Easton and
+Monahan 2005, Ohlson and Juettner-Nauroth 2005, Easton and Sommers 2007); and
+the COC determined by reverse-engineered models has also been employed to investigate the relationship between the required rates of return and the factors that potentially
+inﬂuence them (Dhaliwal et al. 2005, Cheng et al. 2006, Daske 2006, Easton and Sommers 2007). Previous literature has found that the COCs determined by different residual models are highly correlated and that the use of different residual models does not
+lead to signiﬁcant differences in the results.8
+
+Model estimation
+Anecdotal evidence shows that the Korean stock market is undervalued; consequently,
+ﬁrms that are listed in the Korean stock exchange have to bear a signiﬁcantly higher
+COC than their economic fundamentals warrant. In this section, we examine whether,
+after we control for macro-economic factors, the Korea Discount is due to a high COC.
+Our empirical model includes those macro-economic variables that prior studies have
+found relevant to country valuation: inﬂation,9 GDP, Corruption Perception Index (CPI),
+country governance, and ﬁnancial reporting quality. We expect the inﬂation variable to
+be positively correlated with the COC and negatively correlated with ﬁrm value. The
+GDP variable is represented by the natural logarithm of the GDP of the country
+expressed in millions of USD (Easterly 1993, Lee and Ng 2006).10 From a theoretical
+standpoint, GDP has a positive (negative) association with ﬁrm value (cost of capital).
+Extant literature has reported that companies listed in the stock markets of corrupted
+countries are undervalued (Lee and Ng 2006, Pantzalis et al. 2008), suggesting that the
+corruption level is a critical factor for country valuation. As a proxy for the level of corruption, we use the CPI provided by Transparency International.11 The CPI index is a
+comprehensive measure of corruption based on data collected from up to 13 sources
+
+148
+
+T.H. Choi et al.
+
+including the IMD, World Bank, Political and Economic Risk Consultancy, and World
+Economic Forum, ranging from 1 (extremely corrupted) to 10 (extremely clean).
+Prior studies report that ﬁrms from countries with stronger regulations and stricter
+law enforcement systems have lower COCs (Hail and Leuz 2006). We utilize the
+Worldwide Governance Indicators (WGI) issued by the World Bank, which covers 212
+countries (Kaoufmann et al. 2008). The WGI comprises six different categories of measures that reﬂect the extent to which a country’s governance system is functioning well:
+(1) voice and accountability (VA); (2) political stability and absence of violence (PV);
+(3) government effectiveness (GE); (4) regulatory quality (RQ); (5) rule of law (RL);
+and (6) control of corruption (CC).
+According to the World Bank’s webpage, the ﬁrst dimension, VA, measures the
+“perceptions of the extent to which a country’s citizens are able to participate in selecting their government, as well as freedom of expression, freedom of association, and a
+free media.” The second dimension, PV, measures the “perceptions of the likelihood
+that the government will be destabilized or overthrown by unconstitutional or violent
+means, including politically-motivated violence and terrorism,” and the third dimension,
+GE, deals with the “perceptions of the quality of public services, the quality of the civil
+service and the degree of its independence from political pressures, the quality of policy
+formulation and implementation, and the credibility of the government’s commitment to
+such policies.” RQ is deﬁned as referring to the degree of “the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development,” and RL as “the extent to which agents have
+conﬁdence in and abide by the rules of society, and in particular the quality of contract
+enforcement, property rights, the police, and the courts, as well as the likelihood of
+crime and violence.” Finally, the last dimension, CC, reﬂects the “extent to which public power is exercised for private gain, including both petty and grand forms of corruption, as well as ‘capture’ of the state by elites and private interests.”12
+Many studies have shown that ﬁnancial reporting quality varies across countries and
+regions. Thus, we can assume that these differences may potentially inﬂuence the COC
+estimates through earnings forecasts and accounting measures and that lower reporting
+quality is likely to be accompanied by a signiﬁcantly higher COC. To control for the
+effect of differences in ﬁnancial reporting quality, our analysis includes control variables
+that represent proxies for ﬁnancial quality. In line with the literature, we use three different categories of measures, viz. faithful representation of operating performance
+(FROP), Accounting Conservatism (AC), and quality of accruals (QA).
+FROP, as measured by the discretionary accrual model below, reﬂects the extent of
+earnings management (i.e. management discretion over accruals). We assume that companies that display lower ﬁnancial reporting quality will tend to engage in earnings
+management more extensively. In our study, the measures of FROP are the negatives of
+the median of absolute value of the estimated discretionary accruals.
+TAit
+1
+Revit
+PPEit
+¼ b0
+þ b1
+þ b2
+þ b3 ROAit þ eit
+Ait1
+Ait1
+Ait1
+Ait1
+
+ð2Þ
+
+where Revit = change in revenues; PEit = property; Ait1 = total assets at the end of the
+preceding year; and ROAit = return on assets at year t.
+The discretionary or unexpected accruals (DA) are measured by the residuals of the
+accrual models.
+
+Asia-Paciﬁc Journal of Accounting & Economics
+DAit 
+
+TAit ^ 1
+^ Revit þ b
+^ PPEit þ b
+^ ROAit
+ b0
+þb
+1
+2
+3
+Ait1
+Ait1
+Ait1
+Ait1
+
+149
+ð3Þ
+
+Regarding AC, the literature reports several different measures. Following Khan and
+Watts (2008), we employ a variation of Basu’s measure, which requires us to divide
+our work into two stages. First, a cross-sectional regression is estimated for each year
+as shown below:
+Eit
+¼ a0 þ a1  DRit þ b1t  SizeMVE it þ b2t  MTBit þ b3t  LEV it þ DRit  ðd0
+Pit1
+þ d1t  SizeMVE it þ d2t  MTBit þ d3t  LEV it Þ þ Rit  ðc0 þ c1t  SizeMVEit
+þ c2t  MTBit þ c3t  LEV it Þ þ Rit  DRit  ðl0 þ l1t  SizeMVE it þ l2t
+ MTBit þ l3t  LEV it Þ þ eit
+
+ð4Þ
+
+where E = net income scaled by the lagged market value of equity; R = annual stock
+returns for the 12-month period ending three months after the ﬁscal-period end; SizeMVE = natural logarithm of the market value of equity; MTB = market-to-book ratio;
+and LEV = leverage measured by the sum of long-term and short-term debts deﬂated by
+the market value of equity.
+In the second stage, we use the coefﬁcient estimates from the ﬁrst-stage regression,
+viz. (4), to calculate a ﬁrm-year speciﬁc measure of the timeliness of earnings with
+respect to conservatism (the C Score) at year-end. The measures of accounting conservatism that we seek are then represented by the medians of C Score.
+C Score  l^0t þ l^1t SizeMVE it þ l^2t þ MTBit þ l^3t LEV it
+
+ð5Þ
+
+The third ﬁnancial quality measure is the QA. In line with Burgstahler et al. (2006), we
+measure the quality of accruals of a ﬁrm by the negative of the median ratio of the
+absolute value of total accruals to the corresponding value of operating cash ﬂows. This
+measure is similar to FROP in the sense that we assume that ﬁrms use accruals to
+manipulate operating cash ﬂows. QA focuses on total accruals rather than the estimated
+discretionary accruals. This approach is simple and does not require an accrual model
+to estimate the non-discretionary accruals.
+We also use two regression equations to test the hypothesis that, after the ﬁnancial
+performance of the country (i.e. ROA) is controlled for, companies from countries with a
+weaker country governance structure, lower ﬁnancial reporting quality, and higher level
+of corruption have a higher COC and a lower P/E ratio. After the macro variables (Ci)
+are controlled for, a country dummy variable (dKorea) is used to capture the “Korea Discount.”13 Finally, we also measure the differential impact of ﬁnancial performance on
+the COC and the valuation by employing the interaction term of dKorea × ROA.
+n
+ci Ci;jt þ ejt
+rjt ¼ a1 þ a2 dKorea þ b1 ROAjt þ b2 dKorea ROAjt þ i¼1
+
+P
+n
+¼ a1 þ a2 dKorea þ b1 ROAjt þ b2 dKorea ROAjt þ b3 rjt þ i¼1
+ci Ci;jt þ ejt
+Ejt
+
+ð6Þ
+ð7Þ
+
+where rj = implied cost of equity capital for country j; P/Ej = price-to-earnings ratio for
+country j; dKorea = country dummy (1 = Korea, 0 = other countries); ROAj = return on
+
+150
+
+T.H. Choi et al.
+
+total assets for country j; C1,j = annual inﬂation rate for country j; C2,j = natural log of
+GDP in millions of US$ for country j; C3,j = corruption perception index (CPI) for
+country j; C4,j = voice and accountability indicator for country j; C5,j = political stability
+and absence of violence indicator for country j; C6,j = government effectiveness indicator
+for country j; C7,j = regulatory quality indicator for country j; C8,j = rule of law indicator
+for country j; C9,j = control of corruption indicator for country j; C10,j = FROP for country j; C11,j = accounting conservatism for country j; and C12,j = QA for country j.
+Data and sample selection
+The ﬁnancial data used in the study were collected from companies listed in the Korean
+stock market. We collected annual ﬁnancial data for the period 2000 through 2007.14
+Companies with a non-December ﬁscal year-end were excluded from the sample. The
+Korean sample consisted of companies that traded on either the Korea Stock exchange
+or the Korea Securities Dealers Automated Quotation (KOSDAQ) exchange.15
+Measures for the ﬁnancial variables were taken from ﬁnancial statements and the
+stock market at the end of the ﬁscal year. All per share variables for Korean companies
+were adjusted for stock splits and stock dividends. Accounting data, including earnings
+per share, book value, sales, long-term debt, total assets, and number of shares were
+culled from the DataGuide Pro annual research ﬁles.16 Analysts’ forecasts, stock prices,
+market betas, and risk-free rates (T-bond rates) were also obtained from DataGuide Pro
+database.17 Earnings forecasts were derived from the last consensus forecasts available
+in December.
+The sample selection rule requires earnings forecasts for two years. For example, to
+be included in the sample of 2007, the last consensus forecasts of the sample ﬁrms
+available in December 2007 should include ﬁscal years ending on 31 December 2007
+and 2008. The top and bottom percentiles of observations based on the COC, P/E, and
+P/B were simultaneously eliminated to mitigate the effect of extreme values. For the
+international comparison, accounting numbers and analysts’ forecasts are culled from
+the I/B/E/S database, and risk-free rates (T-bond rates), GDP, and inﬂation rates are
+obtained from the Datastream database. The ﬁnancial reporting quality is computed
+from the North American and global Compustat database. Finally, to investigate the
+impact of the country’s corruption on the ﬁrm value and the COC, we use the CPI for
+the years 2000 through 2007 provided by Transparency International.18 The WGI index
+is from the World Bank (Kaoufmann et al. 2008). To be included in the international
+sample, each country is required to have at least 20 observations. Covering the years
+2000 through 2007, the ﬁnal sample consists of 8214 observations across 32 countries.
+Empirical results
+A variety of studies demonstrate that ﬁrm-speciﬁc risks affect the COC (Gebhardt et al.
+2001, Gode and Mohanram 2003, Botosan and Plumlee 2005). Descriptive statistics of
+the variables used to measure the COC and ﬁrm characteristics are presented in Table 1.
+As the table shows, the median values of P/B (1.154) and P/E (10.375) are slightly
+lower than the corresponding historical averages in the US stock market. The median
+beta (0.815) is slightly lower than the market beta and the median values for ROA and
+ROE are 6.4 and 11.7%, respectively. The median value of Tobin’s Q ratio is 1.065.
+Temporal changes of the variables are summarized in Table 2. On average, the valuation variables of P/B, P/E, and Tobin’s Q have increased over time. The implied costs
+
+Asia-Paciﬁc Journal of Accounting & Economics
+Table 1.
+
+151
+
+Descriptive statistics of key variables.
+
+Descriptive statistics
+
+N
+
+Min
+
+Median
+
+Max
+
+Std.
+
+P/B
+P/E
+Beta
+D/M
+D/A
+ROA
+ROE
+Tobin’s Q
+TA
+
+2089
+2034
+1313
+2033
+2033
+2089
+2089
+2089
+2089
+
+0.006
+0.238
+0.349
+0.000
+0.000
+0.190
+1.146
+0.216
+10.696
+
+1.154
+10.375
+0.815
+0.132
+0.086
+0.064
+0.117
+1.065
+273.859
+
+10.831
+909.091
+2.351
+13.203
+0.740
+0.414
+0.613
+8.500
+218,866.040
+
+1.199
+36.537
+0.332
+0.884
+0.107
+0.057
+0.090
+0.734
+12,824.040
+
+Notes: P/B: price-to-book value of equity; P/E: price-to-earnings ratio; TA: total assets in millions of Korean
+won; Beta: capital asset pricing model beta; D/M: debt-to-market capitalization; D/A: debt-tototal assets; ROA: return on total assets; ROE: return on common equity; Tobin’s Q ¼
+Liability þ Market value of equity
+.
+Total assets
+
+of capital in the early 2000s (i.e. in the immediate aftermath of the IMF bailout) were
+higher than those in more recent years. As would be expected, the implied costs of capital for Korean companies are higher than those for US companies. For Korean companies, r varies from a high of 24.5% in 2000 to a low of 17.6% in 2007. Ranging from
+a high of 16.5% in 2000 to a low of 12.3% in 2007, the estimated equity premium over
+the risk-free rate for the Korean stock market averages 15.1% over the years 2000
+through 2007. This estimate of the equity premium for Korean companies is much
+higher than that for the US stock market reported in prior US studies: 2.5% over the
+years 1981 through 1995 (Gebhardt et al. 2001), 3.4% over the years 1985 through
+1998 (Claus and Thomas 2001), or 5.3% over the years 1981 through 1998 (Easton
+et al. 2002).
+The result may imply the existence of a signiﬁcant discount in the Korean stock
+market. Although the implied cost of capital does not show a monotonic decrease over
+the years 2000 through 2007, it is apparent that the equity premium was much higher
+in the early 2000s (just after the Asian economic crisis). Such a ﬁnding seems reasonable because the required rates of investors were logically much higher during the economic turmoil as many companies had ﬁnancial difﬁculties or went into default. A
+likely explanation for the decrease in recent years is that the “Korea Discount” has
+recently eased although the COC in Korea is still much higher than that in the US stock
+market. In sum, although there is an obvious difference in the estimation periods, similarly to Easton et al. (2002) we can observe that in comparison to Korea, the COC in
+the US stock market varies less across periods.
+Table 3 presents the estimates of r for the Korean market based on the portfolios
+partitioned by industry group. Consistent with prior studies in the USA, the utility
+industry has a lower COC than in most other industries (Fama and French 1997, Gebhardt et al. 2001, Easton et al. 2002). That telecommunication services also show a low
+COC of 13.0%, which may reﬂect the monopolistic power of Korean telecommunication companies since just a few companies dominate the highly proﬁtable market in
+Korea. The result is not surprising considering that prior literature has reported a negative association between market power and the COC (Cressy 1995). The highest cost of
+capital (23.7%) has been detected in the group of industrial goods.
+Table 4 presents the Spearman correlation coefﬁcients across the key variables. As
+would be expected, the table reveals signiﬁcantly positive associations between
+
+0.245
+0.087
+0.165
+0.613
+6.844
+0.730
+0.315
+0.099
+0.050
+0.096
+0.805
+376.042
+
+2000
+0.230
+0.062
+0.160
+0.866
+10.608
+0.725
+0.233
+0.107
+0.049
+0.087
+0.930
+175.262
+
+2001
+0.219
+0.063
+0.152
+0.790
+6.981
+0.850
+0.231
+0.090
+0.066
+0.119
+0.883
+295.181
+
+2002
+0.214
+0.048
+0.163
+0.991
+9.877
+0.750
+0.149
+0.077
+0.064
+0.120
+0.965
+296.568
+
+2003
+0.211
+0.044
+0.162
+1.011
+7.428
+0.765
+0.148
+0.075
+0.082
+0.140
+0.997
+310.359
+
+2004
+0.208
+0.045
+0.159
+1.552
+12.349
+0.820
+0.091
+0.080
+0.072
+0.129
+1.278
+271.483
+
+2005
+
+0.187
+0.050
+0.136
+1.409
+12.857
+1.011
+0.099
+0.078
+0.067
+0.115
+1.212
+230.040
+
+2006
+
+0.176
+0.053
+0.123
+1.494
+14.044
+0.928
+0.091
+0.083
+0.063
+0.121
+1.264
+310.714
+
+2007
+
+Notes: r: implied cost of equity capital; equity premium: r–T-bond rate; P/B: price-to-book value of equity; P/E: price-to-earnings ratio; TA: total assets in millions of Korean
+won; Beta: capital asset pricing model beta; D/M: debt-to-market capitalization; D/A: debt-to-total assets; ROA: return on total assets; ROE: return on common equity; Tobin’s
+Liability þ Market value of equity
+Q¼
+.
+Total assets
+
+r
+T-bond
+Equity premium
+P/B
+P/E
+Beta
+D/M
+D/A
+ROA
+ROE
+Tobin’s Q
+TA
+
+Descriptive statistics
+
+Table 2. Descriptive statistics by year: medians of key variables.
+
+152
+T.H. Choi et al.
+
+Asia-Paciﬁc Journal of Accounting & Economics
+Table 3.
+
+153
+
+Annual estimates of the implied cost of equity capital (r) by industry.
+
+Industry
+Telecommunication
+services
+Consumer staples
+utility
+Consumer discretionary
+Basic materials
+Health care
+Information technology
+Energy
+Industrials
+
+R
+(%)
+
+P/B
+
+ROE
+
+Tobin’s
+Q
+
+13.0
+
+1.319 12.603 0.813 0.289 0.249 0.069 0.144
+
+1.261
+
+14.6
+16.4
+19.9
+21.4
+21.8
+22.3
+22.7
+23.7
+
+1.293
+0.494
+1.251
+0.672
+1.319
+1.548
+1.658
+1.038
+
+1.144
+0.768
+1.120
+0.835
+1.146
+1.316
+1.371
+1.007
+
+P/E
+
+12.971
+6.657
+10.576
+9.406
+11.678
+12.033
+13.672
+10.500
+
+Beta
+
+0.665
+0.351
+0.791
+0.807
+0.615
+1.040
+0.872
+0.933
+
+D/M
+
+0.119
+0.597
+0.125
+0.343
+0.118
+0.048
+0.117
+0.254
+
+D/A
+
+0.087
+0.123
+0.072
+0.124
+0.077
+0.047
+0.115
+0.141
+
+ROA
+
+0.065
+0.039
+0.071
+0.048
+0.076
+0.085
+0.092
+0.052
+
+0.118
+0.080
+0.128
+0.083
+0.112
+0.136
+0.146
+0.101
+
+Notes: P/B: price-to-book value of equity; P/E: price-to-earnings ratio; TA: total assets in millions of Korean
+won; Beta: capital asset pricing model beta; D/M: debt-to-market capitalization; D/A: debt-to-total assets;
+Liability þ Market value of equity
+ROA: return on total assets; ROE: return on common equity; Tobin’s Q ¼
+.
+Total assets
+
+valuation variables, and a negative association between valuation variables and risk
+measures except for the market beta. The estimated cost of capital is negatively correlated with P/B (0.203), P/E (0.075), and Tobin’s Q (0.185).
+Table 5 presents the estimates of r for the portfolios partitioned by ﬁnancial factors
+that represent ﬁrm characteristics. In this section, we compare the COC estimates and
+various ﬁrm characteristics to see how they are associated. The relationship between
+ﬁrm characteristics and COC is backed up by anecdotal evidence and also supported by
+prior studies that demonstrate that ﬁrm-speciﬁc risks affect the implied costs of capital
+(Gebhardt et al. 2001, Gode and Mohanram 2003, Botosan and Plumlee 2005).
+The numerator of the P/B and P/E ratios, viz. market price, is based on the expected
+future earnings that market participants pay for (Ohlson 1995). If participants expect
+higher future economic beneﬁts relative to the book value (earnings), the P/B (P/E) will
+show a higher value as the market’s expectations are incorporated in the numerator.
+Prior literature has reported that low P/B ﬁrms face higher systematic risk and earn
+higher ex post returns than high P/B ﬁrms (Fama and French 1992, Berk et al. 1999).
+The stocks of low P/B ﬁrms should thus earn a higher risk premium.19 In general, the
+levels of P/B and P/E are negatively associated with the COC. COC estimates for the
+lowest quintile (portfolio 1) of P/B and P/E are 25.0 and 24.5%; for the highest quintile
+(portfolio 5), they are 19.0 and 22.5%, respectively. Tobin’s Q also captures the value
+of companies. COC for the highest quintile of Tobin’s Q (17.7%) is signiﬁcantly lower
+than that for the lowest quintile (23.6%).
+Total assets (TA), which represent the size effect of a ﬁrm, proxy for risk.20 Prior
+studies document that investors’ required rate of return is lower for larger companies,
+because these companies usually have dominant market power (Cressy 1995) and/or
+lower default risk. The literature on disclosure also argues that for larger ﬁrms, the
+degree of information asymmetry that exists between investors and companies can be
+diminished since the size also proxies for the availability of information. Hence, a negative association exists between the level of disclosure and the COC (Botosan 1997,
+Poshakwale and Courtis 2005, Habib 2006). The existence of a signiﬁcant negative
+association between ﬁrm size and the implied costs of capital is supported by our ﬁndings, which show that the COC decreases from 23.7% for portfolio 1 to 17.6% for port-
+
+Beta
+
+D/M
+
+0.859
+(<.0001)
+0.552
+(<.0001)
+
+TA
+
+0.203 (<.0001)
+0.075 (0.002)
+0.528 (<.0001)
+0.208 (<.0001) 0.169 (<.0001) 0.012 (0.623)
+0.033 (0.291)
+0.344 (<.0001)
+0.308 (<.0001)
+0.343 (<.0001)
+0.182 (<.0001) 0.584 (<.0001) 0.273 (<.0001)
+0.484 (<.0001) 0.042 (0.180)
+0.085 (0.001)
+0.188 (<.0001) 0.038 (0.125)
+0.466 (<.0001)
+0.150 (<.0001)
+0.876 (<.0001)
+0.244 (<.0001)
+0.498 (<.0001) 0.202 (<.0001) 0.358 (<.0001) 0.062 (0.044)
+0.615 (<.0001) 0.427
+(<.0001)
+0.211 (<.0001)
+0.536 (<.0001) 0.275 (<.0001) 0.157 (<.0001)
+0.061 (0.049)
+0.394 (<.0001) 0.195
+(<.0001)
+0.185 (<.0001)
+0.965 (<.0001)
+0.493 (<.0001) 0.216 (<.0001)
+0.317 (<.0001) 0.619 (<.0001) 0.231
+(<.0001)
+
+P/E
+
+ROA
+
+P/B
+
+D/A
+
+r
+
+Correlations between ﬁrm characteristics.
+
+0.551
+(<.0001)
+
+ROE
+
+Notes: This table shows Spearman correlations between ﬁrm characteristics. P/B: price-to-book value of equity; P/E: price-to-earnings ratio; TA: total assets in millions of Korean
+won; Beta: capital asset pricing model beta; D/M: debt-to-market capitalization; D/A: debt-to-total assets; ROA: return on total assets; ROE: return on common equity; Tobin’s
+Liability þ Market value of equity
+Q¼
+.
+Total assets
+
+Tobin’s
+Q
+
+ROE
+
+P/B
+P/E
+TA
+Beta
+D/M
+D/A
+ROA
+
+Table 4.
+
+154
+T.H. Choi et al.
+
+Asia-Paciﬁc Journal of Accounting & Economics
+Table 5.
+
+155
+
+Annual estimates of the implied cost of equity capital (r) by various ﬁnancial factors.
+Quintile of ﬁrm characteristics (%)
+
+Financial factor
+
+1st
+
+2nd
+
+3rd
+
+4th
+
+5th
+
+P/B
+P/E
+TA
+Beta
+D/A
+ROA
+ROE
+Tobin’s Q
+
+25.0
+24.5
+23.7
+21.1
+18.4
+27.1
+26.7
+23.6
+
+22.1
+20.6
+23.4
+18.9
+19.9
+23.4
+22.1
+23.8
+
+20.7
+18.9
+21.8
+18.7
+20.3
+19.6
+19.3
+20.7
+
+18.9
+19.3
+17.7
+20.1
+22.9
+18.7
+17.5
+19.6
+
+19.0
+22.5
+17.6
+19.0
+22.3
+18.2
+20.4
+17.7
+
+Notes: The partitions are formed by sorting the data into quintiles on the basis of the ﬁnancial factors. For
+example, portfolio 1 includes the bottom 20% of observations based on the size of each ﬁnancial factor. P/B:
+price-to-book value of equity; P/E: price-to-earnings ratio; TA: total assets in millions of Korean won; Beta:
+capital asset pricing model beta; D/M: debt-to-market capitalization; D/A: debt-to-total assets; ROA: return on
+Liability þ Market value of equity
+.
+total assets; ROE: return on common equity; Tobin’s Q ¼
+Total assets
+
+folio 5. On the other hand, it is known that small ﬁrms are more optimistically biased
+(Bhushan 1989, Brown 1999, Richardson et al. 2000, Easton and Sommers 2007) and
+may thus show upwardly biased COCs (Easton and Sommers 2007). It is thus extremely difﬁcult, if not impossible, to empirically disentangle all those effects due to the
+complexity of the issue.
+It is also well documented that the COC is positively correlated with ﬁrm risk. The
+measures we use to assess ﬁrm risk in this study are the market beta (Beta), debt-tomarket (D/M), and debt-to-assets (D/A). In addition, we also use the CAPM beta to
+capture the ﬁrm-speciﬁc risk that is related to market volatility (Sharpe 1964, Lintner
+1965, Mossin 1966). Given that, a positive association between Beta and the COC
+would be expected (Gordon and Gordon 1997, Gode and Mohanram 2003, Harris et al.
+2003). Contrary to these expectations, although the pattern is less apparent, Beta and
+the COC are associated negatively. The value of r varies between 21.1% (portfolio 1)
+and 19.0% (portfolio 5), but stands at 18.7% for portfolio 3. The result is not surprising
+in the sense that the COCs that are estimated from the historic beta (i.e. the CAPM) are
+of limited use in predicting ﬁrm-speciﬁc risk.21
+D/M and D/A measure the risk that is associated with the ﬁnancial leverage of the
+ﬁrm. As the amount of debt in a ﬁrm’s capital structure increases, so too does the risk
+that the ﬁrm takes on. This provides an incentive for market participants to require
+higher rates of returns for ﬁrms with higher ratios. We expect a positive association
+between the COC and ﬁnancial leverage. It turns out that r for the lowest quintile of
+D/A is 18.4%; for the highest quintile, r is 22.3%.
+ROA and ROE proxy the proﬁtability of companies. According to our results, they
+are negatively associated with the COC. While r for the lowest quintiles of ROA and
+ROE is 27.1 and 26.7%, respectively, for the highest quintiles, it is 18.2 and 20.4%,
+respectively.
+Apart from portfolio analysis, we also performed regression analysis to examine the
+impact of ﬁnancial factors on the COC in various settings. The results, which are provided in Table 6, are consistent overall with the portfolio analysis reported in Table 5.
+
+(17.26)
+0.438
+0.586⁄⁄⁄ (4.42)
+
+0.023⁄⁄⁄ (4.19)
+
+±
+
+
+
+
+
+
++
++
+
+Intercept
+ROA
+ROE
+P/B
+P/E
+Tobin’s Q
+TA
+D/A
+Beta
+Adj. R2
+0.031
+(8.22)
+0.246⁄⁄⁄ (4.49)
+0.001 (0.03)
+0.116
+
+⁄⁄⁄
+
+0.000⁄ (1.65)
+0.033⁄⁄⁄ (2.93)
+0.029⁄⁄⁄ (7.66)
+0.249⁄⁄⁄ (4.56)
+0.015 (0.92)
+0.121
+
+0.459
+(18.24)
+0.608⁄⁄⁄ (4.35)
+
+⁄⁄⁄
+
+Model 3
+(16.78)
+
+0.027
+(7.27)
+0.323⁄⁄⁄ (6.22)
+0.026 (1.61)
+0.115
+
+⁄⁄⁄
+
+0.139⁄⁄ (2.13)
+0.028⁄⁄⁄ (5.16)
+0.000⁄ (1.90)
+
+0.406
+
+⁄⁄⁄
+
+Model 4
+(17.23)
+
+0.030
+(7.98)
+0.336⁄⁄⁄ (6.41)
+0.002 (0.11)
+0.095
+
+⁄⁄⁄
+
+0.252⁄⁄⁄ (4.09)
+
+0.419
+
+⁄⁄⁄
+
+Model 5
+
+0.046⁄⁄⁄ (4.32)
+0.028⁄⁄⁄ (7.36)
+0.314⁄⁄⁄ (6.00)
+0.019 (1.19)
+0.109
+
+0.149⁄⁄ (2.25)
+
+0.433⁄⁄⁄ (17.78)
+
+Model 6
+
+are in parentheses.⁄p < 0:1; ⁄⁄p < 0:05; ⁄⁄⁄p < 0:01.
+
+capital asset pricing model beta; D/A: debt-to-total assets; ROA: return on total assets; ROE: return on common equity; Tobin’s Q ¼
+
+Liability þ Market value of equity
+. t-statistics
+Total assets
+
+r: implied cost of equity capital; P/E: price-to-earnings ratio; P/B: price-to-book value of equity; P/E: price-to-earnings ratio; TA: Log(total assets in millions of Korean won); Beta:
+
+Model 6: rjt ¼ a1 þ b1 ROEjt þ b2 Tobin’sQjt þ b3 TAjt þ b4 D=Ajt þ b5 Betajt ejt .
+
+Model 5: rjt ¼ a1 þ b1 ROEjt þ b2 P/Ejt þ b3 TAjt þ b4 D=Ajt þ b5 Betajt ejt .
+
+Model 4: rjt ¼ a1 þ b1 ROEjt þ b2 P/Bjt þ b3 TAjt þ b4 D=Ajt þ b5 Betajt ejt .
+
+Notes:
+Model 1: rjt ¼ a1 þ b1 ROAjt þ b2 P/Bjt þ b3 TAjt þ b4 D=Ajt þ b5 Betajt ejt .
+Model 2: rjt ¼ a1 þ b1 ROAjt þ b2 P/Ejt þ b3 TAjt þ b4 D=Ajt þ b5 Betajt ejt .
+Model 3: rjt ¼ a1 þ b1 ROAjt þ b2 Tobin’s Qjt þ b3 TAjt þ b4 D=Ajt þ b5 Betajt ejt .
+
+0.028
+(7.54)
+0.255⁄⁄⁄ (4.68)
+0.023 (1.41)
+0.129
+
+⁄⁄⁄
+
+⁄⁄⁄
+
+⁄⁄⁄
+
+0.456
+(18.07)
+0.782⁄⁄⁄ (6.33)
+
+Model 2
+
+Model 1
+
+Pred. sign
+
+Variable
+
+Table 6. Regression of the cost of capital on ﬁnancial factors.
+
+156
+T.H. Choi et al.
+
+Asia-Paciﬁc Journal of Accounting & Economics
+
+157
+
+While the ﬁrst three models employ ROA to proxy for companies’ proﬁtability, the next
+three models use ROE. Not surprisingly, both independent variables show a signiﬁcantly negative association with the COC. P/B, P/E, and Tobin’s Q are used as ﬁrmvaluation proxies. As expected, all of them are signiﬁcantly negatively associated with
+the COC. The results further suggest that TA has a negative impact on the COC and D/
+A has a positive association with the COC. The association between Beta and the COC
+is not signiﬁcant at the conventional level.
+Table 7 presents the COC by country. As would be expected, when compared with
+other countries, the implied costs of equity capital for Korean companies are higher.22
+Among the 32 countries investigated, South Korea is ranked the fourth highest. Figure 1
+also shows that Korea is suffering from substantially lower P/E and P/B ratios and a
+higher COC.
+Table 8 reveals the relationship between the COC and key valuation variables
+including the trailing P/E, forward P/E, and PEG ratio. The trailing P/E ratio is often
+used by investors for security valuation. While the focus of its denominator is the historic value, the price in the numerator incorporates future prospects. Hence, the replacement of the reported earnings with earnings forecasts in the denominator leads to a
+forward P/E ratio. However, the ratio still implicitly assumes the future earnings growth
+to be zero. Knowing this shortcoming, a number of articles in the business press base
+their stock recommendation on the PEG ratio, which can be obtained by dividing the
+forward P/E ratio by the forecast growth. Our test that aims to determine whether countries with high values exhibit lower COCs includes all three alternative ratios.
+The correlations between the COC estimate and all valuation variables are signiﬁcantly negative: 0.421 for the trailing P/E, 0.400 for the forward P/E, and 0.934
+for the PEG ratio. In line with our speculation, the result implies that countries with
+Table 7.
+
+Implied cost of equity capital by country.
+
+Country
+
+N
+
+r (%)
+
+Country
+
+N
+
+r (%)
+
+Japan
+Portugal
+Ireland
+United States
+Belgium
+Switzerland
+Italy
+UK
+Spain
+France
+Denmark
+Netherlands
+Greece
+Mexico
+Canada
+Austria
+
+136
+27
+60
+2289
+146
+258
+249
+804
+174
+473
+125
+258
+119
+25
+311
+52
+
+8.1
+10.6
+10.7
+10.8
+10.9
+11.1
+11.3
+11.4
+11.4
+11.6
+12.3
+12.7
+12.9
+12.9
+13.0
+13.0
+
+Poland
+Germany
+China
+Taiwan
+Finland
+Sweden
+Philippines
+Singapore
+Hong Kong
+South Africa
+Malaysia
+Thailand
+Korea
+Norway
+Indonesia
+Brazil
+
+21
+454
+204
+98
+254
+362
+50
+239
+62
+45
+256
+325
+33
+180
+74
+51
+
+13.1
+13.2
+13.3
+13.4
+13.7
+14.0
+14.3
+14.8
+15.3
+15.7
+15.9
+15.9
+17.1
+18.7
+19.0
+26.9
+
+Notes: This table shows the implied cost of equity capital by country. The p
+Ohlson
+and Juettner-Nauroth
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+(2005) model (OJ model) is used to estimate the cost of equity capital. r ¼ A þ A2 þ eps1 =P0 ðgs  ðc  1ÞÞ
+where A  1=2ððc  1Þ þ dps1 =P0 Þ and gs ¼ eps2  eps1 =eps1 ; γ = rf  gl + 1; γ = long-term earnings growth
+rate + 1; gs = short-term earnings growth rate; gl = long-term economic growth rate; rf = yield on a three-year
+treasury bond; and epst = analysts’ forecast of earnings per share at time t.
+
+r
+
+Trailing P/E
+
+Forward P/E
+
+PEG
+
+Inﬂation
+
+GDP
+
+CPI
+
+0.421 (0.016)
+0.400 (0.023)
+0.827 (<.0001)
+0.934 (<.0001)
+0.515 (0.003)
+0.428 (0.015)
+0.288 (0.137) 0.366 (0.056) 0.420 (0.026) 0.244 (0.211)
+0.206 (0.266)
+0.150 (0.419)
+0.088 (0.640)
+0.146 (0.433) 0.051 (0.797)
+0.004 (0.982) 0.041 (0.823)
+0.056 (0.763) 0.084 (0.647) 0.582 (0.001)
+0.119 (0.522)
+0.448 (0.010)
+0.142 (0.437)
+0.238 (0.189)
+0.360 (0.043) 0.574 (0.001)
+0.090 (0.629)
+0.610 (0.000)
+0.209 (0.250)
+0.155 (0.397)
+0.339 (0.057)
+0.098 (0.596) 0.745 (<.0001) 0.018 (0.923)
+0.669 (<.0001)
+0.173 (0.343)
+0.044 (0.810)
+0.140 (0.443)
+0.063 (0.732) 0.742 (<.0001)
+0.112 (0.550)
+0.822 (<.0001)
+0.351 (0.049)
+0.111 (0.544)
+0.214 (0.239)
+0.215 (0.237) 0.526 (0.004)
+0.104 (0.578)
+0.742 (<.0001)
+0.239 (0.188)
+0.082 (0.654)
+0.198 (0.278)
+0.116 (0.527) 0.689 (<.0001)
+0.135 (0.469)
+0.788 (<.0001)
+0.238 (0.191)
+0.077 (0.674)
+0.207 (0.255)
+0.126 (0.493) 0.720 (<.0001)
+0.079 (0.674)
+0.833 (<.0001)
+0.586 (0.000)
+0.308 (0.086)
+0.317 (0.077)
+0.563 (0.001) 0.049 (0.804) 0.131 (0.483) 0.219 (0.229)
+0.248 (0.172)
+0.170 (0.352)
+0.072 (0.694)
+0.314 (0.080) 0.021 (0.917) 0.175 (0.346)
+0.143 (0.435)
+0.297 (0.099) 0.020 (0.913)
+0.005 (0.978)
+0.316 (0.078) 0.083 (0.673)
+0.290 (0.113)
+0.333 (0.063)
+0.672 (<.0001)
+0.719 (<.0001)
+0.688 (<.0001)
+0.809 (<.0001)
+0.809 (<.0001)
+0.174 (0.341)
+0.209 (0.251)
+0.555 (0.001)
+
+VA
+
+GE
+
+RQ
+
+RL
+
+CC
+
+FROP
+
+AC
+
+0.861 (<.0001)
+0.806 (<.0001)
+0.887 (<.0001)
+0.882 (<.0001)
+0.960 (<.0001)
+0.872 (<.0001)
+0.878 (<.0001)
+0.963 (<.0001)
+0.904 (<.0001)
+0.976 (<.0001)
+0.041 (0.826)
+0.145 (0.428) 0.078 (0.671) 0.061 (0.740) 0.047 (0.800)
+0.025 (0.894)
+0.159 (0.386)
+0.205 (0.261)
+0.103 (0.573)
+0.148 (0.419) 0.169 (0.356)
+0.265 (0.143)
+0.325 (0.070)
+0.323 (0.072)
+0.404 (0.022)
+0.438 (0.012)
+0.382 (0.031) 0.062 (0.737)
+
+PV
+
+Notes: This table presents Spearman correlations between key variables: Trailing P/E ¼ Pricet =Reported earnings per sharet ; Forward P/E ¼ Pricet =Reported earnings per sharetþ1 ;
+PEG ¼ Trailing P/Et =Short-term growth of earningstþ1 ; r: implied cost of equity capital estimated by the OJ Model; Inﬂation: annual inﬂation rate of the country; GDP: natural
+log of the GDP of the country in millions of US$; CPI : corruption perception index; VA: voice and accountability; PV: political stability and absence of violence; GE: government
+effectiveness; RQ: regulatory quality; RL: rule of law; CC: control of corruption; FROP: faithful representation of operating performance; AC: accounting conservatism; QA: quality of accruals.
+
+Trailing P/E
+Forward P/E
+PEG
+Inﬂation
+GDP
+CPI
+VA
+PV
+GE
+RQ
+RL
+CC
+FROP
+AC
+QA
+
+Table 8. Country-level correlations between the implied cost of equity capital, valuation variables, and control variables.
+
+158
+T.H. Choi et al.
+
+0.002
+
++0.282⁄⁄ (2.47)
+0.298⁄⁄⁄ (2.62)
+0.001 (0.71) 0.001 (0.73)
+0.004⁄⁄⁄ (5.23) 0.003⁄⁄⁄ (3.65)
+0.016⁄⁄⁄ (5.44) 0.009⁄⁄⁄ (2.81)
+0.013⁄⁄ (2.56)
+0.013⁄⁄ (2.57)
+0.015 (1.60)
+0.010 (1.13)
+0.056⁄⁄⁄ (-7.49) 0.062⁄⁄⁄ (8.11)
+0.030⁄⁄⁄ (2.70) 0.019⁄ (1.70)
+0.043⁄⁄⁄ (6.00)
+0.041⁄⁄⁄ (5.65)
+0.001⁄⁄⁄ (7.05)
+0.001⁄⁄⁄ (4.87)
+0.0003⁄ (1.68)
+0.102
+0.121
+
+Model 3
+
++
+
+
+
+
+
+
+
+
+
+
+
+
+Model 2
+
+0.131⁄⁄⁄ (103.63) 0.205⁄⁄⁄ (20.69) 0.234⁄⁄⁄ (22.63)
+0.083⁄⁄ (2.38)
+0.077⁄⁄ (2.28)
+0.061⁄ (1.83)
+0.027⁄⁄ (2.54)
+0.002 (0.24) 0.007 (0.69)
+0.562⁄⁄ (2.06) 0.559⁄⁄ (2.16) 0.555⁄⁄ (2.16)
+
+Model 1
+
+±
++
+
+±
+
+Predicted
+sign
++
+
++
+±
+
+
++
++
++
++
++
++
++
++
++
++
++
+
+Predicted
+sign
+
+Regression analysis of the cost of capital and P/E ratios: Korea vs. other countries.
+
+Model 4
+
+Model 5
+
+Model 6
+
+19.399⁄⁄⁄ (35.34) 10.538⁄⁄⁄ (4.39)
+8.867⁄⁄⁄ (3.47)
+⁄⁄
+⁄
+16.276 (2.12) 14.990 (1.95) 17.151⁄⁄ (2.22)
+14.753⁄⁄⁄(6.22)
+16.880⁄⁄⁄ (7.09) 17.175⁄⁄⁄ (7.21)
+25.322 (0.42)
+24.662 (0.42)
+28.979 (0.49)
+11.460⁄⁄⁄ (3.18) 6.343⁄ (1.68) 5.365 (1.41)
+3.328 (0.13)
+6.924 (0.26)
+0.899⁄⁄⁄ (3.81)
+0.964⁄⁄⁄ (4.08)
+⁄⁄
+0.400 (2.32) 0.431⁄⁄ (2.44)
+1.184⁄ (1.78)
+2.107⁄⁄⁄ (2.74)
+⁄⁄⁄
+3.034
+(2.66)
+1.998⁄ (1.71)
+3.089 (1.48)
+1.537 (0.72)
+0.358 (0.21)
+0.670 (0.38)
+4.109 (1.62)
+4.915⁄ (1.93)
+⁄⁄⁄
+4.915
+(2.95)
+5.391⁄⁄⁄ (3.23)
+0.105⁄⁄⁄ (3.44)
+0.005 (0.15)
+0.117⁄⁄⁄ (3.22)
+0.014
+0.031
+0.035
+
+Notes:
+Model 1: rjt ¼ 1 þ 2 dKorea þ 1 ROAjt þ 2 dKorea þ "jt .
+Model 2: rjt ¼ 1 þ 2 dKorea þ 1 ROAjt þ 2 dKorea ROAjt þ 1 Inflationjt þ 2 GDPjt þ 3 CPIjt þ 4 VAjt þ 5 PVjt þ 6 GEjt þ 7 RQjt þ 8 RLjt þ 9 CCjt þ "jt .
+Model 3: rjt ¼ 1 þ 2 dKorea þ 1 ROAjt þ 2 dKorea ROAjt þ 1 Inflationjt þ 2 GDPjt þ 3 CPIjt þ 4 VAjt þ 5 PVjt þ 6 GEjt þ 7 RQjt þ 8 RLjt þ 9 CCjt þ 10 FROPjt þ
+11 ACjt þ 12 QAjt þ "jt .
+Model 4: P/Ejt ¼ 1 þ 2 dKorea þ 1 ROAjt þ 2 dKorea ROAjt þ 3 rjt þ "jt .
+Model 5: P/Ejt ¼ 1 þ 2 dKorea þ 1 ROAjt þ 2 dKorea ROAjt þ 3 rjt þ 1 Inflationjt þ 2 GDPjt þ 3 CPIjt þ 4 VAjt þ 5 PVjt þ 6 GEjt þ 7 RQjt þ 8 RLjt þ 9 CCjt þ "jt .
+Model 6:
+P/Ejt ¼ 1 þ 2 dKorea þ 1 ROAjt þ 2 dKorea ROAjt þ 3 rjt þ 1 Inflationjt þ 2 GDPjt þ 3 CPIjt þ 4 VAjt þ 5 PVjt þ 6 GEjt þ 7 RQjt þ 8 RLjt þ 9 CCjt þ
+10 FROPjt þ 11 ACjt þ 12 QAjt þ "jt .
+r: implied cost of equity capital; P/E: price-to-earnings ratio; dKorea: 1 = Korea, 0 = other countries; ROA: return on total assets; ROAKorea = return on total assets for Korean companies; Inﬂation: annual inﬂation rate of the country; GDP: natural log of the GDP of the country in millions of US$; CPI : corruption perception index; VA: voice and accountability; PV: political stability and absence of violence; GE: government effectiveness; RQ: regulatory quality; RL: rule of law; CC: control of corruption; FROP: faithful
+representation of operating performance; AC: accounting conservatism; QA: quality of accruals.t-statistics are in parentheses.⁄p < 0:1; ⁄⁄p < 0:05; ⁄⁄⁄p < 0:01.
+
+Intercept
+dKorea
+ROA
+ROAKorea
+r
+Inﬂation
+GDP
+CPI
+VA
+PV
+GE
+RQ
+RL
+CC
+FROP
+AC
+QA
+Adj. R2
+
+Variable
+
+Table 9.
+
+Asia-Paciﬁc Journal of Accounting & Economics
+159
+
+160
+
+T.H. Choi et al.
+
+high COCs are signiﬁcantly undervalued. Nationally, we examine whether higher corruption is associated with lower country value through a higher COC. Prior literature
+documents that corruption has an adverse impact on the values of companies (Lee and
+Ng 2006, Pantzalis et al. 2008). Consistent with prior studies, the CPI shows a signiﬁcantly negative correlation with the COC and a positive correlation with the valuation
+variables although in this case the signiﬁcance level is low except for the forward P/E
+ratio. The impact of inﬂation and GDP on valuation is less strong. Prior literature
+reports that ﬁrms from countries with better regulations and law enforcement systems
+have lower COCs (Hail and Leuz 2006). In general, the WGI are negatively correlated
+with the implied cost of capital. In particular, voice and accountability (0.448) and
+regulatory quality (0.351) show signiﬁcantly negative correlations with the COC.
+Another important factor for the cross-country study is the ﬁnancial reporting quality,
+which is known to vary across countries as well as regions. The COC is negatively correlated with FROP (0.586), AC (0.248), and QA (0.297). However, although the
+correlation between the COC and AC is of the predicted sign, it is insigniﬁcant at the
+conventional level.
+Finally, Table 9 presents the results of regression analysis where the COC is the
+dependent variable and ROA is the independent variable, after the macro variables are
+controlled for. Following prior studies, we used inﬂation, GDP, CPI, WGI, and ﬁnancial
+reporting quality as the controlling variables.23 The results indicate that after the ﬁnancial performance and macro variables are controlled for, the level of COC for the Korean
+stock market (0.061) is signiﬁcantly higher in comparison with those in other countries.
+Interestingly enough, the COC for the Korean stock market is signiﬁcantly negatively
+associated with ROA, implying that the ﬁnancial performance of Korean ﬁrms has a
+substantial impact on the COC. In Model 3, the macro variables represented by Inﬂation
+(0.298), GDP (0.001), and CPI (0.003) also follow the predicted signs. The association between r and WGI shows mixed results. While voice and accountability (0.009),
+regulatory quality (0.062), and rule of law (0.019) follow the predicted sign, political
+stability and absence of violence (0.013) and control of corruption (0.041) show the
+opposite sign. Government effectiveness is insigniﬁcant. Model 6 shows the results of
+regression using the P/E ratio as the dependent variable, and ROA and the COC as the
+independent variables, after controlling for the macro variables.24 The association
+between the COC and the company’s valuation (P/E) is highly signiﬁcant. Such a conclusion is not surprising given that the COC has an immediate impact on the stock price.
+As expected, after the ﬁnancial performance, COC, and macro variables are controlled
+for, the P/E ratio of the Korean stock market (17.151) is signiﬁcantly lower than that
+of other countries. From the test, we can conclude that the Korean stock market is substantially undervalued in comparison with other stock markets.
+Concluding remarks
+A variety of evidence has shown the existence of the “Korea Discount,” referring to the
+phenomenon that the companies listed in the Korean stock market are, ceteris paribus,
+traded at a discount in comparison with companies in other countries. The market
+stigma of the “Korea Discount” has spread widely to other economic areas including
+the national brand value and foreign direct investment (FDI).25
+The results of this research have several important implications for the study of
+equity premia. First, this paper provides compelling evidence that the Korean stock
+market is traded at a discount. The estimated equity premium over the risk-free rate for
+
+Asia-Paciﬁc Journal of Accounting & Economics
+
+161
+
+the Korean stock market averages 15.1% over the years 2000 through 2007, which is
+signiﬁcantly higher than that reported for the US stock market. Second, our study
+shows that the equity premium has decreased over the last eight years. We postulate
+that the economic turmoil of the 1997 ﬁnancial crisis negatively (in a valuation sense)
+affected the Korean stock market in several subsequent years and investors’ required
+rates were much higher after the crisis as many companies had ﬁnancial difﬁculties if
+not already in default.
+However, the “Korea Discount” has eased up in recent years. It appears that the
+market disadvantage has decreased since the late 1990s, partly due to the efforts of the
+government to enhance corporate transparency including early adoption of the IFRS or
+advancement to “developed status” according to the FTSE stock market index. It is also
+expected that the status promotion to “advanced” country based on the MSCI index,
+which is supposed to be decided in June 2010, will also provide a positive signal to
+potential investors regarding the level of development and safety of the Korean ﬁnancial
+market.
+As well documented in prior studies, we found a signiﬁcant association between
+ﬁrm characteristics and the COC (Gebhardt et al. 2001, Gode and Mohanram 2003,
+Botosan and Plumlee 2005). To investigate this issue, we examined a measure of the
+implied cost of capital in relation to variables that affect the risk and proﬁtability, as
+perceived by market investors.
+Finally, after controlling for macro variables such as GDP, inﬂation, a country’s
+level of corruption, the WGI, and ﬁnancial reporting quality, we estimated the COC for
+32 countries and found that the Korean stock market is substantially undervalued.
+Nevertheless, the results of this study should be interpreted with some caveats. One
+issue to be wary of is the potential effect of omitted ﬁrm-level variables on the estimated COC. For example, ﬁrm-level disclosure and/or information quality may have a
+signiﬁcant impact on the implied cost of capital (Diamond and Verrecchia 1991, Botosan and Plumlee 2002, Easley and O’Hara 2004, Berger et al. 2006, Core et al. 2007,
+Lambert et al. 2007).
+Another issue is the potential upward bias in the estimates of the costs of capital
+implied by market prices and analysts’ forecasts. The high costs of capital may reﬂect
+the fact that earnings forecasts are optimistically biased. If so, the COC that is implied
+by inﬂated analysts’ forecasts of earnings will be upwardly biased as well (Easton and
+Sommers 2007). A related problem is that earnings forecasts that are prepared under
+different accounting regimes (e.g. GAAP or Korean GAAP) may lead to differences in
+the COC (Easton 2006); different GAAP may thus affect estimates of r.
+Future research can fruitfully extend this study in several directions. One valuable
+area for future study would be an analysis of analysts’ optimism and the COC using a
+dataset that spans a longer time-window. Besides, since caution must be exercised when
+we interpret omitted ﬁrm-level variables, further research is required to investigate the
+link between disclosure or information quality and the phenomenon of stock market discounts. Another worthwhile area of research would be one that looks into cross-sectional and longitudinal analyses of analysts’ forecast errors for Korean companies and
+investigates the extent to which forecast errors are attributable to the COC. Further
+investigation of cross-cultural differences among countries would also lead to fruitful
+results.
+Overall, this study is among the ﬁrst to examine the implied equity premium for the
+Korean stock market. Our research on the links between the implied cost of capital and
+
+162
+
+T.H. Choi et al.
+
+ﬁrm characteristics sheds more light on this phenomenon and provides another potent
+interpretation of the “Korea Discount” based on the equity premium.
+Acknowledgements
+Choi and Pae acknowledge the ﬁnancial support provided by the KDI School of Public Policy
+and Management and Korea University, respectively. The authors appreciate the helpful
+comments from Peter Easton, Martina Sipkova, and seminar participants at the KDI School of
+Public Policy, as well as those from two anonymous referees.
+
+Notes
+1. Estimates of the cost of capital are implied by market prices, analysts’ forecasts of earnings,
+and accounting numbers. Despite not being exactly identical, the terms, ‘implied cost of capital’ and ‘expected rate of return,’ are often used as equivalent to the cost of equity capital.
+They are the same only if we assume efﬁcient market prices, and unbiased accounting numbers and analysts’ forecasts.
+2. Ramstad (2007b) noted: “… Even after South Korea met developed-market income qualiﬁcations in 2003, the ﬁrms that create indexes expressed concerns from market volatility to weak
+dividend payouts to the risk of trouble from neighboring North Korea … An upgrade in market status has become a major goal for some government ofﬁcials and news media in South
+Korea, where rankings and comparisons with other countries are taken very seriously. After
+FTSE and MSCI criticized the low level of dividends paid by South Korean companies, the
+government, which owns the Korean stock xchange, in 2004 encouraged companies to
+change by creating an index of the top 50 companies based on dividends.”
+3. Knowing the weakness of the P/E ratio, market practitioners frequently use other arguable
+heuristics such as the price-to-sales (P/S) or the PEG ratio (Bradshaw 2002, Fisher 2007).
+Nevertheless, even these ratios are still signiﬁcantly affected by other economic factors (Easton 2004).
+4. E.g. the expected inﬂation rate: risk-free rate –3%.
+5. One line of reasoning is that the Korean ﬁnancial system has shortcomings such as: (1) volatility of the Korean stock market due to investors’ characteristics regarding short-term speculation (Chang 2005); (2) restrictions on the stock market (e.g. restricted short-selling); and (3)
+general weakness of ﬁnancial systems (e.g. insufﬁcient shareholder protection, restrictions on
+hedge or pension funds, etc.). Besides, various serious discount factors represented by: (1)
+poor corporate governance (Baek et al. 2004, Hail and Leuz 2006, Baek et al. 2009); (2) lack
+of business ethics, including corporate transparency (Baek et al. 2004, Choi and Jung 2008,
+Choi and Nakano 2008); (3) inadequate and less timely disclosure (Botosan 1997, Botosan
+and Plumlee 2002, Poshakwale and Courtis 2005, Dargenidou et al. 2006, Habib 2006, Lambert et al. 2007); (4) militant labor unions (Seggerman 2007); and (5) low national brand
+value have also been provided by business corporations. Concerning the undervaluation of
+Korea, Kim (2008) reports: “According to the 2007 Anholt-GMI Nation Brands Index, Korea
+ranked 32nd out of 38 countries worldwide in terms of national brand. Korea’s national brand
+value accounts for merely 29% of its gross domestic product, which is paltry compared with
+224% for Japan and 143% for the USA. What is worse, Korea lags behind countries with
+smaller economies, like Mexico, Poland and Egypt, in terms of national brand value. For that
+reason, Korean products are more than 30% cheaper than similar quality products from Germany and Japan in international markets.”
+6. The COC was also estimated by using different models including the modiﬁed PEG ratio
+model (O’Hanlon and Steele 2000, Gebhardt et al. 2001, Easton et al. 2002, Easton 2004).
+Implied by the prior discussion, regarding the validity of COC, the mean (median) value of
+COC estimated by alternative models was used as a proxy for the cost of capital (Hail and
+Leuz 2006) in addition to individual estimates. The correlation between the COCs that were
+estimated by alternative models was very high and the results were qualitatively
+similar.
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+7. We also estimated the COC from a PEG model (Easton 2004) as follows: eps2  eps1 =P0 .
+The result was not sensitive to the choice of the estimation method.
+8. For example, when Hail and Leuz (2006) estimated the COC by using four different models,
+they found that the choice of model did not have a signiﬁcant impact on the results.
+9. Annual inﬂation rate (Nissim and Penman 2003).
+
+Asia-Paciﬁc Journal of Accounting & Economics
+
+163
+
+10. We also used the GDP growth rate as well as the GDP without the natural log operator. The
+results were qualitatively identical.
+11. www.transparency.org.
+12. www.worldbank.org.
+13. We also used ﬁrm-level measures for the quality of accruals. The result was qualitatively
+similar.
+14. The archival database for earnings forecasts for Korean companies was available from 2000.
+15. As of 31 December 2007, 745 companies were listed on the Korean stock exchange and
+1026 companies were listed on the KOSDAQ exchange.
+16. DataGuide Pro, which is a ﬁnancial database prepared and maintained by FnGuide, Inc., provides companies’ ﬁnancial data, analysts’ reports, and economic data. TS2000 and KSRI were
+also used as alternative sources of ﬁnancial data. The results were qualitatively similar.
+TS2000 is a database that provides companies’ ﬁnancial data; it is prepared and maintained
+by the Korea Listed Companies Association. The KSRI Stock Database is provided by the
+Korea Securities Research Institute.
+17. We use ﬁnancial data from DataGuide Pro as this database contains a complete dataset for
+Korean companies; I/B/E/S reports substantially fewer observations.
+18. www.transparency.org.
+19. Gebhardt et al. (2001) report that P/B is the most important variable in explaining the variation in the implied costs of capital.
+20. Alternative ﬁnancial measures including market capitalization were also tested as proxy variables.
+21. Fama and French (1997, 2002) conclude that the cost of capital estimated from historic beta
+is unavoidably imprecise.
+22. We report the COC as estimated by the OJ model since the data used by this model are more
+easily available; thus, we were able to obtain more observations. We speculate that the implications of an analysis based on the estimates obtained by the model of Easton et al. (2002)
+will be qualitatively similar as prior literature has reported a very high correlation between
+the costs of capital that are legitimated by these two methods (e.g. Daske 2006).
+23. We performed the analysis with various control variables such as the market beta, total assets,
+and ROE. The implication of the result was not sensitive to the choice of control variables.
+24. The analysis was also conducted with the P/B ratio. The result was qualitatively similar.
+25. For example, by 2007, Korea had slipped for three consecutive years in terms of FDI and
+ranked 60th globally.
+
+References
+Agmon, T. and Findlay, M.C., 1982. Domestic political risk and stock valuation. Financial analysts journal, 38, 74–77.
+Baek, H., Johnson, D., and Kim, J., 2009. Managerial ownership, corporate governance, and voluntary disclosure. Journal of business & economic studies, 15 (2), 44–61.
+Baek, J., Kang, J., and Park, K., 2004. Corporate governance and ﬁrm value, evidence from the
+Korean ﬁnancial crisis. Journal of ﬁnancial economics, 71, 265–313.
+Baginski, S. and Wahlen, J., 2003. Residual income, risk, intrinsic values, and share prices. The
+accounting review, 78, 327–351.
+Berger, P., Chen, H., and Li, F., 2006. Firm speciﬁc information and cost of equity. Available
+from SSRN: http://ssrn.com/abstract=906152.
+Berk, J., Green, R., and Naik, V., 1999. Optimal investment, growth options, and security returns.
+Journal of ﬁnance, 54, 1553–1607.
+Bhargava, V. and Malhotra, D., 2006. Do price-earnings ratios drive stock value?. The journal of
+portfolio management, (Fall), 86–114.
+Bhushan, R., 1989. Firm characteristics and analysts following. Journal of accounting and economics, 11, 256–274.
+Botosan, C., 1997. Disclosure level and the cost of equity capital. The accounting review, 72,
+323–349.
+Botosan, C. and Plumlee, M., 2002. A re-examination of disclosure level and the expected cost
+of equity capital. Journal of accounting research, 40, 21–40.
+
+164
+
+T.H. Choi et al.
+
+Botosan, C. and Plumlee, M., 2005. Assessing alternative proxies for the expected risk premium.
+The accounting review, 80, 21–54.
+Bradshaw, M., March 2002. The use of target prices to justify sell-side analysts’ stock recommendation. Accounting horizons, 16 (1), 27–41.
+Brown, L., 1999. Managerial behavior and the bias in analysts’ earnings forecasts. Working
+paper. Georgia State University.
+Burgstahler, D., Hail, L., and Leuz, C., 2006. The importance of reporting incentives: earings
+management in European private and public ﬁrms. The accounting review, 81, 983–1016.
+Byrne, G. and Saibeni, A., 2000. Stock value: the price/earnings fallacy. Business forum, 25, 7–
+10.
+Chang, K., 2005. Volatility, risk premium and Korea discount. The Korean journal of ﬁnancial
+management, 22, 165–187.
+Chen, F., Jorgensen, B.N., and Yoo, Y.K., 2004. Implied cost of equity capital in earnings-based
+valuation: international evidence. Accounting and business research, 34, 323–344.
+Cheng, C., Collins, D., and Huang, H., 2006. Shareholder rights, ﬁnancial disclosure and the cost
+of equity capital. Review of quantitative ﬁnance and accounting, 27, 175–204.
+Choi, T. and Jung, J., 2008. Ethical commitment, ﬁnancial performance, and valuation: an empirical investigation of Korean companies. Journal of business ethics, 81, 447–463.
+Choi, T. and Nakano, C., 2008. The evolution of business ethics in Japan and Korea over the last
+decade. Human systems management, 27 (3), 183–199.
+Claus, J. and Thomas, J., 2001. Equity premia as low as three percent?: empirical evidence from
+analysts’ earnings forecasts for domestic and international stock markets. Journal of ﬁnance,
+56, 1629–1666.
+Core, J., Guay, W., and Verdi, R., 2007. Is accruals quality a priced risk factor? Available from
+SSRN: http://ssrn.com/abstract=911587)
+Cressy, R., 1995. Cost of capital and market power: the effect of size dispersion & entry barriers
+on market equilibrium. Small business economics, 7, 205–212.
+Damodaran, A., 2003. Country risk and company exposure: theory and practice. Journal of
+applied ﬁnance, 13, 63–76.
+Dargenidou, C., McLeay, S., and Raonic, I., 2006. Expected earnings growth and the cost of capital: an analysis of accounting regime change in the European ﬁnance market. Abacus, 42,
+388–414.
+Daske, H., 2006. Economic beneﬁts of adopting IFRS or US-GAAP – have the expected cost of
+equity capital really decreased? Journal of business ﬁnance and accounting, 33, 329–373.
+Dhaliwal, D., Krull, L., Li, O., and Moser, W., 2005. Dividend taxes and implied cost of equity
+capital. Journal of accounting research, 43, 675–708.
+Diamond, D. and Verrecchia, R., 1991. Disclosure, liquidity, and the cost of capital. Journal of
+ﬁnance, 46, 1325–1359.
+Easley, D. and O’Hara, M., 2004. Information and the cost of capital. Journal of ﬁnance, 59 (4),
+1553–1583.
+Easterly, W., 1993. Good policy or good luck? Country growth performance and temporary
+shocks. Journal of monetary economics, 32, 459–483.
+Easton, P., 2004. PE ratios, PEG ratio, and estimating the implied expected rate of return on
+equity capital. The accounting review, 79, 73–96.
+Easton, P., 2006. Use of forecasts of earnings to estimate and compare cost of capital across
+regimes. Journal of business, ﬁnance, and accounting, 33, 374–394.
+Easton, P. and Monahan, S., 2005. An evaluation of accounting-based measures of expected
+returns. The accounting review, 80, 501–538.
+Easton, P. and Sommers, G., 2007. Effect of analysts’ optimism on estimates of the expected rate
+of return implied by earnings forecasts. Journal of accounting research, 45, 983–1015.
+Easton, P., Taylor, G., Shroff, P., and Sougiannis, T., 2002. Using forecasts of earnings to simultaneously estimate growth and the rate of return on equity investment. Journal of accounting
+research, 40, 659–676.
+Fama, E. and French, K., 1992. The cross-section of expected stock returns. Journal of ﬁnance,
+42 (2), 427–465.
+Fama, E. and French, K., 1997. Industry costs of equity. Journal of ﬁnancial economics, 43,
+153–193.
+Fama, E. and French, K., 2002. The equity premium. Journal of ﬁnance, 58, 609–646.
+
+Asia-Paciﬁc Journal of Accounting & Economics
+
+165
+
+Fisher, D., 2007. The magic metric. Forbes, 180 (12), 116–118.
+Foerster, S. and Karolyi, G., 1999. The effects of market segmentation and investor recognition
+on asset prices. Journal of ﬁnance, 54, 981–1014.
+Gebhardt, W., Lee, C., and Swaminathan, B., 2001. Toward an implied cost of capital. Journal of
+accounting research, 39, 135–176.
+Gode, D. and Mohanram, P., 2003. Interring the cost of capital using the Ohlson–Juettner model.
+Review of accounting studies, 8, 399–431.
+Gordon, R. and Gordon, M., 1997. The ﬁnite horizon expected return model. Financial analysts
+journal, 53, 52–61.
+Guerrera, F., 2006. Why Korea trades at a discount. Financial times.
+Habib, A., 2006. Information risk and the cost of capital: review of the empirical literature. Journal of accounting literature, 25, 127–168.
+Hail, L., 2002. The impact of voluntary corporate disclosures on the ex-ante cost of capital for
+Swiss ﬁrms. The European accounting review, 11 (4), 741–773.
+Hail, L. and Leuz, C., 2006. International differences in the cost of equity capital: do legal institutions and securities regulation matter? Journal of accounting research, 44 (3), 485–531.
+Harris, RobertS., Marston, FeliciaC., Mishra, DevR., and O’Brien, ThomasJ., 2003. Ex ante cost
+of equity estimates of S&P 500 ﬁrms: the choice between global and domestic CAPM. Financial management, 32, 51–66.
+He, Z. and Kryzanowski, L., 2007. Cost of equity for Canadian and US sectors. The North American journal of economics and ﬁnance, 18, 215–229.
+Henry, P., 2000. Stock market liberalization, economic reform, and emerging market equity prices.
+Journal of ﬁnance, 55 (2), 529–564.
+Kaoufmann, D., Kraay, A., and Mastruzzi, M., 2008. Governance matters VII: Aggregate and
+Individual Governance Indicators, 1996–2008 (29 June, 2009). World Bank Policy Research
+Working Paper No. 4978. Available at SSRN: http://ssrn.com/abstract=1424591
+Khan, M. and Watts, R., 2008. Estimation and empirical properties of a ﬁrm-year measure of
+conservatism. Working paper. Massachusetts Institute of Technology.
+Kim, H., 2008. Korea’s national brand campaign at crossroads, The Munhwa Ilbo, 1 October, p.
+38.
+Koedijk, K.K. and van Dijk, M.A., 2004. Global risk factors and the cost of capital. Financial
+analysts journal, 60, 32–38.
+Kumar, S. and Hyodo, K., 2001. Price-earnings ratios in Japan: recent evidence and further
+results. Journal of international ﬁnancial management and accounting, 12 (1),
+24–49.
+Lambert, R., Leuz, C., and Verrecchia, R., 2007. Accounting information, disclosure, and the cost
+of capital. Journal of accounting research, 45 (2), 385–420.
+Lee, C. and Ng, D., 2006. Corruption and international valuation: Does virtue pay? Working
+paper. Cornell University.
+Lintner, J., 1965. Security prices, risk, and maximal gains from diversiﬁcation. Journal of ﬁnance,
+20, 587–615.
+Miller, D., 1999. The market reaction to international cross-listings: evidence from depository
+receipts. Journal of ﬁnancial economics, 51 (1), 103–123.
+Moon, G., 2008. IFRS to beneﬁt local ﬁrms. JoongAng Daily, 17 December, p. 4.
+Mossin, J., 1966. Equilibrium in a capital asset market. Econometrica, 34, 768–783.
+Nissim, D. and Penman, S., 2003. The association between changes in interest rates, earnings,
+and equity values. Contemporary accounting research, 20 (4), 775–804.
+O’Hanlon, J. and Steele, A., 2000. Estimating the equity risk premium using accounting fundamentals. Journal of business, ﬁnance and accounting, 27, 1051–1083.
+Ohlson, J.A., 1995. Earnings, book values, and dividends in equity valuation. Contemporary
+accounting review, 11 (2), 661–687.
+Ohlson, J. and Juettner-Nauroth, B., 2005. Expected EPS and EPS growth as determinants of
+value. Review of accounting studies, 10, 349–365.
+Pantzalis, C., Park, J., and Sutton, N., June 2008. Corruption and valuation of multinational corporation. Journal of empirical ﬁnance, 15 (3), 387–417.
+Park, S., 2000. What does the P–E ratio mean? Journal of investing, 9, 27–35 (Fall).
+Poshakwale, S. and Courtis, J., 2005. Disclosure level and cost of equity capital: evidence from
+the banking industry. Managerial and decision economics, 26, 431–444.
+
+166
+
+T.H. Choi et al.
+
+Pyo, J. and Jung, H., 2007. ‘Korea Discount’ may be fading, helping stocks. Joongang Daily, 14
+February, p. 3.
+Ramstad, E., 2007a. End to ‘Korea Discount’? The Wall Street Journal, 16 March, p. 17.
+Ramstad, E., 2007b. What a new market tag could mean for Korea. The Wall Street Journal Asia,
+19 September, p. 17.
+Richardson, S., Teoh, S., and Wysocki, P., 2000. Tracking analysts’ Forecasts over the annual
+earnings horizon: optimism, pessimism, and inside trading. Working paper. University of
+Michigan and The Ohio State University.
+Sabal, J., 2004. The discount rate in emerging markets: a guide. Journal of applied corporate
+ﬁnance, 16, 155–166.
+Salmon, A., 2007. Cutting the Korean discount. Forbes Asia, 3 (9), 34–38.
+Seggerman, H., 2007. Korea faces uphill battle to become ﬁnancial hub. The Korea Times, 13
+June.
+Shahed, I., Richard, B., and Colin, C., 2008. The use of valuation models by UK investment analysts. European accounting review, 17 (3), 503–535.
+Sharpe, W., 1964. Capital asset prices: a theory of market equilibrium under conditions of risk.
+Journal of ﬁnance, 19, 425–442.
+Suh, J. and Sim, S., 2007. Korea discount: diagnosis and remedy. Asia-Paciﬁc journal of ﬁnancial
+studies, 36 (4), 621–655.
+
+

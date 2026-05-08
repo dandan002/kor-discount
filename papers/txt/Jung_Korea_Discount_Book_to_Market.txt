@@ -1,0 +1,1870 @@
+Korean Accounting Journal 2022 31(6) 33-49
+ISSN 1229-327X(Print)
+ISSN 2508-7207(Online)
+
+https://doi.org/10.24056/KAJ.2022.08.003
+www.kaa-edu.or.kr
+
+A R TIC L E
+
+Accounting for the Korea Discount with Book-to-Market Ratios above One*
+
+1)
+
+Taejin Junga⋅Sehee Kimb⋅Woo-Jong Leec⋅Hee-Yeon Sunwood
+a
+
+First Author, Assistant Professor, IE Business School, IE University (E-mail: taejin.jung@ie.edu)
+Coauthor, PhD Candidate, College of Business Administration, Seoul National University (E-mail: sese723@snu.ac.kr)
+Coauthor, Professor, College of Business Administration, Seoul National University (E-mail: woojong@snu.ac.kr)
+d
+Corresponding Author, Associate Professor, Department of Business Administration, Sejong University (E-mail: hysunwoo@sejong.ac.kr)
+b
+c
+
+ABSTRACT The historical average book-to-market ratio (BTM) of Korean listed companies is above one, and often used as evidence for the Korea
+discount. This paper asks whether the BTM reflects either risk inherent in Korean businesses as claimed in the popular press, or a bias in market
+expectations. Analyzing data of Korean listed firms from 1995 to 2019, we first confirm that stocks with BTM above one consistently outperform
+the rest, consistent with the empirical findings documented in prior studies. When we compose three summary indicators that are allegedly associated
+with the Korea discount (i.e., fundamental factor, geopolitical factor, and governance factor), we find that only governance factor is positively related
+to BTM as alluded to in the business press. In our subsequent analyses borrowed from Ohlson and Bilinski’s (2015) specification, we find that
+BTM above one is associated with a higher probability of positive extreme returns, but a lower probability of negative extreme returns. The finding
+indicates that BTM above one is more likely to reflect characteristics associated with stock mispricing. We further explore why such systematic
+bias persists over time and report some evidence that governance factor plays a crucial role. This paper highlights the importance of recasting the
+underlying cause of a phenomenon.
+
+KEYWORDS book-to-market ratio, Korea discount, risk explanation, mispricing explanation
+
+Ⅰ. Introduction
+Korean stocks are traded at a discount (a.k.a., the Korea discount). The financial press
+reports that 1) the price-to-book ratios (an inverse of the book-to-market ratios) are on
+average below one in Korea and 2) are lower than those in other countries.1) Potential
+conduits include the fundamental risk inherent in an industrial structure (e.g., The Economist
+2012; Yoon 2020), geopolitical risk (e.g., Kim and Park 2019; Jung et al. 2021; Pyo 2021),
+and governance risk (Forbes 2001, 2007; Rhee 2018; Ducret and Isakov 2020). It is unclear,
+however, whether and to what extent the book-to-market ratio (BTM hereafter) reflects the
+risk as claimed in the press (i.e., the risk explanation) because it could also manifest a bias
+in market expectation (i.e., the mispricing explanation). Given that the academic literature
+
+Received 6 May 2022, Revised 31 July 2022, Accepted 8 August 2022
+
+*We thank participants of 2022 Korean Accounting Association Summer International Conference and workshop participants
+of Seoul National University. Lee appreciates financial support from the Institute of Management Research at Seoul
+National University.
+Corresponding author: hysunwoo@sejong.ac.kr
+1) See articles in Business Korea (http://www.businesskorea.co.kr/news/articleView.html?idxno=45899), Maeil Business
+Newspaper (https://www.mk.co.kr/news/english/view/2019/05/285314/), and Korea Times (https://www.koreatimes.co.kr/
+www/tech/2021/07/693_47070.html).
+
+†
+
+ⓒ 2022, Korean Accounting Association. All rights reserved.
+– 33 –
+
+회계저널
+
+Vol. 31, No. 6, 2022
+
+does not converge on this issue (e.g., Ali et al. 2003), we assess the validity of relying on
+BTM in suggesting the widely accepted risk explanation for the Korea discount.
+Analyzing data of Korean listed firms from 1995 to 2019, we first confirm that stocks
+with BTM above one consistently outperform the rest, consistent with the empirical findings
+documented in prior studies. Interestingly, when we compose three summary indicators that
+are allegedly associated with the Korea discount (i.e., fundamental factor, geopolitical factor,
+and governance factor), we find that only governance factor is positively related to BTM as
+alluded to in the business press.
+More importantly, subsequent analyses based on Ohlson and Bilinski (2015) reveal that
+BTM above one is associated with a higher probability of positive extreme returns, but a
+lower probability of negative extreme returns. This finding contradicts the risk explanation
+that would predict higher probabilities for both positive and negative extreme returns, but
+instead supports the mispricing explanation.
+We further explore why such systematic bias emerges and persists over time. We find that
+the mispricing captured in the Ohlson and Bilinski (2015) model is more salient in firms
+with higher governance factor. These results suggest that governance factor hinders market
+participants from correcting bias in a timely manner. In contrast, we find little evidence that
+either fundamental factor or geopolitical factor induces mispricing.
+Our paper provides important contributions to the practice. First, we highlight the
+importance of recasting the underlying cause of a phenomenon. Practitioners have long
+assumed that BTM reflects the Korea discount. When we horserace two competing
+explanations (i.e., risk or mispricing), however, we find evidence supportive of the mispricing
+explanation that BTM reflects market failures of correctly assessing risk profiles of Korean
+companies. Second and more importantly, our findings have policy implications. Our results
+suggest that governance is indeed of a primary concern for the Korea discount. Our results
+would help set a priority of policy means to mitigate the Korea discount.
+Our discussion also adds to the academic literature related to the return predictability of
+BTM. First, we extend the related literature by explicitly documenting the existence of the
+BTM effect in the Korean stock market. Second, we discuss the validity of BTM measures
+to describe Korean discount. Doing so, we belong to a rare stream of literature discussing on
+the
+
+Korean
+
+discount
+
+based
+
+on
+
+other
+
+measures
+
+such
+
+as
+
+price-to-earnings
+
+ratios
+
+and
+
+value-to-price ratios (Ducret and Isakov 2020; Cho et al. 2021).
+We caution readers that our inferences are solely based on BTM. Although we do not
+– 34 –
+
+Taejin JungㆍSehee KimㆍWoo-Jong LeeㆍHee-Yeon Sunwoo
+
+Vol. 31, No. 6, 2022
+
+preclude that Korea discount itself would be a manifestation of market mispricing, our
+investigation provides little insight on this issue. Moreover, the business press often proposes
+low price-to-earnings ratios as alternative evidence of the Korea discount. Given that the
+price-to-book
+
+ratios
+
+additionally
+
+imply
+
+profitability
+
+(i.e.,
+
+return-on-equity)
+
+above
+
+the
+
+price-to-earnings ratios (e.g., price-to-book ratio = return-on-equity × price-to-earnings ratio),
+we can infer the outcomes of each. In subsequent chapters, however, we strictly restrict
+ourselves to discussing the validity of using BTM for the Korea discount. Put differently, we
+test whether the BTM above one can be an effective heuristic.
+
+Ⅱ. Literature Review and Research Question
+Numerous studies in finance document a positive association between the BTM and
+subsequent
+
+stock
+
+returns
+
+(e.g.,
+
+Fama
+
+and French
+
+1992;
+
+1993),
+
+with two competing
+
+explanations. On the one hand, the BTM reflects a risk for which investors demand
+compensation. Fama and French (1992, 1993) argue that the return on the BTM compensates
+for the risk related to economic fundamentals, noting that high BTM stocks tend to have low
+earnings-to-assets ratios and low earnings persistence. Subsequent studies attempt to figure out the
+substance of risk reflected in the BTM, namely operating/financing risk (Penman et al. 2007),
+risk in earnings growth (Penman and Reggiani 2013), risk contained in the retained earnings
+(Ball et al. 2020), or macroeconomic risk (Petkova and Zhang 2005; Barth et al. 2021).
+On the other hand, another stream of literature argues that the BTM-return association
+stems from a systematic mispricing of stocks with extreme BTM. They show that market
+participants underestimate future earnings for high BTM stocks and overestimate future
+earnings for low BTM stocks. Such systematically biased expectations are gradually corrected,
+leading to superior subsequent returns for high BTM stocks (La Porta et al. 1997; Skinner
+and Sloan 2002; Ali et al. 2003). Related studies suggest that arbitrage costs (Shleifer and
+Vishny 1997; Ali et al. 2003), investor sophistication (Lakonishok et al. 1994), or transaction
+costs (Knez and Ready 1996; Barber et al. 2001) explain why the systematic mispricing is
+not quickly and completely traded away.
+Collectively, it is hard to conclude whether any noted factor related to the BTM is a risk,
+not only because the specified asset pricing model in Fama and French (1993, 1996) is based
+on an empirical analysis rather than on theory, but also because the observed BTM-return
+– 35 –
+
+회계저널
+
+Vol. 31, No. 6, 2022
+
+relation may be due to mispricing (Penman et al. 2007). Yet, the discussion on the Korean
+discount pervasively assumes that the high BTM for Korean stocks is driven by risk profiles
+of Korean companies. This paper thus aims to document whether or not we can be confident
+in this assumption.
+
+Ⅲ. Data and Descriptive Statistics
+3.1 Data and Sample
+Our data includes Korean listed firms for the period from 1995 to 2019. From the initial
+sample, we exclude financial institutions and require that all variables are available for the
+analyses. We restrict the sample to firms with a December year-end. We also exclude
+firm-year observations with a negative book value. We obtain financial and stock market
+information from DataGuide. Ownership and governance information is obtained from the
+TS2000 database. The sources of other information used in analyses are indicated in the
+relevant part of the paper. The final sample comprises 30,712 firm-year observations.2)
+
+3.2 Descriptive Statistics
+Table 1 presents the descriptive statistics for the variables used in our analyses. The
+variable definitions are provided in the Appendix. The sample mean (median) of the
+book-to-market ratio (BTM) defined as the book value of equity divided by the market value
+of equity is 1.390 (1.063), confirming that Korean stocks are on average traded at a discount
+as featured in the financial press.
+Figure 1 depicts time-series changes in BTM across the sample period. The left-hand side of
+the X-axis indicates the yearly BTM median while the right-hand side of the X-axis presents
+the yearly percentage of firms with BTM above one (BTM>1) for all observations. We find
+that the medians of BTM generally exceed one before the mid-2000s and gradually decrease
+following the peak in 2008. The portion of BTM>1 shows similar patterns. However, almost
+50 percent of each yearly sample has a BTM above one, which is considerably higher than
+the percentage reported in the U.S. sample (Barth et al. 2021). Collectively, Figure 1 confirms
+the existence and persistence of the Korea discount phenomenon.
+2) Due to the limited data availability, the sample size is reduced to 24,875 when government factor (GOVFACTOR) is
+included in the regression.
+– 36 –
+
+Taejin JungㆍSehee KimㆍWoo-Jong LeeㆍHee-Yeon Sunwoo
+
+Vol. 31, No. 6, 2022
+
+<Table 1> Descriptive Statistics
+
+Variable
+
+N
+
+MEAN
+
+STD
+
+P10
+
+Q1
+
+MED
+
+Q3
+
+P90
+
+CUMABRET
+
+30,712
+
+0.058
+
+0.671
+
+-0.549
+
+-0.273
+
+-0.011
+
+0.319
+
+0.760
+
+HIGHABRET
+
+30,712
+
+0.170
+
+0.376
+
+0.000
+
+0.000
+
+0.000
+
+0.000
+
+1.000
+
+LOWABRET
+
+30,712
+
+0.116
+
+0.321
+
+0.000
+
+0.000
+
+0.000
+
+0.000
+
+1.000
+
+BTM
+
+30,712
+
+1.390
+
+1.178
+
+0.343
+
+0.603
+
+1.063
+
+1.768
+
+2.790
+
+LOG(BTM)
+
+30,712
+
+0.779
+
+0.409
+
+0.295
+
+0.472
+
+0.724
+
+1.018
+
+1.332
+
+HBTM
+
+30,712
+
+0.532
+
+0.499
+
+0.000
+
+0.000
+
+1.000
+
+1.000
+
+1.000
+
+BETA
+
+30,712
+
+0.991
+
+0.700
+
+0.184
+
+0.562
+
+0.963
+
+1.392
+
+1.837
+
+VOL
+
+30,712
+
+0.180
+
+0.104
+
+0.086
+
+0.113
+
+0.153
+
+0.215
+
+0.300
+
+RECESSION
+
+30,712
+
+0.064
+
+0.244
+
+0.000
+
+0.000
+
+0.000
+
+0.000
+
+0.000
+
+EPUNCERTAINTY
+
+30,712
+
+0.000
+
+1.000
+
+-1.251
+
+-0.862
+
+-0.027
+
+0.571
+
+1.146
+
+FFACTOR
+
+30,712
+
+0.000
+
+1.000
+
+-0.887
+
+-0.565
+
+-0.237
+
+0.416
+
+1.079
+
+GPFACTOR
+
+30,712
+
+0.000
+
+1.000
+
+-1.021
+
+-0.750
+
+-0.171
+
+0.268
+
+2.160
+
+CHAEBOL
+
+24,875
+
+0.119
+
+0.324
+
+0.000
+
+0.000
+
+0.000
+
+0.000
+
+1.000
+
+FOREIGNOWN
+
+24,875
+
+0.061
+
+0.104
+
+0.000
+
+0.002
+
+0.015
+
+0.066
+
+0.192
+
+BODIND
+
+24,875
+
+0.238
+
+0.161
+
+0.000
+
+0.200
+
+0.222
+
+0.333
+
+0.500
+
+GOVFACTOR
+
+24,875
+
+0.000
+
+1.000
+
+-1.410
+
+-0.249
+
+0.295
+
+0.515
+
+1.091
+
+LOG(MVE)
+
+30,712
+
+18.128
+
+1.521
+
+16.369
+
+17.102
+
+17.946
+
+18.908
+
+20.112
+
+IFRS
+
+30,712
+
+0.550
+
+0.497
+
+0.000
+
+0.000
+
+1.000
+
+1.000
+
+1.000
+
+CASH
+
+30,712
+
+0.196
+
+0.263
+
+0.015
+
+0.042
+
+0.107
+
+0.235
+
+0.468
+
+RECEIVABLE
+
+30,712
+
+0.571
+
+0.785
+
+0.052
+
+0.127
+
+0.307
+
+0.677
+
+1.339
+
+INVENTORY
+
+30,712
+
+0.387
+
+0.575
+
+0.016
+
+0.070
+
+0.191
+
+0.452
+
+0.935
+
+PPENT
+
+30,712
+
+1.126
+
+1.661
+
+0.066
+
+0.214
+
+0.551
+
+1.289
+
+2.707
+
+INTANGIBLES
+
+30,712
+
+0.040
+
+0.078
+
+0.000
+
+0.002
+
+0.013
+
+0.042
+
+0.103
+
+GOODWILL
+
+30,712
+
+0.018
+
+0.065
+
+0.000
+
+0.000
+
+0.000
+
+0.000
+
+0.038
+
+RD_CAPITALIZED
+
+30,712
+
+0.007
+
+0.023
+
+0.000
+
+0.000
+
+0.000
+
+0.000
+
+0.019
+
+RD_EXPENSED
+
+30,712
+
+0.024
+
+0.043
+
+0.000
+
+0.000
+
+0.006
+
+0.029
+
+0.072
+
+OTHERASSETS
+
+30,712
+
+0.856
+
+1.187
+
+0.103
+
+0.219
+
+0.470
+
+0.977
+
+1.925
+
+LIABILITY
+
+30,712
+
+1.878
+
+3.074
+
+0.148
+
+0.343
+
+0.856
+
+2.012
+
+4.346
+
+Return-related
+
+BTM-related
+
+FACTOR-related
+
+Other Variables
+
+Note: This table presents the descriptive statistics for the variables used in the analyses. Please refer to the
+Appendix for the variable definitions.
+– 37 –
+
+회계저널
+
+Vol. 31, No. 6, 2022
+
+<Figure 1> Distribution of the Book-to-Market ratios
+
+Notes: This figure demonstrates the percentage of firms with BTM above one and the median of BTM by year.
+
+Ⅳ. Empirical Findings
+4.1 Determinants of BTM
+We first explore whether the factors believed to be related to the Korea discount indeed
+determine BTM. Specifically, we estimate the following model:
+BTM (HBTM) = α1 + α2 IFRS + α3 CASH + α4 RECEIVABLE
++ α5 INVENTORY+ α6 PPENT + α7 INTANGIBLES
++ α8 GOODWILL+ α9 RD_CAPITALIZED+ α10 RD_EXPENSED
++ α11 OTHERASSETS + α12 LIABILITY
++Σ α13∼15 FACTORS+ Year/Industry dummies+ ε.
+
+– 38 –
+
+(1)
+
+Taejin JungㆍSehee KimㆍWoo-Jong LeeㆍHee-Yeon Sunwoo
+
+Vol. 31, No. 6, 2022
+
+In Equation (1), we include the various determinants of BTM following prior literature
+(e.g., Barth et al. 2021; Cho et al. 2021). First, following Cho et al. (2021), we include a
+dummy variable that indicates the adoption of the International Financial Reporting Standard
+(IFRS) to control the effect of accounting standards. If the findings of Cho et al. (2021) that
+the gap between stock price and firm value has narrowed after the adoption of IFRS could
+be applied to book-to-market ratios as well, we expect a negative sign on α2. Next, we
+include several firm-level characteristics known to affect the book-to-market ratios (Barth et
+al. 2021). We control for cash and cash equivalents (CASH), net accounts receivables
+(RECEIVABLE), total inventory (INVENTORY), fixed assets (PPENT), total intangible assets
+(INTANGIBLES), the amount of goodwill (GOODWILL), total amount of R&D costs
+(RD_CAPITALIZED and RD_EXPENSED) and total liabilities (LIABILITY). To control the
+effect of other types of assets, we include OTHERASSETS which indicates assets other than
+those controlled above. All firm-level variables are scaled by the market value of equity at
+the beginning of the year (Barth et al. 2021).
+To examine whether several factors discussed in the literature and media in relation to the
+Korean discount explain the Korea discount, we add three FACTORS: fundamental factor
+(FFACTOR), geopolitical factor (GPFACTOR), and governance factor (GOVFACTOR) (The
+Economist 2012; Yoon 2020; Kim and Park 2019; Jung et al. 2021; Pyo 2021; Forbes 2001, 2007;
+Rhee 2018; Ducret and Isakov 2020). Specifically, FFACTOR is defined as the principal
+component of stock beta (BETA), return volatility (VOL), a dummy variable for market recession
+(RECESSION), and the economic policy uncertainty index (EPUNCERTAINTY) from Baker et al.
+(2016).3),4) GPFACTOR is an index of geopolitical situation in the inter-Korean relationship
+released by the website of Policy Uncertainty (https://policyuncertainty.com/korea_gpr.html).5)
+GOVFACTOR is the principal component of several governance-related factors such as a dummy
+variable
+
+for
+
+business
+
+group
+
+(CHAEBOL),
+
+the
+
+percentage
+
+of
+
+foreign
+
+ownership
+
+(FOREIGNOWN), and board independence (BODIND).6) FOREIGNOWN and BODIND are
+3) Following French et al. (1987) and Fama and French (1993), we define stock market beta and return volatility as
+fundamental factors that affect stock prices.
+4) The economic policy uncertainty index is obtained from the website of Policy Uncertainty (https://policyuncertainty.
+com/korea_monthly.html). We assign the average past 12-month monthly economic policy uncertainty index of each
+firm at the end of the fiscal year.
+5) We use past 12-month monthly geopolitical situation index for each firm at the end of the fiscal year.
+6) For FFACTOR, the eigenvalue of the first component is 1.387 and the first principal component of four attribute
+measures explains around 34.7% of the total variance. For GOVFACTOR, the eigenvalue of the first component is
+1.621 and the first principal component of three different government factor proxies explains 54% of total variance.
+– 39 –
+
+회계저널
+
+Vol. 31, No. 6, 2022
+
+multiplied by (-1) to indicate weak corporate governance. Detailed definitions of the variables
+are provided in the Appendix. We estimate Equation (1) using ordinary least square
+regression (logit regression) when the dependent variable is BTM (HBTM).
+Table 2 shows the results of Equation (1). Columns (1) to (3) present the results with
+BTM as the dependent variable while columns (4) to (6) present the results with HBTM.
+These two sets of findings render similar inferences. The inclusion of FACTORS in the
+empirical model increases the adjusted (pseudo) R2, especially with the inclusion of
+GOVFACTOR (e.g., 0.836 in column (2) vs. 0.862 in column (3)), albeit with a smaller
+sample size due to data availability. More importantly, we find that FFACTOR and
+GPFACTOR have negative associations with BTM and HBTM, inconsistent with public beliefs.7)
+GOVFACTOR, however, has a positive relation with BTM as well as with HBTM. Thus,
+higher governance factor lowers the market valuation of equity, which in turn leads to higher
+BTM. Collectively, our findings suggest that governance factor can explain the Korea discount
+via BTM, whereas neither fundamental factor nor geopolitical factor does.8)
+<Table 2> Determinants of the Book-to-Market Ratio
+
+Dep. Variables =
+Intercept
+IFRS
+CASH
+RECEIVABLE
+INVENTORY
+PPENT
+
+BTM
+(1)
+0.024
+(0.80)
+-0.129***
+(-5.10)
+0.953***
+(21.74)
+0.585***
+(10.36)
+0.669***
+(13.23)
+0.635***
+(18.38)
+
+BTM
+(2)
+0.074*
+(1.83)
+-0.106***
+(-4.39)
+0.951***
+(21.83)
+0.576***
+(10.12)
+0.662***
+(13.02)
+0.627***
+(17.95)
+
+BTM
+(3)
+0.042
+(1.22)
+-0.080***
+(-4.62)
+1.072***
+(20.18)
+0.594***
+(7.03)
+0.658***
+(9.67)
+0.661***
+(12.79)
+
+HBTM
+(4)
+-9.445***
+(-8.24)
+-0.680***
+(-5.12)
+9.078***
+(9.50)
+6.921***
+(6.48)
+7.421***
+(6.91)
+7.192***
+(7.28)
+
+HBTM
+(5)
+-9.096***
+(-8.80)
+-0.566***
+(-4.23)
+9.088***
+(9.36)
+6.832***
+(6.45)
+7.373***
+(6.86)
+7.135***
+(7.21)
+
+HBTM
+(6)
+-9.058***
+(-7.82)
+-0.521***
+(-3.53)
+9.510***
+(8.65)
+7.464***
+(5.28)
+7.457***
+(5.63)
+7.272***
+(5.84)
+
+7) Explaining why FFACTOR and GPFACTOR are negatively loaded is beyond the scope of this study because we are
+interested in whether both risk indicators are positively associated with BTM as alluded to in the popular press. One
+possible explanation is that the significance of such risk may suppress book values to a greater extent relative to
+market values due to accounting conservatism (Barth et al. 2021).
+8) When we divide the sample into two subgroups depending on HBTM, we find the magnitudes of coefficients on
+FFACTOR, GPFACTOR, and GOVFACTOR are greater in the subsample with HBTM=1. These results imply that the
+BTM-return association would be greater in the high BTM group.
+– 40 –
+
+Taejin JungㆍSehee KimㆍWoo-Jong LeeㆍHee-Yeon Sunwoo
+
+INTANGIBLES
+GOODWILL
+RD_CAPITALIZED
+RD_EXPENSED
+OTHERASSETS
+LIABILITY
+
+0.880***
+(7.54)
+0.953***
+(8.77)
+-0.164
+(-0.58)
+0.124
+(0.73)
+0.748***
+(40.21)
+-0.521***
+(-12.70)
+
+0.872***
+(7.53)
+0.953***
+(8.88)
+-0.141
+(-0.50)
+0.066
+(0.39)
+0.739***
+(38.61)
+-0.513***
+(-12.36)
+-0.166***
+(-6.68)
+-0.072
+(-0.94)
+
+0.676***
+(5.84)
+0.885***
+(7.12)
+0.338
+(1.31)
+0.026
+(0.17)
+0.812***
+(28.76)
+-0.531***
+(-7.92)
+-0.158***
+(-4.70)
+-0.852***
+(-3.84)
+0.022**
+(2.49)
+
+8.037***
+(6.56)
+9.089***
+(6.56)
+4.977***
+(3.15)
+-0.841
+(-0.79)
+8.338***
+(8.80)
+-6.451***
+(-6.86)
+
+7.977***
+(6.64)
+9.031***
+(6.61)
+4.980***
+(3.16)
+-1.103
+(-1.04)
+8.280***
+(8.75)
+-6.387***
+(-6.79)
+-0.991***
+(-6.69)
+-0.422
+(-0.67)
+
+8.840***
+(5.51)
+9.900***
+(5.59)
+5.783***
+(3.26)
+-0.444
+(-0.41)
+8.754***
+(7.46)
+-6.713***
+(-5.37)
+-0.962***
+(-5.54)
+-4.473***
+(-2.95)
+0.110***
+(2.68)
+
+Industry,
+Year
+30,712
+0.835
+
+Industry,
+Year
+30,712
+0.836
+
+Industry,
+Year
+24,875
+0.862
+
+Industry,
+Year
+30,681
+0.723
+
+Industry,
+Year
+30,681
+0.723
+
+Industry,
+Year
+24,850
+0.754
+
+FFACTOR
+GPFACTOR
+GOVFACTOR
+
+Fixed Effects
+Observations
+Adjusted (Pseudo) R2
+
+Vol. 31, No. 6, 2022
+
+Notes: This table presents the results of Equation (1). Columns (1) to (3) (columns (4) to (6)) show the results
+with BTM (HBTM) as our dependent variable. We estimate Equation (1) using ordinary least square
+regression (logit regression) in columns (1) to (3) (columns (4) to (6)). T-statistics (Z-statistics) are
+presented in parentheses. *, **, *** indicate statistical significance at the 10%, 5%, and 1% levels,
+respectively. Please refer to the Appendix for the variable definitions.
+
+4.2 Does BTM>1 outperform BTM≤1?
+In this section, we examine whether BTM is related with subsequent stock returns as
+documented in the prior literature (e.g., Fama and French 1992, 1993). We specifically
+compare the future stock returns of BTM>1 with those of BTM≤1. We measure future stock
+returns as the average monthly return over the next twelve months starting six months after
+the fiscal year-end (ANNRET). In column (1) of Panel A in Table 3, the average ANNRET
+for BTM>1 is 0.021, meaning that firms with BTM above one report stock returns of 2.1%
+in the next twelve months on average. More importantly, such performance is superior to that
+for BTM≤1, which averages 0.007. The difference in mean values between these two groups
+is significant (t-stat=19.20, p-value<0.001) in general. However, the difference narrows over
+
+– 41 –
+
+회계저널
+
+Vol. 31, No. 6, 2022
+
+time as presented in columns (2) to (6). The narrowing difference may suggest either that: 1)
+the risk premium on BTM decreases due to structural changes in risk profiles, or 2) the
+mispricing associated with BTM diminishes over time possibly due to arbitragers.
+In Panel B, we further examine whether the return difference varies with FFACTOR,
+GPFACTOR, and GOVFACTOR. Specifically, we divide the sample into two groups depending
+on whether each factor is above the sample median. We find that the return difference
+between stocks with BTM>1 and those with BTM≤1 is significantly higher for firms with
+higher FFACTOR or higher GOVFACTOR. These findings suggest that BTM>1 reflects both
+fundamental factor and governance factor and can be compensated for in subsequent stock
+returns. In stark contrast, however, the return difference is greater when GPFACTOR is lower.
+This is inconsistent with the risk explanation. Collectively, the results in Table 3 suggest that
+both FFACTOR and GOVFACTOR can be potential conduits for the Korea discount.
+<Table 3> Future Returns of Firms with BTM>1 and BTM≤1
+Panel A. Full Sample
+
+Full Sample
+BTM>1
+BTM≤1
+Diff.
+t-stat
+p-value
+
+Full Period
+(1)
+0.015
+0.021
+0.007
+0.014***
+19.20
+<0.001
+
+1995-1999
+(2)
+0.031
+0.041
+0.012
+0.029***
+6.93
+<0.001
+
+2000-2004
+(3)
+0.015
+0.022
+-0.002
+0.023***
+11.70
+<0.001
+
+2005-2009
+(4)
+0.007
+0.015
+-0.001
+0.016***
+10.78
+<0.001
+
+2010-2014
+(5)
+0.014
+0.018
+0.009
+0.009***
+7.52
+<0.001
+
+2015-2019
+(6)
+0.015
+0.018
+0.012
+0.006***
+4.76
+<0.001
+
+Panel B. Future returns depending on a cross-sectional variation in FACTORS
+
+FFACTOR
+GPFACTOR
+GOVFACTOR
+High
+Low
+High-Low
+High
+Low
+High-Low
+High
+Low High-Low
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+0.019
+0.023
+-0.004
+0.020
+0.022
+-0.002
+0.020
+0.014
+0.006
+(1) BTM>1
+(2) BTM≤1 0.001
+0.014
+-0.013
+0.011
+0.002
+0.009
+0.007
+0.006
+0.001
+Diff. (1-2) 0.018*** 0.009*** 0.009*** 0.009*** 0.020*** -0.011*** 0.013*** 0.008*** 0.005***
+p-value
+<0.001
+<0.001
+<0.001
+<0.001
+<0.001
+<0.001
+<0.001
+<0.001
+0.001
+Notes: This table compares the future stock returns between BTM>1 and BTM≤1. Panel A presents the mean values
+of ANNRET for the full sample, firms with BTM>1 and BTM≤1 for the full sample period and each
+sub-period. Panel B presents the mean values of ANNRET for each subgroup divided according to the level
+of FFACTOR, GPFACTOR, and GOVFACTOR. *, **, *** indicate statistical significance at the 10%, 5%,
+and 1% levels, respectively. Please refer to the Appendix for the variable definitions.
+
+– 42 –
+
+Taejin JungㆍSehee KimㆍWoo-Jong LeeㆍHee-Yeon Sunwoo
+
+Vol. 31, No. 6, 2022
+
+4.3 Risk or mispricing?
+As aforementioned, two explanations exist for the BTM-return relations in prior studies. To
+distinguish which explanation is a better determinant of the Korea discount, we rely on the
+methodology developed in Ohlson and Bilinski (2015), which focuses on the signs of
+correlations between a trading attribute and extreme (i.e., high and low) returns. If the sign
+of the correlation coefficient between an attribute and a high return is opposite to that of a
+low return, it is more likely that the attribute-return relation is due to mispricing.
+Alternatively, if two correlations share the same sign, the risk explanation is more plausible.
+To follow this approach, we estimate the following two logit regressions:
+P(HIGHABRET) = α1 + α2 VOL + α3 BETA + α4 LOG(MVE)
++ α5 LOG(BTM) +Year/Industry dummies +ε.
+
+(2)
+
+P(LOWABRET) = α1 + α2 VOL + α3 BETA + α4 LOG(MVE)
++ α5 LOG(BTM) +Year/Industry dummies +ε.
+
+(3)
+
+In Equations (2) and (3), HIGHABRET (LOWABRET) is defined as one if the twelve
+months cumulative market-adjusted return starting six months after the fiscal year end
+(CUMABRET) is higher (lower) than 50 (-50) percent. We include a set of risk controls,
+such as return volatility (VOL), market beta (BETA), and firm market capitalization
+(LOG(MVE)). The variable of interest is LOG(BTM). LOG(BTM) is the natural log of BTM.
+All variables are defined in appendix.9)
+Columns (1) and (2), Table 4 present the results of Equations (2) and (3), respectively.
+The coefficient on LOG(BTM) in column (1) is significantly positive (coefficient = 0.194,
+z-stat=3.97) while the corresponding coefficient in column (2) is significantly negative
+(coefficient = -1.199, z-stat=-15.60). These findings reveal that higher BTM is associated with
+a higher (lower) probability of positive (negative) extreme returns, which indicates that the
+BTM-return relation is supported by the mispricing explanation.
+We further explore whether FACTORS known to be related to the Korea discount explain
+our findings. Specifically, we include and interact FFACTOR, GPFACTOR and GOVFACTOR
+with LOG(BTM) in Equations (2) and (3) and investigate which FACTORS derive the
+9) Excluding BETA and VOL from the model does not alter our results.
+– 43 –
+
+회계저널
+
+Vol. 31, No. 6, 2022
+
+observed results. The interaction terms are expected to have coefficients with the same signs
+as those of LOG(BTM) in columns (1) and (2) if the interacted factor plays a role in the
+mispricing of BTM. In columns (3) and (4), we find evidence that the mispricing pattern
+observed in columns (1) and (2) are salient only when governance factor is higher.
+Collectively, our results in Table 4 indicate that the presence of GOVFACTOR is mainly
+responsible for mispricing. To the extent that the weak governance increases the arbitrage risk
+resulting from the heightened transaction costs such as bid-ask spreads (e.g., Kanagaretnam et
+al. 2007), this interpretation is in line with the prior studies arguing that the BTM-return
+association reflects the mispricing in which the arbitrage risk plays an important role (Shleifer
+and Vishny 1997; Ali et al. 2003).10),11)
+<Table 4> Ohlson and Bilinski (2015)’s Mispricing Test
+
+Dep.Variable =
+Intercept
+VOL
+BETA
+LOG(MVE)
+LOG(BTM)
+
+HIGHABRET
+
+LOWABRET
+
+HIGHABRET
+
+LOWABRET
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+6.129***
+
+-4.373***
+
+5.005***
+
+-1.264
+
+(14.54)
+
+(-7.73)
+
+(6.58)
+
+(-1.61)
+
+-0.005
+
+3.324***
+
+0.651
+
+5.335***
+
+(-0.03)
+
+(14.82)
+
+(0.92)
+
+(9.15)
+
+-0.024
+
+0.083***
+
+0.051*
+
+-0.031
+
+(-0.97)
+
+(2.82)
+
+(1.87)
+
+(-0.94)
+
+-0.353***
+
+-0.054***
+
+-0.395***
+
+-0.105***
+
+(-18.01)
+
+(-2.88)
+
+(-16.43)
+
+(-3.87)
+
+0.194***
+
+-1.199***
+
+0.005
+
+-1.307***
+
+(3.97)
+
+(-15.60)
+
+(0.07)
+
+(-12.74)
+
+0.007
+
+0.017
+
+(0.11)
+
+(0.19)
+
+LOG(BTM)*FFACTOR
+FFACTOR
+LOG(BTM)*GPFACTOR
+GPFACTOR
+
+-0.392*
+
+-0.278
+
+(-1.73)
+
+(-1.56)
+
+-0.076
+
+-0.173
+
+(-1.38)
+
+(-1.60)
+
+-5.554***
+
+3.815***
+
+(-4.36)
+
+(2.78)
+
+10) We conduct intertemporal comparisons surrounding the Asian financial crisis in 1997 and the global financial crisis
+in 2008 confirm that our inference generally holds across the sample periods. Although the results are somewhat
+weaker in recent periods, BTM mispricing is salient in all sample periods.
+11) When we compare KOSPI-listed firms and KOSDAQ-listed firms, we find that our results remain common in both
+samples but more salient for the former. This can be attributed to a higher average BTM of the former.
+– 44 –
+
+Taejin JungㆍSehee KimㆍWoo-Jong LeeㆍHee-Yeon Sunwoo
+
+Vol. 31, No. 6, 2022
+
+LOG(BTM)*GOVFACTOR
+
+0.147**
+
+-0.435***
+
+(2.09)
+
+(-5.49)
+
+GOVFACTOR
+
+-0.109*
+
+0.250***
+
+(-1.79)
+
+(3.93)
+
+Year FE
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Industry FE
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Observations
+
+30,712
+
+30,712
+
+24,875
+
+24,875
+
+Pseudo R2
+
+0.089
+
+0.159
+
+0.076
+
+0.175
+
+Notes: This table presents the results of Equations (2) and (3). The columns with odd (even) number contain
+the results for HIGHABRET (LOWABRET) as our dependent variable. In columns (3) and (4), we include
+the interaction terms between LOG(BTM) and each FACTOR (i.e., FFACTOR, GPFACTOR, and
+GOVFACTOR) in Equations (2) and (3). Z-statistics are presented in the parentheses. *, **, *** indicate
+statistical significance at the 10%, 5%, and 1% levels, respectively. Please refer to the Appendix for the
+variable definitions.
+
+Ⅴ. Conclusion
+The financial press continues to use BTM>1 as supporting evidence for the Korea discount.
+We test the validity of doing so. The novel approach of this paper is that we first construct
+three summary indicators for the factors allegedly reflective of the profiles of Korean
+businesses, namely fundamental factor, geopolitical factor, and governance factor. We then
+link these variables to BTM>1 and find that only the governance factor is positively
+associated with BTM>1. Next, we ask whether the positive return predictability of BTM>1 is
+due to risk or mispricing. Our analyses based on Ohlson and Bilinski (2015) confirm that the
+return predictability of BTM>1 is more likely due to mispricing than to risk. We also find
+evidence that governance factor is mainly responsible for this result. We conclude that
+governance factor primarily hinders market participants from correcting biases reflected in the
+BTM.
+We hasten to point out that this study is by no means the ultimate answer to whether the
+Korea discount is due to risk or mispricing. Rather, with caution, our findings imply that the
+Korea discount is at least partly explained by the mispricing associated with the BTM.
+Throughout the analyses, we find that governance factor consistently plays a nontrivial role in
+explaining both the BTM and the return predictability of the BTM. By extension, our
+findings suggest that regulators and policy makers may be well-placed to leverage corporate
+
+– 45 –
+
+회계저널
+
+Vol. 31, No. 6, 2022
+
+governance tools to resolve the Korean discount.
+“This manuscript has not been published previously and is not under consideration by another publisher
+or journal, and the study in this manuscript has been conducted in accordance with the Ethical
+Guidelines set forth by the Korean Accounting Association.”
+
+REFERENCES
+Ali, A., L-S. Hwang, and M. A. Trombley. 2003. Arbitrage risk and the book-to-market anomaly. Journal of
+Financial Economics 69 (2): 355-373.
+Baker, S. R., N. Bloom, and S. J. Davis. 2016. Measuring economic policy uncertainty. The Quarterly
+Journal of Economics 131 (4): 1593-1636.
+Ball, R., J. Gerakos, J. T. Linnainmaa, and V. Nikolaev. 2020. Earnings, retained earnings, and book-to-market in the cross section of expected returns. Journal of Financial Economics 135 (1): 231-254.
+Barber, B., R. Lehavy, M. McNichols, and B. Trueman. 2001. Can investors profit from the prophets? security analyst recommendations and stock returns. The Journal of Finance 56 (2): 531–563.
+Barth, M. E., D. Israeli, and S. A. Sridharan. 2021. Equity book-to-market ratios above one and macroeconomic risk. Working paper.
+Cho, M., S. Kim, Y. Kim, B. B. H. Lee, and W. J. Lee. 2021. IFRS adoption and stock misvaluation:
+Implication to Korea discount. Research in International Business and Finance 58: 101494.
+Ducret, R. and D. Isakov. 2020. The Korea discount and chaebols. Pacific-Basin Finance Journal 63:
+101396.
+Fama, E. F. and K. R. French. 1992. The Cross-section of expected stock returns. The Journal of Finance
+47 (2): 427-465.
+Fama, E. F. and K. R. French. 1993. Common risk factors in the returns of stocks and bonds. Journal of
+Financial Economics 33 (1): 3-56.
+Fama, E. F. and K. R. French. 1996. Multi-factor explanations of asset pricing anomalies. The Journal of
+Finance 51 (1): 55–84.
+Forbes,
+
+2001.
+
+The
+
+Korea
+
+discount.
+
+Retrieved
+
+March
+
+3,
+
+2022,
+
+from
+
+https://www.forbes.com/glob-
+
+al/2001/0416/028s01.html
+Forbes, 2007. Cutting the Korean discount. Retrieved March 3, 2022, from https://www.forbes.com/global/2007/0521/034.html
+French, K. R., G. W. Schwert, R. F. Stambaugh. 1987. Expected stock returns and volatility. Journal of
+Financial Economics, 19 (1): 3-29.
+Jung, S., J. Lee, and S. Lee. 2021. The impact of geopolitical risk on stock returns: Evidence from inter-Korea geopolitics. International Monetary Fund WP/21/251.
+Kanagaretnam, K., G. J. Lobo, and D. J. Whalen. 2007. Does good corporate governance reduce information
+
+– 46 –
+
+Taejin JungㆍSehee KimㆍWoo-Jong LeeㆍHee-Yeon Sunwoo
+
+Vol. 31, No. 6, 2022
+
+asymmetry around quarterly earnings announcements? Journal of Accounting and Public Policy 26
+(4): 497–522
+Kim, Y. S. and K. J. Park. 2019. The impact of North Korea threats on stock return volatility. International
+Journal of Korean Unification Studies 28 (2): 129-154.
+Knez, P. and M. Ready. 1996. Estimating the profits from trading strategies. The Review of Financial
+Studies 9 (4): 1121–1163.
+La Porta, R., J. Lakonishok, A. Shleifer, and R. Vishny. 1997. Good news for value stocks. The Journal of
+Finance 52 (2): 859–873.
+Lakonishok, J., A. Shleifer, and R. Vishny, 1994. Contrarian investment, extrapolation and risk. The Journal
+of Finance 49 (5): 1541-1578.
+Ohlson, J. A. and P. Bilinski, 2015. Risk versus anomaly: a new methodology applied to accruals. The
+Accounting Review 90 (5): 2057-2077.
+Penman, S. H., S. A. Richardson, and I. Tuna. 2007. The book-to-price effect in stock returns: Accounting
+for leverage. Journal of Accounting Research 45 (2): 427-468.
+Penman, S. and F. Reggiani. 2013. Returns to buying earnings and book value: Accounting for growth.
+Review of Accounting Studies 18 (4): 1021–1049.
+Petkova, R. and L. Zhang. 2005. Is value riskier than growth? Journal of Financial Economics 78 (1):
+187-202.
+Pyo, D-J. 2021. Does geopolitical risk matter? Evidence from South Korea. Defence and Peace Economics
+32 (1): 87-106.
+Rhee, N. 2018. The Korea discount: The uncomfortable truth for South Koreans. EAF Policy Debates 104:
+1-10.
+Shleifer, A. and R. Vishny. 1997. The limits of arbitrage. The Journal of Finance 52 (1): 35–55.
+Skinner, D. and R. Sloan. 2002. Earnings surprises, growth expectations, and stock returns, or, don’t let an
+earnings torpedo sink your portfolio. Review of Accounting Studies 7 (2): 289–312.
+The
+
+Economist,
+
+2012.
+
+The
+
+Korea
+
+Discount:
+
+Minority
+
+Report.
+
+Retrieved
+
+March
+
+3,
+
+2022,
+
+from
+
+https://www.economist.com/finance-and-economics/2012/02/11/minority-report
+Yoon, Y-S. 2020. Low PBR of KOSPI becoming permanent. Business Korea. Retrieved March 3, 2022,
+from http://www.businesskorea.co.kr/news/articleView.html?idxno=45899
+
+– 47 –
+
+회계저널
+
+Vol. 31, No. 6, 2022
+
+<Appendix> Variable Definition
+
+Variable
+
+Definition
+
+Return-related
+ANNRET
+
+=
+
+Average monthly stock returns over the 12 months starting from six months after
+the fiscal year-end.
+
+CUMABRET
+
+=
+
+The 12-month cumulative market-adjusted return starts six months after the fiscal
+year-end.
+
+HIGHABRET
+
+=
+
+An indicator variable that equals one if the CUMABRET is higher than 50 %, and
+zero otherwise.
+
+LOWABRET
+
+=
+
+An indicator variable that equals one if the CUMABRET is lower than -50 %, and
+zero otherwise.
+
+BTM
+
+=
+
+The book-to-market ratio, defined as the book value of equity divided by the market
+value of equity.
+
+LOG(BTM)
+
+= Natural logarithm of the book-to-market ratio.
+
+HBTM
+
+=
+
+BTM-related
+
+An indicator variable that equals one if the BTM is higher than one, and zero
+otherwise.
+
+FACTOR-related
+BETA
+
+= The market beta based on the past 36-month returns.
+
+VOL
+
+=
+
+RECESSION
+
+= An indicator variable that equals one for fiscal years 1997, 1998, or 2008.
+
+A stock return’s volatility, measured as the standard deviation of the monthly
+returns for the past 36 months.
+
+Average of past 12-month monthly economic policy uncertainty index for each firm
+EPUNCERTAINTY = at the end of the fiscal year. The economic policy uncertainty score from
+https://policyuncertainty.com (Baker, Bloom, and Davis 2016)
+FFACTOR
+
+= Principal component of BETA, VOL, RECESSION, and EPUNCERTAINTY.
+
+GPFACTOR
+
+Average of past 12-month monthly geopolitical situation index for each firm at the
+= end of the fiscal year. Geopolitical risk score in the inter-Korean relationship from
+https://policyuncertainty.com (Baker, Bloom, and Davis 2016)
+
+CHAEBOL
+
+= An indicator variable that equals one for a business group (chaebols).
+
+FOREIGNOWN
+
+= Percentage of the ownership by foreign investors.
+
+BODIND
+
+= Board independence, measured as the percentage of independent directors.
+
+GOVFACTOR
+
+=
+
+The principal component of CHAEBOL, FOREIGNOWN, and BODIND.
+FOREIGNOWN and BODIND are multiplied by (-1) to indicate governance risk.
+
+Other Variables
+LOG(MVE)
+
+= Natural logarithm of the market capitalization.
+
+IFRS
+
+= An indicator variable for years after the IFRS adoption.
+
+– 48 –
+
+Taejin JungㆍSehee KimㆍWoo-Jong LeeㆍHee-Yeon Sunwoo
+
+Vol. 31, No. 6, 2022
+
+CASH
+
+= Cash and cash equivalents in year t scaled by the lagged market value of equity.
+
+RECEIVABLE
+
+= Net accounts receivable in year t scaled by the lagged market value of equity.
+
+INVENTORY
+
+= Total inventory at the end of the year scaled by the lagged market value of equity.
+
+PPENT
+
+= Property, Plant, and equipment assets scaled by the lagged market value of equity.
+
+INTANGIBLES
+
+=
+
+GOODWILL
+
+= Goodwill scaled by the lagged market value of equity.
+
+Total intangible assets excluding goodwill and capitalized R&D scaled by the lagged
+market value of equity.
+
+RD_CAPITALIZED = Capitalized R&D scaled by the lagged market value of equity.
+RD_EXPENSED
+
+= Expensed R&D scaled by the lagged market value of equity.
+
+OTHERASSETS
+
+Other assets, defined as total assets minus cash and cash equivalents, net
+= receivables, total inventory, property, plant, and equipment, intangible assets,
+goodwill, and capitalized R&D, scaled by the lagged market value of equity.
+
+LIABILITY
+
+= Total liabilities scaled by the lagged market value of equity.
+
+– 49 –
+
+

@@ -1,0 +1,1429 @@
+sustainability
+Article
+
+The Effects of Shareholding of the National Pension Fund on
+Environmental, Social, Governance, and Financial Performance:
+Evidence from the Korean Manufacturing Industry
+Jootae Kim 1 , Sungjin Son 1, *
+1
+2
+
+*
+
+Citation: Kim, J.; Son, S.; Jin, I. The
+Effects of Shareholding of the
+
+and Ick Jin 2
+College of Business and Economics, Dankook University, Yongin 16890, Korea
+Department of Economic Analysis, National Assembly Budget Office, Seoul 07233, Korea
+Correspondence: phdssj@dankook.ac.kr
+
+Abstract: With the growing number of environmental, social, and governance (ESG) problems,
+many companies have begun to implement more sustainable business practices. In the midst of this
+change, institutional shareholders declare and adopt socially responsible investment procedures,
+which is a way of engaging in investor activism. Despite the growing interest in investor activism
+following the introduction of the stewardship code, little attention has been paid to how socially
+responsible investment practices of institutional investors affect the non-financial value of the pillars
+of environmental, social, and governance as well as financial performance, including short-term
+accounting (ROE, ROA) and long-term market performance (Tobin q). The current study examines
+whether the national pension fund (NPF), the world’s third-largest Korean pension fund, can increase
+the ESG performance of investee firms in addition to accounting and market performance through
+institutional investors’ shareholding. This study, by applying path analysis, attempts to explore the
+relationship between the NPF’s socially responsible investing, ESG, and the financial performance
+of the investee firms. This research offers evidence that ESG performance acts as a moderator or a
+mediator between NPF’s shareholding and financial performance.
+
+National Pension Fund on
+Environmental, Social, Governance,
+and Financial Performance: Evidence
+
+Keywords: ESG; sustainability; stewardship code; investor activism; fiduciary duty; financial
+performance
+
+from the Korean Manufacturing
+Industry. Sustainability 2022, 14,
+11788. https://doi.org/10.3390/
+su141811788
+
+1. Introduction
+
+Academic Editor: Donato Morea
+
+Sustainable development is a method of arranging an organization or society to ensure
+human civilization’s long-term survival, and promoting it responsibly with the advent of
+the environmental, social, and governance (ESG) era requires considering both present
+and future imperatives, such as “green practice”, “social, legal, and ethical principles”,
+“improvement of corporate governance”, in addition to economic growth.(Sustainable
+development, as defined by the Brundtland Report in 1987 by the World Commission on
+Environment and Development, is the concept that human civilizations must continue
+and satisfy their requirements without harming future generations’ ability to meet their
+own needs. Since then, many scholars have attempted to define the concept of sustainable
+development, constantly noting that the concept of the World Commission on sustainable
+development is ambiguous and elusive [1,2], but there is no clear-cut and consistent perspective yet [3]. Manioudis and Meramveliotakis (2022) [3] investigating notion and trend
+of sustainable development through the lens of Smith’s, Mill’s and Marx’s stage theories
+of development argued that sustainability should be understood and defined in terms
+of historical and transhistorical frameworks, as well as contextual and situational events.
+In this vein, sustainable development may be characterized as a sustainable innovation
+movement that prioritizes non-financial values as well as economic growth by considering SDGs, circular economies, and ESG aspects.) It has recently been described by UN
+sustainable development goals (SDGs) and the circular economy, and also suggests a shift
+
+Received: 7 August 2022
+Accepted: 15 September 2022
+Published: 19 September 2022
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional affiliations.
+
+Copyright: © 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+Sustainability 2022, 14, 11788. https://doi.org/10.3390/su141811788
+
+https://www.mdpi.com/journal/sustainability
+
+Sustainability 2022, 14, 11788
+
+2 of 17
+
+away from a concentration on environmental issues and toward the inclusion of larger
+socio-economic challenges (The SDGs are the United Nations (UN) global priorities and
+aspirations to achieve sustainable economic growth by 2030. They were adopted by the UN
+General Assembly in 2015 with aim of “stimulating action in areas of critical importance
+for humanity and the planet over the next 15 years” ([4], p. 3). Since the 70th UN General
+Assembly adopted the SDGs in 2015 under the slogan “Leave no one behind”, the notion
+of sustainable development has become increasingly visible. The SDGs propose 17 broad
+targets and 169 specific goals for humankind’s future development in five areas: human,
+earth, prosperity, peace, and partnership. Another popular concept is the circular economy,
+which is a model of production and consumption that involves sharing, reusing, repairing,
+refurbishing, and recycling to decouple growth from the danger of resource depletion [3,5].
+Along with the SDGs and circular economy, corporate and investor social responsibility has
+increased in importance, and many financial institutions all over the world are using ESG
+information to help them achieve their commitments. Since the United Kingdom made the
+disclosure of ESG factors mandatory in 2000, many other nations have adopted a similar
+regulatory framework, placing institutional investors, such as pensions or mutual funds,
+investment banks, insurance companies, and unit trusts, at the forefront [6].
+Another term used in the sustainability discourse is stewardship. According to the
+UK’s Financial Reporting Council (FRC), “stewardship aims to promote the long-term
+success of companies in such a way that the ultimate providers of capital also prosper, and
+effective stewardship benefits companies, investors, and the economy as a whole” ([7],
+p. 10). Accounting scandals in Enron or WorldCom have prompted some institutional
+investors to consider fiduciary obligations when investing in investees [8–10]. The role of
+institutional investors in the era of sustainable development is growing in importance.
+As a consequence of the rising pressure on transparency, responsibility, and sustainability, businesses are now obliged to take into consideration the effects of ESG issues in
+their operations. ESG is a trend for sustainable management that concurrently emphasizes
+the non-financial value in the area of “E”, “S”, and “G”, as well as financial benefits. The
+three pillars of ESG disclosed by international standards have materialized as a visible
+result of these pressures and movements [11], and amid the pressure, institutional investor
+activism has gained significant attention in Korea and around the world. In Korea, the
+national pension fund (NPF) implemented a stewardship code, which includes guidelines
+for exercising shareholder rights, and prepared plans for fiduciary responsibility activities
+in 2019 [6].
+In this situation, companies should run their operations in a way that benefits all
+internal and external stakeholders, including traditional owners, workers, and consumers
+along with their current local and global communities [12]. Moreover, institutional investors
+have a responsibility to act as stewards of a company’s successful ESG initiatives. With
+the implementation of the stewardship code, the role of institutional investors has become
+more important, and their influence in the capital market is gradually increasing. The
+more stewardship responsibility is underscored, the more the competence of institutional
+investors to serve as effective watchdogs become more apparent.
+In this paper, we investigate whether NPF, an institutional investor in Korea, should
+act as a steward of investee firms (agency theory), shareholders (shareholder theory), and
+society (stakeholder capitalism). Our research question is whether institutional investors
+encourage firms to improve their ESG and financial performance.
+Contemporary researchers in this field have put their efforts into investigating the
+association between institutional investor’s activism and financial performance [13–15],
+or institutional investor’s activism and ESG performance [12,16–19], or ESG performance
+and financial performance [20–24]. The general argument is whether institutional investor
+activism indeed improves the ESG performance of investee firms and, as a result, benefits
+their shareholders [6,14,15,25]. To the arguments, many positive pieces of evidence showing
+the relationship between ESG performance, which emerged from corporate social responsibility (CSR), and financial performance have been found in this area [20–22,24,26,27].
+
+Sustainability 2022, 14, 11788
+
+3 of 17
+
+Negative pieces of evidence on institutional investor activism, however, exist simultaneously [12,19,22,24,28]. The major argument debated in these papers is that institutional
+investor activism is not beneficial to shareholders, stakeholders, and society. This is because
+the primary goal of an institutional investor is maximizing their value for shareholders as
+an agency rather than making a socially responsible investment [10,29]. Even though institutional investors apply a stewardship code as part of their investor activism, they cannot
+make a socially responsible investment at the expense of their interests, and thus society or
+stakeholders should not demand such moral activism from institutional investors. [6,10].
+Likewise, previous research in this field has been inconsistent.
+With a stronger emphasis on the stewardship code and ESG, more research is still
+needed to demonstrate the impact of institutional investors’ activism on ESG and financial
+performance. Although the relationship between “institutional investor’s activism and
+financial performance”, “institutional investor’s activism and ESG performance”, and
+“ESG performance and financial performance” are incoherent, positive pieces of evidence
+are more dominant [6,15–19,21–23,25,26]. Moreover, they persistently question whether
+firms are capable of operating and differentiating their business in sustainable and socially
+responsible ways. Disclosures of ESG can present firms with a market premium, and these
+can be of greater interest to institutional investors who search for a high accounting and
+market value [16–18]. Besides, valuable ESG data allow institutional investors to better
+predict a firm’s accounting and market operation [30].
+In 2019, the stewardship code was introduced in Korea by NPF (i.e., by adopting
+“Principles on Trusteeship Responsibility” in 2019) and began its role as a steward [31].
+Nevertheless, little interest is shown in how NPF’s socially responsible investment affects
+the investee firms’ ESG and financial performance as institutional investors. With this
+backdrop in mind, the current paper concentrates on the institutional investor’s activism,
+ESG performance of investee firms, and financial performance following the ongoing
+consideration of the stewardship code and socially responsible investing. This study
+explores whether NPF should serve primarily as a steward for investee companies and if
+its activism may improve the investee firm’s performance on environmental, social, and
+governance pillars, which in turn improves financial performance. Hence, we raise research
+questions about whether ESG performance can act as a mediator or moderator. Given the
+positive relationship demonstrated in previous studies examining the relationship between
+investor activism and ESG performance or financial performance, causality or an interaction
+impact between the variables is predicted. In other words, the effect of NPF shareholding
+on financial performance can be indirectly related to the improvement of ESG performance.
+In addition, ESG performance can enhance the impact of NPF shareholding on financial
+performance. The current study not only allows us to diagnose the practice of institutional
+investors’ socially responsible investing and the degree of firms’ ESG participation in Korea
+but also aids understandings of the relationship between the variables based on stakeholder
+theory and the slack resource hypothesis.
+The remainder of this study is structured as follows: We analyze the literature, create
+hypotheses, and establish a research framework in the Theory and Hypotheses section.
+The Research Design section describes the data, sample, and measurement of variables.
+The descriptive information, the correlation matrix, and the findings and discussion are all
+explained in the Research and Discussion section. Finally, the Conclusion offers additional
+discussion, implications, and limitations.
+2. Theory and Hypotheses
+2.1. Stewardship Code and Socially Responsible Investment in Korea
+The scandals of Enron or WorldCom sparked inevitable discussions about corporate
+governance among shareholders, management, and public policymakers. These incidents
+enforced some institutional investors-pension or mutual funds, investment banks, insurance companies, unit trusts, etc., to consider fiduciary duty when investing in investee
+firms [8–10]. Fiduciary duty bestows optimistic effects on investors to integrate ESG issues
+
+Sustainability 2022, 14, 11788
+
+4 of 17
+
+into their investment processes, and the normalization of institutional investors’ fiduciary
+duty is the process of embodying institutional investors’ fiduciary obligation through
+certain norms such as the stewardship code [9,10].
+Over recent decades, the emphasis on the stewardship code in global society has
+boosted the interest in a steward’s role in international financial markets. The stewardship
+code requires institutional investors to be transparent about their investment processes,
+engage with investee companies, and vote at shareholders’ meetings [9,10,14,15,25]. The
+UK Financial Reporting Council first introduced it in 2010 in an effort to help the UK
+recover from the financial crisis of 2008. Now, similar documents have been issued by
+many other countries [6,9,32].
+The majority of the listed firms’ shares have now undergone changes with greater
+interest in the steward’s role in the global economic market. For example, it tended to be
+directly owned by individuals (Chaebol owners in the case of Korea), but now it is held
+by large institutions such as pension funds, insurance companies, mutual funds, and unit
+trusts [8–10]. Overall, institutional investors such as Blackrock have a large concentration
+of share ownership in a global society [33], and NPF has a considerable stake in investee
+firms in Korea [31].
+Institutional investors are becoming more important in the global economy, and if
+they actively take the three pillars of environment, society, and governance into account
+when making investment decisions, they can strengthen corporate social responsibility
+and maintain sustainable development. [15,16,18,19,21,22,25]. Here, the term “socially
+responsible investment” refers to an investment considering environmental, social, and
+governance pillars in addition to the financial performance of investee companies [34,35].
+Not much attention was paid to institutional investors’ fiduciary duty in Korea until the merger between Samsung C&T and Cheil Industries in 2015. There was a great
+controversy in Korean society as to whether or not it was desirable for NPF—the largest
+shareholder of Samsung C&T—to exercise its voting rights on the merger decision made
+between Samsung C&T and Cheil Industries. In the process, the issue of the fiduciary
+duty of institutional investors related to sound corporate governance emerged as a major
+concern, and all these occurrences triggered NPF to adopt a stewardship code.
+NPF was founded in 1986 with the objective of providing the general public with sustainable pension and welfare services, and in 2016 it introduced the stewardship code ([31]).
+By passing related laws (the “National Pension Act” in 2015) and guidelines (the “Principles on Trusteeship Responsibility” in 2019) as a follow-up measure, the standard of
+the Korean-style stewardship code was developed. With the announcement of a strategy
+to advance responsible investing in 2019, NPF added sustainability to the existing five
+fund management principles of stability, liquidity, profitability, publicity, and operational
+independence [6,31]. Since 2019, NPF has continuously supported shareholder rights. All
+of these initiatives served as the foundation for NPF’s responsible investment strategy.
+2.2. NPF’s Socially Responsible Investment, ESG Performance, and Financial Performance
+Shareholder participation in corporate governance and institutional investor activism
+are now hot issues, not only in Korea but also around the world. The evolvement of the
+stewardship code from fiduciary duty strongly requires institutional investors to reflect
+sustainability in environmental, social, and governance for the long-term benefits of investee firms. This means that when making investment decisions, they should consider
+non-financial factors such as ESG elements and exercise shareholder rights while analyzing
+the effects of ESG on market/economic results.
+As part of fiduciary duty and institutional investor activism, the stewardship code
+is designed to generate institutional investors as active monitors, and the dynamic institutional investor monitoring can enhance the corporate value of investees companies.
+Furthermore, socially responsible investments of institutional investors regarding the environment, social, and governance aspects also enable improvements in the ESG performance
+of investee firms. Many studies have examined how firms’ socially responsible investments
+
+Sustainability 2022, 14, 11788
+
+5 of 17
+
+affect corporate financial performance [20–22,24,26,27,36], whereas only a few studies have
+looked into how institutional investors’ socially responsible investments affect financial
+performance [15,25,28].
+Previous research studying the relationship between institutional investor activism,
+ESG performance, and financial performance cascaded into three areas: (i) the relationship
+between institutional investor activism and financial performance, (ii) the relationship
+between institutional investor activism and ESG performance, and/or (iii) the relationship
+between ESG performance and financial performance.
+First, the exploratory discussion regarding whether institutional investor activism
+can benefit firms and shareholders is now progressing, and the relationship is not yet
+inconsistent. The positive pieces of evidence, for instance, are as follows. Becht et al.
+(2009) [13] reported that “well-focused engagements by an activist fund implemented
+shareholder activism, and can result in considerable public returns to outside shareholders”. Buchanan et al. (2012) [14] suggested that “shareholders may have an influence
+on business performance but the mechanisms via which shareholders are empowered
+are significant”. Mehrani et al. (2017) [25] claimed that “the more institutional investors
+actively participate, the higher the earning quality of investee companies is guaranteed”.
+Similarly, Farooqi et al. (2017) [15] stated that “active institutional investors have a stronger
+positive impact on company credit score than passive ones”. Moreover, negative pieces of
+evidence also existed. For example, Gillan and Starks (2007) [28] declared, “institutional
+investor activism reduces the business value by making it harder for managers to pursue
+long-term oriented goals”.
+Second, there are not many remarkable proofs regarding the relationship between
+institutional investor activism and ESG performance since the exploration effect of the
+activism on ESG performance has recently begun. Several points must be addressed,
+however, if it expands into the CSR literature. For example, Routledge (2020) [19] presented
+a negative association between institutional investors’ shareholding levels and discretionary
+accruals and stated that “institutional investors’ socially responsible investing can act
+as an effective governance structure”. Kim and An (2018) [17] investigated how NPF’s
+shareholding and CSR activities related to one another and claimed that “firms which
+have dominant shareholders with 5% or more ownership rates significantly expanded their
+CSR activities than those with less ownership rate”. Nurleni et al. (2018) [18] inspected
+the association between ownership structure, consisting of managerial and institutional
+ownership, and CSR, and reported, that “managerial ownership has a negative relation with
+CSR disclosure, while institutional ownership has a positive relation with CSR disclosure”.
+Dyck et al. (2019) [16] also found that the presence of institutional investors in the ownership
+structure can have a positive effect on ESG performance. However, negative pieces of
+evidence also stand. Aluchna et al. (2022) [12] examined the association between disclosure
+of ESG’s social component and prime interest of institutional investors, and stated, “there
+was a negative relationship between institutional ownership and disclosure of the social
+performance”. They also analyzed the relationship between institutional investor types
+and ESG disclosure, classifying these investors into corporate and government pensions,
+and discovered that “ownership by type of public pension and private pension showed
+statistically insignificant for social disclosure”.
+Third, numerous studies have looked at how ESG performance relates to financial
+performance. Whether CSR activity improves corporate financial performance in the
+literature of slack resource hypothesis and stakeholder theory has long been debated, and
+now the question concerning the impact of ESG on financial performance has arisen. This
+creates two main arguments for the relationship between ESG/CSR activity and financial
+performance. One argument is that they are not correlated with each other because efforts
+to improve social performance cause firms to spend more resources, undermining shortterm firm value. The other argument is that they are correlated with one another as a
+socially responsible investment can enhance the financial performance of investee firms.
+For instance, Orlitzky et al. (2003) [23] insisted that “corporate social/environmental
+
+Sustainability 2022, 14, 11788
+
+6 of 17
+
+performance is positively related with accounting-based metrics of corporate financial
+performance than with market-based indicators”. Brammer et al. (2006) [20] examined “the
+association between corporate social performance (CSP) and stock returns in the UK”, and
+they reported that “scores on a composite social performance indicator are inversely related
+with stock returns”. Revelli and Viviani (2015) [24] explored “the association between
+socially responsible investing (SRI) and financial performance to ascertain if incorporating
+corporate social responsibility and ethical issues in portfolio management are more lucrative
+than conventional investment practices”, and they also stated that “the consideration of CSR
+in stock market portfolios is neither a drawback nor a strength compared with traditional
+investing”. Friede et al. (2015) [22] conducted a review of the relationship between ESG and
+CFP by analyzing 2200 previous studies, and they discovered that 48% of the entire sample
+reached a positive conclusion about the relationship. Additionally, they indicated that “11%
+of the sample revealed the impact of ESG on CFP to be negative, 23% to be neutral, and
+18% to be mixed”. Fatemi et al. (2018) [21] investigated “the interrelationship between
+a firm’s strengths and weaknesses with regard to environmental, social, and governance
+concerns, its ESG-related disclosure, and its valuation”, and they noted that “ESG strengths
+boost company value while weakness diminishes it, and ESG disclosure itself depresses
+valuation”.
+In previous studies, the impact of institutional investor activism is inconsistent, and
+this issue needs to be further investigated. Some researchers [16–18] concluded that
+ESG/CSR disclosures offer companies a market premium, which can be of great interest to institutional investors looking for a high return. Rehman et al. (2020) [30] stated that
+ESG disclosure decreases the information asymmetry and helps investors to predict the
+future earnings and cash flow of the investee firms.
+Here, we raise the research question: can ESG performance act as a mediator or
+moderator? We specifically anticipate that the outcome of NPF shareholding on financial
+performance can be linked indirectly to the enhancement of ESG performance. In addition, the impact of NPF shareholding on financial performance can be reinforced by ESG
+performance. Therefore, we note a mediating or moderating role of ESG performance
+between NPF’s shareholding and financial performance. By applying path analysis to
+test the mediating and moderating effects of ESG performance, we estimate the impact of
+NPF shareholding on ESG performance and financial performance. Figure 1 depicts the
+conceptual framework.
+
+Figure 1. Conceptual Framework.
+
+A mediating variable usually explains the process by which two variables are related,
+whereas a moderating variable influences the strength and direction of that relationship.
+ESG performance, in this study, is not only a mediator in Hypothesis 1, but also a moderator
+in Hypothesis 2. NPF shareholding, for instance, can influence financial performance via
+the mediating role of ESG performance. Furthermore, ESG performance acts upon the
+relationship between NPF shareholding and financial performance and may change its
+
+Sustainability 2022, 14, 11788
+
+7 of 17
+
+direction or intensity. Hence, we developed research hypotheses to investigate whether
+ESG performance mediates or moderates the relationship between NPF shareholding and
+financial performance.
+Hypothesis 1: ESG performance will mediate the relationship between NFP shareholding and
+financial performance.
+Hypothesis 2: ESG performance will moderate the relationship between NFP shareholding and
+financial performance.
+3. Research Design
+3.1. Data Collection and Sampling
+The variables in this study are NPF shareholding, ESG performance, and financial
+performance. Data sources include NPF disclosure, ESG portal, and Data-guide. This study
+makes use of NPF ownership rate data as well as Korea Corporate Governance Service
+(KCGS) ESG ratings. KCGS assigns seven letter grades to ESG management: S, A+, A,
+B+, B, C, and D. In addition, Data-guide was used to collect financial information from
+companies. The sample was collected in the manner shown in Table 1.
+Table 1. Sampling.
+2019
+Removal
+1. KCGS ESG grade from ESG portal
+
+2020
+N
+
+Removal
+
+963
+
+Total
+N
+
+N
+
+1005
+
+1968
+
+2. Firms without ESG sub-ratings
+
+55
+
+908
+
+55
+
+950
+
+1858
+
+3. Firms in capital impairment and firms not included in Data-guide
+
+6
+
+902
+
+5
+
+945
+
+1847
+
+4. Non-manufacturing Firms
+
+363
+
+539
+
+372
+
+573
+
+1112
+
+573
+
+1112
+
+5. Total
+
+539
+
+The KCGS published its ESG grades in 2020 and 2021, which represent the outcomes
+of assessments made in 2019 and 2020, respectively. We began gathering ESG data for
+1968 firms based on these grades. A total of 110 firms (55 in 2019, 55 in 2020) with no
+ESG sub-ratings were removed. Six firms were eliminated in 2019 and five in 2020 due to
+capital impairments or missing data. Additionally, 735 non-manufacturing firms (363 in
+2019, 372 in 2020) were also eliminated, and the final sample was 539 firms in 2019 and
+573 firms in 2020. The final samples in this study included 1112 manufacturing firms with
+year observations from firms listed on the Korea Exchange in the 2019–2020 fiscal year.
+3.2. Measurement of Variables
+The ESG management grade measures how well a company adheres to its environmental, social, and corporate governance commitments. We chose ESG indicators from
+the KCGS that explicitly described the Korean firms and their ecology out of the many
+ESG indices available both domestically and internationally to measure the level of ESG
+management. ESG grades evaluated by KCGS consist of seven grades from S to D (S, A+, A,
+B+, B, C, D). We transformed the ordinal scale to Likert seven scale to test the hypotheses.
+For example, we assigned seven points to “S”, six points to “A+”, and one point to “D”. [37].
+NPF discloses the ownership rate for the investee company. We drew the ownership rate
+from the NPF report. Moreover, we had three dependent variables in our research model:
+ROE, ROA, and Tobin q. The first two variables ROE, and ROA are proxies of accounting
+performance, and the last variable Tobin q represents a corporate valuation. There are many
+variables used to determine a firm’s financial performance, and they can mainly be divided
+into “accounting performance” and “market performance”. Accounting performance such
+as ROE, and ROA has the advantage of showing the performance of a company’s past
+
+Sustainability 2022, 14, 11788
+
+8 of 17
+
+activities, and market performance such as Tobin q has the advantage of showing expectations for future performance [38,39]. Therefore, the financial performances, which are
+the dependent variables, are grouped with ROE, ROA, and Tobin q to analyze the effects
+from various aspects of the sample companies. ROE can specifically show the management
+efficiency of capital as it evaluates owner’s equity only excluding debt. Variable ROE is
+measured by dividing net income by the owner’s equity and then multiplying it by 100.
+ROA shows the management efficiency of total assets. Variable ROA is primarily calculated
+by dividing net income by average total assets and multiplying it by 100. Moreover, Tobin
+q is the ratio between a physical asset’s market value and its replacement value. Variable
+Tobin q in this study was measured by applying Equation (1).
+Tobin0 q =
+
+Equity Market Vaule + Liabilities Book Value
+× 100
+Equity Book Vaule + Liabilities Book Value
+
+(1)
+
+4. Results and Discussion
+4.1. Descriptive Statistics
+Table 2 shows the distribution of industries in our sample. Chemistry had the highest
+distribution with 226 firms (20.3%), followed by electrical and electronic with 156 (14.0%),
+and pharmaceuticals with 137 (12.3%).
+Table 2. Distribution of industries.
+Industry
+
+N
+
+Percentage
+
+Food and beverage
+
+83
+
+7.5
+
+Textile and clothing
+
+47
+
+4.2
+
+Paper and wood
+
+40
+
+3.6
+
+Chemistry
+
+226
+
+20.3
+
+Pharmaceuticals
+
+137
+
+12.3
+
+Non-metallic minerals
+
+52
+
+4.7
+
+Steel metal
+
+96
+
+8.6
+
+Machinery
+
+115
+
+10.3
+
+Electrical and electronic
+
+156
+
+14.0
+
+Medical
+
+18
+
+1.6
+
+Transportation equipment
+
+112
+
+10.1
+
+Other manufacturing
+
+30
+
+2.7
+
+1112
+
+100.0
+
+Total
+
+One vital purpose of this study was to determine the extent to which Korean businesses have implemented ESG practices. Before we verified the hypotheses, we pretested
+whether firms with a high financial performance also had a high ESG performance. This allowed us to diagnose the current degree of ESG activity in Korean manufacturing firms and
+determine whether or not the sample companies in this research supported earlier discussions, such as the slack resource hypothesis on the relationship between ESG performance
+and financial performance.
+Table 3 Panel A shows the distribution of ESG grades by year for 1112 samples. In
+2019, 134 firms received B+ or higher grades (24.8%), while 406 (75.2%) received B or lower
+grades. In 2020, 182 (31.8%) and 390 (68.2%) firms were classified.
+
+Sustainability 2022, 14, 11788
+
+9 of 17
+
+Table 3. Distribution of ESG grade, ROE level, and ROE by ESG grade.
+Panel A: ESG Grade Distribution
+S
+
+A+
+
+A
+
+B+
+
+B
+
+C
+
+D
+
+Total
+
+0
+
+5
+
+47
+
+82
+
+180
+
+207
+
+19
+
+540
+(100.0%)
+
+8
+
+390(68.2%)
+
+572
+(100.0%)
+
+2019
+
+134(24.8%)
+0
+
+5
+
+2020
+
+87
+
+406(75.2%)
+90
+
+182(31.8%)
+
+176
+
+206
+
+Panel B: Distribution of ROE by ESG grade
+Classification
+
+Low ROE: ROE19 ≤ 1.77, ROE20 ≤ 2.04
+
+High ROE: ROE19 ≥ 5.10, ROE20 ≥ 5.13
+
+Total
+
+High ESG (ESG ≥ B+)
+
+Group 2 = 105 (11.8%)
+
+Group 1 = 144 (16.2%)
+
+249 (27.9%)
+
+Low ESG (ESG ≤ B)
+
+Group 3 = 342 (38.4%)
+
+Group 4 = 300 (33.7%)
+
+642 (72.1%)
+
+Total
+
+444 (49.8%)
+
+447 (50.2%)
+
+891
+(100.0%)
+
+Chi-square test
+
+degree
+
+Pearson Chi-Square
+
+p-value
+
+1
+
+8.846
+
+0.01
+
+Panel C: ESG ROE–population ratio difference test
+High ESG ≥B+
+
+Low ESG ≤ B
+
+High ROE
+
+Low ROE
+
+High ROE
+
+Low ROE
+
+Group 1 = 144 (16.2%)
+
+Group 2 = 105 (11.8%)
+
+Group 4 = 300 (33.7%)
+
+Group 3 = 342 (38.4%)
+
+population ratio difference test (H0: p1-p2 = 0)
+
+population ratio difference test
+
+Z = 2.471
+
+Z = 1.657
+
+Two-tail test p-value < 0.01
+
+Two-tail test p-value < 0.05
+
+Group 1: high ROE, high ESG; Group 2: low ROE, high ESG; Group 3: low ROE, low ESG; Group 4: high ROE,
+low ESG.
+
+The distribution of ROE by ESG grade is seen in Panel B. It was categorized into four
+groups based on ESG grade (”B+”: “B”) and the median of ROE (60th percentile: 40th
+percentile). Then, based on the ROE and ESG grades, we could create a 2-by-2 matrix
+grade [6]. For example, if ROE was greater than the 60th percentile and the ESG grade is
+above or equivalent to B+, the companies were regarded as having good ESG performance
+with excellent financial performance. Additionally, if a company was below the 40th
+percentile but its ESG grade was B+ or higher, it was categorized to have an outstanding ESG
+performance yet a poor financial performance. In this manner, we created four comparison
+groups, each labeled as group 1 (high ROE, high ESG), group 2 (low ROE, high ESG),
+group 3 (low ROE, low ESG), and group 4 (high ROE, low ESG), respectively. According
+to the findings, out of the 249 firms with respectable ESG performance, 144 (16.2%) had
+respectable ROE (G1) and 105 (G2) had poor ROE (11.8%). Additionally, out of 642 firms
+with poor ESG performance, 342 (38.4%) had poor ROE (G3), and 300 (G4) had high ROE
+(33.7%). The Pearson Chi-Square statistic was 8.846 and the p-value was 0.01. As a result,
+the null hypothesis was rejected, and we could confirm that there was a statistical difference
+between the four groups.
+Panel C shows the parent ratio difference for the distribution of ROE and ESG performance. Out of the 249 strong ESG firms, 144 (16.2%) had decent ROE (G1) and 105 (11.8%)
+had poor ROE (G2). With a Z-value of 2.471, the difference was statistically significant
+(p-value 0.01). Additionally, among the 642 weak ESG firms, there were 342 (38.4%) companies with poor ROE (G3) and 300 (33.7%) companies with reasonable ROE, and the
+difference was statistically substantial. The pretest results of this study demonstrated that
+ESG management was more prevalent in organizations with high ROE, which may support
+the slack resource hypothesis.
+
+Sustainability 2022, 14, 11788
+
+10 of 17
+
+Table 4 displays the correlation between the variables of the study. With the exception
+of the pairs involving NPF shareholding and Tobin q, the coefficients for main components
+vary from −0.101 to 0.820, and many of the paired variables had significant correlations.
+Table 4. Correlations of variables of this study.
+
+1. NPF Shareholding
+
+1
+
+2
+
+3
+
+4
+
+5
+
+1
+
+0.480 ***
+
+0.237 ***
+
+0.206 ***
+
+0.020
+
+1
+
+0.117 ***
+
+0.110 ***
+
+−0.101 ***
+
+1
+
+0.820 ***
+
+0.013
+
+1
+
+0.017
+
+2. ESG performance
+3. ROE
+4. ROA
+5. Tobin q
+
+1
+
+*** Significant at 0.01 level (two-tailed tests).
+
+4.2. Path Analysis Results
+We had two hypotheses in this study. The first was to look into the moderating
+impact of the interaction variable of NPF shareholding and ESG performance on financial
+performance, while the second was to investigate the mediating role of ESG performance
+between NPF shareholding and financial performance.
+To test the hypotheses of the indirect effect of ESG performance between NPF shareholding and financial performance as well as the interaction effect of NPF shareholding
+and ESG performance on financial performance, a path analysis method was used. By
+breaking down correlations into direct, indirect, and spurious effects, path analysis allows
+for the modeling of several interconnected dependent connections between endogenous
+and exogenous components.
+We validated the mediating impact of ESG performance in between NPF shareholding
+and financial performance by setting three business performance variables such as ROE,
+ROA, and Tobin q as dependent variables in our path model, respectively. Additionally,
+our path model investigated the moderating impact of the relationship between NPF
+shareholding and ESG performance on financial performance.
+Table 5 and Figure 2 show the result of each path analysis for the variables such as
+NPF shareholding (NPFS), ESG performance (ESGP), the interaction of NPFS and ESGP,
+and financial performance (FP).
+Table 5. Path coefficients.
+Panel A: Model ROE
+Path Coefficient
+
+Panel B: Model ROA
+
+Panel C: Model Tobin q
+
+Estimate
+
+t-Value
+
+Estimate
+
+t-Value
+
+Estimate
+
+t-Value
+
+→
+
+ESGP
+
+0.480
+
+16.338 ***
+
+0.480
+
+16.338 ***
+
+0.480
+
+16.338 ***
+
+→
+
+FP
+
+0.172
+
+4.722 ***
+
+0.200
+
+5.665 ***
+
+0.082
+
+2.166 ***
+
+ESGP
+
+→
+
+FP
+
+−0.040
+
+−1.110
+
+−0.068
+
+−1.914 *
+
+−0.155
+
+−4.106 ***
+
+NPFS × ESGP
+
+→
+
+FP
+
+0.258
+
+8.080 ***
+
+0.338
+
+10.922 ***
+
+0.058
+
+1.762 *
+
+NPF shareholding
+
+*** Significant at 0.01 level, * 0.10 respectively (two-tailed tests).
+
+Panel A depicts the outcome of a path analysis with ROE as the dependent variable. We predicted a statistically significant positive sign in all four paths, and among
+those four, three paths satisfied the expectation, which were “NPF shareholding and ROE
+(coefficient = 0.172, p-value = 0.01)”, “NPF shareholding and ESG performance
+(coefficient = 0.480, p-value = 0.01)”, and “’NPFS × ESGP’ and ROE (coefficient = 0.258,
+p-value = 0.01)”. However, the path of ESGP and ROE showed a negative relationship
+and no statistical significance in the relationship between ESG performance and financial
+performance ROE.
+
+Sustainability 2022, 14, 11788
+
+11 of 17
+
+Figure 2. Outcome of path analysis by dependent variables: *** Significant at 0.01 level, ** 0.05,
+* 0.10 respectively (two-tailed tests).
+
+We additionally investigated the mediating and moderating effects of major variables
+in this study by setting ROA and Tobin q as dependent variables. Panels B and C show the
+results of the path analysis, fixing ROA and Tobin q as dependent variables, respectively,
+and the results are also depicted in Figure 2. In contrast to the ROE model in panel A, we
+were able to confirm that the path coefficients of “ESGP and ROA” (coefficient = −0.068,
+p-value = 0.10) and “ESGP and Tobin q” (coefficient = −0.155, p-value = 0.01) were statistically significant with a negative sign, which was contrary to our expectations.
+The following are the results of path analysis in this study.
+First, we observed that increasing NPF shareholding in investee firms can improve
+accounting performance (ROE and ROA) and market value (Tobin q). Second, we confirmed
+that a high shareholding of NPF can be a leading indicator to enhance ESG performance.
+Third, we discerned that the two variables NPF shareholding and ESG performance had an
+interaction effect on financial performance (ROE, ROA, and Tobin q, respectively) and that
+all paths in each model showed a positive sign. However, one unexpected finding was that
+there may be a negative mediating effect of ESG performance in the relationship between
+the NPF shareholding and ROA or Tobin q.
+With the path analysis, we were able to confirm the direct consequence of NPF shareholding on ROE or ESG performance, but we were unable to find a mediating effect of
+ESG performance between NPF shareholding and ROE. Furthermore, a negative mediation effect of ESG performance was discovered between NPF shareholding and financial
+performances (ROA, Tobin q), as well as the interaction effects of the two variables NPF
+shareholding and ESG performance on financial performances (ROE, ROA, and Tobin q).
+4.3. Discussion
+The first two findings of this study are consistent with the results of the existing
+literature on the relationship between (i) institutional investor activism and financial
+performance ([6,13–15,25], etc.), and (ii) institutional investor activism and ESG
+performance ([6,16–19], etc.). These findings reinforce the assumption that institutional
+investor activism might improve a company’s financial or ESG performance. As a consequence, positive evidence for the efficacy of the stewardship code was added to the
+previously contradicting findings in the literature ([12,28], etc.).
+Furthermore, the study’s final two findings add to the previous literature by demonstrating that ESG performance acts as a mediator or moderator between institutional
+investor activism and financial performance. The stewardship code’s promotion of ESG
+performance was expected to be a driver of improvements in company accounting and
+market performance. However, the results showed that ESG performance was a nega-
+
+Sustainability 2022, 14, 11788
+
+12 of 17
+
+tive mediator in the relationship between institutional investor activism and financial
+performance ROA and Tobin q.
+The study’s unexpected findings can be interpreted from the two perspectives listed
+below. Initially, unlike our assumptions, ESG performance showed a negative mediating
+effect in the relationship between NPF shareholding and financial performance ROA or
+Tobin q. For example, if the NPF’s shareholding is large, the ESG performance of the
+investee companies can improve. However, the improved ESG performance might have
+a negative effect on ROA or Tobin q. The mismatch of horizons may provide a plausible
+explanation for the observation. In principle, ESG management and investment seek to
+improve long-term investment performance by incorporating ESG issues that traditional
+investing ignores (ESG investment, more specifically, is an innovation movement that
+shifts value maximization from shareholders to stakeholders. With the emphasis on ESG,
+companies must now invest resources not only for shareholders, but also for diverse range
+of stakeholders in environmental, social, and governance aspects. Moreover, in this case,
+such an investment would help maximize stakeholder value while also improving the
+company’s financial value. This investment strategy, however, was deemed unimportant in
+the shareholder-oriented value maximization strategy. In addition, institutional investors
+may prioritize short-term rather than longer-term goals for quarterly earnings fixation,
+caused by quarterly reporting requirements, analysts’ prediction of quarterly earnings,
+short-term outlook by financial intermediaries, etc. ESG investing can mitigate losses
+for investors resulting from short-termism. For instance, ref. [40] provided a portfolio
+optimization framework along with empirical evidence to show that investors can improve
+both ESG quality and the financial performance of their investments. Investors can achieve
+the dual goal by integrating systematic ESG risk into optimization in a manner consistent
+with modern portfolio theory”.). Refs. [41,42] showed a piece of evidence in the US equity
+market that ESG factor surprise has a higher volatility persistence than market factor
+surprise. This implies that hedge costs to reduce ESG risk must be borne immediately,
+while benefits from ESG investment can be enjoyed gradually over a long period. For
+instance, costs caused by firms expanding in ESG activity may increase in the early stage,
+which can temporarily deteriorate corporate financial performance. This is consistent with
+the negative correlation in the mediating path between ESG performance and accounting
+performance ROE and ROA. The negative sign regarding the long-term market performance
+(Tobin q) can be explained through the risk perspective of ESG investing. The ESG activity to
+mitigate ESG risk tends to lower the numerator (cash-flows) and the denominator (discount
+rate) in the valuation formula. When relevant ESG risk reduction is priced efficiently in the
+capital market, ESG performance may be neutral to corporate valuation. However, only
+a partial change of total risk (i.e., only the difference in systematic risk) induced by ESG
+activity is likely to be priced according to modern portfolio theory [41]. It means that the
+discount rate tends to be only somewhat adjusted, and thus the corporate market value is
+prone to be lower than its fair value.
+Moreover, considering the demands for ESG or the stewardship code of institutional
+investors in Korea is only at its beginning stage, it might be a temporary financial situation
+in the process of expanding investment in ESG. Since the market may be unable to price risk
+factors efficiently [43,44], the performance of ESG screening may have originated from the
+market’s inability and depended on the choice of the evaluation period. Ref. [45] showed
+the relevant empirical result in the US equity fund market. It suggests that investors have
+factored ESG information into their decisions more actively and that the market has become
+more efficient concerning ESG risk in the recent period. From this stance, the research
+period has to be expanded in order for the effect of the stewardship code by institutional
+investors and corporate ESG investment in Korean society to be structurally captured.
+However, unfortunately, we could not analyze it due to the relatively short research period
+of this study. It remains a future research opportunity.
+Second, along with what we expected, the results of this study mean that the more NPF
+owns shareholding to investee companies, the higher companies’ financial performance
+
+Sustainability 2022, 14, 11788
+
+13 of 17
+
+or social performance is expected through ESG activities. The impact of improved ROE
+was superior when the interaction effects of NPF shareholding and ESG performance
+existed. There was a particularly crucial influence of the variable “NPFS × ESGP” on
+financial performance, which reveals that the interaction between institutional investors’
+stewardship code and corporate ESG performance can have a positive impact on financial
+performance (ROE, ROA, and Tobin q). This is evidence that aids the role of moderating
+effect in the current study.
+Bénabou and Tirole (2010) [46] addressed three versions of CSR: the long-term perspective to maximizing intertemporal profits, shareholder delegation philanthropy, and inside
+manager-initiated philanthropy. The first two versions can enhance corporate value, but the
+last version can harm it. Since CSR is likely to involve a combination of all three samples,
+the result of the empirical test is expected to depend on the sample. The adverse mediating
+effect in Table 5 implies the probability that inside manager-initiated philanthropy drives
+recent ESG performance in the Korean manufacturing industry. On the other hand, NPF
+shareholding may contribute to monitoring managers’ strategic behaviors and discourage
+inside manager-initiated philanthropy. Likewise, as the NPF shareholding is more elevated,
+the correlation between ESG performance and financial performance can be more positive.
+Furthermore, as a universal investor, NPF focuses on systematic risk rather than total risk.
+Thus, it may only consider the partial benefit of ESG screening when making investment
+decisions. This interpretation is compatible with the positive moderating effect shown in
+Table 5. Note that the correlation between ESG performance and market presentation (Tobin
+q) is lower than the correlation between ESG performance and accounting performance
+(ROE and ROA).
+Additionally, we analyzed what kind of interaction causes a more synergetic effect on financial performance. We diagnosed financial performance in each of the four groups—high
+and low levels in NPF shareholding and ESG performance. The two groups were divided
+according to the median NPF shareholding. If the NPF shareholding was greater than the
+median, the firm was classified as having a large NPF shareholding; if it was less than the
+median, the firm was classified as having a small NPF shareholding. ESG performance was
+organized based on the ESG index, so if the index was greater than or equal to B+, the firm
+was regarded as having a good ESG performance. Based on NPF’s shareholding and ESG
+performance, we could make a 2-by-2 matrix.
+To compare the four groups, ANOVA and post hoc analysis were performed. The
+results of the analysis are shown in Table 6 and Figure 3.
+The results of the ANOVA are shown in Panel A. Group 1 (high NPF and high ESG)
+has the highest average 6.96, and it is followed by Group 4 (high NPF and low ESG = 5.27),
+Group 2 (low NPF and high ESG = −3.41), and Group 3 (low NPF and low ESG = −6.59).
+However, the heteroscedasticity between the groups was indicated by the Levene statistic
+of 11.389 and the p-value of 0.01. To solve the heteroscedasticity issue and validate the
+group differences, Dunnett T3 analysis was included. The outcome is shown in panel B.
+The results demonstrate that group 1 had a higher ROE than groups 2, 3, and 4, with the
+only difference between groups 1 and 2 or 1 and 3 being significant at the 1% level. In terms
+of ROE, Group 2 outperformed Group 3, and Group 4 outperformed Group 3.
+Panel C demonstrates the ANOVA and post-hoc analysis of the four groups by setting
+the dependent variable as ROA or Tobin q. We will briefly present the results. In terms
+of ROA as the dependent variable, we confirmed that the difference between G1 and G2,
+G3, or G4 and G2, G3 were significant. For Tobin q, the difference between G1 and G4, or
+G4 and G2 were significant. This may be evidence that the stewardship code of Korean
+NPF is effective, and that its emphasis on ESG activities of investee firms can improve
+their financial performance. Moreover, we highlighted the fact that G1 was larger than G4,
+despite the fact that the difference between groups was not statistically substantial. This
+means when NPF enlarges its ESG investment, the financial performance of investee firms
+can increase. We, unfortunately, could not find a reasonable analogy for the difference
+between G1 and G4. We believe it to be another future investigation of this field.
+
+Sustainability 2022, 14, 11788
+
+14 of 17
+
+Table 6. ANOVA and Post-hoc analysis.
+Panel A: Findings from the ANOVA on the FP (ROE)
+Group
+
+N (=891)
+
+Mean
+
+S.D.
+
+G1
+
+232
+
+6.96
+
+9.64
+
+G2
+
+304
+
+−3.41
+
+33.06
+
+G3
+
+291
+
+−6.59
+
+26.23
+
+G4
+
+64
+
+5.27
+
+23.37
+
+SS
+
+degree
+
+MS
+
+BG
+
+28105.88
+
+3
+
+9368.62
+
+WG
+
+586958.21
+
+887
+
+661.732
+
+F
+
+p
+
+14.158
+
+0.01
+
+Levene Static = 11.389, p = 0.01
+Panel B: Findings from the Post-hoc analysis
+G(I)
+
+G(J)
+
+MD(I-J)
+
+p-value
+
+1
+
+2
+3
+4
+
+10.37
+13.55
+1.69
+
+0.01
+0.01
+0.94
+
+2
+
+3
+4
+
+3.18
+−8.68
+
+0.01
+0.08
+
+3
+
+4
+
+−11.86
+
+0.01
+
+Dunnett T3
+
+Panel C: Summary ROA and Tobin q results
+FP = ROA: G1 > (G2, G3), G4> (G2, G3),
+FP = Tobin q: G1 > G4, G4> G2
+(1) G1: high NPF, high ESG, G2: low NPF, high ESG, G3: low NPF, low ESG, G4: high NPF, low ESG
+
+Figure 3. Four groups comparison.
+
+5. Conclusions
+Despite the increased interest in stewardship codes and socially responsible investments of companies, there has been little interest in exploring the association between institutional investors’ activism and ESG and financial performance. So, this study examined
+the relationship between NPF shareholding, ESG performance, and financial performance.
+We primarily focused on the role of ESG performance as a mediator or a moderator in the
+relationship between NPF shareholding and financial performance.
+We found that ESG performance can play a mediating and moderating role in the
+relationship between NPF shareholding and financial performance, and this study makes
+two significant contributions to the literature.
+First, NPF shareholding can have affirmative effects on ESG performance, or financial
+performance, but ESG performance shows a negative effect on financial performance. In
+other words, if institutional investor promotes their stewardship code actively, the ESG
+performance of investee firms can be enhanced. However, ESG performance augmented
+by institutional activism did not relate to the improvement of financial performance. We
+expected a positive mediating effect of ESG performance being promoted by institutional
+investors’ activism on financial performance, yet the discoveries of the current study
+
+Sustainability 2022, 14, 11788
+
+15 of 17
+
+surprisingly showed a negative impact. One possible inference regarding this result is that
+corporate expense temporarily increased while they promoted ESG activities, so corporate
+financial performance decreased. From this perspective, we suggest expanding the research
+period to diagnose whether the result is a temporary phenomenon or not. We could not
+expand the investigation period in Korea, as the national pension fund just acted up their
+stewardship code merely two years ago; thus, it will remain as future work.
+Second, ESG performance showed a moderating role in the relationship between NPF
+shareholding and financial performance. This means if the national pension fund has more
+ownership rate for investee firms, financial performance can be greater when moderated
+by ESG performance. This proves that the interaction between institutional investors’
+activism and ESG performance may have a synergetic effect on financial performance, so
+we further explored which groups’ interaction (NPFS×ESGP) showed a stronger synergetic
+impact on financial performance. From this deeper research, we found that when both NPF
+shareholding and ESG performance were superior to other groups, investee firms’ financial
+performance was also elevated.
+This study improved our understanding of the institutional investor stewardship code
+and the degree of ESG practice for Korean manufacturing firms, as well as the causality
+of those variables with financial performance. The contribution of the current study is to
+confirm that the stewardship code by the national pension fund in Korea that promotes
+ESG performance is indeed efficient and that the synergetic effect of investor activism with
+ESG performance on financial performance is also respectable.
+This study has the following limitations.
+The first limitation of this study is in the short research period, but we were unable
+to expand it because Korea’s national pension fund only implemented its stewardship
+code two years ago. One possible explanation for the negative relationship between ESG
+performance and financial performance is the short implementation period of the NPF
+stewardship code. Given that NPF adopted it just two years ago, stakeholder enthusiasm or
+expectations may not be fully reflected in the relationship. Despite the short study period,
+we believe that diagnosing the NPS stewardship code, as well as the level of ESG in the
+Korean manufacturing industry will be a worthwhile task given the growing interest in ESG
+and institutional investors’ stewardship code fueled by the merger of Samsung C&T and
+Cheil Industries or Korean Air’s peanut turnaround. However, because of the short study
+period, caution should be exercised when generalizing the study’s findings. Extending the
+study period and incorporating control variables, such as contingency variables, into our
+model will also provide an intriguing opportunity for future research.
+Second, we could not control the pandemic event in the research design. Another
+possible reason for the negative correlation between ESG performance and financial performance is the impact of the transformed corporate business environment caused by the
+pandemic. Hence, it will be valuable to trace the reason relating to the negative influence of
+ESG performance on financial performance. It will be a worthwhile opportunity to explore
+whether or not it can have positive consequences with an ongoing active stewardship code
+by an institutional investor.
+Third, because this study was conducted in a single institutional pension fund in
+Korea, we must exercise caution when generalizing our findings. In the future, we believe
+it would be a good challenge to broaden the study scope by including several institutional
+investors and several countries as well as broadening the research period.
+Author Contributions: Conceptualization, S.S., I.J. and J.K; methodology, S.S.; investigation, S.S., I.J.
+and J.K.; resources, S.S., I.J. and J.K.; writing—original draft preparation, S.S.; writing—review and
+editing, I.J. and J.K.; supervision, J.K.; project administration, S.S. All authors have read and agreed
+to the published version of the manuscript.
+Funding: This research received no external funding.
+Institutional Review Board Statement: Not applicable.
+
+Sustainability 2022, 14, 11788
+
+16 of 17
+
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Not applicable.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+
+Glass, L.; Newig, J. Governance for achieving the sustainable development goals: How important are participation, policy
+coherence, reflexivity, adaptation and democratic institutions? Earth Syst. Gov. 2019, 2, 100031. [CrossRef]
+Jabareen, Y. A new conceptual framework for sustainable development. Environ. Dev. Sustain. 2008, 10, 179–192. [CrossRef]
+Manioudis, M.; Meramveliotakis, G. Broad strokes towards a grand theory in the analysis of sustainable development: A return
+to the classical political economy. New Political Econ. 2022, 27, 866–878. [CrossRef]
+United Nations General Assembly. Transforming Our World: The 2030 Agenda for Sustainable Development; United Nations General
+Assembly: New York, NY, USA, 2015.
+Sauve, S.; Berbard, S.; Sloan, P. Environmental sciences, sustainable development and circular economy: Alternative concepts for
+trans-disciplinary research. Environ. Dev. 2016, 17, 48–56. [CrossRef]
+Son, S.; Kim, J. Environment, social, and governance performance and financial performance with national pension fund:
+Evidence from Korea. Front. Psychol. 2022, 13, 893535. [CrossRef]
+Denoncourt, J. Companies and UN 2030 Sustainable development goal 9 industry, innovation and infrastructure. J. Corp. Law
+Stud. 2020, 20, 199–235. [CrossRef]
+Klettner, A. The impact of stewardship codes on corporate governance and sustainability. N. Z. Bus. Law Q. 2017, 23, 259–275.
+Klettner, A. Stewardship codes and the role of institutional investors in corporate governance: An international comparison and
+typology. Br. J. Manag. 2021, 32, 988–1006. [CrossRef]
+Tilba, A.; Reisberg, A. Fiduciary duty under the microscope: Stewardship and the spectrum of pension fund engagement. Mod.
+Law Rev. 2019, 82, 456–487. [CrossRef]
+Suttipun, M. The influence of board composition on environmental, social and governance (ESG) disclosure of Thai listed
+companies. Sustainability 2021, 18, 391–402. [CrossRef]
+Aluchna, M.; Roszkowska-Menkes, M.; Kamińsi, B.; Bosek-Rak, D. Do institutional investors encourage firm to social disclosure?
+The stakeholder salience perspective. J. Bus. Res. 2022, 142, 674–682. [CrossRef]
+Becht, M.; Franks, J.; Mayer, C.; Rossi, S. Returns to shareholder activism: Evidence from a clinical study of the hermes UK focus
+fund. Rev. Financ. Stud. 2009, 22, 3093–3129. [CrossRef]
+Buchanan, B.G.; Netter, J.M.; Poulsen, A.B.; Yang, T. Shareholder proposal rules and practice: Evidence from a comparison of the
+United States and United Kingdom. Am. Bus. Law J. 2012, 49, 739–803. [CrossRef]
+Farooqi, J.; Jory, S.; Ngo, T. Institutional investors’ activism and credit ratings. J. Econ. Financ. 2017, 41, 51–77. [CrossRef]
+Dyck, A.; Lins, K.V.; Roth, L.; Wagner, H.F. Do institutional investors drive corporate social responsibility? International evidence.
+J. Financ. Econ. 2019, 131, 693–714. [CrossRef]
+Kim, Y.J.; An, J.I. The effect of national pension blockholders on corporate social responsibility. Korean Account. Rev. 2018, 43,
+1–31. [CrossRef]
+Nurleni, N.; Bandang, A.; Darmawati, J.; Amiruddin. The effect of managerial and institutional ownership on corporate social
+responsibility disclosure. Int. J. Law Manag. 2018, 60, 979–987. [CrossRef]
+Routledge, J. Stewardship regulation and earnings quality: Evidence from Japan. Account. Res. J. 2020, 33, 543–559. [CrossRef]
+Brammer, S.; Brooks, C.; Pavelin, S. Corporate social performance and stock UK evidence from disaggregate measures. Financ.
+Manag. 2006, 35, 97–116. [CrossRef]
+Fatemi, A.; Glaum, M.; Kaiser, S. ESG performance and firm value: The moderating role of disclosure. Glob. Financ. J. 2018, 38,
+45–64. [CrossRef]
+Friede, G.; Bushc, T.; Bassen, A. ESG and financial performance: Aggregated evidence from more than 2000 empirical studies.
+J. Sustain. Financ. Investig. 2015, 5, 210–233. [CrossRef]
+Orlitzky, M.; Schmidt, F.F.; Rynes, S.L. Corporate social and financial performance: A meta-analysis. Organ. Study 2003, 24,
+403–441. [CrossRef]
+Revelli, C.; Viviani, J.L. Financial performance of socially responsible investing (SRI): What have we learned? A meta-analysis.
+Bus. Ethics 2015, 24, 158–185. [CrossRef]
+Mehrani, S.; Moradi, M.; Eskandar, H. Institutional ownership type and earnings quality: Evidence from Iran. Emerg. Mark.
+Financ. Trade 2017, 53, 54–73. [CrossRef]
+Sohn, S. The relation between financial characteristics and economic performances in Korean CSR companies: Comparative
+analysis for contextual factors. Korean J. Manag. Account. Res. 2016, 16, 201–240.
+Waddock, S.; Graves, S. The corporate social performance-financial performance link. Strateg. Manag. J. 1997, 18, 303–319.
+[CrossRef]
+Gillan, S.L.; Starks, L.T. The evolution of shareholder activism in the United States. J. Appl. Corp. Financ. 2007, 19, 55–73.
+[CrossRef]
+
+Sustainability 2022, 14, 11788
+
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+41.
+42.
+43.
+44.
+45.
+46.
+
+17 of 17
+
+Friedman, M. The social responsibility of business is to increase its 75 profits. New York Times Magazine, 13 September 1970;
+Volume 32, pp. 122–126.
+Rehman, R.; Riaz, Z.; Cullinan, C.; Zhang, J.; Wang, F. Institutional ownership and value relevance of corporate social responsibility
+disclosure: Empirical evidence from China. Sustainability 2020, 12, 2311. [CrossRef]
+National Pension Fund. Statistics of National Pension Fund; National Pension Service: Jeonju, Korea, 2019.
+Hill, J.G. Good activist/bad activist: The rise of international stewardship codes. Seattle Univ. Law Rev. 2017, 41, 497.
+BlackRock. 2020 Annual Report; BlackRock: New York, NY, USA, 2020.
+Pástor, L.; Stambaugh, R.F.; Taylor, L.T. Sustainable investing in equilibrium. J. Financ. Econ. 2021, 142, 550–571. [CrossRef]
+Sparkes, R.; Cowton, C.J. The maturing of socially responsible investment: A review of the developing link with corporate social
+responsibility. J. Bus. Ethics 2004, 52, 45–57. [CrossRef]
+Preston, E.; O’Bannon, P. The corporate social-financial performance relationship: A typology and analysis. Bus. Soc. 1997, 36,
+419–429. [CrossRef]
+Wright, B.D. Solving measurement problems with the Rasch model. J. Educ. Meas. 1977, 14, 97–116. [CrossRef]
+Buallay, A. Is sustainability reporting (ESG) associated with performance? Evidence from the European banking sector. Manag.
+Environ. Qual. 2018, 30, 98–115. [CrossRef]
+Velte, P. Does ESG performance have an impact on financial performance? Evidence from Germany. J. Glob. Responsib. 2017, 8,
+169–178. [CrossRef]
+Jin, I. Systematic ESG risk and decision criteria for optimal portfolio selection. J. Portf. Manag. Novel Risks 2022, 1–20. [CrossRef]
+Jin, I. Is ESG a systematic risk factor for US equity mutual funds? J. Sustain. Financ. Investig. 2018, 8, 72–93. [CrossRef]
+Jin, I. Systematic ESG risk and passive ESG investing. J. Portf. Manag. 2022, 48, 71–86. [CrossRef]
+Haugen, R.A.; Baker, N.L. Commonality in the determinants of expected stock returns. J. Financ. Econ. 1996, 41, 401–439.
+[CrossRef]
+Lakonishok, J.; Shleifer, A.; Vishny, R. Contrarian investment, extrapolation and risk. J. Financ. 1994, 49, 1541–1578. [CrossRef]
+Jin, I. ESG-screening and factor-risk-adjusted performance: The concentration level of screening does matter. J. Sustain. Financ.
+Investig. 2020, 1–21. [CrossRef]
+Bénabou, R.; Tirole, J. Individual and corporate social responsibility. Economica 2010, 77, 1–19. [CrossRef]
+
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.
+
+

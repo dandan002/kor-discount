@@ -1,0 +1,2099 @@
+Emerging Markets Finance and Trade
+
+ISSN: 1540-496X (Print) 1558-0938 (Online) Journal homepage: www.tandfonline.com/journals/mree20
+
+Does “Vote No” Change Corporate Governance
+and Firm Value? Evidence from the Shareholder
+Activism of the Korean National Pension Service
+Sungmin Kim, Hee Sub Byun & Eun Jung Lee
+To cite this article: Sungmin Kim, Hee Sub Byun & Eun Jung Lee (2014) Does “Vote No” Change
+Corporate Governance and Firm Value? Evidence from the Shareholder Activism of the Korean
+National Pension Service, Emerging Markets Finance and Trade, 50:5, 42-59, DOI: 10.2753/
+REE1540-496X500503
+To link to this article: https://doi.org/10.2753/REE1540-496X500503
+
+Published online: 29 Jan 2015.
+
+Submit your article to this journal
+
+Article views: 148
+
+View related articles
+
+View Crossmark data
+
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=mree20
+
+42
+
+Emerging Markets Finance & Trade
+
+Does “Vote No” Change Corporate Governance
+and Firm Value? Evidence from the Shareholder
+Activism of the Korean National Pension Service
+Sungmin Kim, Hee Sub Byun, and Eun Jung Lee
+ABSTRACT: In this paper, we analyze the effect of shareholder activism on firm value through
+internal corporate governance in an emerging market. We investigate the shareholder activism by the National Pension Service (NPS) of Korea, the fourth-largest pension fund in the
+world in 2010. We investigate stock price reaction to a “vote no” press announcement and
+find that the market does not react in the short run, which reaction is inconsistent with
+the results from developed countries. We also find that firms experiencing “vote no” and
+improved internal corporate governance have higher firm valuation. Shareholder activism
+by the NPS is effective in increasing target firm value through improving internal corporate
+governance.
+KEY WORDS: corporate governance, firm valuation, pension fund, shareholder activism.
+
+Over the past decade, shareholder activism has become a focus of academic attention in
+financial economics (Gillan and Starks 2007). Activism has been defined as “proactive
+efforts to change firm behavior or governance rules” (Black 1998, p. 3). The goal of
+shareholder activism is to bring about changes in target companies, changes that would
+improve their operating performance, as well as their shareholder value. Many researchers have attempted to analyze the effect of shareholder activism by pension or hedge
+funds on the corporate governance structure and valuation of target firms. However, their
+studies focus primarily on the United Kingdom and the United States, with conflicting
+results (Black 1992, 1998; Del Guercio et al. 2008; Gillan and Starks 2007; Karpoff
+2001). For example, Karpoff (2001) states that shareholder activism in the United States
+generates small changes in firms’ governance structure and has almost no effect on firms’
+performance, while Brav et al. (2008) show that firms monitored by hedge funds in the
+United States have better governance structure and performance. With the exception of
+a few articles (e.g., Zeng et al. 2011), academic studies are concerned with developed
+financial markets since shareholder activism is most common in those markets. There is
+very little literature about shareholder activism in emerging markets. Emerging markets
+differ from developed markets in terms of accounting transparency, liquidity, corruption,
+governance, taxes, and transaction costs (Bruner et al. 2002). In this paper, we investigate
+the shareholder activism by the National Pension Service (NPS) of Korea (Korea is a
+typical emerging market) and study its influence on internal corporate governance and the
+valuation of target firms. The NPS of Korea is the fourth-largest pension fund globally,
+
+Sungmin Kim (sminkim@hanyang.ac.kr) is a professor of finance at Hanyang University, Ansan,
+South Korea. Hee Sub Byun (heesbyun@kdic.or.kr) is a research fellow at Korea Deposit Insurance Corporation, Seoul, South Korea. Eun Jung Lee (ejunglee@hanyang.ac.kr), corresponding
+author, is an associate professor of finance at Hanyang University, Ansan, South Korea. This paper was financially supported by the IREC, the Institute of Finance and Banking, Seoul National
+University.
+Emerging Markets Finance & Trade / September–October 2014, Vol. 50, No. 5, pp. 42–59.
+© 2014 M.E. Sharpe, Inc. All rights reserved. Permissions: www.copyright.com
+ISSN 1540–496X (print) /ISSN 1558–0938 (online)
+DOI: 10.2753/REE1540-496X500503
+
+September–October 2014 43
+
+managing more than USD 289 billion. To our knowledge, this study is the first to examine
+the main form of shareholder activism by the NPS, which is the “vote no” activity.
+“Vote no” campaigns are a method for activists to convince the market, via press
+releases, to communicate a message of shareholder dissatisfaction to the incumbent
+management and boards (Del Guercio et al. 2008; Grundfest 1993). “Vote no” activities are the most widespread form of shareholder activism in Korea; they have the same
+importance in Korea as shareholder proposals have in developed countries. Due to their
+importance in developed countries, previous literature has focused on shareholder proposals (Carleton et al. 1998). However, in Korea, the “vote no” activity is much more common
+than shareholder proposals. Over our sample period, 2006–9, no shareholder proposals
+were issued by the NPS against target companies. Thus, we revisit the effectiveness of
+shareholder activism by examining whether the NPS’s “vote no” activity alters internal
+corporate governance and the value of target firms.
+Our first piece of evidence regarding the influence of “vote no” by the NPS relates to
+the stock price reaction to a “vote no” press announcement. We report two-day announcement cumulative abnormal returns and find that, in general, the market does not react in
+the short run. This evidence is inconsistent with the result from Del Guercio et al. (2008).
+They find a small positive average-stock-price reaction to the press announcement with
+marginal significance. Even when the NPS votes no, it seldom forces management to
+change its policy in the short term. As argued by Gillan and Starks (2007) in their study
+about shareholder proposals, there is still uncertainty about managerial behavior after
+shareholder meetings. Therefore, the market needs more time to assess the value of the
+NPS’s “vote no” action. Since the activism focuses on long-term performance, it is not
+surprising that the markets do not react in the short term (Gillan and Starks 2000). The
+exception to this lack of market reaction in the short term is voting no on an item related
+to increasing the limit on the total remuneration of directors. We find that the short-term
+abnormal return is positive when the NPS votes no on an item related to increasing the
+limit on the total remuneration of directors.
+Next, we question whether voting no by the NPS improves internal corporate governance. Due to the increased size of the NPS, it has become increasingly difficult for the
+NPS to simply sell stocks on the market. The difficulty in disposing of stocks motivates
+the NPS to engage more actively with corporate management and boards as a shareholder
+(Gillan and Starks 2000). By examining the relation between corporate governance and
+“vote no” activity by the NPS, we study whether the NPS’s action improves internal
+corporate governance. We find that target firms are more likely to improve the activities
+of the board of directors when the NPS votes no on an item related to the election of
+directors. We also find that protection of shareholder rights tends to improve firms that
+experience an NPS vote against an item about amendment to the articles of incorporation.
+It seems clear that by objecting to items in shareholder meetings, the NPS conveys its
+dissatisfaction with the management of a target company. This conveyance changes the
+manager’s policy and could be seen as a form of NPS engagement in management.
+Finally, we study whether the NPS’s “vote no” activities improve the operational
+efficiency of the target companies. Even though the reaction in the market to the NPS’s
+“vote no” is marginal, the “vote no” improves the specific internal corporate governance
+and the operational efficiency of a target company. To estimate the contribution of these
+activities to firm valuation, we develop a methodology for understanding the effect of
+specific “vote no” activities and link them to the target companies’ specific internal
+corporate governance and ultimately to the valuation of the target company. We begin
+
+44
+
+Emerging Markets Finance & Trade
+
+by constructing an interaction variable with the “vote no” activities and the changes in
+target companies’ internal corporate governance after the “vote no” activities. We then
+examine whether the NPS’s “vote no” activities can affect the target firm’s valuation
+differently depending on the degree of the changes in internal corporate governance
+of the target company after “vote no” activities. Our analysis shows that Tobin’s Q
+is higher for companies that experience the NPS’s “vote no” against the director
+and subsequently improve function or composition of the board, arguably the main
+components of corporate governance. This finding indicates that NPS pressure on the
+management of target firms leads to improved function of the board of directors and
+then to enhanced firm valuation.
+This paper contributes to extant literature in two ways. First, this paper expands our
+understanding of shareholder activism in emerging markets. As mentioned previously,
+shareholder activism is most common in advanced financial markets since there are
+very few institutional investors (pension funds) in emerging markets; thus, academic
+studies, with the exception of a few articles (e.g., Zeng et al. 2011), examine advanced
+financial markets.1 We still know very little about shareholder activism and pension
+fund activism in emerging markets. It is also important to study pension funds because
+they are the most active in monitoring the company (Karpoff 2001; Woidtke 2002).
+Therefore, it is necessary to investigate emerging markets separately from developed
+markets to better understand shareholder activism in the world. We study the NPS of
+Korea, which is one of the largest pension funds in the world and is rapidly increasing
+in size.2 Because of the NPS’s current size and the speed of increase and the openness
+of the Korean economy to the global economy, studying Korea’s NPS enriches our
+knowledge of shareholder activism in emerging markets.
+Second, we supplement Woidtke (2002) by providing exact linkages between
+shareholder activism and firm value—that is, internal corporate governance. Woidtke
+(2002) investigates private and public pension funds and finds that private (public)
+pension funds provide positive (negative) effects on relative firm value. However,
+she investigates only the direct relation between shareholder activism and firm value
+without explicitly considering under which conditions shareholder activism can affect
+firm value. Our prediction is that, depending on the degree of the changes in internal
+corporate governance of the target company, the relation between shareholder activism
+and firm value would be different. We, therefore, consider improvements in internal
+corporate governance to better understand the relation between shareholder activism
+and firm value.
+Background of the NPS
+The NPS of Korea was established in 1988 under the National Pension Act. Since then,
+its size has increased rapidly, reaching KRW (South Korean won) 330 trillion (about
+USD 289 billion) in 2010. The NPS is currently the fourth-largest pension fund in the
+world. It is even larger than the California Public Employees Retirement System, which
+is about USD 214 billion. We study shareholder activism by the NPS because the NPS
+has gradually increased equity investments. Since the NPS influences the Korean stock
+market and is steadily increasing ownership of Korean companies, it is the right time to
+study whether shareholder activism by the NPS actually increases shareholder value of
+a company. In 2009, the NPS attended 134 shareholder meetings and voted on 653 items
+(approving 612 items, disapproving forty items, and remaining neutral on one item).
+
+September–October 2014 45
+
+Other institutional investors disapprove less than 1 percent of the items proposed in
+shareholder meetings, so the NPS seems to vote against many more items than do other
+institutional investors.3 In Korea, family business groups (chaebol), are dominant (Jeon
+and Ryoo 2013; Joh 2003). Many Korean institutional investors are related to these large
+business groups. Monitoring activities by domestic institutions are limited because many
+of them are chaebol-affiliated (Jeon and Ryoo 2013). These chaebol-related institutional
+investors are not free from the influence of controlling shareholders of a chaebol. They
+usually vote for controlling shareholders if there is a conflict of interest between controlling shareholders and other shareholders. However, the NPS has more independence, and
+the role of the NPS, which is not affiliated with chaebols, is more significant. Therefore,
+it is more beneficial to analyze the voting of the NPS to understand institutional investors’ behavior.4 As Karpoff (2001) and Woidtke (2002) recognize, pension funds are the
+primary focus of studies on shareholder activism since pension funds are most active in
+monitoring the target company. Carleton et al. (1998), Del Guercio and Hawkins (1999),
+English et al. (2004), and Hann (2002) also analyze public pension funds to study shareholder activism.
+In Table 1, Panel A reports the exercise of voting right by the NPS for firms of which
+the NPS has ownership of more than 5 percent. We hand collect from the NPS home page
+and identify 101 “vote no” activities from 2006 to 2009.5 The NPS, a major shareholder
+of many Korean companies, actually runs “vote no” actions in more than 20 percent of
+shareholder meetings of companies it owns. “Vote no” activities have become more frequent over time. There were only nineteen activities in 2006 compared to forty in 2009.
+Panel B of Table 1 shows the list of agenda items for which the NPS voted no. Fifty-seven
+of these agenda items are related to the election of a director and internal auditor. This
+implies that the NPS concludes that a certain group of directors or internal auditors of
+target firms have conflicts of interest. In twenty-five of the 101 “vote no” activities, the
+NPS expresses dissatisfaction with amendments to the articles of incorporation. Another
+commonly stated reason accounting for 9 percent of the NPS’s “vote no” activities is the
+approval of the limit on the total remuneration of directors.
+Sample and Data
+Sample
+Our sample firms are all publicly traded and held by the NPS in the Korea Exchange
+(KRX) or Korea Securities Dealers Automated Quotation (KOSDAQ) during the period
+2006–9. We obtain financial data from the TS2000, a data set compiled by the Korea Listed
+Companies Association, and stock return data from Fn-Guide, a Korean financial data
+provider. The internal corporate governance index is provided by the Korean Corporate
+Governance Services (KCGS), a nonprofit organization.6 Our final sample consists of
+407 firm-years for the period 2006–9.
+We hand collect NPS voting data from its home page. The exercise of voting rights
+consists of six categories: election of director, election of internal auditor, approval of
+financial statement, amendment to the articles of incorporation, approval of the limit on
+the remuneration of directors, and others.7 Ownership of firms by the NPS is proprietary
+data and obtained internally from the NPS. We focus on firms in which the NPS holds
+more than 5 percent, since larger ownership by the NPS generates more effectiveness of
+shareholder activism in improving internal corporate governance and eventually increasing firm value (Jensen and Meckling 1976).
+
+83
+
+80
+
+110
+
+134
+
+407
+
+2006
+
+2007
+
+2008
+
+2009
+
+Total
+
+437
+
+142
+
+121
+
+87
+
+87
+
+12
+6
+6
+15
+39
+(38.6)
+
+2006
+2007
+2008
+2009
+Total
+
+Source: NPS.
+Note: Percentages are in parentheses.
+
+Election of
+director
+
+Year
+2
+4
+2
+10
+18
+(17.8)
+
+Election of
+auditor
+
+Panel B: Agenda items voted no by the NPS (disapproved)
+
+Number of
+target firms
+
+Year
+
+0
+0
+0
+0
+0
+(0.0)
+
+Approval
+of financial
+statement
+
+399
+(100)
+362
+(100)
+508
+(100)
+653
+(100)
+1,922
+(100)
+
+2
+4
+7
+12
+25
+(24.8)
+
+Amendment to
+the Articles of
+Incorporation
+
+0
+3
+4
+2
+9
+(8.9)
+
+Approval of the
+limit on the
+remuneration of
+directors
+
+377
+(94.5)
+342
+(94.5)
+485
+(95.5)
+612
+(93.7)
+1,816
+(94.48)
+
+Approved
+
+3
+3
+3
+1
+10
+(9.9)
+
+Others
+
+19
+(4.8)
+20
+(5.5)
+22
+(4.3)
+40
+(6.1)
+101
+(5.25)
+
+Disapproved
+
+19
+20
+22
+40
+101
+(100.0)
+
+Total
+
+3
+(0.7)
+0
+(0.0)
+1
+(0.2)
+1
+(0.2)
+5
+(0.26)
+
+Neutral/
+abstention
+
+Panel A: Exercise of voting right by the NPS by year
+Exercise of voting right
+
+Table 1. Types and frequency of the NPS’s “vote no” activities, January 2006–December 2009
+Number of
+agenda items
+in shareholder
+meetings
+
+Emerging Markets Finance & Trade
+
+Number of
+shareholder
+meetings
+
+46
+
+September–October 2014 47
+
+Variables
+To examine whether internal corporate governance improves firm value when the NPS
+votes no, we use firm-specific corporate governance scores provided by the KCGS as
+in H.Y. Byun et al. (2011). This corporate governance score captures all major aspects
+of internal corporate governance, such as shareholder rights, board structure, responsibility of board, conflict of interest, composition of audit committee, function of internal
+auditors, and disclosure and transparency.8 Thus, the internal corporate governance score
+includes five subindexes of internal corporate governance practices: shareholder rights
+protection (CGI1), board of directors (CGI2), internal auditors (CGI3), disclosure (CGI4),
+and payout policy (CGI5).9 Using these subindexes, we implement separate analyses to
+determine which characteristics of corporate governance are affected by the NPS’s “vote
+no” activities. We also use the internal corporate governance score (G-index), excluding
+dividend policy score, as the proxy of the internal corporate governance (H.S. Byun et
+al. 2011). We provide the definitions of internal corporate governance proxies and all
+other variables in Table 2.
+We provide the estimated mean, median, standard deviation, maximum, and minimum of all variables in Table 3. On average, the size of the firms held by the NPS is
+KRW 2.5 trillion. According to this evidence, the NPS seems to invest in relatively large
+companies.
+Empirical Results
+Stock Price Reaction to “Vote No” Activities
+To examine whether the market reacts in the short run when the NPS votes no, we investigate the abnormal return around the NPS’s “vote no” announcement by estimating the
+ordinary least squares (OLS) market model. We conduct a standard event study using the
+press announcement of the “vote no” activities as event date 0. We estimate market model
+parameters over the 200-day period ending twenty days prior to the NPS’s announcements.
+Table 4 contains the average and median cumulative abnormal returns (CARs) and the
+percentage of positive CARs over three different announcement periods: the two-day
+announcement period (–1, 0), the three-day announcement period (–1, 1), and the sevenday announcement period (–3, 3). Our data set includes seventy-three “vote no” activities.
+We find that the two-day CAR is on average 0.32 percent and the three-day CAR is on
+average 0.93 percent in the full sample, but these values are insignificant. This suggests
+that the market does not react to the NPS’s “vote no” announcements in the short run.
+To specify the effect of the NPS’s “vote no” activity on target companies, we split
+the main sample into four subsamples according to the agenda items. We then report
+the average and median CARs for each agenda item. Firms with the NPS’s “vote no”
+against an item about the election of directors produce a two-day CAR of –0.23 percent,
+which is statistically insignificant. When the NPS votes no against an item related to the
+election of internal auditors, we observe positive returns of 0.26 percent, but this value
+is also statistically insignificant. However, voting against an item to increase the limit on
+the total remuneration of directors generates a positive abnormal return of 2.97 percent
+with marginal significance.
+The above results from short-run analyses suggest that the market generally does not
+react to the NPS’s “vote no.” We interpret the result following Gillan and Starks (2007):
+The market needs more time to realize the value of the NPS’s “vote no” since there is still
+
+48
+
+Emerging Markets Finance & Trade
+
+Table 2. Definitions of variables
+Variable
+
+Definition
+
+CAR
+CGI
+G-index
+
+Cumulative abnormal return around the NPS’s “vote no” announcements
+Overall corporate governance score provided by the KCGS, based on 100 points
+Overall corporate governance score provided by the KCGS (based on 100
+points), excluding payout category
+Shareholder rights protection part of the overall corporate governance score
+provided by the KCGS
+Board part of the overall corporate governance score provided by the KCGS
+Audit committee and auditors part of the overall corporate governance score
+provided by the KCGS
+Market value of assets (market value of equity plus book value of debt) divided
+by the book value of assets
+Dummy variable: Vote NO = 1 if the NPS votes no against an item; otherwise,
+Vote NO = 0
+Dummy variable: Vote NO Against Director = 1 if the NPS votes no against an
+item about the election of directors; otherwise, Vote NO Against Director = 0
+Dummy variable: Vote NO Against Auditor = 1 if the NPS votes no against an
+item about the election of auditor; otherwise, Vote NO Against Auditor = 0
+Dummy variable: Vote NO Against Amendment = 1 if the NPS votes no against
+an item about the amendment to the Articles of Incorporation; otherwise,
+Vote NO Against Amendment = 0
+Dummy variable: Vote NO Against Remuneration = 1 if the NPS votes no
+against an item about the increase of the limit on the remuneration of directors; otherwise, Vote NO Against Remuneration = 0
+Ownership of firms by the NPS
+
+CGI1
+CGI2
+CGI3
+Tobin’s Q
+Vote NO
+Vote NO Against
+Director
+Vote NO Against
+Auditor
+Vote NO Against
+Amendment
+Vote NO Against
+Remuneration
+Pension
+ownership
+Size
+Years listed
+Debt /Equity
+Sales growth
+R&D /Sales
+Advertising /Sales
+Export /Sales
+PPE /Sales
+CAPEX /PPE
+EBIT /Sales
+Market share
+Share turnover
+Foreign
+Chaebol
+Largest
+ADR
+MSCI
+Bank
+
+The natural log of total assets
+The natural log of number of years since original listing on exchanges
+Book value of debt/market value of common stock
+Average growth rate of sales during the past five fiscal years (or available period
+if less than five years)
+Research and development (R&D) expense/sales
+Advertising expense/sales
+Export revenue/sales
+Property, plant, and equipment/sales
+Capital expenditures/property, plant, and equipment
+Earnings before income and taxes/sales
+Firm’s share of total sales by all firms in the same three-digit industry traded
+on KRX
+Common shares traded during fiscal year/common shares held by public shareholders (defined as outstanding shares x [1 – share ownership by largest
+shareholder])
+Number of shares owned by foreign investors who own more than 5 percent/
+total number of common stocks
+Dummy variable: Chaebol = 1 if the firm belongs to a chaebol conglomerate;
+otherwise, Chaebol = 0
+Percentage share ownership by largest shareholder (the shareholder that, together with its related parties, holds the largest number of common shares)
+Dummy variable: ADR = 1 if firm has issued ADRs (American Depository Receipt); otherwise, ADR = 0
+Dummy variable: MSCI = 1 if firm is in Morgan Stanley Capital International
+Index; otherwise, MSCI = 0
+Dummy variable: Bank = 1 if a commercial bank or a merchant bank; otherwise, Bank = 0
+
+September–October 2014 49
+
+Table 3. Summary statistics of the variables used in the empirical analysis,
+2006–2009
+
+Tobin’s Q
+Pension
+ownership
+CGI
+G-index
+CGI1
+CGI2
+CGI3
+Size (billion
+won)
+Years listed
+Debt/Equity
+Sales growth
+R&D/Sales
+Advertising/
+Sales
+Export/Sales
+PPE/Sales
+CAPEX/PPE
+EBIT/Sales
+Market share
+Share turnover
+Foreign
+Chaebol
+Largest
+ADR
+MSCI
+Bank
+
+N
+
+Mean
+
+Median
+
+Standard
+deviation
+
+Maximum
+
+Minimum
+
+428
+438
+
+1.1756
+0.0720
+
+1.0075
+0.0662
+
+0.5825
+0.0199
+
+4.9686
+0.1581
+
+0.4103
+0.0500
+
+403
+403
+403
+403
+403
+428
+
+42.9611
+41.9347
+17.2010
+8.9198
+8.0529
+2,533
+
+40.3333
+39.3333
+17.3333
+7.6667
+6.6667
+531
+
+10.8405
+10.7259
+2.7976
+3.6797
+3.7624
+6,402
+
+76.6667
+74.0000
+24.0000
+23.0000
+16.3333
+86,024
+
+23.3333
+23.3333
+9.3333
+3.0000
+0.3333
+9
+
+426
+428
+425
+426
+424
+
+19
+1.1213
+0.1731
+0.0110
+0.0097
+
+16
+0.6085
+0.0960
+0.0014
+0.0013
+
+13
+1.3964
+0.3374
+0.0235
+0.0191
+
+54
+9.4769
+3.8880
+0.2235
+0.1564
+
+1
+0.0184
+–0.2903
+0.0000
+0.0000
+
+426
+426
+426
+438
+426
+426
+438
+438
+410
+438
+438
+438
+
+0.0284
+0.3702
+0.4272
+0.0840
+0.1420
+3.0516
+0.0421
+0.3516
+0.3479
+0.0160
+0.2420
+0.0205
+
+0.0000
+0.2838
+0.1588
+0.0785
+0.0568
+2.3011
+0.0000
+0.0000
+0.3504
+0.0000
+0.0000
+0.0000
+
+0.1362
+0.2930
+1.3188
+0.1523
+0.2120
+2.9584
+0.0697
+0.4780
+0.1705
+0.1255
+0.4288
+0.1420
+
+0.8930
+1.7110
+11.3589
+0.9218
+1.0000
+38.5315
+0.7537
+1.0000
+0.9680
+1.0000
+1.0000
+1.0000
+
+0.0000
+0.0027
+0.0000
+–0.5873
+0.0001
+0.1523
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+
+Note: See Table 2 for definitions of variables.
+
+uncertainty about the manager’s behavior after a no vote in a shareholder meeting. Moreover, activism generally focuses on long-term performance (Gillan and Starks 2000).
+Since the NPS votes no to various items in shareholder meetings, it is possible that a
+“vote no” on a particular item can affect the market. Therefore, to decide which item of
+a shareholder meeting is related to abnormal return when the NPS votes no on the item,
+we regress CARs on various items in shareholder meetings and other control variables.
+The control variables consist of the percentage of NPS ownership. We also use the control
+variables used by Black et al. (2006a, 2006b). We estimate fixed effects regression and
+use clustered standard error at firm level and year level by Petersen (2009).
+Table 5 reports the results from regressions exploring the market response to each
+item on which the NPS votes no. These results are similar to univariate results in Table 4.
+Generally, we cannot observe any significant relation between the NPS’s “vote no”
+announcements and market reaction. These short-run analyses suggest that the market
+generally does not react to the NPS’s “vote no.”
+
+50
+
+Emerging Markets Finance & Trade
+
+Table 4. Stock price reaction to the NPS’s “vote no” activities
+
+Vote NO (n = 73)
+Mean
+Median
+Positive CAR (percent)
+Vote NO against the election of
+director (n = 34)
+Mean
+Median
+Positive CAR (percent)
+Vote NO against the election of
+auditor (n = 18)
+Mean
+Median
+Positive CAR (percent)
+Vote NO against amendment
+to the Articles of Incorporation
+(n = 25)
+Mean
+Median
+Positive CAR (percent)
+Vote NO against the limit on the
+remuneration of directors (n = 7)
+Mean
+Median
+Positive CAR (percent)
+
+CAR
+(–1, 0)
+
+CAR
+(–1, 1)
+
+CAR
+(–3, 3)
+
+0.0014
+(0.7466)
+0.0019
+(0.8939)
+48.7
+
+0.0045
+(0.3574)
+0.0051
+(0.2981)
+56.6
+
+0.0066
+(0.3827)
+0.0001
+(0.7296)
+48.7
+
+–0.0023
+(0.7305)
+0.0031
+(0.8606)
+50.0
+
+–0.0020
+(0.7960)
+0.0079
+(0.8606)
+55.6
+
+0.0083
+(0.4870)
+0.0048
+(0.6452)
+50.0
+
+0.0025
+(0.7726)
+0.0030
+(0.7337)
+55.6
+
+0.0035
+(0.7435)
+0.0180
+(0.7660)
+61.1
+
+0.0076
+(0.6075)
+0.0035
+(0.7337)
+50.0
+
+–0.0051
+(0.4113)
+–0.0044
+(0.2280)
+36.0
+
+–0.0048
+(0.4312)
+–0.0040
+(0.3229)
+40.0
+
+–0.0086
+(0.4661)
+–0.0195
+(0.2497)
+40.0
+
+0.0273
+(0.1185)
+0.0202
+(0.1563)
+71.4
+
+0.0297*
+(0.0844)
+0.0279
+(0.1094)
+85.7
+
+0.0118
+(0.3975)
+–0.0031
+(0.5781)
+42.9
+
+Notes: CAR is the cumulative abnormal stock return over three different announcement periods: the
+two-day (–1, 0), three-day (–1, 1), and seven-day (–3, 3) announcement periods. We estimate the abnormal return surrounding the NPS’s “vote no” announcement by estimating the OLS market model.
+Specifically, the abnormal return of a stock on an event day t is its day t return minus (α + β × Rmkt,t),
+where α and β are the estimated coefficients of the market model and Rmkt,t is the day t return on the
+market index (Korea composite Stock Price Index [KOSPI] or KOSDAQ index). We estimate market
+model parameters in the 200-day period ending twenty days prior to the announcement. Numbers in
+parentheses are p-value from t-tests or Wilcoxon’s rank sum tests. * Significant at the 10 percent level;
+** significant at the 5 percent level; *** significant at the 1 percent level.
+
+Effect of the NPS’s “Vote No” Activities on Internal Corporate Governance
+Due to the large size of the NPS and its effect on the market, it has become increasingly
+difficult for the NPS to simply sell its stock in the markets when it is not satisfied with
+the management of a target firm. Therefore, the NPS is more inclined to shareholder
+
+September–October 2014 51
+
+Table 5. Effect of the NPS’s “vote no” in various agenda items on CARs
+CAR (–1,1)
+
+Intercept
+Vote NO Against Director
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+0.0983
+(0.53)
+–0.0180
+(–1.41)
+
+0.0814
+(0.42)
+
+0.0871
+(0.44)
+
+0.1181
+(0.60)
+
+Vote NO Against Auditor
+Vote NO Against
+Amendment
+Vote NO Against
+Remuneration
+Pension ownership
+G-index
+Size
+Years listed
+Debt/Equity
+Sales growth
+R&D/Sales
+Advertising/Sales
+PPE/Sales
+(PPE/Sales)2
+CAPEX/PPE
+EBIT/Sales
+Market share
+Share turnover
+Foreign
+Chaebol
+Largest
+(Largest)2
+ADR
+MSCI
+
+–0.0070
+(–0.48)
+–0.0135
+(–1.11)
+
+0.0697
+(0.16)
+0.0005
+(0.59)
+–0.0057
+(–0.68)
+0.0083
+(0.68)
+0.0008
+(0.32)
+–0.0040
+(–0.07)
+0.4014
+(1.00)
+0.1023
+(0.27)
+0.0364
+(0.52)
+–0.0252
+(–0.62)
+–0.0031
+(–0.28)
+–0.0862
+(–0.86)
+0.0575*
+(1.89)
+0.0005
+(0.22)
+0.1036
+(0.97)
+–0.0001
+(–0.01)
+–0.0431
+(–0.33)
+0.1061
+(0.63)
+0.2629*
+(1.78)
+–0.0252
+(–0.98)
+
+0.1353
+(0.28)
+0.0004
+(0.48)
+–0.0049
+(–0.57)
+0.0042
+(0.36)
+0.0018
+(0.61)
+–0.0124
+(–0.20)
+0.4319
+(0.97)
+0.1319
+(0.31)
+0.0498
+(0.68)
+–0.0322
+(–0.78)
+–0.0007
+(–0.07)
+–0.0693
+(–0.66)
+0.0622*
+(1.81)
+0.0008
+(0.29)
+0.0914
+(0.83)
+–0.0019
+(–0.11)
+–0.0250
+(–0.19)
+0.0848
+(0.50)
+0.2415
+(1.61)
+–0.0272
+(–1.01)
+
+0.0757
+(0.17)
+0.0002
+(0.15)
+–0.0043
+(–0.47)
+0.0003
+(0.02)
+0.0019
+(0.63)
+–0.0271
+(–0.41)
+0.4365
+(0.97)
+0.2020
+(0.51)
+0.0520
+(0.72)
+–0.0319
+(–0.78)
+0.0018
+(0.16)
+–0.0494
+(–0.49)
+0.0539
+(1.57)
+0.0009
+(0.35)
+0.0500
+(0.46)
+–0.0002
+(–0.01)
+–0.0690
+(–0.52)
+0.1372
+(0.80)
+0.2005
+(1.27)
+–0.0308
+(–1.12)
+
+0.0210
+(0.81)
+–0.0055
+(–0.01)
+0.0003
+(0.34)
+–0.0060
+(–0.68)
+0.0065
+(0.53)
+0.0014
+(0.50)
+–0.0051
+(–0.08)
+0.3270
+(0.80)
+0.3055
+(0.74)
+0.0300
+(0.38)
+–0.0223
+(–0.51)
+–0.0037
+(–0.32)
+–0.0653
+(–0.60)
+0.0561*
+(1.77)
+0.0005
+(0.18)
+0.0847
+(0.86)
+0.0020
+(0.11)
+–0.0193
+(–0.15)
+0.0761
+(0.45)
+0.2624*
+(1.73)
+–0.0260
+(–0.96)
+(continues)
+
+52
+
+Emerging Markets Finance & Trade
+
+Table 5. Continued
+CAR (–1,1)
+
+Bank
+Industry effect
+Year effect
+N
+Adj. R2
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+–0.0500
+(–1.14)
+Yes
+Yes
+69
+0.0843
+
+–0.0729
+(–1.40)
+Yes
+Yes
+69
+0.0307
+
+–0.0770
+(–1.39)
+Yes
+Yes
+69
+0.0492
+
+–0.0538
+(–1.09)
+Yes
+Yes
+69
+0.0451
+
+Notes: See Table 2 for definitions of variables. Values in parentheses are t-values. * Significant
+at the 10 percent level; ** significant at the 5 percent level; *** significant at the 1 percent level.
+
+activism that can improve the target firm’s value. That is, the NPS holds the stocks
+and exercises its right as a shareholder to voice its concern about the target company’s
+poor performance and corporate governance. “Vote no” activities, an important form of
+shareholder activism in Korea, convey shareholders’ dissatisfaction with management
+and board decisions on company strategy or with corporate governance issues, such as
+elections of directors and internal auditors. As Del Guercio et al. (2008) and Grundfest
+(1993) argue, managers care about their reputations, and thus the external pressure of
+“vote no” activities can motivate management to increase firm value. In particular, when
+the NPS votes no against the election of directors, the vote induces managers to improve
+the function or composition of the board. Similarly, firms that experience the NPS’s “vote
+no” against the election of internal auditors are more motivated to improve the structures
+or the functions of the audit committee and internal auditors. To examine whether voting
+no by the NPS improves internal corporate governance, we employ fixed effects regression. We use clustered standard error at firm level and year level by Petersen (2009).
+The results are presented in Table 6. We find an insignificantly positive coefficient
+for the Vote NO dummy. We find a positive significant coefficient for Vote NO Against
+Director. This positive and significant coefficient suggests that target firms are more likely
+to improve the activities of the board when the NPS votes no on an item touching on the
+election of directors. We also observe that the coefficient of Vote NO Against Amendment
+is positive and significant. Therefore, we argue that firms that are targeted by an NPS
+vote against an item about amendments to the articles of incorporation tend to strengthen
+shareholder rights. It is clear that by conveying dissatisfaction with the management of
+a target company, the NPS is able to exert considerable influence.10
+Effect of the NPS’s “Vote No” Activities on Firm Valuation Through the
+Changes in Internal Corporate Governance
+The main question of interest in this section is whether the NPS’s “vote no” activities
+improve the operational efficiency of the target companies. As mentioned earlier, empirical
+evidence of the effects of shareholder activism is mixed (Gillan and Starks 2007). Some
+evidence supports the idea that shareholder activism has an effect on firm value since an
+institutional investor acts as a monitor (Brav et al. 2008). Other evidence indicates there
+is no effect from activism (Karpoff 2001). As Karpoff (2001) concludes, shareholder
+activism somewhat improves corporate governance, but has little effect on share value.
+
+Advertising/Sales
+
+R&D/Sales
+
+Sales growth
+
+Debt/Equity
+
+Years listed
+
+Size
+
+Pension ownership
+
+Vote NO Against Remuneration
+
+Vote NO Against Amendment
+
+Vote NO Against Auditor
+
+Vote NO Against Director
+
+Vote No
+
+Intercept
+
+27.6042
+(1.24)
+4.9563
+(1.58)
+–0.9635
+(–0.37)
+–0.2519
+(–0.75)
+2.2178
+(1.63)
+–24.3710
+(–0.33)
+139.6004
+(1.60)
+
+26.9168
+(1.20)
+5.0152
+(1.60)
+–0.1334
+(–0.05)
+–0.3667
+(–1.12)
+2.0856
+(1.58)
+–20.3723
+(–0.28)
+131.1566
+(1.50)
+
+–143.0545*
+(–1.67)
+1.0963
+(1.06)
+
+Model (2)
+
+Model (1)
+
+–139.9900
+(–1.65)
+1.1587
+(1.14)
+
+Change in
+G-index
+
+Change in
+CGI
+
+6.1619
+(0.68)
+0.7175
+(0.57)
+1.7793
+(1.07)
+–0.0147
+(–0.12)
+0.8230
+(1.13)
+9.1769
+(0.41)
+30.2796
+(0.50)
+
+0.8529*
+(1.79)
+
+–27.2474
+(–0.81)
+
+Model (3)
+
+Change in
+CGI2
+
+Table 6. Effect of the NPS’s “vote no” activities on internal corporate governance
+
+17.9940
+(1.46)
+3.2411*
+(1.83)
+–1.5304
+(–1.44)
+–0.4155***
+(–3.00)
+0.8228
+(1.23)
+–20.1689
+(–0.84)
+–3.3372
+(–0.09)
+
+0.6770
+(0.70)
+
+–85.9665*
+(–1.85)
+
+Model (4)
+
+Change in
+CGI3
+
+–2.3263
+(–0.27)
+1.6062
+(1.15)
+–1.6108
+(–0.98)
+0.1631
+(1.35)
+–0.7356
+(–0.87)
+–8.4593
+(–0.22)
+81.0004
+(1.64)
+
+1.5260*
+(1.92)
+
+–40.2271
+(–1.06)
+
+Model (5)
+
+Change in
+CGI1
+
+0.3588
+(0.29)
+5.2638
+(0.56)
+0.8662
+(0.70)
+1.7953
+(1.05)
+–0.0171
+(–0.13)
+0.8483
+(1.15)
+8.3942
+(0.38)
+31.0378
+(0.51)
+(continues)
+
+–30.9699
+(–0.92)
+
+Model (6)
+
+Change in
+CGI2
+
+September–October 2014 53
+
+–16.3686***
+(–8.84)
+13.1422
+(1.55)
+–9.2490
+(–1.49)
+–0.0146
+(–0.04)
+0.0014
+(0.00)
+13.7370
+(0.73)
+0.0674
+(0.20)
+1.7705
+(0.17)
+–2.3737
+(–1.51)
+0.8776
+(0.14)
+2.2682
+(0.19)
+Yes
+Yes
+383
+0.0854
+
+Model (2)
+
+Model (1)
+
+–15.3808***
+(–7.34)
+15.3084*
+(1.84)
+–10.7259*
+(–1.77)
+0.0181
+(0.04)
+0.3471
+(0.11)
+14.5314
+(0.77)
+0.0680
+(0.20)
+0.6193
+(0.06)
+–3.1628**
+(–2.08)
+1.0365
+(0.16)
+2.3945
+(0.21)
+Yes
+Yes
+383
+0.0943
+
+Change in
+G-index
+
+Change in
+CGI
+
+–2.8497***
+(–3.30)
+4.6054
+(1.33)
+–2.6694
+(–1.11)
+0.1445
+(0.84)
+–0.0767
+(–0.04)
+8.3438
+(1.01)
+0.0579
+(0.49)
+8.0493*
+(1.88)
+–0.7677
+(–1.34)
+–3.6640
+(–1.11)
+6.7021
+(1.14)
+Yes
+Yes
+383
+0.0441
+
+Model (3)
+
+Change in
+CGI2
+
+–5.4782***
+(–4.42)
+3.2216
+(0.80)
+–0.8290
+(–0.26)
+–0.2632
+(–1.11)
+–0.3645
+(–0.16)
+4.2311
+(0.55)
+0.0232
+(0.25)
+–7.5043
+(–1.28)
+0.1147
+(0.11)
+–3.2648
+(–0.99)
+8.4036
+(1.40)
+Yes
+Yes
+383
+0.149
+
+Model (4)
+
+Change in
+CGI3
+
+–3.4883***
+(–3.47)
+3.7812
+(1.18)
+–5.0231**
+(–2.26)
+0.0193
+(0.15)
+1.8076
+(0.83)
+1.7058
+(0.25)
+–0.2951*
+(–1.91)
+2.7360
+(0.58)
+–1.6828**
+(–2.52)
+8.5690**
+(2.32)
+–13.8987**
+(–2.18)
+Yes
+Yes
+383
+0.0777
+
+Model (5)
+
+Change in
+CGI1
+
+–2.9576***
+(–3.43)
+4.0249
+(1.17)
+–2.1597
+(–0.92)
+0.1306
+(0.64)
+–0.2060
+(–0.12)
+8.5916
+(1.02)
+0.0156
+(0.13)
+8.0284*
+(1.85)
+–0.8095
+(–1.41)
+–3.9614
+(–1.22)
+7.2607
+(1.24)
+Yes
+Yes
+383
+0.0322
+
+Model (6)
+
+Change in
+CGI2
+
+Notes: See Table 2 for definitions of variables. Values in parentheses are t-values. * Significant at the 10 percent level; ** significant at the 5 percent level; *** significant
+at the 1 percent level.
+
+Firm effect
+Year effect
+N
+Adj. R2
+
+(Largest)2
+
+Largest
+
+Chaebol
+
+Foreign
+
+Share turnover
+
+Market share
+
+EBIT/Sales
+
+CAPEX/PPE
+
+(PPE/Sales)2
+
+PPE/Sales
+
+Export/Sales
+
+Table 6. Continued
+
+54
+Emerging Markets Finance & Trade
+
+September–October 2014 55
+
+In this section, we explicitly consider the improvement in internal corporate governance
+to better understand the relation between shareholder activism and firm value. We employ
+the pooled fixed effects regression.
+We first construct an interaction variable (Change in CGI * Vote NO) with the “vote no”
+activities and the changes in target companies’ specific corporate governance. We then
+examine whether the NPS’s activities affect the target firm valuation differently depending
+on the degree of the changes in specific corporate governance of the target company. We
+use clustered standard error at firm level and year level by Petersen (2009).
+Table 7 presents the results for the estimated coefficients of Equation (3). In column 1
+of Table 7, we first investigate whether “vote no” activities increase or decrease target firm
+value. We find a negative and significant coefficient for Vote NO Against Director. This
+evidence is consistent with the result from Woidtke (2002). To estimate the contribution
+of internal corporate governance between shareholder activism and firm value, we add
+the interaction variable Change in CGI2 * Vote NO Against Director. In this case, the
+NPS votes no against an item about the election of directors, and target firms improve
+the function or composition of the board. Surprisingly, we find a significant and positive
+coefficient for this interaction variable. This result suggests that Tobin’s Q is higher for
+companies that experience the NPS’s “vote no” against the director, which is arguably
+the main component of corporate governance, and subsequently improve function of the
+board (CGI2). Without considering internal corporate governance, shareholder activism
+by the NPS seems to decrease the valuation of the target companies. However, if specific
+corporate governance of target firms improves after shareholder activism by the NPS,
+the value of the target firm increases. In column 2 of Table 7, we also find a significant
+and positive coefficient for the interaction variable Change in CGI3 * Vote NO Against
+Auditor. This suggests that even though the effect of “vote no” against an item about
+auditors is minimal, the NPS’s “vote no” activities against an item about the election of
+auditors improve the operational efficiency of the target companies.
+Next, we use the interaction variable with Change in CGI1 and Vote NO Against
+Amendment. We find the insignificantly negative coefficient for the interaction variable
+(Change in CGI1 * Vote NO Against Amendment). This result suggests that the NPS’s
+“vote no” activities against amendment do not improve the target firm valuation even
+though they strengthen shareholder rights. We also investigate whether “vote no” against
+approval of the limit on the remuneration of directors increases or decreases target firm
+value. We observe that the coefficient for the interaction variable Change in CGI2 * Vote
+NO Against Remuneration is insignificantly positive. According to the results of Tables 6
+and 7, if the NPS votes no against an item about the election of directors, which is the
+main component of corporate governance, and these “vote no” activities improve the
+target firm’s corporate governance, such as the function or independence of the board,
+then “vote no” activities can increase the target firm’s valuation.
+Conclusion
+In this paper, we investigate shareholder activism by the NPS of Korea and study its
+influence on internal corporate governance and valuation of target firms. We focus on the
+NPS’s “vote no” activities, which are the most prevalent form of shareholder activism
+in Korea. By examining the relation between corporate governance and activism by the
+NPS in various regressions with control variables, we confirm that the NPS’s voting no
+improves specific internal corporate governance. We find that target firms are more likely
+
+56
+
+Emerging Markets Finance & Trade
+
+Table 7. Effect of the NPS’s “vote no” activities on firm valuation through
+changes in internal corporate governance
+
+Intercept
+Vote NO Against Director
+
+Model (1)
+
+Model (2)
+
+Model (3)
+
+Model (4)
+
+–5.3176
+(–0.78)
+–0.1744**
+(–2.44)
+
+–4.9378
+(–0.73)
+
+–4.6429
+(–0.70)
+
+–3.8677
+(–0.56)
+
+Vote NO Against Auditor
+
+–0.1398
+(–1.51)
+
+Vote NO Against Amendment
+Vote NO Against
+Remuneration
+Change in CGI2
+
+0.0062
+(0.06)
+0.0325
+(0.17)
+–0.0025
+(–0.18)
+
+–0.0046
+(–0.32)
+
+Change in CGI3
+
+–0.0110
+(–1.03)
+
+Change in CGI1
+Change in CGI2 * Vote NO
+Against Director
+Change in CGI3 * Vote NO
+Against Auditor
+Change in CGI1 * Vote NO
+Against Amendment
+Change in CGI2 * Vote NO
+Against Remuneration
+Pension ownership
+Size
+Years listed
+Debt/Equity
+Sales growth
+R&D/Sales
+Advertising/Sales
+Export/Sales
+PPE/Sales
+(PPE/Sales)2
+CAPEX/PPE
+EBIT/Sales
+Market share
+
+–0.0150
+(–1.41)
+0.0892***
+(2.88)
+0.0770***
+(2.62)
+–0.0102
+(–0.35)
+
+–0.0351
+(–0.02)
+0.3146
+(1.25)
+–0.6386***
+(–2.62)
+–0.0384
+(–1.59)
+–0.0853
+(–0.82)
+0.6635
+(0.11)
+–7.5604
+(–0.91)
+–0.2216
+(–1.06)
+–1.2900**
+(–1.99)
+0.9513**
+(1.99)
+–0.1973**
+(–2.26)
+0.1178
+(0.37)
+1.3425
+(1.57)
+
+0.2202
+(0.14)
+0.2930
+(1.17)
+–0.5949**
+(–2.55)
+–0.0361
+(–1.39)
+–0.0666
+(–0.63)
+0.9102
+(0.16)
+–8.3663
+(–0.97)
+–0.2653
+(–1.29)
+–1.1789*
+(–1.83)
+0.8711*
+(1.82)
+–0.2044**
+(–2.28)
+0.1827
+(0.54)
+1.3142
+(1.53)
+
+0.0154
+(0.01)
+0.2859
+(1.17)
+–0.6282**
+(–2.38)
+–0.0336
+(–1.33)
+–0.0990
+(–0.95)
+0.6283
+(0.11)
+–7.3461
+(–0.85)
+–0.2445
+(–1.15)
+–1.1484*
+(–1.77)
+0.7980*
+(1.68)
+–0.2000**
+(–2.26)
+0.1607
+(0.49)
+1.4344
+(1.64)
+
+0.0774
+(1.12)
+–0.0548
+(–0.04)
+0.2584
+(1.01)
+–0.6262**
+(–2.38)
+–0.0355
+(–1.40)
+–0.0985
+(–0.92)
+0.5914
+(0.10)
+–8.0552
+(–0.95)
+–0.1889
+(–0.89)
+–1.1179*
+(–1.70)
+0.7906
+(1.61)
+–0.2023**
+(–2.35)
+0.1100
+(0.34)
+1.2679
+(1.52)
+
+September–October 2014 57
+
+Share turnover
+Foreign
+Chaebol
+Largest
+(Largest)2
+Firm effect
+Year effect
+N
+Adj. R2
+
+Model (1)
+
+Model (2)
+
+Model (3)
+
+Model (4)
+
+0.0109
+(0.50)
+0.0567
+(0.10)
+0.0092
+(0.06)
+–0.8246**
+(–2.08)
+1.4426**
+(1.97)
+Yes
+Yes
+383
+0.387
+
+0.0154
+(0.74)
+0.0927
+(0.17)
+0.0222
+(0.14)
+–0.6499
+(–1.62)
+1.1544
+(1.60)
+Yes
+Yes
+383
+0.384
+
+0.0096
+(0.45)
+0.0424
+(0.08)
+–0.0063
+(–0.04)
+–0.5032
+(–1.31)
+0.9087
+(1.30)
+Yes
+Yes
+383
+0.381
+
+0.0138
+(0.67)
+–0.0055
+(–0.01)
+0.0137
+(0.09)
+–0.7046*
+(–1.77)
+1.2739*
+(1.74)
+Yes
+Yes
+383
+0.375
+
+Notes: See Table 2 for definitions of variables. Values in parentheses are t-values. * Significant at the
+10 percent level; ** significant at the 5 percent level; *** significant at the 1 percent level.
+
+to improve the activities of the board of directors when the NPS votes no to an item related
+to the election of directors. It is clear that by objecting to items in shareholder meetings,
+the NPS conveys its dissatisfaction to the management of a target company.
+We examine whether the NPS’s “vote no” activities can affect the target firm valuation
+differently depending on the degree of the changes in specific internal corporate governance of the target company after “vote no” activities. The results show that if the NPS
+votes no against an item about the election of directors or auditors and these “vote no”
+activities improve the target firm’s corporate governance, such as the function of the board
+and the structures of the audit committee and internal auditors, then “vote no” activities
+can increase the target firm’s valuation. This finding indicates that the NPS pressures
+the management of target firms to improve specific internal corporate governance and
+thus to enhance firm valuation. Considering the results of our analyses, we conclude that
+shareholder activism by the NPS is effective in increasing valuation of target companies
+when it improves internal corporate governance.
+Notes
+1. Bohl et al. (2011) present an analysis of pension funds’ performance in Poland and
+Hungary.
+2. The Government Pension Investment Fund in Japan (USD 1.432 trillion) is the largest pension fund in the world, followed by the Government Pension Fund Global in Norway (USD 550
+billion) and ABP in the Netherlands (USD 319 billion) (Towers Watson 2011).
+3. Other institutional investors disapproved 0.37 percent of the items proposed in shareholder
+meetings in 2006; 0.55 percent in 2007; 0.45 percent in 2008; and 0.43 percent in 2009 (www.krx
+.co.kr/m10/m10_1/m10_1_3/JHPKOR10001_03_01.jsp?noti_no=17437&cur_page=1&rn=122
+&word=%EC%9D%98%EA%B2%B0%EA%B6%8C&sch=all/) (in Korean).
+4. As Becht et al. (2009) argue, even public pension funds face conflicts of interest. For example,
+public pension funds are under the influence of politicians whose interests are different from those
+of the pension funds’ beneficiaries.
+5. The NPS was established to secure financial resources to pay back pension benefits for
+insurance programs such as old-age pension, survivor pension, and disability pension. To achieve
+this, the NPS pursues five principles in its operation: stability, profitability, public benefit, liquidity,
+and independence. The NPS discloses the results of its voting on its home page (www.nps.or.kr)
+
+58
+
+Emerging Markets Finance & Trade
+
+(in Korean) within two weeks of shareholder meetings. The NPS exercises voting rights based on
+internal standards to maximize the insureds’ benefit and welfare.
+6. KCGS is a nonprofit organization created by restructuring and expanding the Korea Corporate Governance Improvement Center, its predecessor body founded in June 2002. The KCGS
+compiles governance information for all Korean companies listed in KRX annually. They provide
+firm-level internal corporate governance information with a particular score attached. As of 2006,
+they had 130 assessment items with a total score of 300 points, which we convert to a 100-point
+scale. Sixty percent of items are evaluated by way of various disclosures; the remaining 40 percent
+are responses to questionnaires.
+7. “Others” includes reduction of capital, stock options, and retirement grants for the
+director.
+8. See Byun et al. (2011) for survey questions on the corporate governance practices of listed
+Korean firms. By contrast, Huang et al. (2012) use three main factors—board composition, ownership structure, and financial reporting credibility—to measure corporate governance.
+9. CGI1 includes shareholder rights provisions, ownership structure, and related-party transactions. CGI2 consists of the composition and the functions of the boards—for example, a board of
+directors comprising a majority of outside directors. CGI3 represents the structures, the functions,
+and the responsibilities of the audit committee and internal auditors—for example, establishing
+the audit committee composed solely of outside directors. CGI4 includes management transparency and the disclosure of firm information. CGI5 focuses on dividend yields, payout ratio, and
+stock repurchases.
+10. We partition firms into two categories according to the NPS’s shareholdings, less or more
+than 10 percent. We find that even when the NPS owns more than 10 percent in a company, the
+NPS does not influence governance or firm value. We believe that this is because there are only four
+“vote no” activities by the NPS for firms of which the NPS has ownership of more than 10 percent.
+Overall, there are only forty firms in which the NPS holds more than 10 percent. We do not tabulate
+the results for brevity, but the results are available from the authors upon request.
+
+References
+Becht, M.; J. Franks; C. Mayer; and S. Rossi. 2009. “Returns to Shareholder Activism: Evidence
+from a Clinical Study of the Hermes UK Focus Fund.” Review of Financial Studies 22, no. 8:
+3093–3129.
+Black, B. 1992. “Agents Watching Agents: The Promise of Institutional Investor Voice.” UCLA
+Law Review 39: 811–893.
+———. 1998. “Shareholder Activism and Corporate Governance in the United States.” In The
+New Palgrave Dictionary of Economics and the Law, vol. 3, ed. P. Newman, pp. 459–465.
+Basingstoke, UK: Palgrave Macmillan.
+Black, B.; H. Jang; and W. Kim. 2006a. “Does Corporate Governance Predict Firms’ Market
+Values? Evidence from Korea.” Journal of Law, Economics, and Organization 22, no. 2:
+366–413.
+———. 2006b. “Predicting Firms’ Corporate Governance Choices: Evidence from Korea.”
+Journal of Corporate Finance 12, no. 3: 660–691.
+Bohl, M.T.; J. Lischewski; and S. Voronkova. 2011. “Pension Funds’ Performance in Strongly
+Regulated Industries in Central Europe: Evidence from Poland and Hungary.” Emerging
+Markets Finance & Trade 47, supp. 3: 80–94.
+Brav, A.; W. Jiang; F. Partnoy; and R. Thomas. 2008. “Hedge Fund Activism, Corporate Governance, and Firm Performance.” Journal of Finance 63, no. 4: 1729–1775.
+Bruner, R.F.; R.M. Conroy; J. Estrada; M. Kritzman; and W. Li. 2002. “Introduction to ‘Valuation in Emerging Markets.’” Emerging Markets Review 3, no. 4: 310–324.
+Byun, H.S.; J.H. Lee; and K.S. Park. 2011. “How Does Product Market Competition Interact
+with Internal Corporate Governance? Evidence from the Korean Economy.” Working Paper,
+Korea University, Seoul.
+Byun, H.-Y.; L. Hwang; and W. Lee. 2011. “How Does Ownership Concentration Exacerbate
+Information Asymmetry Among Equity Investors?” Pacific-Basin Finance Journal 19, no. 5:
+511–534.
+
+September–October 2014 59
+Carleton, W.T.; J.M. Nelson; and M.S. Weisbach. 1998. “The Influence of Institutions on Corporate Governance Through Private Negotiations: Evidence from TIAA-CREF.” Journal of
+Finance 53, no. 4: 1335–1362.
+Del Guercio, D., and J. Hawkins. 1999. “The Motivation and Impact of Pension Fund Activism.”
+Journal of Financial Economics 52, no. 3: 293–340.
+Del Guercio, D.; L. Seery; and T. Woidtke. 2008. “Do Boards Pay Attention When Institutional
+Investor Activists ‘Just Vote No’?” Journal of Financial Economics 90, no. 1: 84–103.
+English, P.; T.I. Smythe; and C.R. McNeil. 2004. “The ‘CalPERS Effect’ Revisited.” Journal of
+Corporate Finance 10, no. 1: 157–174.
+Gillan, S., and L. Starks. 2000. “Corporate Governance Proposals and Shareholder Activism:
+The Role of Institutional Investors.” Journal of Financial Economics 57, no. 2: 275–305.
+———. 2007. “The Evolution of Shareholder Activism in the United States.” Journal of Applied
+Corporate Finance 19, no. 1: 55–73.
+Grundfest, J.A. 1993. “Just Vote No: A Minimalist Strategy for Dealing with Barbarians Inside
+the Gates.” Stanford Law Review 45, no. 4: 857–937.
+Hann, R. 2002. “On the Effectiveness of Pension Fund Activism.” Working paper, University of
+Southern California, Los Angeles.
+Huang, Y.C.; N.W. Hou; and Y.J. Cheng. 2012. “Illegal Insider Trading and Corporate Governance: Evidence from Taiwan.” Emerging Markets Finance & Trade 48, supp. 3: 6–22.
+Jensen, M.C., and W. Meckling. 1976. “Theory of the Firm: Managerial Behavior, Agency Costs
+and Ownership Structure.” Journal of Financial Economics 3, no. 4: 305–360.
+Jeon, J.Q., and J. Ryoo. 2013. “How Do Foreign Investors Affect Corporate Policy? Evidence
+from Korea.” International Review of Economics and Finance 25: 52–65.
+Joh, S.W. 2003. “Corporate Governance and Firm Profitability: Evidence from Korea Before the
+Economic Crisis.” Journal of Financial Economics 68, no. 2: 287–322.
+Karpoff, J. 2001. “The Impact of Shareholder Activism on Target Companies: A Survey of Empirical Findings.” Working paper, University of Washington, Seattle.
+Petersen, M.A. 2009. “Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches.” Review of Financial Studies 22, no. 1: 435–480.
+Towers Watson. 2011. “Australian and Global Pension Funds at their Highest Ever Asset Size.”
+Press release, Sydney, September 6 (available at www.towerswatson.com/en/Press/2011/09/
+Australian-and-Global-Pension-Funds-at-their-Highest-Ever-Asset-Size/).
+Woidtke, T. 2002. “Agents Watching Agents? Evidence from Pension Fund Ownership and Firm
+Value.” Journal of Financial Economics 63, no. 1: 99–131.
+Zeng, Y.; Q. Yuan; and J. Zhang. 2011. “Dark Side of Institutional Shareholder Activism in
+Emerging Markets: Evidence from China’s Split Share Structure Reform.” Asia-Pacific Journal of Financial Studies 40, no. 2: 240–260.
+
+

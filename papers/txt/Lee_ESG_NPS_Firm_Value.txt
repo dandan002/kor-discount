@@ -1,0 +1,1899 @@
+Applied Economics
+
+ISSN: 0003-6846 (Print) 1466-4283 (Online) Journal homepage: www.tandfonline.com/journals/raec20
+
+ESG shareholder engagement and ﬁrm value:
+evidence from Korea National Pension Service
+Jihyun Lee & Doowoo Nam
+To cite this article: Jihyun Lee & Doowoo Nam (23 Jan 2026): ESG shareholder engagement
+and ﬁrm value: evidence from Korea National Pension Service, Applied Economics, DOI:
+10.1080/00036846.2026.2619792
+To link to this article: https://doi.org/10.1080/00036846.2026.2619792
+
+Published online: 23 Jan 2026.
+
+Submit your article to this journal
+
+Article views: 73
+
+View related articles
+
+View Crossmark data
+
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=raec20
+
+APPLIED ECONOMICS
+https://doi.org/10.1080/00036846.2026.2619792
+
+ESG shareholder engagement and firm value: evidence from Korea National
+Pension Service
+Jihyun Lee
+
+a
+
+and Doowoo Nam
+
+b
+
+a
+Green Finance Graduate Program, Inha University, Incheon, South Korea; bCollege of Business Administration, Inha University, Incheon, South
+Korea
+
+ABSTRACT
+
+KEYWORDS
+
+As ESG issues are increasingly viewed as financially material, ESG shareholder engagement has
+become an important channel through which institutional investors seek to influence corporate
+behaviour and enhance firm value. This study investigates whether ESG engagement by influential
+institutional investors affects firm value and how corporate governance moderates this relation­
+ship. Using 3104 firm-year observations of Korean listed firms from 2020 to 2023, we conduct fixedeffects panel regressions to analyse the valuation effects of ESG shareholder engagement. We find
+consistent evidence that ESG engagement by influential institutional investors enhances firm
+value. Specifically, disclosures by the National Pension Service (NPS) – the largest and most
+influential institutional investor in Korea – of its intention to engage firms on ESG issues are
+associated with a significant increase in firm value in the following year. Furthermore, this positive
+association is significantly moderated by corporate governance quality, that is, stronger for firms
+with weaker internal governance structures. These results indicate that ESG shareholder engage­
+ment operates as a substitute external governance mechanism, mitigating deficiencies in internal
+governance and contributing to firm value creation. Overall, the study highlights the value
+relevance of investor-driven ESG engagement and underscores the importance of governance
+context in shaping its effectiveness.
+
+ESG shareholder
+engagement; shareholder
+activism; corporate
+governance; firm value
+
+I. Introduction
+
+Environmental, Social, and Governance (ESG)
+considerations have become a central component
+of corporate strategy and investment decisionmaking, rather than a niche or purely ethical con­
+cern. A rapidly expanding body of empirical
+research demonstrates that ESG issues are finan­
+cially material and increasingly incorporated into
+investment, monitoring, and stewardship decisions
+by institutional investors (Atz et al. 2023; Dimson,
+Karakas, and Li 2015; Friede, Busch, and Bassen
+2015). As of March 2024, 4827 institutions had
+signed the Principles for Responsible Investment
+(PRI), representing US$128.4 trillion in assets
+under management, underscoring the growing
+role of ESG in global capital markets. Consistent
+with this trend, McCahery, Sautner, and Starks
+(2016) report that 63% of institutional investors
+have directly engaged with corporate management
+on strategic and policy issues, including ESG, over
+the preceding five years.
+CONTACT Doowoo Nam
+
+dnam@inha.ac.kr
+
+JEL CLASSIFICATION
+
+G32; G34
+
+A large and rapidly expanding literature has
+examined the relationship between ESG perfor­
+mance and firm value. Early studies often viewed
+ESG activities as a cost that could undermine
+shareholder value by diverting resources away
+from profit maximization (Friedman 2007; Vance
+1975). More recent research, however, increasingly
+characterizes ESG as a strategic investment that
+enhances long-term competitiveness, improves
+access to capital, and strengthens corporate reputa­
+tion (Fatemi and Fooladi 2013; Fatemi, Glaum, and
+Kaiser 2018). Empirical evidence suggests that ESG
+performance affects firm value through multiple
+channels, including reduced information asymme­
+try, lower cost of capital, enhanced investor trust,
+and improved risk management (Fatemi, Fooladi,
+and Tehranian 2015).
+Event-based studies further highlight the riskmitigating role of ESG. Using ESG-related news
+events, Krüger (2015) shows that while positive
+ESG events generate limited market reactions,
+negative ESG events trigger significant stock price
+
+College of Business Administration, Inha University, Inha-ro 100, Michuhol-gu, Incheon 22212, South Korea
+
+© 2026 Informa UK Limited, trading as Taylor & Francis Group
+
+2
+
+J. LEE AND D. NAM
+
+declines, indicating that investors are particularly
+sensitive to ESG-related downside risks. This find­
+ing suggests that ESG activities may function as an
+insurance mechanism, protecting firm value by
+reducing exposure to reputational, regulatory, and
+litigation risks. Recent evidence confirms that the
+valuation effects of ESG performance extend
+beyond developed markets. Aydoğmuş, Gülay,
+and Ergun (2022), for example, document
+a positive relationship between ESG performance,
+profitability, and firm value among firms in an
+emerging market context, underscoring the global
+relevance of ESG as a value-enhancing strategy.
+Comprehensive review and meta-analytic stu­
+dies further support the positive role of ESG per­
+formance while emphasizing its context-dependent
+nature. Friede, Busch, and Bassen (2015), synthe­
+sizing more than 2200 empirical studies, find that
+approximately 90% report a non-negative relation­
+ship between ESG and financial performance.
+More recently, Atz et al. (2023) review over 1400
+studies published since 2015 and conduct a metaanalysis of 142 papers, concluding that ESG per­
+formance contributes to long-term firm value
+through improved risk management, lower finan­
+cing costs, and stronger investor confidence. At the
+same time, recent meta-analyses highlight substan­
+tial heterogeneity across countries and institutional
+environments. Bai and Kim (2024) show that the
+ESG – firm performance relationship is more con­
+sistently positive in Korean and Chinese studies
+than in English-language studies, suggesting that
+institutional and governance contexts play a critical
+role in shaping ESG outcomes.
+Despite this growing consensus on the impor­
+tance of ESG performance, far less is known about
+the role of investors in actively shaping firms’ ESG
+practices and the valuation effects of such engage­
+ment. In contrast to the extensive literature on ESG
+outcomes, relatively few studies examine ESG
+shareholder engagement itself as a distinct govern­
+ance mechanism. A growing strand of research
+emphasizes that ESG shareholder engagement is
+not random but depends on several economic and
+institutional factors, including the financial materi­
+ality of ESG issues, investors’ ownership stakes and
+influence, engagement costs, and investment hor­
+izons (Barko, Cremers, and Renneboog 2022;
+Dimson, Karakas, and Li 2015). In particular, long-
+
+term institutional investors such as pension funds
+have strong incentives to engage with firms on ESG
+issues to mitigate downside risks and protect longterm portfolio value (Brav et al. 2008; Hoepner
+et al. 2024; Semenova and Hassel 2019; Starks,
+Venkat, and Zhu 2017).
+Importantly, several seminal and recent studies
+provide direct evidence that investors’ ESG engage­
+ment can influence firm value. Dimson, Karakas,
+and Li (2015) show that successful ESG engage­
+ments are associated with positive abnormal
+returns and improvements in operating perfor­
+mance. Barko, Cremers, and Renneboog (2022)
+document that firms targeted by ESG engagement
+experience significant improvements in ESG per­
+formance and generate excess returns relative to
+non-target firms. More recently, Bauer, Derwall,
+and Tissen (2023) and Hoepner et al. (2024)
+demonstrate that ESG engagement on financially
+material issues enhances profitability, reduces
+downside risk, and contributes to long-term firm
+value. These studies suggest that ESG shareholder
+engagement can create value through economically
+meaningful channels rather than merely reflecting
+ethical preferences.
+Despite these advances, existing studies largely
+focus on engagement outcomes in developed
+Western markets and primarily examine average
+effects, paying limited attention to how internal
+corporate governance conditions shape the effec­
+tiveness of ESG shareholder engagement. As
+a result, it remains unclear whether ESG engage­
+ment complements strong internal governance
+structures or instead functions as a substitute
+mechanism when internal governance is weak.
+Moreover, empirical evidence from markets char­
+acterized by a dominant institutional investor
+remains scarce, limiting our understanding of
+how investor influence and governance context
+jointly determine the value effects of ESG
+engagement.
+Korea provides a unique institutional setting to
+address these unresolved issues. The Korean
+Stewardship Code, enacted in December 2016,
+was designed to promote active ownership by insti­
+tutional investors. In 2018, the National Pension
+Service (NPS)-one of the world’s largest public
+pension funds – adopted the Stewardship Code
+and subsequently expanded its ESG shareholder
+
+APPLIED ECONOMICS
+
+engagement activities. Although most NPS engage­
+ments are conducted privately, a regulatory reform
+to the Financial Investment Services and Capital
+Markets Act in 2020 introduced a new disclosure
+requirement. Large shareholders holding more
+than 5% of a firm’s shares must now disclose
+changes in their investment purpose, including
+a shift to ‘general investment’, which explicitly
+permits active shareholder engagement. This
+reform provides a rare opportunity to observe the
+timing and targets of ESG shareholder engagement
+in an otherwise opaque setting.
+To the best of our knowledge, no prior study has
+empirically examined the effect of ESG shareholder
+engagement on firm value using a comprehensive
+panel dataset in the Korean capital market while
+explicitly accounting for the role of corporate gov­
+ernance as a conditioning factor. Addressing this
+gap, this study investigates whether ESG share­
+holder engagement by an influential institutional
+investor enhances firm value and whether this
+effect depends on firms’ internal corporate govern­
+ance quality.
+Accordingly, this study addresses the following
+research questions.
+First, does ESG shareholder engagement by an
+influential institutional investor enhance firm
+value in the Korean capital market?
+Second, does the effect of ESG shareholder
+engagement on firm value depend on firms’ inter­
+nal corporate governance quality?
+Drawing on stakeholder theory, we argue that
+ESG shareholder engagement can influence man­
+agerial decision-making by increasing managerial
+attention to ESG-related risks and stakeholder
+expectations, thereby contributing to firm value
+creation. Using panel data on 3104 firm-year
+observations from Korean listed companies on
+the KOSPI and KOSDAQ between 2020 and
+2023, we employ fixed-effects OLS regressions to
+examine the relationship between NPS ESG share­
+holder engagement and firm value, measured by
+the book-to-market ratio.
+This study contributes to theory in several
+important ways. First, by focusing on ESG share­
+holder engagement rather than ESG performance,
+this study extends stakeholder theory by highlight­
+ing the role of institutional investors as active gov­
+ernance agents who shape managerial attention to
+
+3
+
+stakeholder-related risks. Second, we contribute to
+the corporate governance literature by demonstrat­
+ing that ESG shareholder engagement functions as
+a substitute external governance mechanism, parti­
+cularly when internal governance structures are
+weak. Third, by providing evidence from a market
+dominated by a single influential public pension
+fund, this study enriches institutional perspectives
+on stakeholder theory and clarifies how investor
+influence and governance context jointly deter­
+mine the value effects of ESG engagement.
+The remainder of this paper is organized as
+follows. Section II reviews the related literature
+and develops the hypotheses. Section III presents
+the data, variables, and methodology. Section IV
+reports the empirical results, and Section
+V concludes with a discussion of the findings and
+their implications.
+
+II. Literature review and hypothesis
+development
+Review of previous studies
+
+A growing body of literature examines ESG share­
+holder engagement as a distinct form of investor
+activism through which institutional investors seek
+to influence firms’ environmental, social, and gov­
+ernance practices. Prior studies document that
+institutional investors engage firms on ESG issues
+through private dialogues, voting, and shareholder
+proposals, particularly when ESG issues are finan­
+cially material and investors possess sufficient own­
+ership stakes and influence (Barko, Cremers, and
+Renneboog 2022; Dimson, Karakas, and Li 2015).
+Empirical evidence suggests that ESG shareholder
+engagement can lead to improvements in firms’ ESG
+performance. For example, Akey and Appel (2019)
+and Naaraayanan, Sachdeva, and Sharma (2021)
+show that institutional investor engagement reduces
+environmental emissions of target firms. Barko,
+Cremers, and Renneboog (2022) and Bauer,
+Derwall, and Tissen (2023) further document that
+ESG engagement is associated with improvements in
+ESG ratings and reductions in greenhouse gas emis­
+sions. These findings indicate that institutional
+investors can actively shape firms’ ESG practices
+rather than merely selecting firms with strong ESG
+performance.
+
+4
+
+J. LEE AND D. NAM
+
+Another extensive strand of literature investi­
+gates the relationship between ESG performance
+and firm value. While early studies viewed ESG
+activities as a cost that could reduce shareholder
+value (Friedman 2007; Vance 1975), more recent
+research suggests that ESG performance can
+enhance firm value through improved risk man­
+agement, stakeholder trust, and access to capital
+(Fatemi and Fooladi 2013; Fatemi, Glaum, and
+Kaiser 2018).
+Event-based studies show that negative ESG
+events lead to significant stock price declines,
+whereas positive ESG events generate limited
+upside, highlighting the insurance-like role of
+ESG in mitigating downside risk (Krüger 2015).
+Meta-analytic
+evidence
+further
+supports
+a generally positive association between ESG per­
+formance and financial performance, albeit with
+substantial heterogeneity across institutional con­
+texts (Atz et al. 2023; Bai and Kim 2024; Friede,
+Busch, and Bassen 2015).
+More recent studies directly examine the rela­
+tionship between ESG shareholder engagement
+and firm value. Dimson, Karakas, and Li (2015)
+provide seminal evidence that successful ESG
+engagements generate positive abnormal returns
+and improvements in operating performance.
+Barko, Cremers, and Renneboog (2022) and
+Bauer, Derwall, and Tissen (2023) find that firms
+targeted by ESG engagement experience excess
+stock returns and improved profitability. Hoepner
+et al. (2024) further show that ESG engagement
+reduces downside risk, suggesting that engagement
+can enhance firm value through both return
+enhancement and risk mitigation.
+Despite these findings, most existing studies
+focus on developed Western markets and primarily
+
+estimate average effects, leaving open questions
+regarding the conditions under which ESG share­
+holder engagement is most effective.
+Prior literature suggests that ESG shareholder
+engagement may influence firm value through
+multiple interrelated channels, as illustrated in
+Figure 1. First, engagement can improve firms’
+ESG performance by encouraging better manage­
+ment of environmental and social risks and gov­
+ernance practices. Improved ESG performance, in
+turn, can enhance operational performance
+through higher customer loyalty, improved
+employee productivity, and more efficient resource
+allocation (Albuquerque, Koskinen, and Zhang
+2019; Edmans 2011, 2012).
+Second, ESG shareholder engagement may affect
+firm value through market-based channels. By sig­
+nalling improved ESG management and reduced
+risk exposure, engagement can increase investor
+demand and lower perceived risk, leading to higher
+stock prices and reduced downside risk (Hoepner
+et al. 2024; Lins, Servaes, and Tamayo 2017).
+Together, these operational and market channels
+suggest a positive link between ESG shareholder
+engagement and firm value.
+
+Theoretical framework and hypothesis
+development
+
+This study draws on stakeholder theory to develop
+hypotheses regarding the relationship between ESG
+shareholder engagement and firm value.
+Stakeholder theory posits that firms create value
+by managing relationships with stakeholders who
+provide critical resources, including customers,
+employees, investors, and regulators (Freeman
+1984). From the managerial perspective of
+
+Accounting Profit ↑
+
+ESG
+shareholder
+Engagement
+
+Operational
+Performance ↑
+Firm Value ↑
+
+ESG Performance ↑
+Market
+Performance ↑
+
+Stock Price ↑
+
+Figure 1. Mechanism of ESG shareholder engagement on firm value.
+
+APPLIED ECONOMICS
+
+stakeholder theory, firms are expected to prioritize
+stakeholders who control key resources essential
+for long-term value creation (Fernando and
+Lawrence 2014).
+From this perspective, ESG shareholder engage­
+ment by institutional investors can be viewed as an
+external governance mechanism that increases
+managerial attention to stakeholder-related risks
+and expectations. By engaging firms on ESG issues,
+institutional investors can encourage managers to
+adopt strategies that enhance long-term value by
+mitigating risks and strengthening stakeholder
+relationships.
+Pro arguments suggest that ESG shareholder
+engagement enhances firm value. Engagement can
+improve ESG performance, reduce regulatory and
+reputational risks, and strengthen relationships
+with customers and employees, thereby improving
+operational performance and market valuation
+(Barko, Cremers, and Renneboog 2022; Baron
+2008; Dimson, Karakas, and Li 2015).
+Contra arguments, however, caution that ESG
+shareholder engagement may not always create
+value. Engagement can impose compliance costs,
+divert managerial attention from core business
+activities, or lead to symbolic ESG actions without
+substantive improvements. Moreover, powerful
+institutional investors may pursue ESG agendas
+that reflect their own preferences rather than valuemaximizing objectives, potentially leading to man­
+agerial entrenchment or inefficient resource alloca­
+tion (Bénabou and Tirole 2006; Krüger 2015).
+Given these competing arguments, the net effect
+of ESG shareholder engagement on firm value
+remains an empirical question that requires careful
+investigation.
+Based on the above discussion, we propose the
+following hypothesis:
+Hypothesis 1 (H1): ESG shareholder engagement
+by institutional investors is associated with firm
+value.
+Corporate governance, in principle, addresses the
+relationships and structures among the board of
+directors, shareholders, and executives to mitigate
+agency problems arising from the separation of
+ownership and control (Berle and Means 2017).
+By
+implementing
+corporate
+governance
+
+5
+
+mechanisms – such as executive compensation
+packages and board oversight – firms can align
+managerial and shareholder interests while redu­
+cing agency costs (Daily, Dalton, and Cannella
+2003). In recent years, the scope of corporate gov­
+ernance has expanded to encompass the rights and
+responsibilities of various stakeholders that influ­
+ence corporate decision-making (Aoki 2001).
+Effective corporate governance can enhance not
+only shareholder value but also the interests of
+other stakeholders (Brickley and Zimmerman
+2010). Fuenzalida et al. (2013) emphasized that
+good corporate governance attracts capital, ensures
+the proper management of firms, protects the
+rights of investors and other stakeholders, builds
+trust in financial markets, and enhances
+competitiveness.
+Research has explored the impact of corporate
+governance on ESG performance, with many stu­
+dies highlighting a positive relationship.
+Compensation packages linked to long-term firm
+value can incentivize executives to enhance firm
+value through ESG management (Conyon 2006).
+Cassely et al. (2020) found that firms with strong
+corporate governance are more likely to implement
+effective ESG strategies, improving ESG perfor­
+mance and creating shareholder value. Nirino
+et al. (2022) emphasized the importance of board
+decisions in achieving ESG goals and noted that
+ESG issues could harm a firm’s reputation and
+market share. According to Ingley and Van Der
+Walt (2004), as the need for institutional investors
+to monitor corporate governance has been increas­
+ingly emphasized, they are expected to take an
+active role in influencing their portfolio firms on
+behalf of their stakeholders. Institutional investors
+have incentives to oversee and influence investee
+companies’ internal governance structures to
+reduce agency costs and protect shareholder
+value. From the perspective that institutional inves­
+tors constitute an external corporate governance
+mechanism, they can serve as a complement to
+internal governance structures (McCahery,
+Sautner, and Starks 2016).
+As discussed above, prior studies suggest that
+ESG shareholder engagement can influence firms’
+operational and market outcomes through
+improved ESG management and risk mitigation.
+However, these effects are unlikely to be uniform
+
+6
+
+J. LEE AND D. NAM
+
+across firms and may critically depend on internal
+governance conditions. This heterogeneity moti­
+vates our focus on corporate governance as a key
+moderating factor in the relationship between ESG
+shareholder engagement and firm value. When
+corporate governance quality is weak, external
+pressure from institutional investors may play
+a more significant role in aligning managerial
+actions with stakeholder interests. In contrast,
+when governance quality is strong, the marginal
+impact of external engagement may be limited.
+Accordingly, we propose the following
+hypothesis:
+Hypothesis 2 (H2): The relationship between ESG
+shareholder engagement and firm value is stronger
+when corporate governance quality is lower.
+The hypotheses to be empirically tested in this
+study are summarized in Figure 2.
+III. Data and methodology
+Sample and data
+
+This study aims, first, to analyse the impact of
+institutional investors’ ESG shareholder engage­
+ment on firm value, and second, to examine how
+corporate governance influences the relationship
+between ESG shareholder engagement and firm
+value. To achieve this, the study selected manufac­
+turing firms listed on the KOSPI and KOSDAQ,
+which closed their financial year at the end of
+December, from 2020 to 2023, as the research sam­
+ple. Consistent with prior studies, firms in the
+financial sector are excluded due to their distinct
+regulatory environment and accounting practices,
+which may confound comparisons of firm value
+and financial performance (Benlemlih, Jaballah,
+and Peillex 2018; Lins, Servaes, and Tamayo
+2017). Firms with fiscal year-ends other than
+December are also excluded to ensure
+
+Figure 2. Research hypotheses.
+
+comparability of financial statements and to miti­
+gate potential seasonality effects (Choi and Park
+2019; Watanabe et al. 2013). Furthermore, firms
+lacking corporate governance and financial data
+were excluded, resulting in a final sample of 3104
+firm-year observations.
+Engagement data
+
+To reap the benefits of effective engagement, insti­
+tutional investors’ ESG shareholder engagement is
+typically conducted privately, limiting access to
+information about which companies, when, and
+on what issues they engage in (Bauer, Clark, and
+Viehs 2013; Gifford 2010; Gillan and Starks 2003;
+Logsdon and Van Buren 2009).
+In February 2020, the ‘Enforcement Decree of
+the Financial Investment Services and Capital
+Markets Act’ in South Korea was amended, intro­
+ducing a reform to the large shareholder reporting
+system. This reform has facilitated the partial
+acquisition of data on the timing and target com­
+panies of institutional investors’ ESG shareholder
+engagement.
+This system requires investors who are holding
+more than 5% of a listed company’s shares to dis­
+close their holdings status and the objectives of
+holding stocks when there is a change of holdings
+or the objectives of holding. Prior to the amend­
+ment, the objectives of holding stocks were divided
+into two categories: ‘investment purposes only’ and
+‘for affecting the management rights of an issuer’.
+Under the revised system, a new category, ‘general
+investment’, was introduced. It refers to situations
+where the investor does not aim to influence man­
+agement but engages in active shareholder activ­
+ities, such as shareholder engagement by
+institutional investors. According to the revision,
+if a large shareholder engages in such activities, the
+purpose of ownership must be updated from
+‘investment purposes only’ to ‘general investment’
+and disclosed within a specified period. For this
+
+APPLIED ECONOMICS
+
+reason, if an institutional investor reports a change
+in their holding objectives to ‘general investment’,
+it indicates an intention of engagement with the
+investee company, thereby making it feasible to use
+this as proxy data for shareholder engagement.
+This study manually collected instances where
+large shareholders changed their purpose of hold­
+ing stocks to ‘general investment’ from the ‘Report
+on Significant Holdings of Stocks, etc’. disclosed on
+the Financial Supervisory Service’s electronic dis­
+closure system (DART System) from 2020 onward
+and used this as a proxy for institutional investors’
+ESG shareholder engagement data. However, while
+the disclosure allows for the identification of which
+investors engaged in shareholder activities with
+which companies and when, it does not provide
+details on the topics or success of the engagement.
+Therefore, this limits the ability to conduct
+a detailed analysis of shareholder engagement, as
+prior research has done.
+As shown in Table 1, seven investors disclosed
+a change in holding purpose to ‘general investment’
+during 2020 to 2023 period through the electronic
+disclosure system, with 217 companies. This study
+focuses on the analysis of the impact of ESG share­
+holder engagement on firm value, specifically for
+companies where the NPS, as an influential institu­
+tional investor with substantial holdings in domestic
+firms and a clear ESG shareholder engagement pol­
+icy, has disclosed a change to ‘general investment’.
+Given the NPS’s disclosure of such changes and its
+established policy and processes regarding ESG
+engagement, this study considers the companies dis­
+closed by the NPS as part of its ESG shareholder
+engagement data for analysis.
+Firm-level data
+
+Financial data was collected from FnGuide’s
+‘DataGuide’, while corporate governance data was
+
+obtained from the corporate governance ratings
+published annually by the Korea Institute of
+Corporate Governance and Sustainability (KCGS).
+The KCGS, established in June 2002 as
+a subsidiary of the Korea Exchange, has been eval­
+uating the corporate governance of listed compa­
+nies in Korea since 2003. The KCGS evaluates and
+publicly discloses corporate governance ratings on
+a seven-point scale annually, utilizing publicly dis­
+closed materials, media reports, sustainability
+reports, and data from government agencies. The
+corporate governance ratings from KCGS are
+derived from a comprehensive assessment of
+board leadership, shareholder rights protection,
+auditing, and stakeholder communication. This
+data has been used in numerous previous studies
+to represent the corporate governance quality of
+Korean companies (Cho and Chun 2016; Lee,
+Chung, and Morscheck 2020; Pae and Choi 2011).
+
+Variables
+
+Variable definitions are presented in Table 2. The
+dependent variable, Book to Market Ratio, is used
+as a proxy for firm value and is calculated by
+dividing the book value of total assets at the
+fiscal year-end by market capitalization. A lower
+book-to-market ratio indicates higher firm value
+(Beaver and Ryan 2000; Benlemlih, Jaballah, and
+Peillex 2018; Pontiff and Schall 1998). The inde­
+pendent variable, representing institutional inves­
+tors’ ESG shareholder engagement, is defined by
+whether the NPS disclosed a change to ‘general
+investment’ in its stockholding purpose. If
+reported, it was coded as 1, and 0 otherwise. To
+examine how corporate governance influences the
+relationship between ESG shareholder engagement
+and firm value, the moderator variable is the cor­
+porate governance rating from KCGS. The seven
+
+Table 1. Status of disclosure of change to ‘general investment’ purpose.
+The Number of Companies
+Reporting Entity
+National Pension Service
+Scion Asset Management
+Mirae Asset Global Investments
+Caravan Capital Management
+BioNote, Inc.
+SDB Investment
+Hwanghae Steel Co., LTD.
+Total
+
+2020
+96
+1
+
+2021
+36
+1
+
+2022
+32
+1
+
+2023
+44
+2
+
+1
+1
+1
+1
+99
+
+7
+
+38
+
+34
+
+46
+
+Total
+208
+3
+2
+1
+1
+1
+1
+217
+
+8
+
+J. LEE AND D. NAM
+
+Table 2. Definition of variables.
+Variables
+Dependent Variable
+Independent Variable
+Moderating Variable
+
+BTM
+ENG
+GOV
+
+Control Variables
+
+ROA
+LEV
+FOR
+AGR
+SGR
+LQD
+EFF
+TA
+AGE
+LOSS
+MKT
+YEAR
+IND
+
+Definition
+
+Data Source
+
+Book-to-market ratio, calculated as the book value of total assets divided by market capitalization
+National Pension Service’s ESG Shareholder Engagement Target Company (Yes = 1, No = 0)
+KCGS Corporate Governance Rating
+(S=6, A+=5, A=4, B+=3, B=2, C=1, D=0)
+Return on assets, measured as net income divided by total assets
+Leverage ratio, measured as total liabilities divided by total assets
+Foreign ownership, measured as the percentage of shares held by foreign investors
+Asset growth rate, calculated as the percentage change in total assets from year t–1 to year t
+Sales growth rate, measured as the percentage change in sales from year t–1 to year t
+Liquidity ratio, calculated as current assets divided by current liabilities
+Asset turnover ratio, measured as sales divided by average total assets
+Firm size, measured as the natural logarithm of total assets
+Firm age, measured as the number of days since establishment as of the end of 2023
+Net Loss (Yes = 1, No = 0)
+Stock Exchange Market (KOSPI = 1, KOSDAQ = 0)
+Year Dummy
+Industry Dummy
+
+DataGuide
+DART
+KCGS
+
+ratings (S, A+, A, B+, B, C, D) were scored as
+follows: 6 for S, 5 for A+, 4 for A, 3 for B+, 2 for
+B, 1 for C, and 0 for D. Additionally, control vari­
+ables known to affect firm value were included
+(refer to Table 2 for the definitions of variables):
+ROA, Leverage Ratio, Foreign Ownership, Asset
+Growth Rate, Sales Growth Rate, Liquidity Ratio,
+Asset Turnover, Firm Size, Firm Age, Net Loss, and
+Listing Market (Benlemlih, Jaballah, and Peillex
+2018; Choi and Park 2019; D’Amato and Falivena
+2020; Husna and Satria 2019; Loderer and Waelchli
+2010; Watanabe et al. 2013).
+Empirical model
+
+This study used panel data to examine the
+impact of institutional investors’ ESG share­
+holder engagement on firm value, and to
+empirically analyse whether corporate govern­
+ance moderates the relationship between ESG
+shareholder engagement and firm value.
+A pooled ordinary least squares (OLS) model
+may suffer from omitted variable bias due to
+unobserved
+firm-specific
+characteristics.
+Random effects models were also considered;
+however, the Hausman test rejects the null
+hypothesis that unobserved firm effects are
+uncorrelated with the regressors. Accordingly,
+a fixed effects model is employed to control for
+time-invariant unobserved heterogeneity, consis­
+tent with prior ESG and firm value studies
+(Benlemlih, Jaballah, and Peillex 2018).
+Year and industry fixed effects are included to
+control for macroeconomic shocks and industry-
+
+DataGuide
+
+–
+DataGuide
+
+specific trends. Standard errors are doubleclustered by firm and year, to correct for hetero­
+scedasticity and within-firm correlation. To
+ensure reliable results, the significance of the
+regression coefficients was evaluated using
+robust t-values.
+The model for testing the first hypothesis (H1) is
+as follows:
+
+It examines whether the regression coefficient
+(β1) is significantly negative for the Book to
+Market Ratio (BTMi,t +1) of firm i in year t + 1,
+given that the firm was selected for ESG share­
+holder engagement in year t. The dependent
+variable is a lagged variable to confirm the
+impact of ESG shareholder engagement, and
+Xi,t represents the control variables for firm i ­
+in year t.
+The model for testing the second hypothesis
+(H2) is as follows:
+
+It includes the interaction term (ENGi,t*GOVi,t)
+to test whether the coefficient of the interaction
+term(β3) is significantly positive, indicating that
+the relationship between ESG shareholder engage­
+ment and firm value is amplified when corporate
+governance is weaker.
+
+APPLIED ECONOMICS
+
+Endogeneity considerations
+
+Potential endogeneity concerns remain. To address
+concerns about reverse causality, firm value is mea­
+sured one year after ESG shareholder engagement.
+Firm fixed effects are included to account for timeinvariant unobserved characteristics that may
+jointly affect engagement and firm value, and
+a comprehensive set of control variables is
+employed to capture observable determinants of
+firm valuation. Although these measures may help
+mitigate endogeneity concerns, they do not fully
+eliminate them. Accordingly, the results should be
+interpreted as conditional associations rather than
+causal effects.
+IV. Results
+Descriptive statistics and correlation coefficients
+
+Table 3 presents the descriptive statistics of the
+variables used in this study. To minimize the
+impact of extreme or erroneous values on the ana­
+lysis results, all variables except for the dummy
+variables and the scored corporate governance rat­
+ings were winsorized at the top and bottom 1%
+levels.
+Table 4 shows the results of Pearson correlation
+analysis for the variables used in this study. The
+dependent variable, BTM shows a statistically sig­
+nificant positive correlation at the 1% level with
+ROA, firm size (TA), firm age (AGE), and listing
+market (MKT), and a statistically significant nega­
+tive correlation with foreign ownership (FOR),
+
+9
+
+asset growth (AGR), and asset turnover (EFF) at
+the 1% level. The independent variable, ENG,
+shows a statistically significant positive correlation
+at the 1% level with corporate governance (GOV),
+ROA, foreign ownership (FOR), firm size (TA), and
+listing market (MKT), and a statistically significant
+negative correlation with asset turnover (EFF) and
+net loss (LOSS) at the 1% level. The moderating
+variable, GOV, shows a statistically significant posi­
+tive correlation at the 1% level with ROA, foreign
+ownership (FOR), asset growth (AGR), Asset
+Turnover (EFF), and Firm Size (TA), and
+a statistically significant negative correlation with
+liquidity ratio (LQD), firm age (AGE), and net loss
+(LOSS) at the 1% level.
+The correlation coefficients between most vari­
+ables range from −0.5 to 0.5, indicating that the
+assumption of independence for OLS regression
+analysis is met. Additionally, the VIF results, all
+below 3, confirm that there is little concern about
+multicollinearity.
+Empirical results and discussion
+ESG shareholder engagement and firm value
+
+Institutional investors must fulfil their fiduciary
+duty by closely monitoring investee firms to main­
+tain or enhance their value and actively exercising
+their shareholder rights. As ESG standards among
+internal and external stakeholders continue to
+strengthen, the impact of ESG on firm value has
+become increasingly significant. Accordingly, insti­
+tutional investors, as part of their fiduciary duty,
+
+Table 3. Descriptive statistics.
+Variable
+BTM
+ENG
+GOV
+ROA
+LEV
+FOR
+AGR
+SGR
+LQD
+EFF
+TA
+AGE
+LOSS
+MKT
+
+N
+3,104
+3,104
+3,104
+3,104
+3,104
+3,104
+3,104
+3,104
+3,104
+3,104
+3,104
+3,104
+3,104
+3,104
+
+Mean
+1.543
+0.053
+2.159
+1.825
+126.042
+9.275
+0.085
+0.097
+2.097
+0.912
+20.496
+9.429
+0.266
+0.904
+
+SD
+1.284
+0.224
+1.276
+8.345
+138.216
+11.747
+0.202
+0.304
+2.164
+0.518
+1.549
+0.710
+0.442
+0.294
+
+Min
+0.063
+0
+0
+−34.560
+6.590
+0.000
+−0.359
+−0.610
+0.319
+0.056
+17.524
+6.667
+0
+0
+
+p25
+0.588
+0
+1
+−0.330
+40.775
+1.741
+−0.008
+−0.051
+0.983
+0.564
+19.425
+9.025
+0
+1
+
+p50
+1.179
+0
+2
+2.635
+86.420
+4.654
+0.051
+0.065
+1.416
+0.834
+20.258
+9.696
+0
+1
+
+p75
+2.121
+0
+3
+5.785
+157.670
+11.866
+0.130
+0.188
+2.211
+1.167
+21.382
+9.916
+1
+1
+
+Max
+5.933
+1
+5
+24.270
+843.620
+60.374
+1.312
+1.919
+15.137
+2.860
+24.700
+10.350
+1
+1
+
+BTM: Book to Market Ratio (Total Equity / Market Value)ENG: National Pension Service’s ESG Shareholder Engagement Target Company (Yes = 1, No = 0) GOV:
+KCGS Corporate Governance Rating (S=6, A+=5, A=4, B+=3, B=2, C=1, D=0) ROA: Return on Asset Ratio (Net Income / Average Total Asset) LEV: Debt to
+Equity Ratio (Total Liability / Total Equity) FOR: Foreign Holdings (%) AGR: Asset Growth Rate (Total Asset (t) / Total Asset (t-1)-1) SGR: Sales Growth Rate (Sales
+(t) / Sales (t-1)-1) LQD: Liquidity Ratio (Current Asset / Current Liability)EFF: Asset Turnover Ratio (Sale / Average Total Asset) TA: ln (Total Asset)AGE: ln (Days
+since establishment as of the end of 2023) LOSS: Net Loss (Yes = 1, No = 0) MKT: Stock Exchange Market(KOSPI = 1, KOSDAQ = 0).
+
+BTM
+1
+−0.0247
+0.00350
+0.0688***
+−0.0427**
+−0.0545***
+−0.0833***
+−0.0265
+−0.0148
+−0.0793***
+0.3254***
+0.1874***
+−0.1180***
+0.2342***
+
+1
+0.1964***
+0.0467***
+0.0193
+0.2886***
+0.0040
+−0.0235
+−0.0432**
+−0.0530***
+0.3570***
+−0.0251
+−0.0542***
+0.0621***
+
+ENG
+
+*** p < 0.01, ** p < 0.05, * p < 0.10.
+
+BTM
+ENG
+GOV
+ROA
+LEV
+FOR
+AGR
+SGR
+LQD
+EFF
+TA
+AGE
+LOSS
+MKT
+
+Table 4. Correlation coefficients.
+
+1
+0.1593***
+0.0164
+0.3059***
+0.0600***
+0.0290
+−0.0582***
+0.0624***
+0.4739***
+−0.2111***
+−0.1394***
+−0.0360**
+
+GOV
+
+1
+−0.3028***
+0.2151***
+0.2648***
+0.2037***
+0.1474***
+0.2626***
+0.2109***
+−0.0343*
+−0.6942***
+−0.0383**
+
+ROA
+
+1
+−0.1018***
+−0.0285
+0.0556***
+−0.3578***
+0.0667***
+0.1729***
+0.0025
+0.2395***
+0.0972***
+
+LEV
+
+1
+0.0431**
+0.0105
+0.0798***
+−0.0047
+0.4513***
+−0.0851***
+−0.1901***
+−0.0508***
+
+FOR
+
+1
+0.4183***
+−0.0092
+0.2058***
+0.1052***
+−0.0774***
+−0.1750***
+−0.1395***
+
+AGR
+
+1
+−0.0532***
+0.2077***
+0.0774***
+−0.0260
+−0.1559***
+−0.0722***
+
+SGR
+
+1
+−0.2206***
+−0.1953***
+−0.0205
+−0.1041***
+−0.1382***
+
+LQD
+
+1
+−0.0135
+−0.0315*
+−0.2331***
+0.1021***
+
+EFF
+
+1
+−0.0638***
+−0.2284***
+0.1358***
+
+TA
+
+1
+0.0270
+0.1947***
+
+AGE
+
+1
+−0.0247
+
+LOSS
+
+1
+
+MKT
+
+10
+J. LEE AND D. NAM
+
+APPLIED ECONOMICS
+
+should assess whether investee firms are effectively
+managing ESG factors closely related to firm value
+and conduct ESG shareholder engagement to effec­
+tively communicate investor expectations as
+shareholders.
+Since the late 1990’s, numerous studies have
+examined whether institutional investors’ ESG
+shareholder engagement contributes to enhancing
+firm value, particularly in countries where share­
+holder capitalism has been well established. These
+studies have empirically demonstrated its positive
+effects. This study formulates and tests H1 to
+address whether institutional investors’ ESG share­
+holder engagement also influences firm value in the
+Korean market, where the importance of fiduciary
+responsibility has gained prominence relatively
+recently and where an exceptionally large institu­
+tional investor exists due to the unique structure of
+the National Pension System.
+
+Table 5 presents the results of the OLS regres­
+sion analysis. The results of Model 1 indicate
+that the NPS’s ESG shareholder engagement is
+positively associated with firm value at the 1%
+significance level. Given the one-year lag
+between the independent and dependent vari­
+ables, firms targeted for ESG shareholder
+engagement by the NPS in year t exhibited
+improved firm value by the end of year t + 1.
+This supports the argument of Bénabou and
+Tirole (2006), Baron (2008) and Barko,
+Cremers, and Renneboog (2022). This finding
+suggests that, ESG shareholder engagement by
+influential institutional investors in Korea
+enhances managerial awareness, improves firms’
+responsiveness to ESG-related risks and oppor­
+tunities, and increases their attractiveness to
+other investors, ultimately contributing to firm
+value enhancement.
+
+Table 5. Regression analysis results.
+BTMt+1
+
+Variables
+ENG
+
+Expected Sign
+–
+
+GOV
+
+–
+
+ENG*GOV
+
++
+
+ROA
+
+–
+
+LEV
+
++
+
+FOR
+
+–
+
+AGR
+
+–
+
+SGR
+
+–
+
+LQD
+
+–
+
+EFF
+
+–
+
+TA
+
+–
+
+AGE
+
++
+
+LOSS
+
++
+
+MKT
+Constant
+Observations
+Adjusted R-squared
+Year fixed effect
+Industry fixed effect
+***p<0.01, **p<0.05, *p<0.1.
+
+11
+
+Model 1
+Coeff.
+(Robust t-statistics)
+−0.49416***
+(−4.85253)
+
+−0.00562*
+(−1.70068)
+−0.00067***
+(−2.62940)
+−0.01902***
+(−7.71563)
+−0.18579
+(−1.61294)
+0.14539*
+-1.86069
+0.05039***
+-4.89274
+−0.30052***
+(−5.78962)
+0.34101***
+-15.60992
+0.18860***
+-6.56581
+−0.20729***
+(−3.12731)
+0.26956***
+-4.1092
+−6.86614***
+(−12.30594)
+2,345
+0.41911
+Yes
+Yes
+
+Model 2
+Coeff.
+(Robust t-statistics)
+−1.46156***
+(−4.84594)
+−0.07798***
+(−3.35980)
+0.21876**
+-2.42094
+−0.00208
+(−0.50132)
+−0.00119***
+(−5.95293)
+−0.02430***
+(−10.27852)
+−0.43394***
+(−3.36495)
+0.25031***
+-2.91189
+0.02191*
+-1.78243
+−0.18659***
+(−3.65126)
+0.44304***
+-20.74122
+0.26386***
+-7.66508
+−0.29265***
+(−3.89033)
+0.57436***
+-7.24658
+−9.64352***
+(−18.30675)
+2,345
+0.26003
+Yes
+Yes
+
+12
+
+J. LEE AND D. NAM
+
+The moderating role of corporate governance on the
+relationship between ESG shareholder engagement
+and firm value
+
+Corporate governance can be broadly categorized
+into internal governance, which consists of the
+board of directors, general shareholders’ meetings,
+and management, and external governance, which
+includes institutional investors and other stake­
+holders. According to the OECD Principles on
+Corporate Governance, stakeholders should have
+the opportunity to seek effective redress if their
+rights are violated, be encouraged to participate in
+corporate governance to enhance firm perfor­
+mance, and recognize the significant role of insti­
+tutional investors in governance. In this context,
+institutional investors, as part of the broader cor­
+porate governance framework, can complement
+internal governance mechanisms.
+As discussed in previous studies, firms with
+strong corporate governance structures are likely
+to have already made significant efforts to enhance
+their ESG performance. This suggests that the
+impact of institutional investors, as part of the
+external governance framework, may be relatively
+limited in such firms. This study examines whether
+institutional investors can play a complementary
+role in firms with weaker corporate governance
+and whether corporate governance quality moder­
+ates the effect of ESG shareholder engagement on
+firm value. Specifically, it investigates whether
+firms with weaker corporate governance experi­
+ence a stronger impact from institutional investors’
+ESG engagement, leading to more effective ESG
+implementation. To address this question, H2 is
+formulated and tested.
+
+Figure 3. The moderating role of corporate governance.
+
+The results of Model 2 support the moderating
+effect of corporate governance on the relationship
+between the NPS’s ESG shareholder engagement
+and firm value at the 5% significance level. The
+regression coefficient of the interaction term is
+0.21876, indicating that as the corporate govern­
+ance rating increases, the positive relationship
+between ENG and BTM weakens. Conversely,
+when the corporate governance rating is lower,
+this positive relationship is strengthened. The
+moderating effect of corporate governance is
+more clearly illustrated in Figure 3. Firms with
+the lowest corporate governance rating exhibit
+a steeper slope compared to those with the highest
+rating, indicating that the positive impact of ESG
+shareholder engagement on firm value is more
+pronounced in firms with weaker corporate gov­
+ernance structures.
+Contributions
+
+This study makes several important theoretical
+contributions to the literature on ESG, shareholder
+engagement, and corporate governance.
+First, this study advances the ESG literature by
+shifting the focus from ESG performance outcomes
+to ESG shareholder engagement as a governance
+mechanism. While a large body of prior research
+examines whether firms with superior ESG perfor­
+mance enjoy higher firm value, considerably less
+attention has been paid to how investors actively
+shape firms’ ESG practices and how such engage­
+ment affects firm value. By empirically demonstrat­
+ing that ESG shareholder engagement by an
+influential institutional investor enhances firm
+value, this study provides direct evidence that
+
+APPLIED ECONOMICS
+
+ESG engagement itself – rather than ESG perfor­
+mance alone – constitutes a value-relevant
+mechanism.
+Second, drawing on stakeholder theory, this
+study contributes to the theoretical understanding
+of how ESG shareholder engagement influences
+firm value. Consistent with the managerial per­
+spective of stakeholder theory, the findings suggest
+that institutional investors’ ESG engagement
+increases managerial attention to stakeholderrelated risks and expectations, thereby improving
+firms’ ability to manage ESG-related risks and
+opportunities. This extends stakeholder theory by
+highlighting institutional investors as active gov­
+ernance agents who influence managerial decisionmaking beyond traditional monitoring roles.
+Third, and most importantly, this study contri­
+butes to the corporate governance literature by
+identifying corporate governance quality as a key
+boundary condition in the ESG engagement – firm
+value relationship. The results show that the posi­
+tive effect of ESG shareholder engagement on firm
+value is significantly stronger when internal corpo­
+rate governance quality is weak. This finding pro­
+vides novel evidence that ESG shareholder
+engagement functions as a substitute external gov­
+ernance mechanism, complementing insufficient
+internal governance structures. By explicitly mod­
+elling this moderating effect, the study moves
+beyond average treatment effects and offers
+a more nuanced theoretical understanding of
+when and where ESG shareholder engagement is
+most effective.
+Together, these contributions enrich the litera­
+ture by integrating ESG shareholder engagement,
+stakeholder theory, and corporate governance into
+a unified framework that explains how and under
+what conditions investor-driven ESG engagement
+creates firm value.
+V. Conclusion
+
+Following the financial crisis, discussions on insti­
+tutional investors’ fiduciary responsibilities have
+expanded, particularly regarding their role in mon­
+itoring whether investee companies are properly
+managing ESG factors that affect financial perfor­
+mance. When companies fail to meet ESG stan­
+dards, institutional investors engage with them to
+
+13
+
+improve ESG performance and enhance firm value.
+This study explores the relationship between ESG
+shareholder engagement by the NPS, a major insti­
+tutional investor in Korea, and firm value, using
+data from companies listed on the KOSPI and
+KOSDAQ from 2020 to 2023. An OLS regression
+with fixed effects is conducted, including year and
+industry dummies. The study also examines
+whether corporate governance quality moderates
+the ESG engagement-firm value relationship.
+The analysis found a significant positive rela­
+tionship between the NPS’s ESG engagement and
+firm value, especially when corporate governance
+quality is low. Based on these findings, this study
+draws the following conclusions. First, in the
+Korean market, the ESG shareholder engagement
+of influential institutional investors can improve
+a company’s management of ESG-related risks
+and opportunities, thereby enhancing business per­
+formance and stock returns, ultimately leading to
+an increase in firm value. Second, institutional
+investors can monitor corporate ESG practices
+from the outside and address significant ESG
+issues, thereby playing a role in complementing
+the governance structure of companies with weak
+internal governance. As such, ESG shareholder
+engagement in companies with low-quality corpo­
+rate governance may be particularly effective in
+enhancing firm value.
+This study holds significance as the first to
+empirically analyse the impact of the ESG share­
+holder engagement of the NPS, a key shareholder
+in Korea, on firm value through improvements in
+corporate ESG management, based on stakeholder
+theory. Additionally, it examines how corporate
+governance quality moderates the effect of ESG
+shareholder engagement on firm value. The find­
+ings reaffirm that institutional investors, beyond
+their fiduciary duty, should recognize the necessity
+of ESG shareholder engagement from
+a profitability perspective as well.
+Given that this study focuses on the National
+Pension Service and the Korean capital market,
+the findings offer several practical and policy
+implications.
+For institutional investors, the results suggest
+that ESG shareholder engagement should be
+viewed not only as a fiduciary obligation or ethical
+practice, but also as a value-enhancing investment
+
+14
+
+J. LEE AND D. NAM
+
+strategy. Particularly in firms with weak govern­
+ance, proactive ESG engagement can improve firm
+value and reduce long-term risk exposure.
+For corporations, the findings imply that ESG
+shareholder engagement by institutional investors
+should not be interpreted solely as external pres­
+sure. Instead, firms – especially those with weaker
+governance – may benefit from engaging construc­
+tively with institutional investors to improve ESG
+management and long-term value creation.
+For policymakers, the study highlights the
+importance of institutional frameworks that facil­
+itate effective ESG shareholder engagement.
+Enhancing ESG disclosure requirements and
+ensuring transparency in shareholder engagement
+activities can improve the effectiveness of steward­
+ship codes and strengthen market discipline. In the
+Korean context, policies that support institutional
+investors’ engagement activities can serve as an
+indirect tool to improve corporate governance
+and ESG practices without imposing excessive reg­
+ulatory burdens on firms.
+This study has several limitations that provide
+avenues for future research.
+First, due to data constraints, ESG shareholder
+engagement is proxied using publicly disclosed
+engagement activities by the NPS for firms in
+which it holds at least 5% ownership. As most
+ESG engagements are conducted privately, the
+sample may not capture the full extent of engage­
+ment
+activities,
+potentially
+limiting
+generalizability.
+Second, the relatively short sample period (2020­
+–2023) restricts the ability to examine long-term
+effects of ESG shareholder engagement. Future
+studies could utilize longer time horizons as more
+data become available.
+Third, this study focuses on firm value as the
+primary outcome variable and does not empirically
+examine intermediate mechanisms such as changes
+in ESG performance or operational efficiency.
+Future research could explore these channels
+directly to further unpack how ESG shareholder
+engagement translates into firm value.
+Finally, while this study focuses on a dominant
+public pension fund in Korea, future research
+could examine whether similar governance substi­
+tution effects arise in other institutional settings or
+among different types of institutional investors.
+
+Author contributions
+CRediT: Jihyun Lee: Writing – original draft; Doowoo Nam:
+Writing – review & editing.
+
+Disclosure statement
+No potential conflict of interest was reported by the author(s).
+
+Funding
+This research was supported by Green Finance Specialized
+Graduate Program through the Korea Environmental
+Industry & Technology Institute (KEITI) funded by the
+Ministry of Environment (MOE).
+
+ORCID
+Jihyun Lee
+http://orcid.org/0009-0001-3670-4267
+Doowoo Nam
+http://orcid.org/0009-0001-4408-1688
+
+Data availability statement
+Data sharing is not available for this article.
+
+References
+Akey, P., and I. Appel. 2019. “Environmental Externalities of
+Activism.” Available at SSRN 3508808.
+Albuquerque, R., Y. Koskinen, and C. Zhang. 2019.
+“Corporate Social Responsibility and Firm Risk: Theory
+and Empirical Evidence.” Management Science 65 (10):
+4451–4469.
+Aoki, M. 2001. Information, Corporate Governance, and
+Institutional Diversity: Competitiveness in Japan, the USA,
+and the Transitional Economies. Oxford and New York:
+Oxford University Press.
+Atz, U., T. Van Holt, Z. Z. Liu, and C. C. Bruno. 2023. “Does
+Sustainability Generate Better Financial Performance?
+Review, Meta-Analysis, and Propositions.” Journal of
+Sustainable Finance and Investment 13 (1): 802–825.
+https://doi.org/10.1080/20430795.2022.2106934.
+Aydoğmuş, M., G. Gülay, and K. Ergun. 2022. “Impact of ESG
+Performance on Firm Value and Profitability.” Borsa
+Istanbul Review 22:119–127. https://doi.org/10.1016/j.bir.
+2022.11.006.
+Bai, H., and J. Kim. 2024. “Do ESG Practices Promote
+Financial Performance? Comparison of English, Chinese,
+and Korean Papers Through Bibliometric and
+Meta-Analysis.” Sustainability 16 (22): 9810. https://doi.
+org/10.3390/su16229810.
+Barko, T., M. Cremers, and L. Renneboog. 2022. “Shareholder
+Engagement on Environmental, Social, and Governance
+Performance.” Journal of Business Ethics 180 (2): 777–812.
+
+APPLIED ECONOMICS
+
+Baron, D. P. 2008. “Managerial Contracting and Corporate
+Social Responsibility.” Journal of Public Economics
+92 (1–2): 268–288.
+Bauer, R., G. L. Clark, and M. Viehs. 2013. “The Geography of
+Shareholder Engagement: Evidence from a Large British
+Institutional Investor.” Available at SSRN 2261649.
+Bauer, R., J. Derwall, and C. Tissen. 2023. “Private
+Shareholder Engagements on Material ESG Issues.”
+Financial Analysts Journal 79 (4): 64–95.
+Beaver, W. H., and S. G. Ryan. 2000. “Biases and Lags in Book
+Value and Their Effects on the Ability of the Book-toMarket Ratio to Predict Book Return on Equity.” Journal
+of Accounting Research 38 (1): 127–148.
+Bénabou, R., and J. Tirole. 2006. “Incentives and Prosocial
+Behavior.” American Economic Review 96 (5): 1652–1678.
+Benlemlih, M., J. Jaballah, and J. Peillex. 2018. “Does It Really
+Pay to Do Better? Exploring the Financial Effects of
+Changes in CSR Ratings.” Applied Economics 50 (51):
+5464–5482.
+Berle, A. A., and G. C. Means. 2017. The Modern Corporation
+and Private Property. New York, NY: Routledge.
+Brav, A., W. Jiang, R. S. Thomas, and F. Partnoy. 2008.
+“Hedge Fund Activism, Corporate Governance, and Firm
+Performance.” Journal of Finance 63 (4): 1729–1775.
+Brickley, J. A., and J. L. Zimmerman. 2010. “Corporate
+Governance Myths: Comments on Armstrong, Guay, and
+Weber.” Journal of Accounting and Economics 50 (2–3):
+235–245.
+Cassely, L., C. Revelli, S. B. Larbi, and A. Lacroux. 2020.
+“Sustainable Development Drivers of Companies: An
+International and Multilevel Analysis.” Corporate Social
+Responsibility and Environmental Management 27 (5):
+2028–2043.
+Cho, E., and S. Chun. 2016. “Corporate Social Responsibility,
+Real Activities Earnings Management, and Corporate
+Governance: Evidence from Korea.” Asia-Pacific Journal
+of Accounting & Economics 23 (4): 400–431.
+Choi, Y. M., and K. Park. 2019. “Foreign Ownership, Agency
+Costs, and Long-Term Firm Growth: Evidence from
+Korea.” Sustainability 11 (6): 1599.
+Conyon, M. J. 2006. “Executive Compensation and Incentives.”
+Academy of Management Perspectives 20 (1): 25–44.
+Daily, C. M., D. R. Dalton, and A. A. Cannella Jr. 2003.
+“Corporate Governance: Decades of Dialogue and Data.”
+Academy of Management Review 28 (3): 371–382.
+D’Amato, A., and C. Falivena. 2020. “Corporate Social
+Responsibility and Firm Value: Do Firm Size and Age
+Matter? Empirical Evidence from European Listed
+Companies.” Corporate Social Responsibility and
+Environmental Management 27 (2): 909–924.
+Dimson, E., O. Karakas, and X. Li. 2015. “Active Ownership.”
+Review of Financial Studies 28 (12): 3225–3268.
+
+15
+
+Edmans, A. 2011. “Does the Stock Market Fully Value
+Intangibles? Employee Satisfaction and Equity Prices.”
+Journal of Financial Economics 101 (3): 621–640.
+Edmans, A. 2012. “The Link Between Job Satisfaction and
+Firm Value, with Implications for Corporate Social
+Responsibility.” Academy of Management Perspectives
+26 (4): 1–19.
+Fatemi, A., I. Fooladi, and H. Tehranian. 2015. “Valuation
+Effects of Corporate Social Responsibility.” Journal of
+Banking & Finance 59:182–192. https://doi.org/10.1016/j.
+jbankfin.2015.04.028.
+Fatemi, A., M. Glaum, and S. Kaiser. 2018. “ESG Performance
+and Firm Value: The Moderating Role of Disclosure.”
+Global Finance Journal 38:45–64. https://doi.org/10.1016/j.
+gfj.2017.03.001.
+Fatemi, A. M., and I. J. Fooladi. 2013. “Sustainable Finance: A
+New Paradigm.” Global Finance Journal 24 (2): 101–113.
+Fernando, S., and S. Lawrence. 2014. “A Theoretical
+Framework for CSR Practices: Integrating Legitimacy
+Theory, Stakeholder Theory and Institutional Theory.”
+Journal of Theoretical Accounting Research 10 (1): 149–178.
+Freeman, R. E. 1984. Strategic Management: A Stakeholder
+Approach. Marshfield, MA: Pitman Publishing Inc.
+Friede, G., T. Busch, and A. Bassen. 2015. “ESG and Financial
+Performance: Aggregated Evidence from More Than 2000
+Empirical Studies.” Journal of Sustainable Finance &
+Investment 5 (4): 210–233.
+Friedman, M. 2007. “The Social Responsibility of Business Is
+to Increase Its Profits.” In Corporate Ethics and Corporate
+Governance, edited by W. C. Zimmerli, M. Holzinger, and
+K. Richter, 173–178. Berlin: Springer.
+Fuenzalida, D., S. Mongrut, J. R. Arteaga, and A. Erausquin.
+2013. “Good Corporate Governance: Does It Pay in Peru?”
+Journal of Business Research 66 (10): 1759–1770.
+Gifford, E. J. M. 2010. “Effective Shareholder Engagement:
+The Factors That Contribute to Shareholder Salience.”
+Journal of Business Ethics 92(Suppl 1):79–97.
+Gillan, S., and L. T. Starks. 2003. “Corporate Governance,
+Corporate Ownership, and the Role of Institutional
+Investors: A Global Perspective.” Weinberg Center for
+Corporate Governance Working Paper (2003-01).
+Hoepner, A. G., I. Oikonomou, Z. Sautner, L. T. Starks, and
+X. Y. Zhou. 2024. “ESG Shareholder Engagement and
+Downside Risk.” Review of Finance 28 (2): 483–510.
+Husna, A., and I. Satria. 2019. “Effects of Return on Asset,
+Debt to Asset Ratio, Current Ratio, Firm Size, and
+Dividend Payout Ratio on Firm Value.” International
+Journal of Economics and Financial Issues 9 (5): 50–54.
+Ingley, C. B., and N. T. Van Der Walt. 2004. “Corporate
+Governance, Institutional Investors and Conflicts of
+Interest.” Corporate Governance: An International Review
+12 (4): 534–551.
+
+16
+
+J. LEE AND D. NAM
+
+Krüger, P. 2015. “Corporate Goodness and Shareholder
+Wealth.” Journal of Financial Economics 115 (2): 304–329.
+https://doi.org/10.1016/j.jfineco.2014.09.008.
+Lee, K. Y., C. Y. Chung, and J. Morscheck. 2020. “Does
+Geographic Proximity Matter in Active Monitoring?
+Evidence from Institutional Blockholder Monitoring of
+Corporate Governance in the Korean Market.” Global
+Economic Review 49 (2): 150–170.
+Lins, K. V., H. Servaes, and A. Tamayo. 2017. “Social Capital,
+Trust, and Firm Performance: The Value of Corporate
+Social Responsibility During the Financial Crisis.” Journal
+of Finance 72 (4): 1785–1824.
+Loderer, C. F., and U. Waelchli. 2010. “Firm Age and
+Performance.” Available at SSRN 1342248.
+Logsdon, J. M., and H. J. Van Buren. 2009. “Beyond the Proxy
+Vote: Dialogues Between Shareholder Activists and
+Corporations.” Journal of Business Ethics 87(Suppl 1): 353.
+McCahery, J. A., Z. Sautner, and L. T. Starks. 2016. “Behind the
+Scenes: The Corporate Governance Preferences of
+Institutional Investors.” Journal of Finance 71 (6): 2905–2932.
+Naaraayanan, S. L., K. Sachdeva, and V. Sharma. 2021. “The
+Real Effects of Environmental Activist Investing.”
+European Corporate Governance Institute–Finance
+Working Paper (743).
+
+Nirino, N., E. Battisti, A. Ferraris, S. Dell’atti, and
+M. F. Briamonte. 2022. “How and When Corporate Social
+Performance Reduces Firm Risk? The Moderating Role of
+Corporate Governance.” Corporate Social Responsibility
+and Environmental Management 29 (6): 1995–2005.
+Pae, J., and T. H. Choi. 2011. “Corporate Governance,
+Commitment to Business Ethics, and Firm Valuation:
+Evidence from the Korean Stock Market.” Journal of
+Business Ethics 100(2):323–348.
+Pontiff, J., and L. D. Schall. 1998. “Book-to-Market Ratios as
+Predictors of Market Returns.” Journal of Financial
+Economics 49 (2): 141–160.
+Semenova, N., and L. G. Hassel. 2019. “Private Engagement by
+Nordic Institutional Investors on Environmental, Social,
+and Governance Risks in Global Companies.” Corporate
+Governance: An International Review 27 (2): 144–161.
+Starks, L. T., P. Venkat, and Q. Zhu. 2017. “Corporate ESG
+Profiles and Investor Horizons.” Available at SSRN 3049943.
+Vance, S. G. 1975. “Are Socially Responsible Corporations
+Good Investment Risks?” Management Review 64 (8): 18–24.
+Watanabe, A., Y. Xu, T. Yao, and T. Yu. 2013. “The Asset
+Growth Effect: Insights from International Equity
+Markets.” Journal of Financial Economics 108 (2):
+529–563.
+
+

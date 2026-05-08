@@ -1,0 +1,2147 @@
+Applied Economics
+
+ISSN: 0003-6846 (Print) 1466-4283 (Online) Journal homepage: www.tandfonline.com/journals/raec20
+
+High investor sentiment and initial engagement
+discounts: evidence from Korea
+Yongsuk Yun & Hyun Ah Kim
+To cite this article: Yongsuk Yun & Hyun Ah Kim (2022) High investor sentiment and initial
+engagement discounts: evidence from Korea, Applied Economics, 54:8, 959-973, DOI:
+10.1080/00036846.2021.1971619
+To link to this article: https://doi.org/10.1080/00036846.2021.1971619
+
+Published online: 08 Sep 2021.
+
+Submit your article to this journal
+
+Article views: 285
+
+View related articles
+
+View Crossmark data
+
+Citing articles: 1 View citing articles
+
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=raec20
+
+APPLIED ECONOMICS
+2022, VOL. 54, NO. 8, 959–973
+https://doi.org/10.1080/00036846.2021.1971619
+
+High investor sentiment and initial engagement discounts: evidence from Korea
+Yongsuk Yuna and Hyun Ah Kimb
+a
+
+Department of Accounting, Hannam University, Daejeon, Korea; bSchool of Industrial Management, Korea University of Technology &
+Education, Cheonan City, Chungnam Province, Korea
+ABSTRACT
+
+KEYWORDS
+
+This study examines whether high sentiment affects auditors’ risk assessment in a less litigious
+environment. Specifically, we use a Korean setting with relatively low litigation risks and investigate
+whether audit fees are lower when firms change auditors during high sentiment times. Lower audit
+fees responding to high sentiment in a weak legal environment may indicate that auditors perceive
+the overall audit risk including reputation risk and regulation risk as low within the given period,
+increasing the possibility of their failure to detect managerial opportunistic behaviour. Using
+17,469 Korean public firm-year observations from 2003 to 2017, we find that initial audit fees are
+significantly lower when investor sentiment is high, while changing auditors has no influence on
+audit fees when investor sentiment is low. Furthermore, this result is maintained even when
+auditors are changed to Big4 or industry specialist auditors (SPEC), which are known to have
+high ability and risk sensitivity. We also find that Big4 and SPEC initial auditors input significantly
+less audit hours during high investor sentiment periods, suggesting that optimistic bias caused by
+high sentiment makes auditors expect that relaxed audits are tolerable regardless of the legal
+environment.
+
+High investor sentiment;
+initial engagement
+discounts; audit fees; audit
+hours; auditor change type
+
+I. Introduction
+
+We analyse the effect of investor sentiment on
+external auditors’ risk assessments, measured by
+initial engagement discounts. The accounting lit­
+erature assumes that investors are rational, but
+recent studies show that investor sentiment,1
+a cognitive bias, can cause deviations from the
+fundamental values of stock prices (Baker and
+Wurgler 2006). Social recognition argues that opti­
+mistic individuals pay limited attention to informa­
+tion, while pessimistic individuals make a thorough
+investigation (Bless et al. 1996). Consistent with
+this, investors in high sentiment periods respond
+more to unexpected positive earnings and over­
+value stock prices (Baker and Wurgler 2006; Seok,
+Cho, and Ryu 2019). Managers and analysts oppor­
+tunistically use this situation by providing optimis­
+tic forecasts during high sentiment times (Hurwitz
+2018; Walther and Willis 2013). Given that inves­
+tors use accounting variables in their investment
+decisions and earnings are value relevant in high
+
+JEL CLASSIFICATION
+
+M42; G14
+
+sentiment periods (He, Hong, and Wu 2020), audi­
+tors’ role as an external monitor may be important
+in reducing investors’ biases.
+Auditors should identify and assess the risk of
+material misstatements when performing risk
+assessment
+procedures
+(Public
+Company
+Accounting Oversight Board (PCAOB) 2010).
+The perceived audit risk, based on predicted litiga­
+tion, reputation loss, or regulation intervention,
+increases the audit scope and the number of audit
+hours, which acts as an important determinant of
+audit fees (DeFond and Zhang 2014).2 In addition,
+auditors require premiums responding to the risk
+that cannot be eliminated completely with auditor
+effort, which also results in higher audit fees
+(DeFond and Zhang 2014). High sentiment may
+be a potential audit risk because it provides man­
+agers with opportunities to manage earnings,
+which hinders investors’ proper decision-making
+through profit inflation (Ali and Gurun 2009;
+Amin, Eshleman, and Guo 2021a; Simpson 2013).
+
+CONTACT Hyun Ah Kim
+kukolo@koreatech.ac.kr
+School of Industrial Management, 1600 Chungjeol-ro, Byeongcheon-myeon, Dongnamgu, Cheonan City, Chungnam Province 31253, Korea
+1
+Investor sentiment is defined ‘as a belief about future cash flows and investment risks that is not justified by the facts at hand,’ and indicates investor optimism
+or pessimism (Baker and Wurgler 2007).
+2
+‘Litigation risk exposes auditors to financial penalties, while reputation risk impairs the ability to attract and retain clients. Regulation risk is the threat of
+regulatory intervention, which subjects auditors to sanctions that include fines and criminal penalties.’ (DeFond and Zhang 2014, 296).
+© 2021 Informa UK Limited, trading as Taylor & Francis Group
+
+960
+
+Y. YUN AND H. A. KIM
+
+Amin, Eshleman, and Guo (2021b) also support
+this by showing that auditor change from Big4 to
+non-Big4 for better internal control opinion is pre­
+valent in high sentiment times, which results in
+greater restatements.
+If auditors recognize that high sentiment is asso­
+ciated with the distortion of financial statements
+leading to future lawsuits, they will increase the
+scope of the audit and spend more audit hours to
+ensure that financial statements are free of material
+misstatements (professional duty view). However,
+because high sentiment attracts investors to be
+insensitive to financial statements, auditors are
+likely to reduce their audit effort in the belief that
+litigation risk due to financial misreporting will be
+low in high sentiment times (commercial incen­
+tives). Amin, Eshleman, and Guo (2021a) examine
+two contrasting views, auditors’ professional duties
+and commercial incentives,3 and find that audit
+fees are lower on average in high sentiment peri­
+ods, consistent with commercial incentives.
+The findings of prior studies are based on the US
+setting, where institutional investors are dominant
+in securities markets and the legal environment is
+strong; thus, high litigation risk sensitivity can
+affect auditor behaviour. Therefore, the effect of
+high sentiment on auditors needs to be examined
+by using different legal environments. In this study,
+we use a Korean setting with less developed stock
+markets and a weak legal environment. This is
+important because it can offer regulatory policy
+implications for auditors in less litigious countries.
+Although the most serious risk of threatening audi­
+tors is litigation risk, it is not clear whether the legal
+system affects prior findings because auditors are
+influenced by the state of their mood (Cianci and
+Bierstaker 2009).
+The Korean stock market is ‘characterized by
+significant information asymmetry among investor
+types, high market sentiment, and prevalent inves­
+tor psychology’ (Ryu, Kim, and Yang 2017, 826).
+The litigation against auditors has increased since
+class action lawsuits became effective in 2005, but
+the litigation risk is relatively low compared to the
+3
+
+US, considering that 18 of the 71 lawsuits that
+ended from 2016 to 2018 ordered audit firms to
+pay damages totalling 20.1 billion won (about $
+2 million) (Financial Supervisory Service (FSS)
+2019). Therefore, Korea provides an appropriate
+setting to examine whether the prior finding is
+affected by the litigation environment. If low per­
+ception of audit risk in high sentiment times is
+maintained regardless of the litigious environment,
+it may indicate auditors’ vulnerability to high sen­
+timent, failing to correct investors’ biases.
+In particular, we focus on auditor changes, creat­
+ing an environment where management can exert
+pressure (Huang, Raghunandan, and Rama 2009).
+The results of Amin, Eshleman, and Guo (2021b)
+show that high audit fees for risky firms, which
+change auditors for favourable internal control
+opinion in high sentiment periods, do not signifi­
+cantly reduce the likelihood of restatements.
+Practitioners and academics are interested in the
+existence of initial discounts because it can lead to
+less independent auditors (Cohen Commission
+1978; DeAngelo 1981; Dye 1991). Korean public
+or sizable companies are required to be audited by
+the External Audit Act, so they do not value audits
+highly, which leads to low audit fees on average.4 In
+this environment, lower audit fees decrease audi­
+tors’ incentives to input more effort in auditing,
+increasing potential audit failure. Therefore, if
+auditor changes in high sentiment periods are
+related to lower audit fees, potential problems are
+likely to be poorly identified and monitored by
+auditors.
+Using 17,469 firm-year observations of Korean
+listed firms from 2003 to 2017, we find that initial
+audit fees are significantly lower when investor
+sentiment is high, while auditor change has no
+influence on audit fees in low investor sentiment
+periods. Furthermore, this result is maintained
+even when auditors are changed to Big4 or industry
+specialist auditors (SPEC), which are known to
+have high ability and risk sensitivity. This shows
+that high sentiment influences auditor behaviour in
+a less litigious environment, implying that the
+
+Professional duty view argues that auditors spend more audit hours to reduce audit risks to an acceptable level in high sentiment periods, which leads to
+higher audit fees. In contrast, commercial incentives view suggests that auditors predict lower litigation risk due to investor inattention in high sentiment
+times, resulting in lower audit fees (Amin, Eshleman, and Guo 2021a).
+4
+Korean audit fees are about 90%, 70%, 40% lower than those of the US, Japan, and China, respectively (Kwon and Kim 2019). Korean government has made
+efforts such as establishing standard for appropriate audit hours to ensure auditors’ independence and to improve audit quality (Korea Herald 2018).
+
+APPLIED ECONOMICS
+
+auditor’s governance responsibilities do not work
+properly when sentiment is high. Auditor change is
+a negative event that investors look into because it
+increases information risk (Francis et al. 2017; Han
+et al. 2021). However, optimistic bias caused by
+high sentiment makes them generous to it,
+enabling auditors to accept lower initial audit fees
+with the expectation that a relaxed audit is toler­
+able. Second, Big4 or SPEC initial auditors input
+significantly less audit hours in high investor senti­
+ment, suggesting that auditors reduce audit effort
+with the judgement of low audit risk. Given the
+positive association between high sentiment and
+earnings management (Ali and Gurun 2009;
+Simpson 2013), these findings show that auditors’
+assessment of low audit risk in high sentiment is
+more likely to exacerbate investors’ biases rather
+than lessen them because loose audits are difficult
+to detect and correct managerial opportunistic
+behaviour.
+For the robustness of our results, we conduct an
+additional analysis considering the types of auditor
+change such as Big4 to Big4, Big4 to non-Big4,
+non-Big4 to Big 4, and non-Big4 to non-Big4.
+The results of the additional test are consistent
+with our main findings except for non-Big4 to nonBig4. Given that the audit fee of Big4 is much more
+than that of non-Big4, the evidence that initial
+engagement discounts exist in auditor change
+from non-Big4 to Big4 is somewhat surprising.
+This may indicate a substantial effect of investor
+sentiment on the risk assessment and audit pricing
+of auditors.
+This study contributes to the literature in several
+ways. First, we extend the literature on investor
+sentiment by showing that prior findings are not
+sensitive to the legal environment. Our results of
+accepting lower audit fees even in auditor change,
+which requires more audit efforts to obtain reason­
+able assurance about financial statements due to
+information risk, indicate that the monitoring sys­
+tem is not working well in high sentiment periods,
+raising the need for regulators to take various mea­
+sures to strengthen their monitoring mechanisms
+to reduce the possible negative impact of high
+investor sentiment.
+Second, we use a firm-level investor sentiment
+variable, unlike earlier studies that adopt a timelevel measure. It is appropriate for Korean stock
+
+961
+
+markets that are dominated by individuals (Ryu,
+Kim, and Yang 2017; Seok, Cho, and Ryu 2019). It
+also overcomes the limitation that investor senti­
+ment is market-wide despite being affected by var­
+ious factors, and enables researchers to consider
+individual firms’ differences in their studies. Our
+evidence extends prior results at an auditor level
+(Chung, Cohen, and Monroe 2008) and a time level
+(Amin, Eshleman, and Guo 2021a) to a firm level
+and enhances the understanding about the influ­
+ence of cognitive biases on auditor risk assessment.
+Prior psychological research on auditor decisions
+focuses on experimental settings (Chung, Cohen,
+and Monroe 2008; Cianci and Bierstaker 2009), but
+the current study contributes to the literature by
+adding empirical results.
+Third, we provide a new factor affecting initial
+engagement discounts. Prior research has found
+the cause of fee discounting in audit-related char­
+acteristics, such as changes in audit firms or audit
+partners (Huang et al. 2015). This study shows that
+high sentiment, a non-audit characteristic, can also
+affect audit risk assessment, thereby lowering initial
+audit fees. Our results suggest that initial audit fees
+should be investigated from various perspectives
+that affect managerial or auditor decision-making.
+The remainder of this study is organized as
+follows. Section 2 reviews prior studies and devel­
+ops the hypotheses. Sections 3 and 4 present the
+research methodology and empirical results,
+respectively. Finally, Section 5 concludes the paper.
+
+II. Literature review and hypothesis
+development
+Prior research on initial audit fee discount
+
+Initial discounting is an important issue for practi­
+tioners and academics in the auditing field because
+it can impair auditors’ independence or audit qual­
+ity for continuous future contracts by lowering
+audit hours in response to decreased audit fees
+(Cohen Commission 1978; DeAngelo 1981; Dye
+1991; Eshleman and Guo 2014). Initial auditors
+may discount their audit fees to satisfy new clients
+expecting lower audit fees or to win in price com­
+petition (Beattie and Fearnley 1995). DeAngelo
+(1981) argues that it is a sunk cost that does not
+affect the independence of auditors because it is ‘a
+
+962
+
+Y. YUN AND H. A. KIM
+
+competitive response to the expectation of future
+quasi-rents to incumbent auditors’. However,
+Simon and Francis (1988) mention that initial dis­
+counting plays a role in impairing audit quality
+based on prospect theory suggesting that people
+give more value to gains than losses. Consistent
+with this, Public Company Accounting Oversight
+Board (PCAOB) (2011, 17) states, ‘If auditors bid
+on new engagements with the assumption that they
+will lose money in the first years of an engagement
+but recoup that loss over a long period of time, the
+problem may be unrealistic pricing, with
+a resulting effect on audit effort or resources at
+the beginning of an auditor-client relationship’.
+Turner (2002) and Hansen (2010) show concerns
+over the possibility that low audit fees may lead to
+deterioration in audit quality.
+Empirical evidence is mixed and differs
+depending on the country or time. Specifically,
+studies examining the US audit market report
+the existence of an initial discounting beha­
+viour. For example, Simon and Francis (1988)
+find that initial audit fees are lower by about
+24% in the first year and 15% in the next two
+years, and Ettredge and Greenberg (1990)
+report a 24% discount. Ghosh and Lustgarten
+(2006) are motivated by the different competi­
+tions in small and large audit firms and show
+that fee discounting is more prevalent in nonBig4 than Big4. Recent studies have analysed
+the existence of initial discounting in the preand post-SOX periods, but the results are still
+mixed. Huang, Raghunandan, and Rama (2009)
+report the initial audit fee premium for Big4
+auditors in the post-SOX period, but Desir,
+Casterella, and Kokina (2014) find that initial
+fee discounting exists in both Big4 and nonBig4 from 2007 to 2010, in the post-SOX per­
+iod. In the UK audit market, prior studies pro­
+vide relatively consistent evidence on the
+existence of initial discounting (Gregory and
+Collier 1996; Peel 2013), but the empirical
+results of the Australian audit market are
+mixed (Francis 1984; Craswell and Francis
+1999). Regarding the Korean audit market,
+prior studies provide evidence that auditors
+discount their initial fees (Rho, Bae, and Cho
+2004; Lee, Park, and Jeong 2011; Jeong and Ki
+2016). In addition, Shin, Choi, and Cho (2007)
+
+find a negative association between initial dis­
+counts and initial audit quality, supporting the
+concern raised by regulators or academics.
+
+Prior research on investor sentiment and financial
+reporting
+
+The literature has analysed the effect of investor senti­
+ment on corporate decisions (e.g. Grundy and Li
+2010), but the accounting field has just started to
+examine its influence on managers and analysts. In
+terms of managers, Hurwitz (2018) reports that high
+investor sentiment is associated with optimistic man­
+agement forecasts and interprets the result as evidence
+of managerial vulnerability to investor sentiment.
+Consistent with this, Brown et al. (2012) find that
+pro forma earnings disclosures tend to exclude recur­
+ring and non-recurring expenses in high investor
+sentiment. Bergman and Roychowdhury (2008)
+show that managers are less likely to disclose longhorizon earnings forecasts in high investor sentiment
+because they want to maintain investor optimism.
+Furthermore, prior studies examining the effect
+of investor sentiment on analysts’ behaviour pro­
+vide evidence that analysts are also susceptible to
+high investor sentiment. Specifically, Hribar and
+McInnis (2012) find that analysts forecast the longterm earnings of firms with high uncertainty more
+optimistically in high investor sentiment periods.
+Walther and Willis (2013) use the short-run quar­
+terly earnings forecast of sell-side analysts and find
+that they tend to forecast more optimistically and
+less accurately when investor sentiment is high.
+Several studies investigate the relationship between
+investor sentiment and financial reporting such as
+accruals or conservatism. Ali and Gurun (2009)
+examine the association between investor sentiment
+and accruals anomaly and find greater accruals for
+small firms in high sentiment periods, supporting
+investors’ limited attention to accruals and managers’
+opportunistic usage. Simpson (2013) extends this
+study by adding evidence that managers use accruals
+to meet or beat analysts’ forecasts during high inves­
+tor sentiment periods. Contrary to previous results,
+Ge, Seybert, and Zhang (2019) show that managers
+are likely to report conservatively in high sentiment
+times to reduce potential litigation risk due to stock
+price decline.
+
+APPLIED ECONOMICS
+
+Hypothesis development
+
+Extending the literature to auditors’ risk assess­
+ment, Amin, Eshleman, and Guo (2021a) investi­
+gate external auditors’ reactions to investor
+sentiment using the US data and find that audit
+fees are lower in high sentiment periods despite the
+high likelihood of misstatements. They additionally
+show that market reactions to misstatements are
+less negative in high sentiment periods and argue
+that a decrease in auditors’ legal risk leads to lower
+audit fees.
+Audit fees consist of audit effort costs and
+expected liability losses arising from audited finan­
+cial statements (Simunic 1980; Seetharaman, Gul,
+and Lynn 2002). The positive association between
+litigation risk and audit fees in prior studies indi­
+cates that it plays an important role in determining
+audit fees (Seetharaman, Gul, and Lynn 2002; Choi
+et al. 2009). Countries have different legal liabilities
+depending on their legal regimes, which vary the
+degree of litigation liability reflected in audit fees
+(Choi et al. 2009). Therefore, if the prior finding
+based on the US which has a strong legal environ­
+ment is mainly related to litigation risk, the result is
+unlikely to be found in countries with weak legal
+regimes.
+However, engagement risk includes reputation
+and regulation risks as well as litigation risk
+(DeFond and Zhang 2014). Auditors in less liti­
+gious environments do not expect a significant
+reduction in litigation risk from high sentiment,
+but investors’ positive biases can entice auditors
+to conduct less conservative audits, expecting
+investors to be tolerant of financial statement
+errors. This may decrease audit fees by lowering
+auditors’ reputation risk.
+In addition, auditors are affected by mood states
+(Chung, Cohen, and Monroe 2008; Cianci and
+Bierstaker 2009). Chung, Cohen, and Monroe
+(2008) use the experiment with Australian auditing
+students and find that a positive mood is associated
+with less conservative inventory valuation. Cianci
+and Bierstaker (2009) show that auditors in the
+experiment are good at hypothesis generation
+tasks, such as cause analysis of fluctuations under
+a negative mood. Even if investors’ high sentiment
+may not influence auditors’ mood directly, there is
+a possibility that the favourable atmosphere
+
+963
+
+surrounding a firm in the stock market can affect
+auditors’ engagement risk evaluation, thereby
+reducing audit fees.
+To examine the effect of high sentiment on
+auditor risk assessment in Korea with relatively
+low litigation risk, we focus on auditor change.
+With all other things equal, it increases audit
+engagement risk because of high information risk
+derived from the lack of knowledge about a newly
+accepted auditee (Francis et al. 2017). If the influ­
+ence of high sentiment is not limited to litigation
+risk, audit fees are expected to be lower when firms
+change auditors. However, auditors require higher
+audit fees in response to future misstatements of
+firms that engage in audit opinion shopping during
+high sentiment times (Amin, Eshleman, and Guo
+2021b). Therefore, it is difficult to predict the effect
+of high sentiment on initial audit fees in a weak
+legal environment. Thus, we set our hypothesis as
+follows.
+Hypothesis. High investor sentiment has no influ­
+ence on initial audit fees in a less litigious country.
+
+III. Research design
+Individual firm-level investor sentiment measure
+
+In this study, we use firm-level investor sentiment
+to examine its effect on initial audit fees.
+Specifically, we measure the variable based on
+Ryu, Kim, and Yang (2017) to fit the Korean
+stock market. Baker and Wurgler (2006) suggest
+a market-based index of sentiment using six
+proxies: the closed-end fund discount rate, NYSE
+stock turnover, the number of IPOs, average firstday returns on IPOs, the share of equity issues, and
+the dividend premium. However, it is difficult to
+apply this method to Korean studies. This is
+because: (1) unlike the US stock market, the
+Korean stock market has a small margin of rate
+depending on dividends; thus, we cannot use the
+dividend premium; (2) the number of IPOs in the
+Korean stock market is significantly less than that
+in the US, so it is not appropriate to use IPOrelated variables; (3) there are insufficient data on
+the discount rate for closed-end funds. Therefore,
+prior Korean studies claim that it is appropriate to
+
+964
+
+Y. YUN AND H. A. KIM
+
+apply the said method to the Korean market (Kim
+and Byun 2010; Ryu, Kim, and Yang 2017).
+Moreover, in our study, we focus on the sentiment
+of individual companies, unlike most previous stu­
+dies, so we measure the individual firm-level senti­
+ment variable based on Ryu, Kim, and Yang (2017).
+It is calculated at an individual stock level; thus, it is
+known to better capture firm-level characteristics.
+To construct a comprehensive individual firmlevel sentiment index, we adopt principal compo­
+nent analysis to extract the index explaining investor
+sentiment based on the following five daily measures
+that capture investor sentiment and market expecta­
+tions: relative strength index (RSI), psychological
+line index (PLI), adjusted turnover rate (ATR), loga­
+rithm of trading volume (LTV), and individual
+investor buy-sell imbalance (IBSI). The method of
+measuring the sentiment index is a process for
+extracting a common part with various variables
+that include information about the sentiment.
+Thus, these five measures can be related, and the
+purpose of principal component analysis is to extract
+only the common parts of these related variables.
+
+sentiment by measuring investors’ overheated sen­
+timent or stagnant sentiment on the stock and have
+a scale from 0 to 100. PLI is calculated as follows:
+��
+11 �
+X
+max Pi;t n Pi;t 1 n ; 0
+PLIi;t ¼ 100 �
+Pi;t n Pi;t 1 n
+n¼0
+(2)
+Pi;t : the closing price of stock i at time t.
+Adjusted turnover rate
+
+ATR determining whether investors are optimistic
+or pessimistic relies on the positive relation
+between liquidity and investor sentiment (Baker
+and Stein 2004; Kim and Byun 2010; Yang and
+Zhang 2014). The positive ATR under positive
+stock returns represents a bullish market state.
+ATR is calculated as follows:
+Volumei;t
+n of shares outstandingi;t
+Ri;t
+� �� �� ; whereRi;t
+Ri;t
+Pi;t
+¼
+1
+Pi;t 1
+
+ATRi;t ¼
+
+Relative strength index
+
+Volumei;t : the trading volume of stock i at time t
+nofsharesoutstandingi;t : the number of shares
+outstanding of stock i at time t.
+
+RSI captures whether the stock is oversold (20 or
+below) or overbought (80 and above) by calculating
+the percentage of increase in stock price over
+a certain period. We use the 14-day when calculat­
+ing RSI as in Chong and Ng (2008) and Ryu, Kim,
+and Yang (2017). Specifically, RSI is calculated as
+follows:
+RSIi;t ¼
+
+(3)
+
+Logarithm of trading volume
+
+LTV is a similar measure with ATV to measure
+investor sentiment coined in Baker and Stein
+(2004) and Liao, Huang, and Wu (2011). LTV is
+the natural log number of daily trading
+volume of
+�
+each stock as LTVi;t ¼ ln Volumei;t .
+
+RSi;t
+� 100
+1 þ RSi;t
+
+where R
+13
+X
+
+Si;t ¼
+
+max Pi;t n
+n¼0
+
+X
+� 13
+Pi;t 1 n ; 0 =
+max Pi;t 1 n
+
+Pi;t n ; 0
+
+n¼0
+
+(1)
+
+Pi;t : the closing price of stock i at time t.
+Psychological line index. PLI indicates the psy­
+chological stability of investors and measures
+whether the stock is oversold (25 or below) or
+overbought (75 and above) by calculating the rising
+and falling days of stock price for a certain period,
+typically 12 days (Yang and Gao 2014). Both RSI
+and PLI are indicators that reflecting the investor
+
+�
+
+Individual investor buy-sell imbalance
+
+IBSI indicates trading behaviour among retail
+investors using buy sell volume of stock (Kumar
+and Lee 2006; Kim and Park 2015). Positive IBSI
+value represents the existence of net demand for
+the stock, which means that investor sentiment is
+increasing for the periods (Chiang, Tsai, and Lee
+2011). IBSI is calculated as follows:
+�
+�
+(4)
+IBSIi;t ¼ BVi;t SVi;t = BVi;t þ SVi;t
+BVi;t and SVi;t : the buy and sell volume of indivi­
+dual investor for stock i at time t.
+
+APPLIED ECONOMICS
+
+Based on the above five proxies, we construct
+a composite index using a principal component
+analysis to isolate the common sentiment compo­
+nent. It is a widely used procedure to measure
+investor sentiment in the literature (e.g. Baker and
+Wurgler 2006; Chen, Chong, and Duan�2010). Raw
+values of investor sentiment index Si;t are calcu­
+lated for each firm by multiplying the first principal
+component by the corresponding variable:
+Si;t ¼ Fi;RSI � RSIi;t þ Fi;PLI � PLIi;t þ Fi;ATR
+� ATRi;t þ Fi;LTV � LTVi;t þ Fi;IBSI � IBSIi;t
+(5)
+The raw values of the investor sentiment index (Si;t )
+in equation (5) has a problem in that it cannot
+distinguish common sentiment components from
+common market factors. Because our sentiment
+index focuses on representing individual firmlevel investor sentiment, we need to control the
+overall market influence from the investor senti­
+ment index (Si;t ). Thus, to eliminate the possible
+effects of the market-wide return component we
+perform the following regression based on equa­
+tion (6) and orthogonalize the sentiment index
+proxies (Si;t ) with respect to market excess returns.
+Si;t ¼ α0 þ α1 � MKTEXRt þ εi;t
+
+(6)
+
+MKTEXRt : the excess returns of the overall stock
+market, the risk-free rate used in is the CD91 rate
+(91-day certificate of deposit rates).
+Finally, the orthogonalized component, the resi­
+dual (εi;t ) in equation (6), is the firm-level investor
+sentiment measure for individual stock i. In our
+analysis, we use its annualized value as the main
+variable (Sentimenti;t ). Depending on the sign of
+the variable, we divide our sample into two groups;
+SENTIMENT HIGH (positive Sentimenti;t ) and
+SENTIMENT LOW (negative Sentimenti;t ).
+
+Research model
+
+To test our hypothesis, we specify the following
+regression model where the test variable for auditor
+change (CHANGE) and other control variables are
+included.
+5
+
+965
+
+LNAFi;t ¼ α1 þ β1 CHANGEi;t þ β2 SIZEi;t þ β3 ROAi;t
+þ β4 LEVi;t þ β5 BMi;t þ β6 INVRECi;t þ β7 QUICKi;t
+þ β8 NEWFINi;t þ β9 LOSSi;t þ β10 BIG4i;t þ β11 SPECi;t
+þ β12 OPINi;t þ β13 ACCLAGi;t þ β14 KOSDAQi;t
+þ β15 DSGi;t þ YEAR þ IND þ εi;t
+(7)
+Variables are defined in Appendix A.
+Our dependent variable, LNAF, is measured
+as the natural logarithm of total audit fees in
+Korean won (KRW). The coefficient on
+CHANGE (β1 ) captures the effect of the auditor
+change on the auditor’s audit pricing. If initial
+auditors discount audit fees in high sentiment,
+we expect β1 to be negative in high sentiment
+sub-sample.5
+We control for a number of known determi­
+nants of audit fees in the prior literature, which
+reflect size, complexity, risk, and other client char­
+acteristics (e.g. Hay, Knechel, and Wong 2006;
+DeFond and Zhang 2014). We include client size
+measured by the natural logarithm of total assets
+(SIZE), the book-to-market ratio (BM), and the
+sum of inventory and accounts receivable
+(INVREC) for capturing a firms’ complexity.
+Client-specific audit risks are controlled by
+including leverage ratio (LEV), shot-term liquid­
+ity (QUICK), profitability (ROA, LOSS), financing
+activities (NEWFIN), and previous year’s accruals
+component (ACCLAG) (Simunic 1980; Francis
+1984; Gul and Goodwin 2010). We also include
+auditor-related variables, which are indicator
+variables for Big 4 auditors (BIG4), industry spe­
+cialist auditors (SPEC), and non-qualified audit
+opinion (OPIN) (Bae, Choi, and Lee 2018).
+Additionally, the model includes indicator vari­
+ables for KOSDAQ-listed firms (KOSDAQ) and
+designated firms (DSG) to capture the character­
+istics of Korean market. Finally, we include year
+fixed effects and industry fixed effects based on
+two-digit Korean SIC. Note that all of our ana­
+lysed results are based on individual firm level
+clustered standard errors (Peterson 2009), and all
+continuous variables are winsorized at 1% for
+both tails.
+
+This study examines the effect of high sentiment on initial discounts by estimating Equation (7) for the high sentiment sub-sample. However, the empirical
+results of the full sample (high and low) and the low sentiment sub-sample are also presented in Table 3 for comparison.
+
+966
+
+Y. YUN AND H. A. KIM
+
+Sample
+
+The initial sample starts from all KRX listed firms in
+non-financial industries for the period from 2003 to
+2017. We exclude firm-years with non-December
+fiscal year-ends or with missing data for the con­
+struction of the variables. As presented in Panel A of
+Table 1, the final sample is 17,583 firm-year observa­
+tions for audit fee analyses and 17,469 firm-year
+observations for audit hour analyses.6 We obtain
+financial data from FnGuide and audit data (e.g.
+audit fees, audit hours) from TS2000, both are
+main Korean financial data providers. Because
+TS2000 provide audit data from 2003, our sample
+starts in 2003. Panel B of Table 2 presents the sample
+distribution by year. 9,084 firm-years are the subsample of high investor sentiment and 8,499 are that
+of low investor sentiment. By yearly, the number of
+available observations increased with time, from
+a low of 867 in 2003 to a high of 1,433 in 2013,
+
+which are consistent with Bae, Choi, and Lee (2018).
+Sub-sample composition between high investor sen­
+timent and low investor sentiment is presented in
+various forms by year, most firms are included in the
+high sentiment sub-sample in 2005, and in 2017,
+most companies are included in the low sentiment
+sub-sample. Panel C of Table 1 shows the compar­
+ison of auditor change and non-change firms by
+investor sentiment. The total auditor change sample
+is 3,134 and the observation for auditor change in
+high sentiment is 1,624, which is slightly more than
+the comparator sample.
+
+IV. Empirical results
+Descriptive statistics and correlations
+
+Panel A of Table 2 reports the descriptive statistics
+of the variables for the full sample (both high and
+low sentiment). The mean (median) value of LNAF
+
+Table 1. Sample composition.
+Panel A: Sample Selection Procedure
+Observations available for Fnguide and TS2000 (2003–2017)
+Less:
+Firms with non-December fiscal year end
+Firms with missing information for main variables (Asset, Audit Fees, Sentiment)
+Firms with missing information for other variables
+Observations for audit fee analyses
+Less:
+Firms with missing audit hour information
+Observations for audit hour analyses
+Panel B: Sample Distribution by Year
+YEAR
+SENTIMENT
+SENTIMENT
+LOW
+HIGH
+2003
+465
+402
+2004
+463
+453
+2005
+80
+891
+2006
+424
+593
+2007
+294
+780
+2008
+640
+488
+2009
+234
+932
+2010
+603
+674
+2011
+565
+799
+2012
+627
+791
+2013
+806
+627
+2014
+873
+534
+2015
+693
+609
+2016
+870
+324
+2017
+862
+187
+Total
+8,499
+9,084
+Panel C: Sample Distribution of Auditor Change by Investor Sentiment
+SENTIMENT
+LOW
+CHANGE = 0
+6,989
+CHANGE = 1
+1,510
+Total
+8,499
+
+6
+
+SENTIMENT
+HIGH
+7,460
+1,624
+9,084
+
+22,881
+(288)
+(3,199)
+(1,811)
+17,583
+(114)
+17,469
+WHOLE
+867
+916
+971
+1,017
+1,074
+1,128
+1,166
+1,277
+1,364
+1,418
+1,433
+1,407
+1,302
+1,194
+1,049
+17,583
+WHOLE
+14,449
+3,134
+17,583
+
+The Korean public stock market is divided into two main categories: Korea Stock Price Index (KOSPI) and Korea Securities Dealers Automate Quotation
+(KOSDAQ). The KOSDAQ contains small- and mid-sized firms, and the KOSPI contains relatively larger-sized firms based on more complex listing requirements.
+
+APPLIED ECONOMICS
+
+967
+
+Table 2. Descriptive statistics and correlations.
+Panel A: Descriptive statistics
+Variable
+Mean
+LNAF
+11.119
+LNAH
+6.669
+FEE(KRW)
+94,520,430
+HOUR
+1,188.204
+SENTIMENT
+0.004
+CHANGE
+0.178
+SIZE
+18.897
+ROA
+0.035
+LEV
+0.436
+BM
+−0.024
+INVREC
+0.298
+QUICK
+2.261
+NEWFIN
+0.104
+LOSS
+0.270
+BIG4
+0.506
+SPEC
+0.187
+OPIN
+0.004
+ACCLAG
+−0.032
+KOSDAQ
+0.579
+DSG
+0.017
+Panel B: Correlation Matrix
+LNAF 1
+2
+1.LNAH
+0.73
+2.SENTIMENT
+0.04 0.00
+3.CHANGE
+−0.03−0.02
+0.00
+4.SIZE
+0.77 0.66
+0.10
+5.ROA
+0.07 0.06
+0.29
+6.LEV
+0.27 0.20
+−0.09
+7.BM
+−0.05−0.04 −0.19
+8.INVREC
+−0.15−0.14
+0.02
+9.QUICK
+−0.23−0.19
+0.02
+10.NEWFIN
+−0.01−0.02 −0.10
+11.LOSS
+−0.04−0.03 −0.26
+12.BIG4
+0.38 0.40
+0.08
+13.SPEC
+0.29 0.29
+0.07
+14.OPIN
+0.03 0.00
+−0.06
+15.ACCLAG
+−0.02 0.00
+0.06
+16.KOSDAQ
+−0.38−0.31 −0.04
+17.DSG
+0.09 0.04
+−0.02
+
+S.D.
+0.686
+0.871
+159,098,500
+2,130.562
+0.316
+0.383
+1.421
+0.080
+0.198
+0.771
+0.154
+2.273
+0.305
+0.444
+0.500
+0.390
+0.063
+0.107
+0.494
+0.131
+3
+
+4
+
+−0.04
+−0.03 0.21
+0.03 0.26
+−0.02 0.15
+−0.01 −0.20
+−0.02 −0.26
+0.04 −0.12
+0.03 −0.18
+−0.05 0.37
+−0.03 0.28
+0.02 −0.03
+−0.06 0.10
+0.00 −0.52
+0.08 0.01
+
+10%
+10.434
+5.930
+34,000,000
+360
+−0.393
+0.000
+17.356
+−0.052
+0.164
+−1.049
+0.103
+0.707
+0.000
+0.000
+0.000
+0.000
+0.000
+−0.137
+0.000
+0.000
+
+25%
+10.714
+6.246
+45,000,000
+512
+−0.193
+0.000
+17.917
+0.007
+0.277
+−0.511
+0.184
+1.009
+0.000
+0.000
+0.000
+0.000
+0.000
+−0.071
+0.000
+0.000
+
+5
+
+6
+
+7
+
+−0.21
+0.00
+0.06
+0.09
+−0.20
+−0.63
+0.09
+0.06
+−0.10
+0.17
+−0.07
+−0.03
+
+−0.05
+0.14
+−0.66
+0.07
+0.24
+0.07
+0.06
+0.04
+−0.08
+−0.13
+0.05
+
+0.01
+−0.05
+−0.18
+−0.10
+0.01
+−0.02
+−0.05
+0.12
+−0.23
+−0.04
+
+8
+
+9
+
+−0.08
+−0.05−0.02
+−0.05−0.10
+−0.07−0.10
+−0.12−0.07
+−0.01 −0.01
+0.12 0.05
+0.01 0.17
+−0.01−0.03
+
+50%
+11.002
+6.627
+60,000,000
+750
+0.013
+0.000
+18.627
+0.039
+0.440
+0.031
+0.285
+1.497
+0.000
+0.000
+1.000
+0.000
+0.000
+−0.023
+1.000
+0.000
+10
+
+11
+
+0.22
+−0.10−0.08
+−0.05−0.04
+0.10 0.07
+−0.13−0.15
+0.13 0.11
+0.05 0.03
+
+75%
+11.396
+7.056
+89,000,000
+1,156
+0.215
+0.000
+19.594
+0.076
+0.586
+0.506
+0.397
+2.509
+0.000
+1.000
+1.000
+0.000
+0.000
+0.021
+1.000
+0.000
+12
+
+13
+
+0.42
+−0.03−0.02
+0.03 −0.01
+−0.24−0.16
+0.02 0.02
+
+90%
+11.983
+7.608
+160,000,000
+2,009
+0.400
+1.000
+20.802
+0.122
+0.696
+0.925
+0.509
+4.648
+1.000
+1.000
+1.000
+1.000
+0.000
+0.072
+1.000
+0.000
+14 15
+
+16
+
+−0.02
+0.01 −0.06
+0.03 −0.03
+
+0.00
+
+Definition of variables is as follows. LNAF is the natural logarithm number of total audit fees; LNAH is the natural logarithm number of total audit hours;
+SENTIMENT is individual firm-level investor sentiment measure calculated based on the first principle component on five proxies; CHANGE a dummy variable
+that takes 1 if auditor of the firm is changed for the period, otherwise 0; SIZE is the natural logarithm number of total assets; ROA is operating income scaled
+by total asset; LEV is total liabilities divided by total assets; BM is book value of equity divided by market value of the firm; INVREC is sum of inventory and
+account receivable scaled by total asset; QUICK is current liability divided by current asset; NEWFIN is a dummy variable that takes 1 if the firm increase the
+book value of equity during period, otherwise 0; LOSS is a dummy variable that takes 1 if the firm reported a net loss, otherwise 0; BIG4 is a dummy variable
+that takes 1 if the firm is audited by Big 4 auditors (PwC, KPMG, Deloitte, and EY), otherwise 0; SPEC is a measure of industry specialist auditors defined as
+a dummy variable takes 1 if auditor has a portion over 30% within the industry and has a gap with a following auditor over 10%, based on client total sales.
+The market share is calculated as the sum of the auditor’s client total sales for each industry-year divided by the sum of all auditors’ client total sales in the
+industry-year; OPIN is a dummy variable that takes 1 if the firm receive audit opinion except for qualified opinion, otherwise 0; ACCLAG is lagged total accruals
+divided by lagged total asset, accruals is calculated by subtracting operating cash flow from net income; KOSDAQ is a dummy variable that takes 1 if the firm is
+listed in KOSDAQ market, otherwise 0; DSG is a control for designation in Korean audit market, a dummy variable that takes 1 if total audit fee is more than
+doubled over previous period, otherwise 0.
+Refer to Table 2 for variable definitions. BOLD represents significance at 1% (two-tailed).
+
+is 11.119 (11.002) and the mean (median) value of
+LNAH is 6.669 (6.627). The mean values of audit
+fees (FEE) and audit hours (HOUR) are 94,520,430
+KRW and 1,188.204 KRW, respectively. The mean
+value of SENTIMENT is close to 0 (0.004) because
+it is standardized to eliminate market factors. The
+mean value of CHANGE is 0.178, which indicates
+that about 17.8% of the sample changes auditors.
+
+BIG4 and SPEC account for approximately 50.6%
+and 18.7%, respectively. The other variables are
+generally consistent with prior research.
+The Pearson correlation matrix is presented in
+Panel B of Table 2, and the results are consistent
+with prior research. For example, audit fees (LANF)
+have a positive relationship with audit hours (LNAH)
+but not the same variable. Audit fees (LNAF) are
+
+968
+
+Y. YUN AND H. A. KIM
+
+positively correlated with the risk of audited firms
+such as firm size (SIZE), profitability (ROA, LOSS),
+and leverage (LEV). Audit fees (LNAF) are also posi­
+tively associated with auditors’ reputations and abil­
+ities proxied by Big4 auditors (BIG4) and industry
+specialist auditors (SPEC). Individual firm-level senti­
+ment measure (SENTIMENT) is slightly positively
+correlated with audit fees (LANF), but not with
+audit hours (LNAH) significantly.
+
+High investor sentiment and initial engagement
+discounts
+
+Table 3 reports the empirical results regarding the
+initial discounts. Columns 1, 2, and 3 are the results
+of the full sample (WHOLE), the low sentiment
+sub-sample (SENTIMENT LOW, negative senti­
+ment), and the high sentiment sub-sample
+(SENTIMENT
+HIGH,
+positive
+sentiment),
+respectively.
+In column 1, the coefficient on CHANGE is sig­
+nificantly negative, supporting the existence of initial
+engagement discounts consistent with previous stu­
+dies (e.g. Rho, Bae, and Cho 2004; Lee, Park, and
+Jeong 2011; Desir, Casterella, and Kokina 2014;
+Jeong and Ki 2016). The results in columns 2 and 3
+show the effect of investor sentiment on initial dis­
+counts. Specifically, the coefficient on CHANGE is
+not significant in SENTIMENT LOW, while it is
+significantly negative in SENTIMENT HIGH. In
+addition, the coefficient in SENTIMENT HIGH is
+larger and more significant than in WHOLE, indi­
+cating that auditors discount initial audit fees in high
+sentiment periods and that investor sentiment influ­
+ences audit risk assessments other than litigation
+risk. Considering the lower audit fees and relatively
+less litigious environment in Korea, the results sug­
+gest that auditors perceive the overall audit risk
+including reputation loss and regulation interven­
+tion as low during optimistic mood periods, decreas­
+ing the possibility that auditors closely monitor
+managerial opportunistic behaviour in high senti­
+ment times. It also shows that investor sentiment
+surrounding a firm can affect auditors’ mood state,
+even if it does not seem to be directly related to
+auditors. The economic effect of auditor change in
+high investor sentiment is approximately a 5.7%
+decrease in audit fees.
+
+Table 3. High investor sentiment and initial engagement
+discounts.
+DV = LNAF
+Intercept
+CHANGE
+SIZE
+ROA
+LEV
+BM
+INVREC
+QUICK
+NEWFIN
+LOSS
+BIG4
+SPEC
+OPIN
+ACCLAG
+KOSDAQ
+DSG
+Year fixed
+Industry fixed
+Number of Obs.
+Adjusted R-sq.
+
+WHOLE
+(1)
+3.392***
+−0.025***
+0.386***
+−0.471***
+−0.000
+−0.116***
+0.163***
+−0.005
+0.062***
+0.052***
+0.124***
+0.050***
+0.415***
+−0.362***
+−0.028
+0.357***
+Yes
+Yes
+17,583
+0.679
+
+SENTIMENT
+LOW
+(2)
+3.835***
+0.005
+0.366***
+−0.456***
+0.018
+−0.131***
+0.126**
+−0.005
+0.090***
+0.050***
+0.143***
+0.049**
+0.385**
+−0.324***
+−0.038*
+0.370***
+Yes
+Yes
+8,499
+0.631
+
+SENTIMENT
+HIGH
+(3)
+2.991***
+−0.057***
+0.405***
+−0.370***
+−0.037
+−0.101***
+0.203***
+−0.006
+0.020
+0.049***
+0.108***
+0.052***
+0.435**
+−0.358***
+−0.012
+0.323***
+Yes
+Yes
+9,084
+0.721
+
+Refer to Table 2 for variable definitions. Industry fixed effects based on twodigit. t-statistics are calculated with individual firm-level clustered stan­
+dard errors. *, ** and *** represent significance at 10%, 5% and 1%,
+respectively (two-tailed).
+
+In general, the coefficients of the control vari­
+ables are consistent with prior literature. Audit fees
+are significantly associated with client firms size,
+complexity of audit work, and client-specific risks
+(SIZE, INVREC, BM, NEWFIN, OPIN). The profit­
+ability of client firms is also negatively associated
+with audit fees (ROA, LOSS). The positive coeffi­
+cients of BIG4 and SPEC are consistent with the fee
+premium for specialized auditors with high skills
+and knowledge for audits (Bae, Choi, and Lee
+2018).
+High investor sentiment, initial engagement
+discounts, and auditor characteristics
+
+The literature shows that Big4 auditors (BIG4)
+and industry specialist auditors (SPEC) charge
+higher audit fees for their greater ability and
+additional efforts to mitigate potential litigation
+risk (DeFond and Zhang 2014). Given the sub­
+stantial influence of these auditors on the audit
+market, it is important to examine whether the
+effect of high investor sentiment on initial dis­
+counts is maintained even if the auditor is chan­
+ged to BIG4 or SPEC. The results are provided
+in Table 4. Columns (1) and (2) show the results
+of BIG4 and SPEC, respectively.
+
+APPLIED ECONOMICS
+
+Table 4. High investor sentiment, initial engagement discounts,
+and auditor characteristics.
+DV = LNAF
+Intercept
+CHANGE
+CHANGE X BIG4
+CHANGE X SPEC
+BIG4
+SPEC
+Controls
+Year fixed
+Industry fixed
+Number of Obs.
+Adjusted R-sq.
+
+SENTIMENT
+HIGH
+(1)
+2.983***
+−0.031**
+−0.051***
+0.117***
+0.051***
+Yes
+Yes
+Yes
+9,084
+0.721
+
+SENTIMENT
+HIGH
+(2)
+2.980***
+−0.041***
+−0.083**
+0.107***
+0.066***
+Yes
+Yes
+Yes
+9,084
+0.721
+
+969
+
+Table 5. High investor sentiment and audit hours of initial
+engagement auditors.
+DV = LNAH
+Intercept
+CHANGE
+CHANGE X BIG4
+CHANGE X SPEC
+BIG4
+SPEC
+Controls
+Year fixed
+Industry fixed
+Number of Obs.
+Overall R-sq.
+
+SENTIMENT
+HIGH
+(1)
+−1.279***
+−0.006
+
+SENTIMENT
+HIGH
+(2)
+−1.293***
+0.044*
+−0.097***
+
+0.263***
+0.178***
+Yes
+Yes
+Yes
+9,023
+0.550
+
+0.281***
+0.176***
+Yes
+Yes
+Yes
+9,023
+0.551
+
+SENTIMENT
+HIGH
+(3)
+−1.299***
+0.025
+−0.158***
+0.262***
+0.204***
+Yes
+Yes
+Yes
+9,023
+0.551
+
+Refer to Table 2 for variable definitions. Industry fixed effects based on twodigit. t-statistics are calculated with individual firm-level clustered stan­
+dard errors. *, ** and *** represent significance at 10%, 5% and 1%,
+respectively (two-tailed).
+
+Refer to Table 2 for variable definitions. Industry fixed effects based on twodigit. t-statistics are calculated with individual firm-level clustered stan­
+dard errors. *, ** and *** represent significance at 10%, 5% and 1%,
+respectively (two-tailed).
+
+The coefficients of columns (1) and (2) on
+CHANGE are all significantly negative, indicating
+the existence of initial discounts. The coefficients of
+CHANGE � BIG4 and CHANGE � SPEC, which
+are the incremental effects of BIG4 and SPEC, are
+significant and negative. This shows that more
+initial discounts are offered to clients audited by
+BIG4 and SPEC in high investor sentiment. Given
+the high risk sensitivity of BIG4 and SPEC, the
+results suggest that its impact is greater for auditors
+with greater litigation risk. Their fee premiums,
+shown by the significantly positive coefficients of
+BIG4 and SPEC, may enable them to discount their
+initial audit fees.
+
+CHANGE in columns (2) and (3) are not negative,
+implying that auditor change to non-Big4 and nonspecialist do not decrease audit hours in high inves­
+tor sentiment periods on average. However, the
+incremental effects of BIG4 and SPEC are signifi­
+cantly negative when investor sentiment is high.
+This suggests that reduced audit hours contribute
+to initial engagement discounts when auditors are
+changed to BIG4 or SPEC. The results do not mean
+that the decrease in audit hours of BIG4 and SPEC
+results in audit failure because the finding of prior
+studies, more audit hours of BIG4 and SPEC, may
+enable BIG4 and SPEC to reduce audit effort to the
+extent that audit quality is not impaired (DeFond
+and Zhang 2014). Less audit hours of BIG4 and
+SPEC may be the result of auditors’ expectations
+that investors are generous to financial statement
+errors in high sentiment periods.
+
+High investor sentiment and audit hours of initial
+engagement auditors
+
+According to the literature, audit hours are consid­
+ered to directly capture audit effort (DeFond and
+Zhang 2014). If auditors discount initial audit fees
+without decreasing audit hours, the negative effect
+of initial discounts on audit quality is less likely. To
+examine this, we investigate the association
+between auditor change and audit hours in high
+investor sentiment and report the results in Table
+5. Column (1) shows the result for the high senti­
+ment sample, and columns (2) and (3) show the
+results considering BIG4 and SPEC, respectively.
+In column (1), the coefficient on CHANGE is not
+significant, indicating that the initial discounting
+behaviour in column (3) of Table 3 is not driven
+by reduced audit hours. The coefficients on
+
+Additional analyses
+
+To ensure the robustness of our results, we conduct
+several additional analyses. First, we consider the
+types of auditor change such as Big 4 to Big 4, Big 4
+to non-Big 4, non-Big 4 to Big 4, and non-Big 4 to
+non-Big 4. Table 6 presents the results.
+As shown in Table 6, the coefficients of auditor
+change are consistent with our main findings
+except for non-Big4 to non-Big4 (NBIG4_NBIG4).
+Specifically, the coefficients of BIG4_NBIG4,
+BIG4_BIG4, and NBIG4_BIG4 are negatively sig­
+nificant. Even if Craswell and Francis (1999) pro­
+vide evidence that initial discounts exist in auditor
+
+970
+
+Y. YUN AND H. A. KIM
+
+Table 6. Additional analysis: Types of auditor change.
+DV = LNAF
+Intercept
+BIG4_NBIG4
+BIG4_BIG4
+NBIG4_NBIG4
+NBIG4_BIG4
+Controls
+Year fixed
+Industry fixed
+Number of Obs.
+Adjusted R-sq.
+
+SENTIMENT
+HIGH
+(1)
+2.984***
+−0.068***
+−0.064***
+−0.006
+−0.105***
+Yes
+Yes
+Yes
+9,084
+0.721
+
+Table 7. Additional analysis: Interaction model.
+DV = LNAF
+Intercept
+CHANGE
+SENTIMENT_HIGH X CHANGE
+SENTIMENT_HIGH
+SENTIMENT X CHANGE
+SENTIMENT
+Controls
+Year fixed
+Industry fixed
+Number of Obs.
+Adjusted R-sq.
+
+WHOLE
+(1)
+3.380***
+0.009
+−0.065***
+−0.018**
+Yes
+Yes
+Yes
+17,583
+0.679
+
+WHOLE
+(2)
+3.349***
+−0.026***
+−0.122***
+−0.055***
+Yes
+Yes
+Yes
+17,583
+0.680
+
+Refer to Table 2 for variable definitions. Industry fixed effects based on twodigit. t-statistics are calculated with individual firm-level clustered stan­
+dard errors. *, ** and *** represent significance at 10%, 5% and 1%,
+respectively (two-tailed).
+
+Refer to Table 2 for variable definitions. Industry fixed effects based on twodigit. t-statistics are calculated with individual firm-level clustered stan­
+dard errors. *, ** and *** represent significance at 10%, 5% and 1%,
+respectively (two-tailed).
+
+change from non-Big4 to Big4, the significantly
+negative coefficient of NBIG4_BIG4 is somewhat
+surprising because audit fees charged by Big4 are
+generally higher than non-Big4. This can be inter­
+preted as indicating that high investor sentiment
+substantially influences initial audit pricing.
+Second, we use interaction terms and re-examine
+the effect of high investor sentiment on initial dis­
+counts for the whole sample. The results are pre­
+sented in Table 7. Columns (1) and (2) use the
+dummy variable SENTIMENT_HIGH and the con­
+tinuous variable SENTIMENT, respectively. The vari­
+ables of interest are SENTIMENT_HIGH
+� CHANGE and SENTIMENT � CHANGE in
+columns (1) and (2), respectively.
+The coefficients of SENTIMENT_HIGH �
+CHANGE and SENTIMENT � CHANGE are sig­
+nificant and negative, consistent with our main
+results. This increases the robustness of our find­
+ings by confirming that our main results are main­
+tained in the full sample with low and high investor
+sentiment observations. Meanwhile, Table 7 shows
+that SENTIMENT_HIGH (SENTIMENT) is nega­
+tively associated with LNAF, indicating that inves­
+tor sentiment is an important factor affecting audit
+fees.
+
+litigation risk (Amin, Eshleman, and Guo 2021a),
+but the legal environment is not the same for each
+country; thus; it is necessary to investigate whether
+the result is consistent in a weak legal system to
+generalize it.
+Using Korean public firm-years from 2003 to
+2017, we find that initial discounts exist in high
+investor sentiment, but not in low investor sen­
+timent. Further, the results are maintained, and
+the initial audit hours are also low when audi­
+tors are changed to Big4 or specialists. In addi­
+tion, analyses considering the auditor change
+type show that our main results are generally
+consistent. Our findings suggest that high senti­
+ment makes auditors judge engagement risk less
+conservatively, increasing that they are unlikely
+to detect firms’ opportunistic behaviour when
+investor sentiment is high.
+This study has the following limitations. First,
+we measure the investor sentiment variable fol­
+lowing prior studies (e.g. Ryu, Kim, and Yang
+2017), but it is a modified version of Baker and
+Wurgler (2006) which is appropriate for the
+Korean environment. Therefore, our findings
+may not be comparable to other studies measur­
+ing the variable based on Baker and Wurgler
+(2006).
+Second, individual investors account for twothirds of the Korean stock market and have spec­
+ulative and behaviourally biased characteristics
+(e.g. Chung, Park, and Ryu 2016). Therefore, our
+results may not be generalizable to other countries
+whose individual investors and stock market are
+characterized differently.
+
+V. Conclusion
+
+This study examines whether high sentiment
+affects auditors’ risk assessment through initial
+audit discounts in Korea with less litigious envir­
+onment. The prior finding that audit fees are lower
+in high sentiment is interpreted as the reduction of
+
+APPLIED ECONOMICS
+
+Disclosure statement
+No potential conflict of interest was reported by the author(s).
+
+References
+Ali, A., and U. Gurun. 2009. “Investor Sentiment, Accruals
+Anomaly and Accruals Management.” Journal of
+Accounting, Auditing and Finance 24 (3, July): 415–431.
+doi:10.1177/0148558X0902400305.
+Amin, K., J. D. Eshleman, and P. Guo. 2021a. “Investor
+Sentiment, Misstatements, and Auditor Behavior.”
+Contemporary Accounting Research 38 (1): 483–517.
+doi:10.1111/1911-3846.12616.
+Amin, K., J. D. Eshleman, and P. Guo. 2021b. “Investor
+Sentiment and Audit Opinion Shopping.” AUDITING:
+A Journal of Practice & Theory 40 (3): 1–26. doi:10.2308/
+AJPT-2019-523.
+Bae, G. S., S. U. Choi, and J. E. Lee. 2018. “Auditor Industry
+Specialization and Audit Pricing and Effort.” Auditing:
+A Journal of Practice & Theory 38 (1): 51–75. doi:10.2308/
+ajpt-52039.
+Baker, M., and J. Wurgler. 2006. “Investor Sentiment and the
+Cross-section of Stock Returns.” The Journal of Finance
+61 (4): 1645–1680. doi:10.1111/j.1540-6261.2006.00885.x.
+Baker, M., and J. Wurgler. 2007. “Investor Sentiment in the
+Stock Market.” Journal of Economic Perspectives 21 (2):
+129–152. doi:10.1257/jep.21.2.129.
+Baker, M., and J. C. Stein. 2004. “Market Liquidity as
+a Sentiment Indicator.” Journal of Financial Markets 7 (3):
+271–299. doi:10.1016/j.finmar.2003.11.005.
+Beattie, V., and S. Fearnley. 1995. “The Importance of
+Audit Firm Characteristics and the Drivers of Auditor
+Change in UK Listed Companies.” Accounting and
+Business Research 25 (100): 227–239. doi:10.1080/
+00014788.1995.9729912.
+Bergman, N., and S. Roychowdhury. 2008. “Investor
+Sentiment and Corporate Disclosure.” Journal of
+Accounting Research 46 (5): 1057–1083.
+Bless, H., G. L. Clore, N. Schwarz, V. Golisano, C. Rabe, and
+M. Wölk. 1996. “Mood and the Use of Scripts: Does
+a Happy Mood Really Lead to Mindlessness?” Journal of
+Personality and Social Psychology 71 (4, October): 665–679.
+doi:10.1037/0022-3514.71.4.665.
+Brown, N. C., T. E. Christensen, W. B. Elliott, and
+R. D. Mergenthaler. 2012. “Investor Sentiment and Pro
+Forma Earnings Disclosures.” Journal of Accounting Research
+50 (1): 1–40. doi:10.1111/j.1475-679X.2011.00427.x.
+Chen, H., T. T. L. Chong, and X. Duan. 2010. “A
+Principal-component Approach to Measuring Investor
+Sentiment.” Quantitative Finance 10 (4): 339–347.
+doi:10.1080/14697680903193389.
+
+971
+
+Chiang, M. C., I. C. Tsai, and C. F. Lee. 2011. “Fundamental
+Indicators, Bubbles in Stock Returns and Investor
+Sentiment.” Quarterly Review of Economics and Finance
+51 (1): 82–87. doi:10.1016/j.qref.2010.11.001.
+Choi, J. H., J. B. Kim, X. Liu, and D. A. Simunic. 2009. “CrossListing Audit Fee Premiums: Theory and Evidence.” The
+Accounting Review 84(5): 1429–1463.
+Chong, T. T. L., and W. K. Ng. 2008. “Technical Analysis
+and the London Stock Exchange: Testing the MACD
+and RSI Rules Using the FT30.” Applied Economics
+Letters
+15
+(14):
+1111–1114.
+doi:10.1080/
+13504850600993598.
+Chung, J. O., J. R. Cohen, and G. S. Monroe. 2008. “The Effect
+of Moods on Auditors’ Inventory Valuation Decisions.”
+Auditing: A Journal of Practice & Theory 27 (2): 137–159.
+doi:10.2308/aud.2008.27.2.137.
+Chung, K. H., S. G. Park, and D. Ryu. 2016. “Trade Duration,
+Informed Trading, and Option Moneyness.” International
+Review of Economics & Finance 44: 395–411. doi:10.1016/j.
+iref.2016.02.003.
+Cianci, A. M., and J. L. Bierstaker. 2009. “The Impact of
+Positive and Negative Mood on the Hypothesis
+Generation and Ethical Judgments of Auditors.” Auditing:
+A Journal of Practice & Theory 28 (2): 119–144.
+doi:10.2308/aud.2009.28.2.119.
+Cohen Commission. 1978. The Commission on Auditors’
+Responsibilities:
+Report,
+Conclusions,
+and
+Recommendations. Manuel F. Cohen, Chairman.
+New York, NY: AICPA.
+Craswell, A. T., and J. R. Francis. 1999. “Pricing Initial Audit
+Engagements: A Test of Competing Theories.” The
+Accounting Review 74 (2): 201–216. doi:10.2308/
+accr.1999.74.2.201.
+DeAngelo, L. E. 1981. “Auditor Independence, ‘Low Balling’,
+and Disclosure Regulation.” Journal of Accounting and
+Economics 3 (2): 113–127. doi:10.1016/0165-4101(81)
+90009-4.
+DeFond, M., and J. Zhang. 2014. “A Review of Archival
+Auditing Research.” Journal of Accounting and Economics
+58 (2–3): 275–326.
+Desir, R., J. R. Casterella, and J. Kokina. 2014.
+“A Reexamination of Audit Fees for Initial Audit
+Engagements in the post-SOX Period.” Auditing:
+A Journal of Practice & Theory 33 (2): 59–78. doi:10.2308/
+ajpt-50670.
+Dye, R. A. 1991. “Informationally Motivated Auditor
+Replacement.” Journal of Accounting and Economics
+14 (4): 347–374. doi:10.1016/0165-4101(91)90008-C.
+Eshleman, J. D., and P. Guo. 2014. “Abnormal Audit Fees and
+Audit Quality: The Importance of considering Managerial
+Incentives in Tests of Earnings Management.” Auditing:
+A Journal of Practice & Theory 33 (1): 117–138.
+doi:10.2308/ajpt-50560.
+
+972
+
+Y. YUN AND H. A. KIM
+
+Ettredge, M., and R. Greenberg. 1990. “Determinants of Fee
+Cutting on Initial Audit Engagements.” Journal of
+Accounting Research 28 (1): 198–210. doi:10.2307/2491224.
+Financial Supervisory Service (FSS). 2019. “Analysis and
+Implications of Annual Report of Accounting Firms in
+2018 (29 October).” Available at: https://www.fss.or.kr/fss/
+kr/promo/bodobbs_view.jsp?seqno=22641
+Francis, B. B., D. M. Hunter, D. M. Robinson,
+M. N. Robinson, and X. Yuan. 2017. “Auditor Changes
+and the Cost of Bank Debt.” The Accounting Review
+92 (3): 155–184. doi:10.2308/accr-51553.
+Francis, J. R. 1984. “The Effect of Audit Firm Size on Audit
+Prices: A Study of the Australian Market.” Journal of
+Accounting and Economics 6 (2): 133–151. doi:10.1016/
+0165-4101(84)90010-7.
+Ge, R., N. Seybert, and F. Zhang. 2019. “Investor Sentiment
+and Accounting Conservatism.” Accounting Horizons
+33 (1): 83–102. doi:10.2308/acch-52250.
+Ghosh, A., and S. Lustgarten. 2006. “Pricing of Initial Audit
+Engagements by Large and Small Audit Firms.”
+Contemporary Accounting Research 23 (2): 333–368.
+doi:10.1506/927U-JGJY-35TA-7NT1.
+Gregory, A., and P. Collier. 1996. “Audit Fees and Auditor
+Change; an Investigation of the Persistence of Fee
+Reduction by Type of Change.” Journal of Business
+Finance & Accounting 23 (1): 13–28. doi:10.1111/j.14685957.1996.tb00399.x.
+Grundy, B. D., and H. Li. 2010. “Investor Sentiment,
+Executive Compensation, and Corporate Investment.”
+Journal of Banking & Finance 34 (10): 2439–2449.
+doi:10.1016/j.jbankfin.2010.03.020.
+Gul, F. A., and J. Goodwin. 2010. “Short-term Debt Maturity
+Structures, Credit Ratings, and the Pricing of Audit
+Services.” The Accounting Review 85 (3): 877–909.
+doi:10.2308/accr.2010.85.3.877.
+Han, S., Z. Rezaee, L. Tuo, and J. Wu. 2021. “Corporate Social
+Impact and Auditor Changes.” Journal of Corporate
+Accounting & Finance 32 (2): 129–153. doi:10.1002/jcaf.22493.
+Hansen, G. 2010. “Audit Fees and Engagement
+Profitability: A Threats and Safeguards Approach to
+Strengthen Compliance with Standards of Ethical
+Behavior.” Available at: http://www.nasba.org/files/
+2011/03/Ethics_and_Strategic_Issues_Discussion22Oct20.pdf
+Hay, D. C., W. R. Knechel, and N. Wong. 2006. “Audit Fees:
+A Meta-analysis of the Effect of Supply and Demand
+Attributes.” Contemporary Accounting Research 23 (1):
+141–191. doi:10.1506/4XR4-KT5V-E8CN-91GX.
+He, W., K. H. Hong, and E. Wu. 2020. “Does Investor
+Sentiment Affect the Value Relevance of Accounting
+Information?” Abacus 56 (4): 535–560. doi:10.1111/
+abac.12203.
+Hribar, P., and J. McInnis. 2012. “Investor Sentiment and
+Analysts’ Earnings Forecast Errors.” Management Science
+58 (2): 293–307. doi:10.1287/mnsc.1110.1356.
+
+Huang, H. W., K. Raghunandan, and D. Rama. 2009. “Audit
+Fees for Initial Audit Engagements before and after SOX.”
+Auditing: A Journal of Practice & Theory 28 (1): 171–190.
+doi:10.2308/aud.2009.28.1.171.
+Huang, H. W., K. Raghunandan, T. C. Huang, and J. R. Chiou.
+2015. “Fee Discounting and Audit Quality following Audit
+Firm and Audit Partner Changes: Chinese Evidence.” The
+Accounting Review 90 (4): 1517–1546. doi:10.2308/accr50958.
+Hurwitz, H. 2018. “Investor Sentiment and Management
+Earnings Forecast Bias.” Journal of Business Finance &
+Accounting 45 (1–2): 166–183. doi:10.1111/jbfa.12282.
+Jeong, K. H., and E. S. Ki. 2016. “Is There Initial Audit
+Engagement Discount in the Audit Market for Private
+Firms? A Korean Perspective.” Study on Accounting,
+Taxation, & Auditing 68: 1–30.
+Kim, K., and J. Byun. 2010. “Effect of Investor Sentiment on
+Market Response to Stock Split Announcement.” AsiaPacific Journal of Financial Studies 39 (6): 687–719.
+doi:10.1111/j.2041-6156.2010.01029.x.
+Kim, M., and J. Park. 2015. “Individual Investor Sentiment
+and Stock Returns: Evidence from the Korean Stock
+Market.” Emerging Markets Finance and Trade 51 (5): S1–
+S20. doi:10.1080/1540496X.2015.1062305.
+Korea Herald. 2018. “[On the Bar] Recent Changes in
+Accounting
+and
+Audit
+Practices
+in
+Korea.”
+18 November 2018. Accessed 11 April 2019. http://www.
+koreaherald.com/view.php?ud=20181116000504
+Kumar, A., and C. Lee. 2006. “Retail Investor Sentiment and
+Return Comovements.” Journal of Finance 61 (5):
+2451–2486. doi:10.1111/j.1540-6261.2006.01063.x.
+Kwon, S. Y., and H. Kim. 2019. “A Comparison of the Audit
+Fees in Korea, the U.S., Japan, and China.” Korean
+Accounting Journal 28 (1): 175–217. doi:10.24056/
+KAJ.2019.01.007.
+Lee, S. C., J. Park, and K. Jeong. 2011. “An Empirical Analysis
+of Fee Cutting on Initial Audit Engagements.” Study on
+Accounting, Taxation, & Auditing 53 (2): 501–534.
+Liao, T. L., C. J. Huang, and C. Y. Wu. 2011. “Do Fund
+Managers Herd to Counter Investor Sentiment?” Journal
+of Business Research 64 (2): 207–212. doi:10.1016/j.
+jbusres.2010.01.007.
+Peel, M. J. 2013. “The Pricing of Initial Audit Engagements by
+Big 4 and Leading Mid-tier Auditors.” Accounting and
+Business Research 43 (6): 636–659. doi:10.1080/
+00014788.2013.827106.
+Peterson, M. A. 2009. “Estimating Standard Errors in
+Finance Panel Data Sets: Comparing Approaches.” The
+Review of Financial Studies 22 (1): 435–480. doi:10.1093/
+rfs/hhn053.
+Public Company Accounting Oversight Board (PCAOB).
+2010. “Identifying and Assessing Risks of Material
+Misstatement. Auditing Standard No. 12.” https://pcao
+bus.org/oversight/standards/auditing-standards/details/
+Auditing_Standard_12
+
+APPLIED ECONOMICS
+
+Public Company Accounting Oversight Board (PCAOB).
+2011. “Concept Release on Auditor Independence and
+Audit Firm Rotation.” Rulemaking Docket Matter No. 37:
+Release No. 2011-006. http://pcaobus.org/rules/rulemak
+ing/docket037/release_2011-006.pdf
+Rho, J. H., G. S. Bae, and S. H. Cho. 2004. “The Effect of the
+Mandatory Auditor Retention Requirement on Audit
+Fees.” Korea Accounting Review 29 (1): 207–230.
+Ryu, D., H. Kim, and H. Yang. 2017. “Investor Sentiment,
+Trading Behavior and Stock Returns.” Applied Economics
+Letters
+24
+(12):
+826–830.
+doi:10.1080/
+13504851.2016.1231890.
+Seetharaman, A., F. A. Gul, and S. G. Lynn. 2002. “Litigation
+Risk and Audit Fees: Evidence from UK Firms Cross-listed
+on US Markets.” Journal of Accounting and Economics
+33 (1): 91–115. doi:10.1016/S0165-4101(01)00046-5.
+Seok, I. S., H. Cho, and D. Ryu. 2019. “Firm-specific Investor
+Sentiment and the Stock Market Response to Earnings
+News.” North American Journal of Economics and Finance
+48: 221–240. doi:10.1016/j.najef.2019.01.014.
+Shin, Y. I., K. Choi, and H. W. Cho. 2007. “A Study on the
+Effect of Initial Audit Fee Discount on Audit Quality.”
+Korea Accounting Review 32 (1): 173–207.
+Simon, D. T., and J. R. Francis. 1988. “The Effects of Auditor
+Change on Audit Fees: Tests of Price Cutting and Price
+Recovery.” Accounting Review 62 (2): 255–269.
+Simpson, A. 2013. “Does Investor Sentiment Affect Earnings
+Management?” Journal of Business Finance & Accounting
+40 (7–8): 869–900. doi:10.1111/jbfa.12038.
+Simunic, D. 1980. “The Pricing of Audit Service: Theory and
+Evidence.” Journal of Accounting Research 18 (1): 161–190.
+doi:10.2307/2490397.
+Turner, L. 2002. Hearings on H.R. 3763-The Corporate and
+auditing accountability, responsibility, and transparency
+act of 2002. U.S. House of Representatives, Committee on
+Financial Services. (March 13, 20; April 9). Washington, D.
+C.: Government Printing Office.
+Walther, B. R., and R. H. Willis. 2013. “Do Investor
+Expectations Affect Sell-side Analysts’ Forecast
+Bias and Forecast Accuracy?” Review of Accounting
+Studies 18 (1): 207–227. doi:10.1007/s11142-0129204-9.
+
+973
+
+Yang, C., and B. Gao. 2014. “The Term Structure of Sentiment
+Effect in Stock Index Futures Market.” North American
+Journal of Economics and Finance 30: 171–182.
+doi:10.1016/j.najef.2014.09.001.
+Yang, C., and R. Zhang. 2014. “Does Mixed-frequency
+Investor Sentiment Impact Stock Returns? Based on the
+Empirical Study of MIDAS Regression Model.” Applied
+Economics
+46
+(9):
+966–972.
+doi:10.1080/
+00036846.2013.864041.
+
+Appendix A
+Variables
+Definition
+LNAF
+the natural logarithm number of total audit fees
+LNAH
+the natural logarithm number of total audit hours
+SENTIMENT individual firm-level investor sentiment measure calculated
+based on the first principle component on five proxies
+CHANGE
+a dummy variable that takes 1 if auditor of the firm is
+changed for the period, otherwise 0
+SIZE
+the natural logarithm number of total assets
+ROA
+operating income scaled by total asset
+LEV
+total liabilities divided by total assets
+BM
+book value of equity divided by market value of the firm
+INVREC
+sum of inventory and account receivable scaled by total
+asset
+QUICK
+current liability divided by current asset
+NEWFIN
+a dummy variable that takes 1 if the firm increase the book
+value of equity during period, otherwise 0
+LOSS
+a dummy variable that takes 1 if the firm reported a net loss,
+otherwise 0
+BIG4
+a dummy variable that takes 1 if the firm is audited by Big 4
+auditors (PwC, KPMG, Deloitte, and EY), otherwise 0
+SPEC
+a measure of industry specialist auditors defined as a dummy
+variable takes 1 if auditor has a portion over 30% within
+the industry and has a gap with a following auditor over
+10%, based on client total sales. The market share is
+calculated as the sum of the auditor’s client total sales for
+each industry-year divided by the sum of all auditors’
+client total sales in the industry-year.
+OPIN
+a dummy variable that takes 1 if the firm receive audit
+opinion except for qualified opinion, otherwise 0
+ACCLAG
+lagged total accruals divided by lagged total asset, accruals is
+calculated by subtracting operating cash flow from net
+income
+KOSDAQ
+a dummy variable that takes 1 if the firm is listed in KOSDAQ
+market, otherwise 0
+DSG
+a control for designation in Korean audit market, a dummy
+variable that takes 1 if total audit fee is more than doubled
+over previous period, otherwise 0
+
+

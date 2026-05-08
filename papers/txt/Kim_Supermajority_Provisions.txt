@@ -1,0 +1,5480 @@
+Received: 13 August 2020
+
+Revised: 17 August 2021
+
+Accepted: 18 August 2021
+
+DOI: 10.1111/corg.12402
+
+ORIGINAL ARTICLE
+
+Supermajority provisions and shareholders wealth: Evidence
+from South Korea's natural experiment
+Hyeong Joon Kim
+
+| Seung Hun Han
+
+School of Business and Technology
+Management, College of Business, Korea
+Advanced Institute of Science and Technology,
+Daejeon, Republic of Korea
+
+Abstract
+Research Question/Issue: The existing research continues to debate whether firms'
+anti-takeover provisions enhance or harm shareholders' wealth. In this study, we
+
+Correspondence
+Seung Hun Han, School of Business and
+Technology Management, College of Business,
+Korea Advanced Institute of Science and
+Technology, 291, Daehak-ro, Yuseong-gu,
+Daejeon, Republic of Korea.
+Email: synosia@kaist.ac.kr
+
+examine the causal relation between the supermajority provision and shareholders'
+
+Funding information
+National Research Foundation of Korea,
+Grant/Award Number: NRF2018H1A2A1060309
+
+find that firms with a supermajority provision as their only anti-takeover provision sig-
+
+wealth by employing a quasi-natural experiment: the two court rulings that weaken
+the anti-takeover force of the supermajority provision in Korea, where the supermajority provision is the most widely used anti-takeover provision.
+Research Findings/Insights: Using market reactions around the two court rulings, we
+nificantly underperform on average, compared with firms with no provision. This finding is robust to various empirical approaches that aim to address potential
+endogeneity concerns. We also find evidence that the supermajority provision plays a
+more significant role for firms with long-term investments, higher complexity, or
+higher takeover threats. Furthermore, the second among the two court rulings appears
+to have a stronger impact on the firm value and institutional investors' selling compared with the first one, suggesting the reinforcing effect of similar court decisions.
+Theoretical/Academic Implications: Our study contributes to the corporate governance literature by investigating the effect of the supermajority provisions on shareholders' wealth. While conventional wisdom holds that the anti-takeover provisions
+harm shareholders' rights and wealth, our evidence from the quasi-natural experiment in Korea suggests that the positive effect of the supermajority provision empirically dominates the negative effect. Overall, our study supports the value-enhancing
+perspective on the supermajority provision, indicating that the Korean stock market
+views such a provision as inducing higher shareholders' wealth.
+Practitioner/Policy Implications: This study highlights that a more contextual view of
+the relation between the anti-takeover provisions and shareholders' wealth is necessary. Moreover, we suggest that a regulation prohibiting firms' anti-takeover provisions might harm shareholders' wealth, but it appears that a firm-specific approach
+should be considered.
+KEYWORDS
+
+anti-takeover provisions, corporate governance, firm value, quasi-natural experiment,
+shareholders' wealth
+
+Corp Govern Int Rev. 2022;30:311–334.
+
+wileyonlinelibrary.com/journal/corg
+
+© 2021 John Wiley & Sons Ltd
+
+311
+
+1
+
+KIM AND HAN
+
+|
+
+I N T RO DU CT I O N
+
+studies show that the positive association between the anti-takeover
+provisions and firm value is significant for innovative firms; these
+
+Anti-takeover provisions remain one of the most controversial topics
+
+studies support the theoretical argument related to myopic pressure
+
+in the corporate governance literature. Conventional wisdom holds
+
+(Bhojraj et al., 2017; Daines, 2001; Daines et al., 2018; Duru
+
+that such provisions weaken shareholders' rights and insulate direc-
+
+et al., 2013; Humphery-Jenner, 2014).
+
+tors from dismissal. Hence, under such provisions, incumbents may
+
+Although prior empirical studies robustly show a positive or nega-
+
+become inefficient at the shareholders' expense. However, by making
+
+tive relationship between the anti-takeover provisions and firm value,
+
+removal harder, the anti-takeover provisions may allow directors and
+
+one might still argue that it is unclear whether such correlations are
+
+management sufficient time to create long-term shareholders' wealth.
+
+causal because of several endogeneity concerns.2 In addition, there
+
+The literature has still not fully resolved this long-standing debate. In
+
+might be heterogeneity among the various anti-takeover provisions,
+
+this study, we thus aim to shed light on these conflicting perspectives
+
+making the estimation of the average effect of all the anti-takeover
+
+by focusing on the most widely used anti-takeover provision in our
+
+provisions difficult. Hence, it is worth focusing on an individual anti-
+
+sample, under which firms require a supermajority-voting rule at their
+
+takeover provision as the effect of the anti-takeover provisions is
+
+annual meetings.
+
+challenging to generalize. In this study, we aim to contribute to the
+
+The value-destroying perspective emphasizes the costs of anti-
+
+large body of corporate governance literature through a quasi-natural
+
+takeover provisions. Such provisions allow directors to become
+
+experiment. Specifically, we exploit two court rulings that make the
+
+entrenched, even those who are self-interested, and thereby, agency
+
+anti-takeover force of the supermajority provision potentially weaker
+
+problems arise. Theoretically, shirking, private benefit expropriation,
+
+for publicly traded firms in Korea, in line with prior research that used
+
+and empire-building are more likely to be encouraged (Bertrand &
+
+a legal context as a quasi-natural experiment (Bhargava et al., 2017;
+
+Mullainathan, 2003; Jensen, 1993; Manne, 1965). In addition, Harris
+
+Cain et al., 2017; Cohen & Wang, 2013; Daines et al., 2018; Karpoff &
+
+and Raviv (1988) show that rather than the simple majority voting
+
+Wittry, 2018; Larcker et al., 2011). We also note that our study esti-
+
+rule, other majority rules (e.g., supermajority voting) that can be used
+
+mates the effect of the supermajority provision (but not all the anti-
+
+as takeover defenses are socially suboptimal. As a result, the anti-
+
+takeover provisions) owing to the given nature of our empirical
+
+takeover provisions increase agency costs (Jensen & Meckling, 1976)
+
+design.
+
+and, thus, are expected to reduce firm value. A stream of empirical
+
+In particular, we examine the cross-section of stock returns
+
+studies supports this value-destroying perspective. In particular,
+
+around the two court rulings in Korea in 2007 and 2008. We find a
+
+Bebchuk et al. (2009) and Gompers et al. (2003) show the strong cor-
+
+significantly negative market reaction over the 3-day window,
+
+relation between a higher number of anti-takeover provisions and
+
+percentage points on average, for treated firms (i.e., firms with a super-
+
+lower firm value. Furthermore, several studies find that anti-takeover
+
+majority provision as their only anti-takeover provision). Our baseline
+
+provisions (described as a lower quality of corporate governance) are
+
+regressions also show that treated firms significantly underperform
+
+negatively associated with overall performance, including accounting
+
+control firms (i.e., firms with no anti-takeover provisions). Overall, we
+
+performance, reinvestment rates, beneficial acquisition offers, and
+
+find a negative association between shareholders' wealth and the two
+
+post-merger performance (Bebchuk & Cohen, 2005; Cohen &
+
+court rulings that weaken the anti-takeover force of the supermajority
+
+Wang, 2013; Cremers & Ferrell, 2014; Faleye, 2007; Giroud &
+
+provision, consistent with the value-enhancing perspective (Bhojraj
+
+Mueller, 2011; Masulis et al., 2007).
+
+et al., 2017; Cremers et al., 2017; Daines et al., 2018; Daines &
+
+The value-enhancing perspective argues that the anti-takeover pro-
+
+1.05
+
+Klausner, 2001).
+
+visions can be beneficial to the firms, as suggested in several theoreti-
+
+To further explore our main results in terms of the legal perspec-
+
+cal studies (Chemmanur & Jiao, 2012; Stein, 1988, 1989). In
+
+tive, we investigate the impacts of the two court rulings (separately)
+
+particular, Stein (1988, 1989) posits that such provisions mitigate
+
+including the data for trading behavior. Here, we find that the nega-
+
+overinvestment in short-term projects and help directors avoid ineffi-
+
+tive value impact of the second court ruling on treated firms is strongly
+
+cient short-termism (or myopic pressure). Such provisions also can dis-
+
+supported, but that of the first court ruling is weakly supported. In
+
+courage directors from acting opportunistically toward the firm's
+
+addition, institutional investors are more likely to sell their shares of
+
+stakeholders (e.g., large customers). In addition, the provisions reduce
+
+treated firms compared with control firms, particularly around the
+
+the stakeholders' risk by securing stability and continuity in manage-
+
+second court ruling. These results confirm the real effect of the prece-
+
+ment, as the firm's business plan cannot easily be reversed. Therefore,
+
+dent on the Korean stock market (although the Korean legal system
+
+the cost of the relationship between a firm and its stakeholders
+
+follows the German-origin civil law). Taken together, we cautiously
+
+decreases, and firm value improves (Knoeber, 1986; Shleifer &
+
+suggest that a reinforcing effect of the second court ruling, which has
+
+Summers, 1988).1 In the case of takeover attempts, the anti-takeover
+
+a similar court decision to the first court ruling, might be observed.
+
+provisions strengthen bargaining power and, thus, can extract a higher
+
+We adopt several empirical approaches to mitigate potential bias
+
+acquisition premium (DeAngelo & Rice, 1983; Stulz, 1988). Consistent
+
+concerns. First, we use propensity score matching (PSM) as the mar-
+
+with this value-enhancing view, empirical evidence supports the anti-
+
+ket's views with respect to firm characteristics may differ between
+
+takeover provisions raising shareholders' wealth (e.g., Cremers
+
+treated and control firms. Second, we conduct a sample of firms with
+
+et al., 2017; Daines & Klausner, 2001). Specifically, a number of
+
+anti-takeover provisions that did not change over the first and second
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+312
+
+court rulings (i.e., the unchanged sample), as well as the changed sam-
+
+2
+
+EMPIRICAL FRAMEWORK
+
+|
+
+ple. Third, we use two simulation approaches to assess the significance of our results. Finally, as robustness checks, we conduct a
+
+This section illustrates the relevant background of our empirical
+
+placebo test focusing on a sample of firms with one anti-takeover pro-
+
+framework. In this study, we test whether weakening the anti-
+
+vision other than a supermajority provision, as their only anti-takeover
+
+takeover force of a supermajority provision leads to a positive or neg-
+
+provision, or use alternative fixed effects or alternative stock price
+
+ative effect on shareholders' wealth by using the two decisions from
+
+reaction measures. Our main results continue to hold.
+
+the local court in Korea (hereafter, the two court rulings), where the
+
+Next, we provide additional discussions. First, we incorporate
+
+supermajority provisions are the most widely used anti-takeover pro-
+
+large business group affiliations in Korea (i.e., the chaebol) and firm-
+
+vision. Thus, we begin by describing the institutional background in
+
+specific governance quality scores into our analysis following the cor-
+
+Korea and summarize the two court rulings and related anecdotal
+
+porate governance literature that focuses on Korean samples (Baek
+
+evidence.
+
+et al., 2004; Baek et al., 2006; Black et al., 2006; Chang et al., 2017;
+Lee & Park, 2009; Shin & Park, 1999). The results indicate that our
+main findings are not driven by an omitted variable bias related to the
+
+2.1
+
+|
+
+Institutional background in Korea
+
+chaebol group or the firm-level corporate governance quality. Second,
+we investigate the possible channels for the value-enhancing perspec-
+
+A company can have a provision in its bylaw or corporate charter that
+
+tive. We find partial (but supportive) evidence that treated firms that
+
+establishes higher voting requirements for an important action
+
+engage in intensive R&D investments or operate in industries with
+
+(e.g., approving a merger or replacing directors) compared with the
+
+higher complexity tend to experience a significant reduction in their
+
+threshold requirements in the law. This type of takeover defense is
+
+firm value around the two court rulings. We also find that treated firms
+
+called the supermajority provision in the literature (Bebchuk
+
+facing a higher takeover threat have a larger decrease in firm value.
+
+et al., 2009; Gompers et al., 2003; Karpoff & Malatesta, 1989). The
+
+Collectively, the results of these additional tests support the argument
+
+voting requirements in a supermajority provision typically exceed
+
+that the supermajority provision plays a more significant role for sub-
+
+the participation level of shareholders at a meeting and, therefore,
+
+sets of firms.
+
+such important actions that require a supermajority rule become very
+
+Our study contributes to the corporate governance literature and
+
+costly or nearly unachievable (Field & Karpoff, 2002).
+
+provides policy implications. First, we construct our empirical setup by
+
+As our sample is composed of listed firms in Korea, we describe
+
+focusing on two court rulings that weaken the anti-takeover force of
+
+the three following points that make our empirical setup distinct. First,
+
+the supermajority provision; this is in line with prior studies using the
+
+we mainly consider three anti-takeover provisions for our sample:
+
+legal setting as a natural experiment (e.g., Cohen & Wang, 2013). We
+
+supermajority provision, staggered board, and golden parachute.
+
+present empirical evidence using several approaches, such as PSM
+
+According to the Solidarity for Economic Reform (SER),3 public firms
+
+and simulation. Second, we find that the changes in firm value around
+
+listed on the Korea Exchange (KRX) can usually adopt five types of
+
+these two court rulings are, on average, consistent with the value-
+
+(non-mutually exclusive) takeover defenses under the Commercial Act
+
+enhancing perspective of the supermajority provision. We perform an
+
+in Korea, as follows: (i) a supermajority rule for mergers, (ii) a superma-
+
+additional test to investigate the channels of our main findings. The
+
+jority rule for a change of directors, (iii) a supermajority rule for a
+
+literature argues that the market may view the anti-takeover provi-
+
+change of charter, (iv) a staggered/classified board or a provision limit-
+
+sions as having a heterogeneous effect across different subsets of
+
+ing the number of directors that can be replaced at a general meeting,
+
+firms (Amihud et al., 2017; Amihud & Stoyanov, 2017). Extending this
+
+and (v) a golden parachute.4 We consider takeover defense types (i)–
+
+line of thought, we find that the supermajority provision has a more
+
+(iii) to be the supermajority provision and type (iv) to be the staggered
+
+significant effect on shareholders' wealth for firms with long-term
+
+board. Overall, our focus is on these three anti-takeover provisions
+
+investments, higher complexity, or higher threat of takeovers. Finally,
+
+(typically, the supermajority provision).
+
+our empirical evidence, in general, suggests that the importance of a
+
+Second, although focusing on the supermajority provision may
+
+more contextual view of the relation between the anti-takeover provi-
+
+contrast with the focus of prior studies, it is well suited to our empiri-
+
+sions and shareholders' wealth. For instance, for an industry where
+
+cal setup. In general, empirical studies on the value effect of corporate
+
+long-term
+
+by
+
+governance have focused on staggered boards in samples consisting
+
+policymakers who unconditionally regard the anti-takeover provisions
+
+of U.S. firms (Bebchuk & Cohen, 2005; Cohen & Wang, 2013;
+
+as value-destroying corporate governance factors might harm share-
+
+Cremers et al., 2017; Daines et al., 2018; Faleye, 2007). This is a rea-
+
+holders' wealth.
+
+sonable approach because most U.S. firms have adopted staggered
+
+investment
+
+is
+
+essential,
+
+the
+
+regulation
+
+made
+
+The remainder of this paper is organized as follows. In Section 2,
+
+boards as takeover defenses (Bebchuk et al., 2002; Bebchuk &
+
+we discuss the relevant background to support the validation of our
+
+Cohen, 2005). Conversely, for Korean firms, the supermajority provi-
+
+empirical framework. Section 3 describes our data and sample selec-
+
+sion is the most widely used anti-takeover provision. According to the
+
+tion. In Section 4, we report the main results from the various empiri-
+
+SER report mentioned above, Korean firms adopt takeover defense
+
+cal approaches. Section 5 further discusses our additional tests.
+
+types (i)–(v) by about 1%, 14%, 8%, 3%, and 8%, respectively. The
+
+Finally, Section 6 concludes the paper.
+
+supermajority provision for a change of directors (i.e., type (ii)) is
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+313
+
+KIM AND HAN
+
+KIM AND HAN
+
+the most selected anti-takeover provision by Korean-listed firms.5
+
+shareholders and invalidated the supermajority provision of FYD.
+
+This anecdotal evidence supports that focusing on the supermajority
+
+Three judges of the Incheon District Court made the following decla-
+
+provision (rather than the staggered board or the golden parachute) is
+
+ration:
+
+appropriate for our Korean sample.
+
+2007Kahap335 dated April 13, 2007 [Provisional Disposition
+
+Third, in contrast with U.S. firms, all Korean firms are affected by a
+
+Incheon
+
+District
+
+Court
+
+(Bucheon
+
+Branch)
+
+Order
+
+Suspending Validity of Resolution of General Shareholders' Meeting].
+
+single law, the Commercial Act in Korea (i.e., there are no state or local
+laws in Korea).6 We also note that the corporate charter in Korea is con-
+
+… It cannot be allowed to impair the essence of the cor-
+
+ceptually the same as combining both corporate charter and bylaws in
+
+poration, hamper the purpose of its existence, or infringe
+
+United States. For instance, matters that can be included in bylaws for
+
+on the inherent rights of the shareholders. … The super-
+
+U.S. firms should be included in charters for Korean firms.7 Therefore,
+
+majority provision in the charter of the respondent firm
+
+we simply use the term “charter” (Jeong-Gwan in Korean) hereafter. We
+
+can result in the serious distortion of shareholder voting
+
+collect the charters of firms in our data collection process (naturally,
+
+rights, therefore such a provision will be invalid. …
+
+bylaws are not considered) to construct the variables of the anti-takeover
+provisions. We provide detailed definitions of our variables in Section 3.
+Meanwhile, our study can only be valuable to the corporate gov-
+
+2.2.2
+
+|
+
+The second court ruling
+
+ernance literature if there is an active takeover market in
+South Korea, even though several studies provide insights into corpo-
+
+On March 28, 2008, the respondent firm of the second court ruling,
+
+rate governance using non-U.S. samples. Similar to Frattaroli (2020),
+
+GNCO Co., Ltd., held a general shareholders' meeting. In particular,
+
+we compare Korea with the G7 countries (Canada, France, Germany,
+
+GNCO changed its directors and revised its charter to adopt a superma-
+
+Italy, Japan, the United Kingdom, and the United States) and China in
+
+jority provision for the removal of a director. On April 8, 2008, a minority
+
+terms of the mergers and acquisitions (M&A) market in the 2000s.
+
+shareholder of GNCO (a trustee of the fund in which approximately 8%
+
+The statistics show that average annual number and total volume of
+
+of GNCO's shares are incorporated) and a former director, who was dis-
+
+M&A in the Korean market are sufficiently significant (for brevity,
+
+missed at the last shareholders' meeting, argued that there were several
+
+these are reported in the Online Appendix). Overall, Korea has an
+
+shortcomings in the last meeting and turned to the local court, seeking
+
+active market for M&A in the 2000s, indicating that our study can be
+
+to invalidate the meeting. On June 2, 2008, the Seoul Central District
+
+of interest to the corporate governance literature.
+
+Court partially approved the provisional disposition suspending the validity of resolutions of the general shareholders' meeting. In short, the Seoul
+Central Court (partially) agreed with minority shareholders and, thus,
+
+2.2 | The two court rulings related to the antitakeover force of the supermajority provision
+
+invalidated the supermajority provision of GNCO. Three judges of the
+Seoul Central District Court made the following declaration, which was
+similar to the first court ruling: Seoul Central District Court Order
+
+In this subsection, we discuss the two court rulings related to the super-
+
+2008Kahap1167 dated June 2, 2008 [Provisional Disposition Suspending
+
+majority provision in the charter of a firm. The first and second court
+
+Validity of Resolution of General Shareholders' Meeting, etc.].
+
+rulings were made by local courts in Incheon and Seoul in 2007 and
+2008, respectively (Incheon metropolitan city is the third most populous
+
+… When the directors are improperly managing, share-
+
+city in South Korea). We then discuss the Korean commercial legal tra-
+
+holders need to be able to quickly dismiss directors in
+
+dition and provide anecdotal evidence related to the two court rulings.
+
+order to protect their property. For this purpose, the
+Commercial Act clarifies that, at any time, the directors
+can be removed by the special-decision in the share-
+
+2.2.1
+
+|
+
+holders' meeting.8 … The voting requirements which
+
+The first court ruling
+
+are stricter than the special-decision set in the ComOn February 20, 2007, the respondent firm of the first court ruling,
+
+mercial Act could result in suppressing a large number
+
+FYD Corp. (later Provita Corp.), had changed its charter to impose a
+
+of shareholders by specific shareholders or giving veto
+
+supermajority provision for the removal of a director at the general
+
+power to specific shareholders. Therefore, such a
+
+shareholders' meeting. On March 6, 2007, minority shareholders of
+
+supermajority provision in the charter of the respon-
+
+FYD turned to the local court seeking to invalidate the general share-
+
+dent firm contradicts the Commercial Act. Hence,
+
+holders' meeting (held on February 20, 2007). They especially argued
+
+adopting such a provision is an invalid act. …
+
+that the resolution adopted of “a supermajority provision for the dismissal of a director” infringed their own rights as shareholders. On
+April 13, 2007, the Incheon District Court partially approved the pro-
+
+2.2.3
+
+|
+
+Legal force of the court rulings in Korea
+
+visional disposition, suspending the validity of the resolutions of the
+general shareholders' meeting raised by minority shareholders. In
+
+One might argue about the effect of the court rulings in Korea on the
+
+short, the Incheon District Court (partially) agreed with minority
+
+stock market, since the Korean commercial legal tradition follows
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+314
+
+the German civil law system (La Porta et al., 1997, 1998, 1999).
+
+participants in the Korean financial market are aware of the possibility
+
+Therefore, we note two important arguments on the effect of the
+
+of the supermajority provision becoming invalid.
+
+court rulings due to the nature of the difference between civil and
+
+Nevertheless, we conduct a placebo test to further support the
+
+common law systems. First, if the precedent (in Korea) has a strong
+
+validity of our empirical framework. Focusing on the firms that have a
+
+binding force similar to the common law system (i.e., the doctrine of
+
+staggered board or golden parachute as their only anti-takeover provi-
+
+stare decisis), then we expect that participants in the Korean
+
+sion, wherein these firms are expected to be not affected by the two
+
+market also react similarly to ones in the common law system. In par-
+
+court rulings in any way, we find that stock price reactions of such
+
+ticular, as the first court ruling already releases information by casting
+
+firms are not significantly different from those of firms with no provi-
+
+a doubt on the validity of the supermajority provision, no significant
+
+sions. The results of the placebo test are provided in the Online
+
+market reaction should be observed around the second court ruling
+
+Appendix. We also discuss whether participants in the Korean market,
+
+(or any similar ruling after the first court ruling). Second, if the prece-
+
+such as institutional investors, abnormally react to the most affected
+
+dent has no actual legal force in any way, then we should never
+
+firms by the court rulings (i.e., firms with the supermajority provisions)
+
+observe an abnormal market reaction around the two court rulings
+
+in Section 4.3.
+
+(also, all the court rulings related to the corporation). However, the
+reality could lie between these two arguments given that the Korean
+law system only concedes the “de facto” legal binding force of the
+precedent. We focus on this view in Section 4.3.
+
+2.3 | The natural experiment based on
+announcements of the two court rulings
+We use a quasi-natural experiment setup based on the two court rul-
+
+2.2.4
+
+|
+
+Anecdotal evidence
+
+ings that make the anti-takeover force of the supermajority provision
+potentially weaker. In particular, we follow Cohen and Wang (2013)
+
+In October 2007, Joong-Ang Daily, a major media company in Korea,
+
+to investigate whether the two court rulings led to an increase or a
+
+reported that “the supermajority provision to defense (sic) merger and
+
+decrease in affected firms' shareholders' wealth. Cohen and
+
+acquisition is invalid” by using the declaration of the first court ruling.9
+
+Wang (2013) focus on two court rulings at the Delaware Chancery
+
+Meanwhile, The Law Times, the sole legal newspaper in Korea, reports
+
+Court in October 2010 and the Delaware Supreme Court in
+
+the second court ruling in full in June 2008.10 Moreover, the Korea
+
+November 2010 as a natural experiment setup. The former court
+
+11
+
+mention that, by citing the
+
+ruling weakened the potential anti-takeover force of staggered
+
+second court ruling, “the supermajority-voting rule is arguable, since
+
+boards, whereas the subsequent ruling by the Delaware Supreme
+
+recently there was a court decision that the supermajority which is
+
+Court reversed that decision. Specifically, Cohen and Wang (2013)
+
+stricter than the threshold described in the Commercial Act, is con-
+
+integrate the two events by pooling the observations for abnormal
+
+Corporate Governance Services (KCGS)
+
+trary to the purpose of the Commercial Act.”
+
+12
+
+The respondent firm of the second court ruling, GNCO Co., Ltd.,
+which was listed on the Korean Securities Dealers Automated Quota-
+
+returns and conclude that staggered boards are negatively associated
+with firm value using the returns at the time the two Delaware court
+rulings were announced.
+
+tion (KOSDAQ) in KRX, experienced a stock price decrease of about
+
+Extending the view of Cohen and Wang (2013), we argue that
+
+5.1% within a post-trading day of the court ruling (i.e., from the close
+
+our empirical design can estimate the underlying effect on firm value
+
+of market on June 2 to the close of market on June 3, 2008).13 This
+
+of the decisions that weakened the supermajority provision. Collec-
+
+market reaction was an economically significant decrease compared
+
+tively, we examine the cross-section of stock returns around the
+
+with the indexes of KOSDAQ and Korea Composite Stock Price Index
+
+announcement of the two court rulings and estimate the wealth effect
+
+(KOSPI) over the same period, which decreased by 1.1% and 1.5%,
+
+for affected firms (i.e., firms that have a supermajority provision prior
+
+respectively. Therefore, the respondent firm was clearly (and abnor-
+
+to the two court rulings). We also pool the two court rulings in our
+
+mally) affected by its court ruling (i.e., the invalidation of its superma-
+
+empirical analysis to take advantage of the increased sample size and
+
+jority provision), which reduced the firm value. In other words, market
+
+power of the test (Cohen & Wang, 2013).16 The prediction based on
+
+participants may have considered the supermajority provision of the
+
+the two conflicting perspectives of the anti-takeover provisions in the
+
+respondent firm as raising shareholders' wealth.14
+
+literature is summarized below.
+
+Consistent with the anecdotal evidence, market participants may
+
+If market participants view the firm's supermajority provision as a
+
+perceive that a firm's supermajority is not as robust due to the two
+
+value-destroying (i.e., if the value-destroying perspective is supported),
+
+court rulings. For example, a firm's minority shareholders can nullify
+
+then weakening of the anti-takeover force of firms with the superma-
+
+the supermajority provision by taking similar legal action to those
+
+jority provision should be positively associated with firm value on
+
+associated with the two court rulings. As a result, the anti-takeover
+
+average. Consequently, abnormal returns for the impacted firms that
+
+force of the supermajority provision may have been weakened by
+
+have a supermajority provision should be higher than those for non-
+
+these court rulings. This is where our empirical setup becomes worth-
+
+impacted ones at the time of the two court rulings. On the contrary, if
+
+while.15 Overall, we argue that the supermajority provision of a firm is
+
+the supermajority provision is regarded as a value-enhancing tool
+
+more likely to be invalid in the legal context. We also argue that
+
+(i.e., if the value-enhancing perspective is supported), the impacted
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+315
+
+KIM AND HAN
+
+KIM AND HAN
+
+firms should underperform compared with non-impacted firms around
+
+court ruling. Moreover, we check whether a firm has confounding
+
+the time of the two court rulings.
+
+events during our data-collection process because several firmspecific events around the two court rulings may influence the
+market reaction on the event dates.18 We exclude observations that
+
+3
+
+D A T A A N D SA M P L E SE L E C T I O N
+
+|
+
+have such events 2 weeks before and after the dates of the two
+court rulings.19 For our final sample, we exclude observations in the
+
+3.1
+
+|
+
+Data
+
+top and bottom one percentile of the stock price reaction distribution so that outliers do not drive our results (Graham et al., 2003).
+
+We first obtain data for our main independent variables, the anti-
+
+Table 1 reports the summary of our final sample of 2,286 observa-
+
+takeover provisions, in the charters of firms listed on the KRX from
+
+tions available to calculate the stock price reaction around the two
+
+17
+
+the Data Analysis, Retrieval and Transfer System (DART).
+
+DART is
+
+court rulings.
+
+provided by the Financial Supervisory Service, the independent
+agency under the Financial Services Commission of the Korean
+Government, which is similar to the U.S. Securities and Exchange
+
+3.2
+
+|
+
+Summary statistics of the sample
+
+Commission (SEC). We exclude firms in the financial and utilities
+industries. To identify the exact statement of the firm's charter, we
+
+We classify the observations in Table 1 into the three main types
+
+hand-collect charter data from DART immediately before the
+
+of anti-takeover provisions and one miscellaneous category: Super-
+
+announcement dates of the two court rulings. We also obtain annual
+
+majority, Staggered Board (SB), Golden Parachute (GP), and Miscella-
+
+financial statement information from FN Dataguide and board infor-
+
+neous Provisions (Miscell).20 Consistent with the anecdotal evidence
+
+mation from TS2000. These data sets are similar to Compustat and
+
+in Section 2.1, Table 1 shows that a supermajority provision is the
+
+Execucomp, respectively, for U.S. firms.
+
+most adopted anti-takeover provision in our final sample.
+
+We measure the market reaction in terms of the cumulative
+
+As our key independent variable, Supermajority, we consider
+
+1 to event day +1 using
+
+that a firm has a supermajority provision if its charter requires a
+
+the market model (CAR[ 1, +1]). The event day is the date of the
+
+voting rate above the special-decision threshold stated in the
+
+announcement of the two court rulings: April 13, 2007, for the first
+
+Commercial Act in Korea. Specifically, we consider whether the
+
+court ruling and June 2, 2008, for the second court ruling. The param-
+
+firm has a supermajority provision for the following three resolu-
+
+eters of the market model are estimated using the past 180 trading
+
+tions: (1) approving a merger, (2) changing directors, and (3) chang-
+
+days. We use the KOSPI and KOSDAQ value-weighted indexes as the
+
+ing the provisions in a charter. As these resolutions are directly
+
+market return parameters for firms listed on the KOSPI and KOSDAQ,
+
+related to takeovers, the Commercial Act requires that they be
+
+respectively. We obtain the data on stock prices and market returns
+
+determined via a special-decision in the shareholders' meeting
+
+from FN Dataguide.
+
+(rather than by a general-decision), for every firm in Korea. We
+
+abnormal returns (CARs) from event day
+
+To accurately estimate the effects of the two court ruling
+
+focus on the firms with supermajority provisions for these impor-
+
+events, we need to exclude samples that could result in spurious
+
+tant resolutions. In our sample, such firms typically require 90% of
+
+treatment effects. If the court ruling on which we focus was not
+
+the voting rights of the shareholders attending a general meeting
+
+exogenous for the respondent firm, then its abnormal returns
+
+and 70% of the total issued and outstanding shares (compared with
+
+following the ruling may not solely reflect the impact of invalidation
+
+66.67% and 33.33%, respectively, in the Commercial Act in Korea).
+
+of its supermajority provision (Karpoff & Wittry, 2018). Thus, we
+
+In other words, it is virtually infeasible to change the directors of
+
+exclude the respondent firms (as described in Section 2.2) for each
+
+such firms.
+
+TABLE 1
+
+Sample summary
+
+Event1 (N = 1,088)
+
+Supermajority
+
+Staggered
+board
+
+Golden
+parachute
+
+Miscellaneous
+provisions
+
+At least one
+anti-takeover
+provision
+
+Only
+supermajority
+(Treated firms)
+
+Zero anti-takeover
+provisions
+(Control firms)
+
+117 (10.75%)
+
+28 (2.57%)
+
+51 (4.69%)
+
+7 (0.64%)
+
+160 (14.71%)
+
+82 (7.54%)
+
+928 (85.29%)
+
+Event2 (N = 1,198)
+
+159 (13.27%)
+
+36 (3.01%)
+
+74 (6.18%)
+
+6 (0.50%)
+
+200 (16.69%)
+
+95 (7.93%)
+
+998 (83.31%)
+
+Total (N = 2,286)
+
+276 (12.07%)
+
+64 (2.80%)
+
+125 (5.47%)
+
+13 (0.57%)
+
+360 (15.75%)
+
+177 (7.74%)
+
+1,926 (84.25%)
+
+Note: This table presents the sample summary. Our sample consists of non-financial firms listed on KRX for the two court ruling events. The first court
+ruling date was April 13, 2007, and the second one was June 2, 2008. Event1 and Event2 indicate the first and second court ruling events, respectively. We
+manually check the anti-takeover provisions in the charter of the firm before the two court ruling events, using firms' annual reports available in the Data
+Analysis, Retrieval and Transfer System (DART). We exclude samples that had other events 2 weeks before and after the court ruling announcement dates.
+We classify the firm-year observations into several types of anti-takeover provisions and report the number of samples and proportions as a percentage in
+parentheses. Before the two court rulings, treated firms have a supermajority provision as their only anti-takeover provision, and control firms are firms
+having no anti-takeover provisions. A detailed explanation of the variables is in Appendix A. N denotes the number of observations.
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+316
+
+Furthermore, we note that the Commercial Act in Korea does not
+enforce the minimum requirement to attend the shareholders' meet-
+
+general meeting, then we consider such a firm the same as one with
+a three-staggered board structure.
+
+ing for either special or general-decisions. For instance, in the case
+
+Table 2 reports the descriptive statistics of our final sample. To
+
+where one shareholder presents at the meeting, he or she can adopt a
+
+avoid the potential impact of outliers, firm characteristics (which are
+
+general-decision resolution only if he or she holds more than 25% of
+
+continuous variables) are winsorized at the 1st and 99th levels. All the
+
+voting rights. If he or she holds more than 33% of voting rights, he or
+
+variables from the annual statements of firms are measured in the
+
+she can adopt any resolution (either special or general-decisions).
+
+fiscal year prior to the year of the court ruling announcements.
+
+Therefore, we consider that a firm has a supermajority provision if it
+
+Appendix A provides detailed definitions of the variables.
+
+has a minimum requirement in terms of voting rights for the shareholders attending a general meeting to adopt the three resolutions
+outlined above. Such firms in our sample typically require that at least
+
+4
+
+MAIN RESULTS
+
+|
+
+50% of the total issued and outstanding shares should attend a shareholders' meeting (otherwise, no resolution can be adopted), which
+again is virtually impossible to achieve when a takeover situation
+
+4.1 |
+events
+
+Market reactions around the two court ruling
+
+arises. For example, if the majority owner does not agree on a resolution related to a takeover, then he or she can prevent it by being
+
+In our empirical setting, firms with a supermajority provision are
+
+absent from the meeting.
+
+expected to be affected by the two court rulings, whereas firms with
+
+In addition, we consider that a firm has a staggered board for
+
+no anti-takeover provision (control firms) have no anti-takeover force
+
+firms not only with divided boards (usually three) but also with a
+
+to be affected. However, although the two court rulings in our study
+
+provision limiting the number of directors (in our sample, typically
+
+weaken the anti-takeover force of the supermajority provision, the
+
+one-third or one-quarter) that can be replaced at a shareholders'
+
+firm with both a supermajority provision and a staggered board may
+
+meeting. For example, if a firm has a provision in its charter that
+
+be affected differently (it is likely that the impact is less for these firms
+
+only one-third of the board of directors can be replaced at the
+
+than for the firms with only a supermajority provision). Therefore, our
+
+TABLE 2
+
+Descriptive statistics
+
+Variables
+
+N
+
+Mean
+
+SD
+
+p25
+
+Median
+
+p75
+
+CAR[ 1, 1] (%)
+
+2,286
+
+0.535
+
+5.087
+
+2.556
+
+0.100
+
+2.784
+
+Supermajority
+
+2,286
+
+0.121
+
+0.326
+
+0.000
+
+0.000
+
+0.000
+
+Staggered board (SB)
+
+2,286
+
+0.028
+
+0.165
+
+0.000
+
+0.000
+
+0.000
+
+Golden parachute (GP)
+
+2,286
+
+0.055
+
+0.227
+
+0.000
+
+0.000
+
+0.000
+
+Miscellaneous provisions (Miscell)
+
+2,286
+
+0.006
+
+0.075
+
+0.000
+
+0.000
+
+0.000
+
+Other provisions
+
+2,286
+
+0.080
+
+0.271
+
+0.000
+
+0.000
+
+0.000
+
+Age
+
+2,239
+
+27.717
+
+15.333
+
+14.000
+
+26.000
+
+38.000
+
+Size
+
+2,239
+
+18.582
+
+1.339
+
+17.641
+
+18.305
+
+19.248
+
+Cash
+
+2,239
+
+0.077
+
+0.078
+
+0.021
+
+0.052
+
+0.105
+
+Leverage
+
+2,239
+
+0.432
+
+0.207
+
+0.263
+
+0.433
+
+0.591
+
+M-to-B
+
+2,239
+
+1.649
+
+1.849
+
+0.707
+
+1.102
+
+1.772
+
+OCF
+
+2,239
+
+0.034
+
+0.111
+
+0.017
+
+0.041
+
+0.100
+
+ROA
+
+2,239
+
+0.033
+
+0.098
+
+0.000
+
+0.040
+
+0.088
+
+Investment
+
+2,239
+
+0.062
+
+0.076
+
+0.017
+
+0.045
+
+0.092
+
+Stock volatility
+
+2,239
+
+0.029
+
+0.016
+
+0.018
+
+0.025
+
+0.036
+
+Stock run-up
+
+2,239
+
+0.055
+
+0.140
+
+0.026
+
+0.044
+
+0.121
+
+Board size
+
+2,239
+
+1.606
+
+0.347
+
+1.386
+
+1.386
+
+1.946
+
+Board independence
+
+2,239
+
+0.250
+
+0.159
+
+0.250
+
+0.250
+
+0.333
+
+Controlling shareholder ownership
+
+2,239
+
+0.399
+
+0.168
+
+0.280
+
+0.390
+
+0.513
+
+Note: This table presents the descriptive statistics of our sample. We manually check the anti-takeover provisions in the charter of the firm before the two
+court ruling events, using firms' annual reports available in the Data Analysis, Retrieval and Transfer System (DART). We exclude samples that had other
+events 2 weeks before and after the court ruling announcement dates. The variables from annual statements are measured in the fiscal year before the
+court rulings. We winsorize the continuous variables at the 1st and 99th percentiles. A detailed explanation of the variables is in Appendix A. N, SD, p25,
+and p75 denote the number of observations, standard deviations, and 25th and 75th percentiles, respectively.
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+317
+
+KIM AND HAN
+
+KIM AND HAN
+
+analysis basically focuses on the firms with a supermajority provision
+
+supermajority provision as a value-enhancing tool, the mean (median)
+
+as their sole anti-takeover provision to defend their management
+
+of announcement returns are on average
+22
+
+1.05% ( 1.36%) for
+
+rights (treated firms). Specifically, we define the variable, Treated, as
+
+treated firms at the 1% level.
+
+one for treated firms and zero for control firms.21
+
+median between treated and control firms are all significantly negative
+
+The differences in both mean and
+
+Panel A of Table 3 reports the univariate analysis for CARs
+
+at the 1% level. In other words, we find that weakening the anti-
+
+around the two court rulings. Consistent with the market viewing the
+
+takeover force of supermajority provision by the two court rulings
+
+T A B L E 3 Market reactions around
+the court rulings
+
+Panel A: Univariate test
+Treated firms (treated = 1)
+(1)
+
+Control firms (treated = 0)
+(2)
+
+Difference
+(3)
+
+Mean (t statistics)
+
+1.05%*** (2.74)
+
+0.67%*** (5.90)
+
+1.72%*** (4.40)
+
+Median (z statistics)
+
+1.36%*** (3.49)
+
+0.18%*** (3.38)
+
+1.54%***(4.42)
+
+177
+
+1,926
+
+CAR[ 1, +1]
+
+N
+Panel B: Baseline regression
+
+Dependent variable = CAR[ 1, +1] (%)
+(1)
+
+(2)
+
+(3)
+
+Treated
+
+1.684*** (0.403)
+
+1.431*** (0.389)
+
+1.520*** (0.407)
+
+Event2
+
+0.029 (0.210)
+
+0.033 (0.216)
+
+0.039 (0.216)
+
+Age
+
+0.019** (0.009)
+
+0.010 (0.009)
+
+Size
+
+0.150 (0.118)
+
+0.214* (0.128)
+
+Cash
+
+0.888 (1.744)
+
+1.449 (1.723)
+
+Leverage
+
+0.375 (0.648)
+
+0.075 (0.682)
+
+M-to-B
+
+0.043 (0.095)
+
+0.075 (0.101)
+
+OCF
+
+0.735 (1.405)
+
+0.827 (1.470)
+
+ROA
+
+0.103 (1.671)
+
+0.496 (1.706)
+
+Investment
+
+0.240 (1.620)
+
+0.029 (1.649)
+
+Stock volatility
+
+27.687*** (9.004)
+
+28.706*** (9.229)
+
+Stock run-up
+
+0.908 (1.101)
+
+0.483 (1.098)
+
+Board size
+
+0.464 (0.386)
+
+0.322 (0.392)
+
+Board independence
+
+0.382 (0.908)
+
+0.062 (0.933)
+
+Controlling shareholder
+ownership
+
+0.121 (0.752)
+
+0.679 (0.776)
+
+No
+
+Yes
+
+Industry fixed effect
+
+Yes
+
+N
+
+2,103
+
+2,060
+
+2,060
+
+Adj. R2
+
+2.39%
+
+1.70%
+
+3.00%
+
+Note: This table presents the results of average stock price reaction around the two court rulings and
+baseline OLS regressions. Cumulative abnormal returns (CAR[ 1, +1]) are measured from a day before
+the announcement date to a day after the announcement date using the market model estimated over
+the past 180 trading days. The first court ruling date was April 13, 2007, and the second one was June 2,
+2008. Before the two court rulings, treated firms have a supermajority provision as their only antitakeover provision, and control firms have no anti-takeover provisions. In panel A, we use t tests and
+Wilcoxon tests for the means and medians, respectively. All tests are based on the null hypothesis that
+the value or the difference is equal to zero. N denotes the number of observations. In panel B, the
+industry fixed effect is based on the 2-digit KSIC dummies, and the intercept is included. A detailed
+explanation of the variables is in Appendix A. Robust standard errors adjusted for heteroscedasticity and
+clustered by firm-level are reported in parentheses.
+*Significance at the 10% level.
+**Significance at the 5% level.
+***Significance at the 1% level.
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+318
+
+harms shareholders' wealth. Panel B of Table 3 reports our baseline
+
+Table
+
+3
+
+overall
+
+shows
+
+that
+
+treated
+
+firms
+
+significantly
+
+regression for the differences in market reactions at the time of the
+
+underperform compared with control firms by about 1.43–1.52 per-
+
+two court rulings. To account for the possible differences in the mean
+
+centage points over the 3-day event window after including firm char-
+
+of announcement returns between the two court ruling events, we
+
+acteristics as the control variables. Therefore, the estimation results in
+
+include an event dummy (Event2). We also include several firm charac-
+
+Table 3 suggest that weakening the anti-takeover force of the super-
+
+teristics as follows: firm age (Age), total assets (Size), the ratio of cash
+
+majority provision is negatively associated with firm value. In other
+
+to total assets (Cash), the ratio of debt to total assets (Leverage), the
+
+words, market participants view the supermajority provision as a tool
+
+market-to-book ratio (M-to-B), the ratio of operating cash flow to total
+
+for enhancing shareholders' wealth.
+
+assets (OCF), return on assets (ROA), the ratio of total expenses on
+
+Note that our primary analysis classifies the observations into
+
+research and development and capital expenditure to total assets
+
+three groups: treated, control firms, and omitted observations. These
+
+(Investment), the number of directors (Board size), the proportion of
+
+omitted observations have multiple provisions or another provision
+
+independent directors (Board independence), and the proportion
+
+(other than a supermajority provision) as the only one anti-takeover
+
+of shareholdings held by the controlling shareholder (Controlling share-
+
+provision, as the anti-takeover provisions are not mutually exclusive
+
+holder ownership). In addition, we consider the following pre-event
+
+in the firm. Thus, we perform regressions with indicators of each anti-
+
+control variables related to abnormal returns: 1-month cumulative
+
+takeover provision and its interaction effects for the full sample
+
+stock volatility prior to the announcement (Stock volatility), and
+
+(Table 4) that has all the possible combinations of anti-takeover provi-
+
+1-month cumulative stock returns prior to the announcement (Stock
+
+sions. Specifically, we include Supermajority, SB, GP, and Miscell as well
+
+run-up). To control the industry fixed effect, we include industry
+
+as the interaction terms (Supermajority  SB and Supermajority  GP)
+
+dummies based on the first two-digit codes of the Korean Standard
+
+in columns (1)–(4), whereas the anti-takeover provisions other than
+
+Industrial Classification (KSIC).
+
+the supermajority provision (an indicator, Other-provision) and its
+
+TABLE 4
+
+Multivariate regression for the anti-takeover provisions
+
+Dependent variable = CAR[ 1, +1] (%)
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+Supermajority
+
+1.266***
+(0.380)
+
+1.730***
+(0.394)
+
+1.124***
+(0.386)
+
+1.567***
+(0.396)
+
+SB
+
+1.377*
+(0.745)
+
+0.824
+(0.889)
+
+1.054
+(0.812)
+
+1.194
+(1.031)
+
+GP
+
+0.897
+(0.650)
+
+0.327
+(1.018)
+
+1.213*
+(0.676)
+
+0.053
+(1.064)
+
+Miscell
+
+2.333**
+(1.026)
+
+2.370**
+(1.020)
+
+2.435**
+(1.092)
+
+2.483**
+(1.080)
+
+Supermajority  SB
+
+3.576***
+(1.259)
+
+3.602***
+(1.355)
+
+Supermajority  GP
+
+2.014
+(1.281)
+
+1.915
+(1.306)
+
+Other-provision
+
+(6)
+
+(7)
+
+(8)
+
+1.028***
+(0.375)
+
+1.681***
+(0.401)
+
+0.896**
+(0.384)
+
+1.522***
+(0.403)
+
+0.569
+(0.511)
+
+0.778
+(0.662)
+
+0.661
+(0.537)
+
+0.671
+(0.706)
+
+Supermajority 
+Other-provision
+Event2
+Control variables
+
+3.057***
+(0.969)
+
+2.983***
+(0.991)
+
+0.019
+(0.208)
+
+0.034
+(0.207)
+
+0.0429
+(0.214)
+
+0.061
+(0.213)
+
+0.015
+(0.208)
+
+0.040
+(0.208)
+
+0.039
+(0.214)
+
+0.063
+(0.214)
+
+No
+
+No
+
+Yes
+
+Yes
+
+No
+
+No
+
+Yes
+
+Yes
+
+Industry fixed effect
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+N
+
+2,286
+
+2,286
+
+2,239
+
+2,239
+
+2,286
+
+2,286
+
+2,239
+
+2,239
+
+Adj. R2
+
+2.69%
+
+3.10%
+
+3.27%
+
+3.65%
+
+2.39%
+
+2.90%
+
+2.97%
+
+3.45%
+
+Note: This table presents the results from OLS regressions where the dependent variables are the CARs around the two court rulings. Control variables are
+the same as in Table 3. A detailed explanation of the variables is in Appendix A. Industry fixed effect is based on the 2-digit KSIC dummies, and the
+intercept is included. Robust standard errors adjusted for heteroscedasticity and clustered by firm-level are reported in parentheses.
+*Significance at the 10% level.
+**Significance at the 5% level.
+***Significance at the 1% level.
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+319
+
+KIM AND HAN
+
+KIM AND HAN
+
+TABLE 5
+
+Propensity score matching results
+
+Panel A: Propensity score estimation
+Dependent variable = treated
+Pooled
+(1)
+
+PSM
+(2)
+
+Age
+
+0.002 (0.004)
+
+0.000 (0.006)
+
+Size
+
+0.174*** (0.063)
+
+0.086 (0.097)
+
+Cash
+
+0.273 (0.632)
+
+0.546 (0.934)
+
+Leverage
+
+0.114 (0.274)
+
+0.145 (0.445)
+
+M-to-B
+
+0.019 (0.023)
+
+0.050 (0.046)
+
+OCF
+
+0.334 (0.503)
+
+0.431 (0.788)
+
+ROA
+
+0.504 (0.570)
+
+1.047 (0.925)
+
+Investment
+
+0.438 (0.637)
+
+0.204 (1.024)
+
+Stock volatility
+
+3.696 (3.236)
+
+2.623 (4.823)
+
+Stock run-up
+
+0.217 (0.327)
+
+0.063 (0.516)
+
+Board size
+
+0.320* (0.173)
+
+0.094 (0.267)
+
+Board independence
+
+0.317 (0.371)
+
+0.061 (0.516)
+
+Controlling shareholder ownership
+
+1.311*** (0.405)
+
+0.320 (0.550)
+
+Constant
+
+1.704 (1.123)
+
+1.585 (1.587)
+
+2,060
+
+328
+
+5.66%
+
+1.25%
+
+N
+2
+
+Pseudo R
+
+Panel B: Sample balance
+Differences in mean
+Pooled
+(1)
+
+PSM
+(2)
+
+Propensity score
+
+0.038***
+
+0.009
+
+Age
+
+2.689**
+
+1.425
+
+Size
+
+0.512***
+
+0.155
+
+Cash
+
+0.004
+
+0.008
+
+Leverage
+
+0.008
+
+0.010
+
+M-to-B
+
+0.256*
+
+0.092
+
+OCF
+
+0.017**
+
+0.002
+
+ROA
+
+0.028***
+
+0.014
+
+Investment
+
+0.005
+
+0.003
+
+Stock volatility
+
+0.004***
+
+0.001
+
+Stock run-up
+
+0.010
+
+0.006
+
+Board size
+
+0.001
+
+0.004
+
+Board independence
+
+0.028**
+
+0.007
+
+Controlling shareholder ownership
+
+0.080***
+
+0.020
+
+Panel C: Matched sample regression
+Dependent variable = CAR[ 1, +1] (%)
+(1)
+
+(2)
+
+Treated
+
+1.745*** (0.635)
+
+1.788*** (0.645)
+
+Event2
+
+1.083* (0.643)
+
+1.401** (0.668)
+
+Control variables
+
+No
+
+Yes
+
+Industry fixed effect
+
+Yes
+
+Yes
+
+(Continues)
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+320
+
+TABLE 5
+
+(Continued)
+
+Panel C: Matched sample regression
+Dependent variable = CAR[ 1, +1] (%)
+(1)
+
+(2)
+
+N
+
+328
+
+328
+
+Adj. R2
+
+4.94%
+
+3.96%
+
+Note: This table presents the results from the propensity score matched (PSM) sample. PSM sample is conducted using the propensity score estimated in
+panel A as follows: one-to-one nearest neighborhood matching with non-replacement, matching within the same event (the first and second court ruling)
+and same listing venue (KOSPI and KOSDAQ), and dropping 5% of the treatment observations for which the propensity score density of the matched
+observations is the lowest. Panel A reports the results of propensity score estimation by the probit model where the dependent variable is Treated. Panel B
+reports the differences in means of the propensity score (estimated in panel A) and firm characteristics. Panel C reports the regression results using the
+matched sample. A detailed explanation of the variables is in Appendix A. Industry fixed effect is based on the 2-digit KSIC dummies, and the intercept is
+included. Robust standard errors adjusted for heteroscedasticity and clustered by firm-level are reported in parentheses.
+*Significance at the 10% level.
+**Significance at the 5% level.
+***Significance at the 1% level.
+
+interaction with Supermajority in columns (5)–(8). Consistent with our
+
+We construct a matched sample (hereafter, the PSM sample) by
+
+previous finding, all the coefficients of Supermajority are significantly
+
+using one-to-one nearest neighborhood matching with non-replace-
+
+negative at the 1% level. Furthermore, the interaction terms have pos-
+
+ment. In addition, to improve our matching quality, we match the sam-
+
+itive coefficients, suggesting that firms with multiple anti-takeover
+
+ple within the same event (i.e., the same fiscal year) and the listing
+
+provisions (including a supermajority provision) are less affected than
+
+venue (KOSPI vs. KOSDAQ).23 Furthermore, we drop 5% of the treat-
+
+treated firms around the court rulings. It is reasonable the two court
+
+ment observations for which the propensity score density of the con-
+
+rulings are specifically related to the validity of a supermajority
+
+trol observations is lowest, as suggested by Smith and Todd (2005).
+
+provision.
+
+We repeat the probit regression for the PSM sample in column (2) of
+panel A of Table 5. The insignificant coefficients for all the variables
+show that our PSM sample is well balanced on average with respect
+
+4.2
+
+|
+
+Propensity score matching
+
+to all the matching variables. Moreover, we test the differences in the
+means of the firm characteristics between treated and control firms. In
+
+Next, to mitigate the potential endogeneity concern, we use the PSM
+
+panel B of Table 5, columns (1) and (2) report the results for our
+
+method, which is widely employed in the literature to examine causal-
+
+unmatched and PSM sample, respectively. Overall, our PSM sample
+
+ity (Heckman et al., 1997, 1998; Rosenbaum & Rubin, 1983). There
+
+shows a good balance in all the covariates and estimated propensity
+
+are concerns about selection bias because the treatment group in our
+
+scores.
+
+study (i.e., treated firms having a supermajority provision as the only
+
+Panel C of Table 5 reports the ordinary least squares (OLS)
+
+anti-takeover provision) might not be randomly assigned. In other
+
+regression results for our PSM sample. In both columns, the estimated
+
+words, the differences in announcement returns between treated and
+
+coefficients of Treated remain significantly negative. Consistent with
+
+control firms may reflect the reaction of the market with respect to
+
+the argument that market participants view the supermajority provi-
+
+certain firm characteristics, rather than the causal relation between
+
+sion
+
+the weakening of the supermajority provision as an anti-takeover pro-
+
+underperform around the two court rulings by about 1.74–1.79 per-
+
+vision and shareholders' wealth. Therefore, in line with Cohen and
+
+centage points relative to control firms that have similar firm
+
+Wang (2013) and Cremers et al. (2009), we compare treated and
+
+characteristics.
+
+as
+
+a
+
+value-enhancing
+
+tool,
+
+treated
+
+firms
+
+significantly
+
+control firms that have similar firm characteristics.
+In panel A of Table 5, we estimate the likelihood of being a
+treated firm. We use the probit model to calculate the propensity
+score (Rosenbaum & Rubin, 1983; Smith & Todd, 2005). Three charac-
+
+4.3 | Reinforcing effect of the precedent and
+trading behavior around the court rulings
+
+teristics (Size, Board size, and Controlling shareholder ownership) are
+significantly related to the likelihood of being a treated firm. In other
+
+Our results suggest that (not only the amendment of the Commercial
+
+words, it is possible that the market reacts differently to certain firm
+
+Act in Korea but also) the court rulings related to the corporation can
+
+characteristics (e.g., negatively to smaller firms) rather than to the
+
+significantly affect the stock market. In other words, although Korea is
+
+weakening of the anti-takeover force of the supermajority provision.
+
+one of the civil law countries, the precedent in Korea appears to have
+
+Therefore, the matching approach can be an appropriate alternative
+
+some actual legal force (or “de facto” legal binding force). Neverthe-
+
+to address this potential bias concern.
+
+less, the different impacts of the two court rulings are worthy to
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+321
+
+KIM AND HAN
+
+KIM AND HAN
+
+TABLE 6
+
+Reinforcing effect of the precedent: trading behavior around the first and second court rulings
+
+Panel A: Correlation matrix
+(1)
+
+(2)
+
+(3)
+
+Institutional investors NB[ 1, +1]: (1)
+
+1.00
+
+Individual NB[ 1, +1]: (2)
+
+0.54***
+
+1.00
+
+Foreign investors NB[ 1, +1]: (3)
+
+0.32***
+
+0.30***
+
+(4)
+
+(5)
+
+(6)
+
+1.00
+
+Total trading volume[ 1, +1]: (4)
+
+0.03
+
+0.04**
+
+0.01
+
+1.00
+
+CAR[ 1, +1]: (5)
+
+0.06***
+
+0.05**
+
+0.01
+
+0.12***
+
+1.00
+
+Treated: (6)
+
+0.02
+
+0.03
+
+0.01
+
+0.06***
+
+0.10***
+
+1.00
+
+Panel B: Institutional investors' trading pattern
+Dependent variable = Institutional investors NB[ 1, +1] (%)
+
+Treated
+
+Event2
+
+N
+Adj. R
+
+2
+
+First court ruling
+
+First-PSM
+
+Second court ruling
+
+Second-PSM
+
+Pooled
+
+PSM
+
+(Event2 = 0)
+
+(Event2 = 0)
+
+(Event2 = 1)
+
+(Event2 = 1)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+0.501
+
+1.047
+
+0.979
+
+0.727
+
+1.683**
+
+2.660*
+
+(0.673)
+
+(0.939)
+
+(1.144)
+
+(1.594)
+
+(0.830)
+
+(1.374)
+
+0.336
+
+1.436
+
+(0.542)
+
+(1.126)
+
+2,046
+
+326
+
+985
+
+138
+
+1,061
+
+188
+
+0.18%
+
+8.30%
+
+3.42%
+
+25.30%
+
+1.19%
+
+10.30%
+
+Panel C: Trading volume around the two court rulings
+Dependent variable = Total trading volume[ 1, +1] (%)
+
+Treated
+
+Event2
+
+First court ruling
+
+First-PSM
+
+Second court ruling
+
+Second-PSM
+
+Pooled
+
+PSM
+
+(Event2 = 0)
+
+(Event2 = 0)
+
+(Event2 = 1)
+
+(Event2 = 1)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+0.382
+
+0.277
+
+0.274
+
+0.832
+
+1.159
+
+0.054
+
+(0.997)
+
+(1.524)
+
+(1.847)
+
+(3.755)
+
+(0.993)
+
+(0.877)
+
+4.044***
+
+5.997***
+
+(0.451)
+
+(1.337)
+
+N
+
+2,046
+
+326
+
+985
+
+138
+
+1,061
+
+188
+
+Adj. R2
+
+25.30%
+
+24.20%
+
+27.70%
+
+18.90%
+
+12.80%
+
+8.45%
+
+Panel D: Relationship between CARs and institutional investors' trading pattern
+Dependent variable = CAR[ 1, +1] (%)
+First court ruling (Event2 = 0)
+
+Pooled
+(1)
+Institutional investors
+NB[ 1, +1]
+Institutional investors
+NB[ 1, +1]  Treated
+Treated
+
+(2)
+
+(3)
+
+(4)
+
+Second court ruling (Event2 = 1)
+(5)
+
+(6)
+
+0.020***
+
+0.020***
+
+0.024*
+
+0.024*
+
+0.023**
+
+0.024***
+
+(0.007)
+
+(0.007)
+
+(0.013)
+
+(0.013)
+
+(0.009)
+
+(0.009)
+
+0.037
+
+0.036
+
+0.021
+
+0.018
+
+0.065*
+
+0.074*
+
+(0.055)
+
+(0.056)
+
+(0.074)
+
+(0.077)
+
+(0.036)
+
+(0.038)
+
+1.542***
+
+1.254***
+
+0.783
+
+0.889
+
+2.092***
+
+1.116**
+
+(0.409)
+
+(0.471)
+
+(0.679)
+
+(0.782)
+
+(0.517)
+
+(0.499)
+
+Total trading volume
+[ 1, +1]
+
+0.099***
+
+0.118***
+
+0.092***
+
+(0.016)
+
+(0.019)
+
+(0.027)
+
+Total trading volume
+
+0.034
+
+0.007
+
+0.249***
+
+[ 1, +1]  Treated
+
+(0.062)
+
+(0.061)
+
+(0.031)
+
+Event2
+
+0.052
+
+0.329
+
+(0.217)
+
+(0.222)
+
+(Continues)
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+322
+
+TABLE 6
+
+(Continued)
+
+Panel D: Relationship between CARs and institutional investors' trading pattern
+Dependent variable = CAR[ 1, +1] (%)
+First court ruling (Event2 = 0)
+
+Pooled
+
+N
+Adj. R
+
+2
+
+Second court ruling (Event2 = 1)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+2,046
+
+2,046
+
+985
+
+985
+
+1,061
+
+1,061
+
+3.32%
+
+7.14%
+
+3.54%
+
+10.70%
+
+3.66%
+
+6.44%
+
+Note: This table presents the results of the trading behavior around each court rulings. All the trading behavior variables (i.e., Institutional investors NB[ 1,
++1], Individual NB[ 1, +1], Foreign investors NB[ 1, +1], and Total trading volume[ 1, +1]) are measured from a day before to a day after the
+announcement date of the court rulings. The variables for net buying of each investors types (i.e., Institutional investors NB[ 1, +1], Individual NB[ 1, +1],
+and Foreign investors NB[ 1, +1]) are their buying volume minus their selling volume, scaled by the total trading volume of the firm's stock during [ 1, +1]
+period. Total trading volume[ 1, +1] is the total trading volume of the firm's stock during [ 1,+1] period, scaled by the firm's market value in the prior
+year. Panel A reports the correlation matrix of the trading behavior variables, CARs, and Treated. Panels B and C report the results from the OLS
+regressions where the dependent variables are Institutional investors NB[ 1, +1] and Total trading volume[ 1, +1], respectively. Panel D reports the results
+from the OLS regressions where the dependent variables are CARs. Control variables as in Table 3, Industry fixed effect based on the 2-digit KSIC
+dummies, and the intercept are included in panels B–D. A detailed explanation of the variables is in Appendix A. PSM denotes the sample matched in
+Table 5. Robust standard errors adjusted for heteroscedasticity and clustered by firm-level are reported in parentheses.
+*Significance at the 10% level.
+**Significance at the 5% level.
+***Significance at the 1% level.
+
+examine. If the effect of the second court ruling is stronger than that
+
+second court ruling (columns (5) and (6)), while there is no significant
+
+of the first, then this might suggest a “reinforcing” or “accumulative”
+
+result around the first court ruling (columns (3) and (4)). The results in
+
+effect of a similar precedent. This also supports that the de facto legal
+
+panel B support that sophisticated investors (e.g., institutions) are
+
+binding force of the precedent increases when similar precedents are
+
+aware of the weakened anti-takeover force of treated firms and, thus,
+
+repeatedly accumulated. If the effect of the first court ruling is stron-
+
+sell these firms' shares at the second court ruling. Note that this result
+
+ger than that of the second, then this appears to be close to the
+
+merely reflects some attention effect for the supermajority provision
+
+circumstance under the common law system. In unreported results,
+
+(typically for treated firms). Thus, we examine whether an abnormal
+
+we find that treated firms are more likely to experience negative CARs
+
+trading volume exists for treated firms around the court rulings. How-
+
+in the second court ruling, compared with that in the first one. Thus,
+
+ever, we find no evidence for abnormal trading volume in panel
+
+we cautiously suggest a reinforcing effect of the second court ruling
+
+C. Taken as a whole, we argue that institutional investors are suffi-
+
+that has a similar precedent to the first court ruling about the super-
+
+ciently aware of the two court rulings (or at least the second court
+
+majority provision.
+
+ruling) that cast a doubt on the supermajority provision's validity and
+
+To further support this, we examine whether sophisticated
+
+make it potentially weak.
+
+investors sell (or buy) their shares of treated firms around the first and
+
+In panel D of Table 6, we further examine the relationship
+
+second court rulings. Assuming that institutional investors are more
+
+between CARs and the abovementioned sophisticated investors' net-
+
+likely to be sophisticated in the Korean market (as well as those of
+
+buying volume. First, at both court rulings, a positive relation between
+
+other countries), we focus on their trading behavior, particularly the
+
+CARs and Institutional investors NB exists in general. Second, Institu-
+
+net-buying volume. Furthermore, we note that, if the reinforcing
+
+tional investors NB  Treated are significantly positive around the sec-
+
+effect is supported, we should observe a more intensive trading
+
+ond court ruling. This indicates a stronger correlation between CARs
+
+behavior of institutional investors on treated firms at the second court
+
+and Institutional investors NB for treated firms, compared with control
+
+ruling, compared with those at the first court ruling. We construct the
+
+firms. Specifically, this result is robust for controlling the firm's total
+
+variables for the net-buying volume by investor types similar to the lit-
+
+trading volume. In terms of economic significance, column (6) of panel
+
+erature on trading behavior (e.g., Barber & Odean, 2008). Specifically,
+
+D suggests that for treated firms, net-selling by institutional investors
+
+we classify investors in KRX into three types: institutions, individuals,
+
+which accounts for 10% of the firm's total trading volume, are associ-
+
+and foreigners.
+
+ated with more negative CARs (about
+
+We first report the correlation matrix for the trading behavior
+
+0.98%), while only about
+
+0.24% for control firms.
+
+variables, CARs and Treated (panel A of Table 6). It shows that CARs
+
+Overall, based on the results in Table 6, we confirm that the pre-
+
+and institutional investors' net-buying volume are positively corre-
+
+cedent of the court ruling in Korea can actually affect the stock mar-
+
+lated, which is also generally consistent with Barber and Odean (2008).
+
+ket. Thus, weakening the anti-takeover force of supermajority
+
+In panel B, we find that institutional investors are more likely to sell
+
+provision leads to a negative wealth effect, on average, for treated
+
+their shares of treated firms compare with control firms around the
+
+firms. In addition, the results in Table 6 can (partially) support the
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+323
+
+KIM AND HAN
+
+KIM AND HAN
+
+reinforcing effect of the second court ruling, which has a similar court
+
+variable, and unobservable (therefore omitted) firm-specific character-
+
+decision to the first court ruling. Meanwhile, we do not argue that
+
+istics. In this subsection, to alleviate this potential endogeneity from
+
+institutional investors' selling strictly drives negative CARs (panel D of
+
+reverse causality or omitted variable bias, we conduct the following
+
+Table 6). Rather, we cautiously interpret that our evidence indicates a
+
+two additional tests.
+
+significant market reaction of treated firms, particularly in terms of
+
+First, we focus on firms for which anti-takeover provisions were
+
+both negative returns and selling of institutional investors. Our evi-
+
+unchanged between the first and second court rulings (hereafter, the
+
+dence also supports the fact that court rulings were public information
+
+unchanged sample). Regardless of whether a firm knows the result of
+
+in the market, which is in line with our anecdotal evidence in
+
+the first court ruling, the anti-takeover provisions of this unchanged
+
+Section 2.2.4.
+
+sample were decided before the first court ruling and did not subsequently change in the period of analysis. Therefore, this approach is
+advantageous because such firms (i.e., the observations in the
+
+4.4 | Additional tests for the unchanged and
+changed sample
+
+unchanged sample) are less likely to be affected by reverse causality.
+Table 7 reports the re-estimation for this unchanged sample. All
+columns show the coefficients of Treated and Supermajority are nega-
+
+The empirical test that we use is based on a quasi-natural experiment
+
+tively estimated at the 1% (5%) significance level when control vari-
+
+design using the two court ruling announcements in line with Cohen
+
+ables are excluded (included). Overall, the re-estimations for the
+
+and Wang (2013). However, in our study, the interval between the
+
+unchanged sample are consistent with our main results, showing
+
+two court rulings in April 2007 and June 2008 is about 14 months,
+
+the causal effect between weakening the anti-takeover force of the
+
+whereas in Cohen and Wang (2013), it is 1 month. Hence, during the
+
+supermajority provision and the reduction in shareholders' wealth.
+
+14-month interval between the two court rulings in our study, firms
+
+Second, we focus on the sample of firms that changed their anti-
+
+could have revised their charters at their annual meetings; annual
+
+takeover provisions (hereafter, the changed sample) to support our
+
+meetings are usually held every March in Korea (March 2008 is
+
+main findings. Using this changed sample analysis, we can provide evi-
+
+24
+
+In other words, our main inde-
+
+dence that our results are not driven by reverse causality, and further
+
+pendent variable could be endogenous for the following two reasons:
+
+address the potential endogeneity concern arising from omitted
+
+the market reaction of the first court ruling, which is our dependent
+
+variable bias.
+
+included in the 14-month interval).
+
+TABLE 7
+
+Unchanged sample analysis
+
+Dependent variable = CAR[ 1, +1] (%)
+
+Treated
+
+(1)
+
+(2)
+
+1.409*** (0.498)
+
+1.141** (0.508)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+1.363*** (0.494)
+
+1.110** (0.504)
+
+Supermajority
+
+1.380*** (0.483)
+
+1.135** (0.491)
+
+SB
+
+0.994 (1.275)
+
+1.637 (1.507)
+
+GP
+
+1.578 (1.045)
+
+1.249 (1.162)
+
+Miscell
+
+3.204* (1.726)
+
+3.424* (1.910)
+
+Supermajority  SB
+
+1.484 (1.462)
+
+1.250 (1.506)
+
+Supermajority  GP
+
+1.992 (1.436)
+
+2.162 (1.811)
+
+Other-provision
+
+1.473* (0.756)
+
+1.469* (0.862)
+
+Supermajority  Otherprovision
+
+2.486** (1.169)
+
+2.265* (1.225)
+
+0.393* (0.226)
+
+0.504** (0.230)
+
+Event2
+
+0.330 (0.230)
+
+0.452* (0.234)
+
+0.393* (0.227)
+
+0.503** (0.230)
+
+Control variables
+
+No
+
+Yes
+
+No
+
+Yes
+
+No
+
+Yes
+
+Industry fixed effect
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+N
+
+1,609
+
+1,590
+
+1,703
+
+1,681
+
+1,703
+
+1,681
+
+Adj. R2
+
+2.69%
+
+3.91%
+
+2.94%
+
+3.93%
+
+2.95%
+
+4.00%
+
+Note: This table presents the results for the unchanged sample for which the anti-takeover provisions in a firm's charter do not change over the first and
+second court rulings. Control variables are the same as in Table 3. A detailed explanation of the variables is in Appendix A. Industry fixed effect is based on
+the 2-digit KSIC dummies, and the intercept is included. Robust standard errors adjusted for heteroscedasticity and clustered by firm-level are reported in
+parentheses.
+*Significance at the 10% level.
+**Significance at the 5% level.
+***Significance at the 1% level.
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+324
+
+As outlined above, a firm may have decided to change its anti-
+
+prior results, we find that observations for firms that changed from
+
+takeover provision after the first court ruling. For example, a firm with
+
+control firms to treated firms (i.e., Control-to-Treated = 1) have negative
+
+no anti-takeover provisions may have realized that the market views a
+
+CARs only at the second court ruling. Observations for firms that
+
+supermajority provision as a value-enhancing tool (by observing the
+
+changed from treated firms to control firms (i.e., Control-to-Treated = 0)
+
+market reactions to the first court ruling of other firms). Thus, such a
+
+show the opposite direction of CARs between the first and second
+
+firm may have adopted a supermajority provision to maximize its
+
+court rulings. In panel B where we report the results of regressions, all
+
+value (i.e., a firm that was a control firm at the first court ruling, but a
+
+columns show that control-to-treated firms have significantly higher
+
+treated firm at the second court ruling), even though the first court
+
+announcement returns at the first court ruling, by about 2.13–2.58
+
+ruling potentially weakened the anti-takeover force of the superma-
+
+percentage points on average, compared with the second court ruling.
+
+jority provision. On the other hand, a treated firm may eliminate its
+
+In other words, treated firms still underperform compared with control
+
+supermajority provision after the first court ruling (i.e., a treated firm
+
+firms at the first court ruling, which is consistent with our previous
+
+at the first court ruling, but a control firm at the second court ruling).
+
+findings.
+
+However, we find no significant relation (untabulated) when we
+
+Treated  Event2, is significantly negative in all columns, suggesting
+
+regress the changes of firms' anti-takeover provisions between two
+
+that the market reacts differently (in the opposite direction) at the
+
+court rulings on the returns at the time of the first court ruling
+
+second court ruling for this changed sample. Specifically, column
+
+In Table 8, we conduct both the univariate test and regressions
+based on the difference-in-differences approach for the changed sample.
+
+importantly,
+
+our
+
+main
+
+estimator,
+
+Control-to-
+
+(3) shows that control-to-treated firms underperform on average com-
+
+announcement.
+
+25
+
+Most
+
+Specifically, we assign a value of one to Control-to-Treated for
+
+pared with treated-to-control firms at the second court ruling by 2.73
+percentage points (=
+
+5.31 + 2.58). The overall evidence in both
+
+panels of Table 8 supports our results.
+
+observations that involve control firms at the first court ruling but
+treated firms at the second court ruling, and zero for the opposite
+case. Collectively, we expect that the announcement returns of such
+
+4.5
+
+|
+
+Simulation approach
+
+firms at the second court ruling will be significantly different from
+those at the first court ruling. We first compare the CARs of each
+
+In this subsection, we use two simulation approaches to support the
+
+court ruling for the changed sample (panel A). Consistent with our
+
+significance of our main results. First, in panel A of Table 9, we
+
+TABLE 8
+
+Changed sample analysis
+
+Panel A: Univariate test
+
+CAR[ 1, +1]
+Control-to-Treated firms (control-to-treated = 1)
+
+First court ruling (Event2 = 0)
+(1)
+
+Second court ruling (Event2 = 1)
+(2)
+
+Difference
+(3)
+
+0.21%
+
+1.37%*
+
+1.16%
+3.81%***
+
+Treated-to-Control firms (control-to-treated = 0)
+
+2.67%**
+
+1.14%***
+
+Difference
+
+2.46%*
+
+2.51%***
+
+Panel B: Changed sample regression
+Dependent variable = CAR[ 1, +1] (%)
+(1)
+
+(2)
+
+(3)
+
+Control-to-Treated  Event2
+
+4.792*** (1.455)
+
+4.706*** (1.417)
+
+5.310*** (1.526)
+
+Control-to-Treated
+
+2.131* (1.144)
+
+2.517** (1.079)
+
+2.577** (1.173)
+
+Event2
+
+3.217*** (1.108)
+
+4.001*** (1.095)
+
+3.856*** (1.181)
+
+No
+
+Yes
+
+Yes
+
+Control variables
+Industry fixed effect
+
+Yes
+
+No
+
+Yes
+
+N
+
+494
+
+470
+
+470
+
+Adj. R2
+
+2.57%
+
+3.71%
+
+2.61%
+
+Note: This table presents the results for the changed sample for which the anti-takeover provisions in a firm's charter changed between the first and
+second court rulings. In panel A, we compare CARs for the changed sample where Control-to-Treated firms were control firms at the first court ruling but
+treated firms at the second court ruling, and Treated-to-Control firms were the opposite cases. Panel B reports the regression results of the changed sample
+using the difference-in-differences approach. Control variables are the same as in Table 3. A detailed explanation of the variables is in Appendix A. Industry
+fixed effect is based on the 2-digit KSIC dummies, and the intercept is included. Robust standard errors adjusted for heteroscedasticity and clustered by
+firm-level are reported in parentheses.
+*Significance at the 10% level.
+**Significance at the 5% level.
+***Significance at the 1% level.
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+325
+
+KIM AND HAN
+
+KIM AND HAN
+
+randomly assign variable of interest based on the sample distribution,
+
+the coefficients are significant at the 5% level and that, roughly, those
+
+and report the simulation results, as suggested by Bernile
+
+cases are not biased either positively or negatively. Specifically, col-
+
+et al. (2017). For example, in column (1), as there were 174 treated
+
+umn (1) shows that the mean estimated coefficients of Simulated-
+
+firms among the 2,060 observations from the original model, we
+
+Treated for 1,000 simulation trials is 0.011 and that 5.8% of the coeffi-
+
+generate a random variable (Simulated-Treated) following a binomial
+
+cients are significantly either positive or negative at the 5% level,
+
+distribution, which we set to one with a probability of 0.084
+
+whereas the estimated coefficient in the original model is
+
+(= 174/2,060) and zero with a probability of 0.915. Then, we re-
+
+a 0.0% p value. Moreover, the third row in panel A reports the propor-
+
+estimate the coefficient of Simulated-Treated on the observed
+
+tion of replication trials that have a larger negative impact (and signifi-
+
+announcement returns and record it with the associated p value.
+
+cant at the 5% level) than in the original model in parentheses. We
+
+Similarly, in column (3), we randomly assign the variable, Control-to-
+
+find no such trials in columns (1) and (3) and only three trials in
+
+Treated, in the changed sample, then interact it with the Event2 vari-
+
+column (2).
+
+1.520 with
+
+able. We repeat this simulation procedure 1,000 times and randomly
+
+Second, we compare the effect of the court rulings with a
+
+re-assign our main independent variable Simulated-variable for each
+
+reference distribution that we bootstrap from the non-event days
+
+replication.
+
+(Cohen & Wang, 2013, 2017). As suggested by Cohen and Wang
+
+The first row in panel A of Table 9 reports the average coefficient
+
+(2013), this approach assesses how the effect as large as one in the
+
+for the randomly re-distributed independent variable (Simulated-vari-
+
+two events can be observed on two random dates (among non-event
+
+able). All columns show that almost zero mean value of the estimated
+
+days). We collect the stock price data of our sample from 100 trading
+
+coefficients over the 1,000 repetitions. The second row in panel A
+
+days around event dates for each court ruling. To ensure we avoid the
+
+reports the percentage of coefficients that are significant at the 5%
+
+effects of two court rulings clearly, we exclude 15 trading days before
+
+level in the brackets. All columns show that approximately 4–6% of
+
+and after the rulings; thus, we collect data from non-event trading
+
+TABLE 9
+
+Simulation results
+
+Original model
+
+Pooled
+(1)
+
+PSM
+(2)
+
+Changed sample analysis
+(3)
+
+Variable in interest
+
+Treated
+
+Treated
+
+Control-to-Treated  Event2
+
+Original β* for variable in interest
+
+1.520
+
+1.788
+
+5.310
+
+(p value)
+
+(0.0%)
+
+(0.6%)
+
+(0.1%)
+
+Control variables
+
+Yes
+
+Yes
+
+Yes
+
+Industry fixed effect
+
+Yes
+
+Yes
+
+Yes
+
+N
+
+2,060
+
+328
+
+470
+
+0.011
+
+0.004
+
+0.029
+
+Panel A: Random assignment of variable in interest
+Mean β for simulated-variable
+[% β > 0 and α ≤ 5%; % β < 0 and α ≤ 5%]
+
+[2.9%; 2.9%]
+
+[2.0%; 1.9%]
+
+[3.2%; 2.3%]
+
+(% β ≤ β* & α ≤ 5%)
+
+(0.0%)
+
+(0.3%)
+
+(0.0%)
+
+Replication trials
+
+1,000
+
+1,000
+
+1,000
+
+Panel B: Market reaction over non-event days
+Mean β for variable in interest
+
+0.258
+
+0.105
+
+0.053
+
+Simulation p value (% β ≤ β*)
+
+(0.19%)
+
+(2.03%)
+
+(2.18%)
+
+Note: This table presents the statistics of the simulation for the original OLS regression models where the dependent variables are the CARs around the
+two court rulings. Original β* indicates that the estimated coefficient of variable in interest in the original model and the associated p value is shown in
+parentheses immediately below the original β*. In panel A, we randomly re-assign the variable in interest to each firm based on the sample distribution
+(Simulated-variable) and record the estimated coefficients and corresponding p values based on robust standard errors adjusted for heteroscedasticity and
+clustered by firm-level for each replication. We repeat this simulation procedure 1,000 times. We calculate the mean of the estimated coefficients of
+Simulated-variable across the 1,000 replications. The percentages of the estimated coefficients of Simulated-variable that are significantly positive or
+negative at the 5% level or more are reported in brackets. The percentages of the estimated coefficients of Simulated-variable that are significantly
+negative at the 5% level or more and have a larger absolute value than the original estimates are reported in parentheses. In panel B, we replace our
+dependent variable with CARs over non-event days and re-estimate the original model. The bottommost rows report the likelihood of observing
+coefficients at least as large and negative as the original β*. The simulation p value, reported in the bottommost rows, are computed using a simulated null
+distribution of coefficients generated from all unique pairs of non-event 100 trading days around event days for each court ruling ([ 65, 16] and [+16,
++65] for events 1 and 2). For example, in column (1) in panel B, the simulation p value represents the proportion of times we observe the coefficient of
+Treated for non-event days that is smaller than 1.520. We also calculate the mean of the estimated coefficients of variable in interest above simulation p
+value. Control variables are the same as in Table 3. A detailed explanation of the variables is in Appendix A. Industry fixed effect is based on the 2-digit
+KSIC dummies. PSM denotes the sample matched in Table 5.
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+326
+
+16] and [+16, +65] for events 1 and 2. Then, we com-
+
+In unreported results, we examine the effect of chaebol affilia-
+
+pute CARs for each 3-day window in the same method as described
+
+tions using the data from the Korea Fair Trade Commission (KFTC).
+
+in Section 3.1. Next, we replace CARs for each of two events and esti-
+
+We first confirm that our main conjecture is not influenced by the
+
+mate regression models for such CARs over all unique pairs of non-
+
+small subset of chaebol firms. More interestingly, we find that treated
+
+event days.
+
+firms in the chaebol group are less affected by the two court rulings
+
+days [ 65,
+
+Panel B of Table 9 reports the results. Column (1) shows that
+
+than are non-chaebol treated firms. It seems reasonable that, in gen-
+
+in only 0.19% of our simulation trials, we observe the estimated
+
+eral, chaebol firms are strictly controlled by their chaebol group's con-
+
+coefficients of Treated—which are from regressing CARs over non-
+
+trolling shareholders and, hence, the effect of the court rulings on
+
+event days on Treated—at least as more negative as the observed
+
+their anti-takeover force is less strong (or remains unchanged) com-
+
+coefficient in the original model of
+
+pared with non-chaebol treated firms.
+
+1.520. In column (2), our simu-
+
+lation approach shows that matched treated firms underperform
+
+Second, the market may react more negatively to the lower qual-
+
+compared with matched control firms at least about 1.790 percent-
+
+ity of the firm-level corporate governance (Black et al., 2006), than to
+
+age points with statistical significance at the 5% level (with a simu-
+
+treated firms. However, we also find that our main results are not
+
+lation p value of 2.03%). Similar to panel A, we calculate the mean
+
+driven by an omitted variable bias related to the firm-level corporate
+
+of those estimated coefficients and find an almost zero mean value
+
+governance quality using the firm-level corporate governance quality
+
+over our simulation trials. In unreported test, we find consistent
+
+data from KCGS, as in Lee and Park (2009), and the Korea Economic
+
+16] and [+16, +115] for non-event
+
+Justice Institute (KEJI), as in Chang et al. (2017) and Choi et al. (2019).
+
+results when we use [ 115,
+trading days.
+
+Finally, we note that our results merely reflect the reputation
+
+Collectively, the evidence from both panels of Table 9 strongly
+
+damage of treated firms (hereafter, the reputation damage hypothesis),
+
+suggests that our observed market reaction of relatively negative
+
+even though we exclude the respondent firms of the court rulings in
+
+announcement returns for treated firms is unlikely to be the result of
+
+our main analysis. Specifically, it is possible that, for treated firms,
+
+random sampling variation or random noise.
+
+expected reputational losses or high lawsuit risks are reflected in
+stock prices because they have a higher likelihood of lawsuits similar
+to those leading the court rulings. However, our previous discussions
+
+4.6
+
+|
+
+Robustness tests
+
+naturally suggest that this alternative hypothesis is less likely to drive
+our results. For brevity, we report the untabulated results of this sub-
+
+In this subsection, we perform several robustness tests. First, for the
+
+section in the Online Appendix and discuss them in detail.
+
+placebo test, we use a sample of firms with one anti-takeover provision, other than a supermajority provision, as their only anti-takeover
+provision. The results indicate no statistical differences in the market
+reaction around the two court rulings between firms with a staggered
+
+5.2 | Possible channels for the value-enhancing
+perspective
+
+board or golden parachute as their only anti-takeover provision and
+control firms. Second, we perform the regressions with alternative
+
+So far, our empirical results indicate that the market views the super-
+
+fixed effects. The results are consistent with our previous estimates.
+
+majority provision as value-enhancing on average, by investigating the
+
+Finally, when we use alternative stock price reaction measures, we
+
+relationship between the court rulings weakening the power of
+
+find that our previous estimations do not change. For brevity, these
+
+the supermajority provision and negative market reactions. Why does
+
+results are reported in the Online Appendix.
+
+the market view such a provision as a tool enhancing shareholders'
+wealth, rather than a value-destroying one? To answer this question,
+we discuss possible channels through which the anti-takeover provi-
+
+5
+
+|
+
+DISCUSSION
+
+sion (in our study, a supermajority provision) is positively related to
+firm value in this subsection.
+
+5.1 | Korean corporate governance and the
+reputation damage hypothesis
+
+First, the myopic market hypothesis highlights that a firm's longterm projects are undervalued by myopic investors in the market
+(Chemmanur & Jiao, 2012; Stein, 1988, 1989). Thus, the management
+
+In this subsection, we discuss the cross-sectional variation related to
+
+of firms with long-term projects may face greater pressure to under-
+
+Korean corporate governance and the firms' governance quality. First,
+
+take myopic or short-term investment (Bushee, 1998; Chan
+
+we note that the corporate governance literature focusing on Korean
+
+et al., 2001; Duru et al., 2013). Second, hard-to-value (HTV) firms are
+
+samples typically emphasizes the large group affiliations (i.e., chaebol
+
+more likely to suffer from a valuation discount due to their higher
+
+firms) and the systematic differences compared with non-chaebol
+
+complexity (Humphery-Jenner, 2014; Momtaz & Drobetz, 2020).
+
+firms (Baek et al., 2004; Baek et al., 2006; Shin & Park, 1999). There-
+
+Taken as a whole, if our main results support the value-enhancing per-
+
+fore, in our previous estimations, it is possible that the market reacts
+
+spective of the supermajority provision, we expect that the subset of
+
+differently to treated firms in the chaebol group and those in the non-
+
+firms, such as firms with long-term investment or HTV firms, is more
+
+chaebol group.
+
+affected by the two court rulings.
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+327
+
+KIM AND HAN
+
+TABLE 10
+
+KIM AND HAN
+
+The effect of takeover threat
+
+Dependent variable = CAR[ 1, +1] (%)
+Panel A: Takeover threat
+
+Takeover threat
+proxy
+
+Relative volume of M&A
+
+Frequency of M&A by
+domestic acquirers
+
+Frequency of M&A
+
+Frequency of M&A by foreign
+acquirers
+
+Pooled
+(1)
+
+PSM
+(2)
+
+Pooled
+(3)
+
+PSM
+(4)
+
+Pooled
+(5)
+
+PSM
+(6)
+
+Pooled
+(7)
+
+PSM
+(8)
+
+Treated
+
+1.463***
+(0.412)
+
+1.605**
+(0.665)
+
+1.146**
+(0.467)
+
+1.052
+(0.747)
+
+1.110**
+(0.463)
+
+1.040
+(0.762)
+
+1.372***
+(0.445)
+
+1.407**
+(0.683)
+
+Treated  Takeover
+threat
+
+0.064*
+(0.033)
+
+0.145**
+(0.062)
+
+0.517*
+(0.309)
+
+0.939**
+(0.420)
+
+0.790*
+(0.430)
+
+1.280**
+(0.543)
+
+0.723
+(0.720)
+
+1.918*
+(1.157)
+
+Takeover threat
+
+0.009
+(0.031)
+
+0.098
+(0.063)
+
+0.218
+(0.232)
+
+0.871
+(0.751)
+
+0.308
+(0.285)
+
+1.502
+(0.958)
+
+0.100
+(0.815)
+
+0.265
+(2.439)
+
+Event2
+
+0.041
+(0.220)
+
+1.466**
+(0.680)
+
+0.124
+(0.246)
+
+1.615**
+(0.717)
+
+0.140
+(0.248)
+
+1.745**
+(0.718)
+
+0.044
+(0.225)
+
+1.342*
+(0.694)
+
+Control variables
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Industry fixed effect
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+N
+
+2,060
+
+328
+
+2,060
+
+328
+
+2,060
+
+328
+
+2,060
+
+328
+
+Adj. R2
+
+2.95%
+
+4.02%
+
+3.05%
+
+4.78%
+
+3.09%
+
+4.97%
+
+2.93%
+
+4.11%
+
+Panel B: Takeover threat and long-term investment effect
+
+Frequency of
+M&A
+(2)
+
+Frequency
+of M&A
+by domestic
+acquirers
+(3)
+
+Frequency
+of M&A
+by foreign
+acquirers
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+1.550***
+(0.421)
+
+1.499***
+(0.573)
+
+1.174**
+(0.466)
+
+1.371**
+(0.661)
+
+1.170**
+(0.465)
+
+1.286*
+(0.665)
+
+1.364***
+(0.445)
+
+1.489**
+(0.613)
+
+Treated  Takeover
+threat  R&D expense
+
+0.044**
+(0.021)
+
+0.049**
+(0.024)
+
+0.158***
+(0.060)
+
+0.212**
+(0.092)
+
+0.193**
+(0.094)
+
+0.242*
+(0.133)
+
+0.386***
+(0.145)
+
+0.503**
+(0.240)
+
+Treated  Takeover
+threat
+
+0.232
+(0.154)
+
+0.238
+(0.159)
+
+0.177
+(0.392)
+
+0.077
+(0.433)
+
+0.314
+(0.591)
+
+0.223
+(0.650)
+
+0.021
+(0.908)
+
+0.197
+(0.975)
+
+Takeover threat
+
+0.012
+(0.031)
+
+0.002
+(0.035)
+
+0.205
+(0.232)
+
+0.171
+(0.233)
+
+0.297
+(0.284)
+
+0.258
+(0.287)
+
+0.062
+(0.814)
+
+0.011
+(0.805)
+
+R&D expense (%)
+
+0.078
+(0.055)
+
+0.081
+(0.058)
+
+0.064
+(0.055)
+
+0.082
+(0.061)
+
+0.067
+(0.055)
+
+0.082
+(0.060)
+
+0.067
+(0.055)
+
+0.077
+(0.059)
+
+Relative
+volume of
+M&A
+(1)
+
+Treated
+
+Takeover threat proxy
+
+Treated  R&D expense
+
+0.024
+(0.156)
+
+0.094
+(0.184)
+
+0.054
+(0.176)
+
+0.063
+(0.181)
+
+Takeover threat  R&D
+expense
+
+0.007
+(0.009)
+
+0.027
+(0.033)
+
+0.031
+(0.039)
+
+0.066
+(0.125)
+
+Event2
+
+0.036
+(0.219)
+
+0.032
+(0.219)
+
+0.112
+(0.245)
+
+0.114
+(0.245)
+
+0.127
+(0.248)
+
+0.128
+(0.248)
+
+0.038
+(0.224)
+
+0.042
+(0.224)
+
+Control variables
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Industry fixed effect
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+N
+
+2,060
+
+2,060
+
+2,060
+
+2,060
+
+2,060
+
+2,060
+
+2,060
+
+2,060
+
+Adj. R2
+
+3.04%
+
+2.97%
+
+3.22%
+
+3.16%
+
+3.23%
+
+3.16%
+
+3.07%
+
+2.99%
+
+Note: This table presents the results from the OLS regressions where the dependent variables are the CARs around the two court rulings. In both panels, the four
+different proxies of Takeover threat are as defined in Section 5.2. In panel B, R&D expense is the percentage ratio of research and development to total assets. Control
+variables are the same as in Table 3. A detailed explanation of the variables is in Appendix A. Industry fixed effect is based on the 2-digit KSIC dummies, and the
+intercept is included. PSM denotes the sample matched in Table 5. Robust standard errors adjusted for heteroscedasticity and clustered by firm-level are reported in
+parentheses.
+*Significance at the 10% level.
+**Significance at the 5% level.
+***Significance at the 1% level.
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+328
+
+We find partial but supportive evidence that treated firms are
+
+Korea in 2007 and 2008, which potentially weaken the anti-
+
+more likely to underperform when they engage more in long-term
+
+takeover force of the supermajority provision. This approach enables
+
+projects or belong to HTV industries. These results are reported in the
+
+us to estimate whether participants in the Korean financial market
+
+Online Appendix (for brevity). It implies that the supermajority provi-
+
+view the supermajority provision as a value-destroying or value-
+
+sion as an anti-takeover provision plays a more significant role under
+
+enhancing tool.
+
+certain conditions in our sample, consistent with the value-enhancing
+
+Using a sample of non-financial firms listed on the KRX at the
+
+perspective (e.g., Cremers et al., 2017; Daines & Klausner, 2001). As a
+
+time of these two court rulings, we find evidence that is inconsistent
+
+result, the supermajority provision can lead firms, typically those with
+
+with the value-destroying perspective, rather supports the value-
+
+long-term investments or higher complexity, to enhance or at least
+
+enhancing perspective. First, the average market reaction to the two
+
+protect shareholders' wealth.
+
+court rulings is significantly negative for the set of firms most affected
+
+Finally, we note Chemmanur and Jiao's (2012) argument, that the
+
+(treated firms). Second, we find that treated firms significantly
+
+value-enhancing perspective of the anti-takeover provisions is expected
+
+underperform compared with the non-impacted set of firms using var-
+
+to be stronger when the firm faces a high threat of takeover. To
+
+ious
+
+examine the effect of takeover threat, we incorporate four proxies as
+
+approaches. Third, we find additional evidence that the supermajority
+
+follows: M&A transaction volume relative to the firm's total asset size,
+
+provision may have a more significant role for firms with long-term
+
+M&A frequency, M&A frequency by domestic acquirers, and M&A
+
+projects, higher complexity, or higher threat of takeover. Overall, our
+
+frequency by foreign acquirers. Similar to Momtaz and Drobetz (2020),
+
+study provides evidence that the market views the supermajority pro-
+
+we construct these proxies at the within-industry level (the M&A's
+
+vision as inducing higher shareholders' wealth on average.
+
+target industry) over the past 5 years. We obtain M&A data from SDC
+Platinum.
+
+empirical
+
+methodologies,
+
+such
+
+as
+
+PSM
+
+and
+
+simulation
+
+One limitation of our study is that we cannot completely rule
+out the possibility that the effects of the anti-takeover provisions on
+
+Table 10 reports the results. All columns in panel A show that
+
+firm value are heterogeneous among firms or types of anti-takeover
+
+treated firms underperform more when their industries (as the target
+
+provisions. Since our estimates are only the average effect on
+
+industry) have higher M&A volume and frequency. The takeover
+
+treated firms, thus the supermajority provision might lead to ineffi-
+
+threat itself does not affect control firms around the two court rulings.
+
+cient governance (e.g., managerial entrenchment) in some firms.
+
+These results suggest that an intensive takeover threat in the market
+
+Given the nature of our empirical design, our finding is also limited
+
+may cause managerial myopia and can be detrimental to shareholders'
+
+to the effect of the supermajority provision, hence we cannot gener-
+
+wealth. Moreover, if the supermajority provision as a takeover
+
+alize our results to other types of anti-takeover provisions such as a
+
+defense ameliorates the threat of opportunistic takeovers and mana-
+
+staggered board.
+
+gerial myopia, it can allow managers to implement long-term projects
+
+Nevertheless, our finding contributes causal evidence to the long-
+
+that aim to create firm value. Extending this view, we further examine
+
+standing debate on the effect of the anti-takeover provisions on
+
+whether the treated firms facing a high takeover threat and with inten-
+
+shareholders' wealth. The regulation prohibiting the firm's anti-
+
+sive R&D investment in our sample are mostly (relative to other
+
+takeover provisions could be detrimental to shareholders' wealth.
+
+treated firms) affected by the two court rulings. In panel B of Table 10,
+
+Thus, our study finally suggests that policymakers should not uncondi-
+
+we find that the triple-interaction term of Treated, Takeover threat and
+
+tionally regard the anti-takeover provisions as value-destroying corpo-
+
+R&D expense is significantly negative in all columns, suggesting that
+
+rate governance factors and, hence, taking a more contextual view of
+
+the supermajority provision plays a more significant role for firms with
+
+such provisions is necessary.
+
+a high threat of takeover, particularly when they also have a focus on
+long-term investment. In contrast to the value-destroying perspective
+
+ACKNOWLEDG MENTS
+
+on anti-takeover provisions, the results in Table 10 indicate that
+
+We are especially grateful to the editor-in-chief Konstantinos
+
+takeover threats may not be an effective corporate governance
+
+Stathopoulos, the associate editor and two anonymous reviewers for
+
+mechanism to promote managers' efforts and to enhance share-
+
+their insightful suggestions. We are also grateful for the helpful com-
+
+holders' wealth.
+
+ments from Yakov Amihud, Xuan Tian, and seminar participants at
+the 2019 Conference on Asia-Pacific Financial Markets, the 2019
+Australasian Finance and Banking Conference, the 2020 Financial
+
+6
+
+|
+
+C O N CL U S I O N
+
+Management Association Annual Meeting, and the 2021 European
+Financial Management Association Annual Meetings. This paper was
+
+In this paper, we seek to make an empirical contribution to the liter-
+
+previously entitled “Anti-takeover provisions and shareholders
+
+ature by examining the relationship between the supermajority pro-
+
+wealth: Evidence from a natural experiment on the supermajority
+
+vision and firm value. As suggested by prior studies that use legal
+
+provision.” Hyeong Joon Kim acknowledges financial support from
+
+contexts for a quasi-natural experiment (e.g., Cohen & Wang, 2013;
+
+NRF (National Research Foundation of Korea) Grant funded by the
+
+Larcker et al., 2011), we design a quasi-natural experiment as our
+
+Korean Government (NRF-2018H1A2A1060309-Global Ph.D. Fel-
+
+main empirical framework: using court rulings in two major cities in
+
+lowship Program).
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+329
+
+KIM AND HAN
+
+KIM AND HAN
+
+CONF LICT OF IN TE RE ST
+
+8
+
+For the special-decision in the shareholders' meeting, the Commercial
+Act in Korea states: “A resolution shall be adopted by the affirmative
+votes of no less than two thirds of the voting rights of the shareholders
+present at a general meeting of shareholders and of at least one third of
+the total issued and outstanding shares (Article § 434 of the Commercial
+Act in Korea).” The special-decision is required to enforce an important
+matter, for example, amendments to articles of incorporation, reduction
+of capital, merger and acquisition, takeover of business, or removal of
+director. For the general-decision of shareholders meeting, the Commercial Act in Korea states “Unless otherwise provided for by this Act
+or the articles of incorporation, resolutions shall be adopted at a general
+meeting of shareholders by affirmative votes of a majority of the voting
+rights of shareholders present thereat and representing at least a quarter
+of the total issued and outstanding shares (Article § 368-(1) of the Commercial Act in Korea).”
+
+9
+
+This news article is available at the website of Joong-Ang Daily (https://
+news.joins.com/article/2912690, in Korean, last accessed on July 1, 2019).
+
+10
+
+This news article is available at the website of The Law Times (https://
+www.lawtimes.co.kr/Legal-News/Legal-News-View?serial=40530, in
+Korean, last accessed on July 1, 2019).
+
+11
+
+The non-profit organization KCGS has compiled annual information on
+corporate governance for representative companies on KRX since
+2002. For more detail information, we refer the reader to KCGS's
+website in English: http://www.cgs.or.kr/eng/index.asp.
+
+12
+
+This report (KCGS Report Vol.4 No. 8 (April, 2014), p. 2–6) is available
+at the website of KCGS (http://www.cgs.or.kr/publish/report_view.jsp?
+tn=53&pp=3&spyear=&skey=&svalue=, in Korean, last accessed on
+July 1, 2019).
+
+13
+
+Meanwhile, we could not bring an example for the respondent firm of
+the first court ruling (FYD Corp.) as KRX had suspended the firm's stock
+transactions at that time, to protect investors due to the lawsuit from
+mid-March until mid-May 2007.
+
+14
+
+However, it is possible that the reputation damage for losing the court
+ruling of respondent firm (GNCO Co., Ltd.) may drive the negative stock
+price reaction around the court ruling announcement date. Hence, we
+exclude the respondent firms of the two court rulings in our main analysis, and discuss about the reputation damage hypothesis in detail in
+Section 5.1 and the Online Appendix. We thank a reviewer for pointing
+this out.
+
+15
+
+The two court rulings in our study are equivalent to the decision of the
+U.S. Chancery Court. However, it is worth discussing the fact that two
+court rulings cannot strictly prohibit the supermajority provision for all
+firms listed on KRX (for counter example, see CA Corp Code §
+710 (2016), which is prohibiting the supermajority vote for all firms
+located in California). In addition, Korea has the High Court and the
+Supreme Court, similar to the Court of Appeals and the Supreme Court
+in the United States, respectively. However, the higher courts in Korea
+have not yet ruled about the supermajority provision. This point might
+represent a limitation of our study; nevertheless, we note that our
+study's underlying assumption is worthwhile to test empirically, in line
+with Cohen and Wang (2013).
+
+16
+
+Cohen and Wang (2013) multiply the observations associated with the
+latter court ruling event by negative one because the opposite sign is
+expected. However, in our empirical setting, we can directly use the
+returns at the time of announcement of the two events because
+the expected announcement effect of the two court rulings operate in
+the same direction.
+
+17
+
+DART is a similar platform to the Electronic Data Gathering, Analysis,
+and Retrieval (EDGAR) in the United States. The firms listed on the
+Korean market should announce their annual report on DART every fiscal year (and any major firm changes to protect the investors). DART
+also requires a restricted format for annual report similar to the
+
+Hyeong Joon Kim and Seung Hun Han declared no conflict of
+interest.
+DATA AVAI LAB ILITY S TATEMENT
+The data that support the findings of this study are available from the
+corresponding author upon reasonable request.
+ORCID
+Hyeong Joon Kim
+Seung Hun Han
+
+https://orcid.org/0000-0001-9179-4974
+https://orcid.org/0000-0003-2406-9734
+
+NOTES
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+Consistently, recent studies argue that firms may benefit from the antitakeover provisions if they have important business relationships with
+stakeholders (Cen et al., 2016; Johnson et al., 2015).
+For example, firms with lower market values may adopt (or continue to
+maintain) some anti-takeover provisions, which are commonly
+described as poor governance practices in the literature. In addition,
+firms can adopt good governance practices for signaling to the market
+(e.g., signaling that the management will behave well), and thus, the signal may affect stock price, rather than the intrinsic impact of such practices. It is also possible that firms may choose different governance
+practices endogenously (see, e.g., Adams et al., 2010; Demsetz &
+Lehn, 1985).
+The Solidarity for Economic Reform (SER) is the non-governmental
+organization in Korea established in 2006 to protect shareholders right,
+improve corporate governance, and monitor the government's financial
+policy.
+The report (Economic Reform Report Vol.3 in 2009) is available at the
+SER website (http://www.erri.or.kr/bbs/board.php?bo_table=B11&wr_
+id=39&page=11, in Korean, last accessed on July 1, 2019).
+Recently, The Korea Herald, a media company in Korea, reports in June
+2019 that “the supermajority provision for change of directors is the
+most selected (13%), the golden parachute is the second-most selected
+(11%), and the supermajority provision for merger is the third-most
+selected (2%) anti-takeover provision by Korean-listed firms.” (http://
+biz.heraldcorp.com/view.php?ud=20190625000322, in Korean, last
+accessed on July 1, 2019).
+In terms of U.S. firms, which are the most commonly examined in the
+corporate governance literature, the state law determines whether a
+firm can have a supermajority rule. For example, companies in California
+cannot adopt any form of supermajority rule if it requires more than
+66.67% of the voting rights due to the CA Corp Code § 710 (2016),
+which states: A supermajority vote is a requirement set forth in the articles or in a certificate of determination authorized under any provision
+of this division that specified corporate action or actions be approved by
+a larger proportion of the outstanding shares than a majority, or by a
+larger proportion of the outstanding shares of a class or series than
+a majority, but no supermajority vote that is subject to this section shall
+require a vote in excess of 66 2/3% of the outstanding shares or
+66 2/3% of the outstanding shares of any class or series of those shares.
+Under the Commercial Act in Korea, matters to be included in the charter are more comprehensive than matters to be included in the
+U.S. firms' charter. Furthermore, there are a number of differences
+between Korea and U.S. law and judicial system; Korea is a civil law
+country, which has German origin, and United States is a common
+law country, which has English origins (La Porta et al., 1997, 1998,
+1999). See Choi et al. (2016) and Choi et al. (2018) for a review of the
+national characteristics in the Korean judicial system.
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+330
+
+U.S. SEC's Form 10-K, including a financial statement, an income statement, and a firm's charter.
+18
+
+We consider announcements that have potential effect on the stock
+return as follows: initial public offerings (IPOs), delisting, mergers and
+acquisitions, split-up, CEO turnover, capital reduction, bonus issues,
+major change of the business purpose or company identity, investors
+relation (IR) presentation, litigation-related announcement, capital
+expenditure, stock split, stock repurchase, business suspension, seasoned equity offerings (SEOs), convertible bonds and bonds with warrants offerings, corporate bond offerings, sales of fixed assets in the
+firm, dividend of stock or cash, and patent application.
+
+19
+
+In unreported tests, we exclude observations with such events around
+3 days, a week, or a month before and after the dates of two court rulings (rather than the 2 weeks of the main analysis), and re-estimate the
+baseline regression. The estimated coefficients of Treated remain significant and negative at the 1% level. Overall, we find that our main results
+are not largely changed in these unreported tests.
+
+20
+
+There are several provisions for takeover defenses in the governance
+index measures for U.S. firms (e.g., FK-index of Field & Karpoff, 2002,
+G-index of Gompers et al., 2003, and E-index of Bebchuk et al., 2009.
+However, owing to differences in commercial law between the
+United States and Korea, we only consider the three types of takeover
+defenses (as we describe in Section 2.1): Supermajority, Staggered Board,
+and Golden Parachute. For example, Poison Pill and Unequal Voting Rights
+are not legally allowed in Korea. We manually check for all the possible
+anti-takeover provisions during our data-collection process. Thus, we
+identify Miscellaneous provisions such as “board can be removed only
+for cause,” “only persons who have been in the company for more than
+3 years can be appointed as directors” and so on.
+
+21
+
+Note that our estimates are the average treatment effect on treated
+(ATET), whereas Cohen and Wang (2013, 2017) argue that their estimates are the average treatment effect (ATE). Therefore, we perform
+various empirical specifications and discuss the results in later sections
+to address potential endogeneity concerns. We thank a reviewer for
+pointing this out.
+
+22
+
+Meanwhile, control firms show the positive stock price reaction on average. These results may raise some concern about measurement error.
+However, we emphasize that the main focus of this study is not on
+testing the effectiveness (or validation) of the market model in our sample. If we assume that the market model overall overestimates abnormal returns in our sample, then the actual effect of two court rulings on
+treated firms would be more negative than our estimates. In sum, we
+argue that regardless of whether the market model on April 13, 2007,
+and June 2, 2008, was sufficiently efficient, the difference between
+treated and control firms is crucial for our study. In addition, we find
+consistent results overall when we use some alternative measures of
+stock price reaction in the Online Appendix.
+
+23
+
+Our matching results are largely unchanged when we add the industry
+(the first-two KSIC digits) in the matching criteria. However, due to the
+limited sample size, this result is untabulated.
+
+24
+
+In general, many firms on the KRX have a fiscal year ending at the end of
+December and hold their annual meeting in March. Therefore, the last
+Friday (or last week) of March is usually called “Super-day (or Superweek) for annual meetings” in Korea. For example, Joong-Ang Daily, the
+major media company in Korea reports “Approximately 26% and 50% of
+firms listed on KRX hold shareholders meeting during the Super-day and
+Super-week for annual-meeting, respectively” (https://news.joins.com/
+article/22440615, in Korean, last accessed on July 1, 2019).
+
+25
+
+Note that the firm's decision to change its anti-takeover provisions could
+be endogenous even the court rulings per se are explicitly exogenous to
+each firm's such decision. We thank a reviewer for pointing this out.
+Therefore, we cautiously interpret the results of the difference-indifferences approach for this changed sample analysis. We emphasize
+
+that the wealth effect of the second court ruling for this changed sample
+is significantly different from that of the first court ruling through our
+results in this difference-in-differences regression (panel B of Table 8).
+
+RE FE RE NCE S
+Adams, R. B., Hermalin, B. E., & Weisbach, M. S. (2010). The role of boards
+of directors in corporate governance: A conceptual framework and
+survey. Journal of Economic Literature, 48, 58–107. https://doi.org/10.
+1257/jel.48.1.58
+Amihud, Y, Schmid, M, & Davidoff Solomon, S. (2017). Do staggered
+boards affect firm value? Unpublished working paper.
+Amihud, Y., & Stoyanov, S. (2017). Do staggered boards harm shareholders? Journal of Financial Economics, 123, 432–439. https://doi.
+org/10.1016/j.jfineco.2016.04.002
+Baek, J. S., Kang, J. K., & Lee, I. (2006). Business groups and tunneling: Evidence from private securities offerings by Korean chaebols. The Journal of Finance, 61, 2415–2449. https://doi.org/10.1111/j.1540-6261.
+2006.01062.x
+Baek, J.-S., Kang, J.-K., & Park, K. S. (2004). Corporate governance and firm
+value: Evidence from the Korean financial crisis. Journal of Financial
+Economics, 71, 265–313. https://doi.org/10.1016/S0304-405X(03)
+00167-3
+Barber, B. M., & Odean, T. (2008). All that glitters: The effect of attention
+and news on the buying behavior of individual and institutional investors. The Review of Financial Studies, 21, 785–818. https://doi.org/10.
+1093/rfs/hhm079
+Bebchuk, L., Cohen, A., & Ferrell, A. (2009). What matters in corporate
+governance? The Review of Financial Studies, 22, 783–827. https://doi.
+org/10.1093/rfs/hhn099
+Bebchuk, L. A., Coates, J. C. IV, & Subramanian, G. (2002). The powerful
+antitakeover force of staggered boards: Further findings and a reply to
+symposium participants. Stan. L. Rev., 55(3), 885–917. https://doi.org/
+10.2307/1229675
+Bebchuk, L. A., & Cohen, A. (2005). The costs of entrenched boards. Journal of Financial Economics, 78, 409–433. https://doi.org/10.1016/j.
+jfineco.2004.12.006
+Bernile, G., Bhagwat, V., & Rau, P. R. (2017). What doesn't kill you will
+only make you more risk-loving: Early-life disasters and CEO behavior. The Journal of Finance, 72, 167–206. https://doi.org/10.1111/
+jofi.12432
+Bertrand, M., & Mullainathan, S. (2003). Enjoying the quiet life? Corporate
+governance and managerial preferences. Journal of Political Economy,
+111, 1043–1075. https://doi.org/10.1086/376950
+Bhargava, R., Faircloth, S., & Zeng, H. (2017). Takeover protection and
+stock price crash risk: Evidence from state antitakeover laws. Journal
+of Business Research, 70, 177–184. https://doi.org/10.1016/j.jbusres.
+2016.08.021
+Bhojraj, S., Sengupta, P., & Zhang, S. (2017). Takeover defenses: Entrenchment and efficiency. Journal of Accounting and Economics, 63,
+142–160. https://doi.org/10.1016/j.jacceco.2016.12.001
+Black, B. S., Jang, H., & Kim, W. (2006). Does corporate governance predict
+firms' market values? Evidence from Korea. The Journal of Law, Economics, and Organization, 22, 366–413. https://doi.org/10.1093/jleo/
+ewj018
+Bushee, B. J. (1998). The influence of institutional investors on myopic
+R&D investment behavior. Accounting Review, 305–333. https://www.
+jstor.org/stable/248542
+Cain, M. D., McKeon, S. B., & Solomon, S. D. (2017). Do takeover laws
+matter? Evidence from five decades of hostile takeovers. Journal of
+Financial Economics, 124, 464–485. https://doi.org/10.1016/j.jfineco.
+2017.04.003
+Cen, L., Dasgupta, S., & Sen, R. (2016). Discipline or disruption? Stakeholder relationships and the effect of takeover threat. Management
+Science, 62, 2820–2841. https://doi.org/10.1287/mnsc.2015.2252
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+331
+
+KIM AND HAN
+
+Chan, L. K., Lakonishok, J., & Sougiannis, T. (2001). The stock market valuation of research and development expenditures. The Journal of
+Finance, 56, 2431–2456. https://doi.org/10.1111/0022-1082.00411
+Chang, Y. K., Oh, W.-Y., Park, J. H., & Jang, M. G. (2017). Exploring the
+relationship between board characteristics and CSR: Empirical evidence from Korea. Journal of Business Ethics, 140, 225–242. https://
+doi.org/10.1007/s10551-015-2651-z
+Chemmanur, T. J., & Jiao, Y. (2012). Dual class IPOs: A theoretical analysis.
+Journal of Banking & Finance, 36, 305–319. https://doi.org/10.1016/j.
+jbankfin.2011.07.010
+Choi, H., Kang, H. G., Kim, W., Lee, C., & Park, J. (2016). Too big to jail?
+Company status and judicial bias in an emerging market. Corporate
+Governance: An International Review, 24, 85–104. https://doi.org/10.
+1111/corg.12142
+Choi, H., Kang, H. G., & Lee, C. (2018). What constitutes “too big to jail?”
+Evidence from South Korea's family business groups. Asia-Pacific Journal of Financial Studies, 47, 881–919. https://doi.org/10.1111/ajfs.
+12241
+Choi, Y. K., Han, S. H., & Kwon, Y. (2019). CSR activities and internal capital markets: Evidence from Korean business groups. Pacific-Basin
+Finance Journal, 55, 283–298. https://doi.org/10.1016/j.pacfin.2019.
+04.008
+Cohen, A., & Wang, C. C. (2013). How do staggered boards affect shareholder value? Evidence from a natural experiment. Journal of Financial
+Economics, 110, 627–641. https://doi.org/10.1016/j.jfineco.2013.
+08.005
+Cohen, A., & Wang, C. C. (2017). Reexamining staggered boards and shareholder value. Journal of Financial Economics, 125, 637–647. https://
+doi.org/10.1016/j.jfineco.2017.06.004
+Cremers, K. M., Litov, L. P., & Sepe, S. M. (2017). Staggered boards and
+long-term firm value, revisited. Journal of Financial Economics, 126,
+422–444. https://doi.org/10.1016/j.jfineco.2017.08.003
+Cremers, M., & Ferrell, A. (2014). Thirty years of shareholder rights and
+firm value. The Journal of Finance, 69, 1167–1196. https://doi.org/10.
+1111/jofi.12138
+Daines, R. (2001). Does Delaware law improve firm value? Journal of Financial Economics, 62, 525–558. https://doi.org/10.1016/S0304-405X
+(01)00086-1
+Daines, R., & Klausner, M. (2001). Do IPO charters maximize firm value?
+Antitakeover protection in IPOs. Journal of Law, Economics, and Organization, 17, 83–120. https://doi.org/10.1093/jleo/17.1.83
+Daines, R., Li, S. X., & Wang, C. C. (2018). Can staggered boards improve
+value? Evidence from the Massachusetts natural experiment.
+Unpublished working paper
+DeAngelo, H., & Rice, E. M. (1983). Antitakeover charter amendments and
+stockholder wealth. Journal of Financial Economics, 11, 329–359.
+https://doi.org/10.1016/0304-405X(83)90016-8
+Demsetz, H., & Lehn, K. (1985). The structure of corporate ownership:
+Causes and consequences. Journal of Political Economy, 93,
+1155–1177. https://doi.org/10.1086/261354
+Duru, A., Wang, D., & Zhao, Y. (2013). Staggered boards, corporate opacity
+and firm value. Journal of Banking & Finance, 37, 341–360. https://doi.
+org/10.1016/j.jbankfin.2012.09.002
+Faleye, O. (2007). Classified boards, firm value, and managerial entrenchment. Journal of Financial Economics, 83, 501–529. https://doi.org/10.
+1016/j.jfineco.2006.01.005
+Field, L. C., & Karpoff, J. M. (2002). Takeover defenses of IPO firms. The
+Journal of Finance, 57, 1857–1889. https://doi.org/10.1111/00221082.00482
+Frattaroli, M. (2020). Does protectionist anti-takeover legislation lead to
+managerial entrenchment? Journal of Financial Economics, 136,
+106–136. https://doi.org/10.1016/j.jfineco.2019.03.014
+Giroud, X., & Mueller, H. M. (2011). Corporate governance, product market competition, and equity prices. The. Journal of Finance, 66,
+563–600. https://doi.org/10.1111/j.1540-6261.2010.01642.x
+
+KIM AND HAN
+
+Gompers, P., Ishii, J., & Metrick, A. (2003). Corporate governance and
+equity prices. The Quarterly Journal of Economics, 118, 107–156.
+https://doi.org/10.1162/00335530360535162
+Graham, J. R., Michaely, R., & Roberts, M. R. (2003). Do price discreteness
+and transactions costs affect stock returns? Comparing ex-dividend
+pricing before and after decimalization. The Journal of Finance, 58,
+2611–2636. https://doi.org/10.1046/j.1540-6261.2003.00617.x
+Harris, M., & Raviv, A. (1988). Corporate governance: Voting rights and
+majority rules. Journal of Financial Economics, 20, 203–235. https://
+doi.org/10.1016/0304-405X(88)90045-1
+Heckman, J. J., Ichimura, H., & Todd, P. (1998). Matching as an econometric evaluation estimator. The Review of Economic Studies, 65, 261–294.
+https://doi.org/10.1111/1467-937X.00044
+Heckman, J. J., Ichimura, H., & Todd, P. E. (1997). Matching as an econometric evaluation estimator: Evidence from evaluating a job training
+programme. The Review of Economic Studies, 64, 605–654. https://doi.
+org/10.2307/2971733
+Humphery-Jenner, M. (2014). Takeover defenses, innovation, and value
+creation: Evidence from acquisition decisions. Strategic Management
+Journal, 35, 668–690. https://doi.org/10.1002/smj.2121
+Jensen, M. C. (1993). The modern industrial revolution, exit, and the failure
+of internal control systems. The Journal of Finance, 48, 831–880.
+https://doi.org/10.1111/j.1540-6261.1993.tb04022.x
+Jensen, M. C., & Meckling, W. H. (1976). Theory of the firm: Managerial
+behavior, agency costs and ownership structure. Journal of Financial
+Economics, 3, 305–360. https://doi.org/10.1016/0304-405X(76)
+90026-X
+Johnson, W. C., Karpoff, J. M., & Yi, S. (2015). The bonding hypothesis
+of takeover defenses: Evidence from IPO firms. Journal of Financial
+Economics, 117, 307–332. https://doi.org/10.1016/j.jfineco.2015.
+03.008
+Karpoff, J. M., & Malatesta, P. H. (1989). The wealth effects of secondgeneration state takeover legislation. Journal of Financial Economics,
+25, 291–322. https://doi.org/10.1016/0304-405X(89)90085-8
+Karpoff, J. M., & Wittry, M. D. (2018). Institutional and legal context in
+natural experiments: The case of state antitakeover laws. The Journal
+of Finance, 73, 657–714. https://doi.org/10.1111/jofi.12600
+Knoeber, C. R. (1986). Golden parachutes, shark repellents, and hostile
+tender offers. The American Economic Review, 76, 155–167. https://
+www.jstor.org/stable/1804133
+La Porta, R., Lopez-de-Silanes, F., Shleifer, A., & Vishny, R. W. (1997). Legal
+determinants of external finance. The Journal of Finance, 52,
+1131–1150. https://doi.org/10.1111/j.1540-6261.1997.tb02727.x
+La Porta, R., Lopez-de-Silanes, F., Shleifer, A., & Vishny, R. W. (1998). Law
+and finance. Journal of Political Economy, 106, 1113–1155. https://doi.
+org/10.1086/250042
+La Porta, R., Lopez-de-Silanes, F., Shleifer, A., & Vishny, R. W. (1999). The
+quality of government. Journal of Law, Economics, and Organization, 15,
+222–279. https://doi.org/10.1093/jleo/15.1.222
+Larcker, D. F., Ormazabal, G., & Taylor, D. J. (2011). The market reaction to
+corporate governance regulation. Journal of Financial Economics, 101,
+431–448. https://doi.org/10.1016/j.jfineco.2011.03.002
+Lee, D. W., & Park, K. S. (2009). Does institutional activism increase shareholder wealth? Evidence from spillovers on non-target companies.
+Journal of Corporate Finance, 15, 488–504. https://doi.org/10.1016/j.
+jcorpfin.2009.03.002
+Manne, H. G. (1965). Mergers and the market for corporate control. Journal of Political Economy, 73, 110–120. https://doi.org/10.1086/
+259000
+Martijn Cremers, K., Nair, V. B., & John, K. (2009). Takeovers and the
+cross-section of returns. Review of Financial Studies, 22(4), 1409–1445.
+https://doi.org/10.1093/rfs/hhn032
+Masulis, R. W., Wang, C., & Xie, F. (2007). Corporate governance and
+acquirer returns. The Journal of Finance, 62, 1851–1889. https://doi.
+org/10.1111/j.1540-6261.2007.01259.x
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+332
+
+Momtaz, P., & Drobetz, W. (2020). Antitakeover provisions and firm value:
+New evidence from the M&A market. Journal of Corporate Finance, 62,
+101594. https://doi.org/10.1016/j.jcorpfin.2020.101594
+Rosenbaum, P. R., & Rubin, D. B. (1983). The central role of the propensity
+score in observational studies for causal effects. Biometrika, 70,
+41–55. https://doi.org/10.1093/biomet/70.1.41
+Shin, H.-H., & Park, Y. S. (1999). Financing constraints and internal capital
+markets: Evidence from Korean ‘chaebols’. Journal of Corporate
+Finance, 5, 169–191. https://doi.org/10.1016/S0929-1199(99)
+00002-4
+Shleifer, A., & Summers, L. H. (1988). Breach of trust in hostile takeovers.
+In A. J. Auerbach (Ed.), Corporate takeovers: Causes and consequences
+(pp. 33–68). University of Chicago Press.
+Smith, J. A., & Todd, P. E. (2005). Does matching overcome LaLonde's critique of nonexperimental estimators? Journal of Econometrics, 125,
+305–353. https://doi.org/10.1016/j.jeconom.2004.04.011
+Stein, J. C. (1988). Takeover threats and managerial myopia. Journal of
+Political Economy, 96, 61–80. https://doi.org/10.1086/261524
+Stein, J. C. (1989). Efficient capital markets, inefficient firms: A model of
+myopic corporate behavior. The Quarterly Journal of Economics, 104,
+655–669. https://doi.org/10.2307/2937861
+Stulz, R. (1988). Managerial control of voting rights: Financing policies and
+the market for corporate control. Journal of Financial Economics, 20,
+25–54. https://doi.org/10.1016/0304-405X(88)90039-6
+
+Ph.D. degree from the Korea Advanced Institute of Science and
+Technology (KAIST), and this paper is based on his Ph.D. dissertation at KAIST. His research interests include corporate governance and CEO characteristics.
+Seung Hun Han is a professor of finance at the School of Business
+and Technology Management, KAIST, Republic of Korea. He
+received his Ph.D. in finance from the University of Central Florida. His research interest includes corporate governance, corporate environmental management, mergers and acquisitions, and
+bond market analysis.
+
+SUPPORTING INF ORMATION
+Additional supporting information may be found in the online version
+of the article at the publisher's website.
+
+How to cite this article: Kim, H. J., & Han, S. H. (2022).
+Supermajority provisions and shareholders wealth: Evidence
+from South Korea's natural experiment. Corporate Governance:
+
+AUTHOR BIOGRAPHI ES
+
+An International Review, 30(3), 311–334. https://doi.org/10.
+1111/corg.12402
+
+Hyeong Joon Kim is a visiting professor at the Dongguk Business
+School, Dongguk University, Republic of Korea. He received his
+
+AP PE NDIX A: DEFINITION OF THE VARIABLES
+Variable name
+
+Definition/measurements
+
+Data source
+
+CAR[ 1, +1] (%)
+
+The cumulative abnormal return (CAR) as percentage measured over the window
+[ 1, +1] relative to the two court ruling announcement dates, calculated using
+the market model estimated over the past 180 trading days; the first court ruling
+date was April 13, 2007, and the second one was June 2, 2008.
+
+FN Dataguide
+
+Supermajority
+
+1 if the firm has the supermajority voting rule (to approve the merger, change
+directors, and change charter provisions) in its charter, or if the firm has minimum
+attendance requirement for the shareholders' meeting; 0 otherwise.
+
+DART
+
+Staggered Board (SB)
+
+1 if the firm has a staggered board structure in its charter; 0 otherwise.
+
+DART
+
+Golden Parachute (GP)
+
+1 if the firm has a golden parachute rule in its charter; 0 otherwise.
+
+DART
+
+Miscellaneous provisions
+(Miscell)
+
+1 if the firm has a miscellaneous anti-takeover provision (e.g., only people who have
+been in the company for more than 3 years can be appointed as directors) in its
+charter; 0 otherwise.
+
+DART
+
+Other-provision
+
+1 if the firm has at least one of the following: a staggered board structure, a golden
+parachute rule, and a miscellaneous provision in its charter (i.e., Otherprovision = 1 if SB = 1 or GP = 1 or Miscell = 1); 0 otherwise.
+
+DART
+
+Treated
+
+1 if the firm has the supermajority rule as the only anti-takeover provision in its
+charter (treated firms); 0 if the firm has no anti-takeover provision (control firms).
+
+DART
+
+Event2
+
+1 for the sample of the second court ruling; 0 for the sample of the first court ruling.
+
+FN Dataguide
+
+Industry dummies
+
+The first two-digit Korean Standard Industrial Classification (KSIC) code dummies
+(Industry Fixed Effect), where KSIC is provided by Statistics Korea, a central
+organization for statistics under the Ministry of Strategy and Finance.
+
+FN Dataguide
+
+Age
+
+The fiscal year prior to the announcement minus the year of corporate foundation
+plus one
+
+FN Dataguide
+
+(Continues)
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+333
+
+KIM AND HAN
+
+KIM AND HAN
+
+Variable name
+
+Definition/measurements
+
+Data source
+
+Size
+
+Natural logarithm of total assets (thousands of Korean won [KRW]) in the fiscal year
+prior to the announcement.
+
+FN Dataguide
+
+Cash
+
+Cash and cash equivalents divided by total assets in the fiscal year prior to the
+announcement.
+
+FN Dataguide
+
+Leverage
+
+The book value of liabilities divided by total assets in the fiscal year prior to the
+announcement.
+
+FN Dataguide
+
+M-to-B
+
+Market-to-book value; total market capitalization divided by the book value of
+equity in the fiscal year prior to the announcement.
+
+FN Dataguide
+
+OCF
+
+Operating cash flows divided by total assets in the fiscal year prior to the
+announcement.
+
+FN Dataguide
+
+ROA
+
+Net income divided by total assets in the fiscal year prior to the announcement.
+
+FN Dataguide
+
+Investment
+
+The total expenses of research and development and capital expenditure divided by
+total assets in the fiscal year prior to the announcement.
+
+FN Dataguide
+
+Stock volatility
+
+The cumulative standard deviation of stock prices for a month (about 20 trading
+days) at the date 2 weeks before the court ruling announcements.
+
+FN Dataguide
+
+Stock run-up
+
+Cumulative stock return for a month (about 20 trading days) at the date 2 weeks
+before the court ruling announcements.
+
+FN Dataguide
+
+Board size
+
+Natural logarithm of the number of directors in the fiscal year prior to the
+announcement.
+
+TS2000
+
+Board independence
+
+The ratio of the number of outside directors to the number of the directors in the
+fiscal year prior to the announcement.
+
+TS2000
+
+Controlling shareholder
+ownership
+
+Proportion of shares owned by the controlling shareholder of the firm in the fiscal
+year prior to the announcement.
+
+FN Dataguide
+
+Institutional investors NB
+[ 1, +1] (%)
+
+Institutional investors (including private equity funds and the pension funds)' netbuying (NB) of the firm as percentage measured over the window [ 1, +1]
+relative to the two court ruling announcement dates, where NB is the buying
+KRW volume minus the selling KRW volume, scaled by total trading KRW volume.
+
+FN Dataguide
+
+Individual investors NB
+[ 1, +1] (%)
+
+Individual investors' net-buying (NB) of the firm as percentage measured over the
+window [ 1, +1] relative to the two court ruling announcement dates, where NB
+is the buying KRW volume minus the selling KRW volume, scaled by total trading
+KRW volume.
+
+FN Dataguide
+
+Foreign investors NB[ 1,
++1] (%)
+
+Foreign investors' net-buying (NB) of the firm as percentage measured over the
+window [ 1, +1] relative to the two court ruling announcement dates, where NB
+is the buying KRW volume minus the selling KRW volume, scaled by total trading
+KRW volume.
+
+FN Dataguide
+
+Total trading volume[ 1,
++1] (%)
+
+Total trading volume (percentage expressed) of the firm over the window [ 1, +1]
+relative to the two court ruling announcement dates, scaled by the firm's market
+value in the fiscal year prior to the announcement.
+
+FN Dataguide
+
+Control-to-Treated
+
+1 if the firm was a control firm at the first court ruling but a treated firm at the
+second court ruling, or a treated firm at the second court ruling but no observation
+for the first court ruling, or a control firm at the first court ruling but no
+observation for the second court ruling; 0 for vice-versa.
+
+DART
+
+Relative volume of M&A
+(Takeover threat)
+
+The ratio of total transaction volume of mergers and acquisitions (M&A) to the firm's
+total assets, where M&A are defined as those in the past 5 years targeting the
+industry to which the firm belongs.
+
+SDC Platinum Mergers
+and Acquisitions
+
+Frequency of M&A
+(Takeover threat)
+
+The total number of mergers and acquisitions (M&A), over the past 5 years targeting
+the industry to which the firm belongs.
+
+SDC Platinum Mergers
+and Acquisitions
+
+Frequency of M&A by
+domestic acquirers
+(Takeover threat)
+
+The total number of mergers and acquisitions (M&A) by domestic acquirers (Korean
+firms), over the past 5 years targeting the industry to which the firm belongs.
+
+SDC Platinum Mergers
+and Acquisitions
+
+Frequency of M&A by
+foreign acquirers
+(Takeover threat)
+
+The total number of mergers and acquisitions (M&A) by foreign acquirer (nonKorean firms), over the past 5 years targeting the industry to which the firm
+belongs.
+
+SDC Platinum Mergers
+and Acquisitions
+
+14678683, 2022, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/corg.12402 by <Shibboleth>-member@library.princeton.edu, Wiley Online Library on [08/05/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+334
+
+

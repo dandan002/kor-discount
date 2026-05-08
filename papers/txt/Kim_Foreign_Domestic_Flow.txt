@@ -1,0 +1,1865 @@
+China Journal of Accounting Research 8 (2015) 1–23
+
+Contents lists available at ScienceDirect
+
+H O S T E D BY
+
+China Journal of Accounting Research
+journal homepage: www.elsevier.com/locate/cjar
+
+Foreign versus domestic institutional investors
+in emerging markets: Who contributes more
+to ﬁrm-speciﬁc information ﬂow?
+Jeong-Bon Kim, Cheong H. Yi ⇑
+Department of Accountancy, City University of Hong Kong, Hong Kong
+
+A R T I C L E
+
+I N F O
+
+Article history:
+Received 12 December 2014
+Accepted 30 December 2014
+Available online 23 January 2015
+Keywords:
+Foreign investors
+Institutional trading
+Investment horizon
+Stock price synchronicity
+Korea
+
+A B S T R A C T
+
+Using a large sample of ﬁrms listed on the Korea Stock Exchange over 1998–
+2007, this study investigates whether and how trading by foreign and domestic
+institutional investors improves the extent to which ﬁrm-speciﬁc information is
+incorporated into stock prices, captured by stock price synchronicity. We ﬁnd,
+ﬁrst, that stock price synchronicity decreases signiﬁcantly with the intensity of
+trading by foreign investors and domestic institutional investors. Second,
+trading by foreign investors facilitates the incorporation of ﬁrm-speciﬁc information into stock prices to a greater extent than trading by aggregate domestic
+institutions. Third, among domestic institutions with diﬀering investment
+horizons, short-term investing institutions, such as securities and investment
+trust companies, play a more important role in incorporating ﬁrm-speciﬁc
+information into stock prices via their trading activities, compared with
+long-term investing institutions, such as banks and insurance companies.
+Finally, we provide evidence suggesting that trading by foreign and domestic
+short-term institutions reduces the extent of accrual mispricing. Our results
+are robust to a variety of sensitivity checks.
+Ó 2015 Sun Yat-sen University. Production and hosting by B.V.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+1. Introduction
+The past 25 years have witnessed a growing trend in which many emerging countries have liberalized their
+stock markets, allowing foreign investors to invest directly in the equity securities of local ﬁrms. Foreign access
+
+⇑ Corresponding author. Tel.: +852 3442 8043; fax: +852 3442 0347.
+
+E-mail address: cheongyi@cityu.edu.hk (C.H. Yi).
+http://dx.doi.org/10.1016/j.cjar.2015.01.001
+1755-3091/Ó 2015 Sun Yat-sen University. Production and hosting by B.V.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+2
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+to domestic equity markets has raised a number of interesting questions related to foreign investors’ portfolio
+choice and performance. An important stream of research in the “home bias” literature investigates ﬁrm-speciﬁc factors that inﬂuence shareholdings by foreign investors. Although barriers to international investment in
+emerging markets have signiﬁcantly reduced since market liberalizations, foreign investors may still face indirect barriers (Karolyi and Stulz, 2003). The home bias literature typically posits the information disadvantage
+of foreign investors, which inﬂuences their asset holdings and performance. For example, Kang and Stulz
+(1997) and Dahlquist and Robertsson (2001), using Japanese and Swedish data, respectively, ﬁnd that foreign
+investors hold disproportionately more shares of large ﬁrms and ﬁrms with greater recognition or visibility in
+international markets. Bradshaw et al. (2004) ﬁnd that U.S. investors prefer foreign ﬁrms that exhibit higher
+levels of conformity with U.S. Generally Accepted Accounting Principles. Covrig et al. (2006) ﬁnd that foreign
+managers of mutual funds tend to overweight stocks that are globally well known, while domestic managers
+prefer stocks with large dividend payouts, low ﬁnancial distress and high growth potential. Similarly, Leuz
+et al. (2009) provide evidence that U.S. investors are reluctant to invest in foreign ﬁrms with aggressive earnings management, especially those from countries with poor disclosure regimes. Overall, these studies suggest
+that foreigners prefer to invest in stocks with less information uncertainty to overcome their information
+disadvantages.
+Another stream of research focuses on the investment performance of foreign investors vis-à-vis domestic
+investors and provides mixed evidence. For example, Shukla and Inwegen (1995), Brennan and Cao (1997)
+and Hau (2001) ﬁnd evidence that local investors outperform foreign investors. In contrast, Seasholes
+(2004), Grinblatt and Keloharju (2000), Karolyi (2002) and Froot and Ramadorai (2008) provide evidence
+suggesting that foreign investors are more informed and outperform their domestic counterparts. In reconciling the mixed evidence on investor performance, Albuquerque et al. (2009) show the presence of global private
+information that gives an information advantage to international investors who are not as informed as local
+investors about local private information.
+Since the aforementioned studies focus mainly on foreign investors’ asset holdings and investment performance, little is known about the role of foreign and domestic institutional investors in inﬂuencing the information environment, particularly in emerging markets with less developed institutional infrastructures. To ﬁll
+this gap, our study aims to provide systematic evidence on the following under-researched questions:
+(1) Does trading by foreign and domestic institutional investors improve the ﬂow of ﬁrm-speciﬁc information to the market?
+(2) Do foreign investors play a more signiﬁcant role in enhancing ﬁrm-speciﬁc information ﬂow via their
+trading than domestic institutional investors?
+(3) Does the informational role of domestic institutions diﬀer according to their investment horizons?
+To address these questions, we ﬁrst investigate whether the trading of a ﬁrm’s shares by foreign and local
+institutional investors improves ﬁrm-speciﬁc information ﬂow to the market, particularly the extent to which
+ﬁrm-speciﬁc information is incorporated into stock prices relative to common (market-wide and/or industrywide) information. In so doing, we measure the relative amount of ﬁrm-speciﬁc versus common information
+incorporated into stock prices, using stock price synchronicity, or co-movement. Lower stock price synchronicity means that stock prices covary with ﬁrm-speciﬁc factors to a greater extent than with common factors,
+leading to less synchronous or more informative stock prices (Durnev et al., 2003; Jin and Myers, 2006). To
+the extent that institutional investors, whether foreign or local, actively collect, process and trade on ﬁrm-speciﬁc information, we expect that their trading activities facilitate the incorporation of ﬁrm-speciﬁc information
+into stock prices, thereby reducing synchronicity.
+Second, we examine whether and how foreign investors diﬀer from domestic institutional investors in their
+roles of inﬂuencing the ﬂow of ﬁrm-speciﬁc information to the market. Given that foreign investors in emerging markets are typically more sophisticated and have an information advantage of global information, it is
+interesting to examine whether or not our results on the informational eﬀect of trading by foreign investors are
+driven by the fact that foreign investors are institutional investors. We evaluate this unexplored question by
+comparing the informational role of foreign trading with that of domestic institutional trading, using the latter
+as a benchmark.
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+3
+
+Finally, we investigate whether domestic institutions with relatively short investment horizons are better
+able to facilitate ﬁrm-speciﬁc information ﬂow, compared with domestic institutions with relatively long
+investment horizons. Previous research ﬁnds that the inﬂuence of institutional trading on managerial behavior
+and stock returns diﬀers signiﬁcantly, according to whether institutional investors are dedicated or transient
+institutions (Bushee, 1998, 2001) and whether they are short-term investors—who trade more actively—or
+long-term investors—who trade less actively (Yan and Zhang, 2009). To date, however, little is known about
+whether institutions with diﬀering investment horizons play diﬀerent roles in inﬂuencing the incorporation of
+ﬁrm-speciﬁc information into stock prices. To provide systematic evidence on this issue, we compare the informational role of domestic short-term institutions, such as securities and investment trust companies, with that
+of domestic long-term institutions, such as banks and insurance companies.
+To assess the ﬁrm-level relation between the amount of ﬁrm-speciﬁc information incorporated into stock
+prices and the trading activities of foreign versus domestic institutional investors, we need to obtain ﬁrm-level
+data on trading by foreign and domestic institutional investors in a speciﬁc market. This paper takes advantage of the availability of such data in Korea. To our knowledge, Korea is one of few countries, if not the only
+one, in which detailed data on the shareholdings and trading of equity shares by foreigners and diﬀerent types
+of domestic institutions are publicly available for listed companies. Foreigners investing in equity shares listed
+on the Korea Stock Exchange (KSE) are required to register with the Financial Supervisory Service (FSS).
+Since 1992, the FSS has kept track of the number of equity shares held by foreign investors and diﬀerent types
+of domestic institutions for each stock listed on the KSE.1 This data availability provides us with a unique
+setting in which to compare the informational role of foreign investors with that of domestic institutions
+and allows us to further evaluate any diﬀerences between the informational roles of domestic institutions with
+diﬀerent investment horizons. In this regard, the Korean equity market is well suited to address our research
+questions. The Korean regulatory authority completely abolished limits on foreign equity ownership in 1998
+(a year after the Korean ﬁnancial crisis started). We analyze the informational role of foreign and domestic
+institutional investors in the Korean stock markets for the period 1998–2007, during which foreign ownership
+constraints were not binding. By limiting our sample to the post-crisis period, we eﬀectively control for the
+potential eﬀect of foreign ownership constraints, or “investability,” on our results.2
+Brieﬂy, our results reveal the following: First, we document evidence that both foreign and domestic institutional investors play a signiﬁcant role in facilitating the incorporation of ﬁrm-speciﬁc information into stock
+prices. Our regression results show that both types of investors contribute to reducing stock price synchronicity, or co-movement, via their trading activities. Second, we ﬁnd that the informativeness-enhancing eﬀect of
+foreign trading is signiﬁcantly greater than the same eﬀect associated with aggregate domestic institutional
+trading. This suggests that foreign investors are more actively involved in information-based trading and their
+trading activities accelerate the ﬂow of ﬁrm-speciﬁc information into the market.
+Third, we ﬁnd that, among domestic institutions, securities and investment trust companies play a more
+signiﬁcant role in facilitating the ﬂow of ﬁrm-speciﬁc information to the market via their trading, compared
+with banks and insurance companies. Given that these securities and investment trust companies engage more
+actively in informed trading for short-term proﬁts than banks and insurance companies, our results are
+
+1
+
+Foreigners can hold Korean stocks by directly trading them or via indirect trades through foreign institutions. Therefore, there are two
+types of foreign investors in Korea: (i) foreign individuals who reside in and outside of Korea and (ii) branches/subsidiaries of foreign
+institutions domiciled in Korea and foreign institutions domiciled outside Korea. While the database we use, KIS-DATA of the Korea
+Investment Service (KIS), provides information about the aggregate numbers of shares held by “foreign investors” and diﬀerent types of
+domestic institutions (i.e., securities companies, investment trust companies, banks, and insurance companies), it does not provide
+information about the decomposition of shareholdings by diﬀerent types of foreign investors. However, our discussions with several FSS
+and KIS oﬃcials indicate, without exception, that foreign investors in Korea consist predominantly of foreign institutions. The percentage
+of shares traded by foreign individual investors participating directly in the Korean equity market is trivial during our sample period and
+thus the term foreign investors in the KIS database can be interpreted as foreign institutional investors. In this paper, the terms foreigners,
+foreign institutional investors and foreign institutions are therefore used interchangeably to refer to foreign investors.
+2
+As is common in emerging markets, the foreign ownership limit diﬀers across stocks within a country and across countries. Using an
+international sample of ﬁrms from 33 emerging market countries, Bae et al. (2004) show that the degree to which a stock can be owned by
+foreigners (or investability) is positively associated with return volatility. Further, Bae et al. (2012) ﬁnd that greater investability is
+associated with the more eﬃcient transmission of global market information into stock prices in emerging markets.
+
+4
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+consistent with the view that institutional investors with relatively short investment horizons facilitate ﬁrmspeciﬁc information ﬂow to the market to a greater extent than those with relatively long investment horizons.
+Finally, we provide evidence that accrual mispricing is mitigated for ﬁrms whose shares are actively traded by
+foreign investors and domestic short-term institutions, suggesting that foreign and domestic short-term institutional trading enhances the information environment of local ﬁrms. Overall, our results support the view
+that foreign investors and domestic short-term institutions engage more actively in information-based trading
+and thus play a more important role in facilitating the incorporation of ﬁrm-speciﬁc information into stock
+prices, compared with domestic long-term institutions.
+This paper adds to the existing literature in the following ways. First, while many studies in the home bias
+literature examine foreign investors’ preferences over stock characteristics and their trading patterns (e.g.,
+Kang and Stulz, 1997; Choe et al., 1999; Ahearne et al., 2004; Covrig et al., 2006), they pay little attention
+to the impact of trading on the information environment in emerging markets. To our knowledge, our study
+is the ﬁrst to investigate the impact of foreign trading on the information environment and compare it with
+that of domestic institutional trading.
+Second, prior research suggests that institutional trading is an important channel through which ﬁrm-speciﬁc information is incorporated into stock prices (e.g., Chakravarty, 2001; Hartzell and Starks, 2003;
+Piotroski and Roulstone, 2004; Aslan et al., 2007; Ferreira and Laux, 2007). Piotroski and Roulstone
+(2004) show that ﬁrm-speciﬁc return variation (an inverse measure of synchronicity) is positively associated
+with trading by institutional investors. Ferreira and Laux (2007) provide evidence that institutional trading
+contributes more to the incorporation of private information into the stock prices of ﬁrms with greater openness to takeovers. Our study extends the results of Piotroski and Roulstone (2004) and Ferreira and Laux
+(2007) by oﬀering a ﬁner decomposition of institutional investors. We decompose institutional investors into
+foreign and domestic institutions and further classify domestic institutions into short-term and long-term
+investors based on the type of institution. Our analysis contributes to the related literature by adding new
+evidence that trading by foreign investors and domestic short-term institutions decreases stock price synchronicity or increases the amount of ﬁrm-speciﬁc information incorporated into stock prices, but trading by
+domestic long-term institutions does not.
+This paper proceeds as follows. Section 2 develops our hypotheses. Section 3 explains the measurement of
+our research variables and speciﬁes our main regression model. Section 4 describes the sample and data
+sources. Section 5 presents empirical results, including descriptive statistics and our main regression results.
+Section 6 presents empirical results using an alternative measure of ﬁrm-speciﬁc information ﬂows. Section 7
+conducts further analysis to examine the informational role of foreign and domestic institutional trading in the
+context of accrual pricing. The ﬁnal section presents our conclusions.
+2. Hypothesis development
+Stock market liberalization in emerging markets facilitates the ﬂow of investment funds from capital-abundant, developed countries to capital-scarce, developing countries. Using aggregate country-level data, several
+studies in the international ﬁnance literature show that this enhanced ﬂow of foreign funds to domestic equity
+markets contributes to increasing domestic equity market values (Bekaert and Harvey, 2000), reducing the
+cost of raising equity capital (Stulz, 1999), boosting domestic investments (Henry, 2000) and enhancing ﬁnancial market development and liquidity (Bekaert et al., 2005). This study argues that a country’s stock market
+liberalization leads to an improvement in the information environment. Increased foreign access to domestic
+equity markets stimulates more research and information production by local and foreign analysts, brokerages
+and other market participants. It also spurs local ﬁrms to disclose more and better information. For example,
+local ﬁrms are prompted to set up an investor relations department to eﬀectively cope with the ever-increasing
+demand for detailed information from foreign investors and to provide detailed ﬁnancial information in
+foreign languages.3
+3
+Since LG Electronics ﬁrst established its investor relations department in 1994, many ﬁrms followed suit. Firms increasingly use
+voluntary disclosure to improve investor relations by communicating directly with investors. In 2007, Korean publicly traded ﬁrms, on
+average, made 1.82 times the number of voluntary disclosures annually (Korea Listed Companies Association).
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+5
+
+Stock market liberalization also puts more pressure on securities market regulators to adopt accounting
+standards, disclosure rules and corporate governance practices that are comparable to international standards.
+Since opening its equity markets to foreign investors in 1992, the Korean government has made steady eﬀorts
+to improve corporate transparency. Speciﬁcally, after the 1997 Asian ﬁnancial crisis, the Korea Financial
+Supervisory Commission made substantial amendments to the Korean ﬁnancial accounting standards to be
+more compatible with International Financial Reporting Standards, enhanced auditor independence with
+the introduction of class action lawsuits and improved corporate governance practices by strengthening
+minority shareholder rights and external monitoring mechanisms.4
+In addition to its impact on a country’s overall information environment, foreigner access to local equity
+markets also inﬂuences the information environment at the ﬁrm level. Foreign investors in emerging markets
+are typically sophisticated institutional investors, such as mutual funds and pension funds. In general, institutional investors, whether foreign or domestic, have more resources and expertise than individual investors.
+Institutional investors enjoy economies of scale in information acquisition and processing due to relatively low
+per-unit costs of acquiring and analyzing information, and are better at gleaning insights from public information such as published annual reports. Such investors can thus be considered what Kim and Verrecchia
+(1994) call “elite information processors.” Their superior information is ultimately incorporated into stock
+prices via trading. In a related vein, Kim and Verrecchia (1994, 1997) present a scenario under which the
+low-frequency public release of information, such as earnings announcements, triggers agents with diverse
+information processing skills to generate new idiosyncratic insights from the public disclosure.5 Consistent
+with these arguments, several studies show that institutional investors are better informed, on average, and
+trade actively to exploit their information advantage (e.g., Chakravarty, 2001; Hartzell and Starks, 2003;
+Piotroski and Roulstone, 2004; Aslan et al., 2007; Ferreira and Laux, 2007). Thus, to the extent that institutions’ buying and selling decisions are guided by the ﬁrm-speciﬁc information they gather and analyze, we
+expect that the trading activities of institutional investors, whether foreign or domestic, facilitate the price formation process by promoting the incorporation of ﬁrm-speciﬁc information into stock prices, which in turn
+reduces stock price synchronicity. To provide direct evidence on the issue, we test the following hypothesis
+in alternative form:
+H1. Stock price synchronicity decreases with the intensity of trading by foreign and domestic institutional
+investors.
+When it comes to the relative information advantage of foreign versus domestic institutional investors, the
+empirical evidence to date is mixed. Shukla and Inwegen (1995) and Hau (2001) ﬁnd that domestic investors
+have an information advantage over foreign investors. In contrast, Grinblatt and Keloharju (2000) and
+Karolyi (2002) show that foreign investors outperform domestic institutional investors in Finland and Japan,
+respectively. Seasholes (2004) provides evidence suggesting that foreign investors in Taiwan are better
+informed than domestic institutions.
+On one hand, foreign investors may have a disadvantage in gaining access to private information that corporate insiders have, relative to domestic institutional investors, for the following reasons. Foreign investors
+investing in Korean stocks may have an information disadvantage due to distance, language and culture. In
+Korea, corporate governance is relatively weak, corporate ownership is highly concentrated in the hands of a
+few controlling shareholders or founding family members, ﬁrms’ aﬃliations with large business groups are prevalent, internal transactions among related parties are common and value-relevant (inside) information is often
+shared exclusively within the closely held network of related parties, including corporate insiders, aﬃliated or
+subsidiary ﬁrms within the same business group, substantial shareholders, main creditors, major customers
+and input suppliers (Jacobson and Aaker, 1993; Jiang and Kim, 2004; Joh, 2003; Kim and Yi, 2006). In this environment, domestic institutional investors are more likely to have informal channels through which they can
+communicate with insiders (e.g., CEO, board members and controlling shareholders), compared with foreign
+investors. As a result, foreign investors are likely to be informationally disadvantaged in local markets,
+4
+For example, as part of post-crisis governance reforms, Korean listed companies are now required to have independent, non-executive
+directors on the board and to establish an audit committee under the board.
+5
+Barron et al. (2002) ﬁnd that public accounting disclosures trigger the production of signiﬁcant idiosyncratic information.
+
+6
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+compared with domestic institutions. Foreign investors may have to bear relatively high information costs to
+overcome this disadvantage. This information problem may discourage informed trading by foreign investors
+and potentially impede the incorporation of ﬁrm-speciﬁc information into stock prices (e.g., Grossman and
+Stiglitz, 1980; Roll, 1988; Morck et al., 2000), which in turn leads to less informative stock prices.
+On the other hand, foreign investors may be better informed. Foreign investors in emerging markets are
+part of global investment companies who hold foreign stocks from multiple countries in their portfolios
+and rebalance their portfolios when new information arrives. Some of them are also located in world ﬁnancial
+centers such as New York and London, which enables them quick access to better information and provides
+them with better learning opportunities through the transfer of information, skills and ideas. For example,
+Christoﬀersen and Sarkissian (2009) provide evidence that U.S. mutual funds located in ﬁnancial centers perform better than other funds located elsewhere because managers of funds in ﬁnancial centers can have better
+learning opportunities, which leads to performance improvements. These investors with global portfolios of
+equity shares are more likely to have a better understanding of, and the superior ability to collect and analyze,
+global business and investment factors (e.g., oil price trends and foreign currency ﬂuctuations) that simultaneously inﬂuence the stock prices of multiple ﬁrms in many countries around the world. In particular, the Korean economy has a relatively high exposure to global business factors as its dependence on overseas demand
+for Korean products and overseas supply of non-labor inputs has been growing year after year.6 As a result,
+the Korean economy is susceptible to external global shocks, such as oil price changes or currency movements.
+In fact, foreign investors may not only have better access to global information, they may also process global
+data and convert it into private information. To the extent that foreign investors have information about these
+business factors inﬂuencing the future prospects of Korean companies, we expect that foreign investors may
+have a relative information advantage over local institutions in Korea.
+Given the two opposing perspectives on the relative information advantage of foreign investors vis-à-vis
+domestic institutional investors, it is an empirical question whether there are any diﬀerences in the informational roles that foreign and domestic institutional investors play in emerging markets. To provide direct evidence on this under-researched issue, we test the following hypothesis in alternative form.
+H2. Trading by foreign investors decreases stock price synchronicity to a greater extent than trading by
+domestic institutions.
+There are three diﬀerent types of domestic institutional investors in Korea: (1) securities (or investment brokerage) and investment trust companies, including investment advisory companies; (2) insurance companies;
+and (3) banks, including short-term and long-term lending institutions. In general, institutions act as agents
+for other investors. They are thus constrained by various legal restrictions, such as the prudent-man laws, that
+purport to protect small individual investors. Among institutions, banks and insurance companies are subject
+to more stringent prudence standards, aﬀecting their investment patterns and horizons (Del Guercio, 1996). In
+addition, when it comes to investing in equity shares, Korean banks and insurance companies are subject to
+the investment limits imposed under the Banking Act and Insurance Business Act, respectively, whereas no
+such regulations restrict securities and investment trust companies. Further, banks and insurance companies
+are more likely to have business relations with the local companies in which they invest, compared with securities and investment trust companies (Gillian and Starks, 2003; Aggarwal et al., 2011).7 As a result, domestic
+banks and insurance companies hold shares of other companies primarily for the purposes of maintaining
+business relations and/or long-term investment purposes, and thus are less likely to trade shares for short-term
+proﬁts,8 while domestic securities and investment trust companies are more likely to engage actively in infor6
+
+According to the Bank of Korea, exports accounted for 55% of the nation’s gross national income in 2008, which is well above Japan’s
+22% and the U.S.’s 18.5%.
+7
+As an example, Samsung Life Insurance can manage the pension funds of many Korean listed companies and provide them with a
+company-wide group life insurance policy.
+8
+In Korea, banks and insurance companies hold a large proportion of the voting rights of a ﬁrm to maintain their relationships or
+aﬃliations with the ﬁrm as a client or business partner. As such, their equity stakes can be viewed, in large part, as the holding of debt
+(Baek et al., 2004). Del Guercio (1996) provides evidence that institutional investors governed by prudent-man laws (e.g., pension funds
+and insurance companies) tend to hold stocks with certain characteristics for longer,
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+7
+
+mation-based trading for short-term proﬁts. One can therefore expect that, among the diﬀerent types of
+domestic institutions, securities and investment trust companies play a more important role in facilitating
+the incorporation of ﬁrm-speciﬁc information into stock prices via their trading activities.
+Given the scarcity of evidence on this issue, particularly in the context of an emerging market, we aim to
+provide systematic evidence on whether the informational roles of diﬀerent domestic institutions diﬀer according to their investment horizons. For this purpose, we hypothesize the following in alternative form:
+H3. Trading by domestic institutions with short investment horizons decreases stock price synchronicity to a
+greater extent than trading by domestic institutions with long investment horizons.
+
+3. Measurement of variables and model speciﬁcation
+3.1. Stock price synchronicity
+A key dependent variable in our study is stock price synchronicity, which captures the extent to which individual stock returns co-move with common factors. The total variation of a ﬁrm’s stock return can be decomposed into two components: (1) common return variation, that is, the return volatility associated with
+common (market-wide and industry-wide) factors, and (2) ﬁrm-speciﬁc return variation, that is the return volatility associated with ﬁrm-speciﬁc factors. Similar to other studies (e.g., Morck et al., 2000; Jin and Myers,
+2006; Gul et al., 2010), we measure stock price synchronicity using the R2 statistics from an augmented market
+model. Speciﬁcally, we estimate the following model using weekly return data for each stock:
+rj;k;t ¼ aj þ bj1 rm;t þ bj2 ðrus;t þ ej;t Þ þ bj3; rk;t þ ejt
+
+ð1Þ
+
+where rj;k;t is the return on ﬁrm j in industry k at week t; rm;t is the Korea market index return at week t; rus;t is
+the U.S. market index return at week t; ej;t is the change in the exchange rate per U.S. dollar at week t; and rk;t
+is the value-weighted weekly return of industry k at week t, which is computed using all ﬁrms with the same
+two-digit code of the Korean Standard Industry Classiﬁcation (KSIC), with ﬁrm j’s weekly return excluded.
+Stocks are included in our sample if more than 40 weeks of data are available during a particular year. Eq. (1)
+includes U.S. stock market returns to control for the global market factor.9
+Let r2j and r2je denote the total return variation and ﬁrm-speciﬁc return variation, respectively, of Eq. (1).
+Common return variation is then measured by r2j  r2je . For each ﬁrm in the sample, we compute the relative
+common return variation for each stock using the ratio of common return variation to total return variation,
+that is, ðr2j  r2je Þ=r2j . Note here that R2j of Eq. (1) is equal to this ratio, while 1  R2j of Eq. (1) is equal to
+r2je =r2j . We then obtain our measure of stock price synchronicity, denoted by Synch, for ﬁrm j in each year as
+!
+
+
+R2j
+rj  rje
+Synchj ¼ log
+¼ log
+ð2Þ
+rje
+1  R2j
+The logarithmic transformation is applied to circumvent the bounded nature of R2j within [0, 1]. By construction, high values of Synch mean a higher level of common return variation relative to ﬁrm-speciﬁc return
+variation.
+3.2. Empirical model
+To examine the eﬀect of trading by foreign versus domestic institutional investors on stock price synchronicity, we estimate the following regression model:
+
+9
+
+In Eq. (1), the expression rus,t + ej,t translates U.S. market returns into local currency units.
+
+8
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+Synchjt ¼ b0 þ b1 FORV jt þ b2 DOMV jt þ b3 log ð1 þ #ANALÞjt þ b4 log MVEjt þ b5 LEV jt þ b6 MBjt
+þ b7 SROAjt þ b8 HERFIN jt þ b9 CHAEBOLjt þ b10 GDRjt þ b11 BIG4jt þ b12 AveVoljt
+þ ðIndustryDummiesÞ þ ðYearDummiesÞ þ error
+
+ð3Þ
+
+where empirical deﬁnitions of all variables are provided in the Appendix and the dependent variable, Synch,
+for ﬁrm j and year t, is as deﬁned in Eq. (2). Our proxy for the intensity of foreign trading, FORV, is the total
+number of shares purchased and sold by foreign investors as a fraction of the annual trading volume. Our
+proxy for the intensity of trading by domestic institutional investors, DOMV, is the total number of shares
+purchased and sold by diﬀerent domestic investing institutions (i.e., securities and investment trust companies,
+banks, and insurance companies) as a fraction of the annual trading volume.
+As control variables, we include ﬁrm-level variables that are deemed to inﬂuence Synch. Previous research
+shows that stock price synchronicity is positively related to the intensity of analyst activity in the U.S. market
+(Piotroski and Roulstone, 2004; Hameed et al., 2010), in emerging markets (Chan and Hameed, 2006) and
+around the world (Kim and Shi, 2010). We include the log-transformed measure of the number of analysts
+issuing earnings forecasts, that is, log(1 + #ANAL), to control for this eﬀect of analyst activity on Synch.10
+We include market capitalization (log MVE), leverage (LEV) and the market-to-book ratio (MB) to control
+for the potential impacts of ﬁrm size, ﬁnancial risk and growth potential, respectively, on Synch. Evidence
+shows that synchronicity is also inversely related to earnings volatility (e.g., Piotroski and Roulstone, 2004;
+Kim and Shi, 2010). We include earnings volatility, SROA, to control for the eﬀect of this negative relation
+on our results, where SROA is measured by the standard deviation of return on assets (ROA) over the past
+ﬁve years using 10 half-year earnings observations. It is likely that ﬁrm performance is more interdependent
+among ﬁrms within a concentrated industry. In such a case, information that is speciﬁc to a ﬁrm is more likely
+to have valuation implications to other ﬁrms in the same industry. This can result in a higher level of intraindustry information transfer, which can lead to more synchronous stock prices (Piotroski and Roulstone,
+2004). To control for this possibility, we include industry concentration (HERFIN), which is measured by
+the sales revenue-based Herﬁndahl index of industry-level concentration, where the industry is deﬁned by
+its two-digit KSIC code.
+Chaebols (large business groups or conglomerates) play a dominant role in the Korean economy. Prior to
+the Korean ﬁnancial crisis in 1997, a top-30 chaebol controlled, on average, 26 ﬁrms in a variety of industries
+(Kim and Yi, 2006). Like other business groups in emerging markets, Korean chaebols can be viewed as a
+collection of diverse business enterprises in a wide range of industries, typically controlled by members of a
+founding family. Similar to keiretsu in Japan, the top-30 chaebols are highly diversiﬁed business groups with
+a nexus of explicit and implicit contracts that closely tie aﬃliated ﬁrms to one another, and often share valuerelevant inside information exclusively with aﬃliated ﬁrms. Compared with independent ﬁrms, ﬁrms aﬃliated
+with large business groups in emerging markets may aﬀord their controlling shareholders more opportunities
+for internal transactions through intra-group trading and internal ﬁnancial markets for their private gains
+(Hubbard and Palia, 1999; Khanna and Palepu, 2000; Joh, 2003). This would provide chaebol-aﬃliated ﬁrms
+with more opportunities and means for managerial opportunism relative to independent ﬁrms. Consistent
+with the above argument, Kim and Yi (2006) ﬁnd that chaebol-aﬃliated ﬁrms in Korea engage more aggressively in opportunistic earnings management compared with standalone ﬁrms. We include an indicator variable, CHAEBOL, to control for the potential eﬀect of chaebol membership on the ﬂow of ﬁrm-speciﬁc
+information to the market.
+Fernandes and Ferreira (2008) document that cross-listing leads to a decrease in stock price synchronicity,
+particularly for ﬁrms in developed markets. We include an indicator variable representing the presence of
+cross-listing in overseas stock markets, denoted by GDR, to control for the eﬀect of cross-listing on our results.
+10
+To further examine whether foreign analysts’ activities inﬂuence stock price synchronicity similar to foreign institutional trading
+activities, we deﬁne domestic analysts as ones forecasting earnings only for Korean ﬁrms in the Institutional Brokers’ Estimate System
+(IBES) database. Using this deﬁnition, in lieu of log(1 + #ANAL), we separate analyst coverage into foreign coverage (log(1 + #ForeignANAL)) and domestic coverage (log(1 + #DomesticANAL)) and estimate Eq. (4). We ﬁnd that domestic coverage is positively related
+to stock price synchronicity, while foreign coverage is insigniﬁcantly related.
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+9
+
+Extant evidence suggests that the quality of accounting disclosure is positively associated with audit quality in
+the U.S. (e.g., Reed et al., 2000), in East Asian countries (e.g., Mitton, 2002; Fan and Wong, 2005) and around
+the world (Choi and Wong, 2007; Choi et al., 2008). Large auditors, such as international Big 4 audit ﬁrms, are
+more likely to limit managerial discretion over opportunistic earnings management and thus help improve the
+credibility of published ﬁnancial statements, which may, in turn, facilitate the ﬂow of more credible, ﬁrm-speciﬁc information to the market. However, in Korea, their eﬀect on synchronicity may be limited, because Big
+4-aﬃliated auditors in Korea only have a member ﬁrm relationship with large local audit ﬁrms, and are not
+allowed to run their own operations in Korea. We include an indicator variable, BIG4, to control for audit
+quality diﬀerentiation between Big 4-aﬃliated and non-Big 4-aﬃliated auditors. We also include the average
+daily trading volume (AveVol) to control for the eﬀect of liquidity. Industry dummies are included to control
+for industry ﬁxed eﬀects.
+
+4. Sample and data
+4.1. Foreign equity ownership in Korea
+In 1992, foreigners were allowed for the ﬁrst time to own equity shares of Korean ﬁrms. As summarized in
+Table 1, the ownership limit for foreign investors has increased since 1992, reﬂecting the Korean government’s
+policy of gradually liberalizing Korean stock markets to the global investment community. The ownership
+limits for each individual foreign investor were 3% of a ﬁrm’s shares outstanding in 1992, 4% in April
+1996, 5% in October 1996, 6% in May 1997, 7% in November 1997, and 50% in December 1997—the starting
+month of the Korean ﬁnancial crisis—and were completely lifted in May 1998. In addition to an individual
+ownership limit, the FSS imposed a limit for foreign investors as a group. In 1992, this aggregate ownership
+limit was 10%, meaning that foreigners as a group could own only up to 10% of the equity shares outstanding
+of a Korean ﬁrm listed on the KSE. The aggregate limit was increased to 12% in December 1994 and then
+gradually increased to 26% by November 1997. During the starting month of the Korean ﬁnancial crisis,
+the aggregate limit increased to 55% and was completely lifted in May 1998.
+Table 2 presents summary statistics of foreign equity ownership in Korea by year for the period 1992–2007.
+The second column of Table 2 provides the total number of shares (in millions of shares) owned by foreign
+investors. The numbers in parentheses represent the percentage of shares owned by foreign investors relative
+to total shares outstanding. This equally weighted measure of foreign ownership increased gradually from
+4.1% in 1992 to 11.5% in 1996. It then decreased to 9.1% in 1997, reﬂecting an outﬂow of foreign equity investment during the Korean ﬁnancial crisis. The post-crisis period, during which the foreign ownership limit was
+completely lifted, witnessed a stable increase in foreign ownership, from 10.5% in 1998 to a peak of 22.9% in
+2005. The last column of Table 2 reports the market value (in billions of Korean won) of shares owned by
+Table 1
+Changes in shareholding limits for each foreign individual and foreigners as a
+group (as a percentage of the total number of shares outstanding). Source: FSS.
+
+January 1992
+December 1994
+July 1995
+April 1996
+October 1996
+May 1997
+November 1997
+December 1997
+May 1998
+
+Individual limit (%)
+
+Aggregate limit (%)
+
+3
+3
+3
+4
+5
+6
+7
+50
+
+10
+12
+15
+18
+20
+23
+26
+55
+
+No ceiling
+
+No ceiling
+
+The individual limit represents the percentage of equity shares each individual
+foreigner is allowed to hold. The aggregate limit represents the percentage of
+equity shares that foreigners as a group are allowed to hold.
+
+10
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+Table 2
+Number and market value of shares held by foreign investors in each sample year. Source: FSS.
+Year
+
+Number of shares held by foreign investors (millions of
+shares), as a percentage relative to the total number of shares
+
+1992
+
+220.2
+(4.1%)
+503.0
+(8.7%)
+634.8
+(9.2%)
+762.3
+(10%)
+989.2
+(11.5%)
+819.8
+(9.1%)
+1204.1
+(10.5%)
+2136.8
+(12.3%)
+2731.1
+(13.9%)
+2869.2
+(14.7%)
+3054.5
+(11.5%)
+4259.1
+(18%)
+5514.1
+(22%)
+5334.9
+(22.9%)
+5563.1
+(22.2%)
+5347.9
+(18.9%)
+
+1993
+1994
+1995
+1996
+1997
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+
+Market value of shares held by foreigners (billions of Korean
+won), as a percentage relative to total market capitalization
+n/a
+n/a
+15,402
+(10.2%)
+16,723
+(11.9%)
+15,222
+(13%)
+10,358
+(14.6%)
+25,633
+(18.6%)
+76,590
+(21.9%)
+56,558
+(30.1%)
+93,698
+(36.6%)
+93,160
+(36.0%)
+142,534
+(40.1%)
+173,158
+(41.9%)
+260,262
+(39.7%)
+262,533
+(37.2%)
+308,180
+(32.3%)
+
+foreign investors. The numbers in parentheses represent this market value’s percentage of the total market
+capitalization of all ﬁrms listed on the KSE. This value-weighted measure of foreign ownership is greater than
+the equally weighted measure across all years and the diﬀerence between the two measures has increased over
+years since the 1997 crisis. This diﬀerence indicates that foreign investors hold disproportionately more shares
+of large ﬁrms in their portfolios, a characteristic that became increasingly pronounced during the post-crisis
+period of 1998–2007.
+4.2. Sample construction
+Our sample construction begins with the list of non-ﬁnancial ﬁrms included in the 2007 KIS-DATA ﬁle
+compiled by the Korea Investment Service, a subsidiary of Moody’s Investment Service.11 The KIS-DATA
+ﬁle includes ﬁnancial statement data and ownership-related data, including the number of shares held by
+foreign investors, domestic institutions by type (i.e., securities and investment trust companies, banks, and
+insurance companies) and the largest shareholder for all ﬁrms listed on the KSE. All stock return data are
+gathered from Data stream and trading volume data are obtained directly from the KSE. The number of
+analysts following a ﬁrm is obtained from the IBES International Summary. We exclude ﬁrms in regulated
+11
+
+Kang and Stulz (1997) exclude ﬁrms in the ﬁnancial service industry from their Japanese sample.
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+11
+
+Table 3
+Distribution of sample ﬁrms by year.
+Year
+
+Number of ﬁrms
+
+Percentage
+
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+
+434
+437
+399
+427
+405
+512
+443
+442
+489
+520
+
+9.63
+9.69
+8.85
+9.47
+8.98
+11.36
+9.83
+9.80
+10.85
+11.54
+
+Total
+
+4508
+
+100
+
+industries (e.g., utilities and telecommunications) and ﬁrms with negative sales or negative total assets in a particular year.12
+Our ﬁnal sample consists of 4508 ﬁrm–year observations for the 10-year post-crisis period of 1998–2007,
+during which the foreign ownership limit was completely lifted. Restricting our sample to the post-crisis observations allows us to eﬀectively control for the potential eﬀect of the foreign ownership constraint on our
+results. We winsorize all continuous variables at the 1st and 99th percentiles to mitigate the eﬀects of extreme
+observations. Table 3 provides the number of ﬁrms included in our sample and their percentage relative to
+total ﬁrm–year observations by year.
+5. Empirical results
+5.1. Descriptive statistics
+Table 4 presents the distributional properties of our research variables. The R2 statistics refer to the coefﬁcient of determination for Eq. (1), while Synch is our log-transformed measure of stock price synchronicity in
+Eq. (2). As shown in Panel A of Table 4, the mean and median R2 are 0.266 and 0.245, respectively. The mean
+R2 of 0.266 is greater than the reported mean R2 of 0.193 for the U.S. sample of Piotroski and Roulstone
+(2004), though it is lower than the reported mean R2 of 0.454 for the Chinese sample of Gul et al. (2010), suggesting that the stock prices of Korean ﬁrms are more (less) synchronous than those of U.S. (Chinese) ﬁrms.
+Panel B of Table 4 provides descriptive statistics for the PIN measures that are inversely related to Synch. The
+PIN measure appears to be reasonably distributed, with a mean (median) of 0.215 (0.213) and a standard deviation of 1.175.
+Panel C of Table 4 presents the distributional properties of FORV, DOMV and two components of DOMV,
+that is, STDV and LTDV, where DOMV = STDV + LTDV. These four trading intensity measures represent
+the total number of shares traded (i.e., purchased and sold) per year by foreign investors, domestic institutions, domestic short-term institutions (i.e., securities and investment trust companies) and domestic long-term
+institutions (i.e., bank and insurance companies), respectively, as a fraction of the annual trading volume.13
+As shown in Panel C of Table 4, the distributions of these trading measures appear to be skewed, and foreign
+investors and domestic institutions, on average, traded about 10% and nearly 19%, respectively, of total shares
+outstanding. Consistent with our expectations, both the mean and median values of STDV are greater than
+those of LTDV, suggesting that domestic short-term institutions trade more intensely than domestic long-term
+institutions.
+12
+
+Several ﬁrms in regulated industries (e.g., utilities and telecommunications) are subject to other types of regulatory limits of foreign
+ownership, even after 1998. These companies are excluded from our sample.
+13
+We also run our analyses using the log-transformed measures of FORV, DOMV, STDV and LTDV. The results (unreported) are
+qualitatively similar.
+
+12
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+Table 4
+Descriptive statistics.
+Q1
+
+Mean
+
+Median
+
+Q3
+
+0.266
+1.297
+
+0.245
+1.124
+
+0.386
+0.463
+
+0.170
+1.175
+
+4508
+4508
+
+Panel B: Probability of informed trading measure
+PIN
+0.185
+0.215
+
+0.213
+
+0.246
+
+0.054
+
+2933
+
+Panel C: Variables of interest used in main regressions
+FORV
+0.003
+0.103
+DOMV
+0.015
+0.188
+STDV
+0.007
+0.126
+LTDV
+0.006
+0.061
+
+0.020
+0.092
+0.050
+0.031
+
+0.101
+0.308
+0.201
+0.097
+
+0.191
+0.220
+0.163
+0.073
+
+4508
+4508
+4508
+4508
+
+Panel D: Control variables
+log(1 + #ANAL)
+log MVE
+LEV
+MB
+SROA
+HERFIN
+CHAEBOL
+GDR
+BIG4
+AveVol
+
+0.000
+17.786
+0.493
+0.594
+0.035
+0.023
+0.000
+0.000
+0.000
+0.009
+
+1.100
+18.956
+0.634
+1.060
+0.055
+0.096
+0.000
+0.000
+1.000
+0.020
+
+0.779
+1.643
+0.195
+0.949
+0.048
+0.069
+0.415
+0.187
+0.499
+0.063
+
+4508
+4508
+4508
+4508
+4508
+4508
+4508
+4508
+4508
+4508
+
+Panel A: Stock price synchronicity
+0.129
+R2
+Synch
+1.904
+
+0.000
+16.940
+0.348
+0.346
+0.022
+0.017
+0.000
+0.000
+0.000
+0.004
+
+0.656
+18.089
+0.492
+0.898
+0.048
+0.064
+0.221
+0.036
+0.479
+0.012
+
+Std. dev.
+
+N
+
+All variables are deﬁned in Appendix B.
+
+Panel D of Table 4 reports descriptive statistics for the control variables included in Eq. (3), together with
+other control variables used in simultaneous estimations. In general, our sample ﬁrms display considerable
+cross-sectional variation in log(1 + #ANAL), LEV, MB, SROA and HERFIN as reﬂected in the large
+standard deviations relative to their mean values. Descriptive statistics for our size variable (log MVE) suggest
+that it is reasonably distributed, though its cross-sectional variation is not large relative to other variables. On
+average, about 22% of our sample ﬁrms are aﬃliated with chaebols, while 3.6% of our sample ﬁrms are crosslisted on overseas stock markets via Global Depository Receipts (GDRs). On average, only about 48% of our
+sample ﬁrms have their ﬁnancial statements audited by Big 4-aﬃliated audit ﬁrms. Given that about 85% of
+U.S. ﬁrms are audited by Big 4 auditors (e.g., Kim et al., 2003), the evidence in Table 4 indicates that Big 4aﬃliated auditors in Korea have a much smaller market share in the Korean audit market than in the U.S.
+market.
+5.2. Results of main regressions
+Table 5 presents the results of our main regression in Eq. (3). Throughout the paper, all reported t-values
+for the estimated coeﬃcients are on an adjusted basis using standard errors corrected for ﬁrm and year clustering.14 As shown in column 1 of Table 5, we ﬁnd that the coeﬃcient of the intensity of foreign trading,
+FORV, is signiﬁcantly negative at the 1% level, suggesting that stock price synchronicity decreases signiﬁcantly
+with the intensity of foreign trading. As shown in column 2 of Table 5, when we add the intensity of domestic
+institutional trading to that of foreign trading, we ﬁnd that both the coeﬃcients of FORV and DOMV are
+signiﬁcantly negative at the 1% and 10% levels, respectively (0.513 with t = 2.94 and 0.225 with
+t = 1.94, respectively). This is consistent with H1, suggesting that institutional trading, whether foreign or
+domestic, accelerates the incorporation of ﬁrm-speciﬁc information into stock prices, thereby reducing stock
+price synchronicity.
+14
+
+See Petersen (2009) for a detailed discussion about the use of clustered standard errors as a means to correct residual correlations in
+panel data.
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+13
+
+Table 5
+Eﬀect of foreign and domestic institutional trading on stock price synchronicity.
+Variable
+
+Dependent variable = Synch
+(1)
+
+FORV
+DOMV
+STDV
+LTDV
+log(1 + #ANAL)
+log MVE
+LEV
+MB
+SROA
+HERFIN
+CHAEBOL
+GDR
+BIG4
+AveVol
+Intercept
+Industry dummy
+Adjusted R2
+N
+
+(2)
+
+(3)
+
+Coeﬀ.
+
+t-Stat.
+
+Coeﬀ.
+
+t-Stat.
+
+Coeﬀ.
+
+t-Stat.
+
+0.559
+
+3.14a
+
+0.513
+0.225
+
+2.94a
+1.94c
+
+0.558
+
+2.95a
+
+0.836
+0.159
+0.144
+0.181
+0.009
+0.000
+0.927
+0.016
+0.261
+0.153
+0.080
+1.073
+4.833
+Yes
+0.249
+4508
+
+2.17b
+0.26
+2.48b
+4.23a
+0.35
+0.01
+2.82a
+0.16
+4.78a
+1.62
+2.39b
+1.29
+6.22a
+
+0.135
+0.170
+0.014
+0.000
+0.916
+0.006
+0.263
+0.158
+0.079
+0.753
+4.667
+Yes
+0.248
+4508
+
+2.40b
+3.87a
+0.12
+0.06
+2.80a
+0.10
+4.77a
+1.67c
+2.38b
+1.15
+5.94a
+
+0.142
+0.184
+0.010
+0.000
+0.931
+0.024
+0.265
+0.138
+0.079
+1.098
+4.868
+Yes
+0.249
+4508
+
+2.48b
+4.25a
+0.35
+0.02
+2.85a
+0.17
+4.81a
+1.56
+2.40b
+1.32
+6.26a
+
+The superscripts a, b and c denote the 1%, 5% and 10% levels of signiﬁcance, respectively, using a two-tailed test. All variables are deﬁned
+in Appendix B. Reported t-values are on an adjusted basis using standard errors corrected for clustering by ﬁrm and by year.
+
+In column 3 of Table 5, we decompose domestic institutional trading, namely, DOMV, into (i) trading by
+short-term institutions such as securities and investment trust companies that have a relatively short investment horizon, STDV, and (ii) trading by long-term institutions such as banks and insurance companies that
+have a relatively long investment horizon, LTDV. We then include these two proxies in lieu of DOMV in our
+regression. This decomposition allows us to evaluate whether investment horizons diﬀerentially inﬂuence the
+informational role of domestic institutions. We ﬁnd that the coeﬃcient of STDV is signiﬁcant at the 5% level
+with an expected negative sign, while the coeﬃcient of LTDV is negative but insigniﬁcant at any conventional
+level. The above results are consistent with H2, suggesting that domestic short-term institutions play a more
+important role in facilitating the incorporation of ﬁrm-speciﬁc information into prices via their trading activities, compared with domestic long-term institutions. The above ﬁnding is consistent with that of Yan and
+Zhang (2009), who ﬁnd that in the U.S. market, short-term institutions are better informed than long-term
+institutions.
+Turning back to the results in column 2 of Table 5, we ﬁnd that, while the coeﬃcients for both FORV and
+DOMV are signiﬁcantly negative, the coeﬃcient of FORV is signiﬁcantly greater in its absolute magnitude
+than the coeﬃcient of DOMV (p = 0.05, one-tailed test). This ﬁnding is consistent with H3, suggesting that
+the Synch-reducing eﬀect of foreign trading observed is not driven by the fact that foreign investors are institutional investors. Rather, the results are consistent with the view that foreign investors are better informed
+and more actively involved in informed trading than domestic institutions. Stated another way, foreign investors have superior ability to collect and process ﬁrm-speciﬁc information than domestic institutions, and tend
+to trade more intensely on it. As a result, trading by foreign investors accelerates ﬁrm-speciﬁc information capitalization into stock prices in a more accurate and timely manner, compared with trading by domestic
+institutions.
+As shown in column 3 of Table 5, however, when we decompose domestic investing institutions into
+securities and investment trust companies (with a relatively short investment horizon) and non-securities companies such as banks and insurance companies (with a relatively long investment horizon), we ﬁnd that the
+coeﬃcients of both FORV and STDV are signiﬁcant with an expected negative sign at the 1% and 5% levels,
+respectively, while the coeﬃcient of LTDV is insigniﬁcant at any conventional level. This result suggests that
+
+14
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+the synchronicity-reducing eﬀect of domestic institutional trading observed in column 2 of Table 5 is driven, in
+large part, by trading by domestic short-term institutions, and not by domestic long-term institutions. We also
+ﬁnd that the coeﬃcient of STDV is not signiﬁcantly diﬀerent in magnitude from that of FORV (p = 0.18, onetailed test), suggesting that both foreign investors and domestic short-term institutions facilitate ﬁrm-speciﬁc
+information ﬂow to the market to a similar degree. In short, the results reported in Table 5, taken together,
+indicate that both foreign investors and domestic short-term institutions contribute more to the incorporation
+of ﬁrm-speciﬁc information into stock prices via their trading activities than domestic long-term institutions.
+With respect to the estimated coeﬃcients of control variables, the following is apparent. First, the coeﬃcient of log(1 + #ANAL) is signiﬁcantly positive at the 5% level across all columns of Table 5, indicating that
+synchronicity increases with analyst following. This is in line with the ﬁnding of previous research, that stock
+prices become more synchronous as analyst activities become more intense in the U.S. market (Piotroski and
+Roulstone, 2004; Hameed et al., 2010), in emerging markets (Chan and Hameed, 2006) and around the world
+(Fernandes and Ferreira, 2008; Kim and Shi, 2010), because analysts engage primarily in the production and
+dissemination of common (industry-wide and/or market-wide) information, as opposed to ﬁrm-speciﬁc information. Second, we ﬁnd that the coeﬃcient of log MVE is signiﬁcantly positive across all columns, reﬂecting
+that large ﬁrms have more synchronous prices. Third, we ﬁnd that synchronicity decreases signiﬁcantly with
+earnings volatility (SROA). Fourth, we ﬁnd a signiﬁcantly positive coeﬃcient for CHAEBOL, suggesting that
+stock prices are more synchronous for chaebol-aﬃliated ﬁrms. Finally, contrary to our expectations, we ﬁnd
+that synchronicity is higher for ﬁrms who appoint Big 4-aﬃliated auditors than for those with non-Big 4-aﬃliated auditors.
+5.3. Does the level of institutional holdings matter?
+Previous research uses the level of institutional holdings as a proxy for institutions’ information advantage
+when examining the informational role of institutions (e.g., Jiambalvo et al., 2002; Yan and Zhang, 2009). On
+one hand, higher shareholdings may enable institutional investors to gain access to ﬁrm-speciﬁc private information. This suggests that the level of institutional holdings is inversely related to synchronicity. On the other
+hand, institutions that follow index investment strategies or section-based strategies are more likely to have an
+information advantage with respect to industry- or market-level information, which contributes to improving
+intra-industry information transfers. This view suggests a positive relation between institutional holdings and
+synchronicity. To see whether our results reported in Table 5 are driven by the omission of the institutional
+holding variables, we re-estimate our main regression in Eq. (3) after adding the levels of foreign and domestic
+institutional holdings at the end of year t  1 to the trading intensity measures.15
+Though not reported here for brevity, our re-estimated results show that the inclusion of the level-of-holding (as opposed to trading) variables does not alter our main inferences on the test variables, FORV, DOMV,
+STDV and LTDV. That is, (i) trading by both foreign and domestic institutions facilitates the incorporation of
+ﬁrm-speciﬁc information into stock prices, thereby reducing stock price synchronicity or co-movement; (2)
+trading by foreign investors decreases synchronicity to a greater extent than trading by domestic institutions;
+and (3) trading by domestic short-term institutions decreases synchronicity, but trading by domestic long-term
+institutions does not. We also ﬁnd that the levels of shareholdings of foreign and domestic institutional investors are insigniﬁcant in inﬂuencing synchronicity. In short, the above ﬁndings, taken together, suggest that it is
+institutional trading and not institutional holding, which facilitates the incorporation of ﬁrm-speciﬁc information into stock prices.
+5.4. Change analysis
+Although the above analysis controls for many ﬁrm characteristics that might account for the relationship
+between synchronicity and institutional trading, there is an endogeneity concern with respect to omitted
+15
+
+Since in 2004 the FSS stopped requiring the reporting of ownership stakes by diﬀerent types of investors in Business Reports,
+equivalent to U.S. 10-K reports, our analysis is limited to the period 1998–2003.
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+15
+
+Table 6
+Change analysis.
+Variable
+
+Dependent variable = Synch
+Coeﬀ.
+
+DFORV
+DSTDV
+DLTDV
+Dlog(1 + #ANAL)
+Dlog MVE
+DLEV
+DMB
+DSROA
+DHERFIN
+DCHAEBOL
+DGDR
+DBIG4
+DAveVol
+Intercept
+Industry dummy
+Adjusted R2
+N
+
+t-Stat.
+0.443
+0.616
+0.221
+0.060
+0.116
+0.325
+0.000
+0.681
+2.369
+0.037
+0.229
+0.119
+4.966
+0.002
+
+1.88c
+2.45b
+0.47
+1.36
+2.86a
+1.23
+3.40a
+1.29
+2.35b
+0.29
+0.47
+2.22b
+4.23a
+0.08
+
+Yes
+0.058
+3723
+
+The superscripts a, b and c denote the 1%, 5% and 10% levels of signiﬁcance, respectively,
+using a two-tailed test. All variables are deﬁned in Appendix B. Reported t-values are on an
+adjusted basis using standard errors corrected for clustering by ﬁrm and by year.
+
+correlated variables. To alleviate concerns over omitted correlated variables, we perform a change-based
+analysis using the model
+DSynchjt ¼ b0 þ b1 DFORV jt þ b2 DSTDV jt þ b3 DLTDV jt þ b4 D log ð1 þ #ANALÞjt þ b5 D log MVEjt
+þ b6 DLEV jt þ b7 DMBjt þ b8 DSROAjt þ b9 DHERFIN jt þ b10 DCHAEBOLjt þ b11 DGDRjt
+þ b12 DBIG4jt þ b13 DAveVoljt þ ðIndustryDummiesÞ þ error
+
+ð4Þ
+
+where all variables starting with D represent changes in the variables from year t  1 to year t and the variables are as deﬁned earlier.
+Table 6 presents the results for the above change-based regression, using a reduced sample of 3723
+observations. We ﬁnd that the coeﬃcients of DFORV and DSTDV are both signiﬁcantly negative, while the
+coeﬃcient of DLTDV is insigniﬁcantly positive, which is consistent with the ﬁndings of the level-based tests
+(as reported in Table 5). Overall, the results of our change-based regressions suggest that an increase in the
+trading activities of foreign and short-term domestic investors leads to a decrease in stock price synchronicity,
+while the trading activities of domestic long-term institutions are not associated with synchronicity. This ﬁnding provides additional assurance that our level-based regression results reported in Table 5 are unlikely to be
+driven by correlated omitted variables or reverse causality.
+6. Results using an alternative measure of ﬁrm-speciﬁc information ﬂows
+Since Roll (1988), a growing body of research in the ﬁnance literature16 has provided evidence that higher
+synchronicity means a smaller amount of ﬁrm-speciﬁc information capitalized into stock prices. Put diﬀerently, the lower the level of stock price synchronicity, the greater the relative amount of ﬁrm-speciﬁc information being incorporated into stock prices. For the purpose of our study, an inverse relation between the
+
+16
+
+See, for example, Morck et al. (2000), Jin and Myers (2006), Chen et al. (2007), Ferreira and Laux (2007), Fernandes and Ferreira
+(2008), Hutton et al. (2009) and Gul et al. (2010).
+
+16
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+intensity of (foreign and domestic) institutional trading and our synchronicity measure can be viewed as an
+indication that institutional trading facilitates the ﬂow of ﬁrm-speciﬁc information to the market and its incorporation into stock prices, thereby reducing synchronicity. Admittedly, however, this information-based interpretation of synchronicity is not without controversy.17 Noise trading and limits to arbitrage may be
+responsible for an increase in return volatility. For example, one can argue that institutional trading adds
+noise in stock returns and thus increases idiosyncratic volatility in stock returns, or decreases synchronicity,
+which in turn leads to an inverse relation between institutional trading and synchronicity. To further substantiate the hypothesized (inverse) relation between institutional trading and stock price synchronicity, we also
+consider an alternative measure of synchronicity that focuses on the ﬂow of ﬁrm-speciﬁc private information
+ﬂows to the market. For this purpose, we ﬁrst obtain the annual measure of the probability of informed trading (PIN). Appendix A describes how the PIN measure is calculated. We then re-estimate our main regression
+in Eq. (3) with PIN as the dependent variable in lieu of Synch.18
+As mentioned earlier, institutional investors are elite information processors capable of transforming public
+information into value-relevant private information. These institutional investors may also have an advantage
+over individual investors in gaining access to and gathering and processing ﬁrm-speciﬁc private information.
+Therefore, institutional investors are more likely to make their trading decisions based on ﬁrm-speciﬁc private
+information than individual investors. As institutional trading becomes more intense, a ﬁrm’s shares are more
+likely to be traded by informed traders, which in turn leads to a higher probability of informed trading. We
+therefore predict a positive relation between the intensity of institutional trading and our proxy for the ﬂow of
+ﬁrm-speciﬁc private information to the market, namely, PIN. As explained in Appendix A, the PIN measure is
+developed from a structural market microstructure model and captures the relative amount of ﬁrm-speciﬁc
+private information incorporated into stock prices via information-based trading.19
+In estimating our main regressions using PIN as the dependent variable in lieu of Synch, we keep the same
+set of control variables as before, because our objective here is not to investigate cross-sectional determinants
+of private information-based trading activities but, rather, to see whether our main results are robust to the
+alternative measure of ﬁrm-speciﬁc information ﬂow. We re-estimate our main regressions in Table 5 with PIN
+as the dependent variable and present the new results in Table 7. As shown in Table 7, the coeﬃcients of
+FORV and STDV are 0.037 with t = 2.73 and 0.075 with t = 4.39, respectively. This suggests that trading
+by foreign investors and domestic short-term institutions increases the relative amount of ﬁrm-speciﬁc private
+information capitalized into stock prices as reﬂected in our PIN measure. We ﬁnd, however, that PIN is not
+signiﬁcantly associated with trading by domestic long-term institutions (LTDV). We also ﬁnd that trading by
+domestic short-term institutions has a larger impact on PIN than trading by foreign investors (p < 0.01,
+one-tailed test). To the extent that a higher PIN is associated with lower Synch or higher ﬁrm-speciﬁc return
+variation, the signiﬁcant positive relations of PIN with FORV and STDV, and the insigniﬁcant relation
+between Synch and LTDV are in line with our earlier results reported in Table 5. The above results corroborate the view that our Synch measure correctly captures the amount of ﬁrm-speciﬁc information capitalized
+into stock prices via information-based trading.
+Overall, the results reported in Table 7 corroborate our earlier ﬁnding that trading by foreign investors and
+domestic short-term institutions facilitates the capitalization of ﬁrm-speciﬁc information into stock prices via
+information-based trading, while trading by domestic long-term institutions does not.
+7. Institutional trading and the mispricing of accruals
+Thus far, our evidence consistently indicates that foreign investors and domestic short-term institutions
+facilitate the incorporation of ﬁrm-speciﬁc information into stock prices via their trading activities, while
+17
+
+A few (unpublished) studies raise questions about this information-based interpretation of synchronicity and provide evidence
+suggesting that synchronicity may reﬂect noises in stock returns that are not related to ﬁrm-speciﬁc information (Ashbaugh-Skaife et al.,
+2006; Teoh et al., 2008). As in many other studies, our tests are predicated upon the information-based interpretation of synchronicity,
+given that evidence supporting this interpretation is overwhelming and growing in the contemporary ﬁnance (and accounting) literature.
+18
+Analysis using the PIN measure has fewer observations (2933 ﬁrm–year observations) due to data limitations.
+19
+We thank Woo-Jong Lee for his assistance in obtaining the data required for computing PIN.
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+17
+
+Table 7
+Results of simultaneous estimations of the relations between foreign and domestic institutional
+trading and PIN, a measure of the probability of informed trading.
+Variable
+
+Dependent variable = PIN
+Coeﬀ.
+
+FORV
+STDV
+LTDV
+log(1 + #ANAL)
+log MVE
+LEV
+MB
+SROA
+HERFIN
+CHAEBOL
+GDR
+BIG4
+AveVol
+Intercept
+Industry dummy
+Adjusted R2
+N
+
+t-Stat.
+
+0.037
+0.075
+0.039
+0.008
+0.013
+0.025
+0.000
+0.048
+0.013
+0.001
+0.006
+0.001
+0.087
+0.475
+
+2.73a
+4.39a
+1.63
+4.36a
+11.75a
+4.15a
+9.83a
+3.59a
+1.14
+0.01
+0.88
+0.89
+2.83a
+22.14a
+
+Yes
+0.192
+2933
+
+The superscripts a, b and c denote the 1%, 5% and 10% levels of signiﬁcance, respectively, using
+a two-tailed test. All variables are deﬁned in Appendix B. Reported t-values are on an adjusted
+basis using standard errors corrected for clustering by ﬁrm and by year.
+
+domestic long-term institutions do not. As an additional validity check, our analysis below focuses on whether
+and how trading activities by three diﬀerent types of institutional investors—foreign, domestic short-term and
+domestic long-term institutions—diﬀerentially aﬀect the pricing eﬃciency of accounting accruals. Our analysis
+is motivated by Sloan (1996), who ﬁnds a negative relation between the accrual component of current earnings
+and future stock returns. His ﬁnding, which is often referred to as an “accrual anomaly,” suggests that the
+market price does not fully reﬂect the accrual component of earnings being less persistent than the cash ﬂow
+component of earnings. His analysis further demonstrates that a hedge trading strategy of buying stocks with
+low accruals and selling stocks with high accruals yields signiﬁcant abnormal returns in the year following
+portfolio formation.
+Drawing on Sloan’s (1996) ﬁndings, one can argue that sophisticated institutional investors with superior
+ability to analyze and interpret published annual ﬁnancial reports should be better able to understand the differential persistence of the two earnings components, accruals and cash ﬂows, and that their trading activities
+facilitate the impounding of these two earnings components into stock prices. Given our ﬁnding that foreign
+and domestic short-term institutional investors contribute more to the incorporation of ﬁrm-speciﬁc information into stock prices via their trading activities than domestic long-term institutions, we predict that a trading
+strategy that exploits the mispricing of the accrual component of earnings should be less proﬁtable for ﬁrms
+whose shares are more intensely traded by foreign and domestic short-term institutional investors.
+To test the above prediction, we ﬁrst compute the accrual component of annual earnings as follows:
+Accrualsj;t ¼ Earningsj;t  CFOj;t
+
+ð5Þ
+
+where, for ﬁrm j and year t, Earnings is earnings from continuing operations standardized by average total
+assets and CFO is cash ﬂow from operations divided by average total assets. Similar to Sloan (1996), we then
+compute one-year-ahead size-adjusted returns as a proxy for future abnormal returns. One-year-ahead sizeadjusted returns are the diﬀerence between a ﬁrm’s annual buy-and-hold return and the average annual buyand-hold return of the size decile portfolio to which the ﬁrm belongs. To calculate the return to the size decile
+portfolios, all ﬁrms are assigned to size deciles based on their market value of equity at the beginning of the year
+in which the return accumulation period begins. The decile portfolio return is the value-weighted return of all
+
+18
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+ﬁrms that belong to the size decile portfolio. Annual size-adjusted (buy-and-hold) returns for each size decile
+portfolio are computed for the 12-month period starting four months after the end of the ﬁscal year.
+To evaluate the proﬁtability of our accrual-based trading strategy, we assign ﬁrms into deciles at the beginning of each ﬁscal year based on the magnitude of accruals and then group them into three portfolios: the
+lowest (deciles 1 and 2), the middle (deciles 3 through 8) and the highest (deciles 9 and 10). We then calculate
+future abnormal returns for each portfolio for the year after portfolio construction. Panel A of Table 8 reports
+the results for the full sample, while Panels B, C and D report the results for the subsamples partitioned by the
+intensity of institutional trading by foreign, domestic short-term and domestic long-term institutional investors, respectively.
+As presented in Panel A of Table 8, we ﬁnd that, consistent with Sloan (1996), one-year-ahead abnormal
+returns (i.e., size-adjusted returns) to accrual-based decile portfolios decrease monotonically as we move from
+low-accrual portfolios (deciles 1 and 2) to high-accrual portfolios (deciles 9 and 10). When we form a hedge
+portfolio with a long position in the low-accrual portfolio (deciles 1 and 2) and a short position in the highaccrual portfolio (deciles 9 and 10), the return to this hedge portfolio is 15.9%, which is signiﬁcant both statistically (t = 4.76) and economically.
+In Panel B of Table 8, we assess the impact of foreign investors’ trading activities on the pricing of accruals.
+For this purpose, we ﬁrst partition our full sample into two subsamples: one with high FORV (above-median
+FORV) and the other with low FORV (below-median FORV). As shown in Panel B of Table 8, we ﬁnd that
+one-year-ahead abnormal returns are also negatively related to accruals for both subsamples. More importantly, we ﬁnd that the return to the hedge portfolio is smaller for the high-FORV subsample (0.092) than
+for the low-FORV subsample (0.225), and this return diﬀerence between the two subsamples is signiﬁcant
+at the 10% level (t = 1.82), as indicated in the last column of the same panel. The above results are in line with
+the view that foreign investors understand the implication of accruals for future returns and their trading
+activities reduce the mispricing of accruals.
+In Panel C of Table 8, we partition our full sample into two subsamples using the trading intensity of shortterm domestic institutions: one with high STDV and the other with low STDV. As seen in Panel C of Table 8,
+we ﬁnd that one-year-ahead abnormal returns decrease with the magnitude of accruals for both subsamples.
+Moreover, we ﬁnd that the return to the hedge portfolio is smaller for the high-STDV subsample (0.073) than
+for the low-STDV subsample (0.253). This return diﬀerence is signiﬁcant at the 1% level (t = 2.77). The
+above results are consistent with the view that domestic short-term institutions facilitate the incorporation
+of ﬁrm-speciﬁc information into stock prices via their trading activities, leading us to observe the one-yearahead return to the hedge portfolio is lower for the high-STDV subsample than for the low-STDV subsample.
+Panel D of Table 8 reports the results for the two subsamples of ﬁrms with high LTDV and low LTDV.
+Similar to the results reported in both Panels B and C of Table 8, the results in Panel D show that oneyear-ahead abnormal returns decrease with the magnitude of accruals for both high-LTDV and low-LTDV
+subsamples. We ﬁnd, however, that the return to the hedge portfolio does not diﬀer signiﬁcantly between
+the high-LTDV subsample (0.127) and the low-LTDV subsample (0.190). This ﬁnding is in line with our earlier
+ﬁndings that, unlike foreign and short-term domestic institutions, the trading activities of domestic long-term
+institutions do not necessarily facilitate the incorporation of ﬁrm-speciﬁc information into stock prices via
+their trading activities.
+We next conduct a regression analysis to further examine the relation between the accrual component of
+earnings and future stock returns after controlling for other variables that are deemed to aﬀect future stock
+returns. Speciﬁcally, we estimate the regression model
+SARj;tþ1 ¼ a0 þ a1 ACC dec
+j;t þ a2 Sizej;t þ a3 log BM j;t þ a4 EP j;t þ a5 FORV H j;t þ a6 STDV H j;t
+dec
+dec
+þ a7 LTDV H j;t þ a8 ACC dec
+j;t  FORV H j;t þ a8 ACC j;t  STDV H j;t þ a8 ACC j;t  LTDV H j;t
+
+þ ðindustrydummiesÞ þ error
+
+ð6Þ
+
+where, for ﬁrm j and year t (or t + 1), SARj;tþ1 is the one-year-ahead size-adjusted return; ACC dec
+j;t is the decile
+rank of an accrual-based decile portfolio, scaled to range from zero to one; Sizej;t is the natural log of the yearend market capitalization; log BM j;t is the natural log of the ratio of the book value of common equity to the
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+19
+
+Table 8
+Institutional trading and the mispricing of accruals.
+Accrual-based decile portfolio
+
+Mean
+
+t-Statistics
+
+Panel A: Hedge portfolio test for the full sample
+Deciles 1 and 2
+Deciles 3–8
+Deciles 9 and 10
+Return to the hedge portfolio
+
+0.046
+0.009
+0.113
+0.159
+
+1.68c
+0.68
+5.87a
+4.76a
+
+Accrual-based decile portfolio
+
+High FORV
+Mean
+
+Low FORV
+
+Diﬀerence
+
+t-Stat.
+
+Mean
+
+t-Stat.
+
+Panel B: Hedge portfolio test for high FORV versus low FORV
+Deciles 1 and 2
+0.025
+0.69
+Deciles 3–8
+0.015
+0.83
+Decile 9 and 10
+0.067
+2.59a
+Return to the hedge portfolio
+0.092
+1.82c
+
+0.063
+0.036
+0.162
+0.225
+
+0.025
+0.015
+0.067
+0.092
+
+Accrual-based decile portfolio
+
+High STDV
+Mean
+
+Low STDV
+t-Stat.
+
+Mean
+
+Panel C: Hedge portfolio test for high STDV versus low STDV
+Deciles 1 and 2
+0.044
+1.17
+Deciles 3–8
+0.004
+0.23
+Deciles 9 and 10
+0.029
+1.08
+Return to the hedge portfolio
+0.073
+1.70c
+
+0.047
+0.024
+0.206
+0.253
+
+Accrual-based decile portfolio
+
+High LTDV
+Mean
+
+1.21
+1.08
+7.93a
+5.40a
+
+Low LTDV
+
+t-Stat.
+0.26
+0.34
+4.69a
+2.77a
+Diﬀerence
+
+Mean
+
+t-Stat.
+
+Panel D: Hedge portfolio test for high LTDV versus low LTDV
+Deciles 1 and 2
+0.038
+0.96
+Deciles 3–8
+0.010
+0.56
+Deciles 9 and 10
+0.089
+3.41a
+Return to the hedge portfolio
+0.127
+3.15a
+
+0.051
+0.031
+0.139
+0.190
+
+1.37
+1.40
+4.91***
+3.63***
+
+Coeﬃcient
+
+0.69
+0.83
+2.59a
+1.82c
+Diﬀerence
+
+t-Stat.
+
+t-Stat.
+
+(1)
+
+t-Stat.
+
+t-Stat.
+1.03
+0.83
+1.65c
+0.28
+
+(2)
+t-Value
+
+Panel E: Cross-sectional regressions of stock returns on accruals and other predictors of returns
+ACCdec
+0.141
+3.75a
+SIZE
+0.034
+4.50a
+log BM
+0.270
+5.88a
+EP
+0.013
+0.51
+FORV_H
+STDV_H
+LTDV_H
+ACCdec * FORV_H
+ACCdec * STDV_H
+ACCdec * LTDV_H
+Intercept
+0.871
+5.95a
+Industry dummy
+Yes
+Adjusted R2
+0.071
+
+Coeﬃcient
+
+t-Value
+
+0.398
+0.032
+0.253
+0.023
+0.136
+0.082
+0.014
+0.207
+0.230
+0.062
+0.727
+Yes
+0.104
+
+3.50a
+3.13b
+5.91a
+0.81
+1.09
+1.30
+0.22
+2.01c
+2.68b
+0.56
+3.54a
+
+The superscripts a, b and c denote the 1%, 5% and 10% levels of signiﬁcance, respectively, using a two-tailed test. All variables are deﬁned
+in Appendix B. Each reported coeﬃcient represents the average of estimated coeﬃcients from ten annual regressions. Each reported tvalue is computed using the empirical distribution of ten annual coeﬃcients (after correcting for serial correlation).
+
+market value of common equity; EP j;t is the ratio of earnings per share divided by the ﬁscal year-end stock
+price; FORV H j;t is an indicator variable that equals one if FORV is higher than its median, and zero otherwise; and STDV H j;t (LTDV H j;t ) is an indicator variable that equals one if STDV (LTDV) is higher than its
+median, and zero otherwise.
+
+20
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+Panel E of Table 8 reports the results of the Fama–MacBeth (1973) regression in Eq. (6).20 Column 1
+reports the result of a baseline regression without including institutional trading variables and their interactions with ACCdec. The coeﬃcient of ACCdec is signiﬁcantly negative, which is consistent with the results
+reported in Panel A of Table 8.21 Column 2 of Panel E presents the result of the full-model regression in
+Eq. (6): We ﬁnd that the coeﬃcients of ACCdec * FORV_H and ACCdec * STDV_H are signiﬁcantly positive,
+while the coeﬃcient of ACCdec * LTDV_H is insigniﬁcant. These results are consistent with those reported in
+Panels B to D of Table 8, suggesting that the mispricing of accruals is mitigated for such ﬁrms whose shares
+are traded more intensely by foreign and domestic short-term institutions, while it is not aﬀected by trading by
+domestic long-term institutions. In short, the results reported in Table 8, taken together, imply that trading by
+foreign investors and domestic short-term institutions mitigates the mispricing of accruals by facilitating the
+incorporation of ﬁrm-speciﬁc information into stock prices.
+8. Summary and concluding remarks
+Using a large sample of ﬁrms listed on the KSE over 1998–2007, this paper investigates whether and how
+trading by foreign and domestic institutional investors impacts the incorporation of ﬁrm-speciﬁc information
+into stock prices, captured by stock price synchronicity. Our results reveal the following. First, stock price synchronicity decreases signiﬁcantly with the intensity of trading by foreign investors and domestic institutions.
+Second, among domestic institutions with diﬀering investment horizons, short-term institutions such as securities and investment trust companies play a more important role in facilitating ﬁrm-speciﬁc information ﬂow
+to the market via their trading activities than long-term institutions such as banks and insurance companies.
+Third, we show that trading by foreign investors and domestic short-term institutions facilitates ﬁrm-speciﬁc
+information ﬂow to a greater extent than trading by long-term domestic institutions. Fourth, the above ﬁndings are robust to potential endogeneity biases and an alternative measure of ﬁrm-speciﬁc information ﬂow.
+We also ﬁnd that it is institutional trading, and not institutional shareholdings, which facilitates the incorporation of ﬁrm-speciﬁc information into stock prices. Finally, we provide further evidence that the trading
+activities of foreign and domestic short-term institutions reduce accrual mispricing, while those of domestic
+long-term institutions do not.
+Overall, our results are consistent with the view that foreign and domestic short-term institutions in emerging markets are more actively involved in information-based trading than domestic long-term institutions,
+and, thus, that the trading activities of the former facilitate the incorporation of ﬁrm-speciﬁc information into
+stock prices to a greater extent than the trading activities of the latter. However, since our analyses are
+performed in an emerging economy where ﬁrm ownership is typically concentrated in the hands of a few
+controlling shareholders and large business groups play a dominant role, we caution against generalizing
+our results to other developed economies with diﬀuse ownership and strong corporate governance. Given
+the scarcity of empirical evidence on the informational role of shareholdings and trading by foreign
+institutions vis-à-vis domestic institutions, we recommend further research on the economic consequences
+of foreign versus domestic institutional trading in other contexts, including the eﬀect on the cost of capital,
+ﬁrm valuation and the eﬃciency of capital allocation and investment in emerging markets.
+Acknowledgments
+We thank Charles Chen, Michael Firth, Joseph Fan, Ying-hua Li, Annie Qiu, Dan Simunic, Byron Song,
+Michael Stein, Xiaodong Xu, Jerry Zimmerman and participants of presentations at PolyU’s China Accounting and Finance Research Symposium, the Accounting Research Workshops at UBC’s Sauder School of Business, Concordia University, City University of Hong Kong, The Hong Kong Polytechnic University, and
+20
+Each reported coeﬃcient represents the average of the estimated coeﬃcients from ten annual regressions. Each reported t-value is
+computed using the empirical distribution of ten annual coeﬃcients (after correcting for serial correlation).
+21
+As reported in Table 8, the coeﬃcient of SIZE is positively signiﬁcant, which is not consistent with the ﬁnding of Sloan (1996).
+However, it is consistent with the international evidence on the accrual anomaly for some of the code-law countries reported in Pincus
+et al. (2007).
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+21
+
+Seoul National University for their helpful comments and suggestions on earlier versions of the paper. All
+errors and omissions are our own.
+Appendix A. Alternative measure of ﬁrm-speciﬁc information ﬂow
+We use the probability of informed trading (PIN) developed by Easley et al. (2002) as an alternative
+dependent variable in our study. The variable PIN is measured using a structural market microstructure
+model where trade comes from either informed or uninformed traders. On a day with no information
+events, uninformed buyers and uninformed sellers arrive at the rates of eb and es, respectively. Information
+events occur with probability a. Information events are either good news with probability (1  d), or bad
+news with probability d. Let l denote the arrival rate of informed traders when an information event occurs.
+Informed traders will buy when they observe good news and will sell upon observing bad news. Thus, on
+bad event days, the arrival rate of buy orders is eb and the arrival rate of sell orders is es + l. On good event
+days, the arrival rate of buy orders is eb + l and the arrival rate of sell orders is es. Easley et al. (2002) show
+that, under certain conditions, PIN for a stock in a given period is measured as
+al
+PIN ¼
+ða1Þ
+al þ es þ eb
+where al is the arrival rate for information-based orders and al + es + eb is the arrival rate of all orders. The
+variable PIN measures the probability of information-based trading by informed traders. To obtain the
+annual PIN measure for each ﬁrm in our sample, transaction data are retrieved from the Trade and Quote
+database provided by the Institute of Finance and Banking (IFB) of Seoul National University (IFB/KSE
+database). The IFB-KSE database has each order time-stamped with the time it arrived at the exchange
+and the time the order was executed, which allows us to identify whether a speciﬁc order was initiated by a
+buyer or a seller. Based on the number of daily buys and sells for each trading day, we obtain h = (l, eb,
+es, a, d) to maximize the likelihood function for the total number of buys and sells on a single day, for each
+stock in each year. We then compute yearly PIN measures for each stock using the formula in Eq. (a1).
+Appendix B. Variable deﬁnitions
+Variable
+
+Deﬁnition
+
+Panel A: Stock price synchronicity
+R2
+= coeﬃcient of determination from the estimation of the ﬁrm–year estimation of the
+model in Eq. (1)
+Synch
+= stock price synchronicity measured by log[R2/(1  R2)]
+Panel B: Probability of informed trading measure
+PIN
+= annual probability of information-based trading measure of Easley et al. (2002)
+Panel C: Variables of interest used in main regressions
+FORV
+= sum of total shares purchased and sold by non-resident foreign investors as a fraction
+of annual trading volume
+DOMV
+= sum of total shares purchased and sold by domestic institutional investors as a fraction
+of annual trading volume (DOMV = STDV + LTDV)
+STDV
+= sum of total shares purchased and sold by domestic securities and investment trust
+companies as a fraction of annual trading volume
+LTDV
+= sum of total shares purchased and sold by domestic insurance companies and banks as
+a fraction of annual trading volume
+Panel D: Control variables
+log(1 + #ANAL) = log(1 + number of analysts following)
+log MVE
+= log of market capitalization
+
+22
+
+LEV
+MB
+SROA
+HERFIN
+CHAEBOL
+GDR
+BIG4
+AveVol
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+= total debt/total asset
+= market value of equity/book value of equity
+= standard deviation of ROA measured over the past ﬁve years using 10 half-yearly
+observations
+= sales revenue-based Herﬁndahl index of industry-level concentration
+= 1 if a ﬁrm belongs to one of the 30 largest chaebols, and 0 otherwise
+= 1 if a ﬁrm is cross-listed, and 0 otherwise
+= 1 if a local auditor is a member of a Big 4 ﬁrm, and 0 otherwise
+= average daily trading volume/shares outstanding
+
+References
+Aggarwal, R., Erel, I., Ferreira, M., Matos, P., 2011. Does governance travel around the world? Evidence from institutional investors. J.
+Financ. Econ. 100, 154–181.
+Ahearne, A., Griever, W., Warnock, F., 2004. Information costs and home bias: an analysis of U.S. holdings of foreign equities. J. Int.
+Econ. 62, 313–336.
+Albuquerque, R., Bauer, G., Schneider, M., 2009. Global private information in international equity markets. J. Financ. Econ. 94, 18–46.
+Ashbaugh-Skaife, H., Gassen, J., LaFond, R., 2006. Does Stock Price Synchronicity Represent Firm-Speciﬁc Information? The
+International Evidence. MIT Sloan Research Paper No. 4551-05. SSRN. <http://ssrn.com/abstract=768024>.
+Aslan, H., Easley, D., Hvidkjaer, S., O’Hara, M., 2007. Firm Characteristics and Informed Trading: Implications for Asset Pricing.
+Working Paper. SSRN. <http://ssrn.com/abstract=1334465>.
+Bae, K.-H., Chan, K., Ng, A., 2004. Investability and return volatility. J. Financ. Econ. 71, 239–263.
+Bae, K.-H., Ozoguz, A., Tan, H., Wirjanto, T.S., 2012. Do foreigners facilitate information transmission in emerging markets? J. Financ.
+Econ. 105, 209–227.
+Baek, J., Kang, J., Park, K.S., 2004. Corporate governance and ﬁrm value: evidence from the Korean ﬁnancial crisis. J. Financ. Econ. 71,
+205–415.
+Barron, O., Byard, D., Kim, O., 2002. Change in analysts’ information around earnings announcements. Acc. Rev. 77, 821–846.
+Bekaert, G., Harvey, C.R., 2000. Foreign speculators and emerging equity markets J. Financ. 55, 565–613.
+Bekaert, G., Harvey, C.R., Lundblad, C., 2005. Does ﬁnancial liberalization spur growth? J. Financ. Econ. 57, 3–55.
+Bradshaw, M., Bushee, B., Miller, G., 2004. Accounting choices, home bias, and U.S. investment in non-U.S. ﬁrms. J. Acc. Res. 42, 795–
+841.
+Brennan, M.J., Cao, H.H., 1997. International portfolio investment ﬂows. J. Financ. 52, 1855–1880.
+Bushee, B., 1998. The inﬂuence of institutional investors on myopic R&D investment behavior Acc. Rev. 73, 305–333.
+Bushee, B., 2001. Do institutional investors prefer near-term earnings over long-run value? Contemp. Acc. Res. 18, 207–246.
+Chakravarty, S., 2001. Stealth trading: which trades move stock prices? J. Financ. Econ. 61, 289–307.
+Chan, K., Hameed, A., 2006. Stock price synchronicity and analyst coverage in emerging markets. J. Financ. Econ. 80, 115–147.
+Chen, Q., Goldstein, I., Jiang, W., 2007. Price informativeness and investment sensitivity to stock prices. Rev. Financ. Stud. 20, 619–650.
+Choe, H., Kho, B.-C., Stulz, R., 1999. Do foreign investors destabilize stock markets? The Korean experience in 1997. J. Financ. Econ. 54,
+170–180.
+Choi, J.H., Kim, J.-B., Liu, X., Simunic, D.A., 2008. Cross Listing Audit Fee Premiums: Theory and Evidence. Working Paper. University
+of British Columbia, Vancouver, Canada.
+Choi, J.H., Wong, T.J., 2007. Auditors’ governance functions and legal environments: an international investigation. Contemp. Acc. Res.
+24, 14–46.
+Christoﬀersen, S., Sarkissian, S., 2009. City size and fund performance. J. Financ. Econ. 92, 252–275.
+Covrig, V.M., Lau, S., Ng, L., 2006. Do domestic and foreign fund managers have similar preferences for stock characteristics? A crosscountry analysis. J. Int. Busin. Stud. 37, 407–429.
+Dahlquist, M., Robertsson, G., 2001. Direct foreign ownership, institutional investors, and ﬁrm characteristics. J. Financ. Econ. 59, 413–
+440.
+Del Guercio, D., 1996. The distorting eﬀect of the prudent-man laws on institutional equity investment J. Financ. Econ. 40, 31–62.
+Durnev, A., Morck, R., Yeung, B., Zarowin, P., 2003. Does greater ﬁrm-speciﬁc return variation mean more or less informed stock
+pricing? J. Acc. Res. 41, 797–836.
+Easley, D., Hvidkjaer, S., O’Hara, M., 2002. Is information risk a determinant of asset returns? J. Financ. 57, 2185–2221.
+Fan, J.P.H., Wong, T.J., 2005. Do external auditors perform a corporate governance role in emerging markets? Evidence from East Asia J.
+Acc. Res. 43, 35–72.
+Fernandes, N., Ferreira, M.A., 2008. Does international cross-listing improve the information environment? J. Financ. Econ. 88, 216–244.
+Ferreira, M.A., Laux, P.A., 2007. Corporate governance, idiosyncratic risk, and information ﬂow. J. Financ. 62, 951–989.
+Froot, K.A., Ramadorai, T., 2008. Institutional portfolio ﬂows and international investments. Rev. Financ. Stud. 21, 937–971.
+
+J.-B. Kim, C.H. Yi / China Journal of Accounting Research 8 (2015) 1–23
+
+23
+
+Gillian, S., Starks, L., 2003. Corporate governance, corporate ownership, and the role of institutional investors: a global perspective. J.
+Appl. Financ. 13, 4–22.
+Grinblatt, M., Keloharju, M., 2000. The investment behavior and performance of various investment types: a study of Finland’s unique
+data set. J. Financ. Econ. 55, 43–67.
+Grossman, S.J., Stiglitz, J.E., 1980. On the possibility of informationally eﬃcient markets. Am. Econ. Rev. 70, 393–408.
+Gul, F., Kim, J.-B., Qiu, A., 2010. Ownership concentration, foreign shareholding, audit quality and ﬁrm-speciﬁc return variation:
+evidence from China. J. Financ. Econ. 95, 425–442.
+Hameed, A., Morck, R., Shen, J., Yeung, B., 2010. Information, Analyst, and Stock Return Comovement. NBER Working Paper No.
+15833.
+Hartzell, J., Starks, L., 2003. Institutional investors and executive compensation. J. Financ. 58, 2351–2374.
+Hau, H., 2001. Location matters: an examination of trading proﬁts. J. Financ. 56, 1951–1983.
+Henry, P.B., 2000. Do stock market liberalizations cause investment booms? J. Financ. Econ. 58, 301–334.
+Hubbard, R.G., Palia, D., 1999. A re-examination of the conglomerate merger wave in the 1660s: an internal capital market view. J.
+Financ. 54, 1131–1152.
+Hutton, A.P., Marcus, A.J., Tehranian, H., 2009. Opaque ﬁnancial reports, R2, and crash risk. J. Financ. Econ. 94, 67–86.
+Jacobson, R., Aaker, D., 1993. Myopic management behavior with eﬃcient, but imperfect ﬁnancial markets: a comparison of information
+asymmetries in the U.S. and Japan. J. Acc. Econ. 16, 383–405.
+Jiambalvo, J., Rajgopal, S., Venkatachalam, M., 2002. Institutional ownership and the extent to which stock prices reﬂect future earnings.
+Contemp. Acc. Res., 127–145
+Jiang, L., Kim, J.-B., 2004. Foreign equity ownership and information asymmetry in Japan. J. Int. Financ. Manage. Acc. 15, 185–211.
+Jin, L., Myers, S., 2006. R2 around the world: new theory and new tests. J. Financ. 79, 257–292.
+Joh, S.W., 2003. Corporate governance and ﬁrm proﬁtability: evidence from Korea before the economic crisis. J. Financ. Econ. 68, 287–
+322.
+Kang, J.-K., Stulz, R.M., 1997. Why is there a home bias? An analysis of foreign portfolio equity ownership in Japan. J. Financ. Econ. 46,
+3–28.
+Karolyi, A., 2002. Did the Asian ﬁnancial crisis scare foreign investors out of Japan? Pacif.-Basin Financ. J. 10, 411–442.
+Karolyi, A., Stulz, R., 2003. Are assets priced locally or globally? In: Constantinides, G., Harris, M., Stulz, R. (Eds.), The Handbook of
+the Economics of Finance. North-Holland Publishers, New York.
+Khanna, T., Palepu, K., 2000. Is group aﬃliation proﬁtable in emerging markets? An analysis of diversiﬁed Indian business groups. J.
+Financ. 55, 867–891.
+Kim, J.-B., Chung, R., Firth, M., 2003. Auditor conservatism, asymmetric monitoring and discretionary accrual choices. Contemp. Acc.
+Res. 20, 323–360.
+Kim, J.-B., Shi, H., 2010. Voluntary IFRS Adoption and Stock Price Synchronicity: Do Analyst Following and Institutional
+Infrastructure Matter? Working Paper. City University of Hong Kong, Hong Kong, Fudan University.
+Kim, O., Verrecchia, R., 1994. Market liquidity and volume around earnings announcements. J. Acc. Econ. 17, 41–67.
+Kim, O., Verrecchia, R., 1997. Pre-announcement and event-period private information. J. Acc. Econ. 24, 395–419.
+Kim, J.-B., Yi, C.H., 2006. Ownership structure, group aﬃliation, listing status and earnings management: evidence from Korea.
+Contemp. Acc. Res. 23, 427–464.
+Leuz, C., Lins, K.V., Warnock, F.E., 2009. Do foreigners invest less in poorly governed ﬁrms? Rev. Financ. Stud., 3245–3285
+Mitton, T.A., 2002. Cross-ﬁrm analysis of the impact of corporate governance on the East Asian ﬁnancial crisis. J. Financ. Econ. 64, 215–
+241.
+Morck, R., Yeung, B., Yu, W., 2000. The information content of stock markets: why do emerging markets have synchronous stock price
+movements? J. Financ. Econ. 58, 215–260.
+Petersen, M.A., 2009. Estimating standard errors in ﬁnance panel data sets: comparison approaches. Rev. Financ. Stud. 22, 435–480.
+Pincus, M., Rajgopal, S., Venkatachalam, M., 2007. The accruals anomaly: international evidence. Acc. Rev. 82, 169–203.
+Piotroski, J.D., Roulstone, D.T., 2004. The inﬂuence of analysts, institutional investors, and insiders on the incorporation of market,
+industry, and ﬁrm-speciﬁc information into stock prices. Acc. Rev. 79, 1119–1151.
+Reed, B., Trombley, M., Dhaliwal, D., 2000. Demand for audit quality: the case of Laventhol and Horwath’s auditees. J. Acc. Audit.
+Financ. 15, 183–198.
+Roll, R., 1988. R2. J. Financ. 25, 545–566.
+Seasholes, M., 2004. Re-examining Information Asymmetries in Emerging Stock Markets. Working Paper. University of California at
+Berkeley.
+Shukla, R.K., Inwegen, G.B. van, 1995. Do locals perform better than foreigners? An analysis of UK and US mutual fund managers. J.
+Econ. Busin. 47, 241–254.
+Sloan, R.G., 1996. Do stock prices fully reﬂect information in accruals and cash ﬂows about future earnings? Acc. Rev. 71, 289–315.
+Stulz, R.M., 1999. Globalization and the Cost of Equity Capital. Working Paper No. 99-02. New York Stock Exchange.
+Teoh, S.H., Yang, Y., Zhang, Y., 2008. R-Square: Noise or Firm-Speciﬁc Information? Working Paper.
+Yan, X., Zhang, Z., 2009. Institutional investors and equity return: are short-term institutions better informed? Rev. Financ. Stud. 22,
+893–924.
+
+

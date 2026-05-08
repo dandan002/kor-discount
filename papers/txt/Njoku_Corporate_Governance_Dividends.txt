@@ -1,0 +1,2462 @@
+Article
+
+Corporate Governance and Dividend Policy Under Concentrated
+Ownership: Evidence from Post-Reform Korea
+Okechukwu Enyeribe Njoku 1 , Younghwan Lee 1, *
+1
+
+2
+
+*
+
+and Justin Yongyeon Ji 2
+
+Department of Business Administration, Kumoh National Institute of Technology,
+Gumi 39177, Republic of Korea; okechukwuenyeribenjoku@gmail.com
+Department of Management, Towson University, Towson, MD 21252, USA
+Correspondence: leeyh@kumoh.ac.kr
+
+Abstract
+This study investigates how ownership structure conditions the transmission of corporate
+governance mechanisms into dividend policy within the context of South Korea’s evolving
+regulatory environment. Using a balanced panel of 5022 firm-year observations from
+558 non-financial KOSPI-listed firms over 2011–2019, we analyze governance quality using
+data from the Korea Corporate Governance Service. We employ both an aggregate score
+and four constituent dimensions: board effectiveness, shareholder rights protection, audit
+committee competency, and disclosure transparency. The empirical framework combines
+firm fixed effects estimation, binary logistic regressions, and a two-step dynamic System
+GMM approach to account for unobserved heterogeneity, payout persistence, and endogeneity. The results reveal systematic heterogeneity across ownership regimes. Among
+non-Chaebol firms, higher governance quality across all dimensions is associated with
+higher dividend payouts, consistent with the governance outcome hypothesis. In contrast,
+among Chaebol-affiliated firms, the effectiveness of governance mechanisms is selective
+rather than uniform. While the aggregate governance score and shareholder rights protection retain explanatory power for dividend outcomes, internal oversight mechanisms
+related to board structure, audit competency, and disclosure do not exert independent
+influences once ownership structure is taken into account. These findings show that
+concentrated ownership structures condition which governance mechanisms remain effective in shaping payout policy. Regulators seeking to mitigate valuation discounts in
+conglomerate-dominated economies should prioritize the substantive empowerment of
+minority shareholder rights, as these mechanisms retain influence over payout policy even
+under concentrated ownership structures.
+Keywords: corporate governance; dividend policy; Korea discount; ownership heterogeneity;
+shareholder rights; substitution hypothesis
+Academic Editor: Omer Unsal
+Received: 23 December 2025
+Revised: 21 January 2026
+Accepted: 27 January 2026
+Published: 2 February 2026
+Copyright: © 2026 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license.
+
+J. Risk Financial Manag. 2026, 19, 103
+
+1. Introduction
+How do multidimensional corporate governance mechanisms interact with concentrated ownership structures to shape the credibility of dividend policy? This question is
+central to understanding the persistence of the “Korea discount,” a valuation gap commonly associated with weak payout commitments and entrenched conglomerate control
+(Claessens et al., 2000; Faccio et al., 2001; Kang, 2023; La Porta et al., 2000). While much of
+the governance literature assumes that stronger governance uniformly enhances dividend
+outcomes (Mitton, 2004; Renneboog & Szilagyi, 2020; Shleifer & Vishny, 1997), such an
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+2 of 21
+
+assumption is difficult to reconcile with ownership environments characterized by crossshareholdings and controlling shareholders. We argue that the effectiveness of governance
+mechanisms is conditional on ownership architecture, such that identical governance structures may transmit differently into payout behavior depending on the degree of control
+concentration. In markets dominated by business groups, formal governance improvements need not translate mechanically into higher or more credible dividend payouts
+(Council, 2016; Lewis, 2024).
+The extant literature is divided between two competing theoretical perspectives on the
+governance–payout relationship. The governance outcome hypothesis posits that rigorous
+monitoring frameworks, proxied by governance scores reflecting effective monitoring
+capacity, compel managers to disgorge free cash flow to mitigate agency costs (Faccio et al.,
+2001; M. C. Jensen, 1986; La Porta et al., 2000). In contrast, the substitution hypothesis
+suggests that in concentrated ownership systems, internal monitoring by blockholders
+may render formal governance mechanisms such as board or audit committee oversight
+redundant (Villalonga & Amit, 2006). While prior studies document both positive and
+muted effects of governance on payouts, they offer limited consensus on the conditions
+under which each outcome prevails (Almeida et al., 2011; Kang, 2023; Mili et al., 2017).
+This study responds by investigating whether ownership heterogeneity, distinguishing
+between Chaebol and non-Chaebol firms, constitutes a boundary condition that governs
+the transmission of governance quality into dividend policy.
+To address the fragmented evidence in prior studies that rely on limited governance
+proxies or narrower institutional windows (Hwang et al., 2013; S. M. Kim & Lee, 2008;
+W. Kim et al., 2021; Y. S. Kim & Wee, 2019), we assemble a comprehensive panel of firm-year
+observations spanning 2011–2019, a period characterized by heightened scrutiny of corporate governance in the Korean capital market (Kang, 2023). We draw on governance data
+supplied by the Korea Corporate Governance Service (KCGS), employing its full set of five
+indices, an aggregate score and four constituent pillars capturing board effectiveness, shareholder rights protection, audit committee competency, and disclosure transparency (Korea
+Corporate Governance Service [KCGS], 2021). This multidimensional structure allows us
+to move beyond aggregate governance measures and examine how distinct governance
+mechanisms differentially transmit into dividend policy across ownership regimes.
+Our econometric framework integrates firm fixed effect estimation, binary choice
+models, and a dynamic System GMM approach to address the endogeneity arising from the
+joint determination of governance quality and dividend policy (Jeon et al., 2011; Lee, 2022;
+Song & Chun, 2025). Firm fixed effects absorb time-invariant unobserved heterogeneity,
+while binary logistic specifications assess whether governance affects the propensity to
+maintain dividend-paying status rather than payout levels alone. The dynamic System
+GMM estimator further accounts for payout persistence and potential reverse causality,
+allowing us to distinguish governance effects operating through intertemporal payout
+credibility from those reflecting static firm characteristics. This multi-estimator strategy
+ensures that the documented governance–dividend relationship is not an artifact of a specific
+functional form or identification strategy, but reflects a robust structural association (Ararat
+et al., 2021; Chintrakarn et al., 2022; Claessens et al., 2000; Claessens & Yurtoglu, 2013;
+Gonzalez et al., 2017; Miller & Modigliani, 1961; Mitton, 2004; Renneboog & Szilagyi, 2020).
+Empirically, we uncover pronounced heterogeneity in how governance mechanisms
+translate into dividend outcomes across ownership regimes. Among non-Chaebol firms,
+stronger governance across all constituent pillars is associated with higher dividend yields,
+consistent with the view that formal governance mechanisms function as binding constraints on managerial discretion. In contrast, among Chaebol-affiliated firms, the governance–dividend linkage is sharply mechanism-specific. While the aggregate governance
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+3 of 21
+
+score and shareholder rights protection retain economic and statistical significance, internal monitoring mechanisms, such as board structure, audit oversight, and disclosure
+transparency, lose incremental explanatory power once ownership concentration is taken
+into account. This pattern indicates that conglomerate control structures fundamentally
+condition which governance mechanisms remain effective in shaping payout policy.
+This study contributes to the corporate finance literature in three important ways.
+First, it demonstrates that the relationship between governance quality and dividend
+policy is conditional on ownership structure rather than uniform across firms. Second,
+by decomposing governance into its constituent dimensions, the analysis shows that
+governance substitution within business groups is mechanism-specific: under concentrated
+ownership, internal monitoring channels are largely redundant, whereas shareholderfacing mechanisms continue to discipline payout behavior. Third, the findings contribute
+to the broader investor protection literature by clarifying how ownership concentration
+conditions the informational and disciplinary content of governance signals, with direct
+implications for economies characterized by dominant controlling shareholders.
+In sum, our results show that dividend policy reflects the interaction between governance quality and ownership structure rather than governance quality in isolation. In
+the Korean context, the persistence of the “Korea discount” appears linked not merely
+to weaknesses in formal governance metrics, but to structural features of conglomerate
+control that constrain the effectiveness of internal monitoring mechanisms in shaping
+payout credibility. These findings suggest that efforts to enhance dividend credibility and
+shareholder value require attention not only to governance reforms themselves, but also to
+the ownership environments in which such reforms are embedded.
+The remainder of the article is structured as follows. Section 2 develops the theoretical
+foundations and reviews the literature. Section 3 details the data sources and empirical
+methodology. Section 4 presents the primary findings while Section 5 provides robustness
+analyses. Section 6 concludes with implications for policy and institutional development.
+
+2. Theoretical Foundations and Hypothesis Develpment
+2.1. Dividend Policy as an Agency and Commitment Mechanisms
+Dividend policy has long occupied a central position in corporate finance theory,
+serving as a pivotal mechanism for mitigating agency conflicts between insiders and outside
+shareholders. In the presence of excess free cash flow, managers and controlling owners
+face incentives to pursue value-reducing investments or extract private benefits unless
+constrained by credible payout commitments (Fama & Jensen, 1983; M. Jensen & Meckling,
+1976; M. C. Jensen, 1986). By channeling cash to shareholders rather than retaining it,
+dividends reduce managerial discretion, impose discipline on insiders, and transform
+payout decisions into an internal governance outcome rather than a mere financial choice
+(Faccio et al., 2001; La Porta et al., 2000; Shleifer & Vishny, 1997).
+In emerging and civil law markets such as Korea, where external investor protection remains comparatively weak, dividend payouts assume heightened importance as substitute
+governance mechanisms to safeguard minority shareholders (Claessens & Yurtoglu, 2013;
+Mitton, 2004). Empirical evidence from East Asia consistently demonstrates that payout
+policy is not neutral but instead reflects underlying agency conditions shaped by ownership
+concentration, business group affiliation, and institutional enforcement (Almeida et al.,
+2011; Claessens et al., 2000; Hwang et al., 2013).
+2.2. Governance Mechanisms as Credibility Channels
+Corporate governance mechanisms critically shape dividend policy by influencing
+the credibility of payout commitments. Formal governance structures, board oversight,
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+4 of 21
+
+audit quality, disclosure practices, and shareholder rights, constrain opportunistic behavior
+and enhance transparency in cash allocation (Faccio et al., 2001; Healy & Palepu, 2001;
+La Porta et al., 2000; Shleifer & Vishny, 1997). Stronger governance increases the likelihood
+that dividends function as credible commitments to mitigate agency costs rather than as
+discretionary or symbolic distributions (Mitton, 2004; Renneboog & Szilagyi, 2020).
+In Korea, reforms such as the 2016 Stewardship Code and subsequent governance
+initiatives explicitly target improvements in payout credibility, aiming to minimize persistent discounts in equity valuations (Council, 2016; Kang, 2023). Governance mechanisms
+thus operate as credibility channels, signaling internal control quality and positioning
+governance strength as a determinant of payout reliability.
+Hypothesis 1. Corporate governance quality improves the credibility of dividend payouts.
+2.3. Ownership Structure as an Institutional Regime
+Ownership structure fundamentally conditions how governance mechanisms translate
+into corporate outcomes. In dispersed ownership contexts, formal governance arrangements play a primary role in constraining managerial discretion and aligning payout
+decisions with shareholder interests (Edmans, 2014; Fama & Jensen, 1983).
+By contrast, firms with concentrated ownership, particularly Chaebol affiliates, exhibit internalized control, where dominant shareholders already exercise monitoring and
+decision authority (Atanassov & Mandell, 2018; Burkart et al., 1997; Gonzalez et al., 2017;
+Jeon et al., 2011; Shleifer & Vishny, 1986). In such settings, governance mechanisms do
+not uniformly enhance payout outcomes; their effectiveness depends on whether they
+complement or merely duplicate existing control (Mili et al., 2017). Internal monitoring
+channels such as boards, audit oversight, and disclosure may be saturated under concentrated ownership, while shareholder-facing mechanisms, shareholder rights and dividend
+signaling, retain binding power (Kwon & Han, 2020).
+Crisis period evidence supports this conditional logic. Mili et al. (2017) show that
+during financial crises in emerging markets, dividend decisions respond heterogeneously
+to governance depending on firm-specific control structures. For example, in firms with
+CEO duality or high ownership concentration, board independence and activity exert a
+weaker influence on dividends, whereas shareholder-facing commitments remain effective
+in disciplining managerial discretion. This emphasizes the mechanism-specific nature of
+governance: effectiveness arises not from uniform implementation but from filling gaps
+left by internal control.
+Accordingly, ownership structure functions as an institutional regime that shapes the
+governance–dividend relationship. Dividend responses to governance arise only when
+governance represents the marginal channel of control. Consequently, governance effectiveness is mechanism-specific and contingent on ownership, directly linking to payout
+credibility and extending prior evidence within the Korean context.
+Hypothesis 2. The effectiveness of governance mechanisms in shaping dividend payouts is conditional on the firm’s ownership regime.
+2.4. Review Summary
+Korea’s hybrid ownership and governance system offers a valuable setting to study
+how governance mechanisms affect dividend policy under persistent institutional frictions.
+While formal governance strengthens transparency and shareholder rights, concentrated
+ownership shapes which mechanisms remain effective. Evidence shows that dividend
+payouts reflect both governance quality and ownership structure: internal monitoring
+channels may be saturated under concentrated ownership, whereas shareholder-facing
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+5 of 21
+
+mechanisms retain influence. This study thus examines how governance interacts with
+ownership to enhance the credibility of dividend payouts.
+
+3. Research Design
+3.1. Data and Sample Construction
+This study employs a balanced panel of 558 non-financial firms listed on the Korea
+Composite Stock Price Index (KOSPI) over the period 2011–2019, yielding 5022 firm-year
+observations. The sample period is chosen for methodological rather than policy-driven
+reasons. First, it represents the longest window over which corporate governance scores
+from the Korea Corporate Governance Service (KCGS) are consistently available using a
+stable scoring methodology. Second, it allows sufficient within-firm variation in governance
+quality and dividend behavior to support fixed effects and dynamic panel estimation.
+Together, these features ensure internal consistency and econometric comparability across
+firms and over time.
+Governance variables are obtained from KCGS, which provides annually updated,
+standardized governance indices widely used in empirical corporate finance research on
+Korea (Korea Corporate Governance Service [KCGS], 2021). Financial and accounting data
+are sourced from Kis-Value (ValueSearch), a comprehensive database covering publicly
+listed Korean firms (OECD, 2018; Value Search, 2023). The combination of these two data
+sources enables a precise alignment between governance indicators and firm-level financial
+outcomes while minimizing measurement inconsistencies across datasets.
+Sample construction follows the multistage screening process detailed in Appendix A
+and summarized in Table A1. Financial institutions are excluded due to their distinct regulatory environment and payout constraints, which are not comparable to those of industrial
+firms. Firms with incomplete governance or financial disclosures are removed to ensure
+balanced panel estimation and to avoid bias arising from intermittent reporting. Only firms
+with continuous observations over the sample period are retained. All continuous variables
+are winsorized at the 5th and 95th percentiles to reduce the influence of extreme values
+without truncating economically meaningful variation.
+3.2. Variable Measurement
+Dividend policy is measured using two complementary dependent variables. Dividend yield (DYD), defined as cash dividends divided by market capitalization, captures
+the intensity of payout policy in continuous form. In addition, a binary indicator for high
+dividend yield (HDYD) is constructed, taking the value of one when a firm’s dividend yield
+exceeds the annual sample median and zero otherwise. This binary specification mitigates
+the impact of skewness in dividend distributions, accommodates the prevalence of zero or
+low dividend payers, and reflects the discrete nature of dividend decisions documented in
+the literature (Atanassov & Mandell, 2018).
+Corporate governance is measured using indices provided by the Korea Corporate
+Governance Service (KCGS). All KCGS governance scores are standardized on a scale
+ranging from 0 to 100, with higher values indicating stronger governance quality. Five
+governance variables are employed: the total corporate governance score (TCGS), which
+captures overall governance quality; board composition (BOD), reflecting board independence and effectiveness; the protection of shareholder rights (PSR), measuring mechanisms
+designed to safeguard minority shareholders; audit committee quality (AUDIT), assessing
+audit committee independence and expertise; and corporate disclosure (DISC), evaluating
+the transparency and scope of firm disclosures (Hwang et al., 2013; Korea Corporate Governance Service [KCGS], 2021; Lee & Tulcanaza-Prieto, 2024; OECD, 2018). These measures
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+6 of 21
+
+allow the analysis to distinguish between shareholder-facing governance mechanisms and
+internal monitoring structures, which is central to the study’s hypotheses.
+Ownership concentration (OWN) is measured as the percentage of shares held by the
+largest shareholder or controlling group. This variable captures cross-firm heterogeneity in
+control structures and operationalizes the ownership dimension underlying the moderating
+hypothesis (Kwon & Han, 2020; Njoku & Lee, 2024). Control variables include leverage
+(DEBT), free cash flow (FCF), asset intensity (ASSINT), and profitability (ROE), which are
+standard determinants of dividend policy and payout capacity in both developed and
+emerging markets (Jabbouri, 2016; Nazar, 2021). The definitions and construction of all
+variables are summarized in Table 1.
+Table 1. Variables and measurements.
+Variable
+
+Symbol
+
+Measurement/Description
+
+Dependent Variables
+Dividend Yield
+High Dividend Yield
+
+DYD
+HDYD
+
+Cash dividends divided by market capitalization
+Dummy = 1 if firm’s dividend yield exceeds sample median; 0 otherwise
+
+Independent Variables
+Corporate Governance Score
+Board Composition
+Protection of Shareholder Rights
+Audit Committee Quality
+Corporate Disclosure
+Ownership Concentration
+
+TCGS
+BOD
+PSR
+AUDIT
+DISC
+OWN
+
+Composite KCGS index capturing overall governance quality
+KCGS score reflecting proportion and effectiveness of outside directors
+KCGS score measuring mechanisms safeguarding minority shareholders
+KCGS score capturing audit committee independence and expertise
+KCGS index evaluating transparency and disclosure practices
+Shareholding percentage of the largest or controlling shareholder group
+
+Control Variables
+Debt Ratio
+Free Cash Flow
+Return on Equity
+Asset Intensity
+Firm Size
+
+DEBT
+FCF
+ROE
+ASSINT
+SIZE
+
+Total liabilities divided by total assets
+(Operating cash flow minus dividends paid) divided by total assets
+Net income divided by shareholders’ equity
+Total assets divided by total sales
+Natural logarithm of total assets
+
+Note: This table defines the variables used in this study, including their measurement. Supporting literature is
+cited in the main text.
+
+3.3. Empirical Strategy
+This study adopts a layered empirical strategy designed to evaluate the governance–dividend relationship and its conditional dependence on ownership structure.
+Rather than relying on a single estimator, the approach combines complementary methods
+to address distinct econometric concerns, unobserved heterogeneity, nonlinear payout behavior, and dynamic persistence, while keeping the fixed effects framework as the primary
+source of identification (Fulgence et al., 2024; Kwon & Han, 2020; Lee & Tulcanaza-Prieto,
+2024; Njoku & Lee, 2024).
+3.3.1. Baseline Fixed Effects Framework
+The core empirical analysis relies on firm and year fixed effects panel regressions. This
+framework exploits within-firm variation over time to identify how changes in governance
+quality are associated with changes in dividend payouts, net of time-invariant firm characteristics such as organizational culture, business group affiliation, or persistent managerial
+preferences, as well as economy-wide shocks common to all firms.
+Firm fixed effects absorb unobservable, stable traits that jointly influence governance
+structures and payout policy, thereby mitigating omitted variable bias. Year fixed effects
+control for macroeconomic conditions, regulatory changes, and market-wide payout norms.
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+7 of 21
+
+This specification is well suited to the Korean setting, where governance reforms and payout
+practices evolve gradually within firms rather than through abrupt cross-sectional shifts.
+The baseline model evaluates whether governance quality and its constituent dimensions are systematically associated with dividend yield, consistent with governance
+operating as a credibility channel for payout commitments. Coefficient interpretation is
+therefore economic rather than mechanical: estimated effects capture how improvements
+in governance within a firm translate into changes in payout behavior, holding constant
+ownership structure and financial fundamentals (Arslan et al., 2019; Chen et al., 2005;
+Jabbouri, 2016; Nazar, 2021).
+The baseline equation (model 1) is specified as follows:
+DYDi,t = β 0 + β 1 TCGSi,t + β 2 BODi,t + β 3 PSRi,t + β 4 AUDITi,t + β 5 DISCi,t + β 6 OW Ni,t
+4
+
++ ∑ γ j Controls j,i,t + µi + λt + ε i,t
+
+(1)
+
+j =1
+
+In this specification, DYDi,t denotes the dividend yield, calculated as cash dividends
+divided by market capitalization for firm i in year t. The main explanatory variables
+include the total corporate governance score (TCGSi,t ), along with its subdimensions:
+board effectiveness (BODi,t ), shareholder rights (PSRi,t ), audit oversight (AUDITi,t ), and
+disclosure quality (DISCi,t ). Ownership concentration (OW Ni,t ) is also included as a key
+explanatory variable, reflecting the heterogeneity in ownership structures across firms.
+The control vector Controlsi,t comprises debt ratio (DEBT), free cash flow (FCF), asset
+intensity (ASSINT), and return on equity (ROE), all standard determinants of dividend
+policy in the literature. Firm fixed effects µi account for unobserved, time-invariant firm
+characteristics, while year fixed effects λt absorb macroeconomic and regulatory shocks
+common to all firms. The error term ε i,t captures idiosyncratic disturbances (Fulgence et al.,
+2024; Kwon & Han, 2020; Lee & Tulcanaza-Prieto, 2024; Njoku & Lee, 2024). A positive
+and statistically significant coefficient on TCGS and its subcomponents, would support
+Hypotheses H1 indicating that stronger governance mechanisms are associated with greater
+dividend payouts. This aligns with the view that effective governance reduces agency
+conflicts and, through sustained improvements, engenders consistent dividend discipline
+over time.
+Ownership-Conditioned Identification
+To test whether governance effectiveness depends on ownership architecture, we
+stratify the sample into Chaebol and non-Chaebol firms using Korea Fair Trade Commission
+(KFTC) classifications. KFTC criteria defined Chaebol affiliates as business groups with
+ownership concentration exceeding 30% of issued shares and total assets greater than KRW
+5 trillion (Council, 2016; Kang, 2023; Korea Corporate Governance Service [KCGS], 2021;
+Lee & Tulcanaza-Prieto, 2024; Njoku & Lee, 2024). This subsample design operationalizes
+ownership structure as an institutional regime rather than as a simple continuous control.
+We estimated identical specifications across ownership regimes to enable a direct comparison of governance coefficients without relying on functional-form assumptions through
+interaction terms. By doing so, we were able to interpret differences in coefficient magnitude or significance as evidence that governance mechanisms transmit into payout behavior
+differently depending on whether control is externally enforced or internally concentrated.
+This approach is taken to mitigate concerns that binary ownership indicators may
+oversimplify complex control structures, so we ground the classification in regulatory
+definitions that jointly reflect ownership concentration and economic significance. This
+analysis does not claim that ownership concentration causes payout outcomes; instead,
+it tests whether governance mechanisms are binding margins of control under different
+ownership regimes.
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+8 of 21
+
+3.3.2. High Dividend Threshold Analysis
+Dividend yield may obscure nonlinear or threshold behavior, particularly where firms
+cluster around stable payout policies. To address this concern, a logistic specification
+models the probability that a firm crosses a high dividend threshold.
+This specification does not replace the linear model; it complements it by examining
+whether governance quality influences the likelihood of adopting or maintaining a highpayout regime rather than marginal changes in payout levels. The binary model therefore
+enhances interpretability by linking governance to economically meaningful payout states,
+not just average effects.
+Prob( HDYDi,t = 1) =
+
+1
+ h
+i
+5
+1 + exp − α0 + ∑k=1 αk GOVk,i,t + α6 OW Ni,t + ∑4j=1 γ j Controls j,i,t + µi + λt
+
+(2)
+
+In this specification, HDYDi,t is a binary indicator equal to 1 if firm i in year t exhibits
+a high dividend yield, defined by crossing a predetermined payout threshold. The model
+estimates the probability that a firm adopts a sustained high-payout policy as a function of
+governance quality and ownership structure. The governance indicators GOVk,i,t include
+the total corporate governance score (TCGS), board effectiveness (BOD), protection of
+shareholder rights (PSR), audit oversight (AUDIT), and disclosure quality (DISC). Ownership concentration (OW Ni,t ) is also included as a key explanatory variable, reflecting the
+heterogeneity in ownership structures across firms. The control variables include debt ratio,
+free cash flow, asset intensity, and return on equity. Firm fixed effects µi and year fixed
+effects λt are incorporated to account for unobserved heterogeneity and macroeconomic
+shocks, respectively. A positive and statistically significant coefficient on any governance
+indicator or OW N implies that stronger governance or concentrated ownership increases
+the likelihood of a firm maintaining high dividend payouts. This robustness check complements the baseline linear model by capturing nonlinear effects and threshold behavior. That
+way, we can understand how governance and ownership shape dividend policy in practice.
+3.4. Dynamic GMM as a Robustness Layer
+Dividend policy is known to exhibit persistence, and governance reforms may be
+endogenously related to firms’ payout preferences. To address these concerns, this study
+employs a dynamic System GMM estimator as a robustness exercise rather than as a
+primary identification strategy. The GMM framework incorporates lagged dividend yield to
+capture payout inertia and uses internal instruments to mitigate reverse causality between
+governance quality and dividend policy.
+Lagged levels and differences in endogenous variables are employed as internal instruments, with instrument validity and serial correlation assessed using the Hansen J-test and
+the Arellano–Bond AR(2) test. Accordingly, the role of the GMM analysis is confirmatory,
+reinforcing the credibility of the baseline findings under intertemporal adjustment.
+The dynamic specification is given by
+K
+
+J
+
+k =1
+
+j =1
+
+DYDi,t = α0 + α1 DYDi,t−2 + ∑ θk GOVk,i,t−1 + βOWNi,t−1 + ∑ γ j Controls j,i,t−1 + µi + λt + ε i,t
+
+(3)
+
+where DYDi,t denotes the dividend yield of firm i in year t, and DYDi,t−2 captures the persistence of dividend policy. GOVk,i,t−1 represents lagged corporate governance measures,
+OW Ni,t−1 denotes ownership structure, and Controls j,i,t−1 include standard firm-level covariates. Firm fixed effects µi control for time-invariant heterogeneity, year fixed effects λt
+absorb common shocks, and ε i,t is the idiosyncratic error term.
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+9 of 21
+
+Consistency between the dynamic GMM and fixed effects estimates is interpreted
+as reassurance that the governance–dividend relationship is not driven by mechanical
+persistence or dynamic misspecification. The GMM analysis is therefore confirmatory,
+reinforcing the credibility of the baseline results under intertemporal adjustment (Arellano
+& Bond, 1991; Arellano & Bover, 1995).
+The results from this robustness exercise are discussed in Section 5 alongside complementary binary logistic regressions that examine dividend payment likelihood. Together,
+these analyses demonstrate that the core findings are not sensitive to alternative functional
+forms or estimation strategies, but reflect a stable association between governance quality,
+ownership structure, and dividend credibility in the Korean context.
+3.5. Diagnostic Mean Comparisons
+Equality-of-means tests between Chaebol and non-Chaebol firms provide descriptive
+validation for the ownership-conditioned analysis. Demonstrating systematic differences
+in governance quality, ownership concentration, and dividend behavior motivates the
+regime-based empirical design and supports the interpretation of ownership structure
+as a conditioning environment rather than a simple control variable. This test evaluates
+whether the sample means of the two groups differ significantly using the following
+standard two-sample t-statistic:
+X − X2
+t = r1
+(4)
+s21
+s22
+n1 + n2
+
+where
+X 1 = Sample means of the Chaebol groups.
+X 2 = Sample means of the non-Chaebol groups.
+s21 = Variances for Chaebol group.
+s22 = Variances for non-Chaebol group.
+n1 = Sample size for Chaebol group.
+n2 = Sample size for non-Chaebol group.
+
+4. Empirical Results
+4.1. Descriptive Analysis
+Table 2 summarizes the descriptive statistics for the 5022 firm-year observations used
+in this study, offering an overview of dividend practices, governance quality, ownership
+structures, and financial characteristics among Korean listed firms. The average dividend
+yield is 1.2% (median 1.0%), indicating stable payout patterns consistent with the conservative distribution norms in Asian markets. The relatively low dispersion (SD = 1.3%)
+underlines the persistence of modest payout policies.
+Corporate governance quality, measured using the total corporate governance score
+(TCGS), shows an average of 29.07 (median = 28.67), reflecting moderate alignment with
+post-reform governance expectations. Among the subdimensions, board effectiveness
+(BOD) exhibits the highest variability (SD = 7.739), suggesting heterogeneity in board
+structures. Shareholder rights protection (PSR = 45.11) and audit committee quality
+(AUDIT = 44.65) indicate relatively strong institutional safeguards. However, corporate disclosure quality (DISC = 24.24) comparatively remains the weakest component, reinforcing
+ongoing concerns about transparency gaps in Korean corporations.
+Ownership concentration averages 28.1%, revealing the structural dominance of major
+shareholders, an important sustainability consideration given the implications for power
+asymmetries and minority shareholder vulnerability. Firms show moderate leverage
+(DEBT = 40.6%), positive free cash flow (FCF = 4.3%), and modest profitability (ROE = 2.4%).
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+10 of 21
+
+Asset intensity (ASSINT = 2.81) varies widely (SD = 4.36), reflecting sectoral differences
+in capital deployment. To minimize the impact of extreme observations and ensure the
+validity of the estimates, we winsorize all continuous variables at the 5% and 95% levels.
+Table 2. Descriptive statistics.
+
+Variable
+
+N
+
+Mean
+
+Median
+
+Std. Dev.
+
+DYD
+TCGS
+BOD
+PSR
+AUDIT
+DISC
+OWN
+DEBT
+FCF
+ASSINT
+ROE
+SIZE
+
+5022
+5022
+5022
+5022
+5022
+5022
+5022
+5022
+5022
+5022
+5022
+5022
+
+0.012
+29.073
+13.800
+45.112
+44.648
+24.237
+28.095
+0.406
+0.043
+2.814
+0.024
+26.242
+
+0.010
+28.670
+12.500
+45.000
+42.000
+20.000
+24.890
+0.408
+0.039
+1.312
+0.031
+26.165
+
+0.013
+8.378
+7.739
+11.931
+15.116
+13.269
+13.736
+0.203
+0.056
+4.360
+0.101
+1.402
+
+Note: N represents the number of sample observations.
+
+4.2. Comparison of Mean Values Between Chaebol and Non-Chaebol Entities
+Table 3 provides strong evidence of systematic structural differences across ownership
+regimes. Dividend yields are significantly higher in Chaebol firms (mean = 0.0140) than
+in non-Chaebol firms (mean = 0.0115; t = 6.76 ***), suggesting more generous payout
+policies, possibly reflecting internal capital market dynamics or strategic signaling in
+business groups. Corporate governance quality, measured by TCGS, is marginally higher
+among Chaebol firms (mean = 29.33 vs. 28.91; t = 1.74 *), with the most pronounced
+difference appearing in disclosure quality (DISC; t = 3.31 ***). Differences in board structure
+(BOD), shareholder rights (PSR), and audit oversight (AUDIT) are statistically insignificant,
+implying similar formal governance structures across firm types.
+Table 3. Statistical tests for mean differences between Chaebol and Non-Chaebol entities.
+Variable
+DYD
+TCGS
+BOD
+PSR
+AUDIT
+DISC
+OWN
+DEBT
+FCF
+ASSINT
+ROE
+
+Total Sample [N = 5022]
+
+Chaebol Sample [N = 1918]
+
+Non-Chaebol Sample [N = 3101]
+
+Mean
+
+Std. Dev
+
+Mean
+
+Std. Dev
+
+Mean
+
+Std. Dev
+
+0.0125
+29.0727
+13.8000
+45.1121
+44.6482
+24.2368
+28.0952
+0.4062
+0.0426
+2.8140
+0.0245
+
+0.0125
+8.3781
+7.7392
+11.9308
+15.1164
+13.2689
+13.7364
+0.2034
+0.0559
+4.3597
+0.1014
+
+0.0140
+29.3326
+14.0046
+44.7771
+44.9965
+25.0325
+42.8804
+0.4085
+0.0472
+2.9375
+0.0328
+
+0.0131
+8.3063
+7.7927
+11.5413
+14.8766
+13.7068
+9.2086
+0.2079
+0.0567
+4.6999
+0.0978
+
+0.0115
+28.9093
+13.6771
+45.3102
+44.4405
+23.7428
+18.9503
+0.4048
+0.0397
+2.7335
+0.0193
+
+0.0121
+8.4225
+7.7075
+12.1612
+15.2630
+12.9727
+5.8384
+0.2006
+0.0552
+4.1266
+0.1033
+
+Mean Diff.
+
+Std. Error
+
+t-Value
+
+0.0025
+0.4233
+0.3275
+−0.5331
+0.5559
+1.2896
+23.9301
+0.0037
+0.0076
+0.2039
+0.0134
+
+0.00037
+0.2426
+0.2254
+0.3423
+0.4365
+0.3902
+0.2350
+0.0060
+0.0016
+0.1304
+0.0029
+
+6.76 ***
+1.74 *
+1.45
+−1.56
+1.27
+3.31 ***
+101.85 ***
+0.62
+4.60 ***
+1.56
+4.65 ***
+
+Note: Significance at the 1% and 10% levels is denoted by *** and *, respectively.
+
+Ownership concentration shows the strongest divergence: Chaebol firms average
+42.88% vs. 18.95% for non-Chaebols (t = 101.85 ***), reflecting entrenched control structures
+typical of Korean conglomerates. Financial characteristics also vary: Chaebol firms exhibit
+significantly higher free cash flow (t = 4.60 ***) and profitability (t = 4.65 ***), though
+leverage (DEBT; t = 0.62) and asset intensity (ASSINT; t = 1.56) show no meaningful
+differences. These results justify the moderation analysis in Section 4.5 by demonstrating
+structural differences with implications for governance effectiveness and sustainabilityaligned financial behavior.
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+11 of 21
+
+4.3. Correlation and Multicollinearity Analysis
+Table 4 presents correlations among the main variables. Dividend yield (DYD) exhibits
+positive associations with all governance metrics and key financial controls, suggesting
+that firms with stronger governance and healthier financial profiles tend to distribute
+higher dividends. DYD is negatively related to leverage (DEBT), consistent with the
+financial constraint logic that debt reduces payout capacity. Governance dimensions, board
+effectiveness (BOD), shareholder rights (PSR), and disclosure (DISC), display moderate
+intercorrelations, indicating related but distinct institutional mechanisms. Ownership
+concentration (OWN) correlates negatively with BOD and PSR, These correlations are
+descriptive, serving to identify data relationships and guide subsequent model formulation.
+Table 4. Pearson’s correlation matrix of study variables.
+Variables
+
+TCGS
+
+BOD
+
+PSR
+
+AUDIT
+
+DISC
+
+OWN
+
+DEBT
+
+FCF
+
+ASSINT
+
+ROE
+
+DYD
+
+TCGS
+BOD
+PSR
+AUDIT
+DISC
+OWN
+DEBT
+FCF
+ASSINT
+ROE
+DYD
+
+1
+0.744 ***
+0.762 ***
+0.582 ***
+0.524 ***
+−0.015
+0.039 ***
+0.108 ***
+0.009
+0.125 ***
+0.145 ***
+
+1
+0.484 ***
+0.556 ***
+0.524 ***
+−0.037 ***
+0.137 ***
+0.078 ***
+−0.009
+0.055 ***
+0.047 ***
+
+1
+0.238 ***
+0.226 ***
+−0.055 ***
+−0.075 ***
+0.099 ***
+0.041 ***
+0.113 ***
+0.196 ***
+
+1
+0.374 ***
+−0.012
+0.101 ***
+0.093 ***
+0.008
+0.072 ***
+0.033 **
+
+1
+−0.003
+0.073 ***
+0.131 ***
+−0.043 ***
+0.116 ***
+0.031 **
+
+1
+0.017
+0.045 ***
+0.016
+0.065 ***
+0.098 ***
+
+1
+−0.138 ***
+−0.352 ***
+−0.247 ***
+−0.252 ***
+
+1
+−0.156 ***
+0.418 ***
+0.227 ***
+
+1
+−0.044 ***
+0.036 ***
+
+1
+0.322 ***
+
+1
+
+Note: Statistical significance at the 1% and 5% levels is denoted by *** and ** based on Pearson’s correlation
+coefficients.
+
+The multicollinearity diagnostic results provided in Table A3 within Appendix A including variance inflation factors and condition indices confirm the absence of problematic
+multicollinearity among the primary explanatory variables. These diagnostics support the
+reliability of the regression estimates because all variance inflation factor values remain
+below the conventional benchmark of 10. The highest recorded value is 6.171 for the total
+corporate governance score which validates the suitability of the governance metrics for
+rigorous empirical analysis (Kwon & Han, 2020; Lee & Tulcanaza-Prieto, 2024; Njoku &
+Lee, 2024).
+4.4. Baseline Regression Analysis
+Table 5 reports the fixed effects regression estimates assessing the influence of governance quality on dividend yield. Across all models, governance emerges as a significant
+predictor of dividend policy.
+In Model 1, the total corporate governance score (TCGS) is positively related to dividend yield (β = 0.0040, t = 4.242, p < 0.01). Subdimension tests show similarly positive
+outcomes: board effectiveness (BOD) in Model 2 (β = 0.0001, t = 4.522, p < 0.01), shareholder rights protection (PSR) in Model 3 (β = 0.00012, t = 6.693, p < 0.01), and audit
+committee quality (AUDIT) in Model 4 (β = 0.00002, t = 2.232, p < 0.05). Corporate disclosure (DISC) becomes significant only when all governance variables are jointly included
+(Model 6: β = 0.00004, t = 2.276, p < 0.05), implying interdependency across governance
+mechanisms. Ownership concentration (OWN), included as an independent variable in all
+models, shows a positive and significant coefficient.
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+12 of 21
+
+Table 5. The results of OLS estimation using the full sample.
+Model 1
+Variable
+Intercept
+TCGS
+BOD
+PSR
+AUDIT
+DISC
+OWN
+DEBT
+FCF
+ASSINT
+ROE
+Year Fixed Effect
+Firm Fixed Effect
+R2
+Adj. R2
+F-statistics
+Prob(F-stat.)
+Hausman Chi2
+
+Model 2
+
+Model 3
+
+Model 4
+
+Model 5
+
+Model 6
+
+Beta
+
+t-Stat
+
+Beta
+
+t-Stat
+
+Beta
+
+t-Stat
+
+Beta
+
+t-Stat
+
+Beta
+
+t-Stat
+
+Beta
+
+t-Stat
+
+−0.0051
+0.0040 ***
+
+(−1.091)
+(4.242)
+
+0.0136 ***
+
+(12.527)
+
+0.0088 ***
+
+(6.873)
+
+0.0144 ***
+
+(12.35)
+
+0.0144 ***
+
+(13.535)
+
+0.0001 ***
+
+(4.522)
+0.00012 ***
+
+(6.693)
+0.00002 **
+
+(2.232)
+
+0.0001 ***
+−0.0109 ***
+0.0078 ***
+−0.0009 ***
+0.0122 ***
+Yes
+Yes
+0.6426
+0.5967
+14.0035 ***
+0.0000
+72.2505 ***
+
+(4.196)
+(−6.747)
+(2.804)
+(−2.570)
+(7.886)
+
+0.00001
+0.0001 ***
+−0.0109 ***
+0.0078 ***
+−0.0009 ***
+0.0122 ***
+Yes
+Yes
+0.6426
+0.5967
+14.0036 ***
+0.0000
+77.2058 ***
+
+(0.441)
+(4.200)
+(−6.749)
+(2.810)
+(−2.573)
+(7.883)
+
+0.0060 ***
+0.00009 **
+0.00005
+0.00014 ***
+0.00001
+0.00004 **
+0.00008 ***
+−0.0108 ***
+0.0214 ***
+−0.00003 *
+0.0268 ***
+Yes
+Yes
+0.6460
+0.6002
+14.1033
+0.0000
+109.0763 ***
+
+(6.320)
+(1.960)
+(1.491)
+(5.791)
+(0.566)
+(2.276)
+(6.928)
+(−11.839)
+(6.586)
+(−1.775)
+(14.844)
+
+0.0001 ***
+−0.0109 ***
+0.0077 ***
+−0.0009 ***
+0.0125 ***
+Yes
+Yes
+0.644
+0.5983
+14.0915 ***
+0.0000
+61.2238 ***
+
+(4.183)
+(−6.703)
+(2.768)
+(−2.336)
+(8.078)
+
+0.0001 ***
+−0.0110 ***
+0.0078 ***
+−0.0009 ***
+0.0122
+Yes
+Yes
+0.6428
+0.5969
+14.0143 ***
+0.0000
+68.1368 ***
+
+(4.234)
+(−6.754)
+(2.813)
+(−2.529)
+(7.935)
+
+0.0001 ***
+−0.0104 ***
+0.0071 ***
+−0.0009 ***
+0.0127 ***
+Yes
+Yes
+0.6462
+0.6007
+14.2228 ***
+0.0000
+76.2252 ***
+
+(3.979)
+(−6.437)
+(2.583)
+(−2.451)
+(8.264)
+
+Note: The reported coefficients are represented by Beta and the associated t-statistics are provided in parentheses
+where the symbols *** and ** along with * mark statistical significance at the 1% and 5% and 10% thresholds.
+
+Control variables behave as expected. Free cash flow (FCF), and profitability (ROE)
+exhibit strong positive associations with dividend yield. Leverage (DEBT) and asset
+intensity (ASSINT) reduce dividend payouts, consistent with financing constraints and
+capital intensiveness.
+Model diagnostics further validate these results: R2 values approach 0.64, all Fstatistics are highly significant, and the Hausman test (61.2238, p < 0.001) strongly favors
+fixed effects. Durbin–Watson statistics approximate 2, and all VIF values remain within acceptable thresholds. All reported t-statistics use firm-clustered standard errors (clustered at
+the firm level) to address heteroskedasticity and within-firm serial correlation. Coefficients
+are therefore robust to common violations of classical assumptions in panel data.
+4.5. Ownership Structure Analysis
+Tables 6 and 7 evaluate whether ownership heterogeneity affects the governance–dividend
+relationship, directly testing the second hypothesis. Distinguishing Chaebol and nonChaebol firms reveals meaningful asymmetries.
+Table 6. Ownership structure effect under non-Chaebol group.
+Variable
+Intercept
+TCGS
+BOD
+PSR
+AUDIT
+DISC
+OWN
+DEBT
+FCF
+ASSINT
+ROE
+Year Fixed Effect
+Firm Fixed Effect
+R2
+Adj. R2
+F-statistics
+Prob > F
+Hausman Chi2
+
+Model 1
+
+Model 2
+
+Model 3
+
+Model 4
+
+Model 5
+
+Model 6
+
+Beta
+
+t-Value
+
+Beta
+
+t-Value
+
+Beta
+
+t-Value
+
+Beta
+
+t-Value
+
+Beta
+
+t-Value
+
+Beta
+
+t-Value
+
+−0.0124 ***
+0.0053 ***
+
+(−3.309)
+(6.931)
+
+0.0114 ***
+
+(12.295)
+
+0.0045 ***
+
+(3.980)
+
+0.0116 ***
+
+(11.457)
+
+0.0125 ***
+
+(13.297)
+
+0.00013 ***
+
+(4.765)
+0.00018 ***
+
+(11.125)
+0.00003 ***
+
+(2.447)
+
+0.0001 ***
+−0.0115 ***
+0.0230 ***
+−0.0006 ***
+0.0257 ***
+Yes
+Yes
+0.6587
+0.6043
+12.1140 ***
+0.0000
+59.4319 ***
+
+(3.232)
+(−10.100)
+(5.640)
+(−2.121)
+(11.590)
+
+0.00002
+0.0001 ***
+−0.0113 ***
+0.0236 ***
+−0.0005 ***
+0.0257 ***
+Yes
+Yes
+0.6587
+0.6043
+12.1151 ***
+0.0000
+64.6210 ***
+
+(1.357)
+(3.230)
+(−9.951)
+(5.796)
+(−1.980)
+(11.565)
+
+0.0080 ***
+0.00003 *
+0.00004 *
+0.0001 ***
+0.00003
+0.00004 *
+0.00008
+−0.0047 **
+0.0093 ***
+−0.0001 *
+0.0128 ***
+Yes
+Yes
+0.6627
+0.6084
+12.2000 ***
+0.0000
+76.3321 ***
+
+(4.232)
+(1.679)
+(1.943)
+(5.025)
+(1.426)
+(1.870)
+(1.549)
+(−2.356)
+(2.756)
+(−1.824)
+(6.855)
+
+0.0001 ***
+−0.0120 ***
+0.0202 ***
+−0.0007 ***
+0.0243 ***
+Yes
+Yes
+0.659
+0.6047
+12.1312 ***
+0.0000
+48.4718 ***
+
+(3.634)
+(−10.664)
+(4.963)
+(−2.482)
+(10.982)
+
+0.0001 ***
+−0.0120 ***
+0.0218 ***
+−0.0006 ***
+0.0254 ***
+Yes
+Yes
+0.6585
+0.6041
+12.1031 ***
+0.0000
+51.3603 ***
+
+(3.669)
+(−10.513)
+(5.359)
+(−2.405)
+(11.509)
+
+0.0001 ***
+−0.0108 ***
+0.0203 ***
+−0.0006 ***
+0.0244 ***
+Yes
+Yes
+0.6619
+0.6081
+12.2894 ***
+0.0000
+62.6630 ***
+
+(3.586)
+(−9.774)
+(5.088)
+(−2.115)
+(11.240)
+
+Note: Beta denotes the regression coefficients and the associated t-statistics are provided in parentheses where
+the symbols *** and ** as well as * indicate significance at the 1% and 5% and 10% levels, respectively.
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+13 of 21
+
+Table 7. Ownership structure effect under Chaebol group.
+Variable
+Intercept
+TCGS
+BOD
+PSR
+AUDIT
+DISC
+OWN
+DEBT
+FCF
+ASSINT
+ROE
+Year Fixed Effect
+Firm Fixed Effect
+R2
+Adj. R2
+F-statistics
+Prob(F-statistics)
+Hausman χ2
+
+Model 1
+
+Model 2
+
+Model 3
+
+Model 4
+
+Model 5
+
+Model 6
+
+Beta
+
+t-Value
+
+Beta
+
+t-Value
+
+Beta
+
+t-Value
+
+Beta
+
+t-Value
+
+Beta
+
+t-Value
+
+Beta
+
+t-Value
+
+−0.006
+0.0056 ***
+
+(−0.728)
+(3.557)
+
+0.0201 ***
+
+(6.765)
+
+0.0159 ***
+
+(5.041)
+
+0.0199 ***
+
+(6.582)
+
+0.0208 ***
+
+(7.112)
+
+0.00008
+
+(1.455)
+0.00012 ***
+
+(3.887)
+0.00003
+
+(1.432)
+
+0.000038
+−0.0216 ***
+0.0170 ***
+−0.0018 **
+0.0141 ***
+Yes
+Yes
+0.6847
+0.6248
+11.4314 ***
+0.0000
+31.8650 ***
+
+(0.709)
+(−7.055)
+(3.019)
+(−2.224)
+(5.042)
+
+0.00003
+0.000038
+−0.0215 ***
+0.0175 ***
+−0.0018 **
+0.0142 ***
+Yes
+Yes
+0.6845
+0.6245
+11.4199 ***
+0.0000
+32.7748 ***
+
+(0.970)
+(0.699)
+(−7.017)
+(3.109)
+(−2.220)
+(5.075)
+
+0.0120 ***
+0.0003 ***
+0.00002
+0.00009 ***
+0.00002
+0.000004
+0.00005
+−0.0208 ***
+0.0187 ***
+−0.00028 *
+0.0156 ***
+Yes
+Yes
+0.6875
+0.6272
+11.4045
+0.0000
+52.7429 ***
+
+(5.527)
+(3.877)
+(0.307)
+(2.653)
+(0.668)
+(0.119)
+(0.850)
+(−6.787)
+(3.383)
+(−1.724)
+(5.649)
+
+0.000045
+−0.0213 ***
+0.0163 ***
+−0.0017 **
+0.0147 ***
+Yes
+Yes
+0.6867
+0.6272
+11.5411 ***
+0.0000
+28.3887 ***
+
+(0.826)
+(−6.974)
+(2.905)
+(−2.052)
+(5.274)
+
+0.000042
+−0.0216 ***
+0.0168 ***
+−0.0018 ***
+0.0142 ***
+Yes
+Yes
+0.6847
+0.6248
+11.4321 ***
+0.0000
+31.9550 ***
+
+(0.771)
+(−7.041)
+(2.999)
+(−2.285)
+(5.093)
+
+0.000042
+−0.0211 ***
+0.0168 ***
+−0.0018 **
+0.0148 ***
+Yes
+Yes
+0.6872
+0.6278
+11.5665 ***
+0.0000
+30.6965 ***
+
+(0.774)
+(−6.898)
+(3.021)
+(−2.261)
+(5.296)
+
+Note: Beta denotes the regression coefficients and the associated t-statistics are provided in parentheses where
+the symbols *** and ** as well as * indicate significance at the 1% and 5% and 10% levels, respectively.
+
+4.5.1. Non-Chaebol Firms
+For firms outside Chaebol networks (Table 6), governance mechanisms exert strong
+and consistent effects on dividend policy. The composite governance score (TCGS) is highly
+significant (β = 0.0053, t = 6.931, p < 0.01), as shown in Model 1. This governance
+influence is echoed in Model 2, where board effectiveness (BOD) maintains a significant
+positive association (β = 0.00013, t = 4.765, p < 0.01). Model 3 reveals shareholder
+rights protection (PSR) as the most influential governance factor (β = 0.00018, t = 11.125,
+p < 0.01). Model 4’s audit committee quality (AUDIT) remains significant (β = 0.00003,
+t = 2.447, p < 0.01), whereas corporate disclosure (DISC) shows a weakly positive effect
+(β = 0.00002, t = 1.357) in Model 5. However, when all governance dimensions are jointly
+included in Model 6, DISC becomes statistically significant at the 10% level (β = 0.00004,
+t = 1.870), consistent with the baseline regression specification. Ownership concentration
+(OWN) retains significance across models (β ≈ 0.0001, t between 3.232 and 3.669).
+Financial variables consistently contribute to dividend policy predictions. Debt ratio
+(DEBT) displays a strong negative effect (β = −0.0120, t = −10.664, p < 0.01). Free cash
+flow (FCF) and return on equity (ROE) serve as strong positive predictors (β = 0.0202,
+t = 4.963; β = 0.0243, t = 10.982, both p < 0.01). Asset intensity (ASSINT) negatively
+associates with dividend yield (β = −0.0007, t = −2.482, p < 0.01).
+4.5.2. Chaebol Firms
+In Chaebol-affiliated firms (Table 7), the influence of governance is more selective.
+The composite score (TCGS) remains significant (β = 0.0056, t = 3.557, p < 0.01), as does
+shareholder rights protection (PSR; β = 0.00012, t = 3.887, p < 0.01). Board effectiveness
+(BOD) is not statistically significant (β = 0.00008, t = 1.455). Audit committee quality
+(AUDIT) and corporate disclosure (DISC) do not show significant impacts (β = 0.00003,
+t = 1.432; β = 0.00003, t = 0.970).
+Financial variables play a consistent role. Debt ratio (DEBT) is strongly negatively
+related to dividend yield (β ranges from −0.0213 to −0.0215, t from −6.898 to −7.055,
+p < 0.01). Free cash flow (FCF) shows positive effects (β between 0.0163 and 0.0175, t from
+2.905 to 3.109, p < 0.01), as does return on equity (ROE; β from 0.0141 to 0.0148, t between
+5.042 and 5.296, p < 0.01). Ownership concentration (OWN) is not significant (β ranges
+from 0.000038 to 0.000045; t < 1.0). Asset intensity (ASSINT) negatively associates with
+dividends (β between −0.0017 and −0.0018, t from −2.052 to −2.285, p < 0.05).
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+14 of 21
+
+The models exhibit strong fit, with R2 values around 0.685 and adjusted R2 between 0.6245 and 0.6278. F-tests are highly significant, and Hausman’s tests favor fixed
+effects estimation.
+4.6. Discussion
+4.6.1. Corporate Governance Quality and Dividend Credibility
+This study posits that corporate governance quality enhances the credibility of dividend payouts by constraining insider discretion and strengthening firms’ commitment
+to cash distributions. The full sample results in Table 5 provide strong empirical support
+for this hypothesis. Across specifications, the aggregate governance score (TCGS) enters
+positively and significantly, indicating that firms with stronger governance frameworks
+distribute higher dividend yields after controlling for firm and year fixed effects, leverage,
+profitability, and cash flow conditions.
+The economic magnitude of this relationship is substantial. Using the full sample
+fixed effects estimate (β = 0.00040), a one-standard-deviation increase in governance
+quality (8.378 points; Table 2) raises dividend yield by 0.335 percentage points, or 33.5 basis
+points. Relative to the sample mean dividend yield of 1.20%, this represents an increase of
+approximately 28%, confirming that governance improvements translate into economically
+meaningful payout commitments rather than marginal statistical effects. This finding is
+consistent with agency-based theories that view dividends as a mechanism for reducing
+free cash flow problems and enhancing payout credibility.
+Disaggregated governance components reinforce this interpretation. Board effectiveness, shareholder rights protection, and audit oversight are each positively associated
+with dividend yield in the full sample, indicating that governance operates through multiple channels, such as monitoring, rights protection, and financial oversight, to enhance
+dividend credibility. Disclosure quality alone exhibits weaker standalone effects, suggesting that transparency without enforcement capacity is insufficient to generate credible
+payout commitments.
+In sum, the full sample evidence strongly supports H1, showing that dividend
+policy functions as an internal governance outcome reflecting sustained discipline in
+cash allocation.
+4.6.2. Ownership Regimes and Conditional Governance Effectiveness
+While governance quality improves dividend credibility on average, H2 predicts that
+its effectiveness is conditional on the firm’s ownership regime. Tables 6 and 7 provide clear
+evidence of this conditionality by contrasting governance effects between non-Chaebol and
+Chaebol firms.
+In non-Chaebol firms (Table 6), governance mechanisms exert a strong and broad
+influence on dividend payouts. The aggregate governance score is highly significant, and
+its economic impact exceeds that of the full sample. A one-standard-deviation increase in
+TCGS (β = 0.00053) raises dividend yield by 44.4 basis points, equivalent to approximately
+39% of the subgroup’s mean payout. Moreover, multiple governance components, namely
+board effectiveness, shareholder rights, audit oversight, and disclosure, remain statistically
+significant. This pattern indicates that when ownership is relatively dispersed, formal
+governance structures serve as the primary channels through which agency conflicts are
+mitigated and dividend commitments are enforced.
+By contrast, the Chaebol subsample exhibits a sharply different mechanism-level
+pattern (Table 7). Although the aggregate governance score remains economically large
+(β = 0.00056, implying a 46.9-basis-point increase per standard deviation), most internal
+monitoring mechanisms, such as boards, audit oversight, and disclosure—lose statistical
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+15 of 21
+
+significance once ownership is concentrated. Shareholder rights emerge as the only consistently effective governance channel. Ownership concentration itself becomes insignificant,
+a pointer to the saturation of internal monitoring under dominant control.
+The comparison summarized in Table 8 highlights this divergence. While governance remains relevant in Chaebol firms only through shareholder-facing mechanisms,
+internal monitoring channels provide little incremental discipline. This evidence confirms that governance effectiveness is conditional and mechanism-specific, rather than
+uniformly diminished.
+These findings support H2, showing that the governance–dividend relationship is
+systematically conditioned by ownership regime.
+Table 8. Governance mechanism effects across ownership regimes.
+
+Panel A. Governance Variables (β with t-Statistics)
+Variable
+
+Full Sample
+
+Non-Chaebol
+
+Chaebol
+
+TCGS
+
+0.0040 ***
+(4.24)
+0.0010 ***
+(4.52)
+0.00012 ***
+(6.69)
+0.00002 **
+(2.23)
+0.0001
+(0.44)
+0.00010 ***
+(4.18)
+
+0.0053 ***
+(6.93)
+0.0013 ***
+(4.77)
+0.00018 ***
+(11.13)
+0.00003 **
+(2.45)
+0.0002
+(1.36)
+0.00010***
+(3.63)
+
+0.0056 **
+(3.56)
+0.0008
+(1.46)
+0.00012 ***
+(3.89)
+0.00003
+(1.43)
+0.0003
+(0.97)
+0.00005
+(0.83)
+
+BOD
+PSR
+AUDIT
+DISC
+OWN
+
+Note: This table reports governance mechanism effects across ownership regimes. t-statistics are reported in
+parentheses below each coefficient. *** and ** denote significance at the 1% and 5% levels, respectively.
+
+4.6.3. Dividend Credibility Under Institutional Constraints
+The evidence across Tables 3–8 indicates that corporate governance shapes dividend
+policy primarily through credibility rather than payout levels per se. In firms with relatively dispersed ownership, governance mechanisms function as binding constraints that
+discipline insider discretion and convert dividends into credible, repeatable commitments.
+Under concentrated ownership, by contrast, dividend policy reflects the strategic allocation
+choices of controlling shareholders, and only governance mechanisms that directly protect
+minority investors retain marginal effectiveness.
+This distinction explains why aggregate governance remains economically significant
+among Chaebol affiliates even as several individual mechanisms lose statistical power. Governance does not vanish under concentrated control; instead, its disciplining role becomes
+selective and mechanism-specific. Evidently, boards and audit committees are largely influenced by controlling shareholders and therefore provide limited additional discipline. By
+contrast, shareholder rights continue to matter because they directly limit insiders’ ability
+to divert or tunnel firm resources, suppress dividends, or redistribute cash within business
+groups at the expense of minority investors. Dividend payouts thus retain credibility in
+Chaebol firms only through governance mechanisms that impose external, rule-based
+constraints on controlling owners, rather than through internal monitoring structures.
+The associated economic magnitudes are substantial. A one-standard-deviation improvement in governance is associated with an increase in dividend yield of approximately
+33.5 basis points in the full sample (about 28% of the mean yield), 44.4 basis points in
+non-Chaebol firms (roughly 39% of the mean), and 46.9 basis points in Chaebol firms
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+16 of 21
+
+(around 34% of the mean). These effects are not cosmetic: they are large enough to influence valuation, affect payout stability, and remain economically interpretable to both
+asset-pricing and corporate governance audiences.
+Taken together, these findings substantiate both H1 and H2. Dividend credibility
+emerges from the interaction between governance quality and ownership structure, not
+from governance in isolation. Having quantified the economic magnitudes and isolated
+mechanism-specific effects, this study offers a more granular account of payout behavior in
+concentrated ownership systems and advances the literature on corporate governance and
+dividend policy in the Republic of Korea.
+
+5. Robustness Analysis of Alternative Outcomes and Dynamic Endogeneity
+To ensure that the documented governance–dividend relationship is not driven by
+model specification, payout measurement, or endogeneity, we conduct two complementary
+robustness analyses using (i) a binary payout commitment framework and (ii) a dynamic
+panel System GMM estimator.
+5.1. Binary Dividend Commitment
+Table 9 presents fixed effects binary logistic regressions where the dependent variable
+equals one if a firm maintains a high dividend yield relative to the annual sample median.
+This specification captures dividend commitment rather than payout magnitude and allows
+a direct economic interpretation of governance effects on the probability of sustaining
+high dividends.
+Table 9. Binary logistic regression results for high dividend likelihood.
+Variable
+Intercept
+TCGS
+BOD
+PSR
+AUDIT
+DISC
+OWN
+DEBT
+FCF
+ASSINT
+ROE
+Year Fixed Effect
+Firm Fixed Effect
+McFadden R2
+Akaike Information Criterion
+LR Statistic
+Prob(LR Statistic)
+Log-likelihood
+
+Model 1
+
+Model 2
+
+Model 3
+
+Model 4
+
+Model 5
+
+Model 6
+
+Beta
+
+z-Stat
+
+Beta
+
+z-Stat
+
+Beta
+
+z-Stat
+
+Beta
+
+z-Stat
+
+Beta
+
+z-Stat
+
+Beta
+
+z-Stat
+
+−0.303 **
+0.032 ***
+
+(−2.022)
+(8.354)
+
+0.361 ***
+
+(3.033)
+
+−0.900 ***
+
+(−5.412)
+
+0.266 **
+
+(1.951)
+
+0.457 ***
+
+(3.779)
+
+0.017 ***
+
+(4.144)
+0.031 ***
+
+(11.67)
+0.007 ***
+
+(3.342)
+
+0.008 ***
+−2.564 ***
+2.763 ***
+−0.111 ***
+5.905 ***
+Yes
+Yes
+0.120
+1.222
+838.153 ***
+0.0000
+−3059.829
+
+(3.478)
+(−14.271)
+(4.364)
+(−2.781)
+(14.490)
+
+0.004
+0.008 ***
+−2.501 ***
+2.842 ***
+−0.100 ***
+5.931 ***
+Yes
+Yes
+0.119
+1.224
+829.193 ***
+0.0000
+−3064.309
+
+(1.497)
+(3.435)
+(−14.026)
+(4.481)
+(−2.531)
+(14.543)
+
+−1.181 ***
+0.003 *
+0.014 **
+0.036 ***
+0.005 *
+0.001
+0.010 ***
+−2.259 ***
+2.831 ***
+−0.007
+5.954 ***
+Yes
+Yes
+0.139
+1.198
+968.502
+0.0000
+−2994.654
+
+(−6.444)
+(1.928)
+(2.162)
+(7.700)
+(1.726)
+(0.194)
+(4.227)
+(−12.712)
+(4.423)
+(−0.902)
+(14.484)
+
+0.008 ***
+−2.643 ***
+2.603 ***
+−0.121 ***
+5.687 ***
+Yes
+Yes
+0.129
+1.210
+897.950 ***
+0.0000
+−3029.931
+
+(3.659)
+(−14.709)
+(4.094)
+(−3.010)
+(13.955)
+
+0.008 ***
+−2.618 ***
+2.730 ***
+−0.116 ***
+5.867 ***
+Yes
+Yes
+0.121
+1.221
+844.251 ***
+0.0000
+−3056.780
+
+(3.587)
+(−14.453)
+(4.308)
+(−2.915)
+(14.430)
+
+0.010 ***
+−2.485 ***
+2.548 ***
+−0.114 ***
+5.799 ***
+Yes
+Yes
+0.139
+1.196
+967.398 ***
+0.0000
+−2995.207
+
+(4.183)
+(−13.837)
+(3.981)
+(−2.839)
+(14.156)
+
+Note: This table reports estimates from a binary logistic regression predicting the probability of a firm maintaining
+high-dividend status. The dependent variable equals one if dividend yield exceeds the sample median and zero
+otherwise. Coefficient estimates (Beta) are shown with z-statistics in parentheses. ***, **, and * denote statistical
+significance at the 1%, 5%, and 10% levels, respectively.
+
+The estimated coefficient on the composite governance score (TCGS) is positive and
+statistically significant across specifications. In Model 1, a one-unit increase in TCGS raises
+the log-odds of maintaining a high dividend by 0.032 (z = 8.354, p < 0.01), while the effect
+remains significant, though smaller, in the fully specified model (β = 0.003, z = 1.928,
+p < 0.10). This implies that improvements in governance materially increase the likelihood
+of high-dividend status even after controlling for firm fundamentals.
+Disaggregated governance mechanisms display economically meaningful and heterogeneous effects. Stronger shareholder rights (PSR) exert the largest influence: in Model 3,
+a one-unit increase in PSR raises the log-odds of high dividends by 0.031 (z = 11.67,
+p < 0.01), increasing to 0.036 (z = 7.700, p < 0.01) when all governance dimensions are
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+17 of 21
+
+jointly included. Board effectiveness (BOD) also significantly enhances dividend commitment (β = 0.017, z = 4.144 in Model 2; β = 0.014, z = 2.162 in Model 6), while audit quality
+has a smaller but positive effect (β = 0.007, z = 3.342), consistent with its monitoring role.
+By contrast, disclosure quality (DISC) is statistically insignificant across models (zstatistics below 1.5), indicating that transparency alone does not translate into stronger
+dividend commitment in the absence of enforcement or control rights. Control variables
+exhibit strong economic effects. Leverage substantially reduces the probability of high
+dividends (β ≈ −2.26 to −2.64, |z| > 12), consistent with debt-induced payout constraints.
+Free cash flow has a large positive effect (β ≈ 2.60–2.84, z ≈ 4.1–4.5), while asset intensity
+negatively affects dividend likelihood, reflecting reinvestment needs.
+Overall, the magnitude and significance of the coefficients confirm that governance influences not only payout levels but also the probability of sustaining dividends, supporting
+the credibility and agency-based interpretations advanced earlier.
+5.2. Dynamic Endogeneity and Payout Persistence
+Table 10 reports results from a two-step System GMM estimation that explicitly addresses dividend persistence and potential endogeneity. The coefficient on the second
+lag of dividend yield is 0.409 (t = 8.924, p < 0.01), indicating strong payout inertia:
+approximately 41% of prior dividend behavior persists over time.
+Table 10. Dynamic panel GMM estimation.
+Variable
+
+Beta
+
+t-Stat
+
+Std. Error
+
+Prob.
+
+DYD(−2)
+TCGS(−1)
+OW N(−1)
+DEBT(−1)
+FCF(−1)
+ASSI NT(−1)
+ROE(−1)
+Year Fixed Effect
+Firm Fixed Effect
+S.E. of Regression
+J-statistic
+Prob(J-statistic)
+
+0.4091 ***
+0.0002 ***
+0.0002 *
+−0.0213 *
+0.0069 ***
+−0.0052 ***
+0.0088 ***
+Yes
+Yes
+0.0101
+47.938
+0.7801
+
+(8.924)
+(2.832)
+(1.770)
+(−1.662)
+(2.515)
+(−2.520)
+(5.887)
+
+0.0458
+0.0001
+0.0001
+0.0128
+0.0027
+0.0021
+0.0015
+
+0.0000
+0.0047
+0.0768
+0.0965
+0.0119
+0.0118
+0.0000
+
+AR(1) test
+
+−10.3491 ***
+
+AR(2) test
+
+1.0474
+
+ρ = −0.1629,
+SE = 0.0157
+ρ = 0.0074,
+SE = 0.0071
+
+0.0000
+0.2949
+
+Note: This table reports results from a two-step System GMM estimation addressing the dynamic nature of
+dividend policy. The framework controls for unobserved firm-level effects and potential endogeneity of regressors.
+Dividend yield (DYD) is the dependent variable, with lagged governance and control covariates used as internal
+instruments. t-statistics are reported in parentheses. ***, and * denote statistical significance at the 1%, and 10%
+levels, respectively. Model validity is assessed using Arellano–Bond tests for serial correlation [AR(1) and AR(2)]
+and the Hansen J-test for over-identification restrictions.
+
+Importantly, governance quality retains a positive and statistically significant dynamic effect. The lagged governance score enters with a coefficient of 0.0002 (t = 2.832,
+p < 0.01), implying that improvements in governance translate into higher future dividend
+payouts rather than merely contemporaneous correlations. Although the magnitude is
+modest, its persistence and significance in a dynamic framework indicate a structurally
+meaningful effect.
+Ownership concentration displays a weaker but positive influence (β = 0.0002,
+t = 1.77, p < 0.10), while leverage continues to exert a negative effect on dividend payouts
+(β = −0.021, t = −1.66, p < 0.10). Free cash flow and profitability remain positive and
+significant, whereas asset intensity reduces dividend payouts, reinforcing the investment–
+payout tradeoff.
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+18 of 21
+
+Diagnostic tests confirm model validity. The Hansen J-statistic (p = 0.780) supports
+instrument exogeneity, while the Arellano–Bond tests indicate first-order but no secondorder serial correlation, satisfying the necessary conditions for consistent GMM estimation.
+5.3. Summary of Robustness Analyses
+Robustness tests confirm that our core findings on governance and dividend credibility
+are not artifacts of estimation choice or sample specification. Binary logistic regressions
+(Table 9) show that higher governance quality significantly increases the probability of
+sustaining high dividends, with shareholder rights and board effectiveness exerting the
+strongest effects. Dynamic System GMM estimates (Table 10) demonstrate that governance improvements persistently raise future dividend payouts, even after accounting for
+payout inertia, endogeneity, and firm fixed effects. Control variables, including leverage,
+free cash flow, and profitability, retain economically meaningful signs and magnitudes
+across specifications.
+Subsample analyses by Chaebol and non-Chaebol groups were also conducted as
+part of these robustness checks. While the results are consistent with the main findings,
+confirming H1 and H2, they are not reported here for brevity but are fully acknowledged.
+Collectively, these results reinforce that governance enhances dividend credibility and that
+its effectiveness is conditional on ownership regimes, with effects that are both statistically
+robust and economically interpretable.
+
+6. Conclusions
+This study investigated how corporate governance quality interacts with ownership
+structure to shape dividend policy in Korean listed firms. It provides a more granular
+understanding of payout credibility under varying institutional constraints. We show
+that governance mechanisms, particularly shareholder rights, board effectiveness, audit
+oversight, and disclosure, translate into credible dividend commitments when ownership is
+dispersed. In Chaebol-affiliated firms, governance influence becomes mechanism-specific:
+shareholder rights continue to matter, while internal monitoring channels are largely
+subsumed by concentrated control. This conditionality clarifies how formal governance
+complements or substitutes for internalized oversight in complex conglomerate structures.
+Importantly, this study quantifies the economic impact of governance improvements,
+demonstrating that improved governance translates into economically meaningful dividend yield effects, reinforcing payout stability and providing interpretable signals to
+investors and analysts. By combining fixed effect estimation, binary logistic regressions,
+and dynamic System GMM, we mitigate endogeneity concerns and confirm that these
+effects persist across multiple empirical approaches and ownership subsamples, ensuring
+the robustness of our findings. Subsample analyses further confirm that non-Chaebol firms
+benefit from broad governance effectiveness, whereas Chaebol affiliates exhibit selective
+mechanism-specific transmission.
+These results carry clear implications. For investors, dividend behavior in dispersed
+ownership firms reliably signals governance quality, whereas in conglomerate contexts,
+interpreting dividends requires attention to selective mechanism effects. For policymakers and regulators, strengthening disclosure, board independence, audit credibility, and
+minority shareholder protections remains critical for boosting payout credibility and
+market integrity.
+Limitations remain. This analysis focuses on listed firms and formal governance
+metrics, which may not fully capture informal monitoring, intra-group capital flows, or
+complex pyramidal control structures. Future research could incorporate richer measures
+of ownership depth, explore alternative payout channels such as share repurchases, and
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+19 of 21
+
+extend the framework to comparative or unlisted settings to better understand governance–
+dividend dynamics in diverse institutional contexts.
+Overall, our study shows that dividend credibility emerges from the interaction
+between governance quality and ownership structure, offering a mechanism-specific, economically interpretable account of payout behavior. These findings advance the literature
+on corporate governance and provide practical guidance for boosting market confidence,
+investor protection, and sustainable payout practices in economies characterized by concentrated corporate control.
+Author Contributions: Conceptualization, O.E.N., Y.L. and J.Y.J.; Methodology, O.E.N., Y.L. and J.Y.J.;
+Software, O.E.N.; Validation, Y.L. and J.Y.J.; Formal analysis, O.E.N.; Investigation, O.E.N.; Resources,
+Y.L.; Data curation, O.E.N.; Writing—original draft, O.E.N.; Writing—review and editing, O.E.N., Y.L.
+and J.Y.J.; Visualization, O.E.N., Y.L. and J.Y.J.; Supervision, Y.L.; Project administration, Y.L.; Funding
+acquisition, Y.L. All authors have read and agreed to the published version of the manuscript.
+Funding: This research was supported by the regional innovation system & education (RISE)(Regional Growth Innovation LAB) program through the Gyeongbuk RISE Center, funded by the
+Ministry of Education (MOE) and the Gyeongsangbuk-do, Republic of Korea (2025-rise-15-105).
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: The data and code utilized in this study can be made available upon
+request, adhering strictly to the ethical guidelines upheld by our laboratory.
+Conflicts of Interest: The authors declare no conflicts of interest.
+
+Appendix A. Supplementary Tables
+This appendix provides additional tables that support the main analysis. Table A1
+outlines the sample refinement process, while Table A2 summarizes the expected signs of
+explanatory variables based on theoretical models.
+Table A1. Data selection.
+
+Step
+
+Firms
+
+Years
+
+Firm-Years
+
+Initial Data (2011–2019)
+Less Firms with Incomplete CG Data (2011–2015)
+Less Financial Firms (Banks, Insurance, Investment)
+Remaining Firms with Complete Data (2011–2019)
+
+917
+320
+39
+558
+
+9
+9
+9
+9
+
+8253
+2880
+351
+5022
+
+Note: This table outlines the sample refinement process used to arrive at the final panel of firms with complete
+governance and financial data.
+
+Table A2. Expected signs of variables.
+Variable
+TCGS, BOD, PSR, AUDIT, DISC
+OWN
+FCF, ROE
+DEBT
+ASSINT
+
+Expected Sign
++
+–
++
+–
+±
+
+Theoretical Justification
+Stronger governance enhances dividend discipline (Outcome Model)
+Ownership concentration substitutes for governance (Substitution Model)
+Higher liquidity and profitability support higher dividends
+Higher leverage constrains payout capacity
+Industry-specific capital intensity may alter payout flexibility
+
+Note: This table summarizes the expected signs of explanatory variables based on theoretical models of
+dividend behavior.
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+20 of 21
+
+Table A3. Variance inflation factors.
+Variable
+
+Coefficient Variance
+
+Centered VIF
+
+TCGS
+BOD
+PSR
+AUDIT
+DISC
+OWN
+DEBT
+FCF
+ASSINT
+ROE
+
+2.27 × 10−9
+
+6.171
+2.543
+3.175
+1.856
+1.616
+1.017
+1.321
+1.276
+1.217
+1.296
+
+1.10 × 10−9
+5.76 × 10−10
+2.10 × 10−10
+2.37 × 10−10
+1.39 × 10−10
+8.24 × 10−7
+1.05 × 10−5
+1.66 × 10−9
+3.25 × 10−6
+
+Note: This table reports the variance inflation factors (VIFs) used to assess multicollinearity among explanatory
+variables. Coefficient variance reflects the sensitivity of each variable’s estimate, and centered VIF values above
+10 may indicate problematic multicollinearity.
+
+References
+Almeida, H., Park, S., Subrahmanyam, M., & Wolfenzon, D. (2011). The structure and formation of business groups: Evidence from
+Korean chaebols. Journal of Financial Economics, 99, 447–475. [CrossRef]
+Ararat, M., Claessens, S., & Yurtoglu, B. (2021). Corporate governance in emerging markets: A selective review and an agenda for
+future research. Emerging Markets Review, 48, 100767. [CrossRef]
+Arellano, M., & Bond, S. (1991). Some tests of specification for panel data: Monte Carlo evidence and an application to employment
+equations. The Review of Economic Studies, 58(2), 277–297. [CrossRef]
+Arellano, M., & Bover, O. (1995). Another look at the instrumental variable estimation of error-components models. Journal of
+Econometrics, 68(1), 29–51. [CrossRef]
+Arslan, M., Abidin, S., Alqatan, A., & Roudaki, J. (2019). Corporate governance in extreme institutional environment: Evidence from
+emerging economy. Corporate Ownership and Control, 17, 211–235. [CrossRef]
+Atanassov, J., & Mandell, A. J. (2018). Corporate governance and dividend policy: Evidence of tunneling from master limited
+partnerships. Journal of Corporate Finance, 53, 106–132. [CrossRef]
+Burkart, M., Gromb, D., & Panunzi, F. (1997). Large shareholders, monitoring, and the value of the firm. Quarterly Journal of Economics,
+112, 693–728. Available online: http://www.jstor.org/stable/2951253 (accessed on 19 December 2025). [CrossRef]
+Chen, Z., Cheung, Y.-L., Stouraitis, A., & Wong, A. W. S. (2005). Ownership concentration, firm performance, and dividend policy in
+Hong Kong. Pacific-Basin Finance Journal, 13(4), 431–449. [CrossRef]
+Chintrakarn, P., Jiraporn, P., Treepongkaruna, S., & Lee, S. M. (2022). The effect of board independence on dividend payouts: A
+quasi-natural experiment. The North American Journal of Economics and Finance, 63, 101836. [CrossRef]
+Claessens, S., Djankov, S., & Lang, L. (2000). The separation of ownership and control in East Asian corporations. Journal of Financial
+Economics, 58, 81–112. [CrossRef]
+Claessens, S., & Yurtoglu, B. (2013). Corporate governance in emerging markets: A survey. Emerging Markets Review, 15, 1–33.
+[CrossRef]
+Council, K. S. C. (2016). Principles on the stewardship responsibilities of institutional investors. Korea Corporate Governance Service.
+Available online: https://www.icgn.org/sites/default/files/2021-07/Korea%20Stewardship%20Code_%28English%29.pdf
+(accessed on 19 December 2025).
+Edmans, A. (2014). Blockholders and corporate governance: Review and synthesis. Annual Review of Financial Economics, 6, 23–50.
+[CrossRef]
+Faccio, M., Lang, L. H. P., & Young, L. (2001). Dividends and expropriation. American Economic Review, 91, 54–78. [CrossRef]
+Fama, E., & Jensen, M. (1983). Separation of ownership and control. Journal of Law and Economics, 26, 301–325. [CrossRef]
+Fulgence, S., Boateng, A., & Kwabi, F. (2024). Ownership structure, corporate governance disclosure, and the moderating effect of CEO
+power: Evidence from East Africa. In Accounting forum (pp. 1–30). Routledge. [CrossRef]
+Gonzalez, M., Molina, C. A., Pablo, E., & Rosso, J. W. (2017). The effect of ownership concentration and composition on dividends:
+Evidence from Latin America. Emerging Markets Review, 30, 1–18. [CrossRef]
+Healy, P., & Palepu, K. (2001). Information asymmetry, corporate disclosure, and the capital markets: A review of the empirical
+disclosure literature. Journal of Accounting and Economics, 31, 405–440. [CrossRef]
+Hwang, L.-S., Kim, H., Park, K., & Park, R. S. (2013). Corporate governance and payout policy: Evidence from Korean business groups.
+Pacific-Basin Finance Journal, 24, 179–198. [CrossRef]
+
+https://doi.org/10.3390/jrfm19020103
+
+J. Risk Financial Manag. 2026, 19, 103
+
+21 of 21
+
+Jabbouri, I. (2016). Determinants of corporate dividend policy in emerging markets: Evidence from MENA stock markets. Research in
+International Business and Finance, 37, 283–298. [CrossRef]
+Jensen, M., & Meckling, W. (1976). Theory of the firm: Managerial behavior, agency costs and ownership structure. Journal of Financial
+Economics, 3, 305–360. [CrossRef]
+Jensen, M. C. (1986). Agency costs of free cash flow, corporate finance, and takeovers. The American Economic Review, 76(2), 323–329.
+Available online: http://www.jstor.org/stable/1818789 (accessed on 19 December 2025).
+Jeon, J. Q., Lee, C., & Moffett, C. M. (2011). Effects of foreign ownership on payout policy: Evidence from the Korean market. Journal of
+Financial Markets, 14(2), 344–375. Available online: https://www.sciencedirect.com/science/article/pii/S1386418110000339
+(accessed on 19 December 2025). [CrossRef]
+Kang, S. (2023). Analysis on the causes behind the Korea discount. SSRN. [CrossRef]
+Kim, S. M., & Lee, E. J. (2008). Corporate governance and dividend policy under external financing constraints and agency problems.
+Asia-Pacific Journal of Financial Studies, 37(4), 949–981.
+Kim, W., Kim, W., & Park, K. S. (2021). A survey of research on the corporate governance of korean firms. Finance working paper No.
+804/2021. European Corporate Governance Institute. Available online: https://ssrn.com/abstract=3982236 (accessed on 19
+December 2025). [CrossRef]
+Kim, Y. S., & Wee, J. B. (2019). The determining factors of corporate giving and firm value. Journal of Money and Finance, 33(1), 35–68.
+[CrossRef]
+Korea Corporate Governance Service [KCGS]. (2021). Reports. Korea Corporate Governance Service. Available online: https://
+www.cgs.or.kr/publish/report_list.jsp (accessed on 1 September 2024).
+Kwon, Y., & Han, S. H. (2020). Controlling shareholders’ preference in business groups: Evidence from Korea. Emerging Markets
+Finance and Trade, 56(4), 940–959. [CrossRef]
+La Porta, R., Lopez-de Silanes, F., Shleifer, A., & Vishny, R. (2000). Agency problems and dividend policy around the world. Journal of
+Finance, 55(1), 1–33. [CrossRef]
+Lee, Y. (2022). The effect of ownership structure on corporate payout policy and performance: Evidence from Korea’s exogenous
+dividends tax shock. Pacific-Basin Finance Journal, 73, 101763. [CrossRef]
+Lee, Y., & Tulcanaza-Prieto, A. B. (2024). The effect of corporate governance on the degree of agency cost in the Korean market. Risks,
+12(4), 59. [CrossRef]
+Lewis, G. (2024). Q4 active stewardship report. Glass Lewis & Co. Available online: https://grow.glasslewis.com/2024-q4-active
+-stewardship-report (accessed on 19 December 2025).
+Mili, M., Sahut, J.-M., & Teulon, F. (2017). Do corporate governance and ownership structure impact dividend policy in emerging
+market during financial crisis? Journal of Applied Accounting Research, 18, 274–297. [CrossRef]
+Miller, M. H., & Modigliani, F. (1961). Dividend policy, growth, and the valuation of shares. The Journal of Business, 34(4), 411–433.
+Available online: http://www.jstor.org/stable/2351143 (accessed on 19 December 2025). [CrossRef]
+Mitton, T. (2004). Corporate governance and dividend policy in emerging markets. Emerging Markets Review, 5(4), 409–426. [CrossRef]
+Nazar, M. C. A. (2021). The influence of corporate governance on dividend decisions of listed firms: Evidence from Sri Lanka. The
+Journal of Asian Finance, Economics and Business, 8(2), 289–295. [CrossRef]
+Njoku, O. E., & Lee, Y. (2024). Revisiting the effect of dividend policy on firm performance and value: Empirical evidence from the
+Korean market. International Journal of Financial Studies, 12(1), 22. [CrossRef]
+OECD. (2018). Flexibility and proportionality in corporate governance. OECD Publishing. [CrossRef]
+Renneboog, L., & Szilagyi, P. G. (2020). How relevant is dividend policy under low shareholder protection? Journal of International
+Financial Markets, Institutions and Money, 64, 100776. [CrossRef]
+Shleifer, A., & Vishny, R. (1986). Large shareholders and corporate control. Journal of Political Economy, 94, 461–488. Available online:
+http://www.jstor.org/stable/1833044 (accessed on 19 December 2025). [CrossRef]
+Shleifer, A., & Vishny, R. (1997). A survey of corporate governance. Journal of Finance, 52, 737–783. [CrossRef]
+Song, J., & Chun, H. (2025). Korea’s 2025 governance revolution: Unlocking shareholder value. SSRN. [CrossRef]
+Value Search. (2023). Kospi data retrieval. Available online: https://valuesearch.co.kr/vsw (accessed on 1 September 2024).
+Villalonga, B., & Amit, R. (2006). How do family ownership, control and management affect firm value? Journal of Financial Economics,
+80, 385–417. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+https://doi.org/10.3390/jrfm19020103
+
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.
+
+

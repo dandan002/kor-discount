@@ -1,0 +1,3961 @@
+Journal of Banking & Finance 51 (2015) 131–150
+
+Contents lists available at ScienceDirect
+
+Journal of Banking & Finance
+journal homepage: www.elsevier.com/locate/jbf
+
+How corporate governance affect ﬁrm value? Evidence on a self-dealing
+channel from a natural experiment in Korea q
+Bernard S. Black a, Woochan Kim b,⇑, Hasung Jang b, Kyung-Suh Park b
+a
+b
+
+Northwestern University, Law School and Kellogg School of Management, United States
+Korea University Business School, Republic of Korea
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 31 December 2013
+Accepted 29 August 2014
+Available online 16 September 2014
+JEL classiﬁcation:
+G30
+G32
+G34
+Keywords:
+Corporate governance
+Related-party transactions
+Tunneling
+Self-dealing
+Chaebols
+Korea
+
+a b s t r a c t
+Prior work in emerging markets provides evidence that better corporate governance predicts higher
+market value, but very little evidence on the speciﬁc channels through which governance can increase
+value. We provide evidence, from a natural experiment in Korea, that reduced tunneling is an important
+channel. Korean legal reform in 1999 changed the board structure of ‘‘large’’ ﬁrms (assets > 2 trillion won)
+relative to smaller ﬁrms. In event studies of the reform events, we show that large ﬁrms whose
+controllers have incentive to tunnel earn strong positive returns, relative to mid-sized ﬁrms. In panel
+regressions over 1998–2004, we also show that better governance moderates the negative effect of
+related-party transactions on value and increases the sensitivity of ﬁrm proﬁtability to industry
+proﬁtability (consistent with less tunneling).
+ 2014 Elsevier B.V. All rights reserved.
+
+1. Introduction
+There is evidence that ﬁrm level corporate governance affects
+ﬁrm market values in emerging markets, but very limited evidence
+q
+A prior version of this paper was titled How Corporate Governance Affects Firm
+Value: Evidence on Channels from Korea. We thank two anonymous referees, Heitor
+Almeida, Vladimir Atanasov, Ronen Avraham, Vidhi Chhaochharia, Conrad Ciccotello, Julian Franks, Mariassunta Gianetti, Jeff Gordon, Dan Hamermesh, Jay Hartzell,
+Yrjo Koskinen, Kate Litvak, Paul Tetlock, and Hannes Wagner, and workshop and
+conference participants at American Law and Economics Association Annual
+Meeting (2009), 4th Asian Corporate Governance Conference; Canadian Law and
+Economics Association 2005 Annual Meeting; Centre for Economic Policy Research,
+European Summer Symposium in Financial Markets (2009); Darden-World Bank
+International Finance Conference (2009); Second International Conference on
+Corporate Governance in Emerging Markets (Sao Paulo, Brazil, 2009); European
+Finance Association (2009); Duke Law School; Hebrew University Conference on
+Corporate Governance, Family Firms, and Economic Concentration (2011); Hong
+Kong Baptist University; Indian School of Business, Third Annual Conference on
+Emerging Markets Finance (2009); KDI School of Public Policy and Management;
+Korea University School of Business; University of Michigan, Ross School of
+Business; University of Texas, McCombs School of Business, Department of Finance;
+and University of Texas Law School for comments on earlier drafts. We also thank
+Korea Corporate Governance Service for providing us with governance data; KDI
+School of Public Policy and Management and Korea University Bussiness School for
+ﬁnancial support; and Seo-Yeon Hong, Jeong-Eum Kim, and Sunwoo Hwang for
+research assistance.
+⇑ Corresponding author.
+
+http://dx.doi.org/10.1016/j.jbankﬁn.2014.08.020
+0378-4266/ 2014 Elsevier B.V. All rights reserved.
+
+on why. Through what ‘‘channels’’ does governance affect ﬁrm
+behavior, and thus market value? We study here one important
+channel: control of self-dealing by the controllers of business
+groups. Self-dealing is an important way that controllers can ‘‘tunnel’’ value out of ﬁrms, and one which governance can plausibly
+affect. We provide evidence that ﬁrm-level governance reduces
+‘‘cash ﬂow’’ tunneling by Korean ﬁrms through ‘‘ordinary’’ relatedparty transactions (RPTs) – purchases and sales of goods and services
+from afﬁliated ﬁrms. That is, we provide evidence for the causal
+channel (better governance ? lower cash ﬂow tunneling ? higher
+market value). The effect of governance on cash ﬂow tunneling involves fairer pricing of RPTs, rather than a lower volume of
+RPTs.
+A number of studies, in Korea and elsewhere, show that share
+prices are adversely affected by major RPTs such as mergers and
+equity issuances to insiders, but do not study whether governance
+can reduce harm to minority shareholders.1 We focus here on
+routine RPTs – purchases and sales of goods and services from afﬁliated ﬁrms. These transactions are common within business groups
+in many countries. They may be efﬁcient compared to transactions
+
+1
+See Bae et al. (2002) (mergers in Korea); Baek et al. (2006) (equity issuance in
+Korea); Cheung et al. (2006) (large, publicly announced RPTs in Hong Kong); Jiang
+et al. (2010) (intercorporate loans in China).
+
+132
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+
+with unrelated ﬁrms, but can also be used to engage in ‘‘cash-ﬂow
+tunneling’’ which extracts value from some ﬁrms in a business
+group, while beneﬁting other ﬁrms and the group controllers.2
+We ﬁnd evidence in Korea of an adverse effect of routine RPTs
+on ﬁrm market value in poorly governed ﬁrms. This evidence is
+consistent with a widespread view in Korea that intra-group
+transactions are an important problem. We also ﬁnd evidence
+that investors expect governance to moderate the harm to
+minority shareholders from RPTs, and that governance in fact
+does so.
+We study Korea because Korea allows identiﬁcation of a causal
+link between governance and ﬁrm market value, based on a shock
+to the governance of large ﬁrms: a 1999 law requires ﬁrms with
+assets over 2 trillion won (about U.S. $2 billion) to have at least
+50% outside directors, an audit committee with an outside director
+as chair and at least two-thirds outside members; and an outside
+director nominating committee. We exploit this legal shock to
+board structure at 2 trillion won by generally limiting our sample
+to large and mid-sized ﬁrms with assets from 0.5 to 4 trillion won,
+close to the threshold. In our event study, we use an explicit
+regression discontinuity (RD) research design, in which we investigate the impact of the reform on large ﬁrms, close to but above the
+2 trillion won threshold, relative to mid-sized ﬁrms that are close
+to but below the threshold. In prior work, we ﬁnd strong evidence
+that the reforms predict higher market value for large ﬁrms (Black
+and Kim, 2012). In this study, we ask the ‘‘channels’’ question: can
+reduced risk of RPTs help to explain this rise in market value, and
+for which ﬁrms?
+We do not directly observe tunneling. Instead, we look for
+indirect evidence consistent with tunneling. To do so, we develop
+a measure of the incentives and propensity of a ﬁrm’s controlling
+family to tunnel value out of the ﬁrm, which we term an ‘‘Expropriation Risk Index (ERI).’’ ERI is positive for a given ﬁrm-year if
+the controlling family holds, on average, lower cash-ﬂow rights
+in the ﬁrm than its RPT counterparties. If so, the controller has
+an incentive to use the pricing of RPTs as a low-visibility way
+to transfer value to these counterparties. We have the data to
+measure ERI only for chaebol (Korean family-controlled business
+group) ﬁrms, but chaebol groups are a likely place to look for
+tunneling.
+We ﬁrst conduct an event study of the key reform events in
+1999, and investigate whether investors expect these reforms to
+limit tunneling. We use a combined event study/RD design, in
+which we study event period returns to ‘‘large-plus’’ ﬁrms, just
+above the then-expected size threshold for the reforms of 1 trillion won, relative to mid-sized ﬁrms just below this threshold.3 If
+investors expect the reforms to limit tunneling, then large-plus,
+positive-ERI ﬁrms should realize positive abnormal returns when
+the reforms are adopted. These ﬁrms in fact realize roughly 30%
+cumulative market adjusted returns (CMARs) during our event period. Large-plus, negative-ERI ﬁrms earn positive but smaller CMARs
+of 5–10%. Thus, investors appear to view the governance reforms as
+strongly beneﬁcial for positive-ERI ﬁrms, and only mildly so for
+other large ﬁrms.
+We next investigate the effect of the governance reforms on
+cash-ﬂow tunneling. We ﬁnd no evidence that governance affects
+the volume of RPTs. However, we do ﬁnd an effect of tunneling
+on ﬁrm value, which is mediated by governance. More speciﬁcally,
+for positive-ERI ﬁrms, we ﬁnd a positive interaction between a
+broad Korea Corporate Governance Index (KCGI) and RPT volume.
+
+2
+
+We use here the tunneling terminology suggested by Atanasov et al. (2011).
+At the time of the initial legislative events, captured in the event study, the
+threshold for the reforms was 1 trillion won; it was raised to 2 trillion won later in the
+legislative process. We refer to ﬁrms with assets > 1 trillion won as ‘‘large-plus’’ and
+ﬁrms with assets > 2 trillion won as ‘‘large.’’
+3
+
+This is consistent with governance leading to improved RPT pricing
+for these ﬁrms. This interaction term is insigniﬁcant for negativeERI ﬁrms.
+We also assess whether RPTs are adverse to proﬁtability and
+whether governance mediates that relationship. For chaebol ﬁrms,
+we ﬁnd moderate evidence that RPTs predict lower proﬁtability for
+poorly governed ﬁrms (with below-median KCGI), but no signiﬁcant relationship between RPTs and proﬁtability for better-governed ﬁrms (with above-median KCGI). The mediating impact of
+governance on the relationship between RPTs and proﬁtability is
+stronger for positive-ERI ﬁrms than for negative-ERI ﬁrms. We also
+apply the Bertrand et al. (2002) approach to search for indirect evidence of tunneling. They assess the responsiveness of ﬁrm proﬁtability to industry proﬁtability. Lower responsiveness provides
+evidence of cash-ﬂow tunneling. We ﬁnd evidence consistent with
+cash-ﬂow tunneling by positive-ERI ﬁrms, and evidence that better
+governance reduces cash-ﬂow tunneling.
+This paper is organized as follows. Section 2 provides a literature review, describes how we construct our governance index
+and Expropriation Risk Index (ERI), and discusses our data sources
+and some methodology issues. Section 3 presents our event study
+results, Section 4 our RPT-to-value regression results, and Section 5
+our proﬁtability results. Section 6 concludes.
+2. Background
+2.1. Literature review
+In this paper, we begin with a reasonably identiﬁed link
+between governance and ﬁrm market value (proxied by Tobin’s
+q), based on our prior work. We then assess the evidence on a particular channel through which governance might affect value: Does
+governance affect tunneling? Thus, we need to situate this paper
+within the literature on the relationship between corporate governance and ﬁrm value (‘‘governance to value studies’’), the literature
+on tunneling, and the smaller literature that links governance to
+tunneling. Our review focuses on emerging markets.
+With regard to corporate governance, we write within the literature on ﬁrm-level governance; there is a separate large literature
+on the impact of country-level governance. Prior research provides
+evidence that corporate governance is associated with ﬁrm market
+value (usually proxied by Tobin’s q), but only a few studies have a
+basis for identiﬁcation and thus causal inference.4 A smaller set of
+papers addresses whether governance predicts ﬁrm outcomes other
+than market value (Tobin’s q), but do not link governance to market
+value.5 Two studies link governance to both market value and other
+ﬁrm outcomes.6 However, these papers are purely cross-sectional
+and lack identiﬁcation. Our results are less directly relevant for
+developed markets, but there too, studies with credible identiﬁcation for the effect of governance on ﬁrm behavior are scarce
+(Dahya and McConnell, 2007, is a notable exception).
+4
+Claessens and Yurtoglu (2013) provide a recent survey. The principal multicountry studies are Klapper and Love (2004), Durnev and Han Kim (2005), and Black
+et al. (2014). La Porta et al. (2002) and others study the association between ﬁrm
+market value and the ‘‘wedge’’ between insiders’ voting and economic ownership.
+5
+In Korea, Joh (2003) ﬁnds that Korean chaebol ﬁrms with high control-ownership
+disparity have lower proﬁtability during the pre-crisis period. Hwang et al. (2004)
+ﬁnd that better-governed chaebol ﬁrms pay higher dividends. Mitton (2004) ﬁnds that
+the Credit Lyonnais Securities Asia (CLSA) governance index predicts higher proﬁtability and higher dividends. In China, Liu and Lu (2007) ﬁnd that better governance
+predicts less earnings management, and (less clearly) lower tunneling.
+6
+Klapper and Love (2004) report that the CLSA index predicts both ﬁrm market
+value and proﬁtability. However, the CLSA index depends signiﬁcantly on analysts’
+subjective views and mixes measures of management quality with measures of
+governance. Dahya et al. (2008) ﬁnd that proportion of independent directors predicts
+higher Tobin’s q and fewer RPTs. Black et al. (2014) discuss the fragility of the
+estimates in these studies.
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+
+Within Korea, Bae et al. (2002) ﬁnd negative share price
+reactions to the announcement of acquisitions by chaebol ﬁrms,
+but do not link tunneling to governance. Several papers study the
+1997–1998 East Asian ﬁnancial crisis. Mitton (2002) ﬁnds better
+share price performance for better-disclosing ﬁrms in crisisaffected countries. Lemmon and Lins (2003) ﬁnd higher crisis-period returns for ﬁrms with low control-ownership disparity. Baek
+et al. (2004) ﬁnd both effects for Korean ﬁrms. Bae et al. (2012)
+report that ﬁrms with higher disparity between the controller’s
+voting and cash ﬂow rights suffer larger share price drops during
+the crisis (plausibly due to higher tunneling), and recover faster
+when the crisis abates. These studies do not directly examine
+tunneling, but their results plausibly reﬂect investor response to
+tunneling risk.
+The papers closest to ours in spirit are Bertrand et al. (2002),
+Cheung et al. (2006), and Atanasov et al. (2010). Bertrand et al.
+develop an approach to inferring the existence of tunneling by
+studying the sensitivity of ﬁrms’ reported proﬁtability to changes
+in industry proﬁtability. They ﬁnd evidence for tunneling, principally through non-operating cash ﬂows, and that higher director
+ownership predicts less tunneling. We adapt their approach to
+Korea below. Cheung, Rau, and Stouraitis ﬁnd negative share price
+reactions to the announcement of RPTs which require a ﬁling with
+the Hong Kong Stock Exchange. A ﬁling is required for larger
+transactions, involving at least 3% of ﬁrm assets or at least
+HK$10 million. They assess whether inside ownership predicts
+share price reaction for a subsample for which they have ownership data, and ﬁnd no relationship. Atanasov et al. (2010) study
+the impact of Bulgarian reforms that limit ‘‘equity tunneling’’ on
+ﬁrm market values and on equity tunneling after the reforms.
+Finally, it may be useful to clarify how this paper relates to our
+own prior work. In Black et al. (2006a) (BJK), we use cross-sectional
+data from 2001 and report evidence that governance predicts
+higher market value, using the 1999 reforms as an instrument
+for governance. In Black and Kim (2012), we extend our governance index back to 1998 and forward to 2004, and tighten the
+causal link between the 1999 reforms and higher ﬁrm market values, using several identiﬁcation strategies. Black et al. (2006b)
+study the factors that predict ﬁrm governance. None of these
+papers studies the channels that might explain the governanceto-value effect.
+2.2. Korean Corporate Governance Index (KCGI)
+What matters in corporate governance is likely to vary across
+countries, so a governance index should reﬂect local rules and
+practices (e.g., Black et al., 2014; Bruno and Claessens, 2010;
+Claessens and Yurtoglu, 2013). We therefore use a governance
+index tailored to Korea.
+We construct a broad Korean corporate governance index
+(KCGI) from 1998 to 2004, covering almost all public companies
+listed on the Korea Stock Exchange. We rely for governance data
+on a combination of hand-collection and annual surveys by the
+Korea Corporate Governance Service (KCGS). Board composition
+data comes from annual books published by the Korea Listed Companies Association (KLCA). KCGI (0–100) consists of ﬁve equally
+weighted subindices, for Board Structure, Disclosure, Shareholders
+Rights, Board Procedure, and Ownership Parity (a measure of
+whether the control group holds similar control rights and cash
+ﬂow rights). We have data on KCGI at mid-year 2001, and yearends 1998–2004 – a total of eight time points.
+The elements and subindices cover aspects of governance which
+we judged to be potentially important in Korea. We made many
+judgment calls on which elements to include in the index, how
+to deﬁne them, and how to construct the subindices. For example,
+at the time of our study, almost all Korean ﬁrms had a controlling
+
+133
+
+shareholder or group. Thus, takeover defenses were unimportant
+and rarely used. As a result, our index is quite different from
+U.S.-centric indices, which focus on takeover defenses, such as
+the G index developed by Gompers et al. (2003) or the E index
+developed by Bebchuk et al. (2009).
+KCGS often changes its survey questions from year to year.7 We
+reduce loss of governance elements due to these changes by handcollecting data from company public reports, charters, and websites.
+To reduce the cost of hand-collection, we assume that ﬁrms comply
+with legal requirements and that ﬁrms which lacked a governance
+element in year t also lacked this element in prior years. For the
+elements of each subindex and how we construct them, please refer
+to Black and Kim (2012).
+Board Structure Index is of special interest because the board
+structure of large ﬁrms is directly affected by 1999 legal reforms.
+These reforms provide an exogenous shock to governance that
+we rely on to identify a causal effect of governance on Tobin’s
+q. Board Structure Index is composed of two subindices, Board
+Independence Subindex (2 elements, 0–10), and Board Committee Subindex (3 elements, 0–10). These subindices are deﬁned
+as:
+Board Independence Subindex = 10 * (b1 + b2)/2
+b1 = 1 if ﬁrm has 50% outside directors; 0 otherwise
+b2 = 1 if ﬁrm has > 50% outside directors; 0 otherwise
+Board Committee Subindex = 10 * (b3 + b4 + b5)/3
+b3 = 1 if ﬁrm has outside nominating committee, 0 otherwise
+b4 = 1 if ﬁrm has audit committee, 0 otherwise
+b5 = 1 if ﬁrm has compensation committee, 0 otherwise
+The 1999 law requires large ﬁrms to have elements b1, b3, and
+b4. For a ﬁrm which previously had none of these elements, Board
+Structure Index will rise from 0 to 11.67, out of 20 possible points.
+The large ﬁrm mean in fact rises from 0.31 in 1998 (one large ﬁrm
+had 50% outside directors, none had audit or other committees) to
+12.78 in spring 2001.
+For the other subindices, we weight all elements of each
+subindex equally. If data on a subindex element is missing for a
+particular ﬁrm, we compute the subindex using the average of
+the nonmissing elements. Table 1, Panel A, provides summary statistics for KCGI and each subindex. Table 1, Panel B, provides correlation coefﬁcients. All subindices are strongly correlated with each
+other, except for Ownership Parity, which is only weakly correlated
+with other subindices.
+
+2.3. Data on RPTs and Expropriation Risk Index (ERI)
+Routine RPTs can be seen as similar to partial vertical integration. They can increase efﬁciency by reducing transaction costs
+and the risk of opportunism. But they can also reduce efﬁciency,
+if the ﬁrm would do better to transact with an unrelated party. If
+ﬁrms engage in RPTs principally when it is efﬁcient to do so, governance might have little impact on RPT volume.
+Even if RPTs are efﬁcient, they can be priced to beneﬁt controllers and harm minority shareholders. The controllers’ incentives to
+engage in mispriced RPTs depend on their relative ownership of
+the transacting ﬁrms. If the controllers own a larger percentage
+of Firm B than of Firm A, the controllers have an incentive to use
+‘‘transfer pricing’’ to transfer value to B at A’s expense. For
+7
+English translations of the KCGS surveys are available from the authors on
+request.
+
+134
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+
+Table 1
+Summary Statistics for KCGI and its Subindices.
+Panel A: This panel presents number of observations, sample mean, and other statistics for KCGI and its subindices, by year, for large ﬁrms (assets from 2 to 4 trillion
+won as of year-end 2000) and mid-sized ﬁrms (assets from 0.5 to 2 trillion won as of year-end 2000). Sample for both panels includes banks and SOEs.
+Index
+
+Year
+
+KCGI
+
+1998
+2000
+2002
+2004
+1998
+2004
+1998
+2004
+1998
+2004
+1998
+2004
+1998
+2004
+
+Board Structure
+Ownership Parity
+Disclosure
+Board Procedure
+Shareholder Rights
+
+Obs.
+
+484
+535
+466
+512
+511
+513
+516
+520
+523
+521
+535
+521
+516
+521
+
+Mean
+All
+
+Large
+
+Mid
+
+24.23
+31.54
+43.05
+44.89
+0.25
+3.81
+17.63
+17.03
+4.56
+9.10
+1.17
+6.30
+0.82
+8.65
+
+28.22
+44.28
+60.80
+66.66
+0.31
+14.33
+16.93
+17.18
+2.73
+12.56
+7.19
+11.76
+1.62
+10.26
+
+24.44
+31.37
+42.68
+45.94
+0.18
+3.33
+16.83
+15.77
+1.10
+7.36
+5.55
+9.89
+1.04
+8.60
+
+Median
+
+Std. Dev.
+
+Min
+
+Max
+
+23.33
+29.18
+39.73
+42.03
+0.00
+0.00
+18.89
+18.69
+4.44
+9.09
+0.00
+6.67
+0.00
+6.67
+
+6.72
+10.47
+13.64
+13.74
+1.54
+5.83
+2.97
+3.60
+2.82
+2.99
+3.15
+5.87
+2.89
+3.23
+
+10.62
+7.76
+14.00
+20.10
+0.00
+0.00
+3.63
+4.20
+0.00
+1.43
+0.00
+0.00
+0.00
+5.00
+
+64.10
+84.80
+97.14
+98.82
+10.00
+20.00
+20.00
+20.00
+17.50
+18.82
+20.00
+20.00
+20.00
+20.00
+
+Panel B: This panel presents Pearson correlation coefﬁcients for KCGI and its subindices for ﬁrms with assets between 0.5 and 4 trillion won. ⁄, ⁄⁄, and ⁄⁄⁄ indicate
+signiﬁcance at 10%, 5%, and 1% levels.
+
+KCGI
+Board Structure
+Ownership Parity
+Disclosure
+Board Procedure
+Shareholder Rights
+
+KCGI
+
+Board Structure
+
+Ownership Parity
+
+Disclosure
+
+Board Procedure
+
+Shareholder Rights
+
+1.00
+0.76⁄⁄⁄
+0.21⁄⁄⁄
+0.70⁄⁄⁄
+0.66⁄⁄⁄
+0.72⁄⁄⁄
+
+1.00
+0.01
+0.30⁄⁄⁄
+0.45⁄⁄⁄
+0.40⁄⁄⁄
+
+1.00
+0.02
+0.05
+0.08⁄
+
+1.00
+0.34⁄⁄⁄
+0.42⁄⁄⁄
+
+1.00
+0.42⁄⁄⁄
+
+1.00
+
+example, the controllers can cause A to overpay B for services, or
+cause A to sell its output to B for less than fair value.
+We do not directly observe the fairness of RPT pricing. We seek
+instead to capture controllers’ incentives to transfer value between
+related ﬁrms through our ‘‘Expropriation Risk Index (ERI).’’ ERI captures the extent to which, when a ﬁrm engages in related party
+transactions, the controlling family or group owns a larger fraction
+of the cash ﬂow rights in the related ﬁrms than it owns in the subject ﬁrm. For each ﬁrm i, related counterparty j, and year t, we compute a cash ﬂow rights differential as:
+ðCash Flow DifferentialÞijt ¼ ðcontroller’s fractional cash flow rights in firm jÞ
+ ðcontroller’s fractional cash flow rights in firm iÞ:
+
+We then deﬁne an Expropriation Risk Index (ERI) to capture the
+intuition that the controller has an incentive to move value to ﬁrms
+in which the controller has higher cash ﬂow rights:
+
+ERIit ¼
+
+X RPTs 
+j–i
+
+Sales
+
+ ðCash Flow DifferentialÞijt
+ijt
+
+This index will be positive if the ﬁrm’s RPTs are primarily with
+counterparties in which the controllers have larger fractional cash
+ﬂow rights and thus incentives to extract value from the ﬁrm. The
+magnitude of ERI depends on both the level of RPTs and the cash
+ﬂow differential between the counterparties.
+All public ﬁrms must disclose in the footnotes to their annual
+ﬁnancial statements amounts owed to the ﬁrm by afﬁliated ﬁrms
+(including receivables), debts owed to afﬁliated ﬁrms (including
+payables), purchases (sales) of goods and services from (to) each
+afﬁliate, and purchases (sales) of assets from (to) all afﬁliates
+together. However, these disclosures do not include data on the
+pricing of these transactions. Our measure of RPTs is RPTs/sales,
+deﬁned as [(sum of sales to and purchases from related-parties)/
+total sales], winsorized at 99%. In some analyses, we consider separately purchases from related parties (RPPs/sales) and sales to
+related parties (RPSs/sales).
+
+The disclosures provided by all public ﬁrms allow us to compute the volume of RPTs, but not ERI. We know the counterparty
+for each transaction. This lets us determine the control group’s
+ownership of the counterparty if the counterparty is publicly
+traded, but not if the counterparty is privately held. Many RPTs –
+and often the more troublesome ones – are with private ﬁrms.
+We can, however, compute ERI for ﬁrms which are part of major
+chaebol groups, because the Korea Fair Trade Commission (KFTC)
+requires these ﬁrms to disclose the controlling family’s ownership
+of all group members, including private ﬁrms.8
+Our ERI measure for ﬁrm i is related to but distinct from measures of the controller’s cash ﬂow rights in ﬁrm i, or the ‘‘wedge’’
+between the controller’s voting rights and cash ﬂow rights. ERI
+takes into account not only the controller’s cash ﬂow rights in ﬁrm
+i, but also its cash ﬂow rights in other group ﬁrms, and the volume
+of related-party transactions between them. It thus can capture the
+incentive to tunnel in a way that is more sensitive to the behavior
+of controllers of speciﬁc ﬁrms than a simple measure of cash ﬂow
+rights. We conﬁrm below that ERI has predictive value for our sample, while a simpler measure of cash ﬂow rights does not.
+2.4. Identiﬁcation for large ﬁrms
+The endogeneity of ﬁrm governance, other ﬁrm characteristics,
+and outcome variables of interest is a core issue for corporate
+governance research (e.g., Lehn et al., 2007). In this study, we begin
+with reasonable identiﬁcation for the causal effect of the Board
+Structure changes that were required for large ﬁrms. We
+8
+For 1998 through mid-2000, KFTC listed the 30 largest chaebol groups in each
+year. Beginning with year-end 2001, KFTC used a group size threshold, and reported
+information on roughly 50 groups in each year. We treat a ﬁrm as a chaebol ﬁrm if it is
+listed as such in any of the KFTC annual reports. In prior work, we deﬁned chaebol
+dummy as equal to 1 if a ﬁrm belonged to one of the top 30 chaebol. In regressions, we
+use membership in the top-30 chaebol as a control variable, unless speciﬁcally stated
+otherwise. If the counterparty is an individual in the controlling family, we treat this
+as 100% ownership of the counterparty. We exclude transactions with wholly owned
+subsidiaries in computing ERI.
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+
+summarize the basis for identiﬁcation here. Black and Kim (2012)
+provide more details. We lack a similar exogenous shock for the
+rest of KCGI. However, ﬁrms which are required to change their
+Board Structure may make followon changes in other aspects of
+governance. Nasev et al. (2014) ﬁnd evidence that large ﬁrms
+improve their disclosure after the 1999 reforms, but no evidence
+for signiﬁcant changes in other aspects of governance.
+Before the 1997–1998 East Asian ﬁnancial crisis, most Korean
+ﬁrms had no outside directors and only a few banks and ‘‘stateowned enterprises (SOEs),’’ in which the government held a majority stake, had 50% outside directors. Legal reforms in 1998 required
+all public ﬁrms to have at least 25% outside directors. Further
+reforms in 1999 (i) made it possible for the ﬁrst time for ﬁrms to
+have committees of the board of directors, such as an audit committee; and (ii) required large ﬁrms (assets > 2 trillion won) to
+have at least 50% outside directors, an audit committee, and an
+outside director nominating committee. The large ﬁrm rules came
+into force partly in 2000 and fully in 2001.
+Fig. 1 provides evidence on the exogeneity of this shock to large
+ﬁrm governance. It shows Board Structure Index for each year for
+mid-sized ﬁrms (assets from 0.5 to 2 trillion won) and large ﬁrms
+at year-ends from 1998 to 2004. In each ﬁgure, the vertical line
+indicates 2 trillion won; the horizontal line indicates the minimum
+Board Structure Index score which large ﬁrms must have by 2001.
+In 1998, only one ﬁrm has a nonzero score. By 2001, large ﬁrms
+fully comply with the new rules; some mid-sized ﬁrms also voluntarily comply.9 Fig. 2 shows the change in KCGI and its component
+indices over time, separately for large and mid-sized ﬁrms.
+This shock to the board structure of large ﬁrms provides a basis
+for credible causal inference with regard to how this change
+affected ﬁrm value (proxied by Tobin’s q). An event study of key
+legislative events will capture investor views, at the time of the
+reforms, on how the reforms will affect ﬁrm market values. A difference-in-differences (DiD) analysis of changes in Tobin’s q, from
+just before to just after the reforms, should also capture the predicted effect of the reforms. An instrumental variables (IV) analysis, with ‘‘Large Firm IV 1999’’ (=1 if large ﬁrm dummy = 1 and
+year is 1999 or later, 0 otherwise) as an instrument for Board Structure Subindex is mathematically similar to DiD. Black and Kim
+(2012) ﬁnd strong evidence from all three approaches that the
+market values of large ﬁrms increased, relative to a control group
+of mid-sized ﬁrms.
+Below, we initially present event study analyses of how the
+1999 reforms affected three subgroups of large-plus ﬁrms (assets
+from 1 to 4 trillion won): positive-ERI chaebol ﬁrms, negative-ERI
+chaebol ﬁrms, and non-chaebol ﬁrms (for which we cannot measure
+ERI). At the time of the key legislative events, the expected size
+threshold was 1 trillion won; this threshold was later raised to 2
+trillion won. The event study has greater statistical power than
+DiD or IV to capture treatment effects in a small sample. In unreported DiD regressions, we obtain consistent but weaker results
+(summarized below).
+2.5. Sample, control variables, and regression speciﬁcation
+An important limitation of this study is the modest number of
+large ﬁrms. This both limits statistical power and increases the risk
+that a few ‘‘odd’’ observations could drive our results. Our main
+results use a sample of mid-sized and large Korean public ﬁrms,
+within a size band from 0.5 to 4 trillion won in assets. Our choice
+of this size band reﬂects a compromise between desire for a narrow band, to make treated and control ﬁrms more similar, and
+need for a reasonable sample size. The tradeoff between
+9
+We check for and ﬁnd no evidence that ﬁrms shrink to avoid complying with the
+large ﬁrm rules. See Black and Kim (2012) for details.
+
+135
+
+bandwidth and sample size is often faced in regression discontinuity designs, but is especially acute for us because of the limited
+number of large ﬁrms.
+In our event study (Section 3), we have a treatment group of 54
+large-plus ﬁrms (assets from 1–4 trillion won) and a control group
+of 43 mid-sized ﬁrms (assets from 0.5–1 trillion won). The treatment group includes 19 positive-ERI chaebol ﬁrms, 16 negativeERI chaebol ﬁrms, and 19 non-chaebol ﬁrms. In our regressions
+(Sections 4 and 5), the treatment group, after excluding outliers,
+is 52 large ﬁrms (assets from 2 to 4 trillion won) and the control
+group is 120 mid-sized ﬁrms (assets from 0.5 to 2 trillion won).
+For regressions which rely on ERI, we further limit the panel to
+chaebol ﬁrms (41 large ﬁrms; 63 midsized ﬁrms). In unreported
+results, we vary the size band, with consistent results.10 To reduce
+the risk that one or several inﬂuential observations could drive our
+results, we exclude outliers in our regressions (see details below).
+In regressions, we use ﬁrm ﬁxed effects to control for unobserved, time-invariant ﬁrm characteristics, year dummies to
+address variation over time that is common to all ﬁrms, and ﬁrm
+clusters to address correlated within-ﬁrm observations.
+We use an extensive set of control variables to limit omitted variable bias. The control variables capture factors that are likely to
+affect Tobin’s q, including growth opportunities, proﬁtability, existence of intangible, off-balance-sheet assets, and capital intensity.
+See Black et al. (2006a, 2006b) for a fuller discussion of our controls.
+Table 2, Panel A, deﬁnes the principal variables used in this study.
+Table 2, Panel B, provides summary statistics for these variables.
+Data comes from various sources. We take balance sheet,
+income, cash ﬂow statement data, foreign ownership data,
+related-party transactions, and original listing year from the
+TS2000 database maintained by the KLCA; adjusted return data
+from the Korea Securities Research Institute database; information
+on chaebol groups from annual reports by the KFTC; other stock
+market data from the Korea Stock Exchange; information on ADRs
+from JP Morgan and Citibank websites; and industry classiﬁcation
+from the Korea Statistics Ofﬁce. Share ownership comes from the
+KSE for ﬁnancial institutions and from a hand-collected database
+for other ﬁrms.
+
+3. Event study results
+If investors expect positive-ERI ﬁrms to engage in more tunneling than negative-ERI ﬁrms, and expect that the 1999 reforms will
+reduce tunneling, then large-plus, positive-ERI ﬁrms should realize
+higher event-period returns than large-plus, negative-ERI ﬁrms
+when the reforms are adopted, relative to a control group of
+mid-sized ﬁrms.11 We test this prediction by studying returns over
+the period from June 1, 1999 (just before the ﬁrst signiﬁcant reform
+event, on June 2–3, 1999) through August 30, 1999 (shortly after the
+last signiﬁcant, clean event, on August 25, 1999). The expected size
+threshold for the reforms during this period was 1 trillion won, so
+we consider large-plus ﬁrms (assets from 1 to 4 trillion won) to be
+treated ﬁrms, and mid-sized ﬁrms (assets from 0.5 to 1 trillion
+won), to be control ﬁrms.
+The ﬁrst important reform announcements, a general
+announcement on June 2 and a more speciﬁc announcement on
+June 3, 1999, indicated that the government would focus on chaebol reform, and on audit committees and outside directors. Many
+but not all chaebol ﬁrms are also large-plus ﬁrms. On July 2, the
+10
+If we increase the upper limit on size from 4 trillion won to 8 trillion won, we gain
+12 large ﬁrms (11 of these are chaebol ﬁrms), and obtain results (both coefﬁcients and
+t-statistics) quite similar to those we report. If we further expand the size band at
+both the low and high ends, our results generally strengthen.
+11
+In our event study, positive-ERI ﬁrms are ﬁrms for which the average of 1998 and
+1999 ERIs is positive.
+
+136
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+
+1999
+
+2000
+
+15
+10
+5
+
+Board Structure Index
+
+10
+8
+6
+
+8
+
+9
+
+0
+
+2
+0
+
+0
+
+7
+
+10
+
+6
+
+8
+
+7
+
+9
+
+6
+
+10
+
+9
+
+2002
+
+2004
+
+9
+
+10
+
+15
+10
+0
+
+5
+
+Board Structure Index
+
+15
+10
+0
+
+5
+
+Board Structure Index
+
+15
+10
+
+8
+
+ln(Assets)
+
+10
+
+20
+
+2001
+20
+
+ln(Assets)
+
+5
+
+7
+
+8
+
+ln(Assets)
+
+0
+6
+
+7
+
+ln(Assets)
+
+20
+
+6
+
+Board Structure Index
+
+4
+
+Board Structure Index
+
+10
+8
+6
+4
+2
+
+Board Structure Index
+
+20
+
+1998
+
+6
+
+7
+
+8
+
+9
+
+ln(Assets)
+
+10
+
+11
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+ln(Assets)
+
+Fig. 1. Board Structure Index and asset size. The scatter plots show the relationship between ln(assets in billion won) and Board Structure Index (0–20) from 1998–2004 for
+mid-sized ﬁrms (assets from 0.5–2 trillion won) and large ﬁrms (assets > 2 trillion won). The 1999 reforms require large ﬁrms to have a minimum Board Structure Index
+value P 11.7 (5 points for 50% outside directors; 6.7 points for audit and outside director nomination committees). Audit committee is required in 2000; 50% outside directors
+and outside director nominating committee in 2001. Sample excludes banks and SOEs. Vertical line indicates 2 trillion won; horizontal line indicates minimum Index value
+for large ﬁrms. Firm size is measured separately for each year. Number of ﬁrms with assets from 0.5 to 2 trillion won varies by year from 84 to 107; number of ﬁrms with
+assets >2 trillion won varies from 53 to 61.
+
+Fig. 2. Change in KCGI and its subindices over time. The left set of charts show mean values of KCGI and each component index from 1998 to 2004, separately for large ﬁrms (2
+trillion won < assets 6 4 trillion won as of year-end 2000) and mid-sized ﬁrms (0.5 trillion won < assets 6 2 trillion won as of year-end 2000). The middle set of charts show
+values for Board Independence and Board Committee sub-subindices, which together comprise Board Structure Subindex. The right set of charts show values for Disclosure
+Subindex. Sample includes banks and SOEs. Number of mid-sized ﬁrms varies by year from 85 to 111; number of large ﬁrms varies from 25 to 34.
+
+government announced that the reforms would apply to ‘‘large’’
+ﬁrms (rather than chaebol ﬁrms) but did not specify a size threshold. The size threshold was ﬁrst disclosed on August 25–26, 1999,
+
+when a draft Corporate Governance Code speciﬁed a 1 trillion won
+threshold. These events provide an event period running from June
+1, 1999 (the day before the June 2 announcement) through Aug. 30,
+
+137
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+Table 2
+Other variables.
+Panel A: Variable deﬁnitions
+Variables
+Principal variables
+Tobin’s q
+RPTs/sales
+RPSs/sales
+RPPs/sales
+Cash ﬂow rights
+ERI (Expropriation Risk
+Index)
+Industry EBITDA/assets
+Control Variables
+Assets
+Years Listed
+Leverage
+Sales growth (5 years)
+R&D/sales
+Advertising/sales
+Exports/sales
+PPE/sales
+PPE/sales squared
+Capex/PPE
+EBIT/sales
+EBIT/assets
+Market share
+Share turnover
+Foreign ownership
+Sole ownership
+Top 30 chaebol dummy
+Level 1 ADR Dummy
+MSCI Index Dummy
+
+Descriptions
+Estimated as [(book value of debt + preferred stock) + market value of common stock]/[book value of assets]. Book values are
+measured at year-end.
+Sum of sales to and purchases from related-parties divided by total sales; winsorized at 99%.
+Sales to related-parties divided by total sales; winsorized at 99%.
+Purchases from related-parties divided by total sales; winsorized at 99%.
+Direct plus indirect fractional ownership of ﬁrm’s shares by members of control group. Available only for chaebol ﬁrms.
+Deﬁned in the text. Available only for chaebol ﬁrms.
+(EBITDA summed across all other ﬁrms in the same 4-digit industry)/(assets summed across all other ﬁrms in the same 4-digit
+industry).
+Book asset value in billion won. Use ln(assets) in regressions.
+Number of years since original listing on Korea Stock Exchange. Use ln(Years Listed) in regressions.
+(Book value of debt)/ (Market value of common stock), winsorized at 99%.
+Geometric average sales growth rate during the past 5 ﬁscal years (or available period if less), winsorized at 1%/99%. If ﬁscal year
+changes, we keep only years which cover full 12 months.
+Ratio of research and development (R&D) expense to sales.
+Ratio of advertising expense to sales.
+Ratio of export revenue to sales.
+Ratio of property, plant, and equipment to sales.
+Squared term of PPE/Sales.
+Ratio of capital expenditures to PPE.
+Ratio of earnings before interest and taxes to sales, winsorized at 1%/99%.
+Ratio of earnings before interest and taxes to assets, winsorized at 1%/99%.
+Firm’s share of total sales by all ﬁrms in the same 4-digit industry listed on KSE.
+[Common shares traded during the year/publicly held shares], winsorized at 99%. The denominator is deﬁned as [common shares
+outstanding  (1  total afﬁliated ownership)].
+[Common shares held by foreign investors/common shares outstanding].
+[Number of common shares held by group controlling shareholder and family members/Number of common shares outstanding].
+1 if a member of one of the top-30 business groups (based on total group assets) as of April of each year as identiﬁed by KFTC; 0
+otherwise. We treat former state-owned enterprises as non-chaebol ﬁrms.
+1 if ﬁrm has level 1 American Depository Receipts (ADRs); 0 otherwise.
+1 if ﬁrm is in Morgan Stanley Capital International Index; 0 otherwise.
+
+Panel B: Summary statistics for selected variables. (Sample is ﬁrms with assets between 0.5 and 4 trillion won).
+Variable
+
+No. of Obs.
+
+No. of ‘‘1’’ values
+
+Mean
+
+Median
+
+Standard Deviation
+
+Minimum
+
+Maximum
+
+Tobin’s q
+ln(Tobin’s q)
+RPTs/sales
+for chaebol ﬁrms
+for non-chaebol ﬁrms
+RPSs/sales
+RPPs/sales
+Industry EBITDA/assets
+Cash ﬂow rights
+Expropriation Risk Index
+Book value of assets
+Years Listed
+Leverage
+Sales growth (5 years)
+R&D/sales
+Advertising/sales
+Exports/sales
+PPE/Sales
+Capex/PPE
+EBIT/sales
+EBIT/assets
+Market share
+Share turnover
+Foreign ownership
+Sole ownership
+Top 30 Chaebol Dummy
+Level 1 ADR Dummy
+MSCI Index Dummy
+
+981
+981
+835
+548
+287
+835
+835
+979
+424
+391
+982
+982
+981
+974
+982
+982
+982
+982
+982
+982
+982
+982
+980
+973
+982
+982
+982
+982
+
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+448
+54
+268
+
+0.88
+0.18
+0.21
+0.27
+0.10
+0.12
+0.09
+0.05
+0.17
+0.02
+1480
+19.12
+9.97
+0.12
+0.01
+0.01
+0.24
+0.57
+0.12
+0.06
+0.05
+0.10
+4.66
+12.76
+13.08
+0.46
+0.06
+0.27
+
+0.84
+0.18
+0.13
+0.20
+0.03
+0.05
+0.04
+0.05
+0.13
+0.01
+1137
+23.00
+3.91
+0.09
+0.00
+0.00
+0.07
+0.46
+0.08
+0.07
+0.05
+0.03
+3.28
+5.21
+8.60
+0.00
+0.00
+0.00
+
+0.32
+0.29
+0.25
+0.26
+0.17
+0.18
+0.12
+0.06
+0.15
+0.04
+935
+10.46
+16.76
+0.20
+0.06
+0.02
+0.29
+0.54
+0.13
+0.13
+0.06
+0.19
+5.27
+16.38
+13.77
+0.50
+0.23
+0.45
+
+0.22
+1.53
+0.00
+0.00
+0.00
+0.00
+0.00
+0.30
+0.00
+0.09
+501
+0.00
+0.06
+0.30
+0.00
+0.00
+0.00
+0.00
+0.00
+0.63
+0.26
+0.00
+0.03
+0.00
+0.00
+0.00
+0.00
+0.00
+
+6.05
+1.80
+1.15
+1.15
+1.15
+0.92
+0.66
+0.76
+0.74
+0.13
+3998
+48.00
+102.09
+1.30
+1.64
+0.13
+1.00
+6.84
+1.00
+0.36
+0.24
+1.00
+44.47
+92.97
+74.61
+1.00
+1.00
+1.00
+
+Deﬁnition and summary statistics for other variables used in this paper. Panel A deﬁnes each variable and Panel B provides summary statistics for ﬁrms with assets between
+0.5–4 trillion won, including banks and SOEs. Book and market values are measured at year end, except that market values for mid-2001 are measured on the last day of June.
+Firms with missing data for R&D/sales, advertising/sales, or exports/sales are assumed to have 0 values for these variables.
+
+1999 (3 trading days after the Aug. 25 announcement). We are not
+aware of other regulatory changes during this period that differentially affected large and small ﬁrms. The size threshold was raised
+
+to 2 trillion won during September and October, 1999; there is no
+single clean event for this change. We summarize the key events in
+Table 3; Black and Kim (2012) provide further details.
+
+138
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+
+Table 3
+Key announcement dates for 1999 Korean governance reforms.
+Event
+
+Dates
+
+Information
+
+1998: various
+
+1998 reforms, effective starting with 1999 annual general shareholder meeting (AGM), require all listed ﬁrms to have a minimum of 25%
+outside directors.
+Corporate Governance Reform Committee created to recommend reforms.
+President appoints new Minister of Finance and Economy and other economic ministers; instructs them to focus on chaebol reform, they
+so report to the press.
+News articles: government economic policy will shift from ‘‘lower leverage’’ to ‘‘corporate governance reform’’ (understood to
+include independent directors and audit committees).
+Speech by new Minister of Finance and Economy: chaebol reform will focus on corporate governance reform.
+Ministry of Finance and Economy says some provisions in the Korean Corporate Governance Code will be mandated by law, mentions
+higher outside director ratio, audit committees, and minority shareholders’ rights.
+Government announces that audit committee, dominated by outside directors, will be mandated for large ﬁrms (size threshold is
+not speciﬁed).
+Government announces plans to require large ﬁrms (news stories speculate that threshold will be 1 trillion won) to have 50%
+outside directors and a director nomination committee, dominated by outside directors. Ministry of Justice announces a reform
+bill to allow companies to adopt board committees, including an audit committee with at least three members, with at least 2/3
+outside directors. Proposal also includes more details on previously announced chaebol reforms, of which the most signiﬁcant
+were limits on investments by one chaebol member in another and board approval and disclosure of large related party
+transactions.
+Corporate Governance Reform Committee releases ﬁrst draft of proposed Corporate Governance Code. For large ﬁrms (> 1 trillion
+won), the Code recommends 50% outside directors. For all ﬁrms, it recommends (i) an audit committee, with at least one member
+having expertise in auditing; (ii) an outside director nominating committee; (iii) a board with at least eight directors; (iv)
+cumulative voting for directors.
+Government announces that it is considering raising the size threshold to 2 trillion won.
+Government submits a bill to require large ﬁrms to have: (i) at least 50% outside directors; (ii) at least three outside directors; (iii) an
+audit committee composed of at least 2/3 outside directors; (iv) an outside director nomination committee composed of at least 50%
+outside directors.
+National Assembly passes a bill to revise the Securities Transaction Act to require large ﬁrms to have 50% outside directors, an audit
+committee, and an outside director nomination committee. Audit committee, outside director nomination committee, and a minimum of
+three outside directors are required as of the ﬁrst AGM after January 21, 2000. The 50% outside director ratio should be met on the ﬁrst
+AGM after ﬁscal year 2000.
+
+March 18, 1999
+May 24–26, 1999
+1
+
+June 2, 1999
+June 3, 1999
+June 25, 1999
+
+2
+
+July 2, 1999
+
+3
+
+August 25, 1999
+
+August 26, 1999
+
+Sept. 21–29, 1999
+November 22, 1999
+
+December 16, 1999
+
+Key announcements for 1999 reforms governing outside directors, audit committees, and nominating committees for listed Korean ﬁrms, from search of KINDS (Korean
+Integrated News Database System) database, which includes all major Korean newspapers. Announcements used in event study are in boldface.
+
+We compute cumulative market adjusted returns (CMARs) to
+large-plus ﬁrms during the event period, relative to a ‘‘Mid-sized
+Index’’ – an equally weighted index of the mid-sized ﬁrms in our
+sample. The CMARs are the sum of daily MARs over the event period. Size is measured at year-end 1998.
+
+rise in prices for large-plus non-chaebol ﬁrms in April 1999 (well
+before the start of the reform period), but no relative trend for
+large-plus, positive-ERI versus negative-ERI ﬁrms.
+
+3.1. Graphical results
+
+We turn next to regression analysis of the event period returns.
+We regress the CMARs on treatment group dummy variables and
+control variables. A typical regression is:
+
+We begin with graphical results. Fig. 3, Panel A, shows CMARs,
+over May 20–September 9, 1999 (10 trading days before Event 1
+through 10 trading days after Event 3), for three groups of largeplus ﬁrms: (i) positive-ERI chaebol ﬁrms; (ii) negative-ERI chaebol
+ﬁrms; and (iii) non-chaebol ﬁrms, for whom we cannot compute
+ERI. Vertical lines indicate the principal event dates (June 3, July
+2, and August 25); dotted vertical lines indicate the full event period. During the event period, the returns to the positive-ERI subsample are strongly positive, while the returns to the other two
+groups are not. Fig. 3 thus provides evidence that investors see
+the reforms as very good news for large-plus, positive-ERI ﬁrms,
+but only mildly good news for other large-plus ﬁrms. Total event
+period returns to the positive-ERI ﬁrms are around 30%, compared
+to under 5% for the other two treatment groups. These differences
+between groups of treated ﬁrms is consistent with investors anticipating that the governance reforms will beneﬁt minority shareholders by limiting tunneling at positive-ERI ﬁrms.12
+Fig. 3, Panel B extends the plot in Panel A to cover a longer window (March 31–October 31, 1999) and conﬁrms this ﬁnding. The
+gap between CMARs for positive versus negative-ERI ﬁrms persists
+after the event period. In the pre-reform period, there is a relative
+12
+The divergence between large-plus and mid-sized ﬁrms during the event period
+does not appear to be related to overall market movements. During the event period,
+overall share prices are ﬂat to slightly declining. There is also little divergence
+between large-plus and mid-sized ﬁrms earlier in 1999, when overall share prices
+were rising strongly.
+
+3.2. Regression results
+
+CMARi ¼ a þ
+
+X
+X
+ðck  Dtreat;k Þ þ
+ðkj  Xj Þ þ ei
+k
+
+ð2Þ
+
+j
+
+Here k indexes the three treatment groups, Dtreat,k is a dummy variable for treatment group k (=1 if ﬁrm i belongs to group k, 0 otherwise)
+and X is a vector of control variables. The coefﬁcients ck capture the
+average CMARs for the treatment groups over the event period.
+In Table 4 Panel A, we report CMARs for the full event period,
+from June 1 to August 30, 1999, separately for large-plus positive-ERI chaebol ﬁrms; large-plus negative-ERI chaebol ﬁrms, and
+large-plus non-chaebol ﬁrms (with missing ERI); the sample also
+includes the control group of mid-sized ﬁrms. The event period is
+common to all ﬁrms, so returns are likely to violate the usual
+regression assumption of independent observations. In particular,
+ﬁrms in the same industry could move together. We allow for this
+possibility by computing standard errors using industry-group
+clusters, with industries based on 4-digit Korea industry codes.13
+13
+This approach allows for cross-sectional correlation within industry, but assumes
+independence across industries. This is a compromise between the potential for crosssectional correlation to produce biased standard errors, and the need to preserve
+statistical power. Brown and Warner (1985, p. 22) suggest that there can be ‘‘gains
+from procedures assuming independence [across industries] . . . even when . . . all
+[ﬁrms] have the same event date.’’ Bernard (1987, at 11 and Table 1) similarly ﬁnds
+that while intraindustry correlation can be important, ‘‘interindustry cross-sectional
+correlation is small relative to intraindustry correlation.’’
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+
+139
+
+A 35%
+30%
+
+CMAR (%)
+
+25%
+20%
+15%
+10%
+5%
+0%
+-5%
+-10%
+
+19990520
+19990525
+19990528
+19990602
+19990607
+19990610
+19990615
+19990618
+19990623
+19990628
+19990701
+19990706
+19990709
+19990714
+19990719
+19990722
+19990727
+19990730
+19990804
+19990809
+19990812
+19990817
+19990820
+19990825
+19990830
+19990903
+19990908
+
+-15%
+
+Large-plus Positive ERI
+
+B
+
+Large-plus Negative ERI
+
+Large-plus Missing ERI
+
+35%
+30%
+25%
+
+CMAR (%)
+
+20%
+15%
+10%
+5%
+0%
+-5%
+-10%
+-15%
+19990331
+19990408
+19990415
+19990422
+19990429
+19990507
+19990514
+19990521
+19990528
+19990604
+19990611
+19990618
+19990625
+19990702
+19990709
+19990716
+19990723
+19990730
+19990806
+19990813
+19990820
+19990827
+19990906
+19990913
+19990920
+19990929
+19991006
+19991013
+19991020
+19991027
+
+-20%
+
+Large-plus Positive ERI
+
+Large-plus Negative ERI
+
+Large-plus Missing ERI
+
+Fig. 3. Event period returns to large-plus ﬁrms. Panel A. Cumulative market adjusted returns (CMARs) over May 20–September 9, 1999 (ten trading days before event 1
+through 10 trading days after event 3), to three treatment groups of large-plus ﬁrms (1 trillion won < assets < 4 trillion won), relative to equally weighted index of 47 midsized ﬁrms (0.5 trillion won < assets < 1 trillion won). Solid vertical lines indicate principal event dates (June 3, July 2, August 25); dotted vertical lines indicate start and end
+of principal event period. Panel B. CMARs over March 31–October 31, 1999, to same three treatment groups. Solid vertical lines indicate principal event dates. Both panels.
+Principal event period is June 1–August 30, 1999 (from Event 1 minus 2 days to Event 3 plus 3 days). Treatment groups are: (1) 19 chaebol ﬁrms with mean Expropriation Risk
+Index (ERI, deﬁned in text, over 1998–1999) > 0; (2) 16 chaebol ﬁrms with mean ERI < 0; and (3) 19 non-chaebol ﬁrms with missing ERI. We drop outlier observations for
+which a studentized residual from regressing CMAR on applicable treatment group dummy > ± 1.96. Assets are measured at year-end 1998. Sample excludes banks and SOEs.
+
+We also drop outlier observations for which (a studentized residual
+obtained by regressing CMAR on the applicable treatment dummy)
+> ± 1.96, because outlier observations are likely to reﬂect ﬁrm-speciﬁc news, rather than a response to the governance reforms.
+Regression (1) includes only the treatment dummies and a constant term. The return to large-plus positive ERI ﬁrms is strongly
+positive at 28% (t = 3.51). The returns to the other two groups are
+positive, but small and not signiﬁcant.
+The treated and control ﬁrms differ in size, which might separately predict event period returns. In regression (2), we therefore
+also control for ln(market cap). In regression (3), we use a ﬂexible
+size control – the ﬁrst six powers of ln(market cap). Regression (4)
+further adds a battery of control variables, listed in Table 2. The
+
+CMARs for large-plus positive-ERI ﬁrms are similar across speciﬁcations and range from 28–32%.
+The CMARs for the other two treatment groups are higher in
+regression (4), at 11% for large-plus, negative ERI ﬁrms and 14%
+for non-chaebol ﬁrms, but remain individually and jointly statistically insigniﬁcant. Although insigniﬁcant, the positive returns for
+these two groups suggest that investors believed the reforms had
+value for these other two groups as well, but less value than for
+large-plus positive-ERI ﬁrms.
+In regression (5), we use two treatment groups: large-plus
+chaebol ﬁrms and large-plus non-chaebol ﬁrms, and also interact
+the large-plus chaebol dummy with a positive ERI dummy; the
+control group is again mid-sized ﬁrms. The coefﬁcient on the
+
+140
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+
+Table 4
+Event period abnormal returns.
+Panel A: Events 1–3 (June 1–August 30)
+Dependent variable
+Methodology
+
+CMAR
+Regression, with industry-group clusters
+
+CAR
+Event study
+
+Treatment group
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+1. Large-plus, positive ERI
+
+0.2821⁄⁄⁄
+(3.51)
+0.0361
+(0.61)
+0.0440
+(0.48)
+
+0.3166⁄⁄⁄
+(3.64)
+0.0652
+(1.00)
+0.0774
+(0.83)
+
+0.3022⁄⁄⁄
+(3.16)
+0.0395
+(0.63)
+0.0474
+(0.50)
+
+0.3162⁄⁄⁄
+(3.04)
+0.1089
+(1.24)
+0.1388
+(1.22)
+
+0.0332
+(0.63)
+N
+N
+
+0.0375
+(1.59)
+0.1510
+(1.37)
+N
+N
+
+344.36
+(1.69)
+287.34
+(1.73)
+Y
+N
+
+498.57⁄⁄
+(2.16)
+412.77
+(2.17)
+Y
+Y
+
+0.0774
+(0.83)
+0.0652
+(1.00)
+0.2514⁄⁄⁄
+(4.79)
+0.0375
+(1.59)
+0.1510
+(1.37)
+N
+N
+
+17/13/18
+43
+0.1587
+
+17/13/18
+43
+0.1653
+
+17/13/18
+43
+0.1671
+
+16/11/18
+41
+0.1974
+
+17/13/18
+43
+0.1653
+
+2. Large-plus, negative ERI
+3. Large-plus, ERI missing
+Large-plus, ERI non-missing
+ Large-plus, positive ERI
+ln(market cap)
+Constant
+6 Powers of ln(market cap)
+Other controls
+Observations
+Group 1/2/3
+Midsized ﬁrms
+Adjusted R2
+
+(5)
+
+(6)
+0.3150⁄⁄⁄
+(3.64)
+0.051
+(0.49)
+0.0688
+(0.88)
+
+19/16/19
+47
+
+Panel B: Event 2 (June 30–July 7)
+Dependent variable
+Methodology
+
+CMAR
+Regression, with industry-group clusters
+
+CAR
+Event study
+
+Treatment group
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+1. Large-plus, positive ERI
+
+0.0845⁄⁄⁄
+(3.74)
+0.0084
+(0.45)
+0.0291⁄
+(1.98)
+
+0.1070⁄⁄⁄
+(4.00)
+0.0248
+(1.17)
+0.0506⁄⁄
+(2.58)
+
+0.1076⁄⁄⁄
+(4.43)
+0.0357⁄
+(1.84)
+0.0525⁄⁄⁄
+(2.83)
+
+0.0955⁄⁄⁄
+(2.96)
+0.0650
+(1.68)
+0.0926⁄⁄⁄
+(3.62)
+
+6 powers of ln(market cap)
+Other controls
+
+0.0043
+(0.41)
+N
+N
+
+0.0208⁄
+(1.87)
+0.0978
+(1.74)
+N
+N
+
+100.67
+(1.69)
+86.11
+(1.77)
+Y
+N
+
+136.55⁄⁄
+(2.29)
+114.16
+(2.34)
+Y
+Y
+
+0.0506⁄⁄
+(2.58)
+0.0248
+(1.17)
+0.0822⁄⁄⁄
+(3.73)
+0.0208⁄
+(-1.87)
+0.0978
+(1.74)
+N
+N
+
+Observations
+Group 1/2/3
+Midsized ﬁrms
+Adjusted R2
+
+17/15/16
+46
+0.1118
+
+17/15/16
+46
+0.1418
+
+17/15/16
+46
+0.2077
+
+17/12/16
+43
+0.2753
+
+17/15/16
+46
+0.1418
+
+2. Large-plus, negative ERI
+3. Large-plus, ERI missing
+Large-plus, ERI non-missing
+ Large-plus, positive ERI
+ln(market cap)
+Constant
+
+(5)
+
+(6)
+0.0992⁄⁄⁄
+(3.77)
+0.0074
+(0.23)
+0.0536⁄⁄
+(2.24)
+
+19/16/19
+47
+
+Panel C: Event 3 (August 23–August 30)
+Dependent variable
+Methodology
+
+CMAR
+Regression, with industry-group clusters
+
+CAR
+Event study
+
+Treatment group
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+1. Large-plus, positive ERI
+
+0.0662⁄⁄⁄
+(3.50)
+0.0358⁄⁄
+(2.10)
+0.0114
+(0.66)
+
+0.0747⁄⁄⁄
+(3.74)
+0.0421⁄⁄
+(2.50)
+0.0189
+(0.99)
+
+0.0723⁄⁄⁄
+(3.99)
+0.0491⁄⁄⁄
+(3.22)
+0.0157
+(0.93)
+
+0.0456⁄
+(1.85)
+0.0387⁄
+(1.89)
+0.0257
+(1.27)
+
+0.0042
+(0.32)
+N
+N
+
+0.0080
+(1.02)
+0.0346
+(0.81)
+N
+N
+
+47.05
+(1.01)
+39.35
+(1.00)
+Y
+N
+
+103.12
+(1.56)
+86.43
+(1.59)
+Y
+Y
+
+2. Large-plus, negative ERI
+3. Large-plus, ERI missing
+Large-plus, ERI non-missing
+ Large-plus, positive ERI
+ln(market cap)
+Constant
+6 Powers of ln(market cap)
+Other controls
+
+(5)
+
+0.0189
+(0.99)
+0.0421⁄⁄
+(2.50)
+0.0326⁄⁄⁄
+(2.84)
+0.0080
+(1.02)
+0.0346
+(0.81)
+N
+N
+
+(6)
+0.0609⁄⁄
+(2.31)
+0.0083
+(0.27)
+0.019
+(0.78)
+
+141
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+Table 4 (continued)
+Panel C: Event 3 (August 23–August 30)
+Dependent variable
+Methodology
+
+CMAR
+Regression, with industry-group clusters
+
+CAR
+Event study
+
+Treatment group
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+Observations
+Group 1/2/3
+Midsized ﬁrms
+Adjusted R2
+
+19/14/18
+44
+0.1333
+
+19/14/18
+44
+0.1339
+
+19/14/18
+44
+0.1382
+
+18/11/18
+41
+0.1940
+
+19/14/18
+44
+0.1339
+
+19/16/19
+47
+
+Regressions (1)–(5): Cumulative market adjusted returns (CMARs) for large-plus ﬁrms (1 trillion won < assets < 4 trillion won; excluding banks and SOEs) relative to midsized ﬁrms (0.5 trillion won < assets < 1 trillion won), over various event periods. Regressions (1)–(4) show CMARs for ﬁrms in three treatment groups of large-plus ﬁrms: (1)
+chaebol ﬁrms with positive Expropriation Risk Index (mean ERI, deﬁned in text, over 1998–1999) > 0; (2) chaebol ﬁrms with negative ERI; and (3) non-chaebol ﬁrms with
+missing ERI. Regression (5) shows CMARs for ﬁrms in two treatment groups of large-plus ﬁrms, one with ERI missing, the other with ERI non-missing, and interacts ERI nonmissing dummy with a positive ERI dummy. For each regression, we drop outlier observations for which (a studentized residual obtained by regressing CMAR on applicable
+treatment dummy) > ± 1.96. Column (6) shows cumulative abnormal returns (CARs) over event period, relative to equally-weighted indexed mid-sized ﬁrms, from separate
+classic event studies (one for each treatment group) in which we combine all ﬁrms in each treatment group into a single equally-weighted portfolio. Market model is
+estimated over Jan–May and September–December 1999. Assets are measured at year-end 1998. ⁄, ⁄⁄, and ⁄⁄⁄ indicate signiﬁcance at 10%, 5%, and 1% levels. t-statistics, using
+industry-group clusters, are in parentheses. Signiﬁcant results (at 5% level or better) are in boldface (suppressed for constant term).
+
+non-interacted chaebol dummy provides an estimate of the CMAR
+for negative-ERI chaebol ﬁrms. The coefﬁcient on the interaction
+term measures the difference in returns between positive- and negative-ERI chaebol ﬁrms. The interaction term is large (25%) and statistically signiﬁcant (t = 4.79), indicating greater event-period
+returns for positive-ERI chaebol ﬁrms than for negative-ERI chaebol
+ﬁrms.
+Finally, in column (6), we switch to a classic event study methodology, and do not exclude outliers. We combine all ﬁrms in each
+treatment group into a single portfolio. This fully allows for crosssectional correlation within each group, at the cost of lower statistical power, but assumes independence across groups. We estimate
+the cumulative abnormal return (CAR) to this portfolio over the
+event period, relative to the Mid-sized Index.14 The coefﬁcients in
+column (6) come from separate event studies for each treatment
+group. The average CAR for large-plus, positive-ERI ﬁrms is 0.315
+and statistically strong (t = 3.64). The average CARs for the other
+groups are statistically insigniﬁcant.
+In Table 4, Panels B and C, we show the results over narrower
+event windows around events 2 and 3. These are the principal
+events for which investors had reason to expect the reforms to apply
+to ﬁrms above a size threshold. The results are consistent with those
+for the full event window. During a (2,+3) window around Event 2,
+large-plus, positive ERI chaebol ﬁrms earn positive, signiﬁcant
+returns of 8–11%. During a similar window around Event 3, these
+ﬁrms earn positive, signiﬁcant returns of 4–8%. During the periods
+around both events, large-plus, positive-ERI chaebol ﬁrms realize
+signiﬁcantly higher returns than their negative-ERI counterparts.
+Although the full-window returns are positive and signiﬁcant
+only for positive-ERI ﬁrms, we ﬁnd signiﬁcant, positive returns to
+large-plus non-chaebol ﬁrms for Event 2 and signiﬁcant, positive
+returns to negative-ERI ﬁrms for Event 3. This is consistent with
+investors seeing the governance reforms as likely to limit tunneling, or have other beneﬁts, for all ﬁrms, not only positive-ERI ﬁrms.
+The short-window results suggest that investors see the Board
+Structure reforms are good news for all treated ﬁrms, but much
+stronger good news for positive-ERI ﬁrms.
+Our deﬁnition of ERI implies that positive-ERI ﬁrms will tend to
+have lower inside ownership than negative-ERI ﬁrms. Among
+large-plus ﬁrms, the mean for ‘‘cash ﬂow rights’’ of the control
+group (deﬁned as direct and indirect ownership of the ﬁrm’s shares
+by the control group) is 10.6% for positive ERI ﬁrms versus 20.2%
+for negative ERI ﬁrms. We therefore assess, in unreported regressions, whether ERI or cash-ﬂow rights are a better predictor of
+
+14
+Firms are equally weighted. We estimate the market model over January–May
+and September–December 1999.
+
+event period returns. If we add cash ﬂow rights to the event study
+regressions in Table 4, Panel A, this variable takes a small and insigniﬁcant coefﬁcient and the coefﬁcients on large-plus, positive ERI
+dummy change only slightly. If we add cash ﬂow rights plus its
+interactions with large-plus, positive-ERI dummy and large-plus
+negative ERI dummy to regressions (3)–(4) in Panel A, the
+coefﬁcients on the interaction terms are insigniﬁcant, while the
+coefﬁcients on the large-plus, positive-ERI dummies remain strong
+(generally higher coefﬁcients and t-values).
+In unreported analyses, we use a DiD approach with consistent
+but weaker results. Following Black and Kim (2012), we regress the
+change in ln(Tobin’s q) for large and mid-sized ﬁrms from just
+before the reform period (May 31, 1999) to December 31, 1999,
+on two treatment dummies (large, positive-ERI and large, negative-ERI). We use mid-sized ﬁrms (assets from 0.5 to 2 trillion
+won) as the control group and large ﬁrms (assets from 2 to 8 trillion won) as the treated group. We use 8 trillion as the upper
+bound on size, versus the 4 trillion won limit in the event study,
+to enhance sample size. This provides a treated sample of 33 large
+ﬁrms (22 with positive ERI, 11 with negative ERI; we drop large
+ﬁrms with missing ERI). The coefﬁcient on large, positive ERI
+dummy is statistically signiﬁcant (coefﬁcient = 0.127, t = 1.96);
+the coefﬁcient for large, negative ERI ﬁrms is insigniﬁcant (coefﬁcient = 0.035, t = 0.76).15
+The event study results provide evidence that investors expect
+the governance reforms to increase value for positive-ERI ﬁrms,
+presumably by reducing tunneling. They suggest, but less strongly,
+that investors expect the reforms to speciﬁcally reduce cash-ﬂow
+tunneling. Positive ERI could also proxy for tunneling risk more
+broadly, including the risk of extraordinary related-party transactions, such as the mergers within chaebol groups studied by Bae
+et al. (2002) or the intragroup loans to weaker members of Indian
+business groups documented by Gopalan et al. (2007).
+
+4. RPT-to-value regression results
+We next assess the relationship between RPTs and ﬁrm value,
+and whether governance mediates this relationship. We ﬁrst assess
+15
+We ﬁnd similar DiD results if we use a narrower upper size bound of 4 trillion
+won. With this upper bound, we have only 12 large positive-ERI ﬁrms and 7 negative
+ERI ﬁrms. The large-positive-ERI ﬁrms show an 0.11 (t = 1.23) rise in ln(q) relative to
+mid-sized ﬁrms, and a .077 (t = 1.34) rise in ln(Tobin’s q), relative to large, negativeERI ﬁrms. Lack of statistical signiﬁcance is not surprising due to the small sample
+sizes. For all 28 large ﬁrms with assets from 2 to 4 trillion won, Black and Kim (2012)
+ﬁnd a positive and statistically signiﬁcant jump in ln(Tobin’s q) from May to
+December 1999, relative to mid-sized ﬁrms (coefﬁcient on large-ﬁrm dummy of 0.17,
+t = 2.31)).
+
+142
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+
+Table 5
+Corporate governance and volume of related-party transactions.
+
+Firm random effects (RE) and ﬁxed effects (FE) regressions of RPTs/sales on KCGI,
+control variables, year dummies, industry dummies (for RE), and constant term, for
+ﬁrms (excluding banks and SOEs) with 0.5 trillion won < assets < 4 trillion won. The
+odd-numbered regressions use RE, the even-numbered regressions use FE. Sample
+for regressions (3) and (4) is limited to chaebol ﬁrms. Observations are identiﬁed as
+outliers each year if a studentized residual from regressing RPTs/sales on
+KCGI > ± 1.96. All regressions use unbalanced panels and year dummies. Control
+variables are the same as in Table 7, except we drop top-30 chaebol dummy in
+regressions (3) and (4). t-statistics, with standard errors clustered on ﬁrm, are in
+parentheses. R2 is overall for RE, within for FE.
+
+whether governance affects the level of RPTs that ﬁrms engage in,
+and ﬁnd that it does not. We then study whether governance
+appears to affect the value of RPTs, and ﬁnd evidence that it does.
+4.1. Regression model
+In Table 5 and later regression tables, we use a standard ﬁrm
+effects model, with ﬁrm ﬁxed effects (FE) or ﬁrm random effects
+(RE) (Wooldridge, 2010, § 10.2). The model for Table 5 is:
+
+ðRPTs=salesÞi;t ¼ b0 þ b1  KCGIi;t þ b2  xi;t þ g t þ f i þ ei;t
+
+ð3Þ
+
+Here xi,t is a vector of covariates, which we assume to be exogenous,
+gt are year dummies and fi are ﬁrm effects. Exogeneity requires that
+current KCGI does not inﬂuence future x’s. The random effects
+model also assumes ‘‘strict exogeneity’’ of the ﬁrm effects; one form
+of this assumption is that the ﬁrm effects are uncorrelated with the
+covariates in all time periods: Cov(fi, xi,t) = 0 " t. These exogeneity
+conditions are unlikely to be strictly true, but may be a reasonable
+approximation. First, ﬁrm characteristics only weakly predict corporate governance (Black et al., 2006b). Bhargava and Sargan
+(1983) suggest that exogeneity is more reasonable if one uses RE
+or FE to address unobserved heterogeneity, has a relatively ‘‘short’’
+time dimension, and a time-persistent variable of interest. Both FE
+and RE will be inconsistent if there are omitted time-varying ﬁrm
+covariates that correlate with both KCGI and the outcome variable.
+The FE estimator is consistent even if the ﬁrm effects are correlated
+with KCGI and other covariates, but relies only on within-ﬁrm variation, and thus has less power.
+Strict exogeneity is unlikely to be satisﬁed in governance
+studies. Thus, given sufﬁcient time variation in governance, FE is
+ordinarily preferred. However, RE has greater power, due to ability
+to exploit both within-ﬁrm and across-ﬁrm variation. In Table 5,
+where we study whether KCGI predicts RPT volume, we use both
+RE and FE speciﬁcations, because RE provides a check on the null
+results we obtain with FE. Also, the RE estimator converges to
+the FE estimator as the ‘‘random effects k’’ approaches 1. Let re
+and rf be the standard deviations of ei,t and fi, T be the number
+of periods. Then k is deﬁned as:
+
+re
+
+k ¼ 1  qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+r2e þ T  r2f
+
+The median k’s in the RE speciﬁcations in Table 5 are around 0.7.
+Thus, the additional bias of RE estimates relative to FE, due to violation of the strict exogeneity assumption, should be limited. In
+later tables, we use the stronger FE speciﬁcation.
+Unlike our event study, we no longer have an explicit RD design.
+We do, however, continue to limit the sample to mid-sized ﬁrms
+with assets from 0.5 to 2 trillion won and large ﬁrms with assets
+from 2 to 4 trillion won. All regressions include extensive control
+variables (listed in Table 2), but we generally suppress the coefﬁcients on control variables to save space. We use standard errors
+with ﬁrm clusters to address the correlation between observations
+of each ﬁrm across time. To reduce the inﬂuence of outliers, we
+identify ﬁrm-year observations as outliers and drop them if (a studentized residual from regressing the dependent variable on KCGI)
+> ± 1.96. In unreported results, we obtain similar results if we do
+not exclude outliers.
+4.2. Evidence on volume of RPTs
+Governance can potentially affect RPTs in two distinct ways.
+First, better-governed ﬁrms could engage in fewer RPTs. Second,
+governance could affect the pricing of the RPTs that ﬁrms engage
+in. We consider ﬁrst whether governance affects RPT volume. We
+begin by observing that RPTs are common, especially for chaebol
+ﬁrms. The mean (median) ratio of RPTs/sales for chaebol ﬁrms is
+0.27 (0.20); compared to 0.10 (0.03) for non-chaebol ﬁrms (see
+Table 2, Panel B). In Table 5, regressions (1)–(2), which cover all
+mid-sized and large ﬁrms, we ﬁnd no relationship between KCGI
+and RPT volume. The coefﬁcients on KCGI are small, statistically
+insigniﬁcant, and positive. We obtain similar, null results in regressions (3)–(4), which are limited to chaebol ﬁrms.16
+The lack of effect of governance on RPT volume could mean that
+governance is ineffective in controlling RPTs. But it could also
+mean that transacting with related parties is efﬁcient, and that
+the harm to minority investors comes from RPT pricing, not from
+transactions with related parties as such. Note that improved pricing implies lower private beneﬁts for insiders, but not higher overall ﬁrm value.
+In Table 6, Panel A, regression (1), we assess whether RPT volume predicts Tobin’s q, for mid-sized and large chaebol ﬁrms taken
+together. It does not; the coefﬁcient on RPT/sales is insigniﬁcant
+but positive; where we would expect a negative sign if investors
+were generally averse to RPTs. In regression (2), we add KCGI as
+an additional independent variable; the coefﬁcient on RPTs/sales
+remains positive and the coefﬁcient on KCGI is positive but only
+marginally signiﬁcant. These results are consistent with RPTs being
+efﬁcient for ﬁrms, on the whole, so that the principal concern for
+these transactions is fairness of pricing, rather than the choice to
+deal with a related party rather than an unrelated party.
+4.3. Evidence on RPTs, governance, and ﬁrm value: Chaebol ﬁrms
+In the remaining columns of Table 6, Panel A, we provide
+indirect evidence that KCGI inﬂuences RPT pricing. In regressions
+(3)–(6), we add an interaction between KCGI and RPTs/sales. A representative speciﬁcation, for regression (3), is:
+
+ln ðTobin’sqÞi;t ¼ b0 þ b1  ðRPTs=salesÞi;t þ b2  KCGIi;t þ b3
+ ðRPTs=salesÞi;t  KCGIi;t þ b4  xi;t þ g t þ f i
+þ ei;t
+
+ð4Þ
+
+16
+Compare the cross-country study by Dahya et al. (2008), who ﬁnd a barely
+signiﬁcant negative coefﬁcient on proportion of independent directors in predicting
+an existence-of-RPTs dummy variable.
+
+143
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+Table 6
+Corporate governance, related-party transactions, and ﬁrm value (chaebol ﬁrms).
+Panel A: Interact KCGI (or KCGI Dummy) with related-party transactions
+Dependent variable: ln(Tobin’ q)
+(1)
+(2)
+(3)
+Chaebol
+Mean ERI
+RPTs/sales
+
+All
+All
+0.0589
+(1.05)
+
+All
+All
+0.0629
+(1.12)
+
+ KCGI
+
+All
+All
+0.1328
+(1.04)
+0.0046⁄
+(1.72)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+
+All
+>0
+0.1753
+(1.32)
+0.0050⁄
+(1.69)
+
+Top 18
+>0
+0.1938
+(1.56)
+0.0068⁄⁄
+(2.41)
+
+All
+60
+0.1323
+(0.48)
+0.0054
+(1.15)
+
+All
+All
+0.0070
+(0.11)
+
+All
+>0
+0.0615
+(0.93)
+
+Top 18
+>0
+0.0416
+(0.77)
+
+All
+60
+0.0740
+(0.52)
+
+0.0983
+(1.60)
+
+0.1758⁄⁄
+(2.45)
+
+0.3023⁄⁄⁄
+(4.06)
+
+0.0376
+(0.30)
+
+0.0195
+(0.57)
+Y
+509
+104/41
+0.223
+
+0.0495
+(1.17)
+Y
+318
+65/25
+0.225
+
+0.0659⁄
+(1.84)
+Y
+189
+41/20
+0.353
+
+0.1178⁄
+(1.93)
+Y
+191
+39/16
+0.436
+
+ KCGI Dummy (>40)
+⁄
+
+KCGI
+
+0.0024
+(1.67)
+
+0.0012
+(0.75)
+
+0.0007
+(0.39)
+
+0.0007
+(0.43)
+
+0.0044
+(1.31)
+
+KCGI Dummy (>40)
+Controls, constant term
+No. of observations
+No. of ﬁrms/large ﬁrms
+Within R2
+
+Y
+509
+104/41
+0.207
+
+Y
+509
+104/41
+0.215
+
+Y
+509
+104/41
+0.223
+
+Y
+318
+65/25
+0.216
+
+Y
+189
+41/20
+0.314
+
+Y
+191
+39/16
+0.436
+
+Panel B: Interact KCGI (or KCGI Dummy) separately with related-party sales and purchases
+Dependent variable: ln(Tobin’s q)
+(1)
+(2)
+(3)
+(4)
+(5)
+Chaebol
+Mean ERI
+RPSs/sales
+
+All
+All
+0.0462
+(0.54)
+
+All
+All
+0.0380
+(0.45)
+
+ KCGI
+
+All
+All
+0.0289
+(0.17)
+0.0004
+(0.10)
+
+All
+>0
+0.0057
+(0.03)
+0.0035
+(0.79)
+
+Top 18
+>0
+0.2938
+(1.08)
+0.0027
+(0.39)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+
+All
+60
+0.3905
+(0.97)
+0.0118
+(1.18)
+
+All
+All
+0.0435
+(0.49)
+
+All
+>0
+0.1383
+(1.30)
+
+Top 18
+>0
+0.1896
+(1.61)
+
+All
+60
+0.1303
+(0.86)
+
+0.0071
+(0.09)
+0.0390
+(0.25)
+
+0.0411
+(0.38)
+0.0167
+(0.10)
+
+0.1564
+(0.78)
+0.1350
+(1.07)
+
+0.0807
+(0.44)
+0.0580
+(0.23)
+
+0.2727⁄
+(1.71)
+
+0.3227⁄⁄
+(1.97)
+
+0.3098
+(1.67)
+
+0.1431
+(0.59)
+
+0.0086
+(0.25)
+Y
+509
+104/41
+0.1682
+0.234
+
+0.0503
+(1.19)
+Y
+318
+65/25
+0.0590⁄
+0.244
+
+0.0431
+(1.05)
+Y
+189
+41/20
+0.0329⁄⁄
+0.380
+
+0.0982
+(1.59)
+Y
+191
+39/16
+0.8070
+0.437
+
+ KCGI Dummy (>40)
+RPPs/sales
+
+0.1974⁄
+(1.76)
+
+0.1949⁄
+(1.73)
+
+ KCGI
+
+0.2761
+(0.89)
+0.0114⁄
+(1.69)
+
+0.3906
+(1.23)
+0.0149⁄⁄
+(2.12)
+
+0.0287
+(0.08)
+0.0085
+(0.99)
+
+0.1814
+(0.43)
+0.0036
+(0.31)
+
+ KCGI Dummy (>40)
+KCGI
+
+0.0023
+(1.63)
+
+0.0012
+(0.74)
+
+0.0004
+(0.19)
+
+0.0001
+(0.06)
+
+0.0043
+(1.33)
+
+KCGI Dummy (>40)
+Controls, constant term
+No. of observations
+No. of ﬁrms/large ﬁrms
+F-test (p-values)
+Within R2
+
+Y
+509
+104/41
+
+Y
+509
+104/41
+
+0.214
+
+0.222
+
+Y
+509
+104/41
+0.1759
+0.235
+
+Panel C: Interact KCGI Subindices (or Subindex Dummies) with RPTs/sales
+Dependent variable: ln(Tobin’s q)
+(1)
+Chaebol
+Mean ERI
+RPTs/sales
+ Board Structure
+ Disclosure
+ Sum of other sub-indices
+
+All
+>0
+0.1888
+(0.84)
+0.0074
+(0.82)
+0.0008
+(0.07)
+0.0051
+(0.66)
+
+Y
+318
+65/25
+0.1119
+0.246
+
+Y
+189
+41/20
+0.1863
+0.360
+
+Y
+191
+39/16
+0.4260
+0.439
+
+(2)
+
+(3)
+
+(4)
+
+Top 18
+>0
+0.1420
+(0.49)
+0.0289⁄⁄⁄
+(3.22)
+0.0008
+(0.07)
+0.0059
+(0.59)
+
+All
+>0
+0.0516
+(0.61)
+
+Top 18
+>0
+0.0134
+(0.20)
+
+0.0311
+(0.25)
+0.0013
+(0.14)
+0.1389
+(1.38)
+
+0.2835⁄⁄
+(2.63)
+0.0014
+(0.15)
+0.0423
+(0.42)
+
+0.0018
+(0.04)
+0.0051
+(0.15)
+0.0140
+(0.36)
+
+0.0240
+(0.44)
+0.0001
+(0.00)
+0.0061
+(0.16)
+
+ Board Structure Dummy(> 4.2)
+ Disclosure Dummy(> 4.8)
+ Sum of other sub-indices dummy(> 31.8)
+Board Structure
+Disclosure
+Sum of other sub-indices
+Board Structure Dummy(> 4.2)
+Disclosure Dummy(> 4.8)
+Sum of other sub-indices dummy(> 31.8)
+
+0.0000
+(0.00)
+0.0026
+(0.66)
+0.0002
+(0.07)
+
+0.0032
+(0.83)
+0.0007
+(0.20)
+0.0024
+(0.60)
+
+(continued on next page)
+
+144
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+
+Table 6 (continued)
+Panel C: Interact KCGI Subindices (or Subindex Dummies) with RPTs/sales
+Dependent variable: ln(Tobin’s q)
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Controls, constant term
+No. of observations
+No. of ﬁrms/large ﬁrms
+Within R2
+
+Y
+187
+41/20
+0.341
+
+Y
+312
+65/25
+0.223
+
+Y
+187
+41/20
+0.329
+
+Y
+312
+65/25
+0.223
+
+Firm ﬁxed effects regressions for chaebol ﬁrms (excluding banks and SOEs) with 0.5 trillion won < assets < 4 trillion won. Panel A show regressions of ln(Tobin’s q) on KCGI or
+KCGI Dummy (=1 if KCGI > chaebol median of 40), (RPTs)/sales, interaction term, and control variables. Panel B replaces RPTs with purchases from (RPPs) and sales to (RPSs)
+related parties. Panel C replaces KCGI (or KCGI Dummy) with Board Structure Subindex, Disclosure Subindex, and Sum of Other Subindices (or related dummies, which = 1 if
+index > chaebol means of 4.2, 4.8, and 31.8, respectively). Expropriation Risk Index (ERI) is deﬁned in the text. Control variables are the same as in Table 7, except we drop top
+30 chaebol dummy. Sample for columns (4) and (8) is ﬁrms with mean ERI (over all sample years) > 0; columns (5) and (9) are further limited to top-18 chaebol groups (14
+groups designated as such by Korean Fair Trade Commission throughout the sample period and four groups spun off from the original 14); sample for columns (6) and (10) is
+ﬁrms with mean ERI 6 0. Observations are identiﬁed as outliers each year if a studentized residual from regressing ln(Tobin’s q) on KCGI (or KCGI dummy) > ± 1.96. All
+regressions use unbalanced panels and year dummies. t-statistics, with standard errors clustered on ﬁrm, are in parentheses. F-tests in Panel B are for joint signiﬁcance of
+KCGI (or KCGI Dummy) * RPSs/sales and * RPPs/sales. ⁄, ⁄⁄, and ⁄⁄⁄ indicate signiﬁcance at 10%, 5%, and 1% levels. Signiﬁcant results (at 5% level or better) are shown in boldface.
+
+Our principal interest is in the coefﬁcient b3 on the interaction term.
+Regressions (7)–(10) are similar except we replace KCGI with a
+KCGI dummy variable (=1 if KCGI > 40, the mean value for
+mid-sized and large chaebol ﬁrms). In regression (3), the coefﬁcient
+on the interaction between KCGI (or KCGI dummy) and RPTs/sales
+is positive and marginally signiﬁcant, while the coefﬁcient on
+RPTs/sales (the estimate for a hypothetical ﬁrm with KCGI = 0) is
+negative, although insigniﬁcant. Regression (7) is similar. These
+results provide initial, albeit mild evidence of a negative relationship between RPTs and Tobin’s q for poorly governed ﬁrms, which
+is moderated by KCGI.
+In regressions (4)–(5) and (8)–(9), we seek to sharpen these
+results, by limiting the sample to chaebol ﬁrms with positive mean
+ERI (over all sample years). Regressions (4) and (8) include all 65
+positive-ERI ﬁrms; regressions (5) and (9) are further limited to
+the 41 positive-ERI ﬁrms which belong to the 18 largest chaebol
+groups (14 groups designated as such by Korea Fair Trade Commission throughout the sample period and four groups spun off from
+the original 14). The major chaebol groups are generally believed,
+with supporting anecdotal evidence, to engage in RPTs that beneﬁt
+their controlling families. The sample for regressions (6) and (10) is
+chaebol ﬁrms with negative mean ERI.
+In regression (4), for which the sample is positive-ERI chaebol
+ﬁrms, the results from regression (3) strengthen slightly. The coefﬁcient on the RPTs/sales * KCGI interaction term increases from
+0.0046 to 0.0050 (t = 1.69)), the negative coefﬁcient on RPTs/sales
+increases in magnitude from 0.133 to 0.175. The effect of limiting the sample to positive-ERI ﬁrms shows up more strongly in
+regression (8), where we replace continuous KCGI with KCGI
+dummy. The coefﬁcient on KCGI dummy is positive and statistically
+signiﬁcant, at 0.176 (t = 2.45).
+In regressions (5) and (9), which are limited to positive ERI ﬁrms
+within the top-18 chaebol groups, our results strengthen further. In
+regression (5), the coefﬁcient on RPTs/sales * KCGI increases again,
+to 0.0068, and becomes statistically signiﬁcant (t = 2.41); the negative coefﬁcient on RPTs/sales also increases in magnitude to
+0.194. In regression (9), the coefﬁcient on KCGI dummy * RPTs/
+sales rises to 0.302 (t = 4.06). In regression (5), the 0.194 coefﬁcient on RPTs/sales implies that a 10% increase in RPTs/sales predicts a 1.94% drop in Tobin’s q for a hypothetical ﬁrm with
+KCGI = 0. This negative coefﬁcient on RPTs/sales, together with
+the +0.0068 coefﬁcient on RPTs/sales interacted with KCGI together
+imply that the predicted effect of RPTs/sales is neutral at about
+KCGI = 29, and positive for higher levels of KCGI.17
+17
+In unreported results, we ﬁnd consistent results if we use the full sample of midsized and large chaebol ﬁrms and interact KCGI dummy, RPTs/sales, and ERI dummy
+(=1 if mean ERI > 0, 0 otherwise). The coefﬁcient on this triple interaction is positive
+and marginally signiﬁcant (t = 1.94), indicating that investors expect governance to
+have a stronger moderating effect on RPT pricing for ﬁrms with positive ERI.
+
+For negative-ERI ﬁrms, in contrast, if we take regressions (6) and
+(10) together, there is no signiﬁcant evidence that RPTs are adverse
+to ﬁrm value or that KCGI moderates any impact of RPTs on ﬁrm
+value. This is clearer in regression (10). Here, the coefﬁcient on
+RPTs/sales is positive, while the coefﬁcient on the interaction
+between KCGI dummy and RPTs/sales is small and insigniﬁcant.
+Taken together, the results for chaebol ﬁrms from Table 6, Panel
+A provide evidence consistent with our event study results: Investors – when they have information on RPTs and RPT counterparties
+– appear to assess the impact of RPTs on ﬁrm market value taking
+into account the identities of the ﬁrm’s RPT counterparties, which
+predict whether the pricing of the RPTs is likely to be adverse to
+the ﬁrm. For positive-ERI ﬁrms, which are at risk of cash ﬂow tunneling through RPTs, investors treat RPTs as harmful to value at
+poorly governed ﬁrms and expect better governance to mitigate
+transfer pricing risk.
+In Table 6, Panel B, we replace related-party transactions
+(RPTs)/sales with separate variables for related-party purchases
+(RPPs/sales) and sales (RPSs/sales). The structure of Panel B is
+otherwise similar to Panel A. We provide the p-value from an F-test
+for the combined signiﬁcance of KCGI (or KCGI dummy) interacted
+with each of RPPs/sales and RPSs/sales. In big picture, the interaction between KCGI (or KCGI dummy) and RPTs is stronger for purchases from related parties than for sales to related parties. The
+coefﬁcients on the interaction term for RPPs/sales are signiﬁcant
+or marginally signiﬁcant in regressions (3)–(4) and (7)–(8). In contrast, the coefﬁcients on the interactions of KCGI and KCGI dummy
+with RPSs/sales are always insigniﬁcant and occasionally negative.
+For example, in regression (4), the coefﬁcient on RPPs/sales is negative at 0.391 and the KCGI * RPPs/sales interaction term is positive and signiﬁcant at +0.0149 (t = 2.12), while the corresponding
+coefﬁcients for RPSs/sales are small and insigniﬁcant.
+The stronger evidence for related-party purchases is consistent
+with anecdotal evidence in Korea. Public chaebol ﬁrms, with small
+family economic ownership, often purchase goods and services
+from private ﬁrms with larger, often 100% family ownership. These
+transactions provide an opportunity for the public ﬁrm to pay
+above-market prices, perhaps especially for services, since a fair
+price is often hard to determine, or for the public ﬁrm to provide
+other favorable terms to the private ﬁrm. For example, Hyundai
+Motors gives exclusive car delivery (including exporting) rights
+to an afﬁliate called Glovis, almost wholly owned by the controlling family of Hyundai Group, and pays a logistics fee to Glovis.18
+In contrast, the products of the public ﬁrms may have a more readily
+ascertainable market value, which reduces the opportunity to use
+the price term to beneﬁt the controllers. However, the greater risk
+of unfair pricing in purchases is a tendency, not a hard rule.
+18
+
+See A Scratch on Hyundai’s Paint Job, Bloomberg Business Week, April 17, 2006.
+
+145
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+Table 7
+Corporate governance, related-party transactions, and ﬁrm value (all ﬁrms with assets from 0.5 to 4 trillion won).
+Dependent variable: ln(Tobin’s q)
+RPTs/sales
+
+(1)
+0.0550
+(0.98)
+
+KCGI
+
+(2)
+0.0589
+(1.07)
+0.0028⁄⁄
+(2.42)
+
+(3)
+
+(4)
+
+0.1388
+(1.14)
+0.0017
+(1.33)
+
+0.0024
+(0.04)
+
+KCGI dummy
+KCGI or KCGI dummy  RPTs/sales
+ln(assets)
+ln(Years Listed)
+Leverage
+Sales growth
+R&D/sales
+Advertising/sales
+Export/sales
+PP&E/sales
+PP&E/sales2
+CAPEX/PP&E
+EBIT/sales
+EBIT/assets
+Market share
+Turnover
+Foreign ownership
+Chaebol dummy
+Sole ownership
+Sole ownership squared
+ADR Level 1
+MSCI
+Constant
+Within R2
+
+0.0961⁄⁄
+(2.10)
+0.0360
+(0.64)
+0.0019⁄
+(1.89)
+0.0309
+(0.52)
+0.0365
+(1.48)
+0.4103
+(0.18)
+0.0013
+(0.02)
+0.1686⁄⁄⁄
+(2.89)
+0.0216⁄⁄⁄
+(3.03)
+0.0251
+(0.46)
+0.3942⁄⁄⁄
+(2.71)
+1.0227⁄⁄⁄
+(2.82)
+0.0953
+(0.76)
+0.0019
+(0.87)
+0.0030⁄⁄⁄
+(3.48)
+0.0382
+(1.38)
+0.0027
+(0.95)
+0.0001
+(0.86)
+0.0125
+(0.23)
+0.0286
+(1.12)
+0.7325
+(2.04)
+0.1837
+
+0.0916⁄⁄
+(2.05)
+0.0296
+(0.55)
+0.0018⁄
+(1.85)
+0.0279
+(0.47)
+0.0592⁄⁄
+(2.30)
+0.3779
+(0.16)
+0.0151
+(0.19)
+0.1672⁄⁄⁄
+(2.90)
+0.0218⁄⁄⁄
+(3.10)
+0.0336
+(0.61)
+0.3903⁄⁄⁄
+(2.66)
+1.0649⁄⁄⁄
+(2.88)
+0.1052
+(0.87)
+0.0015
+(0.71)
+0.0027⁄⁄⁄
+(3.15)
+0.0403
+(1.46)
+0.0037
+(1.30)
+0.0001
+(1.06)
+0.0069
+(0.13)
+0.0245
+(0.99)
+0.7799
+(2.21)
+0.1957
+
+0.0046⁄
+(1.85)
+0.0993⁄⁄
+(2.25)
+0.0270
+(0.53)
+0.0018⁄
+(1.88)
+0.0089
+(0.15)
+0.0474⁄
+(1.88)
+0.7737
+(0.35)
+0.0182
+(0.25)
+0.1500⁄⁄
+(2.49)
+0.0191⁄⁄⁄
+(2.63)
+0.0296
+(0.52)
+0.3822⁄⁄⁄
+(2.62)
+1.0396⁄⁄⁄
+(2.83)
+0.1129
+(0.98)
+0.0014
+(0.66)
+0.0026⁄⁄⁄
+(3.14)
+0.0379
+(1.38)
+0.0039
+(1.37)
+0.0001
+(1.14)
+0.0049
+(0.08)
+0.0255
+(1.05)
+0.8070
+(2.33)
+0.2037
+
+0.0175
+(0.83)
+0.1160⁄⁄
+(2.26)
+0.1072⁄⁄
+(2.36)
+0.0228
+(0.42)
+0.0017⁄
+(1.77)
+0.0080
+(0.14)
+0.0325
+(1.31)
+0.7290
+(0.33)
+0.0115
+(0.15)
+0.1507⁄⁄
+(2.47)
+0.0188⁄⁄
+(2.51)
+0.0277
+(0.50)
+0.3742⁄⁄
+(2.43)
+0.9932⁄⁄
+(2.55)
+0.0711
+(0.61)
+0.0017
+(0.81)
+0.0029⁄⁄⁄
+(3.50)
+0.0395
+(1.45)
+0.0030
+(1.07)
+0.0001
+(0.99)
+0.0033
+(0.06)
+0.0307
+(1.23)
+0.8449
+(2.38)
+0.2012
+
+Firm ﬁxed effects regressions of ln(Tobin’s q) on indicated governance variable (KCGI or KCGI dummy), (RPTs)/sales, interaction between RPTs/sales and governance variable,
+and control variables, for sample of all ﬁrms (excluding banks and SOEs) with 0.5 trillion won < assets < 4 trillion won. Observations are identiﬁed as outliers and excluded if a
+studentized residual from regressing ln(Tobin’s q) on KCGI > ± 1.96. All regressions use unbalanced panels and year dummies. t-statistics, with standard errors clustered on
+ﬁrm, are in parentheses. Sample after excluding outliers is 768 observations of 52 large and 120 mid-sized ﬁrms. ⁄, ⁄⁄, and ⁄⁄⁄ indicate signiﬁcance at 10%, 5%, and 1% levels.
+Signiﬁcant results (at 5% level or better) are shown in boldface (suppressed for constant term).
+
+In Panel C, we investigate which subindices contribute to the
+overall effect of KCGI on the value of RPTs found in Panels A and
+B. We focus on positive-ERI chaebol ﬁrms, and replace KCGI and
+KCGI dummy, and their interactions with RPTs/sales, with separate
+variables for Board Structure Subindex, Disclosure Subindex, and
+the other subindices of KCGI combined (or, in regressions (7)–
+(10), corresponding above-mean dummy variables) and the
+interactions of these three variables with RPTs/sales.19 The principal driver of the overall interaction between KCGI and RPTs/sales is
+
+19
+We use means rather than medians to create subindex dummy variables because
+the median value of Board Structure Subindex is 0. The mean values are 4.2, 4.8, and
+31.8 respectively for Board Structure Subindex, Disclosure Subindex, and the sum of
+other subindices. We obtain similar results if we use breakpoints for the subindex
+dummy variables at the 67th percentile for each subindex.
+
+Board Structure Subindex. For this subindex, the interaction coefﬁcient is positive and statistically signiﬁcant for positive-ERI ﬁrms
+within the top-18 chaebol in regression (2), using the full Subindex.
+The interaction coefﬁcient is again positive and signiﬁcant in regression (4), where we use above-mean Board Structure Dummy. However, in regressions (1) and (3), for which the sample is all
+positive-ERI chaebol ﬁrms we do not ﬁnd signiﬁcant interactions.
+Our results can be compared to Bertrand et al. (2002), who ﬁnd
+evidence for Indian ﬁrms of tunneling through non-operating cash
+ﬂows, but no evidence that tunneling affects operating proﬁts. In
+contrast, we ﬁnd evidence consistent with controllers engaging
+in cash-ﬂow tunneling through routine RPTs, which affect operating proﬁts. Unlike Bertrand et al., we ﬁnd no evidence of tunneling
+through non-operating cash ﬂows (see Section 5.2 below). See also
+Atanasov et al. (2010), who ﬁnd evidence that when controllers of
+
+146
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+
+Table 8
+KCGI and proﬁtability of RPTs (Chaebol ﬁrms).
+Dependent variable
+
+Chaebol
+Mean ERI
+RPTs/sales
+
+EBIT/sales
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+
+All
+All
+0.0269⁄
+(1.74)
+
+All
+All
+0.0425⁄⁄
+(2.44)
+0.0299⁄
+(1.93)
+0.0114
+(1.30)
+Y
+509
+104/41
+0.140
+
+All
+>0
+0.0360⁄
+(1.80)
+0.0343⁄⁄
+(2.07)
+0.0119
+(0.96)
+Y
+319
+65/25
+0.098
+
+Top 18
+>0
+0.0522⁄⁄
+(2.22)
+0.0408
+(1.46)
+0.0173
+(0.95)
+Y
+188
+41/20
+0.200
+
+All
+60
+0.0567
+(1.59)
+0.0170
+(0.40)
+0.0103
+(0.70)
+Y
+190
+39/16
+0.287
+
+All
+All
+0.0439⁄⁄⁄
+(2.84)
+
+All
+All
+0.0777⁄⁄⁄
+(3.01)
+0.0551⁄
+(1.70)
+0.0218⁄⁄
+(2.02)
+Y
+510
+104/41
+0.240
+
+All
+>0
+0.0802⁄⁄⁄
+(2.72)
+0.0850⁄⁄
+(2.05)
+0.0288⁄
+(1.76)
+Y
+324
+65/25
+0.249
+
+Top 18
+>0
+0.0351
+(1.40)
+0.0800⁄
+(1.81)
+0.0278
+(0.99)
+Y
+193
+41/20
+0.261
+
+All
+60
+0.0615
+(1.45)
+0.0192
+(0.48)
+0.0126
+(0.67)
+Y
+186
+39/16
+0.454
+
+ KCGI Dummy
+KCGI Dummy
+Constant, other controls
+No. of observations
+No. of ﬁrms/large ﬁrms
+Within R2
+
+Net income/sales
+
+Y
+510
+104/41
+0.136
+
+Y
+509
+104/41
+0.236
+
+Firm ﬁxed effects regressions for chaebol ﬁrms (excluding banks and SOEs) with 0.5 trillion won < assets < 4 trillion won. Regressions (1)–(5): Regressions of EBIT/sales KCGI
+Dummy (=1 if KCGI > 40), (RPTs)/sales, interaction term, and control variables. Regressions (6)–(10) are similar except dependent variable is net income/sales. Expropriation
+Risk Index (ERI) is deﬁned in the text. Control variables are the same as in Table 7, except we drop top 30 chaebol dummy, EBIT/sales, and EBIT/assets. Sample for columns (3)
+and (8) is ﬁrms with mean ERI (over all sample years) > 0; columns (4) and (9) are further limited to top-18 chaebol groups; sample for columns (5) and (10) is ﬁrms with
+mean ERI 6 0. Observations are identiﬁed as outliers each year if a studentized residual from regressing dependent variable on KCGI dummy > ± 1.96. All regressions use
+unbalanced panels and year dummies. t-statistics, with standard errors clustered on ﬁrm, are in parentheses. ⁄, ⁄⁄, and ⁄⁄⁄ indicate signiﬁcance at 10%, 5%, and 1% levels.
+Signiﬁcant results (at 5% level or better) are shown in boldface.
+
+Bulgarian ﬁrms face new legal limits on equity tunneling, ﬁrms’
+operating proﬁts drop, consistent with these controllers engaging
+in more cash-ﬂow tunneling.
+4.4. RPTs and ﬁrm value: evidence from both chaebol and non-chaebol
+ﬁrms
+In the previous section, we studied whether governance mediates the effect of RPTs on value for chaebol ﬁrms, for which we
+could compute ERI. In this section, we extend this analysis to all
+mid-sized and large ﬁrms within our size band (0.5 to 4 trillion
+won in assets), both chaebol and non-chaebol. We assess whether
+KCGI mediates the relationship between RPTs and Tobin’s q for this
+broader sample. On the whole, our results are consistent with, but
+somewhat weaker than, the results for chaebol ﬁrms in Table 6.
+Weaker results are expected because we can no longer focus on a
+subset of positive ERI ﬁrms, for whom investors have reason to
+expect tunneling through RPTs.
+In Table 7, Regressions (1)–(3) are similar to the corresponding
+regressions in Table 6, Panel A. Table 7 also includes the full set of
+control variables that we use in other regressions, but suppress
+elsewhere for space reasons. In regression (1), the coefﬁcient on
+RPTs/sales is negative but insigniﬁcant; the coefﬁcient is similar
+when we add KCGI in regression (2). In regression (3) we add the core
+variable of interest – an interaction between KCGI and RPTs/sales. The
+interaction term is positive and marginally signiﬁcant, while the
+coefﬁcient on RPTs/sales (which now indicates the predicted impact
+of RPTs/sales for a hypothetical ﬁrm with KCGI = 0) becomes
+negative. These results – a negative relationship between RPTs/sales
+and Tobin’s q for low-KCGI ﬁrms, and mediation of this negative
+impact by KCGI – are consistent with those for chaebol ﬁrms in Table 6,
+Panel A, regression (3). In regression (4), we replace KCGI with
+dummy (=1 if KCGI > 40). The interaction between RPTs/sales and
+KCGI dummy turns positive and signiﬁcant. In unreported regressions using subindices instead of KCGI, the interactions between
+RPTs/sales and Board Structure and Disclosure Subindex dummies
+are positive, but, in most speciﬁcations, not statistically signiﬁcant.
+4.5. Endogeneity concerns
+The speciﬁcations in Tables 6 and 7 are not true causal
+speciﬁcations. They rely instead on ﬁrm ﬁxed effects and extensive
+control variables. But they are strong speciﬁcations nonetheless. In
+particular, one factor that investors are likely to consider, in assess-
+
+ing the risk of tunneling through RPTs is the identity of the controller of a chaebol group. Our FE speciﬁcation holds that identity
+constant, because Korean ﬁrms almost never move from one group
+to another. Our narrow ﬁrm size band, with a legal shock to governance in the middle of the band, ensures that the sample ﬁrms are
+similar, in ways other than governance.
+For Table 6, we can say a bit more. In Appendix Table 10, we
+assess covariate balance – do the mean values for positive and negative ERI ﬁrms differ for observed control variables? The two
+groups are very similar for most control variables. Sole ownership
+is the principal exception. Positive-ERI ﬁrms have lower sole ownership, but this is expected, due to how we deﬁne ERI. Positive ERI
+ﬁrms also have higher foreign ownership, which is likely related to
+lower sole ownership, since the shares not held by the controller
+have to be held by someone; and faster sales growth. To explain
+our results, an unobserved variable would need to both (i) differ
+substantially between positive-ERI and negative-ERI ﬁrms, and also
+(ii) predict the outcome variable (in Table 6, Tobin’s q). The existence of reasonable balance for observed covariates makes it less
+likely that an unobserved covariate will be substantially different
+between positive-ERI and negative-ERI ﬁrms.20
+5. RPTs, governance, and proﬁtability
+The RPT results in Section 4 provide evidence that investors
+believe governance will moderate tunneling through RPTs, but
+not direct evidence that governance does so. We assess in this part
+the relationship between RPTs and proﬁtability, and whether governance mediates that relationship.
+5.1. RPTs and ﬁrm proﬁtability
+In Table 8, we investigate whether ﬁrms with higher levels of
+RPTs are less proﬁtable, and whether governance mediates that
+relationship. We present results with KCGI dummy as our governance measure, and two measures of proﬁtability measure: EBIT/
+sales and net income/sales. Regressions (1)–(5) use EBIT/sales as
+the proﬁtability measure; regressions (6)–(10) use similar speciﬁcations with net income/sales as the proﬁtability measure. Results
+with continuous KCGI, or with assets instead of sales in the denominator of the proﬁtability measure, are consistent but weaker.
+20
+One possibility that we cannot effectively address: KCGI has a strong time trend. If
+an unobserved variable predicts Tobin’s q and also has a strong time trend, we could
+wrongly attribute that effect to KCGI.
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+
+In regressions (1) and (6), we present a simple regression of the
+proﬁtability measure on RPTs/sales plus control variables, for all
+chaebol ﬁrms within our 0.5–4 trillion won size bounds. RPTs/sales
+takes a negative coefﬁcient in both regressions, statistically significant with net income/sales as the proﬁtability measure and marginally signiﬁcant with EBIT/sales as the measure. However, one
+should be cautious treating this relationship as causal. Firms that
+engage in more RPTs may do so for business reasons, and could
+be less proﬁtable even if they conducted similar transactions with
+unrelated ﬁrms.
+In the remaining regressions, we add the key variable of interest, the interaction between RPTs/sales and KCGI dummy. A representative speciﬁcation, for regression (2), is:
+
+ðEBIT=salesÞi;t ¼ b0 þ b1  ðRPTs=salesÞi;t þ b2  ðKCGIdumÞi;t
+þ b3  ðRPTs=salesÞi;t  ðKCGI dumÞi;t þ b4
+ xi;t þ g t þ f i þ ei;t
+
+ð5Þ
+
+The interaction term is positive and marginally signiﬁcant in both
+regressions (2) and (7). In the remaining regressions, we investigate
+the coefﬁcient on this interaction term for different subsamples. In
+regressions (3) and (8), we limit the sample to chaebol ﬁrms with
+mean ERI > 0. The coefﬁcients on the interaction terms become positive and statistically signiﬁcant, although not strongly so. In regressions (4) and (9), we limit the sample to positive ERI ﬁrms within the
+top 18 chaebol groups. The coefﬁcients are similar but statistically a
+bit weaker, due to the smaller sample size. In both sets of regressions, the negative direct coefﬁcient on RPTs/sales and the positive
+coefﬁcient on the interaction term are similar in magnitude. Thus,
+RPTs/sales predict lower proﬁtability for ﬁrms with KCGI
+dummy = 0, but are roughly neutral for better-governed positiveERI ﬁrms, with KCGI dummy = 1. Finally, in regressions (5) and
+(10), we limit the sample to chaebol ﬁrms with mean ERI < 0. For
+these ﬁrms, the interaction term is still positive, but is much smaller
+in magnitude and is not close to being statistically signiﬁcant.
+These results for proﬁtability are consistent with the Tobin’s q
+regressions in Section 4. They provide modest evidence that governance in fact improves the proﬁtability of RPTs.
+5.2. Sensitivity of ﬁrm proﬁtability to industry proﬁtability
+We turn next to a second source of evidence on whether RPTs
+affect proﬁtability, and whether governance mediates that effect.
+We adapt, for our dataset, the approach of Bertrand et al. (2002),
+who study Indian business groups. Their idea is to measure the
+responsiveness of ﬁrm proﬁtability to shocks to industry proﬁtability. Low responsiveness suggests that insiders extract more (fewer)
+pre-tunneling proﬁts as the ﬁrm does better (worse). Bertrand
+et al. report evidence that ﬁrm responsiveness to industry shocks
+is associated with measures of both opportunity to tunnel and
+incentives to tunnel (their proxy for incentives is the cash ﬂow
+rights of the control group). Siegel and Choudhury (2012) fail to
+replicate their results for India, but the approach is useful even if
+the Siegel and Choudhury reanalysis is correct for Indian ﬁrms.21
+21
+Siegel and Choudhury raise four methodological concerns with the Bertrand et al.
+approach. Two involve missing data, which is not a concern for us. The other two
+concerns involve heteroskedasticity and correlated observations within ﬁrm over
+time; we address these concerns by using standard errors clustered on ﬁrm. Siegel
+and Choudhury also argue that different ﬁrms will respond differently to industry
+shocks. These differences in response will add noise to an effort to use a shock to
+industry proﬁtability to predict ﬁrm proﬁtability, and thus make it harder to ﬁnd a
+signiﬁcant effect of governance. They do not imply that the results we ﬁnd are
+spurious. We have our own concerns with the Bertrand et al. methods. One involves
+their use of EBITDA, not scaled to ﬁrm size, as the key outcome variable. We instead
+use EBITDA/assets, which is a more conventional measure of proﬁtability, less prone
+to outliers. A second involves their use of only minimal control variables; we use a
+much more extensive set of controls.
+
+147
+
+Bae et al. (2008) ﬁnd a positive correlation for share returns of ﬁrms
+within Korean chaebol groups, suggesting that investors expect a
+combination of tunneling of proﬁts away from more proﬁtable ﬁrms
+and propping of less proﬁtable ﬁrms.
+Our RPT results above suggest that: (i) RPTs tend to be adverse
+to value and proﬁtability; (ii) governance reduces these adverse
+effects; and (iii) the mediating effect of KCGI is important principally for ﬁrms with mean ERI > 0. By analogy, we hypothesize that:
+(i) the sensitivity of ﬁrm proﬁtability to industry proﬁtability
+should rise with governance; and (ii) among chaebol ﬁrms, where
+we can measure ERI, this effect should appear principally, or more
+strongly, for ﬁrms with mean ERI > 0.
+Table 9 presents our results. We present results for all Korean
+public ﬁrms. If we limit the sample to ﬁrms with assets from
+0.5–4 trillion won, as in prior regressions, coefﬁcients are similar
+but standard errors increase.22 In regression (1), we conﬁrm that
+industry proﬁtability, measured by EBITDA/assets, predicts ﬁrm
+proﬁtability. We estimate industry proﬁtability for ﬁrm k in 4-digit
+industry i as [(EBITDA summed across all other ﬁrms in industry
+i)/(assets summed across these ﬁrms)]. The coefﬁcient on industry
+EBITDA/assets is 0.203 (t = 6.53). If we more closely track the Bertrand et al. speciﬁcation by using unscaled ﬁrm EBITDA, and deﬁning
+industry EBITDA as industry EBITDA/(assets * (ﬁrm k’s assets)), the
+coefﬁcient on industry EBITDA is 0.67. A coefﬁcient of less than 1
+suggests that ﬁrms on average face higher tunneling as proﬁts rise,
+and reduced tunneling or even propping as proﬁts fall.
+In Regression (2), we add KCGI and its interaction with industry
+EBITDA/assets. The coefﬁcient on the interaction term is positive
+but not statistically signiﬁcant. A positive coefﬁcient implies that
+ﬁrm proﬁtability responds more strongly to shocks to industry
+proﬁtability for better-governed ﬁrms. This is consistent with governance reducing cash-ﬂow tunneling.
+In Regression (3), we replace KCGI and the KCGI * industry profitability interaction term with each subindex included separately
+and interacted with industry proﬁtability. Board Structure
+Subindex has a positive and signiﬁcant interaction with industry
+proﬁtability. The 0.013 coefﬁcient on the interaction term implies
+that a worst-to-best change in Board Structure (20 points)
+increases the sensitivity of ﬁrm proﬁtability to industry proﬁtability by 0.26, which is economically large relative to the overall sensitivity of 0.20 shown in regression (1). The interactions with other
+subindices are insigniﬁcant.
+If we more closely replicate Bertrand et al. by using unscaled
+EBITDA or EBIT as dependent variables, with corresponding industry measures, results are stronger but we have less conﬁdence in
+this speciﬁcation because it is prone to outliers and gives greater
+weight to larger ﬁrms. We also obtain stronger results with the
+minimal control variables used by Bertrand et al. (ﬁrm age and
+ln(assets)). In unreported robustness checks, we obtain similar
+but weaker results if we use EBIT (rather than EBITDA)/assets as
+the dependent variable.
+In regressions (4) and (5), we limit the sample to chaebol ﬁrms.
+In regression (4), the sample is ﬁrms with mean ERI < 0, for whom
+tunneling is a smaller concern. The coefﬁcient on the interaction
+between KCGI and industry proﬁtability is positive but not signiﬁcant. In regression (5), for chaebol ﬁrms with mean ERI > 0, the
+coefﬁcient on KCGI * industry proﬁtability is 0.0065 and is statistically signiﬁcant (t = 2.38), although the difference in coefﬁcients
+between the two groups is not signiﬁcant. The higher coefﬁcients
+on KCGI * industry EBITDA/assets for chaebol ﬁrms in regressions
+
+22
+With the size-limited sample, the coefﬁcients on the interaction terms in
+regressions (2), (3), (5), and (6) are: 0.0024 (t = 0.87) in regression (2) vs. 0.0022
+(t = 1.36) reported in Table 9; 0.0107 (t = 1.03) for Board Structure * Industry EBITDA/
+assets vs. 0.0127 (t = 2.12) reported; 0.0066 (t = 2.16) in regression (5) vs. 0.0065
+(t = 2.38) reported; 0.0038 (t = 1.43) in regression (6), vs. 0.0039 (t = 2.55) reported.
+
+148
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+
+Table 9
+Corporate governance, industry proﬁtability and tunneling.
+Dependent variable: EBITDA/assets
+Sample
+
+(1)
+All
+
+KCGI
+
+(2)
+All
+0.0000
+(0.15)
+0.0022
+(1.36)
+
+ Industry EBITDA/assets
+Board Structure Subindex
+ Industry EBITDA/assets
+Disclosure Subindex
+ Industry EBITDA/assets
+Industry EBITDA/assets
+Other subindices of KCGI
+Other subindices  Industry EBITDA/assets
+ln(assets)
+Other controls, constant term
+No. of observations
+No. of ﬁrms
+Within R2
+
+(3)
+All
+
+0.2027⁄⁄⁄
+(6.53)
+N
+N
+Y
+Y
+3,822
+679
+0.1425
+
+0.1231⁄
+(1.81)
+N
+N
+Y
+Y
+3,822
+679
+0.1435
+
+0.0002
+(0.35)
+0.0127⁄⁄
+(2.12)
+0.0000
+(0.03)
+0.0018
+(0.38)
+0.1241
+(0.79)
+Y
+Y
+Y
+Y
+3,822
+679
+0.1483
+
+(4)
+Mean ERI < 0
+
+(5)
+Mean ERI > 0
+
+(6)
+EBITDA > 0
+
+(7)
+EBITDA < 0
+
+0.0003
+(0.80)
+0.0055
+(1.25)
+
+0.0004
+(1.39)
+0.0065⁄⁄
+(2.38)
+
+0.0002
+(1.30)
+0.0039⁄⁄
+(2.55)
+
+0.0001
+(0.28)
+0.0052
+(0.78)
+
+0.0662
+(0.32)
+N
+N
+Y
+Y
+382
+67
+0.3560
+
+0.0550
+(0.42)
+N
+N
+Y
+Y
+780
+128
+0.2024
+
+0.0223
+(0.36)
+N
+N
+Y
+Y
+3,401
+661
+0.2005
+
+0.2378
+(1.08)
+N
+N
+Y
+Y
+421
+219
+0.2089
+
+Firm ﬁxed effects regressions of EBITDA/assets on industry EBITDA/assets, KCGI (or it subindices), their interaction terms, ln(assets), and other control variables. Regression
+design is adapted from Bertrand et al. (2002). Industry EBITDA/assets = (EBITDA summed across all other ﬁrms in the same 4-digit industry)/(assets summed across all other
+ﬁrms in the same 4-digit industry). Sample for regressions (1)–(3) and (6)–(7) is all ﬁrms, for regressions (4)–(5) is limited to chaebol ﬁrms. Other control variables are the
+same as in Table 7. Observations are identiﬁed as outliers if (a studentized residual from regressing the dependent variable on KCGI) > ± 1.96. All regressions use unbalanced
+panels, year dummies, and ﬁrm clusters. t-values are in parentheses. ⁄, ⁄⁄, and ⁄⁄⁄ indicate signiﬁcance at 10%, 5%, and 1% levels. Signiﬁcant results (at 5% level or better) are
+shown in boldface.
+
+(4)–(5), compared to the full sample estimate in regression (2), is
+consistent with Table 6, in which chaebol ﬁrms drive the relationship between RPTs and ﬁrm value.
+In regressions (6) and (7), we assess whether governance affects
+both tunneling of value out of proﬁtable ﬁrms, and reverse tunneling (propping) for unproﬁtable ﬁrms, by dividing the sample into
+proﬁtable ﬁrms (EBITDA > 0) and unproﬁtable ﬁrms (EBITDA < 0).
+In regression (6), for proﬁtable ﬁrms, the interaction between KCGI
+and industry proﬁtability is positive and signiﬁcant, consistent
+with better governance limiting tunneling out of these ﬁrms. In
+contrast, in regression (7), for unproﬁtable ﬁrms, the coefﬁcient
+on KCGI * industry proﬁtability is insigniﬁcant and indeed negative.
+A non-result for unproﬁtable ﬁrms could arise if either (i) governance affects tunneling but not propping; or (ii) there is limited
+propping of unproﬁtable ﬁrms to begin with. However, any conclusions are tentative, because the small number of unproﬁtable ﬁrms
+limits statistical power.
+Tunneling through routine RPTs should affect operating proﬁts,
+and we so ﬁnd. Bertrand et al. report that controllers of Indian ﬁrms
+engage in tunneling through non-operating cash ﬂows – non-operating proﬁt falls as industry proﬁtability rises. We ﬁnd no evidence
+of this. In regressions similar to Table 9, regression (1), with nonoperating proﬁt/assets as the dependent variable, the coefﬁcient
+on industry EBITDA/assets is positive and marginally signiﬁcant
+for all ﬁrms, and similar in magnitude but insigniﬁcant for chaebol
+ﬁrms. In regressions similar to Table 9, regression (2), we ﬁnd no
+evidence that governance mediates the already weak relationship
+between industry proﬁtability and non-operating proﬁt.
+5.3. Anecdotal evidence
+We have provided a variety of sources of evidence that investors
+expect governance to add value for positive-ERI ﬁrms, for whom
+tunneling is more likely, that governance improvements in fact do
+so, and that board structure, in particular, mediates the relationship
+between RPTs and ﬁrm value. We turn here to anecdotal evidence:
+Is it plausible that outside directors, either on the full board or on an
+
+audit committee, can know enough to police the fairness of RPTs?
+Our judgment is a cautious yes. Partly, we expect that controllers,
+in order to avoid presenting a suspect transaction to outside directors, will offer better terms to controlled ﬁrms. Partly, we believe
+that in some cases, outside directors will have both the will and
+the ability to scrutinize RPTs. We offer here some evidence.
+First, one of us (Black) was a director of Kookmin Bank during
+2003–2005, during our sample period. He can report that during
+that period, the Kookmin board, which contained a majority of
+independent directors, closely scrutinized RPTs.
+Second, the Korean coauthors of this paper have extensive
+experience with challenging and reporting on self-dealing by chaebol controllers. One of us (Jang) was a core member of the leading
+Korean shareholder activist group, People’s Solidarity for Participatory Democracy (PSPD), during much of the period we study and
+chair of PSPD’s Participatory Economy Committee. Profs. Jang and
+Kim are founding members of the Korean Center for Good Corporate Governance (created 2001), the Solidarity for Economic
+Reform non-governmental organization (SER, created 2006), and
+an SER-afﬁliated think tank, the Economic Reform Research Institute (ERRI, created in 2009). ERRI publishes reports on, among
+other things, tunneling by Korea ﬁrms; Prof. Kim is the current
+head of ERRI. Rho (2007) provides extensive information on shareholder activism in Korea, including Prof. Jang’s activities. Prof. Park
+is a founding member and the current director of the Korean Corporate Governance Service. The results we report are consistent
+with their personal experience.
+Third, we offer one anecdote for which good public sources
+exist, involving SK Telecom. SK Telecom was the ﬁrst Korean
+company to grant outside directors approval power for RPTs. A
+newspaper article reports that in 1998, of 12 RPTs brought to the
+board, 4 were approved as is, 6 were approved after the terms were
+revised, and two were disapproved.23 Of the ﬁrm’s outside directors, one, Sang-Koo Nam, was jointly nominated by PSPD and an
+23
+Kee-Dong Lee, Five-years after the introduction of outside directors: the success
+story of SK Telecom, Maeil Business Newspaper (March 28, 2002) (in Korean).
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+
+activist fund which held a large stake in SK Telecom (Tiger Management); a second, Dae-Sik Kim, was nominated by SK’s outside director nominating committee, but approved by PSPD and Tiger. There
+was also public disclosure of a 2005 transaction, in which the outside
+directors disapproved a service contract between SK Telecom and
+another SK-group company, 55% owned by SK’s controlling family.
+The board later approved the transaction on revised terms, over
+the objections of directors Nam and Kim.24
+
+6. Conclusion
+In prior work, we develop a broad Korean corporate governance
+index (KCGI), and report evidence that 1999 legal reforms to the
+Board Structure of large ﬁrms causally predict higher ﬁrm market
+value (Black and Kim, 2012). We study here the ‘‘channels’’ question: Why does governance increases the market value of Korea
+ﬁrms, and for which ﬁrms? We ﬁnd evidence for a ‘‘tunneling
+channel.’’ More speciﬁcally, we ﬁnd evidence consistent with a
+reduction in cash-ﬂow tunneling. The effect of governance on tunneling is concentrated in chaebol ﬁrms with positive scores on an
+Expropriation Risk Index (ERI), which measures controllers’ incentive to tunnel.
+We ﬁnd that positive-ERI ﬁrms subject to the reform earn larger
+abnormal returns than the negative-ERI ﬁrms during the period
+covering the main reform events. We then show that better
+governance, measured by KCGI and in particular by Board Structure
+Subindex, predicts lower value loss from RPTs in positive-ERI ﬁrms,
+but not in negative-ERI ﬁrms. We also ﬁnd evidence that (i) KCGI
+mediates the impact of RPTs on ﬁrm proﬁtability; and (ii) KCGI predicts higher sensitivity of ﬁrm proﬁtability to industry proﬁtability,
+which suggests reduced tunneling and propping, and does so more
+strongly for positive-ERI ﬁrms.
+Appendix .
+
+Table 10
+Covariate balance for positive-ERI and negative-ERI ﬁrms.
+Variables
+
+ERI > 0
+Mean
+
+ERI < 0
+Mean
+
+Diff. in means
+
+p-Value
+
+ln(Tobin’s q)
+RPTs/sales
+KCGI
+ln(assets)
+ln(Years Listed)
+Leverage
+Sales growth
+R&D/sales
+Advertising/sales
+Exports/sales
+PPE/sales
+Capex/PPE
+EBIT/sales
+EBIT/assets
+Market share
+Share turnover
+Foreign ownership
+Sole ownership
+
+0.1575
+0.2737
+40.1117
+7.2167
+2.8581
+5.3641
+0.1363
+0.0070
+0.0073
+0.2942
+0.5833
+0.1229
+0.0614
+0.0554
+0.1188
+5.1608
+15.2540
+9.1948
+
+0.1771
+0.2604
+41.7539
+7.3213
+2.9026
+7.1417
+0.0845
+0.0116
+0.0057
+0.2831
+0.5508
+0.1202
+0.0612
+0.0488
+0.1237
+4.3451
+10.8678
+19.3548
+
+0.0196
+0.0133
+1.6421
+0.1046
+0.0445
+1.7776
+0.0518
+0.0046
+0.0016
+0.0111
+0.0325
+0.0027
+0.0002
+0.0066
+0.0049
+0.8157
+4.3862
+10.1600
+
+0.595
+0.778
+0.405
+0.362
+0.749
+0.173
+0.017⁄⁄
+0.135
+0.504
+0.846
+0.734
+0.864
+0.983
+0.340
+0.901
+0.168
+0.087⁄
+0.000⁄⁄⁄
+
+Mean values for indicated variables, for positive-ERI and negative-ERI Firms (sample
+based on Table 4). Standard errors are clustered on ﬁrm. Observations = 499 (318
+with ERI > 0; 191 with ERI < 0). ⁄, ⁄⁄, ⁄⁄⁄ indicates signiﬁcance at the 10%, 5%, and 1%
+level. Lower sole ownership for positive-ERI ﬁrms is expected, due to the deﬁnition
+of ERI.
+
+24
+Jin-Woo Lee, ‘‘Lively discussions at board meetings and increased inﬂuence of
+outside directors, eDaily, October 25, 2006 (in Korean)
+
+149
+
+References
+Atanasov, Vladimir, Black, Bernard, Ciccotello, Conrad, Gyoshev, Stanley., 2010. How
+does law affect ﬁnance? An examination of equity tunneling in Bulgaria. Journal
+of Financial Economics 96, 155–173.
+Atanasov, Vladimir, Black, Bernard, Ciccotello, Conrad, 2011. Law and tunneling.
+Journal of Corporation Law 37, 1–49.
+Bae, Kee-Hong, Kang, Jun-Moo, Kim, Jin-Mo, 2002. Tunneling or value added?
+Evidence from mergers by Korean business groups. Journal of Finance 57, 2695–
+2740.
+Bae, Gil, Cheon, Youngsoon Susan, Kang, Jun-Koo, 2008. Intragroup propping:
+evidence from the stock price effects of earnings announcements by Korean
+business groups. Review of Financial Studies 21, 2015–2060.
+Bae, Kee-Hong, Baek, Jae-Seung, Kang, Jun-Koo, Liu, Wei-Lin, 2012. Do controlling
+shareholders’ expropriation incentives imply a link between corporate
+governance and ﬁrm value? Theory and evidence. Journal of Financial
+Economics 105, 412–436.
+Baek, Jae-Seung, Kang, Jun-Koo, Park, Kyung Suh, 2004. Corporate governance and
+ﬁrm value: evidence from the Korean ﬁnancial crisis. Journal of Financial
+Economics 71, 265–313.
+Baek, Jae-Seung, Kang, Jun-Koo, Lee, Inmoo, 2006. Business groups and tunneling:
+evidence from private securities offerings by Korean chaebols. Journal of
+Finance 61, 2415–2449.
+Bebchuk, Lucian, Cohen, Alma, Ferrell, Allen, 2009. What matters in corporate
+governance. Review of Financial Studies 22, 783–827.
+Bernard, Victor, 1987. Cross-sectional dependence and problems in inference in
+market-based accounting research. Journal of Accounting Research 25, 1–48.
+Bertrand, Marianne, Mehta, Paras, Mullainathan, Sendhil, 2002. Ferreting out
+tunneling: An application to Indian business groups. Quarterly Journal of
+Economics 117, 121–148.
+Bhargava, Alok, Sargan, J.D., 1983. Estimating dynamic random effects models from
+panel data covering short time periods. Econometrica 51, 1635–1660.
+Black, Bernard S., Kim, Woochan, 2012. The effect of board structure on ﬁrm value:
+A multiple identiﬁcation strategies approach using Korean data. Journal of
+Financial Economics 104, 203–226.
+Black, Bernard S., Jang, Hasung, Kim, Woochan, 2006a. Does corporate governance
+affect ﬁrms’ market values? Evidence from Korea. Journal of Law, Economics, &
+Organization 22, 366–413.
+Black, Bernard S., Jang, Hasung, Kim, Woochan, 2006b. Predicting ﬁrms’ corporate
+governance choices: Evidence from Korea. Journal of Corporate Finance 12,
+660–691.
+Bernard Black, Antonio Gledson de Carvalho, Vikramaditya Khanna, Woochan Kim,
+Burcin Yurtoglu, 2014. Methods for Multicountry Studies of Corporate
+Governance (and Evidence from the BRIKT Countries), Journal of
+Econometrics, forthcoming (working paper 2014), at http://ssern.com/
+abstract=2219525.
+Brown, Stephen J., Warner, Jerold B., 1985. Using daily stock returns: The case of
+event studies. Journal of Financial Economics 14, 3–31.
+Bruno, Valentina, Claessens, Stijn, 2010. Corporate governance and regulation: Can
+there be too much of a good thing? Journal of Financial Intermediation 19, 461–
+482.
+Cheung, Yan-Leung, Raghavendra Rau, P., Stouraitis, Aris, 2006. Tunneling, propping
+and expropriation: evidence from connected party transactions in Hong Kong.
+Journal of Financial Economics 82, 343–386.
+Claessens, Stijn, Yurtoglu, Burcin, 2013. Corporate governance in emerging markets:
+a survey. Emerging Markets Review 15, 1–33.
+Dahya, Jay, McConnell, John J., 2007. Board composition, corporate performance,
+and the Cadbury committee recommendation. Journal of Financial and
+Quantitative Analysis 42, 535–564.
+Dahya, Jay, Dimitrov, Orlin, McConnell, John J., 2008. Dominant shareholders,
+corporate boards, and corporate value: a cross-country analysis. Journal of
+Financial Economics 87, 73–100.
+Durnev, Artyom, Han Kim, E., 2005. To steal or not to steal: ﬁrm attributes, legal
+environment, and valuation. Journal of Finance 60, 1461–1493.
+Gompers, Paul, Ishii, Joy, Metrick, Andrew, 2003. Corporate governance and equity
+prices. Quarterly Journal of Economics 118, 107–155.
+Gopalan, Radhakrishnan, Nanda, Vikram, Seru, Amit, 2007. Afﬁliated ﬁrms and
+ﬁnancial support; evidence from Indian business groups. Journal of Financial
+Economics 86, 759–795.
+Jiang, Guohua, Lee, Charles M.C., Yue, Heng, 2010. Tunneling through intercorporate
+loans: the China experience. Journal of Financial Economics 98, 1–20.
+Joh, Sung Wook, 2003. Corporate governance and ﬁrm proﬁtability: evidence
+from Korea before the economic crisis. Journal of Financial Economics 68,
+287–322.
+Klapper, Leora F., Love, Inessa, 2004. Corporate governance, investor protection, and
+performance in emerging markets. Journal of Corporate Finance 10, 287–322.
+La Porta, Rafael, Lopez-de-Silanes, Florencio, Shleifer, Andrei, Vishny, Robert, 2002.
+Investor protection and corporate valuation. Journal of Finance 57, 1147–1170.
+Lee-Seok Hwang, Kwangwoo Park, Raesoo Park, 2004. Do ﬁrms with good corporate
+governance practices pay more dividends? Evidence from Korean Business
+groups, working paper.
+Lehn, Kenneth, Patro, Sukesh, Zhao, Mengxin, 2007. Governance indices and
+valuation: which causes which? Journal of Corporate Finance 13, 907–928.
+Lemmon, Michael L., Lins, Karl V., 2003. Ownership structure, corporate governance,
+and ﬁrm value: evidence from the East Asian ﬁnancial crisis. Journal of Finance
+58, 1445–1468.
+
+150
+
+B.S. Black et al. / Journal of Banking & Finance 51 (2015) 131–150
+
+Liu, Qiao, Lu, Zhou, 2007. Corporate governance and earnings management in the
+Chinese listed companies: a tunneling perspective. Journal of Corporate Finance
+13, 881–906.
+Mitton, Todd, 2002. A cross-ﬁrm analysis of the impact of corporate governance on
+the East Asian ﬁnancial crisis. Journal of Financial Economics 64, 215–241.
+Mitton, Todd, 2004. Corporate governance and dividend policy in emerging
+markets. Emerging Markets Review 5, 409–426.
+Nasev, Julia, Black, Bernard, Kim, Woochan, 2014. Does corporate governance affect
+ﬁrm’s ﬁnancial reporting and performance? Panel data versus shock-based
+methods (working paper 2014), at http://ssrn.com/abstract=2133283.
+
+Rho, Han-Kyun, 2007. Shareholder activism: corporate governance reforms in
+Korea. Palgrave Macmillan.
+Siegel, Jordan, Choudhury, Prithwiraj, 2012. A reexamination of tunneling and
+business groups: new data and new methods. Review of Financial Studies 25,
+1763–1798.
+Wooldridge, Jefrey M., 2010. Econometric analysis of cross section and panel data,
+second ed. MIT Press.
+
+

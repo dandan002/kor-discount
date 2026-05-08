@@ -153,4 +153,76 @@ It is sometimes asserted that low South Korean equity valuations stem from the t
 
 ---
 
+## 15. Black, Bernard S. et al. — "How Corporate Governance Affects Firm Value? Evidence on a Self-Dealing Channel from a Natural Experiment in Korea"
+**Source:** Journal of Banking & Finance, Vol. 51 (2015)
+
+**Abstract (original English):**
+Prior work in emerging markets provides evidence that better corporate governance predicts higher market value, but very little evidence on the specific channels through which governance can increase value. We provide evidence, from a natural experiment in Korea, that reduced tunneling is an important channel. Korean legal reform in 1999 changed the board structure of "large" firms (assets > 2 trillion won) relative to smaller firms. In event studies of the reform events, we show that large firms whose controllers have incentive to tunnel earn strong positive returns, relative to mid-sized firms. In panel regressions over 1998–2004, we also show that better governance moderates the negative effect of related-party transactions on value and increases the sensitivity of firm profitability to industry profitability (consistent with less tunneling).
+
+**Keywords:** corporate governance, related-party transactions, tunneling, self-dealing, chaebols, Korea
+
+---
+
+## 16. Kim, Jeong-Bon & Yi, Cheong H. — "Foreign versus Domestic Institutional Investors in Emerging Markets: Who Contributes More to Firm-Specific Information Flow?"
+**Source:** China Journal of Accounting Research, Vol. 8 (2015)
+
+**Abstract (original English):**
+Using a large sample of firms listed on the Korea Stock Exchange over 1998–2007, this study investigates whether and how trading by foreign and domestic institutional investors improves the extent to which firm-specific information is incorporated into stock prices, captured by stock price synchronicity. We find, first, that stock price synchronicity decreases significantly with the intensity of trading by foreign investors and domestic institutional investors. Second, trading by foreign investors facilitates the incorporation of firm-specific information into stock prices to a greater extent than trading by aggregate domestic institutions. Third, among domestic institutions with differing investment horizons, short-term investing institutions, such as securities and investment trust companies, play a more important role in incorporating firm-specific information into stock prices via their trading activities, compared with long-term investing institutions, such as banks and insurance companies. Finally, we provide evidence suggesting that trading by foreign and domestic short-term institutions reduces the extent of accrual mispricing. Our results are robust to a variety of sensitivity checks.
+
+**Keywords:** foreign investors, institutional trading, investment horizon, stock price synchronicity, Korea
+
+---
+
+## 17. Kim, Jootae et al. — "The Effects of Shareholding of the National Pension Fund on Environmental, Social, Governance, and Financial Performance: Evidence from the Korean Manufacturing Industry"
+**Source:** Sustainability, Vol. 14, No. 18 (2022)
+
+**Abstract (original English):**
+With the growing number of environmental, social, and governance (ESG) problems, many companies have begun to implement more sustainable business practices. In the midst of this change, institutional shareholders declare and adopt socially responsible investment procedures, which is a way of engaging in investor activism. Despite the growing interest in investor activism following the introduction of the stewardship code, little attention has been paid to how socially responsible investment practices of institutional investors affect the non-financial value of the pillars of environmental, social, and governance as well as financial performance, including short-term accounting (ROE, ROA) and long-term market performance (Tobin's q). The current study examines whether the national pension fund (NPF), the world's third-largest Korean pension fund, can increase the ESG performance of investee firms in addition to accounting and market performance through institutional investors' shareholding. This study, by applying path analysis, attempts to explore the relationship between the NPF's socially responsible investing, ESG, and the financial performance of the investee firms. This research offers evidence that ESG performance acts as a moderator or a mediator between NPF's shareholding and financial performance.
+
+**Keywords:** ESG, sustainability, stewardship code, investor activism, fiduciary duty, financial performance
+
+---
+
+## 18. Kim, Sungmin et al. — "Does 'Vote No' Change Corporate Governance and Firm Value? Evidence from the Shareholder Activism of the Korean National Pension Service"
+**Source:** Emerging Markets Finance and Trade, Vol. 50, No. 5 (2014)
+
+**Abstract (original English):**
+In this paper, we analyze the effect of shareholder activism on firm value through internal corporate governance in an emerging market. We investigate the shareholder activism by the National Pension Service (NPS) of Korea, the fourth-largest pension fund in the world in 2010. We investigate stock price reaction to a "vote no" press announcement and find that the market does not react in the short run, which reaction is inconsistent with the results from developed countries. We also find that firms experiencing "vote no" and improved internal corporate governance have higher firm valuation. Shareholder activism by the NPS is effective in increasing target firm value through improving internal corporate governance.
+
+**Keywords:** corporate governance, firm valuation, pension fund, shareholder activism
+
+---
+
+## 19. Kim, Hyeong Joon & Han, Seung Hun — "Supermajority Provisions and Shareholders Wealth: Evidence from South Korea's Natural Experiment"
+**Source:** Corporate Governance: An International Review, Vol. 30 (2022)
+
+**Abstract (original English):**
+The existing research continues to debate whether firms' anti-takeover provisions enhance or harm shareholders' wealth. In this study, we examine the causal relation between the supermajority provision and shareholders' wealth by employing a quasi-natural experiment: the two court rulings that weaken the anti-takeover force of the supermajority provision in Korea, where the supermajority provision is the most widely used anti-takeover provision. Using market reactions around the two court rulings, we find that firms with a supermajority provision as their only anti-takeover provision significantly underperform on average, compared with firms with no provision. This finding is robust to various empirical approaches that aim to address potential endogeneity concerns. We also find evidence that the supermajority provision plays a more significant role for firms with long-term investments, higher complexity, or higher takeover threats. Furthermore, the second among the two court rulings appears to have a stronger impact on the firm value and institutional investors' selling compared with the first one, suggesting the reinforcing effect of similar court decisions. Overall, our study supports the value-enhancing perspective on the supermajority provision, indicating that the Korean stock market views such a provision as inducing higher shareholders' wealth.
+
+**Keywords:** anti-takeover provisions, corporate governance, firm value, quasi-natural experiment, shareholders' wealth
+
+---
+
+## 20. Lee, Jihyun & Nam, Doowoo — "ESG Shareholder Engagement and Firm Value: Evidence from Korea National Pension Service"
+**Source:** Applied Economics (2026)
+
+**Abstract (original English):**
+As ESG issues are increasingly viewed as financially material, ESG shareholder engagement has become an important channel through which institutional investors seek to influence corporate behaviour and enhance firm value. This study investigates whether ESG engagement by influential institutional investors affects firm value and how corporate governance moderates this relationship. Using 3,104 firm-year observations of Korean listed firms from 2020 to 2023, we conduct fixed-effects panel regressions to analyse the valuation effects of ESG shareholder engagement. We find consistent evidence that ESG engagement by influential institutional investors enhances firm value. Specifically, disclosures by the National Pension Service (NPS) — the largest and most influential institutional investor in Korea — of its intention to engage firms on ESG issues are associated with a significant increase in firm value in the following year. Furthermore, this positive association is significantly moderated by corporate governance quality, that is, stronger for firms with weaker internal governance structures. These results indicate that ESG shareholder engagement operates as a substitute external governance mechanism, mitigating deficiencies in internal governance and contributing to firm value creation. Overall, the study highlights the value relevance of investor-driven ESG engagement and underscores the importance of governance context in shaping its effectiveness.
+
+**Keywords:** ESG shareholder engagement, shareholder activism, corporate governance, firm value
+
+---
+
+## 21. Park, Sung-Hwan et al. — "Adoption of the Stewardship Code by Institutional Investors and Financial Reporting Quality: Focusing on Earnings Quality"
+**Source:** Accounting Journal (회계저널), Vol. 30, No. 2 (2021)
+
+**Original title:** 기관투자자의 스튜어드십 코드 도입과 기업의 재무보고 품질: 이익의 질을 중심으로
+
+**Abstract (original English; also available in Korean):**
+The purpose of this study is to examine the relationship between the adoption of the stewardship code by institutional investors and firms' financial reporting quality. Using data for firms listed on the Korean Stock Exchange, we analyze whether earnings quality has changed after the adoption of stewardship code by institutional investors such as the National Pension Service. For empirical analyses, we use the sample of 5,142 firm-year observations from 2017 to 2019. We utilize the following variables as independent variables: whether the stewardship code is adopted by institutional blockholders, the ratio of the number of institutional blockholders adopted the stewardship code to the number of total institutional blockholders, institutional blockholders' ownership adopted the stewardship code, and the ratio of institutional blockholders' ownership adopted the stewardship code to total institutional blockholders' ownership. And we use the absolute value of discretionary accrual, a proxy of earnings quality, as a dependent variable. From the correlation analysis, we find that the adoption of the stewardship code has a significant and positive correlation with earnings quality. However, in the regression analysis we cannot find a significant relationship between the adoption of the stewardship code and earnings quality. The results are consistent even after controlling firm size and market characteristics. These results could be attributed to the time lag because it will take a while for shareholders' activism driven by stewardship code to be effective over corporate governance and financial reporting quality. Therefore, market participants should carefully observe the effectiveness of the stewardship code from a long-term perspective.
+
+**Keywords:** stewardship code, shareholder activism, corporate governance, financial reporting quality, earnings quality
+
+---
+
 *Note: The paper by Jang ("Volatility Risk Premium," Korean Journal of Financial Management, 2005) could not be properly extracted due to encoding issues with the Korean-language mathematical content in the PDF. Additionally, Jin_Korean_Market_Undervaluation.pdf and Jin_Korea_Discount_International.pdf contain the same paper (No. 9 above).*
