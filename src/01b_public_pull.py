@@ -25,6 +25,7 @@ Dependencies:
 import logging
 import os
 import sys
+import time
 
 import pandas as pd
 
@@ -53,6 +54,10 @@ ROE_END_YEAR = 2023
 RETURNS_START = "2021-01-01"
 RETURNS_END = "2026-03-31"
 
+_STAGE_RETRIES = 3
+_STAGE_RETRY_DELAY = 30.0
+_INTER_STAGE_SLEEP = 10.0
+
 
 def load_universe() -> list:
     if not os.path.exists(UNIVERSE_PATH):
@@ -73,23 +78,43 @@ def load_universe() -> list:
     return tickers
 
 
+def _retry(label, fn, *args, **kwargs):
+    for attempt in range(1, _STAGE_RETRIES + 1):
+        try:
+            result = fn(*args, **kwargs)
+            return result
+        except Exception as exc:
+            if attempt < _STAGE_RETRIES + 1:
+                delay = _STAGE_RETRY_DELAY * (2 ** (attempt - 1))
+                log.error("%s failed (attempt %d/%d): %s — retrying in %.0fs", label, attempt, _STAGE_RETRIES, exc, delay)
+                time.sleep(delay)
+            else:
+                raise
+
+
 def main():
     os.makedirs(BLOOMBERG_DIR, exist_ok=True)
     tickers = load_universe()
 
     log.info("=== Snapshot (FY%d) ===", SNAPSHOT_YEAR)
-    snap = get_snapshot(tickers, as_of_year=SNAPSHOT_YEAR)
+    snap = _retry("Snapshot", get_snapshot, tickers, as_of_year=SNAPSHOT_YEAR)
     snap.reset_index(inplace=True)
     snap.to_csv(SNAPSHOT_PATH, index=False)
     log.info("Saved: %s (%d rows).", SNAPSHOT_PATH, len(snap))
 
+    log.info("Sleeping %.0fs before next stage ...", _INTER_STAGE_SLEEP)
+    time.sleep(_INTER_STAGE_SLEEP)
+
     log.info("=== ROE Panel (%d-%d) ===", ROE_START_YEAR, ROE_END_YEAR)
-    roe = get_roe_panel(tickers, start_year=ROE_START_YEAR, end_year=ROE_END_YEAR)
+    roe = _retry("ROE Panel", get_roe_panel, tickers, start_year=ROE_START_YEAR, end_year=ROE_END_YEAR)
     roe.to_csv(ROE_PANEL_PATH, index=False)
     log.info("Saved: %s (%d rows).", ROE_PANEL_PATH, len(roe))
 
+    log.info("Sleeping %.0fs before next stage ...", _INTER_STAGE_SLEEP)
+    time.sleep(_INTER_STAGE_SLEEP)
+
     log.info("=== Returns Panel (%s to %s) ===", RETURNS_START, RETURNS_END)
-    ret = get_returns_panel(tickers, start_date=RETURNS_START, end_date=RETURNS_END)
+    ret = _retry("Returns Panel", get_returns_panel, tickers, start_date=RETURNS_START, end_date=RETURNS_END)
     ret.to_csv(RETURNS_PANEL_PATH, index=False)
     log.info("Saved: %s (%d rows).", RETURNS_PANEL_PATH, len(ret))
 

@@ -34,6 +34,7 @@ KOSPI_YF_TICKER = "^KS11"
 _MAX_WORKERS = 8
 _RETRY_DELAY = 2.0
 _MAX_RETRIES = 3
+_INTER_TICKER_SLEEP = 0.35
 
 # Bloomberg snapshot fields this module replicates
 _SNAPSHOT_FIELDS = [
@@ -250,10 +251,14 @@ def _fetch_with_retry(krx_ticker: str, as_of_year: int) -> tuple[str, dict]:
     yf_ticker = _to_yf(krx_ticker)
     for attempt in range(_MAX_RETRIES):
         try:
-            return krx_ticker, _fetch_one_snapshot(yf_ticker, as_of_year)
+            result = _fetch_one_snapshot(yf_ticker, as_of_year)
+            time.sleep(_INTER_TICKER_SLEEP)
+            return krx_ticker, result
         except Exception as exc:
             if attempt < _MAX_RETRIES - 1:
-                time.sleep(_RETRY_DELAY * (attempt + 1))
+                delay = _RETRY_DELAY * (2 ** attempt)
+                log.info("Retry %d/%d for %s (snapshot): sleeping %.1fs — %s", attempt + 1, _MAX_RETRIES, krx_ticker, delay, exc)
+                time.sleep(delay)
             else:
                 log.warning("Gave up on %s after %d retries: %s", krx_ticker, _MAX_RETRIES, exc)
     return krx_ticker, {f: None for f in _SNAPSHOT_FIELDS}
@@ -303,44 +308,52 @@ def get_snapshot(
 
 def _fetch_roe_one(krx_ticker: str, years: list) -> list:
     yf_ticker = _to_yf(krx_ticker)
-    ticker_rows = []
-    try:
-        t = yf.Ticker(yf_ticker)
-        bs = t.balance_sheet
-        inc = t.financials
+    for attempt in range(_MAX_RETRIES):
+        try:
+            ticker_rows = []
+            t = yf.Ticker(yf_ticker)
+            bs = t.balance_sheet
+            inc = t.financials
 
-        if bs is None or bs.empty or inc is None or inc.empty:
+            if bs is None or bs.empty or inc is None or inc.empty:
+                return ticker_rows
+
+            for year in years:
+                bc = _find_col_for_year(bs, year)
+                bp = _find_col_for_year(bs, year - 1)
+                ic = _find_col_for_year(inc, year)
+                if bc is None or ic is None:
+                    continue
+
+                equity = _safe_get(
+                    bs, bc,
+                    "Stockholders Equity", "Total Stockholder Equity", "Common Stock Equity",
+                )
+                equity_prev = _safe_get(
+                    bs, bp,
+                    "Stockholders Equity", "Total Stockholder Equity", "Common Stock Equity",
+                ) if bp else equity
+                net_income = _safe_get(inc, ic, "Net Income", "Net Income Common Stockholders")
+
+                avg_eq = (
+                    (equity + equity_prev) / 2
+                    if equity is not None and equity_prev is not None
+                    else equity
+                )
+                roe = net_income / avg_eq if net_income is not None and avg_eq else None
+                ticker_rows.append({"ticker": krx_ticker, "year": year, "roe": roe})
+
+            time.sleep(_INTER_TICKER_SLEEP)
             return ticker_rows
-
-        for year in years:
-            bc = _find_col_for_year(bs, year)
-            bp = _find_col_for_year(bs, year - 1)
-            ic = _find_col_for_year(inc, year)
-            if bc is None or ic is None:
-                continue
-
-            equity = _safe_get(
-                bs, bc,
-                "Stockholders Equity", "Total Stockholder Equity", "Common Stock Equity",
-            )
-            equity_prev = _safe_get(
-                bs, bp,
-                "Stockholders Equity", "Total Stockholder Equity", "Common Stock Equity",
-            ) if bp else equity
-            net_income = _safe_get(inc, ic, "Net Income", "Net Income Common Stockholders")
-
-            avg_eq = (
-                (equity + equity_prev) / 2
-                if equity is not None and equity_prev is not None
-                else equity
-            )
-            roe = net_income / avg_eq if net_income is not None and avg_eq else None
-            ticker_rows.append({"ticker": krx_ticker, "year": year, "roe": roe})
-
-    except Exception as exc:
-        log.debug("ROE fetch failed for %s: %s", krx_ticker, exc)
-
-    return ticker_rows
+        except Exception as exc:
+            if attempt < _MAX_RETRIES - 1:
+                delay = _RETRY_DELAY * (2 ** attempt)
+                log.info("Retry %d/%d for %s (ROE): sleeping %.1fs — %s", attempt + 1, _MAX_RETRIES, krx_ticker, delay, exc)
+                time.sleep(delay)
+            else:
+                log.warning("Gave up on %s ROE after %d retries: %s", krx_ticker, _MAX_RETRIES, exc)
+                return []
+    return []
 
 
 def get_roe_panel(
@@ -409,15 +422,27 @@ def get_returns_panel(
         len(yf_tickers), start_date, end_date,
     )
 
-    raw = yf.download(
-        yf_tickers,
-        start=start_date,
-        end=end_date,
-        interval="1wk",
-        auto_adjust=True,
-        progress=False,
-        threads=True,
-    )
+    raw = None
+    for attempt in range(_MAX_RETRIES):
+        try:
+            raw = yf.download(
+                yf_tickers,
+                start=start_date,
+                end=end_date,
+                interval="1wk",
+                auto_adjust=True,
+                progress=False,
+                threads=True,
+            )
+            break
+        except Exception as exc:
+            if attempt < _MAX_RETRIES - 1:
+                delay = _RETRY_DELAY * (2 ** attempt)
+                log.info("Retry %d/%d for returns panel download: sleeping %.1fs — %s", attempt + 1, _MAX_RETRIES, delay, exc)
+                time.sleep(delay)
+            else:
+                log.error("Failed to download returns panel after %d attempts: %s", _MAX_RETRIES, exc)
+                raise
 
     if raw.empty:
         log.warning("yfinance download returned empty DataFrame.")
