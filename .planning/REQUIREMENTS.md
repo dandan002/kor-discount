@@ -22,9 +22,9 @@
 
 ### Data Acquisition
 
-- [ ] **DATA-01**: src/00_build_universe.py pulls live KOSPI universe from Bloomberg (BDS + BDP) and saves universe_raw.csv
-- [ ] **DATA-03**: src/01_bloomberg_pull.py pulls snapshot_2023.csv, roe_panel.csv, and returns_panel.csv from Bloomberg
-- [ ] **DATA-05**: All Bloomberg scripts fail gracefully with an informative error when blpapi is not installed
+- [x] **DATA-01**: src/00_build_universe.py pulls live KOSPI universe from Bloomberg (BDS + BDP) and saves universe_raw.csv
+- [x] **DATA-03**: src/01_bloomberg_pull.py pulls snapshot_2023.csv, roe_panel.csv, and returns_panel.csv from Bloomberg
+- [x] **DATA-05**: All Bloomberg scripts fail gracefully with an informative error when blpapi is not installed
 
 ### Compliance Dataset
 

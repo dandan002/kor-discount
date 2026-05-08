@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-foundation-01-PLAN.md
-last_updated: "2026-05-08T17:41:14.647Z"
+stopped_at: Completed 01-foundation-04-PLAN.md
+last_updated: "2026-05-08T17:47:57.121Z"
 last_activity: 2026-05-08
 progress:
   total_phases: 4
   completed_phases: 0
   total_plans: 5
-  completed_plans: 2
-  percent: 40
+  completed_plans: 4
+  percent: 80
 ---
 
 # Project State
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-05-08)
 ## Current Position
 
 Phase: 01 (foundation) — EXECUTING
-Plan: 3 of 5
+Plan: 5 of 5
 Status: Ready to execute
 Last activity: 2026-05-08
 
@@ -54,6 +54,8 @@ Progress: [████░░░░░░] 40%
 *Updated after each plan completion*
 | Phase 01-foundation P01 | 2 min | 2 tasks | 302 files |
 | Phase 01-foundation P02 | 5 min | 2 tasks | 3 files |
+| Phase 01-foundation P03 | 3 min | 1 tasks | 1 files |
+| Phase 01-foundation P04 | 3 min | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -72,6 +74,11 @@ Recent decisions affecting current work:
 - [Phase 01-foundation]: Use root-level utils modules for Bloomberg, stats, and LaTeX helpers per D-03/D-04.
 - [Phase 01-foundation]: Keep utils.bbg importable without blpapi; Bloomberg availability is checked lazily at call time.
 - [Phase 01-foundation]: Use pandas DataFrame.to_latex default booktabs output for compatibility with pandas 2.2.1.
+- [Phase 01-foundation]: Use the exact BDS call bds("KOSPI Index", "INDX_MEMBERS") for KOSPI membership acquisition.
+- [Phase 01-foundation]: Keep universe_raw.csv columns limited to ticker, name, sector, industry, country, and ipo_date.
+- [Phase 01-foundation]: Catch Bloomberg RuntimeError failures at script entry so offline terminal-connection failures do not traceback.
+- [Phase 01-foundation]: Use FUNDAMENTAL_DATABASE_DATE=20231231 for the FY2023 BDP snapshot, with terminal confirmation TODO.
+- [Phase 01-foundation]: Pull KOSPI Index PX_LAST alongside firm tickers for benchmark alignment per D-02.
 
 ### Pending Todos
 
@@ -99,6 +106,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-08T17:32:43.775Z
-Stopped at: Completed 01-foundation-01-PLAN.md
+Last session: 2026-05-08T17:47:57.117Z
+Stopped at: Completed 01-foundation-04-PLAN.md
 Resume file: None
