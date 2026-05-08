@@ -9,7 +9,7 @@
 
 - [ ] **INFR-01**: Project directory layout matches ROADMAP spec (data/, src/, outputs/, paper/, utils/)
 - [ ] **INFR-02**: requirements.txt lists all Python dependencies with pinned versions
-- [ ] **INFR-03**: Makefile provides `make mock`, `make analysis`, `make paper`, and `make all` targets
+- [ ] **INFR-03**: Makefile provides `make acquire`, `make analysis`, `make paper`, and `make all` targets
 - [ ] **INFR-04**: .env pattern configured for Bloomberg host/port; template .env.example committed
 - [ ] **INFR-05**: Virtual environment setup documented in README
 
@@ -23,10 +23,8 @@
 ### Data Acquisition
 
 - [ ] **DATA-01**: src/00_build_universe.py pulls live KOSPI universe from Bloomberg (BDS + BDP) and saves universe_raw.csv
-- [ ] **DATA-02**: src/00_build_universe.py --mock generates a 650-firm synthetic universe with correct schema
 - [ ] **DATA-03**: src/01_bloomberg_pull.py pulls snapshot_2023.csv, roe_panel.csv, and returns_panel.csv from Bloomberg
-- [ ] **DATA-04**: src/01_bloomberg_pull.py --mock generates all three CSVs with realistic synthetic distributions
-- [ ] **DATA-05**: All Bloomberg scripts fail gracefully with an informative error when blpapi is not installed and --mock is not passed
+- [ ] **DATA-05**: All Bloomberg scripts fail gracefully with an informative error when blpapi is not installed
 
 ### Compliance Dataset
 
@@ -81,11 +79,16 @@
 
 ### End-to-End Validation
 
-- [ ] **E2E-01**: Full mock pipeline runs without errors: `make mock && make analysis && make paper`
-- [ ] **E2E-02**: All outputs/ files (4 tables, 4 figures) are produced from mock data
-- [ ] **E2E-03**: Paper compiles with \input{} table and figure references resolving correctly against mock outputs
+- [ ] **E2E-01**: Full real-data pipeline runs without errors: `make analysis && make paper`
+- [ ] **E2E-02**: All outputs/ files (4 tables, 4 figures) are produced from real data in data/processed/sample.csv
+- [ ] **E2E-03**: Paper compiles with \input{} table and figure references resolving correctly against real outputs
 
 ## v2 Requirements
+
+### Mock / Offline Mode (deferred)
+
+- **DATA-02**: src/00_build_universe.py --mock generates a 650-firm synthetic universe with correct schema
+- **DATA-04**: src/01_bloomberg_pull.py --mock generates all three CSVs with realistic synthetic distributions
 
 ### Robustness & Extensions
 
@@ -115,7 +118,7 @@
 |-------------|-------|--------|
 | INFR-01 through INFR-05 | Phase 1 | Pending |
 | UTIL-01 through UTIL-04 | Phase 1 | Pending |
-| DATA-01 through DATA-05 | Phase 1 | Pending |
+| DATA-01, DATA-03, DATA-05 | Phase 1 | Pending |
 | COMP-01 through COMP-03 | Phase 2 | Pending |
 | MSTR-01 through MSTR-03 | Phase 2 | Pending |
 | DESC-01 through DESC-04 | Phase 3 | Pending |
@@ -126,10 +129,10 @@
 | E2E-01 through E2E-03 | Phase 4 | Pending |
 
 **Coverage:**
-- v1 requirements: 43 total
-- Mapped to phases: 43
+- v1 requirements: 41 total (DATA-02 and DATA-04 moved to v2)
+- Mapped to phases: 41
 - Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-05-08*
-*Last updated: 2026-05-08 after initial definition*
+*Last updated: 2026-05-08 after restructuring — mock mode moved to v2; Phase 1 goal is terminal-ready acquisition scripts*

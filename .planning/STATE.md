@@ -12,7 +12,7 @@ See: .planning/PROJECT.md (updated 2026-05-08)
 Phase: 1 of 4 (Foundation)
 Plan: 0 of TBD in current phase
 Status: Ready to plan
-Last activity: 2026-05-08 — Roadmap created; phases derived from 43 v1 requirements
+Last activity: 2026-05-08 — Restructured roadmap: Phase 1 builds real acquisition scripts; mock mode moved to v2; Bloomberg Terminal Checkpoint added between Phase 1 and Phase 2
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -44,7 +44,7 @@ Recent decisions affecting current work:
 
 - [Init]: KOSPI only (no KOSDAQ) — KOSDAQ noise degrades event study
 - [Init]: Three-way compliance coding (0/1/2) — distinguishes signal quality
-- [Init]: Mock mode for all Bloomberg scripts — offline development without terminal access
+- [Init]: No mock mode in v1 — Phase 1 builds real acquisition scripts, user runs at Bloomberg terminal, then Phases 2–4 proceed from real CSVs
 - [Init]: statsmodels over R — keep everything in one Python pipeline
 
 ### Pending Todos
@@ -53,7 +53,7 @@ None yet.
 
 ### Blockers/Concerns
 
-- Bloomberg terminal access required for scripts 00 and 01 (live mode); plan a single library session after mock pipeline is validated
+- Bloomberg terminal access required immediately after Phase 1 — plan the library session before starting Phase 2
 - Compliance coding (manual KRX review) is the critical human bottleneck — must be done before Phase 2 completes
 
 ## Deferred Items
@@ -64,6 +64,11 @@ None yet.
 | v2 | KCGS governance scores merge | Deferred | Init |
 | v2 | Propensity score matching | Deferred | Init |
 | v2 | DART OpenAPI automation | Deferred | Init |
+
+### Quick Tasks Completed
+
+| # | Description | Date | Commit | Directory |
+|---|-------------|------|--------|-----------|
 
 ## Session Continuity
 
