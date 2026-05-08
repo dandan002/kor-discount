@@ -31,10 +31,12 @@ log = logging.getLogger(__name__)
 _KS_SUFFIX = ".KS"
 KOSPI_YF_TICKER = "^KS11"
 
-_MAX_WORKERS = 8
+_MAX_WORKERS = 4
 _RETRY_DELAY = 2.0
 _MAX_RETRIES = 3
 _INTER_TICKER_SLEEP = 0.35
+_DOWNLOAD_BATCH_SIZE = 50
+_DOWNLOAD_BATCH_SLEEP = 15.0
 
 # Bloomberg snapshot fields this module replicates
 _SNAPSHOT_FIELDS = [
@@ -398,6 +400,28 @@ def get_roe_panel(
 # ---------------------------------------------------------------------------
 
 
+def _download_batch(yf_tickers: list, start_date: str, end_date: str) -> pd.DataFrame:
+    for attempt in range(_MAX_RETRIES):
+        try:
+            raw = yf.download(
+                yf_tickers,
+                start=start_date,
+                end=end_date,
+                interval="1wk",
+                auto_adjust=True,
+                progress=False,
+                threads=True,
+            )
+            return raw
+        except Exception as exc:
+            if attempt < _MAX_RETRIES - 1:
+                delay = _RETRY_DELAY * (2 ** attempt)
+                log.info("Retry %d/%d for batch download: sleeping %.1fs — %s", attempt + 1, _MAX_RETRIES, delay, exc)
+                time.sleep(delay)
+            else:
+                raise
+
+
 def get_returns_panel(
     krx_tickers: list,
     start_date: str = "2021-01-01",
@@ -411,56 +435,69 @@ def get_returns_panel(
     'security' uses Yahoo Finance format ("005930.KS"; benchmark is "^KS11").
     Mirrors bdh() PX_LAST output.
 
-    Uses yfinance bulk download (far more efficient than per-ticker calls).
+    Downloads in batches of _DOWNLOAD_BATCH_SIZE tickers with sleeps between
+    batches to avoid YFRateLimitError.
     """
     yf_tickers = [_to_yf(t) for t in krx_tickers]
-    if include_benchmark:
-        yf_tickers.append(KOSPI_YF_TICKER)
+    benchmark_ticker = [KOSPI_YF_TICKER] if include_benchmark else []
 
     log.info(
-        "Fetching weekly prices for %d securities (%s to %s) via yfinance bulk download ...",
-        len(yf_tickers), start_date, end_date,
+        "Fetching weekly prices for %d securities (%s to %s) in batches of %d ...",
+        len(yf_tickers) + len(benchmark_ticker), start_date, end_date,
+        _DOWNLOAD_BATCH_SIZE,
     )
 
-    raw = None
-    for attempt in range(_MAX_RETRIES):
-        try:
-            raw = yf.download(
-                yf_tickers,
-                start=start_date,
-                end=end_date,
-                interval="1wk",
-                auto_adjust=True,
-                progress=False,
-                threads=True,
-            )
-            break
-        except Exception as exc:
-            if attempt < _MAX_RETRIES - 1:
-                delay = _RETRY_DELAY * (2 ** attempt)
-                log.info("Retry %d/%d for returns panel download: sleeping %.1fs — %s", attempt + 1, _MAX_RETRIES, delay, exc)
-                time.sleep(delay)
-            else:
-                log.error("Failed to download returns panel after %d attempts: %s", _MAX_RETRIES, exc)
-                raise
+    batches = []
+    for i in range(0, len(yf_tickers), _DOWNLOAD_BATCH_SIZE):
+        batch = yf_tickers[i : i + _DOWNLOAD_BATCH_SIZE]
+        if i + _DOWNLOAD_BATCH_SIZE >= len(yf_tickers) and include_benchmark:
+            batch = batch + benchmark_ticker
 
-    if raw.empty:
-        log.warning("yfinance download returned empty DataFrame.")
+        n_batch = i // _DOWNLOAD_BATCH_SIZE + 1
+        n_total = (len(yf_tickers) + _DOWNLOAD_BATCH_SIZE - 1) // _DOWNLOAD_BATCH_SIZE
+        log.info("  Batch %d/%d: %d tickers ...", n_batch, n_total, len(batch))
+
+        raw = _download_batch(batch, start_date, end_date)
+        if raw.empty:
+            log.warning("  Batch %d returned empty DataFrame, skipping.", n_batch)
+            continue
+
+        close = raw["Close"] if isinstance(raw.columns, pd.MultiIndex) else raw[["Close"]]
+        long = (
+            close.reset_index()
+            .rename(columns={"Date": "date", "Datetime": "date"})
+            .melt(id_vars="date", var_name="security", value_name="px_last")
+            .dropna(subset=["px_last"])
+        )
+        long["date"] = pd.to_datetime(long["date"])
+        batches.append(long)
+
+        if i + _DOWNLOAD_BATCH_SIZE < len(yf_tickers):
+            log.info("  Sleeping %.0fs before next batch ...", _DOWNLOAD_BATCH_SLEEP)
+            time.sleep(_DOWNLOAD_BATCH_SLEEP)
+
+    if not batches:
+        log.warning("All batches returned empty DataFrame.")
         return pd.DataFrame(columns=["security", "date", "px_last"])
 
-    # Extract Close; result may be MultiIndex when >1 ticker
-    close = raw["Close"] if isinstance(raw.columns, pd.MultiIndex) else raw[["Close"]]
+    combined = pd.concat(batches, ignore_index=True)
 
-    long = (
-        close.reset_index()
-        .rename(columns={"Date": "date", "Datetime": "date"})
-        .melt(id_vars="date", var_name="security", value_name="px_last")
-        .dropna(subset=["px_last"])
-    )
-    long["date"] = pd.to_datetime(long["date"])
+    if include_benchmark and benchmark_ticker[0] not in combined["security"].values:
+        log.info("  Fetching benchmark %s separately ...", benchmark_ticker[0])
+        raw_bm = _download_batch(benchmark_ticker, start_date, end_date)
+        if not raw_bm.empty:
+            close_bm = raw_bm[["Close"]]
+            long_bm = (
+                close_bm.reset_index()
+                .rename(columns={"Date": "date", "Datetime": "date"})
+                .melt(id_vars="date", var_name="security", value_name="px_last")
+                .dropna(subset=["px_last"])
+            )
+            long_bm["date"] = pd.to_datetime(long_bm["date"])
+            combined = pd.concat([combined, long_bm], ignore_index=True)
 
     log.info(
         "Returns panel: %d rows, %d unique securities.",
-        len(long), long["security"].nunique(),
+        len(combined), combined["security"].nunique(),
     )
-    return long[["security", "date", "px_last"]].reset_index(drop=True)
+    return combined[["security", "date", "px_last"]].reset_index(drop=True)
