@@ -1,0 +1,405 @@
+%% Korea Discount — Literature Review
+%% Working Paper Format
+%% Compile with: xelatex → bibtex → xelatex → xelatex
+
+\documentclass[12pt]{article}
+
+%% Korean language support (requires XeLaTeX)
+\usepackage{kotex}
+
+%% Packages
+\usepackage[margin=1in,headheight=14pt]{geometry}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{abstract}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{csquotes}
+
+%% Page style
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small\textit{Korea Discount — Literature Review}}
+\lhead{\small\textit{Working Paper}}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+%% Section formatting
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.6em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.6em}{}
+
+%% Hyperref setup
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=blue!60!black,
+  urlcolor=blue!60!black
+}
+
+\doublespacing
+
+%%----------------------------------------------------------------------
+\begin{document}
+
+%%----------------------------------------------------------------------
+%% Title Block
+%%----------------------------------------------------------------------
+\begin{titlepage}
+  \centering
+  \vspace*{1cm}
+
+  {\LARGE\bfseries The Korea Discount: Causes, Persistence, and Policy Responses}\\[1.5em]
+  {\large A Systematic Literature Review}\\[3em]
+
+  \rule{0.5\textwidth}{0.4pt}\\[2em]
+
+  {\large\textit{Working Paper}}\\[0.5em]
+  {\normalsize May 2026}\\[3em]
+
+  \rule{0.5\textwidth}{0.4pt}\\[2em]
+
+  {\normalsize\textbf{Abstract}}
+
+  \begin{minipage}{0.85\textwidth}
+    \normalsize\singlespacing
+    South Korean equities have traded at persistent discounts to global peers for at least three decades,
+    a phenomenon widely termed the \enquote{Korea Discount.}  This paper synthesizes the growing empirical
+    and legal literature on the discount's measurement, causes, and remedies.  We organize the evidence
+    around three competing—and often complementary—explanations: (i) corporate governance failures
+    rooted in the chaebol ownership structure; (ii) structural weakness in corporate growth potential
+    and capital allocation; and (iii) demand-side frictions, including short-termism among domestic
+    investors and asymmetric foreign-investor discipline.  We further review recent policy responses,
+    including the 2024 Corporate Value-Up Program and the 2025 Commercial Act amendment, and assess
+    their expected efficacy in light of the empirical record.  The literature converges on the view that
+    the discount is deeply structural: no single governance or payout reform is likely to close the gap
+    without simultaneous improvement in long-run profitability and investment quality.
+  \end{minipage}
+
+  \vspace{2em}
+  \rule{0.5\textwidth}{0.4pt}\\[1em]
+  {\small JEL Codes: G12, G15, G34, G38, O53}\\
+  {\small Keywords: Korea discount, KOSPI, corporate governance, chaebol, price-to-book ratio,
+    value-up program, shareholder rights}
+\end{titlepage}
+
+%%----------------------------------------------------------------------
+\newpage
+\tableofcontents
+\newpage
+
+%%----------------------------------------------------------------------
+\section{Introduction}
+%%----------------------------------------------------------------------
+
+The Korean stock market has long attracted attention for one of the most persistent valuation
+anomalies in international finance: listed Korean firms systematically trade below book value and at
+lower earnings multiples than comparably profitable firms in other economies, even after controlling
+for standard risk factors.  This \enquote{Korea Discount} is not a fleeting market inefficiency.
+\citet{jin2026} document that Korean firms exhibited statistically significant undervaluation across
+a 48-country panel spanning 1990--2023, and that the discount persisted across all three sub-decades
+examined.  \citet{choi2012} reach a similar conclusion using cost-of-equity capital comparisons
+across 31 countries: Korean firms bear a cost of equity significantly above what firm characteristics
+would predict, though the gap had narrowed somewhat by the early 2010s.
+
+The Korea Discount is consequential beyond academic finance.  A chronically undervalued equity market
+raises the cost of external financing, depresses household wealth, discourages domestic investment,
+and has become a focal point of economic policy.  In 2024, the Korean Financial Services Commission
+launched a \enquote{Corporate Value-Up Program} explicitly modeled on Japan's \textit{Tokyo Stock
+Exchange PBR Improvement Initiative}, and the National Assembly subsequently passed a landmark
+amendment to the Commercial Act in July 2025 to strengthen minority shareholder protections.
+
+Yet the diagnosis remains contested.  Attribution of the discount to governance failures, growth
+weakness, or behavioral frictions has direct implications for what kinds of policy will work.  This
+review systematically examines the empirical literature to assess which explanations have the
+strongest support and what the evidence implies for the effectiveness of recent reforms.
+
+The remainder of this paper is organized as follows.  Section~\ref{sec:measurement} reviews the
+measurement of the Korea Discount and establishes its magnitude and persistence.  Section~\ref{sec:causes}
+surveys the three main causal hypotheses: governance (Section~\ref{subsec:governance}), growth
+and capital allocation (Section~\ref{subsec:growth}), and demand-side frictions
+(Section~\ref{subsec:demand}).  Section~\ref{sec:policy} evaluates the policy responses.
+Section~\ref{sec:synthesis} synthesizes the evidence and identifies open questions.
+
+%%----------------------------------------------------------------------
+\section{Measuring the Korea Discount}
+\label{sec:measurement}
+%%----------------------------------------------------------------------
+
+The Korea Discount is conventionally measured as the gap between the price-to-book ratio (PBR) or
+price-to-earnings (P/E) ratio of the Korean market (proxied by the KOSPI or KOSPI\,200 indices) and
+that of a relevant peer group—typically developed Asian markets, the MSCI Emerging Markets index,
+or a cross-country regression-predicted benchmark.
+
+\citet{jin2026} provide the most comprehensive long-run evidence to date.  Using data for 48 countries
+over 1990--2023, they confirm that Korean firms' P/B and P/E ratios consistently ranked among the
+lowest globally, and that this undervaluation remained statistically significant after controlling for
+firm size, profitability, and growth, as well as country-level GDP per capita, financial market
+development, and geopolitical risk.  Critically, the discount was not confined to specific business
+cycles or crisis periods: subsample analyses covering the 1990s, 2000s, and 2010s all yield the
+same conclusion, establishing that the Korea Discount is a structural, three-decade phenomenon
+rather than a cyclical aberration.
+
+\citet{jung2022} provide complementary within-sample evidence.  The historical average book-to-market
+(BTM) ratio of Korean listed companies exceeds one, meaning that the market systematically values
+Korean firms below their accounting net assets.  Using firm-level data from 1995 to 2019, they confirm
+that high-BTM Korean stocks deliver higher subsequent returns, consistent with mispricing rather than
+rational risk compensation: the return pattern is asymmetric toward positive extremes, a signature of
+systematic undervaluation rather than elevated systematic risk.
+
+\citet{choi2012} approach measurement from the cost of equity capital side.  Analyzing analysts'
+earnings forecasts to back out implied equity premiums for firms in 32 countries, they find that
+Korean companies face a significantly higher cost of equity than comparable foreign peers, consistent
+with investors demanding a discount for Korea-specific risks.  This framing connects the valuation gap
+directly to the capital market implications: the Korea Discount translates into a structural financing
+disadvantage for Korean firms.
+
+In summary, the literature establishes that the Korea Discount is large (Korean P/B ratios frequently
+run 30--50\% below peer markets on an adjusted basis), persistent (three decades of data), and
+pervasive (present across firm sizes, industries, and business cycles).  The question is not whether
+the discount exists, but why.
+
+%%----------------------------------------------------------------------
+\section{Causes of the Korea Discount}
+\label{sec:causes}
+%%----------------------------------------------------------------------
+
+\subsection{Corporate Governance and the Chaebol Structure}
+\label{subsec:governance}
+
+The dominant popular explanation for the Korea Discount centers on corporate governance failures
+at chaebol conglomerates.  \citet{economist2012} offers a succinct articulation: if controlling
+shareholders can extract private benefits at the expense of minority investors—through \enquote{tunnelling}
+(awarding overpriced contracts to family-owned affiliates) and \enquote{propping} (subsidizing
+failing sister companies)—rational outside investors will discount expected future cash flows,
+depressing valuations.  The geopolitical explanation—that proximity to North Korea depresses Korean
+valuations—is explicitly addressed and dismissed: the KOSPI quickly recovered after the December 2011
+death of Kim Jong Il, and geopolitical controls do not eliminate the discount in cross-country
+regressions \citep{jin2026}.
+
+\citet{njoku2026} examine one specific governance mechanism—dividend policy—in a setting that allows
+them to disentangle chaebol and non-chaebol firms.  Using a panel of 558 KOSPI-listed non-financial
+firms over 2011--2019, they find that governance quality (measured by Korea Corporate Governance
+Service scores) is positively associated with dividends for non-chaebol firms across all governance
+dimensions.  For chaebol-affiliated firms, however, this relationship is \textit{selective}: only
+shareholder rights protection retains independent explanatory power, while board structure, audit
+committee quality, and disclosure transparency do not.  This finding is important because it shows
+that concentrated ownership does not merely attenuate governance effects—it selectively nullifies
+some mechanisms while preserving others.  The policy implication is that broad governance score
+improvements may be ineffective in chaebol firms unless they specifically target minority shareholder
+rights.
+
+\citet{kang2026} test governance explanations using a natural experiment: they examine abnormal
+returns around two events—the June 2025 presidential election and the July 2025 passage of the
+Commercial Act amendment—for firms classified as high-BTM (Korea Discount risk group) versus
+others.  Firms in the highest BTM tercile exhibit significantly positive abnormal returns at both
+event windows, with larger effects at the parliamentary passage date, suggesting the market interprets
+the governance reform as materially reducing the probability of minority shareholder expropriation.
+Importantly, no differential reaction is observed among firms with high controlling shareholder
+ownership, consistent with the view that the market does not expect governance reforms to bind
+equally across all ownership structures.
+
+\citet{park2025} examines a related structural feature: the use of cross-shareholdings among chaebol
+affiliates as a mechanism for entrenching management control.  Cross-shareholding structures
+enable controlling families to maintain voting control well in excess of their economic stakes,
+limiting the disciplinary force of capital markets.  \citet{park2025} argues that the threat of
+affiliate-driven boardroom coups using voting restriction strategies could, paradoxically, incentivize
+holding company revaluation—a channel through which the Korea Discount might narrow even without
+direct governance legislation.
+
+The governance hypothesis receives strong support overall, but several papers raise important nuances.
+\citet{kim2025} argue that measured shareholder rights scores do not, on average, rank Korea lower
+than comparable countries, questioning the premise that Korea has weaker de jure investor protections.
+\citet{yang2025} go further: in a direct horse-race between governance, shareholder payout, and
+growth potential variables in explaining cross-sectional PBR variation among Korean firms, governance
+variables exhibit no statistically significant relationship with PBR.  These findings suggest that
+the governance mechanism—if operative—works through subtle de facto channels (selective compliance,
+concentrated ownership, tunnelling) rather than through measurable governance score improvements,
+and that governance alone is unlikely to explain the full magnitude of the discount.
+
+\subsection{Growth Potential and Capital Allocation}
+\label{subsec:growth}
+
+A second strand of research attributes the Korea Discount primarily to weak corporate growth
+prospects and inefficient capital allocation rather than governance failures per se.
+
+\citet{yang2025} provide the clearest empirical case.  Using cross-sectional regressions of PBR on
+governance, payout, and growth variables, they find that growth-related variables dominate: firms
+with low R\&D expenditure, higher tangible asset intensity (plants and land relative to intangible
+capital such as patents and brand value), and older firms beyond peak growth consistently display
+lower PBRs.  The implication is that the Korean market's low valuations primarily reflect investors'
+rational assessment of weak future growth, not expropriation risk.
+
+\citet{lee2025pbr} adopts a capital allocation lens.  Modeling both short-run and long-run
+determinants of PBR changes, he finds that cash retention, R\&D investment, general capital
+expenditure, and dividends all have positive long-run effects on PBR for the overall firm sample.
+However, for large manufacturing firms—the backbone of the Korean economy—dividend expansion has
+\textit{weak or negative} effects, while R\&D investment is the dominant value driver.  This finding
+directly challenges policies focused on dividend increases as the primary lever for PBR improvement:
+for the firms that matter most to the KOSPI's aggregate valuation, what creates value is investment
+quality, not payout generosity.
+
+\citet{jin2026} corroborate this view from a cross-country perspective.  Among OECD countries that
+achieved significant long-run multiple expansion, the key factors were profitability improvement,
+appropriate liquidity management, and financial market development.  By contrast, higher shareholder
+return ratios, short-term trading activity, and elevated geopolitical risk were negatively associated
+with valuation improvements.  This evidence directly contradicts simple payout-based explanations
+of the Korea Discount and suggests that durable multiple expansion requires building profitability
+foundations over years or decades.
+
+\citet{kim2025} offer additional evidence for a structural demand explanation rooted in investor
+behavior.  Korean firms' trading turnover ranked 3rd among 58 countries in their sample, yet the
+degree to which corporate fundamentals—profitability and growth—were reflected in valuations ranked
+51st.  The predictive power of market-to-book ratios for future earnings was significantly weaker
+in Korea than in other markets, suggesting that high short-term trading activity crowds out
+long-horizon price discovery.  In this view, the Korea Discount is partly endogenous to investor
+behavior: a short-term trading culture prevents long-run corporate fundamentals from being capitalized
+into equity prices, creating a self-reinforcing undervaluation trap.
+
+\subsection{Demand-Side Frictions: Investor Behavior and Information}
+\label{subsec:demand}
+
+A third cluster of explanations focuses on demand-side frictions—features of the investor base,
+information environment, or market microstructure that suppress Korean equity valuations
+independently of firm-level fundamentals.
+
+\citet{yun2022} examine how investor sentiment affects audit quality in the Korean setting.  They
+find that initial audit fees are significantly lower when investor sentiment is high, and that
+Big\,4 and specialist auditors input fewer audit hours during high-sentiment periods.  While this
+paper is not directly about the Korea Discount, it illuminates a broader principle: when sentiment
+drives trading activity, the market's ability to discipline managers and detect opportunistic behavior
+weakens, which should rationally lead to lower valuations once sentiment reverts.  A market prone to
+sentiment-driven overconfidence may price-in discount premiums to offset expected future audit-quality
+failures.
+
+\citet{joo2026} examine foreign investors as a disciplining mechanism.  Standard OLS regressions
+suggest that foreign ownership is positively correlated with growth disparity (the gap between
+sustainable and actual growth rates), but this reflects selection: foreign investors prefer
+growth-oriented firms.  After addressing endogeneity through propensity score matching, foreign
+ownership \textit{reduces} growth disparity significantly, correcting over-investment in over-growing
+firms and encouraging profitable management in under-growing ones.  Foreign investors thus function
+as smart monitors rather than short-term speculators.  The corollary is that policies discouraging
+or restricting foreign investment—or a market environment perceived as hostile to foreign capital—
+would deprive Korean firms of an important governance mechanism, exacerbating the discount.
+
+The equity premium evidence in \citet{choi2012} is also relevant here.  A higher cost of equity
+for Korean firms can reflect not only governance or growth concerns, but also liquidity premia,
+information asymmetry premiums, and limited investor base.  Market development—breadth of the
+institutional investor base, disclosure quality, analyst coverage—affects the equilibrium price
+level independent of firm fundamentals.
+
+%%----------------------------------------------------------------------
+\section{Policy Responses}
+\label{sec:policy}
+%%----------------------------------------------------------------------
+
+The persistence of the Korea Discount has motivated a succession of policy responses, each informed
+by a particular causal diagnosis.
+
+\subsection{The Corporate Value-Up Program (2024)}
+
+In February 2024, Korea's Financial Services Commission launched the Corporate Value-Up Program,
+modeled closely on the Tokyo Stock Exchange's 2023 initiative requiring firms trading below book
+value to disclose improvement plans.  \citet{lee2025vup} provides a comprehensive legal and policy
+assessment.  She notes that, unlike Japan's experience—where the disclosure requirement triggered
+substantial corporate action and a multi-year bull market—the initial Korean program was largely
+ignored: most KOSPI and KOSDAQ firms opted out, and the index closed weaker at year-end 2024.
+
+Several structural differences likely explain the divergent outcomes.  Japan's program was
+accompanied by sustained shareholder activism, a favorable macroeconomic environment, and cross-
+shareholding unwind incentives from the Bank of Japan's equity holdings.  Korea's program, by
+contrast, was voluntary with no enforcement mechanism, and was introduced into a period of domestic
+political uncertainty.  \citet{lee2025pbr} further cautions that dividend-centric interpretations
+of the value-up program may be counterproductive for large manufacturers, where R\&D investment
+rather than payout expansion drives PBR improvement.
+
+\subsection{Commercial Act Amendment (2025)}
+
+The July 2025 amendment to Korea's Commercial Act addressed several long-standing governance
+weaknesses: expanded fiduciary duties to include minority shareholders, tightened related-party
+transaction approvals, and enhanced board independence requirements.  \citet{kang2026} find that
+high-BTM firms earned significantly positive abnormal returns around both the election event (which
+signaled reform probability) and the legislative passage date, with larger market reactions at the
+formal enactment.  This event-study evidence is the most direct empirical test that governance
+reform matters for the Korea Discount, and the results are encouraging.
+
+However, \citet{kang2026} also find that firms with high controlling shareholder ownership did not
+exhibit differential market reactions, suggesting the market discounts the amendment's ability to
+constrain controlling families.  This is consistent with \citet{njoku2026}'s finding that governance
+improvements in chaebol firms flow primarily through shareholder rights channels, not through
+structural board reforms.
+
+\subsection{Implications of the Causal Evidence for Policy}
+
+The empirical literature provides a nuanced guide for policy design.  If the Korea Discount primarily
+reflects weak growth potential—as \citet{yang2025} and \citet{jin2026} argue—then governance and
+payout reforms will have limited effects.  The growth diagnosis calls for industrial and innovation
+policy: measures that increase R\&D intensity, facilitate entry and exit, reduce zombie firm prevalence
+(identified as a persistent drag by \citealt{lee2025vup}), and develop the long-term institutional
+investor base that can fund growth-oriented businesses.
+
+If short-termism among domestic investors is a root cause—as \citet{kim2025} suggest—then market
+microstructure reforms (transaction taxes, holding period incentives, institutional investor
+development) may be more effective than corporate disclosure mandates.  The finding of \citet{joo2026}
+that foreign investors correct growth disparity points toward policies that lower barriers to
+foreign portfolio investment and improve English-language disclosure.
+
+If governance remains an independent cause despite skepticism from \citet{yang2025}, the evidence
+from \citet{njoku2026} and \citet{kang2026} suggests reforms should focus specifically on minority
+shareholder rights rather than broad governance score metrics.  In particular, related-party
+transaction controls and cumulative voting rights—tools that reduce tunnelling and propping—may
+be more effective than board composition requirements, which chaebol firms can satisfy formally
+without substantive effect.
+
+%%----------------------------------------------------------------------
+\section{Synthesis and Research Gaps}
+\label{sec:synthesis}
+%%----------------------------------------------------------------------
+
+The literature reviewed here converges on several important conclusions.  First, the Korea Discount
+is a structural, multi-decade phenomenon that cannot be attributed to any single factor.  Its
+persistence across business cycles and its robustness to standard controls for risk and fundamentals
+imply that it reflects deep institutional and behavioral features of the Korean economy.
+
+Second, governance and growth explanations are complementary rather than mutually exclusive.  Chaebol
+governance failures reduce the share of firm value that accrues to minority shareholders, while weak
+growth prospects reduce total value.  The relative magnitude of each contribution likely varies across
+firm groups: governance effects appear stronger among non-chaebol firms and firms with diffuse
+ownership (consistent with \citealt{njoku2026} and \citealt{kang2026}), while growth and investment
+effects dominate for large manufacturing conglomerates (consistent with \citealt{yang2025} and
+\citealt{lee2025pbr}).
+
+Third, demand-side frictions amplify supply-side weaknesses.  Short-termism among domestic investors
+prevents long-run corporate value from being incorporated in prices, creating an environment in which
+even well-governed, high-growth firms may be undervalued.  Foreign investor activism partially
+mitigates this (per \citealt{joo2026}), but only for firms foreign capital finds accessible.
+
+Fourth, recent policy interventions show early promise but face structural headwinds.  The
+Commercial Act amendment produced measurably positive market reactions for high-BTM firms
+\citep{kang2026}, but governance reform is unlikely to be sufficient on its own.  The value-up
+program's initial underperformance relative to Japan's experience suggests that voluntary
+disclosure requirements without enforcement mechanisms are insufficient in a concentrated ownership
+environment.
+
+Several important gaps remain.  The literature lacks rigorous causal identification of the long-run
+effect of specific governance reforms on Korean equity valuations; most evidence is event-study based
+or cross-sectional.  The interaction between macroeconomic policy uncertainty—identified by
+\citet{kim2025} as an understudied driver—and the Korea Discount merits further structural modeling.
+The literature on foreign investor discipline \citep{joo2026} relies on KOSPI and KOSDAQ data
+through 2024 and does not yet capture the 2025 post-reform period.  Finally, comparisons with Japan's
+value-up experience remain preliminary; a systematic comparative study exploiting the near-simultaneous
+policy adoptions in both markets would substantially advance the literature.
+
+%%----------------------------------------------------------------------
+\newpage
+\bibliographystyle{apalike}
+\bibliography{references}
+%%----------------------------------------------------------------------
+
+\end{document}
