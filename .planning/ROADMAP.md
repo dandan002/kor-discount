@@ -33,7 +33,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 Plans:
 - [x] 01-01-PLAN.md — Cleanup + infrastructure scaffold (gitignore, prior-project data move, utils/ package, requirements.txt, .env.example, README.md)
-- [ ] 01-02-PLAN.md — Utils package implementation (bbg.py, stats.py, latex_tables.py)
+- [x] 01-02-PLAN.md — Utils package implementation (bbg.py, stats.py, latex_tables.py)
 - [ ] 01-03-PLAN.md — src/00_build_universe.py (KOSPI universe pull)
 - [ ] 01-04-PLAN.md — src/01_bloomberg_pull.py (snapshot, ROE panel, returns panel)
 - [ ] 01-05-PLAN.md — Makefile (acquire guard + analysis + paper + all targets)

@@ -15,10 +15,10 @@
 
 ### Utilities
 
-- [ ] **UTIL-01**: utils/bbg.py implements BDP, BDH, BDS wrappers with graceful ImportError fallback when blpapi not installed
-- [ ] **UTIL-02**: utils/bbg.py passes connection test when run as `python src/utils/bbg.py --test`
-- [ ] **UTIL-03**: utils/stats.py provides shared helpers for winsorization, robust SE computation, and Cohen's Kappa
-- [ ] **UTIL-04**: utils/latex_tables.py exports a DataFrame to a standalone .tex table fragment with booktabs formatting, caption, label, and optional footnote
+- [x] **UTIL-01**: utils/bbg.py implements BDP, BDH, BDS wrappers with graceful ImportError fallback when blpapi not installed
+- [x] **UTIL-02**: utils/bbg.py passes connection test when run as `python src/utils/bbg.py --test`
+- [x] **UTIL-03**: utils/stats.py provides shared helpers for winsorization, robust SE computation, and Cohen's Kappa
+- [x] **UTIL-04**: utils/latex_tables.py exports a DataFrame to a standalone .tex table fragment with booktabs formatting, caption, label, and optional footnote
 
 ### Data Acquisition
 
