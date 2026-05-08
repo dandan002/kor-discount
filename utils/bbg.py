@@ -125,6 +125,8 @@ def bdp(securities, fields, overrides=None):
         ev = session.nextEvent(500)
         for msg in ev:
             _raise_bbg_errors(msg)
+            if not msg.hasElement("securityData"):
+                continue
             sec_data = msg.getElement("securityData")
             for i in range(sec_data.numValues()):
                 sd = sec_data.getValueAsElement(i)
@@ -204,6 +206,8 @@ def _bdh_batch(securities, fields, start_date, end_date, periodicity):
         ev = session.nextEvent(500)
         for msg in ev:
             _raise_bbg_errors(msg)
+            if not msg.hasElement("securityData"):
+                continue
             sec_data = msg.getElement("securityData")
             _raise_bbg_errors(msg, sec_data)
             ticker = sec_data.getElementAsString("security")
@@ -256,6 +260,8 @@ def bds(security, field):
         ev = session.nextEvent(500)
         for msg in ev:
             _raise_bbg_errors(msg)
+            if not msg.hasElement("securityData"):
+                continue
             sec_data_elem = msg.getElement("securityData")
             sd = sec_data_elem.getValueAsElement(0)
             _raise_bbg_errors(msg, sd)
