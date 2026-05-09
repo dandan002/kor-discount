@@ -2,7 +2,7 @@
 figure1.py - Generate Figure 1: KOSPI P/B vs benchmark indices, 2004-2024.
 
 Outputs:
-  output/figures/figure1_pb_comparison.pdf - publication-quality PDF, 300 DPI
+  output/figures/figure1_pb_comparison.png - publication-quality PNG, 300 DPI
 """
 import logging
 import sys
@@ -86,14 +86,12 @@ def main() -> None:
             color="grey",
         )
 
-    output_path = config.OUTPUT_DIR / "figures" / "figure1_pb_comparison.pdf"
+    output_path = config.OUTPUT_DIR / "figures" / "figure1_pb_comparison.png"
     output_path.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(
         output_path,
         dpi=300,
         bbox_inches="tight",
-        format="pdf",
-        metadata={"CreationDate": None, "ModDate": None},
     )
     plt.close(fig)
     logging.info("Saved Figure 1 to %s", output_path)

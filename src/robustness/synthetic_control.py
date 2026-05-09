@@ -152,14 +152,12 @@ def plot_gap(synth: Synth, dataprep: Dataprep, rmspe: float) -> pd.Series:
     ax.set_title(f"Synthetic Control Gap - Pre-treatment RMSPE: {rmspe:.4f}")
     ax.legend()
     fig.savefig(
-        FIGURES_DIR / "figure_synth_gap.pdf",
+        FIGURES_DIR / "figure_synth_gap.png",
         dpi=300,
         bbox_inches="tight",
-        format="pdf",
-        metadata={"CreationDate": None, "ModDate": None},
     )
     plt.close(fig)
-    logging.info("Saved figure_synth_gap.pdf")
+    logging.info("Saved figure_synth_gap.png")
     return ts_gap
 
 
@@ -224,14 +222,12 @@ def run_intime_placebo(panel: pd.DataFrame) -> pd.Series:
     ax.set_title("In-Time Placebo Gap (Fake Treatment: 2019-01-01)")
     ax.legend()
     fig.savefig(
-        ROBUSTNESS_DIR / "figure_placebo_intime.pdf",
+        ROBUSTNESS_DIR / "figure_placebo_intime.png",
         dpi=300,
         bbox_inches="tight",
-        format="pdf",
-        metadata={"CreationDate": None, "ModDate": None},
     )
     plt.close(fig)
-    logging.info("Saved figure_placebo_intime.pdf")
+    logging.info("Saved figure_placebo_intime.png")
     return gap_it
 
 
@@ -291,14 +287,12 @@ def run_inspace_placebo(panel: pd.DataFrame, ts_gap: pd.Series) -> dict[str, pd.
     ax.set_title("In-Space Placebo Distribution - Japan vs. Donor Pool")
     ax.legend()
     fig.savefig(
-        ROBUSTNESS_DIR / "figure_placebo_inspace.pdf",
+        ROBUSTNESS_DIR / "figure_placebo_inspace.png",
         dpi=300,
         bbox_inches="tight",
-        format="pdf",
-        metadata={"CreationDate": None, "ModDate": None},
     )
     plt.close(fig)
-    logging.info("Saved figure_placebo_inspace.pdf")
+    logging.info("Saved figure_placebo_inspace.png")
     return placebo_gaps
 
 

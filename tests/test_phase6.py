@@ -23,6 +23,18 @@ def test_japan_event_aliases_preserved():
     assert config.EVENT_LABELS == config.JAPAN_EVENT_LABELS
 
 
+def test_japan_follow_on_event_date_locked():
+    assert config.STEWARDSHIP_CODE_2025_DATE == datetime.date(2025, 6, 26)
+    assert config.STEWARDSHIP_CODE_2025_DATE in config.JAPAN_FOLLOW_ON_EVENT_DATES
+    assert len(config.JAPAN_FOLLOW_ON_EVENT_DATES) == 4
+    assert config.JAPAN_FOLLOW_ON_EVENT_DATES[:3] == config.JAPAN_EVENT_DATES
+
+
+def test_japan_follow_on_labels_complete():
+    for date in config.JAPAN_FOLLOW_ON_EVENT_DATES:
+        assert date in config.JAPAN_FOLLOW_ON_EVENT_LABELS
+
+
 def test_korea_value_up_date_sets_locked():
     assert config.KOREA_VALUE_UP_NARROW_EVENT_DATES == [
         datetime.date(2024, 2, 26),

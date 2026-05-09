@@ -1,0 +1,111 @@
+% Descriptive CARs: coefficients and cumulative abnormal MSCI EM Asia-TOPIX P/B spread.
+% Standard errors are not reported: the saturated cohort x relative-time design
+% makes sandwich robust inference undefined. See paper text for robustness discussion.
+% Asia follow-on: includes Stewardship Code Rev. 3 (Jun 2025).
+% Post-event window truncated at max_post_months=10 through 2026-04-30.
+% The original three-event Asia study with full 24-month post window is in asia_event_study_car.csv.
+% Spread is MSCI EM Asia - TOPIX P/B.
+% MSCI EM Asia includes Korea; this benchmark captures Japan vs. the broader
+% Asian emerging-market complex rather than Japan vs. Korea alone.
+\begin{table}
+\caption{Stacked event-study descriptive CAR estimates (no inference reported).}
+\label{tab:event_study_coefs}
+\begin{tabular}{lrrr}
+\toprule
+Event & Month & Coefficient & CAR \\
+\midrule
+Japan Stewardship Code (Feb 2014) & -12 & -0.03 & -0.03 \\
+Japan Stewardship Code (Feb 2014) & -11 & -0.00 & -0.03 \\
+Japan Stewardship Code (Feb 2014) & -10 & -0.05 & -0.09 \\
+Japan Stewardship Code (Feb 2014) & -9 & -0.10 & -0.19 \\
+Japan Stewardship Code (Feb 2014) & -8 & -0.05 & -0.24 \\
+Japan Stewardship Code (Feb 2014) & -7 & -0.07 & -0.31 \\
+Japan Stewardship Code (Feb 2014) & -6 & -0.03 & -0.34 \\
+Japan Stewardship Code (Feb 2014) & -5 & 0.03 & -0.31 \\
+Japan Stewardship Code (Feb 2014) & -4 & 0.03 & -0.28 \\
+Japan Stewardship Code (Feb 2014) & -3 & 0.08 & -0.20 \\
+Japan Stewardship Code (Feb 2014) & -2 & 0.01 & -0.19 \\
+Japan Stewardship Code (Feb 2014) & -1 & 0.00 & -0.19 \\
+Japan Stewardship Code (Feb 2014) & 0 & 0.00 & -0.19 \\
+Japan Stewardship Code (Feb 2014) & 1 & 0.09 & -0.11 \\
+Japan Stewardship Code (Feb 2014) & 2 & 0.09 & -0.01 \\
+Japan Stewardship Code (Feb 2014) & 3 & 0.14 & 0.12 \\
+Japan Stewardship Code (Feb 2014) & 4 & 0.13 & 0.25 \\
+Japan Stewardship Code (Feb 2014) & 5 & 0.12 & 0.38 \\
+Japan Stewardship Code (Feb 2014) & 6 & 0.14 & 0.52 \\
+Japan Stewardship Code (Feb 2014) & 7 & 0.12 & 0.64 \\
+Japan Stewardship Code (Feb 2014) & 8 & 0.02 & 0.67 \\
+Japan Stewardship Code (Feb 2014) & 9 & 0.04 & 0.70 \\
+Japan Stewardship Code (Feb 2014) & 10 & 0.05 & 0.75 \\
+TSE Corporate Governance Code (Jun 2015) & -12 & 0.07 & 0.07 \\
+TSE Corporate Governance Code (Jun 2015) & -11 & 0.06 & 0.13 \\
+TSE Corporate Governance Code (Jun 2015) & -10 & 0.08 & 0.20 \\
+TSE Corporate Governance Code (Jun 2015) & -9 & 0.05 & 0.25 \\
+TSE Corporate Governance Code (Jun 2015) & -8 & -0.05 & 0.20 \\
+TSE Corporate Governance Code (Jun 2015) & -7 & -0.04 & 0.16 \\
+TSE Corporate Governance Code (Jun 2015) & -6 & -0.03 & 0.13 \\
+TSE Corporate Governance Code (Jun 2015) & -5 & -0.05 & 0.08 \\
+TSE Corporate Governance Code (Jun 2015) & -4 & -0.01 & 0.07 \\
+TSE Corporate Governance Code (Jun 2015) & -3 & 0.01 & 0.07 \\
+TSE Corporate Governance Code (Jun 2015) & -2 & 0.02 & 0.09 \\
+TSE Corporate Governance Code (Jun 2015) & -1 & 0.00 & 0.09 \\
+TSE Corporate Governance Code (Jun 2015) & 0 & -0.00 & 0.09 \\
+TSE Corporate Governance Code (Jun 2015) & 1 & -0.01 & 0.09 \\
+TSE Corporate Governance Code (Jun 2015) & 2 & -0.07 & 0.02 \\
+TSE Corporate Governance Code (Jun 2015) & 3 & -0.05 & -0.03 \\
+TSE Corporate Governance Code (Jun 2015) & 4 & 0.00 & -0.03 \\
+TSE Corporate Governance Code (Jun 2015) & 5 & 0.01 & -0.02 \\
+TSE Corporate Governance Code (Jun 2015) & 6 & -0.05 & -0.08 \\
+TSE Corporate Governance Code (Jun 2015) & 7 & -0.02 & -0.09 \\
+TSE Corporate Governance Code (Jun 2015) & 8 & -0.01 & -0.10 \\
+TSE Corporate Governance Code (Jun 2015) & 9 & 0.11 & 0.01 \\
+TSE Corporate Governance Code (Jun 2015) & 10 & 0.16 & 0.18 \\
+TSE P/B Reform Request (Mar 2023) & -12 & 0.05 & 0.05 \\
+TSE P/B Reform Request (Mar 2023) & -11 & -0.04 & 0.01 \\
+TSE P/B Reform Request (Mar 2023) & -10 & -0.11 & -0.10 \\
+TSE P/B Reform Request (Mar 2023) & -9 & -0.06 & -0.16 \\
+TSE P/B Reform Request (Mar 2023) & -8 & -0.11 & -0.27 \\
+TSE P/B Reform Request (Mar 2023) & -7 & -0.14 & -0.41 \\
+TSE P/B Reform Request (Mar 2023) & -6 & -0.05 & -0.46 \\
+TSE P/B Reform Request (Mar 2023) & -5 & -0.15 & -0.61 \\
+TSE P/B Reform Request (Mar 2023) & -4 & -0.24 & -0.85 \\
+TSE P/B Reform Request (Mar 2023) & -3 & 0.01 & -0.84 \\
+TSE P/B Reform Request (Mar 2023) & -2 & 0.07 & -0.78 \\
+TSE P/B Reform Request (Mar 2023) & -1 & 0.00 & -0.78 \\
+TSE P/B Reform Request (Mar 2023) & 0 & 0.00 & -0.78 \\
+TSE P/B Reform Request (Mar 2023) & 1 & -0.05 & -0.83 \\
+TSE P/B Reform Request (Mar 2023) & 2 & -0.10 & -0.93 \\
+TSE P/B Reform Request (Mar 2023) & 3 & -0.15 & -1.07 \\
+TSE P/B Reform Request (Mar 2023) & 4 & -0.19 & -1.27 \\
+TSE P/B Reform Request (Mar 2023) & 5 & -0.15 & -1.41 \\
+TSE P/B Reform Request (Mar 2023) & 6 & -0.12 & -1.53 \\
+TSE P/B Reform Request (Mar 2023) & 7 & -0.15 & -1.69 \\
+TSE P/B Reform Request (Mar 2023) & 8 & -0.17 & -1.86 \\
+TSE P/B Reform Request (Mar 2023) & 9 & -0.09 & -1.95 \\
+TSE P/B Reform Request (Mar 2023) & 10 & -0.02 & -1.97 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & -12 & -0.07 & -0.07 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & -11 & -0.06 & -0.13 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & -10 & -0.02 & -0.16 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & -9 & 0.12 & -0.03 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & -8 & 0.23 & 0.20 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & -7 & 0.13 & 0.34 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & -6 & -0.02 & 0.32 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & -5 & -0.08 & 0.24 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & -4 & -0.06 & 0.18 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & -3 & 0.02 & 0.20 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & -2 & 0.11 & 0.30 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & -1 & 0.00 & 0.30 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & 0 & 0.10 & 0.40 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & 1 & 0.15 & 0.55 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & 2 & 0.12 & 0.68 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & 3 & 0.03 & 0.71 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & 4 & 0.09 & 0.80 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & 5 & 0.07 & 0.87 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & 6 & 0.04 & 0.90 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & 7 & 0.07 & 0.97 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & 8 & 0.14 & 1.11 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & 9 & 0.17 & 1.28 \\
+Japan Stewardship Code Rev. 3 (Jun 2025) & 10 & 0.19 & 1.47 \\
+\bottomrule
+\end{tabular}
+\end{table}

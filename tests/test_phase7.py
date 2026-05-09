@@ -16,13 +16,16 @@ import config
 
 OUTPUT_FIGURES = config.OUTPUT_DIR / "figures"
 OUTPUT_TABLES = config.OUTPUT_DIR / "tables"
-JAPAN_FIGURE = OUTPUT_FIGURES / "figure2_event_study.pdf"
+JAPAN_FIGURE = OUTPUT_FIGURES / "figure2_event_study.png"
 JAPAN_TABLE = OUTPUT_TABLES / "table_event_study_coefs.tex"
-KOREA_FIGURE = OUTPUT_FIGURES / "figure_korea_event_study.pdf"
+KOREA_FIGURE = OUTPUT_FIGURES / "figure_korea_event_study.png"
 KOREA_CAR = OUTPUT_TABLES / "korea_event_study_car.csv"
 KOREA_TABLE = OUTPUT_TABLES / "table_korea_event_study_coefs.tex"
 KOREA_SCRIPT = PROJECT_ROOT / "src" / "analysis" / "korea_event_study.py"
 CORE_SCRIPT = PROJECT_ROOT / "src" / "analysis" / "event_study_core.py"
+KOREA_ASIA_CAR = OUTPUT_TABLES / "korea_asia_event_study_car.csv"
+KOREA_ASIA_TABLE = OUTPUT_TABLES / "table_korea_asia_event_study_coefs.tex"
+KOREA_ASIA_FIGURE = OUTPUT_FIGURES / "figure_korea_asia_event_study.png"
 
 
 def _read_text(path: Path) -> str:
@@ -93,3 +96,39 @@ def test_phase7_japan_artifacts_still_exist():
     for path in (JAPAN_FIGURE, JAPAN_TABLE):
         assert path.exists(), f"Missing expected Japan artifact: {path}"
         assert path.stat().st_size > 0, f"Japan artifact is empty: {path}"
+
+
+def test_phase7_korea_asia_outputs_exist():
+    for path in (KOREA_ASIA_CAR, KOREA_ASIA_TABLE, KOREA_ASIA_FIGURE):
+        assert path.exists(), f"Missing expected Korea-Asia artifact: {path}"
+        assert path.stat().st_size > 0, f"Korea-Asia artifact is empty: {path}"
+
+
+def test_phase7_korea_asia_car_has_three_cohorts():
+    car = pd.read_csv(KOREA_ASIA_CAR)
+    assert list(car.columns) == [
+        "cohort",
+        "event_label",
+        "event_rel_time",
+        "coefficient",
+        "car",
+    ]
+    assert car["cohort"].nunique() == 3
+    primary = config.KOREA_EVENT_SET_POLICY["primary"]
+    expected_window = set(range(-12, int(primary["max_post_months"]) + 1))
+    for cohort, group in car.groupby("cohort"):
+        assert set(group["event_rel_time"]) == expected_window, cohort
+
+
+def test_phase7_korea_asia_uses_msci_em_asia_spread():
+    korea_asia_script = PROJECT_ROOT / "src" / "analysis" / "korea_asia_event_study.py"
+    assert korea_asia_script.exists()
+    source = korea_asia_script.read_text()
+    assert "MSCI_EM_ASIA" in source
+    assert "spread_denominator" in source
+
+
+def test_phase7_korea_asia_table_mentions_asia():
+    content = KOREA_ASIA_TABLE.read_text()
+    assert "MSCI EM Asia" in content
+    assert "CAR" in content

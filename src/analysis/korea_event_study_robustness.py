@@ -42,7 +42,7 @@ COMPARATOR_SCOPE_NOTE_LINES = [
     "Comparator scope note: Phase 8 keeps the event-study spread fixed at KOSPI - TOPIX P/B.",
     "Alternative benchmark evidence already lives in output/tables/discount_stats.csv.",
     "Additional comparator robustness already lives in output/robustness/robustness_alt_control_em_asia.tex and output/robustness/robustness_alt_control_em_exchina.tex.",
-    "Placebo benchmark evidence already lives in output/robustness/figure_placebo_falsification.pdf.",
+    "Placebo benchmark evidence already lives in output/robustness/figure_placebo_falsification.png.",
     "No Phase 8 change refactors src/analysis/event_study_core.py into an arbitrary comparator framework.",
 ]
 
@@ -54,7 +54,7 @@ def build_phase8_spec_catalog() -> dict[str, dict[str, object]]:
             "base_policy_name": "narrow_2024_rollout",
             "set_role": "baseline",
             "figure_path": Path(
-                "figures/figure_korea_event_study_robustness_narrow_2024_rollout.pdf"
+                "figures/figure_korea_event_study_robustness_narrow_2024_rollout.png"
             ),
             "car_path": Path(
                 "tables/korea_event_study_robustness_narrow_2024_rollout_car.csv"
@@ -69,7 +69,7 @@ def build_phase8_spec_catalog() -> dict[str, dict[str, object]]:
             "base_policy_name": "narrow_2024_rollout",
             "set_role": "window_sensitivity",
             "figure_path": Path(
-                "figures/figure_korea_event_study_robustness_narrow_2024_rollout_post12.pdf"
+                "figures/figure_korea_event_study_robustness_narrow_2024_rollout_post12.png"
             ),
             "car_path": Path(
                 "tables/korea_event_study_robustness_narrow_2024_rollout_post12_car.csv"
@@ -84,7 +84,7 @@ def build_phase8_spec_catalog() -> dict[str, dict[str, object]]:
             "base_policy_name": "spaced_follow_through",
             "set_role": "robustness_only",
             "figure_path": Path(
-                "figures/figure_korea_event_study_robustness_spaced_follow_through.pdf"
+                "figures/figure_korea_event_study_robustness_spaced_follow_through.png"
             ),
             "car_path": Path(
                 "tables/korea_event_study_robustness_spaced_follow_through_car.csv"

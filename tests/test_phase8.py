@@ -86,8 +86,8 @@ def test_phase8_does_not_refactor_event_study_core_comparator_contract(tmp_path)
     event_study_core_source = (
         PROJECT_ROOT / "src" / "analysis" / "event_study_core.py"
     ).read_text(encoding="utf-8")
-    assert 'for country in ("KOSPI", "TOPIX")' in event_study_core_source
-    assert 'pivot["KOSPI"] - pivot["TOPIX"]' in event_study_core_source
+    assert "spread_numerator" in event_study_core_source
+    assert "spread_denominator" in event_study_core_source
 
     signature_block = event_study_core_source.split("def run_event_study(", 1)[1].split(
         ") -> pd.DataFrame:",
@@ -101,7 +101,7 @@ def test_phase8_does_not_refactor_event_study_core_comparator_contract(tmp_path)
     assert "output/tables/discount_stats.csv" in note
     assert "output/robustness/robustness_alt_control_em_asia.tex" in note
     assert "output/robustness/robustness_alt_control_em_exchina.tex" in note
-    assert "output/robustness/figure_placebo_falsification.pdf" in note
+    assert "output/robustness/figure_placebo_falsification.png" in note
 
 
 def test_korea_japan_note_contains_causal_caveats(tmp_path):

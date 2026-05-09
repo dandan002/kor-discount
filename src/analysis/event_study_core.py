@@ -76,8 +76,10 @@ def build_stacked_dataset(
     study_end: datetime.date | pd.Timestamp,
     stack_window_min: int,
     stack_window_max: int,
+    spread_numerator: str = "KOSPI",
+    spread_denominator: str = "TOPIX",
 ) -> pd.DataFrame:
-    """Create full event-window cohorts with abnormal KOSPI-TOPIX spread."""
+    """Create full event-window cohorts with abnormal spread between two indices."""
     required_columns = {"date", "country", "pb"}
     missing_columns = required_columns - set(panel.columns)
     if missing_columns:
@@ -104,11 +106,11 @@ def build_stacked_dataset(
         .sort_index()
         .loc[lambda frame: frame.index.to_period("M").isin(required_periods)]
     )
-    for country in ("KOSPI", "TOPIX"):
+    for country in (spread_numerator, spread_denominator):
         if country not in pivot.columns:
             raise ValueError(f"Panel is missing required country: {country}")
 
-    spread = (pivot["KOSPI"] - pivot["TOPIX"]).rename("spread").dropna().to_frame()
+    spread = (pivot[spread_numerator] - pivot[spread_denominator]).rename("spread").dropna().to_frame()
     cohorts: list[pd.DataFrame] = []
     expected_rel_times = set(range(stack_window_min, stack_window_max + 1))
     expected_pre_times = set(range(stack_window_min, BASE_PERIOD + 1))
@@ -257,7 +259,7 @@ def estimate_event_study(
     return car.loc[:, OUTPUT_COLUMNS]
 
 
-def write_latex_table(car_df: pd.DataFrame, path: Path) -> None:
+def write_latex_table(car_df: pd.DataFrame, path: Path, *, spread_description: str = "KOSPI-TOPIX P/B") -> None:
     """Write the event-study coefficient table as descriptive CARs."""
     table = car_df.copy()
     table = table.rename(
@@ -279,7 +281,7 @@ def write_latex_table(car_df: pd.DataFrame, path: Path) -> None:
     )
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
-        "% Descriptive CARs: coefficients and cumulative abnormal KOSPI-TOPIX P/B spread.\n"
+        f"% Descriptive CARs: coefficients and cumulative abnormal {spread_description} spread.\n"
         "% Standard errors are not reported: the saturated cohort x relative-time design\n"
         "% makes sandwich robust inference undefined. See paper text for robustness discussion.\n"
         + latex,
@@ -292,10 +294,11 @@ def write_latex_table_with_comments(
     path: Path,
     *,
     leading_comments: Sequence[str] | None = None,
+    spread_description: str = "KOSPI-TOPIX P/B",
 ) -> None:
     """Write the descriptive CAR table with optional path-specific comments."""
     base_comments = [
-        "% Descriptive CARs: coefficients and cumulative abnormal KOSPI-TOPIX P/B spread.",
+        f"% Descriptive CARs: coefficients and cumulative abnormal {spread_description} spread.",
         "% Standard errors are not reported: the saturated cohort x relative-time design",
         "% makes sandwich robust inference undefined. See paper text for robustness discussion.",
     ]
@@ -332,6 +335,7 @@ def plot_event_study(
     event_labels: dict[datetime.date, str],
     figure_title: str,
     figure_output_path: Path,
+    spread_label: str = "KOSPI - TOPIX P/B",
 ) -> None:
     """Write the event-study figure as a multi-panel CAR PDF."""
     sns.set_theme(style="whitegrid")
@@ -351,7 +355,7 @@ def plot_event_study(
         ax.axvline(x=0, color="grey", linestyle="--", linewidth=0.9, alpha=0.8)
         ax.axhline(y=0, color="black", linestyle="-", linewidth=0.8, alpha=0.7)
         ax.set_title(_event_label(event_labels, event_date), fontsize=10)
-        ax.set_ylabel("CAR: KOSPI - TOPIX P/B")
+        ax.set_ylabel(f"CAR: {spread_label}")
 
     axes[-1].set_xlabel("Months relative to reform")
     fig.suptitle(figure_title, fontsize=11)
@@ -362,8 +366,7 @@ def plot_event_study(
         figure_output_path,
         dpi=300,
         bbox_inches="tight",
-        format="pdf",
-        metadata={"CreationDate": None, "ModDate": None},
+        format="png",
     )
     plt.close(fig)
     logging.info("Saved %s", figure_output_path)
@@ -384,6 +387,10 @@ def run_event_study(
     car_output_path: Path,
     table_output_path: Path,
     table_comment_lines: Sequence[str] | None = None,
+    spread_numerator: str = "KOSPI",
+    spread_denominator: str = "TOPIX",
+    spread_label: str = "KOSPI - TOPIX P/B",
+    spread_description: str = "KOSPI-TOPIX P/B",
 ) -> pd.DataFrame:
     stacked = build_stacked_dataset(
         panel,
@@ -392,6 +399,8 @@ def run_event_study(
         study_end=study_end,
         stack_window_min=stack_window_min,
         stack_window_max=stack_window_max,
+        spread_numerator=spread_numerator,
+        spread_denominator=spread_denominator,
     )
     car = estimate_event_study(
         stacked,
@@ -409,6 +418,7 @@ def run_event_study(
         car,
         table_output_path,
         leading_comments=table_comment_lines,
+        spread_description=spread_description,
     )
     logging.info("Saved %s", table_output_path)
 
@@ -418,5 +428,6 @@ def run_event_study(
         event_labels=event_labels,
         figure_title=figure_title,
         figure_output_path=figure_output_path,
+        spread_label=spread_label,
     )
     return car

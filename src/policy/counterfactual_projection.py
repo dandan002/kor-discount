@@ -7,7 +7,7 @@ synthetic_control.py) to compute an illustrative projection of KOSPI P/B
 if Korea were to implement a P/B governance reform analogous to Japan's
 2023 TSE reform.
 
-Outputs: output/figures/figure4_counterfactual_projection.pdf
+Outputs: output/figures/figure4_counterfactual_projection.png
 """
 import logging
 import sys
@@ -116,9 +116,8 @@ def main() -> None:
     ax.legend(fontsize=8, loc="upper left")
 
     FIGURES_DIR.mkdir(parents=True, exist_ok=True)
-    output_path = FIGURES_DIR / "figure4_counterfactual_projection.pdf"
-    fig.savefig(output_path, dpi=300, bbox_inches="tight", format="pdf",
-                metadata={"CreationDate": None, "ModDate": None})
+    output_path = FIGURES_DIR / "figure4_counterfactual_projection.png"
+    fig.savefig(output_path, dpi=300, bbox_inches="tight")
     plt.close(fig)
     logging.info("Saved %s", output_path)
 

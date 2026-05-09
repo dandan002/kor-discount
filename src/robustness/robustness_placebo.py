@@ -230,14 +230,12 @@ def plot_combined_placebo(car_results: dict[str, pd.DataFrame]) -> None:
 
     fig.tight_layout()
     fig.savefig(
-        ROBUSTNESS_DIR / "figure_placebo_falsification.pdf",
+        ROBUSTNESS_DIR / "figure_placebo_falsification.png",
         dpi=300,
         bbox_inches="tight",
-        format="pdf",
-        metadata={"CreationDate": None, "ModDate": None},
     )
     plt.close(fig)
-    logging.info("Saved %s", ROBUSTNESS_DIR / "figure_placebo_falsification.pdf")
+    logging.info("Saved %s", ROBUSTNESS_DIR / "figure_placebo_falsification.png")
 
 
 def main() -> None:

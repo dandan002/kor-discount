@@ -21,10 +21,10 @@ OUTPUT_TABLES  = config.OUTPUT_DIR / "tables"
 
 # DESC-01 checks
 def test_figure1_pdf_exists():
-    assert (OUTPUT_FIGURES / "figure1_pb_comparison.pdf").exists()
+    assert (OUTPUT_FIGURES / "figure1_pb_comparison.png").exists()
 
 def test_figure1_pdf_nonempty():
-    path = OUTPUT_FIGURES / "figure1_pb_comparison.pdf"
+    path = OUTPUT_FIGURES / "figure1_pb_comparison.png"
     assert path.stat().st_size > 0
 
 # DESC-02 checks

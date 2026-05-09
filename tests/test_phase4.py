@@ -83,7 +83,7 @@ def test_robust03_outputs_exist():
 
 def test_robust04_outputs_exist():
     """ROBUST-04: in-time and in-space placebo figures must exist."""
-    for fname in ("figure_placebo_intime.pdf", "figure_placebo_inspace.pdf"):
+    for fname in ("figure_placebo_intime.png", "figure_placebo_inspace.png"):
         path = ROBUSTNESS_DIR / fname
         assert path.exists(), f"Missing: {path}"
         assert path.stat().st_size > 0

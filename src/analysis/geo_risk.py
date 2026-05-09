@@ -235,14 +235,12 @@ def plot_geo_risk(reg_df: pd.DataFrame) -> None:
         frameon=True,
     )
 
-    output_path = config.OUTPUT_DIR / "figures" / "figure3_geo_risk.pdf"
+    output_path = config.OUTPUT_DIR / "figures" / "figure3_geo_risk.png"
     output_path.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(
         output_path,
         dpi=300,
         bbox_inches="tight",
-        format="pdf",
-        metadata={"CreationDate": None, "ModDate": None},
     )
     plt.close(fig)
     logging.info("Saved Figure 3 to %s", output_path)

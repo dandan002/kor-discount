@@ -17,7 +17,7 @@ from src.analysis import event_study_core
 KOREA_STACK_WINDOW_MIN = -36
 KOREA_EVENT_WINDOW_MIN = -12
 
-KOREA_FIGURE_OUTPUT_PATH = config.OUTPUT_DIR / "figures" / "figure_korea_event_study.pdf"
+KOREA_FIGURE_OUTPUT_PATH = config.OUTPUT_DIR / "figures" / "figure_korea_event_study.png"
 KOREA_CAR_OUTPUT_PATH = config.OUTPUT_DIR / "tables" / "korea_event_study_car.csv"
 KOREA_TABLE_OUTPUT_PATH = (
     config.OUTPUT_DIR / "tables" / "table_korea_event_study_coefs.tex"

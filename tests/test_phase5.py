@@ -21,8 +21,8 @@ PAPER_DIR = PROJECT_ROOT / "paper"
 
 
 def test_counterfactual_figure_exists():
-    """POLICY-02: figure4_counterfactual_projection.pdf must exist and be non-empty."""
-    p = FIGURES_DIR / "figure4_counterfactual_projection.pdf"
+    """POLICY-02: figure4_counterfactual_projection.png must exist and be non-empty."""
+    p = FIGURES_DIR / "figure4_counterfactual_projection.png"
     assert p.exists(), f"Missing: {p}"
     assert p.stat().st_size > 0, f"Empty file: {p}"
 
@@ -30,11 +30,11 @@ def test_counterfactual_figure_exists():
 def test_all_figures_exist():
     """OUTPUT-01: All main figures must exist in output/figures/."""
     required = [
-        "figure1_pb_comparison.pdf",
-        "figure2_event_study.pdf",
-        "figure3_geo_risk.pdf",
-        "figure_synth_gap.pdf",
-        "figure4_counterfactual_projection.pdf",
+        "figure1_pb_comparison.png",
+        "figure2_event_study.png",
+        "figure3_geo_risk.png",
+        "figure_synth_gap.png",
+        "figure4_counterfactual_projection.png",
     ]
     for fname in required:
         p = FIGURES_DIR / fname

@@ -4,6 +4,7 @@ tests/test_phase3.py - Nyquist tests for Phase 3 primary empirics.
 Run: pytest tests/test_phase3.py --collect-only -q
 """
 import ast
+import importlib
 import sys
 from pathlib import Path
 
@@ -53,7 +54,7 @@ def test_three_cohorts():
 
 
 def test_figure2_exists():
-    path = OUTPUT_FIGURES / "figure2_event_study.pdf"
+    path = OUTPUT_FIGURES / "figure2_event_study.png"
     assert path.exists()
     assert path.stat().st_size > 0
 
@@ -194,7 +195,7 @@ def test_gpr_threshold():
 
 
 def test_figure3_exists():
-    path = OUTPUT_FIGURES / "figure3_geo_risk.pdf"
+    path = OUTPUT_FIGURES / "figure3_geo_risk.png"
     assert path.exists()
     assert path.stat().st_size > 0
 
@@ -202,6 +203,75 @@ def test_figure3_exists():
 def test_geo_caveats():
     content = _read_text(OUTPUT_TABLES / "table3_geo_risk.tex").lower()
     assert "partial identification" in content or "caveat" in content
+
+
+def test_asia_event_study_car_has_three_cohorts():
+    asia_car = OUTPUT_TABLES / "asia_event_study_car.csv"
+    assert asia_car.exists(), f"Missing expected output: {asia_car}"
+    car = pd.read_csv(asia_car)
+    assert car["cohort"].nunique() == 3
+    expected_window = set(range(-12, 25))
+    for cohort, group in car.groupby("cohort"):
+        assert set(group["event_rel_time"]) == expected_window, cohort
+
+
+def test_asia_event_study_car_spread_label():
+    asia_script = PROJECT_ROOT / "src" / "analysis" / "asia_event_study.py"
+    assert asia_script.exists()
+    source = asia_script.read_text()
+    assert "MSCI_EM_ASIA" in source
+    assert "spread_numerator" in source
+
+
+def test_asia_event_study_figure_exists():
+    path = OUTPUT_FIGURES / "figure_asia_event_study.png"
+    assert path.exists()
+    assert path.stat().st_size > 0
+
+
+def test_asia_event_study_table_mentions_asia():
+    content = (OUTPUT_TABLES / "table_asia_event_study_coefs.tex").read_text()
+    assert "MSCI EM Asia" in content
+    assert "CAR" in content
+
+
+def test_japan_follow_on_car_has_four_cohorts():
+    follow_on_car = OUTPUT_TABLES / "japan_follow_on_event_study_car.csv"
+    assert follow_on_car.exists(), f"Missing expected output: {follow_on_car}"
+    car = pd.read_csv(follow_on_car)
+    assert car["cohort"].nunique() == 4
+    primary_max_post = importlib.import_module(
+        "src.analysis.japan_follow_on_event_study"
+    ).FOLLOW_ON_MAX_POST_MONTHS
+    expected_window = set(range(-12, primary_max_post + 1))
+    for cohort, group in car.groupby("cohort"):
+        assert set(group["event_rel_time"]) == expected_window, cohort
+
+
+def test_japan_follow_on_includes_2025_reform():
+    follow_on_car = OUTPUT_TABLES / "japan_follow_on_event_study_car.csv"
+    car = pd.read_csv(follow_on_car)
+    cohorts = car["event_label"].unique()
+    assert any("Jun 2025" in label or "Rev. 3" in label for label in cohorts), cohorts
+
+
+def test_japan_follow_on_figure_exists():
+    path = OUTPUT_FIGURES / "figure_japan_follow_on_event_study.png"
+    assert path.exists()
+    assert path.stat().st_size > 0
+
+
+def test_asia_follow_on_car_has_four_cohorts():
+    follow_on_car = OUTPUT_TABLES / "asia_follow_on_event_study_car.csv"
+    assert follow_on_car.exists(), f"Missing expected output: {follow_on_car}"
+    car = pd.read_csv(follow_on_car)
+    assert car["cohort"].nunique() == 4
+
+
+def test_asia_follow_on_figure_exists():
+    path = OUTPUT_FIGURES / "figure_asia_follow_on_event_study.png"
+    assert path.exists()
+    assert path.stat().st_size > 0
 
 
 def test_analysis_modules_do_not_import_each_other():

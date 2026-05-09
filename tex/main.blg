@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: plainnat.bst
+Database file #1: citations.bib
+Warning--empty journal in almeida_chaebol_formation
+Warning--empty journal in bae_tunneling_value_added
+Warning--empty journal in black_governance_firm_value
+Warning--empty journal in choi_equity_premium_korea_discount
+Warning--empty journal in jung_korea_discount_book_to_market
+Warning--empty journal in bae_business_groups_tunneling
+Warning--empty journal in kim_nps_esg_manufacturing
+Warning--empty journal in kim_nps_governance_firm_value
+Warning--empty journal in kim_chaebol_cf_rights
+Warning--empty journal in lee_esg_nps_firm_value
+Warning--empty journal in yun_investor_sentiment_engagement
+Warning--empty journal in kang_commercial_act_market_reactions
+Warning--empty journal in park_stewardship_code_earnings
+Warning--empty journal in suh_holding_company_discount
+Warning--empty journal in park_cross_shareholdings_takeover
+Warning--empty journal in yang_korea_discount_growth_vs_governance
+Warning--empty journal in joo_foreign_investors_value_up
+You've used 20 entries,
+            2773 wiz_defined-function locations,
+            665 strings with 8870 characters,
+and the built_in function-call counts, 7710 in all, are:
+= -- 638
+> -- 490
+< -- 10
++ -- 170
+- -- 147
+* -- 569
+:= -- 1245
+add.period$ -- 65
+call.type$ -- 20
+change.case$ -- 106
+chr.to.int$ -- 17
+cite$ -- 57
+duplicate$ -- 390
+empty$ -- 614
+format.name$ -- 176
+if$ -- 1565
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 20
+newline$ -- 113
+num.names$ -- 80
+pop$ -- 242
+preamble$ -- 1
+purify$ -- 86
+quote$ -- 0
+skip$ -- 297
+stack$ -- 0
+substring$ -- 40
+swap$ -- 7
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 220
+warning$ -- 17
+while$ -- 60
+width$ -- 0
+write$ -- 243
+(There were 17 warnings)
