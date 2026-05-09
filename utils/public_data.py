@@ -36,7 +36,7 @@ _RETRY_DELAY = 2.0
 _MAX_RETRIES = 3
 _INTER_TICKER_SLEEP = 1.0
 _DOWNLOAD_BATCH_SIZE = 50
-_DOWNLOAD_BATCH_SLEEP = 15.0
+_DOWNLOAD_BATCH_SLEEP = 5.0
 
 # Bloomberg snapshot fields this module replicates
 _SNAPSHOT_FIELDS = [
