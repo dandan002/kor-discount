@@ -1,0 +1,128 @@
+\section{Results}
+
+\subsection{Descriptive Evidence}
+
+Table~\ref{tab:summary_stats} presents full-panel and sub-period summary statistics for the four benchmark indices over January 2004 to December 2024. Over the full sample, KOSPI trades at a mean P/B ratio of 1.18, compared with 1.35 for TOPIX, 1.78 for MSCI Emerging Markets, and 3.08 for the S\&P 500. The KOSPI--TOPIX P/B spread averages $-0.177$ P/B points over the 252 monthly observations, with a Newey-West standard error of $0.055$ and a $t$-statistic of $-3.23$. Against the broader emerging-market benchmark, the discount is substantially larger: the KOSPI--MSCI EM spread averages $-0.601$ P/B points, with a Newey-West standard error of $0.058$ and a $t$-statistic of $-10.31$. Both gaps are persistent across the two-decade panel, with 95 percent confidence intervals of $[-0.284, -0.069]$ for the TOPIX spread and $[-0.716, -0.486]$ for the MSCI EM spread, confirming that neither estimate reflects a short-lived episode or a single crisis event.
+
+The sub-period decomposition reveals a structural deterioration in Korea's relative valuation that coincides with Japan's governance reform arc. In the pre-reform period (2004--2013), KOSPI averaged 1.36 and TOPIX averaged 1.41---a gap of only 0.05 P/B points that amounts to near-parity. During the reform era (2014--2022), spanning Japan's Stewardship Code through the years preceding the TSE P/B mandate, KOSPI fell to a mean of 1.02 while TOPIX averaged 1.29---a gap of 0.27 P/B points, more than five times its pre-reform level. In the post-TSE sub-period (2023--2024), the deterioration accelerated further: KOSPI averaged 0.93 while TOPIX averaged 1.36, a mean gap of 0.43 P/B points. Korea thus entered the post-TSE period trading below book value on average, a threshold the literature associates with chronic governance-related undervaluation, while Japan was re-rating upward. The MSCI EM comparison reinforces this picture: against an emerging-market benchmark that averaged 1.97 in the pre-reform period and 1.66 in the post-TSE period, Korea's discount has grown from approximately 0.61 to 0.73 P/B points, indicating that Korea's deterioration relative to emerging-market peers preceded and survived the Japan-specific reform dynamics. Figure~1 presents the full 20-year P/B time series, with Japan's three primary reform dates annotated.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{figure1_pb_comparison.png}
+    \caption{Monthly P/B ratios for KOSPI, TOPIX, MSCI EM, and S\&P 500, January 2004--December 2024. Vertical dashed lines mark Japan's three governance reform milestones: the Stewardship Code (February 2014), the TSE Corporate Governance Code (June 2015), and the TSE P/B Reform Request (March 2023). The divergence between KOSPI and TOPIX following the 2023 mandate is the primary focus of the Japan event study in Section~4.2.}
+    \label{fig:pb_comparison}
+\end{figure}
+
+\subsection{Japan Reform Benchmark}
+
+Figure~2 presents the cumulative abnormal spreads from the Japan stacked event study across both spread definitions. The direction and magnitude of the CARs depend sharply on the nature of each reform event, illustrating the importance of distinguishing soft institutional guidance from hard exchange-level mandates.
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figure_asia_event_study.png}
+        \caption{MSCI EM Asia--TOPIX spread (primary)}
+        \label{fig:japan_es_asia}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figure2_event_study.png}
+        \caption{KOSPI--TOPIX spread (secondary)}
+        \label{fig:japan_es_topix}
+    \end{subfigure}
+    \caption{Cumulative abnormal spreads for Japan's three governance reform events, estimated using the stacked cohort event-study design. Each line plots the CAR from $\tau = -12$ to the post-event window end for one cohort; the base period is $\tau = -1$. Panel~(a) uses the primary MSCI EM Asia--TOPIX P/B spread; Panel~(b) uses the secondary KOSPI--TOPIX P/B spread. A negative CAR indicates TOPIX appreciated relative to the comparator. The March 2023 TSE P/B Reform Request produces a persistently negative CAR in both panels, reaching $-2.58$ P/B points (EM Asia) and $-6.48$ P/B points (KOSPI) at the window end. The 2014 and 2015 soft-code events produce positive CARs, indicating no commensurate EM Asia or Korea underperformance relative to trend.}
+    \label{fig:japan_es}
+\end{figure}
+
+\paragraph{Stewardship Code (February 2014).} In the primary MSCI EM Asia--TOPIX specification, the abnormal spread accumulated to $+1.595$ P/B points by $\tau = 20$: EM Asia held its relative position against Japan, and Japan's 2014 voluntary code produced no TOPIX re-rating that the regional basket failed to match. The secondary KOSPI--TOPIX spread corroborates this: CARs of $+1.322$ at $\tau = 12$ and $+4.291$ at $\tau = 24$ confirm that Korea specifically also did not underperform. Japan's first soft-law reform did not widen the Japan--Asia structural gap.
+
+\paragraph{TSE Corporate Governance Code (June 2015).} The primary MSCI EM Asia--TOPIX CAR reached $+1.596$ at $\tau = 20$, again indicating no meaningful TOPIX re-rating relative to regional peers. The secondary KOSPI--TOPIX CARs ($+2.965$ at $\tau = 12$; $+7.829$ at $\tau = 24$) are quantitatively similar in direction. Neither early soft-law event constituted an enforceable governance shock capable of differentially re-rating TOPIX above regional peers.
+
+\paragraph{TSE P/B Reform Request (March 2023).} The results for Japan's 2023 hard mandate are sharply different in both sign and trajectory. In the primary MSCI EM Asia--TOPIX specification, the abnormal spread declines immediately on announcement and accumulates monotonically to $-2.584$ P/B points by $\tau = 20$, with negative month-on-month contributions in all but one post-event month. The result is unambiguous: Japan's mandatory P/B reform lifted TOPIX above the entire EM Asia regional basket, not just relative to Korea. The secondary KOSPI--TOPIX specification shows an even larger divergence---$-6.481$ P/B points by $\tau = 24$, the largest in absolute value of any event in the sample---indicating that Korea's individual shortfall exceeded the regional average. The consistency of sign and monotone trajectory across both spread definitions identifies the 2023 TSE mandate as the structural inflection point separating Japan's governance reform arc from regional stagnation.
+
+\subsection{Geopolitical Risk}
+
+Table~\ref{tab:geo_risk} presents the results of the geopolitical risk falsification test. The coefficient on the GPR escalation dummy---defined as months in which the Caldara-Iacoviello GPRC\_KOR index exceeded its 75th percentile (0.370) over the 2004--2024 study window---is $-0.016$ P/B points, with an HC3 standard error of $0.019$, a $t$-statistic of $-0.835$, and a $p$-value of $0.405$. The null hypothesis that geopolitical escalation has no conditional association with KOSPI P/B cannot be rejected at any conventional significance level. The estimate is also negligible in economic magnitude: even taken at face value, the point estimate implies that the most severe 25 percent of geopolitical episodes are associated with a 0.016 P/B point decline in KOSPI, equivalent to less than one-tenth of the mean KOSPI--TOPIX spread.
+
+The near-zero result is conservative: GPRC\_KOR may absorb global risk-off episodes that simultaneously depress multiple markets, so the test is biased toward finding a geopolitical effect---and finds none. The TOPIX P/B control loads at $0.629$ (SE $= 0.117$, $t = 5.40$, $p < 0.001$), confirming strong KOSPI co-movement with global equity conditions; after controlling for this common factor and year fixed effects, the escalation dummy adds nothing across 252 monthly observations. Figure~3 presents the conditional scatter. Spanning multiple nuclear tests, missile launches, and diplomatic episodes, the formal test finds no residual valuation effect attributable to geopolitical escalation, and the Korea Discount cannot be attributed to a geopolitical risk premium.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figure3_geo_risk.png}
+    \caption{KOSPI P/B ratio by GPR escalation status, conditional on TOPIX P/B and year fixed effects. High-escalation months (GPR escalation dummy $= 1$) are defined as months in which GPRC\_KOR exceeds its 75th percentile (0.370) over 2004--2024. The OLS coefficient on the escalation dummy is $-0.016$ P/B points ($t = -0.835$, $p = 0.405$), indistinguishable from zero. The regression controls for TOPIX P/B and includes year fixed effects; $N = 252$ monthly observations. HC3 standard errors.}
+    \label{fig:geo_risk}
+\end{figure}
+
+\subsection{Korea Value-Up Event Study}
+
+Figure~4 presents the primary Korea Value-Up event-study CARs for the KOSPI--MSCI EM Asia spread; Figure~5 presents the secondary results for the KOSPI--TOPIX spread. Because the three Korea reform milestones cluster within a seven-month window (February--August 2024), the TOPIX comparison is subject to a specific confound: in 2024, TOPIX was still elevated from its 2023 re-rating before beginning to plateau, so the pre-event trend extrapolations for the May and August cohorts absorb part of Japan's plateau as an apparent Korea improvement. The MSCI EM Asia benchmark carries no equivalent mandate and is free of this artifact; it constitutes the primary evidence on Korea's governance trajectory.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{figure_korea_asia_event_study.png}
+    \caption{Cumulative abnormal KOSPI--MSCI EM Asia P/B spreads for Korea's three Value-Up reform milestones: program launch (February 26, 2024), guidelines unveiled (May 2, 2024), and implementation push (August 12, 2024). Each cohort is normalized to zero at $\tau = -1$; CARs accumulate from $\tau = -12$. A negative CAR indicates Korea underperformed regional emerging-market peers relative to pre-event trend. All three cohorts produce persistently negative CARs: the launch reaches $-2.178$ at $\tau = 12$ and $-4.141$ at $\tau = 20$; guidelines reach $-1.804$ at $\tau = 12$; implementation push reaches $-2.121$ at $\tau = 12$. Because MSCI EM Asia carries no TSE-equivalent P/B mandate, these results are unaffected by Japan-specific TOPIX appreciation. See Figure~5 for the secondary KOSPI--TOPIX results.}
+    \label{fig:korea_es_asia}
+\end{figure}
+
+\paragraph{KOSPI--MSCI EM Asia spread (primary).} Against a regional emerging-market benchmark unaffected by TSE-specific reform dynamics, all three Korea Value-Up milestones produce persistently negative CARs throughout the post-event window. For the program launch (February 26, 2024), the abnormal KOSPI--MSCI EM Asia spread falls to $-0.315$ P/B points by $\tau = 0$, to $-0.792$ by $\tau = 6$, to $-2.178$ by $\tau = 12$, and to $-4.141$ by $\tau = 20$, with negative month-on-month contributions in 16 of the 20 post-event months. The launch event is the cleanest of the three milestones because it is least contaminated by overlap with later cohorts' pre-event estimation windows. For the Guidelines Unveiled cohort (May 2, 2024), the CAR reaches $-0.179$ at $\tau = 3$, deepens to $-1.804$ at $\tau = 12$, and stands at $-2.681$ at $\tau = 20$. For the Implementation Push cohort (August 12, 2024), the CAR is $-0.193$ at $\tau = 0$, $-1.147$ at $\tau = 6$, and $-2.121$ at $\tau = 12$. Across all three milestones, Korea underperformed regional peers by between 1.8 and 4.1 P/B points at the 12-month horizon. The convergence of negative CARs across three distinct Value-Up milestones, and the absence of any sustained positive CAR, establishes that Korea's voluntary reform program did not produce a durable improvement relative to regional peers.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{figure_korea_event_study.pdf}
+    \caption{Cumulative abnormal KOSPI--TOPIX P/B spreads for Korea's three Value-Up reform milestones (secondary analysis). The launch event (February 2024) produces a negative 12-month CAR of $-0.289$ P/B points. The guidelines and implementation push cohorts show positive CARs over the extended window ($+1.030$ and $+1.426$ at $\tau = 12$; $+3.305$ and $+5.470$ at $\tau = 20$), reflecting in part the partial plateauing of TOPIX in late 2024 after its 2023 re-rating rather than genuine Korea improvement. Compare with Figure~4 (MSCI EM Asia spread) for the unconfounded primary result.}
+    \label{fig:korea_es_topix}
+\end{figure}
+
+\paragraph{KOSPI--TOPIX spread (secondary).} The TOPIX-based results illustrate the confound discussed above. For the program launch event (February 26, 2024), the abnormal KOSPI--TOPIX spread falls immediately on announcement: the CAR reaches $-0.190$ at $\tau = 0$ and $-0.289$ at $\tau = 12$, consistent with the primary specification's negative result. The Guidelines Unveiled (May 2, 2024) and Implementation Push (August 12, 2024) cohorts, however, show positive CARs accumulating to $+1.030$ and $+1.426$ respectively at $\tau = 12$, and $+3.305$ and $+5.470$ at $\tau = 20$. These apparent improvements are artifacts: the pre-event trend extrapolations for these later cohorts begin during TOPIX's 2023--2024 peak, so the subsequent TOPIX plateau is absorbed as a positive spread contribution. The primary MSCI EM Asia specification---which shows uniformly negative CARs for all three milestones---rules out any interpretation of the positive TOPIX CARs as genuine Korean valuation improvement.
+
+Across all six event-study configurations (three milestones, two spreads), only the TOPIX specification for the two later milestones produces positive CARs, and those results are explained by the TOPIX confound identified above. The primary MSCI EM Asia evidence uniformly shows Korea losing ground to regional peers across every Value-Up milestone.
+
+\subsection{Robustness}
+
+We assess robustness along two dimensions---event-date specification and spread definition---producing six event-study configurations in total: three Korea event-date variants (narrow 2024 rollout, window sensitivity, and spaced follow-through) each estimated against both the primary MSCI EM Asia and the secondary TOPIX spreads.
+
+\paragraph{Window sensitivity.} The window sensitivity variant truncates the post-event horizon to 12 months, testing whether the primary results depend on the longer 20-month window. The 12-month CARs are numerically identical to those in the primary specification by construction. For the primary MSCI EM Asia spread, the 12-month CARs are $-2.178$ (launch), $-1.804$ (guidelines), and $-2.121$ (implementation push)---all negative and consistent with the primary result. For the secondary TOPIX spread, the 12-month CARs are $-0.289$ (launch), $+1.030$ (guidelines), and $+1.426$ (implementation push), replicating the confound pattern discussed above. The primary MSCI EM Asia finding is therefore robust to the truncated window. Figure~6 presents both panels of the window-sensitivity specification.
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figure_korea_asia_event_study_robustness_narrow_2024_rollout_post12.png}
+        \caption{KOSPI--MSCI EM Asia spread, 12-month window (primary)}
+        \label{fig:rob_post12_asia}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figure_korea_event_study_robustness_narrow_2024_rollout_post12.pdf}
+        \caption{KOSPI--TOPIX spread, 12-month window (secondary)}
+        \label{fig:rob_post12_topix}
+    \end{subfigure}
+    \caption{Window-sensitivity robustness: Korea Value-Up event study truncated to a 12-month post-event window. CARs at $\tau = 12$ are identical to the primary specification (Figures~4 and 5) by construction. Panel~(a) shows the primary MSCI EM Asia spread; Panel~(b) shows the secondary TOPIX spread. All three primary MSCI EM Asia CARs remain negative at the 12-month horizon, confirming that the result does not depend on the extended 20-month window.}
+    \label{fig:rob_post12}
+\end{figure}
+
+\paragraph{Spaced follow-through.} Figure~7 presents the spaced follow-through specification, which replaces the clustered 2024 dates with a temporally spread event sequence: the February 2024 program launch, the July 2025 mandatory governance disclosure expansion, and the February 2026 Value-Up dividend disclosure rule. This reduces calendar-time overlap at the cost of a 2-month post-event window for the most recent events given the April 2026 study endpoint. For the program launch, the primary MSCI EM Asia 2-month CAR is $-0.468$ and the secondary TOPIX CAR is $-0.362$---both negative and consistent with the primary result. For the July 2025 mandatory expansion, the MSCI EM Asia CAR is $-0.006$ (near-zero) and the TOPIX CAR is $+0.654$; for the February 2026 dividend disclosure rule, the MSCI EM Asia CAR is $+1.324$ and the TOPIX CAR is $+1.825$. The two most recent mandatory events show tentatively positive short-run CARs in both specifications, but a 2-month window is insufficient to distinguish a sustained structural improvement from short-run announcement effects. We report these results for transparency; the spaced follow-through design was constructed to reduce overlap rather than to generate inference about the very latest legislative milestones.
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figure_korea_asia_event_study_robustness_spaced_follow_through.png}
+        \caption{KOSPI--MSCI EM Asia spread (primary)}
+        \label{fig:rob_spaced_asia}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figure_korea_event_study_robustness_spaced_follow_through.pdf}
+        \caption{KOSPI--TOPIX spread (secondary)}
+        \label{fig:rob_spaced_topix}
+    \end{subfigure}
+    \caption{Spaced follow-through robustness: event sequence replaced with the February 2024 program launch, the July 2025 mandatory governance disclosure expansion, and the February 2026 Value-Up dividend disclosure rule. Post-event windows are 2 months for the two most recent events given the April 2026 study endpoint. Panel~(a) uses the primary MSCI EM Asia spread; Panel~(b) uses the secondary TOPIX spread. The launch cohort replicates the negative primary result ($-0.468$ MSCI EM Asia, $-0.362$ TOPIX at $\tau = 2$). The very short window for the 2025 and 2026 events precludes durable inference.}
+    \label{fig:rob_spaced}
+\end{figure}
+
+Across all six robustness configurations, the primary MSCI EM Asia conclusion is stable. The three primary 2024 Value-Up milestones produce uniformly negative 12-month CARs of $-2.18$, $-1.80$, and $-2.12$ P/B points in the MSCI EM Asia specification, unaffected by TOPIX-specific dynamics. The secondary TOPIX specification shows positive CARs for the two later milestones, consistent with the TOPIX-confound explanation and not with genuine Korean valuation improvement. These results, combined with the Japan benchmark evidence that Japan's 2023 hard mandate produced a $-2.58$ P/B point CAR in the primary MSCI EM Asia--TOPIX specification (and $-6.48$ in the secondary KOSPI--TOPIX specification), jointly support the central claim: Korea's voluntary Corporate Value-Up program has not generated a structural improvement in Korea's relative valuation, and the governance-reform gap widened precisely when Japan escalated from soft codes to hard exchange-level mandates while Korea did not.

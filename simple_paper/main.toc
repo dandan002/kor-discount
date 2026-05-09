@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {section}{\numberline {2}Defining and Measuring the Discount}{4}{section.2}%
+\contentsline {section}{\numberline {3}The Governance Channel: Chaebols, Tunneling, and Self-Dealing}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Chaebol Ownership Structure}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Causal Evidence from Natural Experiments}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Holding Company Discounts and Cross-Shareholdings}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Supermajority Provisions}{8}{subsection.3.4}%
+\contentsline {section}{\numberline {4}The Growth vs.\ Governance Debate}{8}{section.4}%
+\contentsline {section}{\numberline {5}Institutional Stewardship: Promises and Limits}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}National Pension Service Activism}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Stewardship Code Limitations}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Foreign Investors and Market Discipline}{10}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Reform Benchmarks: Japan's Arc and Korea's Voluntary Response}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Japan's Staged Governance Trajectory}{10}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}\citet {lee2025valueup}: Korea's Value-Up Program}{10}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Empirical Evidence: Japan Reform Benchmark}{11}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Empirical Evidence: Korea's Value-Up Program}{11}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Panel OLS and Geopolitical Risk}{13}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Geopolitical Risk and Other Explanations}{13}{section.7}%
+\contentsline {section}{\numberline {8}Synthesis and Policy Implications}{15}{section.8}%

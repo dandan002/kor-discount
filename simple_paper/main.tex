@@ -1,0 +1,184 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{kotex}
+\usepackage{graphicx}
+\usepackage[sort]{natbib}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{subcaption}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\doublespacing
+
+\graphicspath{{../output/figures/}}
+
+\title{The Korea Discount: Corporate Governance Deficits, Structural Reform,\\and the Limits of Voluntary Intervention}
+\author{Working Paper}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+South Korean equities have traded at a persistent structural discount to developed-market and emerging-market peers for over three decades. This paper synthesizes 26 studies on the Korea Discount and presents original empirical evidence from a 20-year monthly panel of index-level price-to-book (P/B) ratios. The literature converges on three competing explanations---concentrated chaebol ownership and tunneling, weak minority shareholder protections, and stagnant growth fundamentals---but diverges on their relative importance. Cross-sectional regressions find governance insignificant once growth is controlled \citep{yang2025korea}, while natural experiments consistently identify the self-dealing channel as a direct value destroyer \citep{black2015governance}. We reconcile this divergence using Japan's three governance reforms as a benchmark. A stacked event-study analysis shows that Japan's 2014 Stewardship Code and 2015 Corporate Governance Code---both voluntary---produced no sustained re-rating, while the 2023 TSE P/B reform mandate generated a $-6.48$ P/B point cumulative abnormal spread over 24 months. Korea's 2024 Value-Up program, which remains voluntary, produced persistently negative CARs of $-2.18$, $-1.80$, and $-2.12$ P/B points against MSCI EM Asia at $\tau=12$ for all three milestones. A geopolitical risk falsification rejects the North Korean threat explanation ($t=-0.84$, $p=0.40$). The evidence supports hard legislative reform over soft governance codes.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+The ``Korea Discount''---the persistent undervaluation of South Korean equities relative to global peers---is one of the most debated puzzles in international finance. Over 2004--2024, the KOSPI P/B ratio averaged $0.177\times$ below TOPIX ($t=-3.23$) and $0.601\times$ below MSCI EM ($t=-10.31$), with both gaps statistically significant under Newey-West HAC standard errors. The discount has persisted for at least three decades, widened after Japan's 2023 governance reform, and resisted Korea's 2024 voluntary Value-Up program.
+
+This paper makes two contributions. First, we synthesize 26 academic studies---including 14 published in Korean-language journals---organized around the competing explanations for the discount: governance and tunneling, growth fundamentals, and institutional stewardship. Second, we present original empirical evidence from a 20-year monthly panel covering KOSPI, TOPIX, S\&P~500, and MSCI~EM, using Japan's staged governance reforms as a policy benchmark. The central finding is that voluntary governance codes---whether Japan's 2014--2015 soft laws or Korea's 2024 Value-Up program---fail to produce sustained valuation improvement, while mandatory exchange-level enforcement does.
+
+Section~\ref{sec:measurement} documents the magnitude of the discount. Section~\ref{sec:governance} reviews the governance and tunneling channel. Section~\ref{sec:growth} addresses the growth-versus-governance debate. Section~\ref{sec:stewardship} evaluates institutional stewardship. Section~\ref{sec:reform} compares Japan's and Korea's reform trajectories with empirical results. Section~\ref{sec:geopolitical} rules out alternative explanations. Section~\ref{sec:synthesis} concludes.
+
+\section{Defining and Measuring the Discount}
+\label{sec:measurement}
+
+The Korea Discount refers to the chronic undervaluation of Korean equities as measured by below-peer price-to-book (P/B) and price-to-earnings (P/E) ratios. \citet{kim2026korean} provide the most comprehensive international evidence, documenting persistently lower P/B and P/E multiples for Korean firms across 48 countries from 1990 to 2023, even after controlling for firm size, profitability, growth, GDP per capita, financial market development, and geopolitical risk. The finding holds across all sub-periods (1990s, 2000s, 2010s onward), demonstrating that the discount is structural, not cyclical.
+
+The cost-of-equity channel compounds the P/B discount. \citet{choi2012equity} find that Korean firms' cost of equity is significantly higher than 31-country peers after controlling for firm characteristics. However, they note the discount has eased in recent years---suggesting partial convergence.
+
+Whether the discount reflects risk or mispricing is contested. \citet{jung2022korea} show that Korean firms with book-to-market ratios above one consistently outperform lower-BTM firms, but further demonstrate that high BTM is associated with a higher probability of positive extreme returns and a lower probability of negative extremes---indicating mispricing rather than risk compensation. A governance factor is the strongest cross-sectional predictor.
+
+Figure~\ref{fig:pb_comparison} presents the 20-year P/B trajectory. Table~\ref{tab:summary_stats} reports the headline statistics. The KOSPI--TOPIX spread averages $-0.177\times$ (NW SE $= 0.055$, $t=-3.23$, 95\% CI: $[-0.284, -0.069]$); the KOSPI--MSCI EM spread averages $-0.601\times$ (NW SE $= 0.058$, $t=-10.31$, 95\% CI: $[-0.716, -0.486]$). The sub-period decomposition shows structural deterioration: the KOSPI--TOPIX gap widens from $0.05$ P/B points in 2004--2013 to $0.43$ points in 2023--2024.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.95\textwidth]{figure1_pb_comparison.png}
+    \caption{Monthly P/B ratios, January 2004--December 2024. Vertical lines mark Japan's governance reform milestones.}
+    \label{fig:pb_comparison}
+\end{figure}
+
+\input{../output/tables/table1_summary_stats.tex}
+
+\section{The Governance Channel: Chaebols, Tunneling, and Self-Dealing}
+\label{sec:governance}
+
+\subsection{Chaebol Ownership and Tunneling}
+
+The structural foundation of the Korea Discount lies in Korea's chaebol system---family-controlled conglomerates that dominate the economy. \citet{almeida2011chaebol} map chaebol formation, showing that controlling families use ``central firms'' to acquire low-profitability entities through pyramidal structures, with central firms trading at a discount reflecting shareholders' anticipation of value-destroying acquisitions. \citet{kim2004chaebol} document that the cash flow rights disparity between voting and economic ownership is substantially larger than previously reported, because studies using only public firms miss the amplifying role of non-public affiliates.
+
+The economic scale of tunneling is documented by \citet{bae2002tunneling}: when a chaebol-affiliated firm makes an acquisition, its stock price falls on average while the controlling shareholder benefits through value transfer to other group firms. \citet{kim2019tunneling} show that business group-affiliated firms make systematically larger charitable donations---coordinated to tunnel resources from public affiliates (lower family cash flow rights) to private ones (higher family stakes).
+
+\subsection{Natural Experiment Evidence}
+
+The most causally credible evidence comes from \citet{black2015governance}, who exploit Korea's 1999 reform imposing stricter board requirements on large firms (assets above 2 trillion won). Event studies show that large firms whose controllers had incentives to tunnel earned strong positive abnormal returns; panel regressions confirm that better governance moderates the negative effect of related-party transactions on firm value and increases the sensitivity of firm profitability to industry profitability---consistent with reduced tunneling.
+
+Concentrated ownership also distorts the broader governance environment. \citet{njoku2026governance} find that among chaebol-affiliated firms, only shareholder rights protection retains explanatory power for dividend payouts; board effectiveness, audit competency, and disclosure transparency lose independent influence once ownership structure is controlled.
+
+\subsection{Holding Companies, Cross-Shareholdings, and Anti-Takeover Provisions}
+
+\citet{park2019holding} document that legally designated holding companies trade at significant P/B discounts relative to both operating companies and their fundamental values---a phenomenon unique to Korea and absent from Japan and the US. \citet{park2025cross} argue that cross-shareholding voting restrictions can positively influence capital markets by exposing holding companies to boardroom coups, inducing upward revaluation---though this remains a defensive tactic rather than a governance improvement. \citet{kim2022supermajority} exploit court rulings weakening supermajority anti-takeover provisions, finding that firms with such provisions outperform, supporting their value-enhancing role when not abused for entrenchment.
+
+\section{The Growth vs.\ Governance Debate}
+\label{sec:growth}
+
+Cross-sectional studies challenge the governance-reform interpretation. \citet{yang2025korea} directly test governance, shareholder payout, and growth potential hypotheses, finding that corporate governance has \emph{no} significant relationship with PBR, while stagnant growth variables---low R\&D, high tangible-asset intensity, and firm maturity---exhibit strong positive correlations with low PBR. Higher shareholder payout is paradoxically associated with \emph{lower} PBR. \citet{lee2025korea_pbr} corroborate this for large manufacturers: dividend expansion has weak or negative effects on PBR, while R\&D investment is more significant.
+
+\citet{kim2025causes} broaden the challenge: across 58 markets (2001--2018), Korea's formal shareholder rights scores are not distinctively lower than peers, and markets with the largest shareholder return increases actually saw declines in average firm value. What distinguishes Korea is low value relevance: profitability and growth are incorporated into prices to a far lesser degree (51st of 58 countries), suggesting a short-term investment culture that prevents long-term expectations from being capitalized.
+
+The divergence between cross-sectional and causal evidence partly reflects identification strategy. Natural experiments \citep{black2015governance} isolate the self-dealing channel; cross-sectional regressions cannot disentangle governance from correlated growth fundamentals. Both channels likely operate: weak governance and stagnant growth reinforce one another. Our empirical evidence (Section~\ref{sec:reform}) shows that governance reform \emph{can} produce large valuation gains independent of growth fundamentals; the MSCI EM Asia comparison rules out Japan-specific appreciation as the driver.
+
+\section{Institutional Stewardship: Promises and Limits}
+\label{sec:stewardship}
+
+\subsection{NPS Activism}
+
+Korea's first policy response leveraged the National Pension Service (NPS) as an activist institutional shareholder. \citet{kim2014nps} find that markets do not react to NPS ``Vote No'' announcements---inconsistent with developed-market activism---though firms improving internal governance afterward show higher valuation. \citet{kim2022nps_esg} document that NPS shareholding improves ESG performance and financial outcomes, with ESG as the transmission channel. \citet{lee2026esg} confirm that NPS ESG engagement disclosures are associated with significant firm value gains, with effects strongest for firms with weakest internal governance---institutional activism substitutes for rather than complements internal governance.
+
+\subsection{Stewardship Code and Foreign Investors}
+
+\citet{park2021stewardship} find a positive correlation between Stewardship Code adoption and earnings quality, but multivariate regressions fail to establish significance. The broader challenge \citep{kim2025causes} is that Korea's formal governance scores are not distinctively lower than peers; the problem lies in enforcement credibility, not norms.
+
+\citet{kim2015foreign} show that foreign investors facilitate firm-specific information incorporation into stock prices more effectively than domestic institutions. \citet{joo2026foreign} demonstrate that foreign ownership reduces growth disparity through asymmetric discipline---correcting over-investment in over-growing firms and encouraging profitable management in under-growing ones---implying that governance reforms improving market accessibility would amplify foreign investor discipline.
+
+\section{Reform Benchmarks: Japan's Arc and Korea's Voluntary Response}
+\label{sec:reform}
+
+\subsection{Japan's Staged Governance Trajectory}
+
+Japan faced a structurally similar valuation discount through the 2000s and 2010s, attributed to cross-shareholding (\textit{keiretsu}), weak board independence, and low dividend payouts. The government responded with three reforms escalating enforcement: (i) the Stewardship Code (February 2014), requiring institutional governance engagement; (ii) the Corporate Governance Code (June 2015), mandating board composition and disclosure standards; and (iii) the TSE P/B Reform Request (March 2023), requiring firms below $1.0\times$ book value to disclose capital efficiency improvement plans under threat of regulatory consequence.
+
+\subsection{Korea's Value-Up Program}
+
+Korea's 2024 Corporate Value-Up Program mirrors Japan's reform arc in aspiration but not in enforcement. Most listed companies ignored the voluntary guidelines, and the KOSPI closed weaker in 2024---the opposite outcome from Japan's 2023 experience. \citet{lee2025valueup} evaluates the program and finds low participation and weak market response. \citet{kang2026commercial} provide direct market evidence that \emph{legislative} reform shifts expectations: the 2025 Commercial Act amendment (expanding directors' fiduciary duties to shareholders broadly) produced significantly positive abnormal returns for high-book-to-market firms, with no significant reaction among high controlling-shareholder-ownership firms---markets expect reform to be most effective where expropriation risk is highest.
+
+\subsection{Empirical Evidence: Japan Reform Benchmark}
+\label{sec:empirical_japan}
+
+We estimate stacked event studies around Japan's three reform dates, using both a KOSPI--TOPIX spread (secondary) and an MSCI EM Asia--TOPIX spread (primary, insulating results from Japan-specific dynamics). Figure~\ref{fig:japan_es} presents the results.
+
+\textbf{2014 Stewardship Code.} The MSCI EM Asia--TOPIX CAR reaches $+1.60$ at $\tau=20$---no sustained TOPIX re-rating. Korea did not underperform relative to trend.
+
+\textbf{2015 Corporate Governance Code.} Qualitatively identical: KOSPI--TOPIX CAR $+7.83$ at $\tau=24$; Asia CAR $+1.60$ at $\tau=20$. Neither soft-law event produced an enforceable governance shock.
+
+\textbf{2023 TSE P/B Reform.} Sharply different. The KOSPI--TOPIX CAR monotonically declines to $-6.48$ at $\tau=24$; the MSCI EM Asia--TOPIX CAR reaches $-2.58$ at $\tau=20$. Japan's hard mandate caused the largest spread movement in the sample, and the MSCI EM Asia comparison confirms this is not Japan-specific appreciation.
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figure_asia_event_study.png}
+        \caption{MSCI EM Asia--TOPIX}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figure2_event_study.png}
+        \caption{KOSPI--TOPIX}
+    \end{subfigure}
+    \caption{Japan governance reform event studies. The 2023 TSE P/B mandate produces a $-6.48$ P/B point KOSPI--TOPIX CAR, while earlier soft codes produce no sustained effect.}
+    \label{fig:japan_es}
+\end{figure}
+
+\subsection{Empirical Evidence: Korea's Value-Up Program}
+
+Figure~\ref{fig:korea_es} presents the Korea Value-Up event study. All three milestones produce persistently negative CARs against MSCI EM Asia. For the program launch (February 2024): KOSPI--MSCI EM Asia CAR $-2.18$ at $\tau=12$ and $-4.14$ at $\tau=20$. For the guidelines unveiling (May 2024): $-1.80$ at $\tau=12$. For the implementation push (August 2024): $-2.12$ at $\tau=12$. The MSCI EM Asia specification rules out Japan-specific dynamics. Korea's voluntary program produced no improvement in relative valuation.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.95\textwidth]{figure_korea_asia_event_study.png}
+    \caption{Korea Value-Up event study (KOSPI--MSCI EM Asia). All three milestones produce persistently negative CARs.}
+    \label{fig:korea_es}
+\end{figure}
+
+\subsection{Panel OLS and Geopolitical Risk}
+
+Panel OLS with two-way fixed effects and wild-bootstrap inference (999 Rademacher draws, clustered by country) produces imprecise reform-by-Japan interactions: Stewardship Code $\times$ Japan $= +0.09$ [$p_{\text{wild}}=0.625$]; CGC $\times$ Japan $= -0.32$ [$p_{\text{wild}}=0.375$]; TSE P/B $\times$ Japan $= -0.23$ [$p_{\text{wild}}=0.500$]. With $N=4$ clusters, these are descriptive rather than inferential.
+
+The geopolitical risk falsification estimates KOSPI P/B on Korea GPR escalation (GPRC\_KOR above its 75th percentile), controlling for TOPIX P/B and year fixed effects over 252 monthly observations. The GPR coefficient is $-0.016$ ($t=-0.84$, $p=0.41$)---statistically insignificant and economically negligible (less than one-tenth of the mean KOSPI--TOPIX spread). The test is biased toward finding an effect and still finds none.
+
+\section{Geopolitical Risk and Other Explanations}
+\label{sec:geopolitical}
+
+\citet{kim2025causes} show that Korea's economic policy uncertainty index, not military threat, explains cross-country discount differentials. The GPR falsification in Section~\ref{sec:reform} confirms the null: the coefficient is indistinguishable from zero. \citet{yun2022sentiment} find that initial audit fees are significantly lower during high-sentiment periods in Korea's low-litigation environment, suggesting that optimistic bias reduces monitoring quality---complementing the governance channel. \citet{the_economist_2012} attributes the Korea Discount primarily to poor corporate governance at chaebols, describing ``tunnelling'' and ``propping'' as mechanisms through which insiders benefit at minority shareholders' expense.
+
+\section{Synthesis and Policy Implications}
+\label{sec:synthesis}
+
+The literature and empirical evidence converge on: mitigating the Korea Discount requires hard legislative reform, not continued reliance on soft-law guidelines. Six findings support this:
+
+\textbf{First}, cross-sectional evidence contesting the governance hypothesis \citep{yang2025korea, lee2025korea_pbr} does not invalidate the causal evidence from natural experiments \citep{black2015governance}; governance reforms can produce valuation gains within structurally similar economies, as Japan's 2023 experience demonstrates.
+
+\textbf{Second}, the asymmetry between Japan's soft and hard governance codes is the central empirical finding. The 2014 and 2015 voluntary codes produced no sustained TOPIX re-rating; the 2023 mandatory P/B mandate produced a $-6.48$ P/B point KOSPI--TOPIX CAR. Korea's 2024 voluntary Value-Up program produced negative CARs against MSCI EM Asia at all three milestones.
+
+\textbf{Third}, institutional stewardship through the NPS has produced conditional improvements \citep{kim2022nps_esg, lee2026esg} but lacks enforcement credibility absent structural reform \citep{kim2014nps, park2021stewardship}.
+
+\textbf{Fourth}, the geopolitical risk channel is empirically unsupported ($t=-0.84$, $p=0.40$).
+
+\textbf{Fifth}, foreign investor discipline \citep{joo2026foreign, kim2015foreign} offers a complementary channel, but only when market accessibility improvements accompany governance reform.
+
+\textbf{Sixth}, the 2025 Commercial Act amendment \citep{kang2026commercial} produced significant positive abnormal returns for high-discount firms, validating the hard-law mechanism.
+
+The practical implication is that Korea stands where Japan stood before 2023: in possession of well-articulated soft-law governance norms whose voluntary character renders them structurally insufficient. Mandatory exchange-level enforcement---requiring firms below book value to disclose capital efficiency plans under threat of regulatory consequence---remains the missing complement. Whether the 2025 Commercial Act's fiduciary duty expansion proves sufficient without accompanying exchange-level mandates is an empirical question that the next several years of data will answer.
+
+{\singlespacing
+\bibliographystyle{plainnat}
+\bibliography{references}
+}
+
+\end{document}
