@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main_korean"] 1778320219.76837 "main_korean.aux" "main_korean.bbl" "main_korean" 1778320296.76997 0
+["bibtex main_korean"] 1778322295.42211 "main_korean.aux" "main_korean.bbl" "main_korean" 1778322300.53606 0
   "./references.bib" 1778298559.87306 12721 9ba0654107180d879e9d9fd1976388dd ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main_korean.aux" 1778320295.83697 9655 3184feece5e0591ca0831b1aaff94b0c "pdflatex"
+  "main_korean.aux" 1778322299.50057 9655 c64172dafbd4a610cd7d962d1f96dae1 "pdflatex"
   (generated)
   "main_korean.bbl"
   "main_korean.blg"
   (rewritten before read)
-["pdflatex"] 1778320291.88894 "/Users/dandan/Desktop/Projects/kor-discount/simple_paper/main_korean.tex" "main_korean.pdf" "main_korean" 1778320296.77013 0
+["pdflatex"] 1778322295.54576 "main_korean.tex" "main_korean.pdf" "main_korean" 1778322300.53621 0
   "../output/figures/figure1_pb_comparison.png" 1778293603.99546 363265 d5f8a87e97508075f032cd20e800cd59 ""
   "../output/figures/figure2_event_study.png" 1778293610.0229 258423 699c3679bc27409890d86f8c741a17b7 ""
   "../output/figures/figure3_geo_risk.png" 1778293632.2462 448503 e4a704f46fb4caeb92054e15100210e0 ""
@@ -15,7 +15,6 @@
   "../output/figures/figure_japan_follow_on_event_study.png" 1778293714.64637 293461 f20ebeb5bb33ae04347b6974c93e8fa0 ""
   "../output/figures/figure_korea_asia_event_study.png" 1778315336.01589 197004 eba8c8fd09fe71a5b247ae4154177055 ""
   "../output/tables/table1_summary_stats.tex" 1778293604.98378 1375 a74981b9d44431fb5154ee23de4d4f81 ""
-  "/Users/dandan/Desktop/Projects/kor-discount/simple_paper/main_korean.tex" 1778320284.83125 29187 46661a8d5cde5fcef3d0ee8d671a2db8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -294,10 +293,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1734154506.06792 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1734154477 8221432 af77624a59338c046d5623f80a798a83 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main_korean.aux" 1778320295.83697 9655 3184feece5e0591ca0831b1aaff94b0c "pdflatex"
-  "main_korean.bbl" 1778320219.91271 7961 afa9e71732c066fb56cb696f420a68e6 "bibtex main_korean"
-  "main_korean.out" 1778320295.83815 3034 8d740ed557ff2668077c20013c1d50f8 "pdflatex"
-  "main_korean.tex" 1778320284.83125 29187 46661a8d5cde5fcef3d0ee8d671a2db8 ""
+  "main_korean.aux" 1778322299.50057 9655 c64172dafbd4a610cd7d962d1f96dae1 "pdflatex"
+  "main_korean.bbl" 1778322295.54408 8047 bd272f9850e59804cce76294ec8b275f "bibtex main_korean"
+  "main_korean.out" 1778322299.50147 3034 8d740ed557ff2668077c20013c1d50f8 "pdflatex"
+  "main_korean.tex" 1778322245.58456 29172 93d44f5bf7efe84a7dda88cdd746b53c ""
   (generated)
   "main_korean.aux"
   "main_korean.log"
