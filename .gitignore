@@ -1,8 +1,3 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-.env
-
-# Prior-project data (moved out of active directories -- not for this study)
-data/raw/prior-project/
-data/prior-project/

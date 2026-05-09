@@ -1,0 +1,4 @@
+term,estimate,std_error,t_stat,p_value,note
+gpr_escalation_dummy,-0.01597666004260373,0.019129888712214743,-0.8351674326470271,0.4044939139280185,"Partial identification caveat: the GPR-Korea escalation coefficient is an association, not a pure causal effect, because GPRC_KOR may also capture global risk-off episodes."
+topix_pb,0.6286586209057096,0.11651296555022633,5.395610848431351,1.7010124697317178e-07,TOPIX P/B control.
+GPR_KOREA_ESCALATION_THRESHOLD,0.3698880150914192,,,,75th percentile of GPRC_KOR over 2004-01 to 2024-12.
