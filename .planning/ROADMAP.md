@@ -58,7 +58,12 @@ Plans:
   2. Running the script without compliance_coded.csv present exits with an informative error message (not a Python traceback)
   3. `python src/03_merge_covariates.py` produces `data/processed/sample.csv` containing all columns specified in ROADMAP Phase 4.3 (ticker through disclosure_date)
   4. sample.csv missingness report prints to stdout; all continuous variables are winsorized at 1st/99th percentiles
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — src/01c_dart_pull.py (DART FSS API controlling shareholder acquisition)
+- [ ] 02-02-PLAN.md — src/02_build_compliance.py (compliance classification + events)
+- [ ] 02-03-PLAN.md — src/03_merge_covariates.py (five-way merge + winsorize + sample.csv)
 
 ### Phase 3: Analysis
 **Goal**: All four analysis scripts run against real data and produce the correct output files — four .tex tables and four .pdf figures exist under outputs/
@@ -90,6 +95,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 5/5 | Complete | 2026-05-08 |
-| 2. Data Pipeline | 0/TBD | Not started | - |
+| 2. Data Pipeline | 0/3 | Not started | - |
 | 3. Analysis | 0/TBD | Not started | - |
 | 4. Paper + Validation | 0/TBD | Not started | - |
