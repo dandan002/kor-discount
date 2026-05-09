@@ -29,17 +29,23 @@ def test_counterfactual_figure_exists():
 
 def test_all_figures_exist():
     """OUTPUT-01: All main figures must exist in output/figures/."""
-    required = [
+    single_files = [
         "figure1_pb_comparison.png",
-        "figure2_event_study.png",
         "figure3_geo_risk.png",
         "figure_synth_gap.png",
         "figure4_counterfactual_projection.png",
     ]
-    for fname in required:
+    for fname in single_files:
         p = FIGURES_DIR / fname
         assert p.exists(), f"Missing figure: {p}"
         assert p.stat().st_size > 0, f"Empty figure: {p}"
+
+    figure_dirs = ["figure2_event_study"]
+    for dname in figure_dirs:
+        d = FIGURES_DIR / dname
+        assert d.is_dir(), f"Missing figure directory: {d}"
+        pngs = list(d.glob("*.png"))
+        assert len(pngs) >= 3, f"Expected >= 3 per-cohort plots in {d}, found {len(pngs)}"
 
 
 def test_synthetic_control_gap_csv_exists():

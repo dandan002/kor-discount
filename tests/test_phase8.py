@@ -101,7 +101,7 @@ def test_phase8_does_not_refactor_event_study_core_comparator_contract(tmp_path)
     assert "output/tables/discount_stats.csv" in note
     assert "output/robustness/robustness_alt_control_em_asia.tex" in note
     assert "output/robustness/robustness_alt_control_em_exchina.tex" in note
-    assert "output/robustness/figure_placebo_falsification.png" in note
+    assert "output/robustness/figure_placebo_falsification/" in note
 
 
 def test_korea_japan_note_contains_causal_caveats(tmp_path):

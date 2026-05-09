@@ -41,7 +41,7 @@ SUMMARY_COLUMNS = [
     "max_rel_time",
     "car_path",
     "table_path",
-    "figure_path",
+    "figure_dir",
 ]
 
 
@@ -51,8 +51,8 @@ def build_korea_asia_spec_catalog() -> dict[str, dict[str, object]]:
             "policy_key": "primary",
             "base_policy_name": "narrow_2024_rollout",
             "set_role": "baseline",
-            "figure_path": Path(
-                "figures/figure_korea_asia_event_study_robustness_narrow_2024_rollout.png"
+            "figure_dir": Path(
+                "figures/figure_korea_asia_event_study_robustness_narrow_2024_rollout"
             ),
             "car_path": Path(
                 "tables/korea_asia_event_study_robustness_narrow_2024_rollout_car.csv"
@@ -66,8 +66,8 @@ def build_korea_asia_spec_catalog() -> dict[str, dict[str, object]]:
             "policy_key": "primary",
             "base_policy_name": "narrow_2024_rollout",
             "set_role": "window_sensitivity",
-            "figure_path": Path(
-                "figures/figure_korea_asia_event_study_robustness_narrow_2024_rollout_post12.png"
+            "figure_dir": Path(
+                "figures/figure_korea_asia_event_study_robustness_narrow_2024_rollout_post12"
             ),
             "car_path": Path(
                 "tables/korea_asia_event_study_robustness_narrow_2024_rollout_post12_car.csv"
@@ -81,8 +81,8 @@ def build_korea_asia_spec_catalog() -> dict[str, dict[str, object]]:
             "policy_key": "robustness",
             "base_policy_name": "spaced_follow_through",
             "set_role": "robustness_only",
-            "figure_path": Path(
-                "figures/figure_korea_asia_event_study_robustness_spaced_follow_through.png"
+            "figure_dir": Path(
+                "figures/figure_korea_asia_event_study_robustness_spaced_follow_through"
             ),
             "car_path": Path(
                 "tables/korea_asia_event_study_robustness_spaced_follow_through_car.csv"
@@ -171,7 +171,7 @@ def _build_summary_row(
         "max_rel_time": int(rel_times.max()),
         "car_path": str(spec["car_path"]),
         "table_path": str(spec["table_path"]),
-        "figure_path": str(spec["figure_path"]),
+        "figure_dir": str(spec["figure_dir"]),
     }
 
 
@@ -216,7 +216,7 @@ def run_korea_asia_robustness_specs(
                 "Korea-Asia Value-Up Robustness Event-Study CAR: "
                 f"{spec_name.replace('_', ' ')}"
             ),
-            figure_output_path=resolved_output_root / Path(str(spec["figure_path"])),
+            figure_output_dir=resolved_output_root / Path(str(spec["figure_dir"])),
             car_output_path=resolved_output_root / Path(str(spec["car_path"])),
             table_output_path=resolved_output_root / Path(str(spec["table_path"])),
             spread_numerator="KOSPI",

@@ -54,9 +54,10 @@ def test_three_cohorts():
 
 
 def test_figure2_exists():
-    path = OUTPUT_FIGURES / "figure2_event_study.png"
-    assert path.exists()
-    assert path.stat().st_size > 0
+    figure_dir = OUTPUT_FIGURES / "figure2_event_study"
+    assert figure_dir.is_dir(), f"Missing figure directory: {figure_dir}"
+    pngs = list(figure_dir.glob("*.png"))
+    assert len(pngs) >= 3, f"Expected >= 3 per-cohort plots, found {len(pngs)}"
 
 
 def test_figure2_panels():
@@ -224,9 +225,10 @@ def test_asia_event_study_car_spread_label():
 
 
 def test_asia_event_study_figure_exists():
-    path = OUTPUT_FIGURES / "figure_asia_event_study.png"
-    assert path.exists()
-    assert path.stat().st_size > 0
+    figure_dir = OUTPUT_FIGURES / "figure_asia_event_study"
+    assert figure_dir.is_dir(), f"Missing figure directory: {figure_dir}"
+    pngs = list(figure_dir.glob("*.png"))
+    assert len(pngs) >= 3, f"Expected >= 3 per-cohort plots, found {len(pngs)}"
 
 
 def test_asia_event_study_table_mentions_asia():
@@ -256,9 +258,10 @@ def test_japan_follow_on_includes_2025_reform():
 
 
 def test_japan_follow_on_figure_exists():
-    path = OUTPUT_FIGURES / "figure_japan_follow_on_event_study.png"
-    assert path.exists()
-    assert path.stat().st_size > 0
+    figure_dir = OUTPUT_FIGURES / "figure_japan_follow_on_event_study"
+    assert figure_dir.is_dir(), f"Missing figure directory: {figure_dir}"
+    pngs = list(figure_dir.glob("*.png"))
+    assert len(pngs) >= 4, f"Expected >= 4 per-cohort plots, found {len(pngs)}"
 
 
 def test_asia_follow_on_car_has_four_cohorts():
@@ -269,9 +272,10 @@ def test_asia_follow_on_car_has_four_cohorts():
 
 
 def test_asia_follow_on_figure_exists():
-    path = OUTPUT_FIGURES / "figure_asia_follow_on_event_study.png"
-    assert path.exists()
-    assert path.stat().st_size > 0
+    figure_dir = OUTPUT_FIGURES / "figure_asia_follow_on_event_study"
+    assert figure_dir.is_dir(), f"Missing figure directory: {figure_dir}"
+    pngs = list(figure_dir.glob("*.png"))
+    assert len(pngs) >= 4, f"Expected >= 4 per-cohort plots, found {len(pngs)}"
 
 
 def test_analysis_modules_do_not_import_each_other():

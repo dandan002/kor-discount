@@ -18,7 +18,7 @@ STACK_WINDOW_MIN = -36
 STACK_WINDOW_MAX = 24
 EVENT_WINDOW_MIN = -12
 EVENT_WINDOW_MAX = 24
-JAPAN_FIGURE_OUTPUT_PATH = config.OUTPUT_DIR / "figures" / "figure2_event_study.png"
+JAPAN_FIGURE_OUTPUT_DIR = config.OUTPUT_DIR / "figures" / "figure2_event_study"
 JAPAN_CAR_OUTPUT_PATH = config.OUTPUT_DIR / "tables" / "event_study_car.csv"
 JAPAN_TABLE_OUTPUT_PATH = config.OUTPUT_DIR / "tables" / "table_event_study_coefs.tex"
 JAPAN_FIGURE_TITLE = "Figure 2: Event-Study CAR Around Japan Governance Reforms"
@@ -69,7 +69,7 @@ def plot_event_study(car_df: pd.DataFrame) -> None:
         event_dates=config.JAPAN_EVENT_DATES,
         event_labels=config.JAPAN_EVENT_LABELS,
         figure_title=JAPAN_FIGURE_TITLE,
-        figure_output_path=JAPAN_FIGURE_OUTPUT_PATH,
+        figure_output_dir=JAPAN_FIGURE_OUTPUT_DIR,
     )
 
 
@@ -86,7 +86,7 @@ def main() -> None:
         event_window_min=EVENT_WINDOW_MIN,
         event_window_max=EVENT_WINDOW_MAX,
         figure_title=JAPAN_FIGURE_TITLE,
-        figure_output_path=JAPAN_FIGURE_OUTPUT_PATH,
+        figure_output_dir=JAPAN_FIGURE_OUTPUT_DIR,
         car_output_path=JAPAN_CAR_OUTPUT_PATH,
         table_output_path=JAPAN_TABLE_OUTPUT_PATH,
     )

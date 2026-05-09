@@ -22,8 +22,8 @@ from src.analysis import asia_panel, event_study_core
 
 FOLLOW_ON_MAX_POST_MONTHS = 10
 
-ASIA_FOLLOW_ON_FIGURE_OUTPUT_PATH = (
-    config.OUTPUT_DIR / "figures" / "figure_asia_follow_on_event_study.png"
+ASIA_FOLLOW_ON_FIGURE_OUTPUT_DIR = (
+    config.OUTPUT_DIR / "figures" / "figure_asia_follow_on_event_study"
 )
 ASIA_FOLLOW_ON_CAR_OUTPUT_PATH = (
     config.OUTPUT_DIR / "tables" / "asia_follow_on_event_study_car.csv"
@@ -55,7 +55,7 @@ def main() -> None:
         event_window_min=-12,
         event_window_max=FOLLOW_ON_MAX_POST_MONTHS,
         figure_title=ASIA_FOLLOW_ON_FIGURE_TITLE,
-        figure_output_path=ASIA_FOLLOW_ON_FIGURE_OUTPUT_PATH,
+        figure_output_dir=ASIA_FOLLOW_ON_FIGURE_OUTPUT_DIR,
         car_output_path=ASIA_FOLLOW_ON_CAR_OUTPUT_PATH,
         table_output_path=ASIA_FOLLOW_ON_TABLE_OUTPUT_PATH,
         spread_numerator=asia_panel.MSCI_EM_ASIA_COUNTRY,

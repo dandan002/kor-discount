@@ -16,16 +16,16 @@ import config
 
 OUTPUT_FIGURES = config.OUTPUT_DIR / "figures"
 OUTPUT_TABLES = config.OUTPUT_DIR / "tables"
-JAPAN_FIGURE = OUTPUT_FIGURES / "figure2_event_study.png"
+JAPAN_FIGURE = OUTPUT_FIGURES / "figure2_event_study"
 JAPAN_TABLE = OUTPUT_TABLES / "table_event_study_coefs.tex"
-KOREA_FIGURE = OUTPUT_FIGURES / "figure_korea_event_study.png"
+KOREA_FIGURE = OUTPUT_FIGURES / "figure_korea_event_study"
 KOREA_CAR = OUTPUT_TABLES / "korea_event_study_car.csv"
 KOREA_TABLE = OUTPUT_TABLES / "table_korea_event_study_coefs.tex"
 KOREA_SCRIPT = PROJECT_ROOT / "src" / "analysis" / "korea_event_study.py"
 CORE_SCRIPT = PROJECT_ROOT / "src" / "analysis" / "event_study_core.py"
 KOREA_ASIA_CAR = OUTPUT_TABLES / "korea_asia_event_study_car.csv"
 KOREA_ASIA_TABLE = OUTPUT_TABLES / "table_korea_asia_event_study_coefs.tex"
-KOREA_ASIA_FIGURE = OUTPUT_FIGURES / "figure_korea_asia_event_study.png"
+KOREA_ASIA_FIGURE = OUTPUT_FIGURES / "figure_korea_asia_event_study"
 
 
 def _read_text(path: Path) -> str:
@@ -54,13 +54,16 @@ def test_phase7_korea_script_exists():
 
 
 def test_phase7_output_paths_are_distinct():
-    assert KOREA_FIGURE != JAPAN_FIGURE
+    assert str(KOREA_FIGURE) != str(JAPAN_FIGURE)
     assert KOREA_CAR != OUTPUT_TABLES / "event_study_car.csv"
     assert KOREA_TABLE != JAPAN_TABLE
 
 
 def test_phase7_korea_outputs_exist():
-    for path in (KOREA_CAR, KOREA_TABLE, KOREA_FIGURE):
+    assert KOREA_FIGURE.is_dir(), f"Missing Korea figure directory: {KOREA_FIGURE}"
+    korea_pngs = list(KOREA_FIGURE.glob("*.png"))
+    assert len(korea_pngs) >= 3, f"Expected >= 3 per-cohort plots, found {len(korea_pngs)}"
+    for path in (KOREA_CAR, KOREA_TABLE):
         assert path.exists(), f"Missing expected Korea artifact: {path}"
         assert path.stat().st_size > 0, f"Korea artifact is empty: {path}"
 
@@ -93,13 +96,17 @@ def test_phase7_korea_source_mentions_overlap_handling():
 
 
 def test_phase7_japan_artifacts_still_exist():
-    for path in (JAPAN_FIGURE, JAPAN_TABLE):
+    assert JAPAN_FIGURE.is_dir(), f"Missing Japan figure directory: {JAPAN_FIGURE}"
+    for path in (JAPAN_TABLE,):
         assert path.exists(), f"Missing expected Japan artifact: {path}"
         assert path.stat().st_size > 0, f"Japan artifact is empty: {path}"
 
 
 def test_phase7_korea_asia_outputs_exist():
-    for path in (KOREA_ASIA_CAR, KOREA_ASIA_TABLE, KOREA_ASIA_FIGURE):
+    assert KOREA_ASIA_FIGURE.is_dir(), f"Missing Korea-Asia figure directory: {KOREA_ASIA_FIGURE}"
+    korea_asia_pngs = list(KOREA_ASIA_FIGURE.glob("*.png"))
+    assert len(korea_asia_pngs) >= 3, f"Expected >= 3 per-cohort plots, found {len(korea_asia_pngs)}"
+    for path in (KOREA_ASIA_CAR, KOREA_ASIA_TABLE):
         assert path.exists(), f"Missing expected Korea-Asia artifact: {path}"
         assert path.stat().st_size > 0, f"Korea-Asia artifact is empty: {path}"
 

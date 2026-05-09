@@ -328,24 +328,35 @@ def write_latex_table_with_comments(
     path.write_text("\n".join(comment_lines) + "\n" + latex, encoding="utf-8")
 
 
+def _slugify_label(label: str) -> str:
+    """Convert an event label to a filesystem-safe slug for plot filenames."""
+    slug = label.lower()
+    for ch in ("(", ")", ",", "."):
+        slug = slug.replace(ch, "")
+    slug = slug.replace("/", "_")
+    slug = "_".join(slug.split())
+    return slug
+
+
 def plot_event_study(
     car_df: pd.DataFrame,
     *,
     event_dates: Sequence[datetime.date],
     event_labels: dict[datetime.date, str],
     figure_title: str,
-    figure_output_path: Path,
+    figure_output_dir: Path,
     spread_label: str = "KOSPI - TOPIX P/B",
 ) -> None:
-    """Write the event-study figure as a multi-panel CAR PDF."""
+    """Write per-cohort event-study CAR plots into a directory."""
     sns.set_theme(style="whitegrid")
-    fig, axes = plt.subplots(len(event_dates), 1, figsize=(8, 9), sharex=True)
-    if len(event_dates) == 1:
-        axes = [axes]
+    figure_output_dir.mkdir(parents=True, exist_ok=True)
 
-    for ax, event_date in zip(axes, _event_timestamps(event_dates)):
+    for event_date in _event_timestamps(event_dates):
         cohort = _event_cohort(event_date)
+        label = _event_label(event_labels, event_date)
         plot_data = car_df[car_df["cohort"] == cohort].sort_values("event_rel_time")
+
+        fig, ax = plt.subplots(figsize=(8, 4.5))
         ax.plot(
             plot_data["event_rel_time"],
             plot_data["car"],
@@ -354,22 +365,16 @@ def plot_event_study(
         )
         ax.axvline(x=0, color="grey", linestyle="--", linewidth=0.9, alpha=0.8)
         ax.axhline(y=0, color="black", linestyle="-", linewidth=0.8, alpha=0.7)
-        ax.set_title(_event_label(event_labels, event_date), fontsize=10)
+        ax.set_title(f"{figure_title}\n{label}", fontsize=10)
         ax.set_ylabel(f"CAR: {spread_label}")
+        ax.set_xlabel("Months relative to reform")
+        fig.tight_layout()
 
-    axes[-1].set_xlabel("Months relative to reform")
-    fig.suptitle(figure_title, fontsize=11)
-    fig.tight_layout()
-
-    figure_output_path.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(
-        figure_output_path,
-        dpi=300,
-        bbox_inches="tight",
-        format="png",
-    )
-    plt.close(fig)
-    logging.info("Saved %s", figure_output_path)
+        filename = f"{cohort}_{_slugify_label(label)}.png"
+        output_path = figure_output_dir / filename
+        fig.savefig(output_path, dpi=300, bbox_inches="tight", format="png")
+        plt.close(fig)
+        logging.info("Saved %s", output_path)
 
 
 def run_event_study(
@@ -383,7 +388,7 @@ def run_event_study(
     event_window_min: int,
     event_window_max: int,
     figure_title: str,
-    figure_output_path: Path,
+    figure_output_dir: Path,
     car_output_path: Path,
     table_output_path: Path,
     table_comment_lines: Sequence[str] | None = None,
@@ -427,7 +432,7 @@ def run_event_study(
         event_dates=event_dates,
         event_labels=event_labels,
         figure_title=figure_title,
-        figure_output_path=figure_output_path,
+        figure_output_dir=figure_output_dir,
         spread_label=spread_label,
     )
     return car

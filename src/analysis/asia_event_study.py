@@ -24,7 +24,7 @@ STACK_WINDOW_MAX = 24
 EVENT_WINDOW_MIN = -12
 EVENT_WINDOW_MAX = 24
 
-ASIA_FIGURE_OUTPUT_PATH = config.OUTPUT_DIR / "figures" / "figure_asia_event_study.png"
+ASIA_FIGURE_OUTPUT_DIR = config.OUTPUT_DIR / "figures" / "figure_asia_event_study"
 ASIA_CAR_OUTPUT_PATH = config.OUTPUT_DIR / "tables" / "asia_event_study_car.csv"
 ASIA_TABLE_OUTPUT_PATH = config.OUTPUT_DIR / "tables" / "table_asia_event_study_coefs.tex"
 ASIA_FIGURE_TITLE = "Event-Study CAR: Japan Governance Reforms (MSCI EM Asia - TOPIX)"
@@ -49,7 +49,7 @@ def main() -> None:
         event_window_min=EVENT_WINDOW_MIN,
         event_window_max=EVENT_WINDOW_MAX,
         figure_title=ASIA_FIGURE_TITLE,
-        figure_output_path=ASIA_FIGURE_OUTPUT_PATH,
+        figure_output_dir=ASIA_FIGURE_OUTPUT_DIR,
         car_output_path=ASIA_CAR_OUTPUT_PATH,
         table_output_path=ASIA_TABLE_OUTPUT_PATH,
         spread_numerator=asia_panel.MSCI_EM_ASIA_COUNTRY,

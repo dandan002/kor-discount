@@ -22,8 +22,8 @@ from src.analysis import asia_panel, event_study_core
 KOREA_STACK_WINDOW_MIN = -36
 KOREA_EVENT_WINDOW_MIN = -12
 
-KOREA_ASIA_FIGURE_OUTPUT_PATH = (
-    config.OUTPUT_DIR / "figures" / "figure_korea_asia_event_study.png"
+KOREA_ASIA_FIGURE_OUTPUT_DIR = (
+    config.OUTPUT_DIR / "figures" / "figure_korea_asia_event_study"
 )
 KOREA_ASIA_CAR_OUTPUT_PATH = (
     config.OUTPUT_DIR / "tables" / "korea_asia_event_study_car.csv"
@@ -61,7 +61,7 @@ def main() -> None:
         event_window_min=KOREA_EVENT_WINDOW_MIN,
         event_window_max=max_post_months,
         figure_title=KOREA_ASIA_FIGURE_TITLE,
-        figure_output_path=KOREA_ASIA_FIGURE_OUTPUT_PATH,
+        figure_output_dir=KOREA_ASIA_FIGURE_OUTPUT_DIR,
         car_output_path=KOREA_ASIA_CAR_OUTPUT_PATH,
         table_output_path=KOREA_ASIA_TABLE_OUTPUT_PATH,
         spread_numerator="KOSPI",

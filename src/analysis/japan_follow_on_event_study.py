@@ -21,8 +21,8 @@ from src.analysis import event_study_core
 
 FOLLOW_ON_MAX_POST_MONTHS = 10
 
-JAPAN_FOLLOW_ON_FIGURE_OUTPUT_PATH = (
-    config.OUTPUT_DIR / "figures" / "figure_japan_follow_on_event_study.png"
+JAPAN_FOLLOW_ON_FIGURE_OUTPUT_DIR = (
+    config.OUTPUT_DIR / "figures" / "figure_japan_follow_on_event_study"
 )
 JAPAN_FOLLOW_ON_CAR_OUTPUT_PATH = (
     config.OUTPUT_DIR / "tables" / "japan_follow_on_event_study_car.csv"
@@ -54,7 +54,7 @@ def main() -> None:
         event_window_min=-12,
         event_window_max=FOLLOW_ON_MAX_POST_MONTHS,
         figure_title=JAPAN_FOLLOW_ON_FIGURE_TITLE,
-        figure_output_path=JAPAN_FOLLOW_ON_FIGURE_OUTPUT_PATH,
+        figure_output_dir=JAPAN_FOLLOW_ON_FIGURE_OUTPUT_DIR,
         car_output_path=JAPAN_FOLLOW_ON_CAR_OUTPUT_PATH,
         table_output_path=JAPAN_FOLLOW_ON_TABLE_OUTPUT_PATH,
         table_comment_lines=[
