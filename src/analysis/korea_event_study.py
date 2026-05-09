@@ -22,7 +22,7 @@ KOREA_CAR_OUTPUT_PATH = config.OUTPUT_DIR / "tables" / "korea_event_study_car.cs
 KOREA_TABLE_OUTPUT_PATH = (
     config.OUTPUT_DIR / "tables" / "table_korea_event_study_coefs.tex"
 )
-KOREA_FIGURE_TITLE = "Korea Value-Up Event-Study CAR Around 2024 Reform Milestones"
+KOREA_FIGURE_TITLE = "Korea Value-Up Event-Study CAR (TOPIX - KOSPI Spread)"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -42,7 +42,7 @@ def main() -> None:
 
     # Keep overlap handling explicit for the clustered 2024 dates rather than
     # mutating global config aliases or silently collapsing overlapping months.
-    event_study_core.run_event_study(
+    car = event_study_core.run_event_study(
         panel,
         event_dates=event_dates,
         event_labels=event_labels,
@@ -55,6 +55,10 @@ def main() -> None:
         figure_output_dir=KOREA_FIGURE_OUTPUT_DIR,
         car_output_path=KOREA_CAR_OUTPUT_PATH,
         table_output_path=KOREA_TABLE_OUTPUT_PATH,
+        spread_numerator="TOPIX",
+        spread_denominator="KOSPI",
+        spread_label="TOPIX - KOSPI P/B",
+        spread_description="TOPIX-KOSPI P/B",
         table_comment_lines=[
             (
                 "% Korea note: clustered 2024 Value-Up dates create overlap across "
@@ -65,6 +69,14 @@ def main() -> None:
                 f"max_post_months={max_post_months} through {study_end.isoformat()}."
             ),
         ],
+    )
+    event_study_core.plot_combined_event_study(
+        car,
+        event_dates=event_dates,
+        event_labels=event_labels,
+        figure_title=KOREA_FIGURE_TITLE,
+        combined_output_path=KOREA_FIGURE_OUTPUT_DIR.parent / "figure_korea_event_study.png",
+        spread_label="TOPIX - KOSPI P/B",
     )
 
 

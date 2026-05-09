@@ -377,6 +377,40 @@ def plot_event_study(
         logging.info("Saved %s", output_path)
 
 
+def plot_combined_event_study(
+    car_df: pd.DataFrame,
+    *,
+    event_dates: Sequence[datetime.date],
+    event_labels: dict[datetime.date, str],
+    figure_title: str,
+    combined_output_path: Path,
+    spread_label: str = "KOSPI - TOPIX P/B",
+) -> None:
+    """Write a single multi-panel figure with all cohorts side-by-side."""
+    sns.set_theme(style="whitegrid")
+    n = len(event_dates)
+    fig, axes = plt.subplots(1, n, figsize=(5 * n, 4.5), sharey=True)
+    if n == 1:
+        axes = [axes]
+
+    for ax, event_date in zip(axes, _event_timestamps(event_dates)):
+        cohort = _event_cohort(event_date)
+        label = _event_label(event_labels, event_date)
+        plot_data = car_df[car_df["cohort"] == cohort].sort_values("event_rel_time")
+        ax.plot(plot_data["event_rel_time"], plot_data["car"], color="#1f77b4", linewidth=1.6)
+        ax.axvline(x=0, color="grey", linestyle="--", linewidth=0.9, alpha=0.8)
+        ax.axhline(y=0, color="black", linestyle="-", linewidth=0.8, alpha=0.7)
+        ax.set_title(label, fontsize=9)
+        ax.set_xlabel("Months relative to reform")
+    axes[0].set_ylabel(f"CAR: {spread_label}")
+    fig.suptitle(figure_title, fontsize=10, y=1.01)
+    fig.tight_layout()
+    combined_output_path.parent.mkdir(parents=True, exist_ok=True)
+    fig.savefig(combined_output_path, dpi=300, bbox_inches="tight", format="png")
+    plt.close(fig)
+    logging.info("Saved %s", combined_output_path)
+
+
 def run_event_study(
     panel: pd.DataFrame,
     *,

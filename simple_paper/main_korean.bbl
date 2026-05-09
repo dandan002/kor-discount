@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{23}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -19,6 +19,16 @@ Kee-Hong Bae, Jun-Koo Kang, and Jin-Mo Kim.
 Bernard~S. Black, Woochan Kim, Hasung Jang, and Kyung-Suh Park.
 \newblock How corporate governance affects firm value? {Evidence} on a self-dealing channel from a natural experiment in {Korea}.
 \newblock \emph{Journal of Banking \& Finance}, 51:\penalty0 131--150, 2015.
+
+\bibitem[Caldara and Iacoviello(2022)]{caldara2022}
+Dario Caldara and Matteo Iacoviello.
+\newblock Measuring geopolitical risk.
+\newblock \emph{American Economic Review}, 112\penalty0 (4):\penalty0 1194--1225, 2022.
+
+\bibitem[Cengiz et~al.(2019)Cengiz, Dube, Lindner, and Zipperer]{cengiz2019}
+Doruk Cengiz, Arindrajit Dube, Attila Lindner, and Ben Zipperer.
+\newblock The effect of minimum wages on low-wage jobs.
+\newblock \emph{The Quarterly Journal of Economics}, 134\penalty0 (3):\penalty0 1405--1454, 2019.
 
 \bibitem[Kim et~al.(2019)Kim, Pae, and Yoo]{kim2019tunneling}
 Byungki Kim, Jinhan Pae, and Choong-Yuel Yoo.
