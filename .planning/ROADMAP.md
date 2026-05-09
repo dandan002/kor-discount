@@ -61,9 +61,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — src/01c_dart_pull.py (DART FSS API controlling shareholder acquisition)
-- [ ] 02-02-PLAN.md — src/02_build_compliance.py (compliance classification + events)
-- [ ] 02-03-PLAN.md — src/03_merge_covariates.py (five-way merge + winsorize + sample.csv)
+- [x] 02-01-PLAN.md — src/01c_dart_pull.py (DART FSS API controlling shareholder acquisition)
+- [x] 02-02-PLAN.md — src/02_build_compliance.py (compliance classification + events)
+- [x] 02-03-PLAN.md — src/03_merge_covariates.py (five-way merge + winsorize + sample.csv)
 
 ### Phase 3: Analysis
 **Goal**: All four analysis scripts run against real data and produce the correct output files — four .tex tables and four .pdf figures exist under outputs/

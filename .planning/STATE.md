@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Phase 2 context gathered
-last_updated: "2026-05-09T00:03:45.600Z"
-last_activity: 2026-05-09 -- Phase 02 planning complete
+stopped_at: Completed 02-03-PLAN.md
+last_updated: "2026-05-09T00:15:12.374Z"
+last_activity: 2026-05-09
 progress:
   total_phases: 4
-  completed_phases: 1
+  completed_phases: 2
   total_plans: 8
-  completed_plans: 5
-  percent: 63
+  completed_plans: 8
+  percent: 100
 ---
 
 # Project State
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-05-08)
 
 **Core value:** A complete, reproducible analysis pipeline that produces all tables and figures from raw Bloomberg/KRX data — so the paper can be compiled and re-run with one command.
-**Current focus:** Phase 01 — foundation
+**Current focus:** Phase 02 — data-pipeline
 
 ## Current Position
 
-Phase: 01 (foundation) — EXECUTING
-Plan: 5 of 5
+Phase: 02 (data-pipeline) — EXECUTING
+Plan: 2 of 3
 Status: Ready to execute
-Last activity: 2026-05-09 -- Phase 02 planning complete
+Last activity: 2026-05-09
 
 Progress: [████░░░░░░] 40%
 
@@ -57,6 +57,7 @@ Progress: [████░░░░░░] 40%
 | Phase 01-foundation P03 | 3 min | 1 tasks | 1 files |
 | Phase 01-foundation P04 | 3 min | 1 tasks | 1 files |
 | Phase 01-foundation P05 | 1 min | 1 tasks | 1 files |
+| Phase 02-data-pipeline P03 | 2min | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -82,6 +83,9 @@ Recent decisions affecting current work:
 - [Phase 01-foundation]: Pull KOSPI Index PX_LAST alongside firm tickers for benchmark alignment per D-02.
 - [Phase 01-foundation]: Use data/raw/bloomberg/snapshot_2023.csv as the acquire sentinel so Bloomberg pulls are skipped after data exists.
 - [Phase 01-foundation]: Keep analysis and paper targets as dry-run-parseable pipeline stubs that point to later phase script and LaTeX contracts.
+- [Phase 02-data-pipeline]: Use universe_raw.csv for name/sector columns since compliance.csv only has ticker/code/date
+- [Phase 02-data-pipeline]: KFTC alias table sorts by key length descending so KT&G matches before KT
+- [Phase 02-data-pipeline]: DART file absence handled gracefully with NaN fill columns rather than sys.exit
 
 ### Pending Todos
 
@@ -111,6 +115,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-08T23:23:22.732Z
-Stopped at: Phase 2 context gathered
-Resume file: .planning/phases/02-data-pipeline/02-CONTEXT.md
+Last session: 2026-05-09T00:15:12.370Z
+Stopped at: Completed 02-03-PLAN.md
+Resume file: None

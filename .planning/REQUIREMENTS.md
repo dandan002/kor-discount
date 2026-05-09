@@ -34,9 +34,9 @@
 
 ### Master Dataset
 
-- [ ] **MSTR-01**: src/03_merge_covariates.py joins Bloomberg snapshot + compliance + chaebol + controlling shareholder % on ticker
-- [ ] **MSTR-02**: Output sample.csv contains all columns specified in ROADMAP Phase 4.3
-- [ ] **MSTR-03**: Script winsorizes all continuous variables at 1st/99th percentiles and reports missingness by variable
+- [x] **MSTR-01**: src/03_merge_covariates.py joins Bloomberg snapshot + compliance + chaebol + controlling shareholder % on ticker
+- [x] **MSTR-02**: Output sample.csv contains all columns specified in ROADMAP Phase 4.3
+- [x] **MSTR-03**: Script winsorizes all continuous variables at 1st/99th percentiles and reports missingness by variable
 
 ### Descriptive Statistics
 
