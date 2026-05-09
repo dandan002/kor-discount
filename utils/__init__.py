@@ -10,3 +10,13 @@ IMPORTANT: Always run scripts from the project root directory:
     python src/00_build_universe.py   # correct
     cd src && python 00_build_universe.py  # WRONG - utils/ won't be found
 """
+
+import warnings
+
+# Suppress pandas FutureWarning about implicit downcasting in .replace() that
+# originates inside lseg-data and yfinance — not actionable from project code.
+warnings.filterwarnings(
+    "ignore",
+    message=".*Downcasting behavior in `replace`.*",
+    category=FutureWarning,
+)

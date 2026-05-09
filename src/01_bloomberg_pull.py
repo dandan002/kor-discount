@@ -60,17 +60,19 @@ RETURNS_PANEL_PATH = os.path.join(BLOOMBERG_DIR, "returns_panel.csv")
 # parameter conflicts between fiscal-period and point-in-time fields.
 # ---------------------------------------------------------------------------
 
-# Fundamental fields: TR.F.* require FRQ="FY" to align to fiscal year-end.
+# Fundamental fields pulled with FRQ="FY" to align to fiscal year-end.
+# TR.F.* = raw Worldscope balance-sheet items (valid).
+# TR.*   = calculated ratios (ROE, ROA, P/E, P/B live here, not TR.F.*).
 FUNDAMENTAL_FIELDS_REF = [
-    "TR.F.PBk",           # price-to-book (fiscal year)
-    "TR.F.PE",            # price-to-earnings (fiscal year)
-    "TR.F.ROE",           # return on equity
-    "TR.F.ROA",           # return on assets
-    "TR.F.TotDebtToTotEq",# total debt / total equity (%)
-    "TR.F.TotAssets",     # total assets
-    "TR.F.SalesGrPct",    # sales growth (%)
-    "TR.F.CashAndEq",     # cash and equivalents
-    "TR.F.DivPerShr",     # dividends per share (trailing 12 months)
+    "TR.PriceToBVPerShare", # price-to-book (fiscal year)
+    "TR.PriceToEarnings",   # price-to-earnings (fiscal year)
+    "TR.ReturnOnEquity",    # return on equity
+    "TR.ReturnOnAssets",    # return on assets
+    "TR.F.TotDebtToTotEq", # total debt / total equity (%)
+    "TR.F.TotAssets",      # total assets
+    "TR.F.SalesGrPct",     # sales growth (%)
+    "TR.F.CashAndEq",      # cash and equivalents
+    "TR.F.DivPerShr",      # dividends per share (trailing 12 months)
 ]
 FUNDAMENTAL_FIELDS_BBG = [
     "PX_TO_BOOK_RATIO",
@@ -202,7 +204,7 @@ def pull_roe_panel(rics):
     )
     df = get_data(
         rics,
-        ["TR.F.ROE"],
+        ["TR.ReturnOnEquity"],
         parameters={"SDate": ROE_START, "EDate": ROE_END, "FRQ": "FY"},
     )
 
