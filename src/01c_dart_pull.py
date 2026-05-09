@@ -1,33 +1,48 @@
 """
-DART FSS OpenAPI controlling shareholder pull for Korea Discount study.
+Refinitiv ownership data pull for Korea Discount study.
+
+Replaces the original DART FSS API pull. Pulls top-20 shareholder data from
+LSEG Workspace and aggregates to the two controlling-shareholder metrics used
+in the regression:
+  controlling_pct_largest  — % held by the single largest shareholder
+  controlling_pct_group    — % held by all insider (I) + strategic (S) holders combined
 
 READS: data/raw/universe_raw.csv (from src/00_build_universe.py)
 OUTPUTS:
-  data/raw/dart/corp_code_map.csv  - ticker↔corp_code lookup cache (generated once)
-  data/raw/dart/controlling_shareholder.csv - per-firm controlling shareholder %
+  data/raw/dart/controlling_shareholder.csv — same schema as the former DART pull
+
+Output path kept at data/raw/dart/ so src/03_merge_covariates.py requires no changes.
 
 Run from project root:
     python src/01c_dart_pull.py
 
-Requires internet access and FSS_API_KEY in .env
+Requires:
+    pip install lseg-data
+    LSEG Workspace desktop app open and logged in
 """
 
-import io
 import logging
 import os
 import sys
-import time
-import xml.etree.ElementTree as ET
-import zipfile
 
 import pandas as pd
-import requests
-from dotenv import load_dotenv
 
-# Ensure project root is on path so utils/ is importable from project-root runs.
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+try:
+    import lseg.data  # noqa: F401
+except ImportError:
+    print(
+        "Error: lseg-data is not installed.\n"
+        "  pip install lseg-data\n"
+        "  Ensure LSEG Workspace desktop is open and logged in.",
+        file=sys.stderr,
+    )
+    sys.exit(1)
+
+from utils.refinitiv import get_data
 
 logging.basicConfig(
     level=logging.INFO,
@@ -38,185 +53,134 @@ log = logging.getLogger(__name__)
 
 UNIVERSE_PATH = os.path.join(PROJECT_ROOT, "data", "raw", "universe_raw.csv")
 DART_DIR = os.path.join(PROJECT_ROOT, "data", "raw", "dart")
-CORP_CODE_CACHE = os.path.join(DART_DIR, "corp_code_map.csv")
 OUTPUT_PATH = os.path.join(DART_DIR, "controlling_shareholder.csv")
-CORP_CODE_URL = "https://opendart.fss.or.kr/api/corpCode.xml"
-HYSLR_URL = "https://opendart.fss.or.kr/api/hyslrSttus.json"
+
+# Pull top 20 shareholders of every type so we can identify the largest holder
+# and sum insider + strategic stakes for the group total.
+OWNERSHIP_FIELDS = [
+    "TR.ShareholderName",        # shareholder name (for audit trail)
+    "TR.ShareholderTotalPctOwn", # direct + indirect % ownership
+    "TR.ShareholderTypeCode",    # "I"=insider, "S"=strategic, "F"=funds, "G"=govt
+]
+OWNERSHIP_PARAMS = {
+    "ShareholderType": "All",
+    "TopN": "20",
+}
+
+# Type codes treated as "controlling group" — insiders and strategic cross-holders.
+# Funds ("F"), government ("G"), and other institutional types are excluded.
+CONTROLLING_TYPES = {"I", "S"}
+
+# Process in batches to stay within API response size limits.
+_BATCH_SIZE = 25
+
+
+def ticker_to_ric(ticker: str) -> str:
+    return str(ticker).zfill(6) + ".KS"
+
+
+def ric_to_ticker(ric: str) -> str:
+    return ric.split(".")[0].zfill(6)
 
 
 def load_universe():
-    """Load bare 6-digit ticker strings from universe_raw.csv."""
     if not os.path.exists(UNIVERSE_PATH):
         print(
             f"Error: {UNIVERSE_PATH} not found.\n"
-            "Run src/00_build_universe.py first to generate the KOSPI universe.",
+            "Run src/00_build_universe.py first.",
             file=sys.stderr,
         )
         sys.exit(1)
-
     df = pd.read_csv(UNIVERSE_PATH, dtype={"ticker": str})
-    if "ticker" not in df.columns:
-        print(
-            f"Error: {UNIVERSE_PATH} does not contain a 'ticker' column.\n"
-            "Re-run src/00_build_universe.py to regenerate it.",
-            file=sys.stderr,
-        )
-        sys.exit(1)
-
-    tickers = df["ticker"].dropna().tolist()
-    log.info("Loaded %d tickers from %s.", len(tickers), UNIVERSE_PATH)
-    return tickers
+    rics = [ticker_to_ric(t) for t in df["ticker"].dropna()]
+    log.info("Loaded %d tickers → %d RICs from %s.", len(rics), len(rics), UNIVERSE_PATH)
+    return rics
 
 
-def get_corp_code_map(api_key):
-    """Return dict {stock_code: corp_code} from DART, using cache if available."""
-    if os.path.exists(CORP_CODE_CACHE):
-        df = pd.read_csv(CORP_CODE_CACHE, dtype=str)
-        mapping = dict(zip(df["stock_code"], df["corp_code"]))
-        log.info("Loaded corp_code map from cache (%d entries).", len(mapping))
-        return mapping
-
-    log.info("Downloading corp_code map from DART API...")
-    r = requests.get(CORP_CODE_URL, params={"crtfc_key": api_key}, timeout=60)
-    r.raise_for_status()
-    z = zipfile.ZipFile(io.BytesIO(r.content))
-    xml_data = z.read("CORPCODE.xml")
-    root = ET.fromstring(xml_data)
-
-    rows = []
-    for item in root.findall("list"):
-        code = item.findtext("corp_code", "").strip()
-        stock = item.findtext("stock_code", "").strip()
-        name = item.findtext("corp_name", "").strip()
-        if stock:
-            rows.append({"stock_code": stock, "corp_code": code, "corp_name": name})
-
-    df = pd.DataFrame(rows)
-    df.to_csv(CORP_CODE_CACHE, index=False)
-    mapping = dict(zip(df["stock_code"], df["corp_code"]))
-    log.info("Downloaded and cached corp_code map (%d listed firms).", len(mapping))
-    return mapping
-
-
-def pull_hyslr_shareholder(corp_code, api_key):
-    """Return (controlling_pct_largest, controlling_pct_group) for one firm.
-
-    Uses hyslrSttus.json endpoint with reprt_code="11011" (annual report).
-    Falls back to reprt_code="11014" (semi-annual) if annual returns no data.
-    Returns (None, None) if both attempts yield no data.
+def pull_ownership(rics):
     """
-    for reprt_code in ("11011", "11014"):
-        time.sleep(0.5)
+    Pull top-20 shareholder rows for all RICs and aggregate to firm-level metrics.
+
+    Returns DataFrame: ticker, controlling_pct_largest, controlling_pct_group.
+    """
+    all_frames = []
+    n_batches = (len(rics) + _BATCH_SIZE - 1) // _BATCH_SIZE
+
+    for i in range(0, len(rics), _BATCH_SIZE):
+        batch = rics[i : i + _BATCH_SIZE]
+        batch_num = i // _BATCH_SIZE + 1
+        log.info("Ownership batch %d / %d (%d RICs) ...", batch_num, n_batches, len(batch))
         try:
-            r = requests.get(
-                HYSLR_URL,
-                params={
-                    "crtfc_key": api_key,
-                    "corp_code": corp_code,
-                    "bsns_year": "2023",
-                    "reprt_code": reprt_code,
-                },
-                timeout=20,
-            )
-            r.raise_for_status()
-        except requests.HTTPError:
-            log.warning("HTTP error for corp_code=%s reprt_code=%s", corp_code, reprt_code)
+            df = get_data(batch, OWNERSHIP_FIELDS, parameters=OWNERSHIP_PARAMS, batch_size=len(batch))
+        except Exception as exc:
+            log.error("Batch %d failed: %s — skipping.", batch_num, exc)
             continue
+        if df is not None and not df.empty:
+            all_frames.append(df)
 
-        data = r.json()
-        if data.get("status") != "000":
-            # No data for this report code; try fallback
-            continue
+    if not all_frames:
+        log.error("All ownership batches returned empty. Check Workspace connection.")
+        return pd.DataFrame(columns=["ticker", "controlling_pct_largest", "controlling_pct_group"])
 
-        rows = data.get("list", [])
-        # Use common shares only for percentage calculation
-        common = [row for row in rows if row.get("stock_knd") == "보통주"]
-        if not common:
-            common = rows  # fallback: use all share classes
+    raw = pd.concat(all_frames, ignore_index=True)
 
-        # Largest single holder: 최대주주 본인
-        largest_rows = [r for r in common if r.get("relate") == "최대주주 본인"]
-        # Group total: 최대주주 본인 + 최대주주의 특수관계인
-        group_rows = [
-            r for r in common
-            if r.get("relate") in ("최대주주 본인", "최대주주의 특수관계인")
-        ]
+    # Rename by column position — ld.get_data returns human-readable labels that
+    # vary by Workspace version; positional rename is version-agnostic.
+    cols = list(raw.columns)
+    # cols[0]=Instrument, cols[1]=name, cols[2]=pct_own, cols[3]=type_code
+    raw = raw.rename(columns={
+        cols[0]: "ric",
+        cols[1]: "shareholder_name",
+        cols[2]: "pct_own",
+        cols[3]: "type_code",
+    })
 
-        def sum_pct(row_list):
-            total = 0.0
-            for row in row_list:
-                try:
-                    total += float(row.get("trmend_posesn_stock_qota_rt", 0) or 0)
-                except (ValueError, TypeError):
-                    pass
-            return total if total > 0 else None
-
-        largest_pct = sum_pct(largest_rows)
-        group_pct = sum_pct(group_rows)
-
-        if largest_pct is not None or group_pct is not None:
-            return largest_pct, group_pct
-
-    return None, None
-
-
-def main():
-    load_dotenv()
-    api_key = os.environ.get("FSS_API_KEY")
-    if not api_key:
-        print(
-            "Error: FSS_API_KEY not set.\n"
-            "Add FSS_API_KEY to your .env file.",
-            file=sys.stderr,
-        )
-        sys.exit(1)
-
-    os.makedirs(DART_DIR, exist_ok=True)
-
-    tickers = load_universe()
-    corp_code_map = get_corp_code_map(api_key)
+    raw["ticker"] = raw["ric"].apply(ric_to_ticker)
+    raw["pct_own"] = pd.to_numeric(raw["pct_own"], errors="coerce")
+    raw["type_code"] = raw["type_code"].astype(str).str.strip().str.upper()
 
     results = []
-    no_dart_match = []
+    for ticker, grp in raw.groupby("ticker"):
+        grp = grp.dropna(subset=["pct_own"])
 
-    for i, ticker in enumerate(tickers, 1):
-        corp_code = corp_code_map.get(ticker)
-        if corp_code is None:
-            no_dart_match.append(ticker)
-            continue
+        # Largest single holder — take the maximum individual stake.
+        largest = grp["pct_own"].max() if not grp.empty else None
 
-        largest_pct, group_pct = pull_hyslr_shareholder(corp_code, api_key)
-        if largest_pct is None and group_pct is None:
-            no_dart_match.append(ticker)
-            continue
+        # Group total — sum all insider (I) and strategic (S) holdings.
+        group_rows = grp[grp["type_code"].isin(CONTROLLING_TYPES)]
+        group_total = group_rows["pct_own"].sum() if not group_rows.empty else None
 
         results.append({
             "ticker": ticker,
-            "controlling_pct_largest": largest_pct,
-            "controlling_pct_group": group_pct,
+            "controlling_pct_largest": largest,
+            "controlling_pct_group": group_total,
         })
 
-        if i % 50 == 0:
-            log.info("Processed %d / %d tickers...", i, len(tickers))
+    out = pd.DataFrame(results)
+    no_data = out["controlling_pct_largest"].isna().sum()
+    if no_data:
+        log.warning(
+            "%d / %d firms have no ownership data.",
+            no_data, len(out),
+        )
+    return out
 
-    if no_dart_match:
-        print(f"No DART match for {len(no_dart_match)} tickers: {no_dart_match}")
 
-    df = pd.DataFrame(results)
+def main():
+    os.makedirs(DART_DIR, exist_ok=True)
+
+    rics = load_universe()
+    df = pull_ownership(rics)
     df.to_csv(OUTPUT_PATH, index=False)
-
-    log.info("All done. Verify outputs:")
-    for path in [OUTPUT_PATH, CORP_CODE_CACHE]:
-        if os.path.exists(path):
-            log.info("%s (%d bytes)", path, os.path.getsize(path))
-        else:
-            log.error("MISSING: %s", path)
 
     log.info(
         "Saved controlling_shareholder.csv: %d rows x %d columns.",
-        len(df),
-        len(df.columns),
+        len(df), len(df.columns),
     )
+    if os.path.exists(OUTPUT_PATH):
+        log.info("%s (%d bytes)", OUTPUT_PATH, os.path.getsize(OUTPUT_PATH))
+    else:
+        log.error("MISSING: %s", OUTPUT_PATH)
 
 
 if __name__ == "__main__":
