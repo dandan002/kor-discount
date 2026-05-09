@@ -1,17 +1,21 @@
 """
-Bloomberg financial data pull for Korea Discount study.
+Refinitiv financial data pull for Korea Discount study.
 
 READS: data/raw/universe_raw.csv (from src/00_build_universe.py)
-OUTPUTS:
-  data/raw/bloomberg/snapshot_2023.csv - 12-field BDP snapshot, FY2023
-  data/raw/bloomberg/roe_panel.csv - annual ROE (RETURN_COM_EQY), 2019-2023
-  data/raw/bloomberg/returns_panel.csv - weekly PX_LAST, 2021-01-01 to 2026-03-31
+OUTPUTS (same paths as the original Bloomberg pull — downstream unchanged):
+  data/raw/bloomberg/snapshot_2023.csv   — 12-field cross-section, FY2023
+  data/raw/bloomberg/roe_panel.csv       — annual ROE, FY2019-FY2023
+  data/raw/bloomberg/returns_panel.csv   — weekly closing prices, 2021-01-01 to 2026-03-31
+
+Column names in snapshot_2023.csv use Bloomberg mnemonics (PX_TO_BOOK_RATIO etc.)
+so that src/03_merge_covariates.py requires no changes.
 
 Run from project root AFTER src/00_build_universe.py:
     python src/01_bloomberg_pull.py
 
-Requires blpapi (Bloomberg terminal only):
-    pip install blpapi
+Requires:
+    pip install eikon
+    REFINITIV_APP_KEY in .env
 """
 
 import logging
@@ -20,22 +24,20 @@ import sys
 
 import pandas as pd
 
-# Ensure project root is on path so utils/ is importable from project-root runs.
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 try:
-    import blpapi  # noqa: F401
+    import lseg.data  # noqa: F401
 except ImportError:
     print(
-        "Error: blpapi is not installed.\n"
-        "This script must be run at a Bloomberg terminal:\n"
-        "  pip install blpapi\n"
-        "  python src/01_bloomberg_pull.py",
+        "Error: lseg-data is not installed.\n"
+        "  pip install lseg-data\n"
+        "  Ensure LSEG Workspace desktop is open and logged in.",
         file=sys.stderr,
     )
     sys.exit(1)
 
-from utils.bbg import bdp, bdh  # noqa: E402
+from utils.refinitiv import get_data, get_timeseries
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -52,15 +54,29 @@ SNAPSHOT_PATH = os.path.join(BLOOMBERG_DIR, "snapshot_2023.csv")
 ROE_PANEL_PATH = os.path.join(BLOOMBERG_DIR, "roe_panel.csv")
 RETURNS_PANEL_PATH = os.path.join(BLOOMBERG_DIR, "returns_panel.csv")
 
-# 12 snapshot fields from ROADMAP Phase 2.1.
-SNAPSHOT_FIELDS = [
+# ---------------------------------------------------------------------------
+# Snapshot — 12 Refinitiv fields for FY2023 cross-section
+# Pulled as two batches (fundamental TR.F.* vs market TR.*) to avoid
+# parameter conflicts between fiscal-period and point-in-time fields.
+# ---------------------------------------------------------------------------
+
+# Fundamental fields: TR.F.* require FRQ="FY" to align to fiscal year-end.
+FUNDAMENTAL_FIELDS_REF = [
+    "TR.F.PBk",           # price-to-book (fiscal year)
+    "TR.F.PE",            # price-to-earnings (fiscal year)
+    "TR.F.ROE",           # return on equity
+    "TR.F.ROA",           # return on assets
+    "TR.F.TotDebtToTotEq",# total debt / total equity (%)
+    "TR.F.TotAssets",     # total assets
+    "TR.F.SalesGrPct",    # sales growth (%)
+    "TR.F.CashAndEq",     # cash and equivalents
+    "TR.F.DivPerShr",     # dividends per share (trailing 12 months)
+]
+FUNDAMENTAL_FIELDS_BBG = [
     "PX_TO_BOOK_RATIO",
     "PE_RATIO",
     "RETURN_COM_EQY",
     "RETURN_ON_ASSET",
-    "EQY_FLOAT_PCT",
-    "CUR_MKT_CAP",
-    "EQY_DVD_YLD_IND",
     "TOT_DEBT_TO_TOT_EQY",
     "BS_TOT_ASSET",
     "SALES_GROWTH",
@@ -68,105 +84,161 @@ SNAPSHOT_FIELDS = [
     "DVD_SH_12M",
 ]
 
-# Pin BDP snapshot to FY2023 year-end fundamentals.
-# TODO: Confirm FUNDAMENTAL_DATABASE_DATE is the correct Bloomberg override at terminal.
-SNAPSHOT_OVERRIDES = {"FUNDAMENTAL_DATABASE_DATE": "20231231"}
+# Market fields: pulled as of calendar date 2023-12-31 (no FRQ needed).
+MARKET_FIELDS_REF = [
+    "TR.FloatPct",    # float shares as % of total shares outstanding
+    "TR.MktCap",      # market capitalisation (USD millions)
+    "TR.DivYield",    # indicated dividend yield (%)
+]
+MARKET_FIELDS_BBG = [
+    "EQY_FLOAT_PCT",
+    "CUR_MKT_CAP",
+    "EQY_DVD_YLD_IND",
+]
 
-ROE_FIELD = "RETURN_COM_EQY"
+SNAPSHOT_YEAR = 2023
 ROE_START = "2019-01-01"
 ROE_END = "2023-12-31"
-
-RETURNS_FIELD = "PX_LAST"
 RETURNS_START = "2021-01-01"
 RETURNS_END = "2026-03-31"
-KOSPI_BENCHMARK = "KOSPI Index"
+KOSPI_BENCHMARK_RIC = ".KS11"
+
+
+def ric_to_ticker(ric: str) -> str:
+    """Convert Refinitiv RIC to 6-digit KRX code ('005930.KS' -> '005930')."""
+    return ric.split(".")[0].zfill(6)
+
+
+def ticker_to_ric(ticker: str) -> str:
+    """Convert 6-digit KRX ticker to Refinitiv RIC ('005930' -> '005930.KS')."""
+    return str(ticker).zfill(6) + ".KS"
 
 
 def load_universe():
-    """Load Bloomberg tickers from universe_raw.csv."""
+    """Load universe_raw.csv and return list of Refinitiv RICs."""
     if not os.path.exists(UNIVERSE_PATH):
         print(
             f"Error: {UNIVERSE_PATH} not found.\n"
-            "Run src/00_build_universe.py first to generate the KOSPI universe.",
+            "Run src/00_build_universe.py first.",
             file=sys.stderr,
         )
         sys.exit(1)
 
-    df = pd.read_csv(UNIVERSE_PATH)
+    df = pd.read_csv(UNIVERSE_PATH, dtype={"ticker": str})
     if "ticker" not in df.columns:
         print(
-            f"Error: {UNIVERSE_PATH} does not contain a 'ticker' column.\n"
-            "Re-run src/00_build_universe.py to regenerate it.",
+            f"Error: {UNIVERSE_PATH} missing 'ticker' column.",
             file=sys.stderr,
         )
         sys.exit(1)
 
-    tickers = df["ticker"].dropna().tolist()
-    log.info("Loaded %d tickers from %s.", len(tickers), UNIVERSE_PATH)
-    return tickers
+    rics = [ticker_to_ric(t) for t in df["ticker"].dropna()]
+    log.info("Loaded %d tickers → %d RICs from %s.", len(rics), len(rics), UNIVERSE_PATH)
+    return rics
 
 
-def pull_snapshot(tickers):
-    """Pull 12-field BDP snapshot as of FY2023 year-end."""
+def pull_snapshot(rics):
+    """Pull 12-field FY2023 cross-section and save snapshot_2023.csv."""
+    date_str = f"{SNAPSHOT_YEAR}-12-31"
+
     log.info(
-        "Pulling snapshot BDP for %d tickers, %d fields, override=%s ...",
-        len(tickers),
-        len(SNAPSHOT_FIELDS),
-        SNAPSHOT_OVERRIDES,
+        "Pulling fundamental snapshot (%d fields) for %d RICs as of %s ...",
+        len(FUNDAMENTAL_FIELDS_REF),
+        len(rics),
+        date_str,
     )
-    df = bdp(tickers, SNAPSHOT_FIELDS, overrides=SNAPSHOT_OVERRIDES)
-    df.index.name = "ticker"
-    df.reset_index(inplace=True)
-    log.info("Snapshot: %d rows x %d columns.", len(df), len(df.columns))
-    df.to_csv(SNAPSHOT_PATH, index=False)
-    log.info("Saved to %s.", SNAPSHOT_PATH)
-    return df
+    fund_df = get_data(
+        rics,
+        FUNDAMENTAL_FIELDS_REF,
+        parameters={"SDate": date_str, "FRQ": "FY"},
+    )
+    # Rename: Instrument → ticker (6-digit), then Bloomberg column names
+    fund_cols = list(fund_df.columns)
+    fund_rename = {fund_cols[0]: "ric"}
+    for ref_col, bbg_col in zip(fund_cols[1:], FUNDAMENTAL_FIELDS_BBG):
+        fund_rename[ref_col] = bbg_col
+    fund_df = fund_df.rename(columns=fund_rename)
+    fund_df["ticker"] = fund_df["ric"].apply(ric_to_ticker)
+    fund_df = fund_df.drop(columns=["ric"])
 
-
-def pull_roe_panel(tickers):
-    """Pull annual RETURN_COM_EQY for 2019-2023."""
     log.info(
-        "Pulling ROE panel BDH for %d tickers, field=%s, %s to %s, WEEKLY ...",
-        len(tickers),
-        ROE_FIELD,
+        "Pulling market snapshot (%d fields) for %d RICs as of %s ...",
+        len(MARKET_FIELDS_REF),
+        len(rics),
+        date_str,
+    )
+    mkt_df = get_data(
+        rics,
+        MARKET_FIELDS_REF,
+        parameters={"SDate": date_str},
+    )
+    mkt_cols = list(mkt_df.columns)
+    mkt_rename = {mkt_cols[0]: "ric"}
+    for ref_col, bbg_col in zip(mkt_cols[1:], MARKET_FIELDS_BBG):
+        mkt_rename[ref_col] = bbg_col
+    mkt_df = mkt_df.rename(columns=mkt_rename)
+    mkt_df["ticker"] = mkt_df["ric"].apply(ric_to_ticker)
+    mkt_df = mkt_df.drop(columns=["ric"])
+
+    # Merge on ticker; all 12 Bloomberg-named columns in final CSV
+    snap = fund_df.merge(mkt_df, on="ticker", how="outer")
+    all_bbg_cols = FUNDAMENTAL_FIELDS_BBG + MARKET_FIELDS_BBG
+    col_order = ["ticker"] + [c for c in all_bbg_cols if c in snap.columns]
+    snap = snap[col_order]
+
+    log.info("Snapshot: %d rows x %d columns.", len(snap), len(snap.columns))
+    snap.to_csv(SNAPSHOT_PATH, index=False)
+    log.info("Saved to %s.", SNAPSHOT_PATH)
+    return snap
+
+
+def pull_roe_panel(rics):
+    """Pull annual ROE for FY2019-FY2023 and save roe_panel.csv."""
+    log.info(
+        "Pulling ROE panel for %d RICs, %s to %s ...",
+        len(rics),
         ROE_START,
         ROE_END,
     )
-    df = bdh(tickers, [ROE_FIELD], ROE_START, ROE_END, periodicity="WEEKLY")
-    df = df.rename(columns={"security": "ticker", ROE_FIELD: "roe"})
-    df["year"] = pd.to_datetime(df["date"]).dt.year
-    df = df[["ticker", "year", "roe"]].copy()
+    df = get_data(
+        rics,
+        ["TR.F.ROE"],
+        parameters={"SDate": ROE_START, "EDate": ROE_END, "FRQ": "FY"},
+    )
+
+    # ek.get_data with date range returns columns: Instrument, Date, <field label>
+    cols = list(df.columns)
+    # cols[0]=Instrument, cols[1]=Date (period end), cols[2]=ROE label
+    rename = {cols[0]: "ric", cols[1]: "period_date", cols[2]: "roe"}
+    df = df.rename(columns=rename)
+    df["ticker"] = df["ric"].apply(ric_to_ticker)
+    df["year"] = pd.to_datetime(df["period_date"], errors="coerce").dt.year
+    df = df[["ticker", "year", "roe"]].dropna(subset=["year"]).copy()
+    df["year"] = df["year"].astype(int)
+
     log.info("ROE panel: %d rows.", len(df))
     df.to_csv(ROE_PANEL_PATH, index=False)
     log.info("Saved to %s.", ROE_PANEL_PATH)
     return df
 
 
-def pull_returns_panel(tickers):
-    """Pull daily PX_LAST for firm tickers plus KOSPI Index benchmark."""
-    all_securities = tickers + [KOSPI_BENCHMARK]
+def pull_returns_panel(rics):
+    """Pull weekly closing prices for firm RICs + KOSPI benchmark."""
+    all_rics = rics + [KOSPI_BENCHMARK_RIC]
     log.info(
-        "Pulling returns BDH for %d securities including KOSPI Index benchmark, "
-        "field=%s, %s to %s, WEEKLY ...",
-        len(all_securities),
-        RETURNS_FIELD,
+        "Pulling weekly returns for %d securities (%s to %s) ...",
+        len(all_rics),
         RETURNS_START,
         RETURNS_END,
     )
-    log.info(
-        "bdh() batches in chunks of 10 with 0.5s sleep; "
-        "this may take several minutes for a large universe."
+    df = get_timeseries(
+        all_rics,
+        start_date=RETURNS_START,
+        end_date=RETURNS_END,
+        field="CLOSE",
+        interval="weekly",
+        batch_size=20,
     )
-    df = bdh(
-        all_securities,
-        [RETURNS_FIELD],
-        RETURNS_START,
-        RETURNS_END,
-        periodicity="WEEKLY",
-        batch_size=10,  # ~5yr weekly × 10 secs ≈ 2.7k pts, under Desktop API -4002 limit
-    )
-    df = df.rename(columns={RETURNS_FIELD: "px_last"})
-    df["date"] = pd.to_datetime(df["date"])
     log.info(
         "Returns panel: %d rows, %d unique securities.",
         len(df),
@@ -180,19 +252,19 @@ def pull_returns_panel(tickers):
 def main():
     os.makedirs(BLOOMBERG_DIR, exist_ok=True)
 
-    tickers = load_universe()
-    pull_snapshot(tickers)
-    pull_roe_panel(tickers)
-    pull_returns_panel(tickers)
+    rics = load_universe()
+    pull_snapshot(rics)
+    pull_roe_panel(rics)
+    pull_returns_panel(rics)
 
-    log.info("All done. Verify outputs:")
+    log.info("All done. Output summary:")
     for path in [SNAPSHOT_PATH, ROE_PANEL_PATH, RETURNS_PANEL_PATH]:
         if os.path.exists(path):
-            log.info("%s (%d bytes)", path, os.path.getsize(path))
+            log.info("  %s (%d bytes)", path, os.path.getsize(path))
         else:
-            log.error("MISSING: %s", path)
+            log.error("  MISSING: %s", path)
 
-    log.info("Next step: Transfer the project directory offline and proceed to Phase 2.")
+    log.info("Next step: Run src/02_build_compliance.py then src/03_merge_covariates.py.")
 
 
 if __name__ == "__main__":
