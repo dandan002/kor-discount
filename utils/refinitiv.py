@@ -200,18 +200,28 @@ def get_index_constituents(index_ric):
         get_index_constituents(".KS11") -> ["005930.KS", "000660.KS", ...]
     """
     _init()
-    # Chain RIC format (0#.KS11) returns one row per constituent.
-    # TR.RIC is the correct field; TR.IndexConstituentRIC is not valid here.
-    chain_ric = index_ric if index_ric.startswith("0#") else f"0#{index_ric}"
     try:
-        df = ld.get_data(universe=chain_ric, fields=["TR.RIC"])
+        df = ld.get_data(universe=index_ric, fields=["TR.IndexConstituentRIC"])
     except Exception as exc:
         raise RuntimeError(
-            f"get_index_constituents failed for {chain_ric}: {exc}"
+            f"get_index_constituents failed for {index_ric}: {exc}"
         ) from exc
     if df is None or df.empty:
+        log.error(
+            "get_index_constituents: ld.get_data returned empty for universe=%r. "
+            "Ensure Workspace is open and the index RIC is correct.",
+            index_ric,
+        )
         return []
-    ric_col = "RIC" if "RIC" in df.columns else df.columns[-1]
+    log.info(
+        "get_index_constituents: columns=%s  shape=%s  sample=%s",
+        list(df.columns),
+        df.shape,
+        df.iloc[:3].to_dict(orient="records"),
+    )
+    # TR.IndexConstituentRIC returns column labelled "Constituent RIC";
+    # fall back to last column in case the label varies by Workspace version.
+    ric_col = "Constituent RIC" if "Constituent RIC" in df.columns else df.columns[-1]
     return df[ric_col].dropna().tolist()
 
 

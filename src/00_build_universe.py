@@ -98,17 +98,21 @@ def build_universe():
     """Pull, filter, and return the KOSPI non-financial universe."""
     log.info("Step 1: Pulling KOSPI constituent RICs from %s ...", KOSPI_INDEX_RIC)
     rics = get_index_constituents(KOSPI_INDEX_RIC)
+    log.info("  Total RICs returned before filter: %d  sample=%s", len(rics), rics[:5])
     # Keep only KS-listed equities; filter out warrants, ETFs, etc.
-    rics = [r for r in rics if str(r).endswith(".KS")]
-    log.info("  Found %d KOSPI constituent RICs ending in .KS.", len(rics))
+    rics_ks = [r for r in rics if str(r).endswith(".KS")]
+    log.info("  Found %d KOSPI constituent RICs ending in .KS.", len(rics_ks))
 
-    if not rics:
+    if not rics_ks:
+        suffixes = sorted({str(r).rsplit(".", 1)[-1] for r in rics if "." in str(r)})
         log.error(
-            "get_index_constituents returned no .KS RICs for %s. "
-            "Ensure LSEG Workspace is open, logged in, and the chain RIC is correct.",
-            KOSPI_INDEX_RIC,
+            "get_index_constituents returned %d total RICs for %s but none end in .KS. "
+            "Suffixes present: %s. "
+            "Ensure LSEG Workspace is open and logged in.",
+            len(rics), KOSPI_INDEX_RIC, suffixes,
         )
         sys.exit(1)
+    rics = rics_ks
 
     log.info("Step 2: Pulling firm metadata for %d RICs ...", len(rics))
     raw = get_data(rics, METADATA_FIELDS)
