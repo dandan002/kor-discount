@@ -105,7 +105,7 @@ def build_universe():
     if not rics:
         log.error(
             "get_index_constituents returned no .KS RICs for %s. "
-            "Check REFINITIV_APP_KEY and index RIC.",
+            "Ensure LSEG Workspace is open, logged in, and the chain RIC is correct.",
             KOSPI_INDEX_RIC,
         )
         sys.exit(1)

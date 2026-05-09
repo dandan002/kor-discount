@@ -200,15 +200,18 @@ def get_index_constituents(index_ric):
         get_index_constituents(".KS11") -> ["005930.KS", "000660.KS", ...]
     """
     _init()
+    # Chain RIC format (0#.KS11) returns one row per constituent.
+    # TR.RIC is the correct field; TR.IndexConstituentRIC is not valid here.
+    chain_ric = index_ric if index_ric.startswith("0#") else f"0#{index_ric}"
     try:
-        df = ld.get_data(universe=index_ric, fields=["TR.IndexConstituentRIC"])
+        df = ld.get_data(universe=chain_ric, fields=["TR.RIC"])
     except Exception as exc:
         raise RuntimeError(
-            f"get_index_constituents failed for {index_ric}: {exc}"
+            f"get_index_constituents failed for {chain_ric}: {exc}"
         ) from exc
     if df is None or df.empty:
         return []
-    ric_col = "Constituent RIC" if "Constituent RIC" in df.columns else df.columns[-1]
+    ric_col = "RIC" if "RIC" in df.columns else df.columns[-1]
     return df[ric_col].dropna().tolist()
 
 
@@ -237,8 +240,12 @@ if __name__ == "__main__":
         try:
             _init()
             df = ld.get_data(universe="005930.KS", fields=["TR.CommonName"])
-            print(f"LSEG Workspace connection OK.")
+            print("LSEG Workspace connection OK.")
             print(f"  Samsung common name: {df.iloc[0, 1]!r}")
+            rics = get_index_constituents(".KS11")
+            print(f"  KOSPI constituents returned: {len(rics)} RICs")
+            if rics:
+                print(f"  First few: {rics[:5]}")
             close_session()
         except Exception as exc:
             print(f"Error: {exc}", file=sys.stderr)
